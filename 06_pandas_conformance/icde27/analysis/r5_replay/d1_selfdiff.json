@@ -1,0 +1,1714 @@
+{
+ "by_engine": {
+  "bodo": {
+   "cells": {
+    "different_failure_both": 1,
+    "frame_like": 4,
+    "same failure in both runs (not a difference)": 5
+   },
+   "outputs": {
+    "different_failure_both": 1,
+    "frame_like": 7,
+    "same_failure_both": 5
+   }
+  },
+  "dask": {
+   "cells": {
+    "frame_like": 8,
+    "printed_other": 4,
+    "same failure in both runs (not a difference)": 27,
+    "token-only printed difference": 28
+   },
+   "outputs": {
+    "frame_like": 9,
+    "printed_other": 4,
+    "same_failure_both": 30,
+    "token_only": 29
+   }
+  },
+  "fireducks": {
+   "cells": {
+    "frame_like": 39,
+    "mixed": 4,
+    "printed_other": 4,
+    "same failure in both runs (not a difference)": 56
+   },
+   "outputs": {
+    "frame_like": 61,
+    "printed_other": 8,
+    "same_failure_both": 64
+   }
+  },
+  "modin": {
+   "cells": {
+    "different_failure_both": 1,
+    "frame_like": 38,
+    "mixed": 1,
+    "no output detail": 1
+   },
+   "outputs": {
+    "different_failure_both": 2,
+    "frame_like": 57,
+    "printed_other": 1
+   }
+  },
+  "pyarrow_backend": {
+   "cells": {
+    "frame_like": 13
+   },
+   "outputs": {
+    "frame_like": 16
+   }
+  }
+ },
+ "cells": [
+  [
+   "bodo",
+   "balajivenkat96/solar-plants",
+   24,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "bodo",
+   "brianmendieta/data-cleaning-plus-eda",
+   27,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "bodo",
+   "deffro/eda-is-fun",
+   12,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "bodo",
+   "deffro/eda-is-fun",
+   16,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "bodo",
+   "deffro/eda-is-fun",
+   21,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "bodo",
+   "kenjee/titanic-project-example",
+   1,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "bodo",
+   "tunguz/fathers-day-specials-just-the-features",
+   5,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "bodo",
+   "wyl4417/machine-learning-and-how-it-affects-you",
+   5,
+   "UNCOMPARABLE",
+   "different_failure_both"
+  ],
+  [
+   "bodo",
+   "wyl4417/machine-learning-and-how-it-affects-you",
+   8,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "bodo",
+   "wyl4417/machine-learning-and-how-it-affects-you",
+   15,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   1,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   2,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   18,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "brianmendieta/data-cleaning-plus-eda",
+   6,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "brianmendieta/data-cleaning-plus-eda",
+   11,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "corazzon/how-to-use-pandas-filter-in-survey-eda",
+   2,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "deffro/eda-is-fun",
+   33,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "deffro/eda-is-fun",
+   34,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "deffro/eda-is-fun",
+   36,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "gmanish/help-ngo-country-clustering",
+   7,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "gmanish/help-ngo-country-clustering",
+   18,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "gsilves/quiz-4-question-1",
+   1,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "gsilves/quiz-4-question-1",
+   3,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "gsilves/quiz-4-question-1",
+   9,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "gsilves/quiz-4-question-1",
+   10,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "jackwatson99/pima-indians-diabetes-rf-81",
+   6,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   2,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   4,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   5,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   6,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   11,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   15,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   18,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   24,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   26,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   32,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   34,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   35,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   37,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   38,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   39,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   44,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   45,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   46,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   48,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   50,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   53,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   54,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   55,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   58,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   59,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   63,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "jyotsananegi/melbourne-housing-snapshot-eda",
+   2,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "luckygemini/notebook5d5fc80c9f",
+   4,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "madseth/customer-shopping-trends-dataset-eda",
+   3,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "mathewvondersaar/analysis-of-student-performance",
+   2,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "nihhaar/etltransform",
+   2,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "roopahegde/cryptocurrency-price-correlation",
+   5,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "roopahegde/cryptocurrency-price-correlation",
+   7,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "salmaneunus/student-s-performance-quantitative-visual-eda",
+   15,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "salmaneunus/student-s-performance-quantitative-visual-eda",
+   16,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "stefanjov/my-first-normalize-on-big-dataset",
+   4,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   16,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "dask",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   21,
+   "E2",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   22,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "dask",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   27,
+   "E2",
+   "frame_like"
+  ],
+  [
+   "dask",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   29,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "dask",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   36,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "dask",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   38,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "dask",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   43,
+   "DIFF",
+   "printed_other"
+  ],
+  [
+   "dask",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   45,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "dask",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   46,
+   "DIFF",
+   "printed_other"
+  ],
+  [
+   "dask",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   49,
+   "DIFF",
+   "printed_other"
+  ],
+  [
+   "dask",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   50,
+   "UNCOMPARABLE",
+   "frame_like"
+  ],
+  [
+   "dask",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   51,
+   "DIFF",
+   "printed_other"
+  ],
+  [
+   "dask",
+   "yonelanuba/elo-merchant-by-yonela",
+   66,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "dask",
+   "yonelanuba/elo-merchant-by-yonela",
+   149,
+   "DIFF",
+   "token-only printed difference"
+  ],
+  [
+   "fireducks",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   7,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   13,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   14,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   15,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   16,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   19,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   20,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   21,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   22,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   23,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+   15,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+   20,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+   23,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+   29,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+   30,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+   31,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+   33,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "guyalmog/hr-analytics-predicting-employees-attrition",
+   74,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "guyalmog/hr-analytics-predicting-employees-attrition",
+   76,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "guyalmog/hr-analytics-predicting-employees-attrition",
+   77,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "guyalmog/hr-analytics-predicting-employees-attrition",
+   79,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "kenjee/titanic-project-example",
+   16,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "kenjee/titanic-project-example",
+   17,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "kenjee/titanic-project-example",
+   18,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "kenjee/titanic-project-example",
+   22,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "kmader/analyzing-matches",
+   7,
+   "E2",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "kmader/analyzing-matches",
+   12,
+   "E2",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "loveall/favorita-analytics",
+   4,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "loveall/favorita-analytics",
+   5,
+   "E2",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "loveall/favorita-analytics",
+   7,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "loveall/favorita-analytics",
+   8,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "loveall/favorita-analytics",
+   12,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "loveall/favorita-analytics",
+   13,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "nandhuelan/ott-platforms",
+   6,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "nandhuelan/ott-platforms",
+   18,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "nihhaar/etltransform",
+   6,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "nihhaar/etltransform",
+   7,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   16,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   17,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "sal001/beginner-s-note-top-12-by-single-linear-model",
+   10,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   16,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   23,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   25,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   36,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   38,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   39,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   41,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   43,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   45,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   47,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   49,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   51,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   53,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   55,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   57,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   59,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   61,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   63,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   65,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   67,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   78,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   85,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   87,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   90,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   100,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "sudheer259/house-price-prediction",
+   142,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   15,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   16,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   17,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   18,
+   "DIFF",
+   "printed_other"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   19,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   20,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   21,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   22,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   23,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   24,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   26,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   28,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   29,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   30,
+   "E4",
+   "mixed"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   32,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   33,
+   "DIFF",
+   "mixed"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   35,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   36,
+   "E4",
+   "mixed"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   38,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   39,
+   "E1",
+   "printed_other"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   41,
+   "E1",
+   "printed_other"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   43,
+   "E4",
+   "mixed"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   46,
+   "E1",
+   "printed_other"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   48,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   51,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   53,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   56,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   57,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   58,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   24,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   25,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   35,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "fireducks",
+   "yonelanuba/elo-merchant-by-yonela",
+   113,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "yonelanuba/elo-merchant-by-yonela",
+   115,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "yonelanuba/elo-merchant-by-yonela",
+   117,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "yonelanuba/elo-merchant-by-yonela",
+   118,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "fireducks",
+   "yonelanuba/elo-merchant-by-yonela",
+   139,
+   "UNCOMPARABLE",
+   "same failure in both runs (not a difference)"
+  ],
+  [
+   "modin",
+   "artgor/eda-and-models",
+   17,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "artgor/eda-and-models",
+   20,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "artgor/eda-and-models",
+   28,
+   "UNCOMPARABLE",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "brianmendieta/data-cleaning-plus-eda",
+   38,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "brianmendieta/data-cleaning-plus-eda",
+   39,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "brianmendieta/data-cleaning-plus-eda",
+   57,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+   31,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+   32,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "deffro/eda-is-fun",
+   6,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "deffro/eda-is-fun",
+   38,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "grudd0/mass-shooting-analysis",
+   21,
+   "UNCOMPARABLE",
+   "different_failure_both"
+  ],
+  [
+   "modin",
+   "j0thu777/onlineretailanalysis",
+   27,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "kmader/analyzing-matches",
+   9,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "kmader/analyzing-matches",
+   11,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "kmader/analyzing-matches",
+   12,
+   "DIFF",
+   "mixed"
+  ],
+  [
+   "modin",
+   "santhoshrao1995/assi01-santhosh-19101036",
+   3,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "santhoshrao1995/assi01-santhosh-19101036",
+   15,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "santhoshrao1995/assi01-santhosh-19101036",
+   17,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "santhoshrao1995/assi01-santhosh-19101036",
+   18,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "santhoshrao1995/assi01-santhosh-19101036",
+   19,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "santhoshrao1995/assi01-santhosh-19101036",
+   20,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "santhoshrao1995/assi01-santhosh-19101036",
+   21,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "santhoshrao1995/assi01-santhosh-19101036",
+   22,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "santhoshrao1995/assi01-santhosh-19101036",
+   23,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "santhoshrao1995/assi01-santhosh-19101036",
+   24,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "santhoshrao1995/assi01-santhosh-19101036",
+   25,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "santhoshrao1995/assi01-santhosh-19101036",
+   27,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "santhoshrao1995/assi01-santhosh-19101036",
+   31,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "santhoshrao1995/assi01-santhosh-19101036",
+   32,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "santhoshrao1995/assi01-santhosh-19101036",
+   34,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "shivavashishtha/zomato-eda-tutorial",
+   44,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "shivavashishtha/zomato-eda-tutorial",
+   45,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "shivavashishtha/zomato-eda-tutorial",
+   46,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "shivavashishtha/zomato-eda-tutorial",
+   48,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "shivavashishtha/zomato-eda-tutorial",
+   55,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "shivavashishtha/zomato-eda-tutorial",
+   56,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "sunnybiswas/eda-on-airline-dataset",
+   11,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "sunnybiswas/eda-on-airline-dataset",
+   17,
+   "E4",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "sunnybiswas/eda-on-airline-dataset",
+   23,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets",
+   9,
+   "E1",
+   "frame_like"
+  ],
+  [
+   "modin",
+   "wyl4417/machine-learning-and-how-it-affects-you",
+   8,
+   "ERR",
+   "no output detail"
+  ],
+  [
+   "pyarrow_backend",
+   "tunguz/fathers-day-specials-just-the-features",
+   11,
+   "UNCOMPARABLE",
+   "frame_like"
+  ],
+  [
+   "pyarrow_backend",
+   "tunguz/fathers-day-specials-just-the-features",
+   12,
+   "UNCOMPARABLE",
+   "frame_like"
+  ],
+  [
+   "pyarrow_backend",
+   "tunguz/fathers-day-specials-just-the-features",
+   13,
+   "UNCOMPARABLE",
+   "frame_like"
+  ],
+  [
+   "pyarrow_backend",
+   "tunguz/fathers-day-specials-just-the-features",
+   14,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "pyarrow_backend",
+   "tunguz/fathers-day-specials-just-the-features",
+   15,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "pyarrow_backend",
+   "tunguz/fathers-day-specials-just-the-features",
+   16,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "pyarrow_backend",
+   "tunguz/fathers-day-specials-just-the-features",
+   20,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "pyarrow_backend",
+   "tunguz/fathers-day-specials-just-the-features",
+   21,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "pyarrow_backend",
+   "tunguz/fathers-day-specials-just-the-features",
+   25,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "pyarrow_backend",
+   "tunguz/fathers-day-specials-just-the-features",
+   30,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "pyarrow_backend",
+   "tunguz/fathers-day-specials-just-the-features",
+   31,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "pyarrow_backend",
+   "tunguz/fathers-day-specials-just-the-features",
+   33,
+   "DIFF",
+   "frame_like"
+  ],
+  [
+   "pyarrow_backend",
+   "tunguz/fathers-day-specials-just-the-features",
+   35,
+   "DIFF",
+   "frame_like"
+  ]
+ ],
+ "examples": {
+  "dask": [
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   1,
+   "data",
+   "{'gt_visits': 'Dask DataFrame Structure:\\n              air_store_id visit_date visitors\\nnpartitions=1                                 \\n                    st",
+   "{'gt_visits': 'Dask DataFrame Structure:\\n              air_store_id visit_date visitors\\nnpartitions=1                                 \\n                    st"
+  ]
+ },
+ "item": "D1"
+}

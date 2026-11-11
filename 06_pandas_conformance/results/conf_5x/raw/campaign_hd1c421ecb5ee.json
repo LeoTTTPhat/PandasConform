@@ -1,0 +1,586 @@
+{
+ "harness_sha": "d1c421ecb5eec2bda275e05aebacd0f0a8766869334d36f786f3f66a3a86a380",
+ "runs": {
+  "capture|bodo|akgauravin/gun-violence-data-exploration-and-plotting|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/akgauravin__gun-violence-data-exploration-and-plotting__658c0ce27af3.json",
+   "status": "completed"
+  },
+  "capture|bodo|akshaypetkar/supermarket-sales-analysis|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/akshaypetkar__supermarket-sales-analysis__c3a2bed8ecc5.json",
+   "status": "completed"
+  },
+  "capture|bodo|bcannon/indexing-selecting-assigning|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/bcannon__indexing-selecting-assigning__2aca85e79481.json",
+   "status": "completed"
+  },
+  "capture|bodo|blaskowitz100/feature-engineering-based-on-the-suprise-me|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/blaskowitz100__feature-engineering-based-on-the-suprise-me__7eda6f7c2006.json",
+   "status": "completed"
+  },
+  "capture|bodo|chinstan/notebook249b4f3f5b|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/chinstan__notebook249b4f3f5b__5370ae4c47a8.json",
+   "status": "skipped"
+  },
+  "capture|bodo|corazzon/how-to-use-pandas-filter-in-survey-eda|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/corazzon__how-to-use-pandas-filter-in-survey-eda__d31632b9fe6d.json",
+   "status": "completed"
+  },
+  "capture|bodo|gravix/gradient-in-a-box|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/gravix__gradient-in-a-box__f3dd8c91fd0a.json",
+   "status": "nb_crash"
+  },
+  "capture|bodo|guyalmog/hr-analytics-predicting-employees-attrition|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/guyalmog__hr-analytics-predicting-employees-attrition__630cba2701f0.json",
+   "status": "completed"
+  },
+  "capture|bodo|j0thu777/onlineretailanalysis|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/j0thu777__onlineretailanalysis__28abf3a9b4f0.json",
+   "status": "nb_crash"
+  },
+  "capture|bodo|jagangupta/stop-the-s-toxic-comments-eda|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/jagangupta__stop-the-s-toxic-comments-eda__908991178e10.json",
+   "status": "completed"
+  },
+  "capture|bodo|jaideepvalani/useful-eda-for-beginners-rsna-embolism|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/jaideepvalani__useful-eda-for-beginners-rsna-embolism__74e7748e677c.json",
+   "status": "completed"
+  },
+  "capture|bodo|julieberteaux/workshop-2|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/julieberteaux__workshop-2__fb87c99938c5.json",
+   "status": "completed"
+  },
+  "capture|bodo|kimtaehun/simple-preprocessing-for-time-series-prediction|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/kimtaehun__simple-preprocessing-for-time-series-prediction__0c25871e0c95.json",
+   "status": "completed"
+  },
+  "capture|bodo|maxiaoyue/data-cleaning-challenge-handling-missing-values|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/maxiaoyue__data-cleaning-challenge-handling-missing-values__3f2a92b37eea.json",
+   "status": "skipped"
+  },
+  "capture|bodo|mikedelong/python-eda-with-kdes|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/mikedelong__python-eda-with-kdes__3bb7816c9cce.json",
+   "status": "completed"
+  },
+  "capture|bodo|nadare/feature-engenieering-with-pivot-table|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/nadare__feature-engenieering-with-pivot-table__042a966606ff.json",
+   "status": "skipped"
+  },
+  "capture|bodo|penny8/my-sub1|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/penny8__my-sub1__ff35b89eba30.json",
+   "status": "nb_crash"
+  },
+  "capture|bodo|pradeepjeya/allstate-encoding-high-cardinality-features|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/pradeepjeya__allstate-encoding-high-cardinality-features__515362d34226.json",
+   "status": "completed"
+  },
+  "capture|bodo|qnqfbqfqo/electric-vehicle-landscape-in-washington-state|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/qnqfbqfqo__electric-vehicle-landscape-in-washington-state__d6ad127ca095.json",
+   "status": "completed"
+  },
+  "capture|bodo|robikscube/big-data-bowl-comprehensive-eda-with-pandas|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/robikscube__big-data-bowl-comprehensive-eda-with-pandas__5dc429d0d457.json",
+   "status": "completed"
+  },
+  "capture|bodo|roopahegde/cryptocurrency-price-correlation|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/roopahegde__cryptocurrency-price-correlation__b22e5a301de9.json",
+   "status": "completed"
+  },
+  "capture|bodo|sanket30/eda-of-application-train-home-credit-default|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/sanket30__eda-of-application-train-home-credit-default__1b887e82e3ca.json",
+   "status": "completed"
+  },
+  "capture|bodo|seriousran/eda-ing|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/seriousran__eda-ing__f9587e997023.json",
+   "status": "completed"
+  },
+  "capture|bodo|shivavashishtha/zomato-eda-tutorial|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/shivavashishtha__zomato-eda-tutorial__2bf0ea91120d.json",
+   "status": "completed"
+  },
+  "capture|bodo|stefanjov/my-first-normalize-on-big-dataset|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/stefanjov__my-first-normalize-on-big-dataset__3f03021444a3.json",
+   "status": "completed"
+  },
+  "capture|bodo|sunnybiswas/eda-on-airline-dataset|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/sunnybiswas__eda-on-airline-dataset__2b256eace464.json",
+   "status": "completed"
+  },
+  "capture|bodo|vatsalmavani/music-recommendation-system-using-spotify-dataset|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/vatsalmavani__music-recommendation-system-using-spotify-dataset__bd81b731f7fd.json",
+   "status": "completed"
+  },
+  "capture|bodo|willkoehrsen/start-here-a-gentle-introduction|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/willkoehrsen__start-here-a-gentle-introduction__6fd31ca5d146.json",
+   "status": "completed"
+  },
+  "capture|bodo|yashjaiswal1097/911-emergency-calls-kernel|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/yashjaiswal1097__911-emergency-calls-kernel__aab6d1e602d1.json",
+   "status": "completed"
+  },
+  "capture|fireducks|akgauravin/gun-violence-data-exploration-and-plotting|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/akgauravin__gun-violence-data-exploration-and-plotting__3da76c94d75c.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|akshaypetkar/supermarket-sales-analysis|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/akshaypetkar__supermarket-sales-analysis__9d45f45d9f34.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|bcannon/indexing-selecting-assigning|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/bcannon__indexing-selecting-assigning__e20aee8abc4f.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|blaskowitz100/feature-engineering-based-on-the-suprise-me|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/blaskowitz100__feature-engineering-based-on-the-suprise-me__24b36e0d20a1.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|chinstan/notebook249b4f3f5b|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/chinstan__notebook249b4f3f5b__d51cd82f27c2.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|corazzon/how-to-use-pandas-filter-in-survey-eda|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/corazzon__how-to-use-pandas-filter-in-survey-eda__949dd73af9f1.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|gravix/gradient-in-a-box|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/gravix__gradient-in-a-box__9f147faa9c92.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|guyalmog/hr-analytics-predicting-employees-attrition|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/guyalmog__hr-analytics-predicting-employees-attrition__58ab4a087bc0.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|j0thu777/onlineretailanalysis|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/j0thu777__onlineretailanalysis__0f9be79d8b87.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|jagangupta/stop-the-s-toxic-comments-eda|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/jagangupta__stop-the-s-toxic-comments-eda__16c4bde34ebb.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|jaideepvalani/useful-eda-for-beginners-rsna-embolism|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/jaideepvalani__useful-eda-for-beginners-rsna-embolism__060dbda40f03.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|julieberteaux/workshop-2|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/julieberteaux__workshop-2__d1015e5bd714.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|kimtaehun/simple-preprocessing-for-time-series-prediction|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/kimtaehun__simple-preprocessing-for-time-series-prediction__5b0064d7cbed.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|maxiaoyue/data-cleaning-challenge-handling-missing-values|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/maxiaoyue__data-cleaning-challenge-handling-missing-values__64aaef708ae9.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|mikedelong/python-eda-with-kdes|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/mikedelong__python-eda-with-kdes__646e5978470c.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|nadare/feature-engenieering-with-pivot-table|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/nadare__feature-engenieering-with-pivot-table__9d83a24cfc35.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|penny8/my-sub1|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/penny8__my-sub1__1048e27b53ae.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|pradeepjeya/allstate-encoding-high-cardinality-features|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/pradeepjeya__allstate-encoding-high-cardinality-features__a017e571564f.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|qnqfbqfqo/electric-vehicle-landscape-in-washington-state|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/qnqfbqfqo__electric-vehicle-landscape-in-washington-state__de10d3280d70.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|robikscube/big-data-bowl-comprehensive-eda-with-pandas|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/robikscube__big-data-bowl-comprehensive-eda-with-pandas__3d15441e97c5.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|roopahegde/cryptocurrency-price-correlation|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/roopahegde__cryptocurrency-price-correlation__e6bb9026319d.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|sanket30/eda-of-application-train-home-credit-default|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/sanket30__eda-of-application-train-home-credit-default__999e7d8439cc.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|seriousran/eda-ing|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/seriousran__eda-ing__d226e774ad8b.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|shivavashishtha/zomato-eda-tutorial|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/shivavashishtha__zomato-eda-tutorial__3ba44bfc50d6.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|stefanjov/my-first-normalize-on-big-dataset|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/stefanjov__my-first-normalize-on-big-dataset__a65a332e86b1.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|sunnybiswas/eda-on-airline-dataset|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/sunnybiswas__eda-on-airline-dataset__f872bd6ca31a.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|vatsalmavani/music-recommendation-system-using-spotify-dataset|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/vatsalmavani__music-recommendation-system-using-spotify-dataset__43049dcd2579.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|willkoehrsen/start-here-a-gentle-introduction|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/willkoehrsen__start-here-a-gentle-introduction__3477d89f0cf0.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|yashjaiswal1097/911-emergency-calls-kernel|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/yashjaiswal1097__911-emergency-calls-kernel__acedc6c6076c.json",
+   "status": "skipped"
+  },
+  "capture|modin|akgauravin/gun-violence-data-exploration-and-plotting|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/akgauravin__gun-violence-data-exploration-and-plotting__1ed319b090b0.json",
+   "status": "skipped"
+  },
+  "capture|modin|akshaypetkar/supermarket-sales-analysis|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/akshaypetkar__supermarket-sales-analysis__755a94a5f582.json",
+   "status": "skipped"
+  },
+  "capture|modin|bcannon/indexing-selecting-assigning|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/bcannon__indexing-selecting-assigning__55c9ddfb8ea9.json",
+   "status": "skipped"
+  },
+  "capture|modin|blaskowitz100/feature-engineering-based-on-the-suprise-me|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/blaskowitz100__feature-engineering-based-on-the-suprise-me__92437aa12611.json",
+   "status": "skipped"
+  },
+  "capture|modin|chinstan/notebook249b4f3f5b|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/chinstan__notebook249b4f3f5b__72517a2d8c2b.json",
+   "status": "skipped"
+  },
+  "capture|modin|corazzon/how-to-use-pandas-filter-in-survey-eda|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/corazzon__how-to-use-pandas-filter-in-survey-eda__6217bf34144b.json",
+   "status": "skipped"
+  },
+  "capture|modin|gravix/gradient-in-a-box|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/gravix__gradient-in-a-box__bf1ddbd30cfa.json",
+   "status": "skipped"
+  },
+  "capture|modin|guyalmog/hr-analytics-predicting-employees-attrition|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/guyalmog__hr-analytics-predicting-employees-attrition__004f9cb0b8df.json",
+   "status": "skipped"
+  },
+  "capture|modin|j0thu777/onlineretailanalysis|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/j0thu777__onlineretailanalysis__a8818be0421c.json",
+   "status": "skipped"
+  },
+  "capture|modin|jagangupta/stop-the-s-toxic-comments-eda|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/jagangupta__stop-the-s-toxic-comments-eda__8fe00f3e8538.json",
+   "status": "skipped"
+  },
+  "capture|modin|jaideepvalani/useful-eda-for-beginners-rsna-embolism|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/jaideepvalani__useful-eda-for-beginners-rsna-embolism__47b4a467b211.json",
+   "status": "skipped"
+  },
+  "capture|modin|julieberteaux/workshop-2|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/julieberteaux__workshop-2__cf70c3990813.json",
+   "status": "skipped"
+  },
+  "capture|modin|kimtaehun/simple-preprocessing-for-time-series-prediction|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/kimtaehun__simple-preprocessing-for-time-series-prediction__16d48535211e.json",
+   "status": "skipped"
+  },
+  "capture|modin|maxiaoyue/data-cleaning-challenge-handling-missing-values|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/maxiaoyue__data-cleaning-challenge-handling-missing-values__a60597832028.json",
+   "status": "skipped"
+  },
+  "capture|modin|mikedelong/python-eda-with-kdes|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/mikedelong__python-eda-with-kdes__3cf19045dd50.json",
+   "status": "skipped"
+  },
+  "capture|modin|nadare/feature-engenieering-with-pivot-table|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/nadare__feature-engenieering-with-pivot-table__f68b40204db4.json",
+   "status": "skipped"
+  },
+  "capture|modin|penny8/my-sub1|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/penny8__my-sub1__9303c4d71321.json",
+   "status": "skipped"
+  },
+  "capture|modin|pradeepjeya/allstate-encoding-high-cardinality-features|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/pradeepjeya__allstate-encoding-high-cardinality-features__c1fbc8d3ce3e.json",
+   "status": "skipped"
+  },
+  "capture|modin|qnqfbqfqo/electric-vehicle-landscape-in-washington-state|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/qnqfbqfqo__electric-vehicle-landscape-in-washington-state__2d55be852c3c.json",
+   "status": "skipped"
+  },
+  "capture|modin|robikscube/big-data-bowl-comprehensive-eda-with-pandas|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/robikscube__big-data-bowl-comprehensive-eda-with-pandas__d57209cb03dc.json",
+   "status": "skipped"
+  },
+  "capture|modin|roopahegde/cryptocurrency-price-correlation|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/roopahegde__cryptocurrency-price-correlation__75064e09eb2c.json",
+   "status": "skipped"
+  },
+  "capture|modin|sanket30/eda-of-application-train-home-credit-default|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/sanket30__eda-of-application-train-home-credit-default__5d5641a768db.json",
+   "status": "skipped"
+  },
+  "capture|modin|seriousran/eda-ing|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/seriousran__eda-ing__a0054ac143cb.json",
+   "status": "skipped"
+  },
+  "capture|modin|shivavashishtha/zomato-eda-tutorial|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/shivavashishtha__zomato-eda-tutorial__0a3ade4ef3de.json",
+   "status": "skipped"
+  },
+  "capture|modin|stefanjov/my-first-normalize-on-big-dataset|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/stefanjov__my-first-normalize-on-big-dataset__98fe55b48470.json",
+   "status": "skipped"
+  },
+  "capture|modin|sunnybiswas/eda-on-airline-dataset|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/sunnybiswas__eda-on-airline-dataset__a123d3574e19.json",
+   "status": "skipped"
+  },
+  "capture|modin|vatsalmavani/music-recommendation-system-using-spotify-dataset|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/vatsalmavani__music-recommendation-system-using-spotify-dataset__646dec53abec.json",
+   "status": "skipped"
+  },
+  "capture|modin|willkoehrsen/start-here-a-gentle-introduction|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/willkoehrsen__start-here-a-gentle-introduction__3ef611d118d3.json",
+   "status": "skipped"
+  },
+  "capture|modin|yashjaiswal1097/911-emergency-calls-kernel|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/yashjaiswal1097__911-emergency-calls-kernel__236a602cb69b.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|akgauravin/gun-violence-data-exploration-and-plotting|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/akgauravin__gun-violence-data-exploration-and-plotting__3e284cf9cf24.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|akshaypetkar/supermarket-sales-analysis|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/akshaypetkar__supermarket-sales-analysis__b284a8cb00dc.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|bcannon/indexing-selecting-assigning|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/bcannon__indexing-selecting-assigning__63c771aef807.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|blaskowitz100/feature-engineering-based-on-the-suprise-me|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/blaskowitz100__feature-engineering-based-on-the-suprise-me__5c49c9b60349.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|chinstan/notebook249b4f3f5b|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/chinstan__notebook249b4f3f5b__6e9aaea6501c.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|corazzon/how-to-use-pandas-filter-in-survey-eda|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/corazzon__how-to-use-pandas-filter-in-survey-eda__81961ff93d5e.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|gravix/gradient-in-a-box|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/gravix__gradient-in-a-box__0f592a8156cd.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|guyalmog/hr-analytics-predicting-employees-attrition|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/guyalmog__hr-analytics-predicting-employees-attrition__927cbe275159.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|j0thu777/onlineretailanalysis|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/j0thu777__onlineretailanalysis__44e8040d6fc7.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|jagangupta/stop-the-s-toxic-comments-eda|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/jagangupta__stop-the-s-toxic-comments-eda__c4b13337a455.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|jaideepvalani/useful-eda-for-beginners-rsna-embolism|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/jaideepvalani__useful-eda-for-beginners-rsna-embolism__274fb3819172.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|julieberteaux/workshop-2|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/julieberteaux__workshop-2__203b7dd73d01.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|kimtaehun/simple-preprocessing-for-time-series-prediction|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/kimtaehun__simple-preprocessing-for-time-series-prediction__1d7c4a36577a.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|maxiaoyue/data-cleaning-challenge-handling-missing-values|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/maxiaoyue__data-cleaning-challenge-handling-missing-values__e2b424b98f07.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|mikedelong/python-eda-with-kdes|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/mikedelong__python-eda-with-kdes__4bd279c07c3b.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|nadare/feature-engenieering-with-pivot-table|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/nadare__feature-engenieering-with-pivot-table__f4501b0f471f.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|penny8/my-sub1|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/penny8__my-sub1__839927ca7d7b.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|pradeepjeya/allstate-encoding-high-cardinality-features|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/pradeepjeya__allstate-encoding-high-cardinality-features__d974ea528eb2.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|qnqfbqfqo/electric-vehicle-landscape-in-washington-state|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/qnqfbqfqo__electric-vehicle-landscape-in-washington-state__2577e1e41155.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|robikscube/big-data-bowl-comprehensive-eda-with-pandas|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/robikscube__big-data-bowl-comprehensive-eda-with-pandas__e9c6b0bd2603.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|roopahegde/cryptocurrency-price-correlation|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/roopahegde__cryptocurrency-price-correlation__fcbcdc2df105.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|sanket30/eda-of-application-train-home-credit-default|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/sanket30__eda-of-application-train-home-credit-default__c3af27482a90.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|seriousran/eda-ing|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/seriousran__eda-ing__7d4da42347c6.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|shivavashishtha/zomato-eda-tutorial|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/shivavashishtha__zomato-eda-tutorial__78f2c6b085de.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|stefanjov/my-first-normalize-on-big-dataset|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/stefanjov__my-first-normalize-on-big-dataset__fd5c2d717fff.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|sunnybiswas/eda-on-airline-dataset|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/sunnybiswas__eda-on-airline-dataset__fa101ed4598c.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|vatsalmavani/music-recommendation-system-using-spotify-dataset|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/vatsalmavani__music-recommendation-system-using-spotify-dataset__008eb988b07a.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|willkoehrsen/start-here-a-gentle-introduction|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/willkoehrsen__start-here-a-gentle-introduction__0dd9a3dad397.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|yashjaiswal1097/911-emergency-calls-kernel|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/yashjaiswal1097__911-emergency-calls-kernel__da94f6cbb47d.json",
+   "status": "skipped"
+  },
+  "capture|ref|akgauravin/gun-violence-data-exploration-and-plotting|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/akgauravin__gun-violence-data-exploration-and-plotting__2467cc74a816.json",
+   "status": "skipped"
+  },
+  "capture|ref|akshaypetkar/supermarket-sales-analysis|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/akshaypetkar__supermarket-sales-analysis__aec728ae30c1.json",
+   "status": "skipped"
+  },
+  "capture|ref|bcannon/indexing-selecting-assigning|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/bcannon__indexing-selecting-assigning__4d6f320ccceb.json",
+   "status": "skipped"
+  },
+  "capture|ref|blaskowitz100/feature-engineering-based-on-the-suprise-me|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/blaskowitz100__feature-engineering-based-on-the-suprise-me__ee4ffb3acf38.json",
+   "status": "skipped"
+  },
+  "capture|ref|chinstan/notebook249b4f3f5b|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/chinstan__notebook249b4f3f5b__278143b7d5e5.json",
+   "status": "skipped"
+  },
+  "capture|ref|corazzon/how-to-use-pandas-filter-in-survey-eda|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/corazzon__how-to-use-pandas-filter-in-survey-eda__356160cfb2a8.json",
+   "status": "skipped"
+  },
+  "capture|ref|gravix/gradient-in-a-box|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/gravix__gradient-in-a-box__314efc66c6a0.json",
+   "status": "skipped"
+  },
+  "capture|ref|guyalmog/hr-analytics-predicting-employees-attrition|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/guyalmog__hr-analytics-predicting-employees-attrition__72a8b3beb01a.json",
+   "status": "skipped"
+  },
+  "capture|ref|j0thu777/onlineretailanalysis|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/j0thu777__onlineretailanalysis__a3fe4469a764.json",
+   "status": "skipped"
+  },
+  "capture|ref|jagangupta/stop-the-s-toxic-comments-eda|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/jagangupta__stop-the-s-toxic-comments-eda__da14d9132693.json",
+   "status": "skipped"
+  },
+  "capture|ref|jaideepvalani/useful-eda-for-beginners-rsna-embolism|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/jaideepvalani__useful-eda-for-beginners-rsna-embolism__8fab1bd5ecd7.json",
+   "status": "skipped"
+  },
+  "capture|ref|julieberteaux/workshop-2|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/julieberteaux__workshop-2__8ddf3e227356.json",
+   "status": "skipped"
+  },
+  "capture|ref|kimtaehun/simple-preprocessing-for-time-series-prediction|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/kimtaehun__simple-preprocessing-for-time-series-prediction__556007e401b3.json",
+   "status": "skipped"
+  },
+  "capture|ref|maxiaoyue/data-cleaning-challenge-handling-missing-values|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/maxiaoyue__data-cleaning-challenge-handling-missing-values__c0e68dfcd9ae.json",
+   "status": "skipped"
+  },
+  "capture|ref|mikedelong/python-eda-with-kdes|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/mikedelong__python-eda-with-kdes__09a0ebc9d2f6.json",
+   "status": "skipped"
+  },
+  "capture|ref|nadare/feature-engenieering-with-pivot-table|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/nadare__feature-engenieering-with-pivot-table__9e90829ca5db.json",
+   "status": "skipped"
+  },
+  "capture|ref|penny8/my-sub1|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/penny8__my-sub1__b44884de0bd2.json",
+   "status": "skipped"
+  },
+  "capture|ref|pradeepjeya/allstate-encoding-high-cardinality-features|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/pradeepjeya__allstate-encoding-high-cardinality-features__49b255bfbfc4.json",
+   "status": "skipped"
+  },
+  "capture|ref|qnqfbqfqo/electric-vehicle-landscape-in-washington-state|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/qnqfbqfqo__electric-vehicle-landscape-in-washington-state__d4ada94a0c2c.json",
+   "status": "skipped"
+  },
+  "capture|ref|robikscube/big-data-bowl-comprehensive-eda-with-pandas|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/robikscube__big-data-bowl-comprehensive-eda-with-pandas__a4941468f2ed.json",
+   "status": "skipped"
+  },
+  "capture|ref|roopahegde/cryptocurrency-price-correlation|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/roopahegde__cryptocurrency-price-correlation__2dfbdf889c53.json",
+   "status": "skipped"
+  },
+  "capture|ref|sanket30/eda-of-application-train-home-credit-default|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/sanket30__eda-of-application-train-home-credit-default__28339689d632.json",
+   "status": "skipped"
+  },
+  "capture|ref|seriousran/eda-ing|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/seriousran__eda-ing__547495e6e161.json",
+   "status": "skipped"
+  },
+  "capture|ref|shivavashishtha/zomato-eda-tutorial|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/shivavashishtha__zomato-eda-tutorial__6fd1db73d588.json",
+   "status": "skipped"
+  },
+  "capture|ref|stefanjov/my-first-normalize-on-big-dataset|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/stefanjov__my-first-normalize-on-big-dataset__c6764a77d5a2.json",
+   "status": "skipped"
+  },
+  "capture|ref|sunnybiswas/eda-on-airline-dataset|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/sunnybiswas__eda-on-airline-dataset__abb22f540cf4.json",
+   "status": "skipped"
+  },
+  "capture|ref|vatsalmavani/music-recommendation-system-using-spotify-dataset|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/vatsalmavani__music-recommendation-system-using-spotify-dataset__ee40f9d10a4a.json",
+   "status": "skipped"
+  },
+  "capture|ref|willkoehrsen/start-here-a-gentle-introduction|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/willkoehrsen__start-here-a-gentle-introduction__3d32d3273d85.json",
+   "status": "skipped"
+  },
+  "capture|ref|yashjaiswal1097/911-emergency-calls-kernel|5.0|1": {
+   "record": "results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/yashjaiswal1097__911-emergency-calls-kernel__751f604e116f.json",
+   "status": "skipped"
+  }
+ },
+ "updated": "2026-10-28T07:51:18"
+}

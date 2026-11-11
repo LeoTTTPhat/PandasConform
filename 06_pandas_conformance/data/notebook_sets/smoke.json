@@ -1,0 +1,2 @@
+{"notebooks": ["danielresende/game-of-thrones-battles", "arimishabirin/globalsalary-simple-eda", "galiph/titanic-explorary-data-analysis"],
+ "rule": "3 notebooks with inputs under 100 KB that use groupby/merge/pivot (chosen 2026-10-02 for the smoke campaign)"}

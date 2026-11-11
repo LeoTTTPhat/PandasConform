@@ -1,0 +1,311 @@
+{
+ "bodo": {
+  "by_class": {
+   "E0": 2,
+   "E2": 9,
+   "E3": 7,
+   "E4": 2,
+   "ERR": 14,
+   "NOOUT": 8
+  },
+  "clean_by_class": {
+   "E0": 2,
+   "E2": 1,
+   "E3": 1,
+   "ERR": 2,
+   "NOOUT": 8
+  },
+  "clean_cells": 14,
+  "eng_status": {
+   "completed": 3
+  },
+  "fallback_cells": 16,
+  "first_divergent": {
+   "arimishabirin/globalsalary-simple-eda": {
+    "E0": 3,
+    "E1": 3,
+    "E2": 6,
+    "E3": 8,
+    "E4": 9
+   },
+   "danielresende/game-of-thrones-battles": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "galiph/titanic-explorary-data-analysis": {
+    "E0": 3,
+    "E1": 3,
+    "E2": 3,
+    "E3": 10,
+    "E4": 20
+   }
+  },
+  "notebooks": 3
+ },
+ "dask": {
+  "by_class": {
+   "E0": 8,
+   "E2": 4,
+   "E3": 5,
+   "ERR": 17,
+   "NOOUT": 8
+  },
+  "clean_by_class": {
+   "E0": 3,
+   "E2": 1,
+   "E3": 1,
+   "ERR": 2,
+   "NOOUT": 8
+  },
+  "clean_cells": 15,
+  "eng_status": {
+   "completed": 3
+  },
+  "fallback_cells": 0,
+  "first_divergent": {
+   "arimishabirin/globalsalary-simple-eda": {
+    "E0": 3,
+    "E1": 3,
+    "E2": 4,
+    "E3": 4,
+    "E4": 4
+   },
+   "danielresende/game-of-thrones-battles": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "galiph/titanic-explorary-data-analysis": {
+    "E0": 3,
+    "E1": 3,
+    "E2": 3,
+    "E3": 18,
+    "E4": 18
+   }
+  },
+  "notebooks": 3
+ },
+ "fireducks": {
+  "by_class": {
+   "DIFF": 3,
+   "E0": 15,
+   "E1": 1,
+   "E2": 1,
+   "E3": 12,
+   "E4": 2,
+   "NOOUT": 8
+  },
+  "clean_by_class": {
+   "E0": 11,
+   "E1": 1,
+   "E3": 3,
+   "NOOUT": 8
+  },
+  "clean_cells": 23,
+  "eng_status": {
+   "completed": 3
+  },
+  "fallback_cells": 13,
+  "first_divergent": {
+   "arimishabirin/globalsalary-simple-eda": {
+    "E0": 8,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "danielresende/game-of-thrones-battles": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 4,
+    "E4": 5
+   },
+   "galiph/titanic-explorary-data-analysis": {
+    "E0": 3,
+    "E1": 3,
+    "E2": 3,
+    "E3": null,
+    "E4": null
+   }
+  },
+  "notebooks": 3
+ },
+ "modin": {
+  "by_class": {
+   "DIFF": 7,
+   "E0": 25,
+   "E1": 1,
+   "ERR": 1,
+   "NOOUT": 8
+  },
+  "clean_by_class": {
+   "DIFF": 1,
+   "E0": 25,
+   "E1": 1,
+   "NOOUT": 8
+  },
+  "clean_cells": 35,
+  "eng_status": {
+   "completed": 3
+  },
+  "fallback_cells": 6,
+  "first_divergent": {
+   "arimishabirin/globalsalary-simple-eda": {
+    "E0": 8,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "danielresende/game-of-thrones-battles": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "galiph/titanic-explorary-data-analysis": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   }
+  },
+  "notebooks": 3
+ },
+ "p15": {
+  "by_class": {
+   "DIFF": 2,
+   "E0": 32,
+   "NOOUT": 8
+  },
+  "clean_by_class": {
+   "DIFF": 2,
+   "E0": 32,
+   "NOOUT": 8
+  },
+  "clean_cells": 42,
+  "eng_status": {
+   "completed": 3
+  },
+  "fallback_cells": 0,
+  "first_divergent": {
+   "arimishabirin/globalsalary-simple-eda": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "danielresende/game-of-thrones-battles": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "galiph/titanic-explorary-data-analysis": {
+    "E0": 20,
+    "E1": 20,
+    "E2": 20,
+    "E3": 20,
+    "E4": 20
+   }
+  },
+  "notebooks": 3
+ },
+ "p30": {
+  "by_class": {
+   "E0": 4,
+   "E2": 30,
+   "NOOUT": 8
+  },
+  "clean_by_class": {
+   "E0": 2,
+   "E2": 4,
+   "NOOUT": 8
+  },
+  "clean_cells": 14,
+  "eng_status": {
+   "completed": 3
+  },
+  "fallback_cells": 0,
+  "first_divergent": {
+   "arimishabirin/globalsalary-simple-eda": {
+    "E0": 3,
+    "E1": 3,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "danielresende/game-of-thrones-battles": {
+    "E0": 2,
+    "E1": 2,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "galiph/titanic-explorary-data-analysis": {
+    "E0": 3,
+    "E1": 3,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   }
+  },
+  "notebooks": 3
+ },
+ "pyarrow_backend": {
+  "by_class": {
+   "DIFF": 4,
+   "E0": 6,
+   "E2": 12,
+   "E3": 10,
+   "ERR": 2,
+   "NOOUT": 8
+  },
+  "clean_by_class": {
+   "E0": 2,
+   "E2": 1,
+   "E3": 2,
+   "ERR": 1,
+   "NOOUT": 8
+  },
+  "clean_cells": 14,
+  "eng_status": {
+   "completed": 3
+  },
+  "fallback_cells": 0,
+  "first_divergent": {
+   "arimishabirin/globalsalary-simple-eda": {
+    "E0": 3,
+    "E1": 3,
+    "E2": 6,
+    "E3": null,
+    "E4": null
+   },
+   "danielresende/game-of-thrones-battles": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": null,
+    "E4": null
+   },
+   "galiph/titanic-explorary-data-analysis": {
+    "E0": 3,
+    "E1": 3,
+    "E2": 3,
+    "E3": 12,
+    "E4": 12
+   }
+  },
+  "notebooks": 3
+ }
+}

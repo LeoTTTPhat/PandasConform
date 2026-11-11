@@ -1,0 +1,182 @@
+{
+ "guards": {
+  "06_pandas_conformance_r5_capture_c1a.json": {
+   "attempts": 1,
+   "finished_utc": null,
+   "limit_bytes": 190000000000,
+   "lock_wait_seconds": 975.8,
+   "peak_host_used_gb": 221.9,
+   "peak_tree_rss_gb": 117.0,
+   "returncode": null,
+   "started_utc": "2026-11-10T15:09:15Z",
+   "status": "stopped"
+  },
+  "06_pandas_conformance_r5_capture_c1a2.json": {
+   "attempts": 1,
+   "finished_utc": "2026-11-10T18:43:37Z",
+   "limit_bytes": 190000000000,
+   "lock_wait_seconds": 8369.5,
+   "peak_host_used_gb": 321.2,
+   "peak_tree_rss_gb": 126.6,
+   "returncode": 241,
+   "started_utc": "2026-11-10T17:44:32Z",
+   "status": "failed"
+  },
+  "06_pandas_conformance_r5_capture_c1b.json": {
+   "attempts": 1,
+   "finished_utc": null,
+   "limit_bytes": 120000000000,
+   "lock_wait_seconds": 1008.0,
+   "peak_host_used_gb": 152.0,
+   "peak_tree_rss_gb": 23.7,
+   "returncode": null,
+   "started_utc": "2026-11-10T15:17:08Z",
+   "status": "stopped"
+  },
+  "06_pandas_conformance_r5_capture_c1b2.json": {
+   "attempts": 1,
+   "finished_utc": "2026-11-10T18:57:23Z",
+   "limit_bytes": 120000000000,
+   "lock_wait_seconds": 11905.5,
+   "peak_host_used_gb": 260.5,
+   "peak_tree_rss_gb": 33.1,
+   "returncode": 0,
+   "started_utc": "2026-11-10T18:43:37Z",
+   "status": "completed"
+  },
+  "06_pandas_conformance_r5_capture_c2.json": {
+   "attempts": 1,
+   "finished_utc": "2026-11-10T15:16:54Z",
+   "limit_bytes": 60000000000,
+   "lock_wait_seconds": 1065.2,
+   "peak_host_used_gb": 130.1,
+   "peak_tree_rss_gb": 0.5,
+   "returncode": 0,
+   "started_utc": "2026-11-10T15:16:28Z",
+   "status": "completed"
+  }
+ },
+ "streams": {
+  "job1_bodo": {
+   "engine": "bodo",
+   "log_statuses": {
+    "completed": 22,
+    "nb_crash": 4
+   },
+   "not_completed": [
+    "gravix/gradient-in-a-box",
+    "j0thu777/onlineretailanalysis",
+    "jirakst/book-recommendation",
+    "shunjiangxu/blood-is-thicker-than-water-friendship-forever"
+   ],
+   "selected": 26,
+   "statuses": {
+    "completed": 22,
+    "nb_crash": 4
+   }
+  },
+  "job1_dask": {
+   "engine": "dask",
+   "log_statuses": {
+    "completed": 48
+   },
+   "not_completed": [],
+   "selected": 48,
+   "statuses": {
+    "completed": 48
+   }
+  },
+  "job1_fireducks": {
+   "engine": "fireducks",
+   "log_statuses": {
+    "completed": 31
+   },
+   "not_completed": [],
+   "selected": 31,
+   "statuses": {
+    "completed": 31
+   }
+  },
+  "job1_modin": {
+   "engine": "modin",
+   "log_statuses": {
+    "completed": 30,
+    "nb_crash": 1
+   },
+   "not_completed": [
+    "balajivenkat96/solar-plants"
+   ],
+   "selected": 31,
+   "statuses": {
+    "completed": 30,
+    "nb_crash": 1
+   }
+  },
+  "job1_p15": {
+   "engine": "p15",
+   "log_statuses": {
+    "completed": 35
+   },
+   "not_completed": [],
+   "selected": 35,
+   "statuses": {
+    "completed": 35
+   }
+  },
+  "job1_p30": {
+   "engine": "p30",
+   "log_statuses": {
+    "completed": 35
+   },
+   "not_completed": [],
+   "selected": 35,
+   "statuses": {
+    "completed": 35
+   }
+  },
+  "job1_pyarrow_backend": {
+   "engine": "pyarrow_backend",
+   "log_statuses": {
+    "completed": 35
+   },
+   "not_completed": [],
+   "selected": 35,
+   "statuses": {
+    "completed": 35
+   }
+  },
+  "job1_ref": {
+   "engine": "ref",
+   "log_statuses": {
+    "completed": 54
+   },
+   "not_completed": [],
+   "selected": 54,
+   "statuses": {
+    "completed": 54
+   }
+  },
+  "job2_bodo": {
+   "engine": "bodo",
+   "log_statuses": {},
+   "not_completed": [
+    "artgor/eda-and-models"
+   ],
+   "selected": 1,
+   "statuses": {
+    "no record": 1
+   }
+  },
+  "job2_modin": {
+   "engine": "modin",
+   "log_statuses": {
+    "completed": 1
+   },
+   "not_completed": [],
+   "selected": 1,
+   "statuses": {
+    "completed": 1
+   }
+  }
+ }
+}

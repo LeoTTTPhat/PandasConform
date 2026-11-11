@@ -1,0 +1,2798 @@
+{
+ "cases": [
+  {
+   "cell": 30,
+   "claim": "Modin corr(numeric_only=True) has diagonal entries 5.38 and 8.41 (out of range)",
+   "configs": [
+    "modin"
+   ],
+   "group": "named",
+   "id": "corr_diag_deffro",
+   "nb": "deffro/eda-is-fun",
+   "values": {
+    "_": "{'diag': [None if x != x else round(float(x), 6) for x in [v.iloc[i, i] for i in range(v.shape[0])]], 'n_outside': int((v.abs() > 1 + 1e-9).sum().sum())}"
+   }
+  },
+  {
+   "cell": 8,
+   "claim": "Modin corr() returns entries outside [-1, 1] (second notebook of the same cause)",
+   "configs": [
+    "modin"
+   ],
+   "group": "named",
+   "id": "corr_diag_ev",
+   "nb": "qnqfbqfqo/electric-vehicle-landscape-in-washington-state",
+   "values": {
+    "__last__": "{'diag': [None if x != x else round(float(x), 6) for x in [v.iloc[i, i] for i in range(v.shape[0])]], 'n_outside': int((v.abs() > 1 + 1e-9).sum().sum())}"
+   }
+  },
+  {
+   "cell": 0,
+   "claim": "Bodo at its default worker count reads 1,692 of 1,693 (and 1,507 of 1,508) rows; one worker reads all",
+   "configs": [
+    "bodo_dw",
+    "bodo"
+   ],
+   "group": "named",
+   "id": "read_rows_bodo_dw",
+   "nb": "shashi772/data-cleaning-challenge-parsing-dates",
+   "values": {
+    "earthquakes": "len(v)",
+    "landslides": "len(v)",
+    "volcanos": "len(v)"
+   }
+  },
+  {
+   "cell": 12,
+   "claim": "Bodo's approximate 0.99 quantile changes which rows a threshold filter keeps",
+   "configs": [
+    "bodo"
+   ],
+   "group": "silent",
+   "id": "approx_quantile_deffro",
+   "nb": "deffro/eda-is-fun",
+   "values": {
+    "_": "len(v)"
+   }
+  },
+  {
+   "cell": 16,
+   "claim": "Bodo's approximate 0.05/0.95 quantiles differ and the outlier filter keeps another row count",
+   "configs": [
+    "bodo"
+   ],
+   "group": "silent",
+   "id": "approx_quantile_gmanish",
+   "nb": "gmanish/help-ngo-country-clustering",
+   "values": {
+    "Q1": "round(float(v), 6)",
+    "Q3": "round(float(v), 6)",
+    "__last__": "len(v)"
+   }
+  },
+  {
+   "cell": 9,
+   "claim": "FireDucks' chained fillna(inplace=True) does not write through, without pandas' warning",
+   "configs": [
+    "fireducks"
+   ],
+   "group": "silent",
+   "id": "chained_assignment_tweet",
+   "nb": "ayushsingh5941/tweet-disaster-or-not",
+   "values": {
+    "tweet_train_df": "{str(c): int(v[c].isna().sum()) for c in v.columns}"
+   }
+  },
+  {
+   "cell": 9,
+   "claim": "FireDucks chained assignment (cell attributed to cow_chained_assignment)",
+   "configs": [
+    "fireducks"
+   ],
+   "group": "silent",
+   "id": "chained_assignment_scout",
+   "nb": "arjoonn/scout-script-7",
+   "values": {
+    "df": "{'ncol': int(v.shape[1]), 'state_cols': [str(c) for c in v.columns if str(c).startswith('state_')][:6], 'self_employed_na': int(v['self_employed'].isna().sum()) if 'self_employed' in v.columns else None}",
+    "st": "str(v)"
+   }
+  },
+  {
+   "cell": 11,
+   "claim": "Modin's value_counts of a cut result drops the empty bin",
+   "configs": [
+    "modin"
+   ],
+   "group": "silent",
+   "id": "value_counts_cut_modin",
+   "nb": "trinath003/data-manipulation-visualisation-on-kaggle-datasets",
+   "values": {
+    "__last__": "{'len': int(len(v)), 'zeros': int((v == 0).sum())}"
+   }
+  },
+  {
+   "cell": 22,
+   "claim": "Modin's pivot_table(aggfunc='size') returns a DataFrame instead of a Series",
+   "configs": [
+    "modin"
+   ],
+   "group": "silent",
+   "id": "pivot_table_size_modin",
+   "nb": "sabya40/data-cleaning-and-pandas-for-beginners",
+   "values": {
+    "dups_category": "{'type': type(v).__name__, 'ndim': int(v.ndim), 'shape': [int(s) for s in v.shape]}"
+   }
+  },
+  {
+   "cell": 2,
+   "claim": "Modin loses an axis name (index name after df.index = df.Date)",
+   "configs": [
+    "modin"
+   ],
+   "group": "silent",
+   "id": "index_name_modin",
+   "nb": "grudd0/mass-shooting-analysis",
+   "values": {
+    "df": "{'index_name': None if v.index.name is None else str(v.index.name)}"
+   }
+  },
+  {
+   "cell": 33,
+   "claim": "Modin loses the side effects of a function passed to apply (a list extended inside apply)",
+   "configs": [
+    "modin"
+   ],
+   "group": "rater",
+   "id": "apply_side_effects_modin",
+   "nb": "shivavashishtha/zomato-eda-tutorial",
+   "values": {
+    "cuisines": "int(len(v))"
+   }
+  },
+  {
+   "cell": 4,
+   "claim": "Bodo's head() shows data from before a column update",
+   "configs": [
+    "bodo"
+   ],
+   "group": "rater",
+   "id": "stale_head_bodo",
+   "nb": "kwullum/when-do-traffic-related-deaths-occur",
+   "values": {
+    "__last__": "[str(x) for x in v['Time'].tolist()]"
+   }
+  },
+  {
+   "cell": 5,
+   "claim": "FireDucks' group-by after .at assignments uses the data from before them",
+   "configs": [
+    "fireducks"
+   ],
+   "group": "rater",
+   "id": "stale_groupby_fireducks",
+   "nb": "danielresende/game-of-thrones-battles",
+   "values": {
+    "__last__": "{'shape': [int(s) for s in v.shape], 'index': [str(x) for x in v.index]}"
+   }
+  },
+  {
+   "cell": 2,
+   "claim": "Bodo's filtered index holds positions, so drop() removes other rows",
+   "configs": [
+    "bodo"
+   ],
+   "group": "rater",
+   "id": "positions_labels_bodo",
+   "nb": "snanilim/video-games-sales-analysis-and-visualization",
+   "values": {
+    "data": "{'rows': int(len(v)), 'index_head': [int(x) for x in list(v.index[:3])]}",
+    "drop_row_index": "[int(x) for x in list(v)[:3]]"
+   }
+  },
+  {
+   "cell": 4,
+   "claim": "FireDucks' nunique() counts missing values",
+   "configs": [
+    "fireducks"
+   ],
+   "group": "rater",
+   "id": "nunique_fireducks",
+   "nb": "jyotsananegi/melbourne-housing-snapshot-eda",
+   "values": {
+    "__last__": "[int(x) for x in v.iloc[:, 0].tolist()]"
+   }
+  },
+  {
+   "cell": 2,
+   "claim": "FireDucks returns int64 where pandas has float64 (unconfirmed by probes)",
+   "configs": [
+    "fireducks"
+   ],
+   "group": "named",
+   "id": "int_float_slice_fireducks",
+   "nb": "kwullum/when-do-traffic-related-deaths-occur",
+   "values": {
+    "__last__": "[str(t) for t in list(v.dtypes)][:3]",
+    "df": "{'dtype1': str(v.dtypes.iloc[1]), 'col0_98304': str(v.iloc[98304, 0])}"
+   }
+  }
+ ],
+ "host_load": [
+  {
+   "loadavg": [
+    36.18,
+    39.4,
+    38.86
+   ],
+   "t": "22:13:43"
+  },
+  {
+   "loadavg": [
+    34.11,
+    38.82,
+    38.66
+   ],
+   "t": "22:13:55"
+  },
+  {
+   "loadavg": [
+    34.11,
+    38.82,
+    38.66
+   ],
+   "t": "22:13:58"
+  },
+  {
+   "loadavg": [
+    33.44,
+    38.52,
+    38.56
+   ],
+   "t": "22:14:07"
+  },
+  {
+   "loadavg": [
+    33.44,
+    38.52,
+    38.56
+   ],
+   "t": "22:14:08"
+  },
+  {
+   "loadavg": [
+    31.32,
+    38.0,
+    38.38
+   ],
+   "t": "22:14:13"
+  },
+  {
+   "loadavg": [
+    30.5,
+    37.72,
+    38.27
+   ],
+   "t": "22:14:16"
+  },
+  {
+   "loadavg": [
+    30.5,
+    37.72,
+    38.27
+   ],
+   "t": "22:14:17"
+  },
+  {
+   "loadavg": [
+    31.18,
+    37.39,
+    38.14
+   ],
+   "t": "22:14:37"
+  },
+  {
+   "loadavg": [
+    31.18,
+    37.39,
+    38.14
+   ],
+   "t": "22:14:38"
+  },
+  {
+   "loadavg": [
+    29.88,
+    36.65,
+    37.86
+   ],
+   "t": "22:14:58"
+  },
+  {
+   "loadavg": [
+    27.92,
+    35.91,
+    37.57
+   ],
+   "t": "22:15:09"
+  },
+  {
+   "loadavg": [
+    27.92,
+    35.91,
+    37.57
+   ],
+   "t": "22:15:11"
+  },
+  {
+   "loadavg": [
+    27.92,
+    35.91,
+    37.57
+   ],
+   "t": "22:15:12"
+  },
+  {
+   "loadavg": [
+    27.92,
+    35.91,
+    37.57
+   ],
+   "t": "22:15:13"
+  },
+  {
+   "loadavg": [
+    27.92,
+    35.91,
+    37.57
+   ],
+   "t": "22:15:14"
+  },
+  {
+   "loadavg": [
+    26.16,
+    35.42,
+    37.39
+   ],
+   "t": "22:15:14"
+  },
+  {
+   "loadavg": [
+    26.16,
+    35.42,
+    37.39
+   ],
+   "t": "22:15:15"
+  },
+  {
+   "loadavg": [
+    26.16,
+    35.42,
+    37.39
+   ],
+   "t": "22:15:15"
+  },
+  {
+   "loadavg": [
+    24.63,
+    34.94,
+    37.21
+   ],
+   "t": "22:15:21"
+  },
+  {
+   "loadavg": [
+    23.77,
+    34.41,
+    36.99
+   ],
+   "t": "22:15:32"
+  },
+  {
+   "loadavg": [
+    23.77,
+    34.41,
+    36.99
+   ],
+   "t": "22:15:33"
+  },
+  {
+   "loadavg": [
+    24.58,
+    34.4,
+    36.97
+   ],
+   "t": "22:15:35"
+  },
+  {
+   "loadavg": [
+    24.58,
+    34.4,
+    36.97
+   ],
+   "t": "22:15:35"
+  },
+  {
+   "loadavg": [
+    24.58,
+    34.4,
+    36.97
+   ],
+   "t": "22:15:36"
+  },
+  {
+   "loadavg": [
+    25.58,
+    34.44,
+    36.97
+   ],
+   "t": "22:15:41"
+  },
+  {
+   "loadavg": [
+    25.58,
+    34.44,
+    36.97
+   ],
+   "t": "22:15:43"
+  },
+  {
+   "loadavg": [
+    25.58,
+    34.44,
+    36.97
+   ],
+   "t": "22:15:44"
+  },
+  {
+   "loadavg": [
+    26.65,
+    34.52,
+    36.98
+   ],
+   "t": "22:15:44"
+  },
+  {
+   "loadavg": [
+    26.65,
+    34.52,
+    36.98
+   ],
+   "t": "22:15:45"
+  },
+  {
+   "loadavg": [
+    26.65,
+    34.52,
+    36.98
+   ],
+   "t": "22:15:45"
+  },
+  {
+   "loadavg": [
+    26.65,
+    34.52,
+    36.98
+   ],
+   "t": "22:15:46"
+  },
+  {
+   "loadavg": [
+    26.65,
+    34.52,
+    36.98
+   ],
+   "t": "22:15:48"
+  },
+  {
+   "loadavg": [
+    25.88,
+    34.23,
+    36.87
+   ],
+   "t": "22:15:49"
+  },
+  {
+   "loadavg": [
+    25.88,
+    34.23,
+    36.87
+   ],
+   "t": "22:15:49"
+  },
+  {
+   "loadavg": [
+    25.88,
+    34.23,
+    36.87
+   ],
+   "t": "22:15:49"
+  },
+  {
+   "loadavg": [
+    25.88,
+    34.23,
+    36.87
+   ],
+   "t": "22:15:50"
+  },
+  {
+   "loadavg": [
+    25.88,
+    34.23,
+    36.87
+   ],
+   "t": "22:15:50"
+  },
+  {
+   "loadavg": [
+    25.88,
+    34.23,
+    36.87
+   ],
+   "t": "22:15:51"
+  },
+  {
+   "loadavg": [
+    27.01,
+    34.32,
+    36.88
+   ],
+   "t": "22:15:54"
+  },
+  {
+   "loadavg": [
+    27.01,
+    34.32,
+    36.88
+   ],
+   "t": "22:15:58"
+  },
+  {
+   "loadavg": [
+    27.01,
+    34.32,
+    36.88
+   ],
+   "t": "22:15:58"
+  },
+  {
+   "loadavg": [
+    29.59,
+    34.6,
+    36.95
+   ],
+   "t": "22:16:04"
+  },
+  {
+   "loadavg": [
+    29.59,
+    34.6,
+    36.95
+   ],
+   "t": "22:16:05"
+  },
+  {
+   "loadavg": [
+    33.38,
+    35.3,
+    37.19
+   ],
+   "t": "22:16:10"
+  },
+  {
+   "loadavg": [
+    33.38,
+    35.3,
+    37.19
+   ],
+   "t": "22:16:11"
+  },
+  {
+   "loadavg": [
+    30.46,
+    34.62,
+    36.92
+   ],
+   "t": "22:16:20"
+  },
+  {
+   "loadavg": [
+    28.58,
+    34.16,
+    36.74
+   ],
+   "t": "22:16:28"
+  }
+ ],
+ "item": "D2",
+ "reps": 2,
+ "results": [
+  {
+   "config": "fireducks",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "fireducks.pandas",
+     "seconds": 0.885
+    },
+    {
+     "case": "chained_assignment_scout",
+     "cell": 9,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "df": {
+       "error": "KeyError: '__name__'",
+       "ok": false
+      },
+      "st": {
+       "ok": true,
+       "value": "None"
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.084,
+     "warnings": [
+      [
+       "FallbackWarning",
+       "Series.__eq__ 0.000997 sec getobj 0.000796 getattr 0.000004 args 0.000008 call 0.000041 unknown op: 'eq' on 'Series' and 'NoneType'"
+      ],
+      [
+       "FallbackWarning",
+       "Series.mode 0.001509 sec getobj 0.000867 getattr 0.000004 args 0.000006 call 0.000473 Series.__getattr__ for mode is called"
+      ],
+      [
+       "FallbackWarning",
+       "DataFrame.select_dtypes 0.002238 sec getobj 0.001920 getattr 0.000003 args 0.000007 call 0.000157 DataFrame.__getattr__ for select_dtypes is called"
+      ]
+     ]
+    },
+    {
+     "event": "done",
+     "seconds": 1.12
+    }
+   ],
+   "nb": "arjoonn/scout-script-7",
+   "rep": 1,
+   "seconds": 1.6,
+   "status": "ok"
+  },
+  {
+   "config": "fireducks",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "fireducks.pandas",
+     "seconds": 0.235
+    },
+    {
+     "case": "chained_assignment_scout",
+     "cell": 9,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "df": {
+       "error": "KeyError: '__name__'",
+       "ok": false
+      },
+      "st": {
+       "ok": true,
+       "value": "None"
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0854,
+     "warnings": [
+      [
+       "FallbackWarning",
+       "Series.__eq__ 0.001013 sec getobj 0.000821 getattr 0.000004 args 0.000008 call 0.000040 unknown op: 'eq' on 'Series' and 'NoneType'"
+      ],
+      [
+       "FallbackWarning",
+       "Series.mode 0.000800 sec getobj 0.000558 getattr 0.000004 args 0.000004 call 0.000091 Series.__getattr__ for mode is called"
+      ],
+      [
+       "FallbackWarning",
+       "DataFrame.select_dtypes 0.002289 sec getobj 0.001948 getattr 0.000004 args 0.000008 call 0.000166 DataFrame.__getattr__ for select_dtypes is called"
+      ]
+     ]
+    },
+    {
+     "event": "done",
+     "seconds": 0.428
+    }
+   ],
+   "nb": "arjoonn/scout-script-7",
+   "rep": 2,
+   "seconds": 0.7,
+   "status": "ok"
+  },
+  {
+   "config": "pandas",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "pandas",
+     "seconds": 0.221
+    },
+    {
+     "case": "chained_assignment_scout",
+     "cell": 9,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "df": {
+       "ok": true,
+       "value": {
+        "ncol": 124,
+        "self_employed_na": 0,
+        "state_cols": [
+         "state_IL",
+         "state_IN",
+         "state_nan",
+         "state_TX",
+         "state_TN",
+         "state_MI"
+        ]
+       }
+      },
+      "st": {
+       "ok": true,
+       "value": "ME"
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.01,
+     "warnings": [
+      [
+       "PerformanceWarning",
+       "DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe"
+      ],
+      [
+       "FutureWarning",
+       "A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\nThe behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are s"
+      ]
+     ]
+    },
+    {
+     "event": "done",
+     "seconds": 0.255
+    }
+   ],
+   "nb": "arjoonn/scout-script-7",
+   "rep": 1,
+   "seconds": 0.9,
+   "status": "ok"
+  },
+  {
+   "config": "fireducks",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "fireducks.pandas",
+     "seconds": 0.276
+    },
+    {
+     "case": "chained_assignment_tweet",
+     "cell": 9,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "tweet_train_df": {
+       "error": "KeyError: '__name__'",
+       "ok": false
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0002,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 0.296
+    }
+   ],
+   "nb": "ayushsingh5941/tweet-disaster-or-not",
+   "rep": 1,
+   "seconds": 0.3,
+   "status": "ok"
+  },
+  {
+   "config": "fireducks",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "fireducks.pandas",
+     "seconds": 0.269
+    },
+    {
+     "case": "chained_assignment_tweet",
+     "cell": 9,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "tweet_train_df": {
+       "error": "KeyError: '__name__'",
+       "ok": false
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0002,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 0.288
+    }
+   ],
+   "nb": "ayushsingh5941/tweet-disaster-or-not",
+   "rep": 2,
+   "seconds": 0.3,
+   "status": "ok"
+  },
+  {
+   "config": "pandas",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "pandas",
+     "seconds": 0.225
+    },
+    {
+     "case": "chained_assignment_tweet",
+     "cell": 9,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "tweet_train_df": {
+       "ok": true,
+       "value": {
+        "id": 0,
+        "keyword": 0,
+        "location": 0,
+        "target": 0,
+        "text": 0
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0005,
+     "warnings": [
+      [
+       "FutureWarning",
+       "A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\nThe behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are s"
+      ]
+     ]
+    },
+    {
+     "event": "done",
+     "seconds": 0.242
+    }
+   ],
+   "nb": "ayushsingh5941/tweet-disaster-or-not",
+   "rep": 1,
+   "seconds": 0.3,
+   "status": "ok"
+  },
+  {
+   "config": "fireducks",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "fireducks.pandas",
+     "seconds": 0.97
+    },
+    {
+     "case": "stale_groupby_fireducks",
+     "cell": 5,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "ok": true,
+       "value": {
+        "index": [
+         "Balon/Euron Greyjoy",
+         "Joffrey/Tommen Baratheon",
+         "Robb Stark",
+         "Stannis Baratheon"
+        ],
+        "shape": [
+         4,
+         2
+        ]
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0133,
+     "warnings": [
+      [
+       "FallbackWarning",
+       "Series.unstack 0.013154 sec getobj 0.010561 getattr 0.000004 args 0.000005 call 0.002440 Series.__getattr__ for unstack is called"
+      ]
+     ]
+    },
+    {
+     "event": "done",
+     "seconds": 1.025
+    }
+   ],
+   "nb": "danielresende/game-of-thrones-battles",
+   "rep": 1,
+   "seconds": 1.6,
+   "status": "ok"
+  },
+  {
+   "config": "fireducks",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "fireducks.pandas",
+     "seconds": 0.299
+    },
+    {
+     "case": "stale_groupby_fireducks",
+     "cell": 5,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "ok": true,
+       "value": {
+        "index": [
+         "Balon/Euron Greyjoy",
+         "Joffrey/Tommen Baratheon",
+         "Robb Stark",
+         "Stannis Baratheon"
+        ],
+        "shape": [
+         4,
+         2
+        ]
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0043,
+     "warnings": [
+      [
+       "FallbackWarning",
+       "Series.unstack 0.004100 sec getobj 0.003079 getattr 0.000006 args 0.000005 call 0.000836 Series.__getattr__ for unstack is called"
+      ]
+     ]
+    },
+    {
+     "event": "done",
+     "seconds": 0.317
+    }
+   ],
+   "nb": "danielresende/game-of-thrones-battles",
+   "rep": 2,
+   "seconds": 0.6,
+   "status": "ok"
+  },
+  {
+   "config": "pandas",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "pandas",
+     "seconds": 0.221
+    },
+    {
+     "case": "stale_groupby_fireducks",
+     "cell": 5,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "ok": true,
+       "value": {
+        "index": [
+         "Balon/Euron Greyjoy",
+         "Joffrey/Tommen Baratheon",
+         "Mance Rayder",
+         "Robb Stark",
+         "Stannis Baratheon"
+        ],
+        "shape": [
+         5,
+         2
+        ]
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0025,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 0.228
+    }
+   ],
+   "nb": "danielresende/game-of-thrones-battles",
+   "rep": 1,
+   "seconds": 0.6,
+   "status": "ok"
+  },
+  {
+   "config": "bodo",
+   "env_bodo_workers": "1",
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "bodo.pandas",
+     "seconds": 0.815
+    },
+    {
+     "cell": 6,
+     "error": "ArrowInvalid: Could not convert '8+' with type str: tried to convert to int64",
+     "event": "cell_error",
+     "status": "error"
+    },
+    {
+     "case": "approx_quantile_deffro",
+     "cell": 12,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "_": {
+       "ok": true,
+       "value": 4396024
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.3678,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 19.138
+    }
+   ],
+   "nb": "deffro/eda-is-fun",
+   "rep": 1,
+   "seconds": 20.0,
+   "status": "ok"
+  },
+  {
+   "config": "bodo",
+   "env_bodo_workers": "1",
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "bodo.pandas",
+     "seconds": 0.544
+    },
+    {
+     "cell": 6,
+     "error": "ArrowInvalid: Could not convert '8+' with type str: tried to convert to int64",
+     "event": "cell_error",
+     "status": "error"
+    },
+    {
+     "case": "approx_quantile_deffro",
+     "cell": 12,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "_": {
+       "ok": true,
+       "value": 4389719
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.4071,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 19.3
+    }
+   ],
+   "nb": "deffro/eda-is-fun",
+   "rep": 2,
+   "seconds": 20.4,
+   "status": "ok"
+  },
+  {
+   "config": "modin",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "modin.pandas",
+     "seconds": 4.387
+    },
+    {
+     "case": "corr_diag_deffro",
+     "cell": 30,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "_": {
+       "ok": true,
+       "value": {
+        "diag": [
+         0.028835,
+         5.378365,
+         8.410515,
+         -0.478537,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         3.859109,
+         0.014364,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         8.400503,
+         -0.543131
+        ],
+        "n_outside": 108
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0046,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 30.245
+    }
+   ],
+   "nb": "deffro/eda-is-fun",
+   "rep": 1,
+   "seconds": 30.7,
+   "status": "ok"
+  },
+  {
+   "config": "modin",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "modin.pandas",
+     "seconds": 6.165
+    },
+    {
+     "case": "corr_diag_deffro",
+     "cell": 30,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "_": {
+       "ok": true,
+       "value": {
+        "diag": [
+         0.028835,
+         5.378365,
+         8.410515,
+         -0.478537,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         3.859109,
+         0.014364,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         8.400503,
+         -0.543131
+        ],
+        "n_outside": 108
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0039,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 31.342
+    }
+   ],
+   "nb": "deffro/eda-is-fun",
+   "rep": 2,
+   "seconds": 31.9,
+   "status": "ok"
+  },
+  {
+   "config": "pandas",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "pandas",
+     "seconds": 0.264
+    },
+    {
+     "case": "approx_quantile_deffro",
+     "cell": 12,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "_": {
+       "ok": true,
+       "value": 4402460
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.2629,
+     "warnings": []
+    },
+    {
+     "case": "corr_diag_deffro",
+     "cell": 30,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "_": {
+       "ok": true,
+       "value": {
+        "diag": [
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "n_outside": 0
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 3.022,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 15.176
+    }
+   ],
+   "nb": "deffro/eda-is-fun",
+   "rep": 1,
+   "seconds": 15.8,
+   "status": "ok"
+  },
+  {
+   "config": "bodo",
+   "env_bodo_workers": "1",
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "bodo.pandas",
+     "seconds": 1.134
+    },
+    {
+     "case": "approx_quantile_gmanish",
+     "cell": 16,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "Q1": {
+       "ok": true,
+       "value": 459.0
+      },
+      "Q3": {
+       "ok": true,
+       "value": 48700.0
+      },
+      "__last__": {
+       "ok": true,
+       "value": 8
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0166,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 3.797
+    }
+   ],
+   "nb": "gmanish/help-ngo-country-clustering",
+   "rep": 1,
+   "seconds": 4.6,
+   "status": "ok"
+  },
+  {
+   "config": "bodo",
+   "env_bodo_workers": "1",
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "bodo.pandas",
+     "seconds": 0.446
+    },
+    {
+     "case": "approx_quantile_gmanish",
+     "cell": 16,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "Q1": {
+       "ok": true,
+       "value": 459.0
+      },
+      "Q3": {
+       "ok": true,
+       "value": 48700.0
+      },
+      "__last__": {
+       "ok": true,
+       "value": 8
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0197,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 2.908
+    }
+   ],
+   "nb": "gmanish/help-ngo-country-clustering",
+   "rep": 2,
+   "seconds": 3.6,
+   "status": "ok"
+  },
+  {
+   "config": "pandas",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "pandas",
+     "seconds": 0.475
+    },
+    {
+     "case": "approx_quantile_gmanish",
+     "cell": 16,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "Q1": {
+       "ok": true,
+       "value": 465.9
+      },
+      "Q3": {
+       "ok": true,
+       "value": 48610.0
+      },
+      "__last__": {
+       "ok": true,
+       "value": 9
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0006,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 0.494
+    }
+   ],
+   "nb": "gmanish/help-ngo-country-clustering",
+   "rep": 1,
+   "seconds": 1.1,
+   "status": "ok"
+  },
+  {
+   "config": "modin",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "modin.pandas",
+     "seconds": 5.35
+    },
+    {
+     "case": "index_name_modin",
+     "cell": 2,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "df": {
+       "ok": true,
+       "value": {
+        "index_name": null
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.1927,
+     "warnings": [
+      [
+       "UserWarning",
+       "`read_*` implementation has mismatches with pandas:\nData types of partitions are different! Please refer to the troubleshooting section of the Modin documentation to fix this issue."
+      ]
+     ]
+    },
+    {
+     "event": "done",
+     "seconds": 8.673
+    }
+   ],
+   "nb": "grudd0/mass-shooting-analysis",
+   "rep": 1,
+   "seconds": 9.3,
+   "status": "ok"
+  },
+  {
+   "config": "modin",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "modin.pandas",
+     "seconds": 4.302
+    },
+    {
+     "case": "index_name_modin",
+     "cell": 2,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "df": {
+       "ok": true,
+       "value": {
+        "index_name": null
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.1531,
+     "warnings": [
+      [
+       "UserWarning",
+       "`read_*` implementation has mismatches with pandas:\nData types of partitions are different! Please refer to the troubleshooting section of the Modin documentation to fix this issue."
+      ]
+     ]
+    },
+    {
+     "event": "done",
+     "seconds": 7.654
+    }
+   ],
+   "nb": "grudd0/mass-shooting-analysis",
+   "rep": 2,
+   "seconds": 8.1,
+   "status": "ok"
+  },
+  {
+   "config": "pandas",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "pandas",
+     "seconds": 0.204
+    },
+    {
+     "case": "index_name_modin",
+     "cell": 2,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "df": {
+       "ok": true,
+       "value": {
+        "index_name": "Date"
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0098,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 0.221
+    }
+   ],
+   "nb": "grudd0/mass-shooting-analysis",
+   "rep": 1,
+   "seconds": 0.5,
+   "status": "ok"
+  },
+  {
+   "config": "fireducks",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "fireducks.pandas",
+     "seconds": 0.293
+    },
+    {
+     "case": "nunique_fireducks",
+     "cell": 4,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "error": "KeyError: '__name__'",
+       "ok": false
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0168,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 0.334
+    }
+   ],
+   "nb": "jyotsananegi/melbourne-housing-snapshot-eda",
+   "rep": 1,
+   "seconds": 0.7,
+   "status": "ok"
+  },
+  {
+   "config": "fireducks",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "fireducks.pandas",
+     "seconds": 0.299
+    },
+    {
+     "case": "nunique_fireducks",
+     "cell": 4,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "error": "KeyError: '__name__'",
+       "ok": false
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0263,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 0.354
+    }
+   ],
+   "nb": "jyotsananegi/melbourne-housing-snapshot-eda",
+   "rep": 2,
+   "seconds": 0.7,
+   "status": "ok"
+  },
+  {
+   "config": "pandas",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "pandas",
+     "seconds": 0.265
+    },
+    {
+     "case": "nunique_fireducks",
+     "cell": 4,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "ok": true,
+       "value": [
+        314,
+        13378,
+        9,
+        3,
+        2204,
+        5,
+        268,
+        58,
+        202,
+        198,
+        12,
+        9,
+        11,
+        1448,
+        602,
+        144,
+        33,
+        6503,
+        7063,
+        8,
+        311
+       ]
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0046,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 0.291
+    }
+   ],
+   "nb": "jyotsananegi/melbourne-housing-snapshot-eda",
+   "rep": 1,
+   "seconds": 0.6,
+   "status": "ok"
+  },
+  {
+   "config": "bodo",
+   "env_bodo_workers": "1",
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "bodo.pandas",
+     "seconds": 1.648
+    },
+    {
+     "case": "stale_head_bodo",
+     "cell": 4,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "ok": true,
+       "value": [
+        "18:45",
+        "07:50",
+        "18:08",
+        "07:40",
+        "07:30"
+       ]
+      }
+     },
+     "status": "ok",
+     "wall_s": 1.3859,
+     "warnings": [
+      [
+       "BodoLibFallbackWarning",
+       "DataFrame.__setitem__ is not implemented in Bodo DataFrames for the specified arguments yet. Falling back to Pandas (may be slow or run out of memory).\nException: Only setting a column with a Series created from the same dataframe is suppor"
+      ]
+     ]
+    },
+    {
+     "event": "done",
+     "seconds": 6.096
+    }
+   ],
+   "nb": "kwullum/when-do-traffic-related-deaths-occur",
+   "rep": 1,
+   "seconds": 7.0,
+   "status": "ok"
+  },
+  {
+   "config": "bodo",
+   "env_bodo_workers": "1",
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "bodo.pandas",
+     "seconds": 0.475
+    },
+    {
+     "case": "stale_head_bodo",
+     "cell": 4,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "ok": true,
+       "value": [
+        "18:45",
+        "07:50",
+        "18:08",
+        "07:40",
+        "07:30"
+       ]
+      }
+     },
+     "status": "ok",
+     "wall_s": 1.3227,
+     "warnings": [
+      [
+       "BodoLibFallbackWarning",
+       "DataFrame.__setitem__ is not implemented in Bodo DataFrames for the specified arguments yet. Falling back to Pandas (may be slow or run out of memory).\nException: Only setting a column with a Series created from the same dataframe is suppor"
+      ]
+     ]
+    },
+    {
+     "event": "done",
+     "seconds": 4.181
+    }
+   ],
+   "nb": "kwullum/when-do-traffic-related-deaths-occur",
+   "rep": 2,
+   "seconds": 4.8,
+   "status": "ok"
+  },
+  {
+   "config": "fireducks",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "fireducks.pandas",
+     "seconds": 0.36
+    },
+    {
+     "case": "int_float_slice_fireducks",
+     "cell": 2,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "error": "KeyError: '__name__'",
+       "ok": false
+      },
+      "df": {
+       "error": "KeyError: '__name__'",
+       "ok": false
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0078,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 0.382
+    }
+   ],
+   "nb": "kwullum/when-do-traffic-related-deaths-occur",
+   "rep": 1,
+   "seconds": 0.7,
+   "status": "ok"
+  },
+  {
+   "config": "fireducks",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "fireducks.pandas",
+     "seconds": 0.293
+    },
+    {
+     "case": "int_float_slice_fireducks",
+     "cell": 2,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "error": "KeyError: '__name__'",
+       "ok": false
+      },
+      "df": {
+       "error": "KeyError: '__name__'",
+       "ok": false
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0063,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 0.314
+    }
+   ],
+   "nb": "kwullum/when-do-traffic-related-deaths-occur",
+   "rep": 2,
+   "seconds": 0.7,
+   "status": "ok"
+  },
+  {
+   "config": "pandas",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "pandas",
+     "seconds": 0.23
+    },
+    {
+     "case": "int_float_slice_fireducks",
+     "cell": 2,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "ok": true,
+       "value": [
+        "object",
+        "float64",
+        "float64"
+       ]
+      },
+      "df": {
+       "ok": true,
+       "value": {
+        "col0_98304": "2015440079707",
+        "dtype1": "float64"
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.1357,
+     "warnings": [
+      [
+       "DtypeWarning",
+       "Columns (0) have mixed types. Specify dtype option on import or set low_memory=False."
+      ]
+     ]
+    },
+    {
+     "case": "stale_head_bodo",
+     "cell": 4,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "ok": true,
+       "value": [
+        "18",
+        "07",
+        "18",
+        "07",
+        "07"
+       ]
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0104,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 0.44
+    }
+   ],
+   "nb": "kwullum/when-do-traffic-related-deaths-occur",
+   "rep": 1,
+   "seconds": 0.8,
+   "status": "ok"
+  },
+  {
+   "config": "modin",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "modin.pandas",
+     "seconds": 4.433
+    },
+    {
+     "case": "corr_diag_ev",
+     "cell": 8,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "ok": true,
+       "value": {
+        "diag": [
+         null,
+         0.028538,
+         null,
+         1.707047,
+         1.0,
+         0.999805,
+         1.0
+        ],
+        "n_outside": 6
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0065,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 8.48
+    }
+   ],
+   "nb": "qnqfbqfqo/electric-vehicle-landscape-in-washington-state",
+   "rep": 1,
+   "seconds": 8.9,
+   "status": "ok"
+  },
+  {
+   "config": "modin",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "modin.pandas",
+     "seconds": 5.871
+    },
+    {
+     "case": "corr_diag_ev",
+     "cell": 8,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "ok": true,
+       "value": {
+        "diag": [
+         null,
+         0.028538,
+         null,
+         1.707047,
+         1.0,
+         0.999805,
+         1.0
+        ],
+        "n_outside": 6
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0245,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 11.387
+    }
+   ],
+   "nb": "qnqfbqfqo/electric-vehicle-landscape-in-washington-state",
+   "rep": 2,
+   "seconds": 11.9,
+   "status": "ok"
+  },
+  {
+   "config": "pandas",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "pandas",
+     "seconds": 0.869
+    },
+    {
+     "case": "corr_diag_ev",
+     "cell": 8,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "ok": true,
+       "value": {
+        "diag": [
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0,
+         1.0
+        ],
+        "n_outside": 0
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0089,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 1.112
+    }
+   ],
+   "nb": "qnqfbqfqo/electric-vehicle-landscape-in-washington-state",
+   "rep": 1,
+   "seconds": 1.7,
+   "status": "ok"
+  },
+  {
+   "config": "modin",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "modin.pandas",
+     "seconds": 5.5
+    },
+    {
+     "case": "pivot_table_size_modin",
+     "cell": 22,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "dups_category": {
+       "ok": true,
+       "value": {
+        "ndim": 2,
+        "shape": [
+         261,
+         5
+        ],
+        "type": "DataFrame"
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0111,
+     "warnings": [
+      [
+       "UserWarning",
+       "`pivot_table` implementation has mismatches with pandas:\nOrder of columns could be different from pandas."
+      ]
+     ]
+    },
+    {
+     "event": "done",
+     "seconds": 10.542
+    }
+   ],
+   "nb": "sabya40/data-cleaning-and-pandas-for-beginners",
+   "rep": 1,
+   "seconds": 11.2,
+   "status": "ok"
+  },
+  {
+   "config": "modin",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "modin.pandas",
+     "seconds": 5.429
+    },
+    {
+     "case": "pivot_table_size_modin",
+     "cell": 22,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "dups_category": {
+       "ok": true,
+       "value": {
+        "ndim": 2,
+        "shape": [
+         261,
+         5
+        ],
+        "type": "DataFrame"
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0115,
+     "warnings": [
+      [
+       "UserWarning",
+       "`pivot_table` implementation has mismatches with pandas:\nOrder of columns could be different from pandas."
+      ]
+     ]
+    },
+    {
+     "event": "done",
+     "seconds": 10.575
+    }
+   ],
+   "nb": "sabya40/data-cleaning-and-pandas-for-beginners",
+   "rep": 2,
+   "seconds": 11.0,
+   "status": "ok"
+  },
+  {
+   "config": "pandas",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "pandas",
+     "seconds": 0.739
+    },
+    {
+     "case": "pivot_table_size_modin",
+     "cell": 22,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "dups_category": {
+       "ok": true,
+       "value": {
+        "ndim": 1,
+        "shape": [
+         261
+        ],
+        "type": "Series"
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0006,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 0.83
+    }
+   ],
+   "nb": "sabya40/data-cleaning-and-pandas-for-beginners",
+   "rep": 1,
+   "seconds": 1.3,
+   "status": "ok"
+  },
+  {
+   "config": "bodo",
+   "env_bodo_workers": "1",
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "bodo.pandas",
+     "seconds": 0.477
+    },
+    {
+     "case": "read_rows_bodo_dw",
+     "cell": 0,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "earthquakes": {
+       "ok": true,
+       "value": 23412
+      },
+      "landslides": {
+       "ok": true,
+       "value": 1693
+      },
+      "volcanos": {
+       "ok": true,
+       "value": 1508
+      }
+     },
+     "status": "ok",
+     "wall_s": 2.5262,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 3.003
+    }
+   ],
+   "nb": "shashi772/data-cleaning-challenge-parsing-dates",
+   "rep": 1,
+   "seconds": 3.5,
+   "status": "ok"
+  },
+  {
+   "config": "bodo",
+   "env_bodo_workers": "1",
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "bodo.pandas",
+     "seconds": 0.496
+    },
+    {
+     "case": "read_rows_bodo_dw",
+     "cell": 0,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "earthquakes": {
+       "ok": true,
+       "value": 23412
+      },
+      "landslides": {
+       "ok": true,
+       "value": 1693
+      },
+      "volcanos": {
+       "ok": true,
+       "value": 1508
+      }
+     },
+     "status": "ok",
+     "wall_s": 2.6774,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 3.174
+    }
+   ],
+   "nb": "shashi772/data-cleaning-challenge-parsing-dates",
+   "rep": 2,
+   "seconds": 3.7,
+   "status": "ok"
+  },
+  {
+   "config": "bodo_dw",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "bodo.pandas",
+     "seconds": 0.468
+    },
+    {
+     "case": "read_rows_bodo_dw",
+     "cell": 0,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "earthquakes": {
+       "ok": true,
+       "value": 23412
+      },
+      "landslides": {
+       "ok": true,
+       "value": 1692
+      },
+      "volcanos": {
+       "ok": true,
+       "value": 1507
+      }
+     },
+     "status": "ok",
+     "wall_s": 4.8289,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 5.297
+    }
+   ],
+   "nb": "shashi772/data-cleaning-challenge-parsing-dates",
+   "rep": 1,
+   "seconds": 6.3,
+   "status": "ok"
+  },
+  {
+   "config": "bodo_dw",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "bodo.pandas",
+     "seconds": 0.501
+    },
+    {
+     "case": "read_rows_bodo_dw",
+     "cell": 0,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "earthquakes": {
+       "ok": true,
+       "value": 23412
+      },
+      "landslides": {
+       "ok": true,
+       "value": 1692
+      },
+      "volcanos": {
+       "ok": true,
+       "value": 1507
+      }
+     },
+     "status": "ok",
+     "wall_s": 5.3147,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 5.816
+    }
+   ],
+   "nb": "shashi772/data-cleaning-challenge-parsing-dates",
+   "rep": 2,
+   "seconds": 6.9,
+   "status": "ok"
+  },
+  {
+   "config": "pandas",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "pandas",
+     "seconds": 0.252
+    },
+    {
+     "case": "read_rows_bodo_dw",
+     "cell": 0,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "earthquakes": {
+       "ok": true,
+       "value": 23412
+      },
+      "landslides": {
+       "ok": true,
+       "value": 1693
+      },
+      "volcanos": {
+       "ok": true,
+       "value": 1508
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0333,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 0.286
+    }
+   ],
+   "nb": "shashi772/data-cleaning-challenge-parsing-dates",
+   "rep": 1,
+   "seconds": 0.7,
+   "status": "ok"
+  },
+  {
+   "config": "modin",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "modin.pandas",
+     "seconds": 7.614
+    },
+    {
+     "case": "apply_side_effects_modin",
+     "cell": 33,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "cuisines": {
+       "ok": true,
+       "value": 5
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0153,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 13.615
+    }
+   ],
+   "nb": "shivavashishtha/zomato-eda-tutorial",
+   "rep": 1,
+   "seconds": 14.2,
+   "status": "ok"
+  },
+  {
+   "config": "modin",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "modin.pandas",
+     "seconds": 5.042
+    },
+    {
+     "case": "apply_side_effects_modin",
+     "cell": 33,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "cuisines": {
+       "ok": true,
+       "value": 5
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0232,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 11.12
+    }
+   ],
+   "nb": "shivavashishtha/zomato-eda-tutorial",
+   "rep": 2,
+   "seconds": 11.6,
+   "status": "ok"
+  },
+  {
+   "config": "pandas",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "pandas",
+     "seconds": 0.22
+    },
+    {
+     "case": "apply_side_effects_modin",
+     "cell": 33,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "cuisines": {
+       "ok": true,
+       "value": 124234
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.016,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 1.14
+    }
+   ],
+   "nb": "shivavashishtha/zomato-eda-tutorial",
+   "rep": 1,
+   "seconds": 1.6,
+   "status": "ok"
+  },
+  {
+   "config": "bodo",
+   "env_bodo_workers": "1",
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "bodo.pandas",
+     "seconds": 0.482
+    },
+    {
+     "case": "positions_labels_bodo",
+     "cell": 2,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "data": {
+       "ok": true,
+       "value": {
+        "index_head": [
+         348,
+         349,
+         350
+        ],
+        "rows": 16250
+       }
+      },
+      "drop_row_index": {
+       "ok": true,
+       "value": [
+        0,
+        1,
+        2
+       ]
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0296,
+     "warnings": [
+      [
+       "BodoLibFallbackWarning",
+       "DataFrame.drop is not implemented in Bodo DataFrames for the specified arguments yet. Falling back to Pandas (may be slow or run out of memory)."
+      ]
+     ]
+    },
+    {
+     "event": "done",
+     "seconds": 2.49
+    }
+   ],
+   "nb": "snanilim/video-games-sales-analysis-and-visualization",
+   "rep": 1,
+   "seconds": 3.1,
+   "status": "ok"
+  },
+  {
+   "config": "bodo",
+   "env_bodo_workers": "1",
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "bodo.pandas",
+     "seconds": 0.506
+    },
+    {
+     "case": "positions_labels_bodo",
+     "cell": 2,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "data": {
+       "ok": true,
+       "value": {
+        "index_head": [
+         348,
+         349,
+         350
+        ],
+        "rows": 16250
+       }
+      },
+      "drop_row_index": {
+       "ok": true,
+       "value": [
+        0,
+        1,
+        2
+       ]
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0207,
+     "warnings": [
+      [
+       "BodoLibFallbackWarning",
+       "DataFrame.drop is not implemented in Bodo DataFrames for the specified arguments yet. Falling back to Pandas (may be slow or run out of memory)."
+      ]
+     ]
+    },
+    {
+     "event": "done",
+     "seconds": 2.482
+    }
+   ],
+   "nb": "snanilim/video-games-sales-analysis-and-visualization",
+   "rep": 2,
+   "seconds": 3.1,
+   "status": "ok"
+  },
+  {
+   "config": "pandas",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "pandas",
+     "seconds": 0.196
+    },
+    {
+     "case": "positions_labels_bodo",
+     "cell": 2,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "data": {
+       "ok": true,
+       "value": {
+        "index_head": [
+         0,
+         1,
+         2
+        ],
+        "rows": 16250
+       }
+      },
+      "drop_row_index": {
+       "ok": true,
+       "value": [
+        221,
+        271,
+        351
+       ]
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0009,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 0.21
+    }
+   ],
+   "nb": "snanilim/video-games-sales-analysis-and-visualization",
+   "rep": 1,
+   "seconds": 0.5,
+   "status": "ok"
+  },
+  {
+   "config": "modin",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "modin.pandas",
+     "seconds": 4.384
+    },
+    {
+     "case": "value_counts_cut_modin",
+     "cell": 11,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "ok": true,
+       "value": {
+        "len": 7,
+        "zeros": 0
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0375,
+     "warnings": [
+      [
+       "UserWarning",
+       "squeeze_and_cut is not currently supported by PandasOnRay, defaulting to pandas implementation.\nPlease refer to https://modin.readthedocs.io/en/stable/supported_apis/defaulting_to_pandas.html for explanation."
+      ],
+      [
+       "FutureWarning",
+       "pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead."
+      ],
+      [
+       "UserWarning",
+       "`df.groupby(categorical_by, sort=False)` implementation has mismatches with pandas:\nthe groupby keys will be sorted anyway, although the 'sort=False' was passed. See the following issue for more details: https://github.com/modin-project/mod"
+      ]
+     ]
+    },
+    {
+     "event": "done",
+     "seconds": 8.498
+    }
+   ],
+   "nb": "trinath003/data-manipulation-visualisation-on-kaggle-datasets",
+   "rep": 1,
+   "seconds": 9.0,
+   "status": "ok"
+  },
+  {
+   "config": "modin",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "modin.pandas",
+     "seconds": 4.342
+    },
+    {
+     "case": "value_counts_cut_modin",
+     "cell": 11,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "ok": true,
+       "value": {
+        "len": 7,
+        "zeros": 0
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0506,
+     "warnings": [
+      [
+       "UserWarning",
+       "squeeze_and_cut is not currently supported by PandasOnRay, defaulting to pandas implementation.\nPlease refer to https://modin.readthedocs.io/en/stable/supported_apis/defaulting_to_pandas.html for explanation."
+      ],
+      [
+       "FutureWarning",
+       "pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead."
+      ],
+      [
+       "UserWarning",
+       "`df.groupby(categorical_by, sort=False)` implementation has mismatches with pandas:\nthe groupby keys will be sorted anyway, although the 'sort=False' was passed. See the following issue for more details: https://github.com/modin-project/mod"
+      ]
+     ]
+    },
+    {
+     "event": "done",
+     "seconds": 8.462
+    }
+   ],
+   "nb": "trinath003/data-manipulation-visualisation-on-kaggle-datasets",
+   "rep": 2,
+   "seconds": 8.9,
+   "status": "ok"
+  },
+  {
+   "config": "pandas",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "pandas",
+     "seconds": 0.761
+    },
+    {
+     "case": "value_counts_cut_modin",
+     "cell": 11,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "ok": true,
+       "value": {
+        "len": 8,
+        "zeros": 1
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0028,
+     "warnings": [
+      [
+       "FutureWarning",
+       "pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead."
+      ]
+     ]
+    },
+    {
+     "event": "done",
+     "seconds": 0.793
+    }
+   ],
+   "nb": "trinath003/data-manipulation-visualisation-on-kaggle-datasets",
+   "rep": 1,
+   "seconds": 1.5,
+   "status": "ok"
+  }
+ ],
+ "run_timeout_s": 1500,
+ "seconds": 166.6
+}

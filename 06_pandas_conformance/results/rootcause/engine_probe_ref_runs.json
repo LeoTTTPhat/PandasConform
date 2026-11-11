@@ -1,0 +1,93 @@
+{
+ "generated": "2026-10-04T08:09:53",
+ "env": "envs/ref (pandas 2.3.3), PCONF_REPRO_MODE=pandas",
+ "runs": {
+  "approximate_quantile": {
+   "rc": 0,
+   "wall_s": 0.35,
+   "result_lines": [
+    "RESULT quantile(0.99) vs numpy: ('np.float64(460.45405693275035)', '460.45405693275035')",
+    "RESULT rows below quantile(0.99): 1980000"
+   ]
+  },
+  "axis_names_lost": {
+   "rc": 0,
+   "wall_s": 0.29,
+   "result_lines": [
+    "RESULT crosstab columns name: Q2",
+    "RESULT iloc[0] Series name: 0"
+   ]
+  },
+  "engine_bug_error": {
+   "rc": 0,
+   "wall_s": 0.28,
+   "result_lines": [
+    "RESULT groupby(['k']).mean().reset_index(): {'k': {0: 'a', 1: 'b'}, 'v': {0: 2.0, 1: 2.0}} dtype={'k': 'object', 'v': 'float64'}",
+    "RESULT groupby('k').count(): {'v': {'a': 2, 'b': 1}, 's': {'a': 2, 'b': 1}} dtype={'v': 'int64', 's': 'int64'}",
+    "RESULT str.split(' ').str[0]: {0: '1', 1: '3', 2: '5'} dtype=object",
+    "RESULT Series.filter(regex): {'Q7_Part_1': 't1'} dtype=object"
+   ]
+  },
+  "engine_bug_silent": {
+   "rc": 0,
+   "wall_s": 0.28,
+   "result_lines": [
+    "RESULT pd.value_counts(pd.cut(...)) bins: {Interval(1, 5, closed='right'): 1, Interval(5, 10, closed='right'): 1, Interval(25, 50, closed='right'): 1, Interval(50, 75, closed='right'): 1, Interval(75, 100, closed='right'): 1, Interval(100, 500, closed='right'): 1, Interval(500, 1000, closed='right'): 1, Interval(10, 25, closed='right'): 0} dtype=int64",
+    "RESULT pivot_table(aggfunc='size') type: Series",
+    "RESULT head() after add+drop column: {'Version': {0: 1, 1: 3}, 'Category': {0: 'a', 1: 'a'}, 'Cat2': {0: 'x', 1: 'x'}} dtype={'Version': 'int64', 'Category': 'object', 'Cat2': 'object'}"
+   ]
+  },
+  "engine_unsupported_api": {
+   "rc": 0,
+   "wall_s": 0.29,
+   "result_lines": [
+    "RESULT drop(columns, inplace=True): None",
+    "RESULT pd.cut: raised KeyError: 'a'",
+    "RESULT iloc row selection: {'s': {0: 'x', 1: 'y'}, 't': {0: '2020-01-01', 1: '2020-01-02'}} dtype={'s': 'object', 't': 'object'}",
+    "RESULT to_datetime(infer_datetime_format=True): {0: Timestamp('2020-01-01 00:00:00'), 1: Timestamp('2020-01-02 00:00:00'), 2: Timestamp('2020-01-03 00:00:00')} dtype=datetime64[ns]",
+    "RESULT groupby sum over string column: {'s': {1: 'ab'}} dtype={'s': 'object'}"
+   ]
+  },
+  "index_not_preserved": {
+   "rc": 0,
+   "wall_s": 0.29,
+   "result_lines": [
+    "RESULT boolean filter index: {'k': {10: 3, 12: 2}, 'v': {10: 10, 12: 30}} dtype={'k': 'int64', 'v': 'int64'}",
+    "RESULT isin filter index: {'k': {11: 1, 13: 1}, 'v': {11: 20, 13: 40}} dtype={'k': 'int64', 'v': 'int64'}",
+    "RESULT sort_values index: {'k': {11: 1, 13: 1, 12: 2, 10: 3}, 'v': {11: 20, 13: 40, 12: 30, 10: 10}} dtype={'k': 'int64', 'v': 'int64'}",
+    "RESULT groupby(as_index=False).mean().sort_values index: {'k': {2: 3, 0: 1, 1: 2}, 'v': {2: 10.0, 0: 30.0, 1: 30.0}} dtype={'k': 'int64', 'v': 'float64'}"
+   ]
+  },
+  "int_float_nullable_repr": {
+   "rc": 0,
+   "wall_s": 0.27,
+   "result_lines": [
+    "RESULT head(3) dtypes (pandas: float64): {'a': {0: 0.0, 1: 1.0, 2: 1.0}, 'b': {0: 'a', 1: 'b', 2: 'c'}} dtype={'a': 'float64', 'b': 'object'}",
+    "RESULT groupby sum dtype: {('n', 'sum'): {1: 1.0, 2: 3.0}} dtype={('n', 'sum'): 'float64'}"
+   ]
+  },
+  "lazy_partition_model": {
+   "rc": 0,
+   "wall_s": 0.28,
+   "result_lines": [
+    "RESULT shape: (4, 2)",
+    "RESULT '{:.4f}'.format(mean): 2.5000",
+    "RESULT apply without meta: {0: '2018', 1: '2018', 2: '2018', 3: '2018'} dtype=object"
+   ]
+  },
+  "missing_sentinel_repr": {
+   "rc": 0,
+   "wall_s": 0.28,
+   "result_lines": [
+    "RESULT missing string value: \"{'s': {0: 'a', 1: nan}, 'v': {0: 1, 1: 2}} dtype={'s': 'object', 'v': 'int64'}\""
+   ]
+  },
+  "partitioned_type_inference": {
+   "rc": 0,
+   "wall_s": 0.35,
+   "result_lines": [
+    "RESULT dtype and python types of 'count': {'str': 200001} dtype=int64"
+   ]
+  }
+ }
+}

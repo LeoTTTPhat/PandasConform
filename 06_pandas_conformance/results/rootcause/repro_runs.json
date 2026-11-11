@@ -1,0 +1,1392 @@
+{
+ "api_added_later": {
+  "p15": {
+   "maxrss_mb": 92.1,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT read_csv(date_format=...): raised TypeError: read_csv() got an unexpected keyword argument 'date_format'"
+   ],
+   "stderr_tail": "        0.93 real         0.26 user         0.16 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; read_csv(date_format=...): raised TypeError: read_csv() got an unexpected keyword argument 'date_format'",
+   "wall_s": 0.94
+  },
+  "p30": {
+   "maxrss_mb": 98.4,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT read_csv(date_format=...): datetime64[us]"
+   ],
+   "stderr_tail": "        0.83 real         0.26 user         0.13 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; read_csv(date_format=...): datetime64[us]",
+   "wall_s": 0.84
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 99.6,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT read_csv(date_format=...): datetime64[ns]"
+   ],
+   "stderr_tail": "        0.28 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; read_csv(date_format=...): datetime64[ns]",
+   "wall_s": 0.29
+  },
+  "ref": {
+   "maxrss_mb": 97.8,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT read_csv(date_format=...): datetime64[ns]"
+   ],
+   "stderr_tail": "        0.83 real         0.26 user         0.12 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; read_csv(date_format=...): datetime64[ns]",
+   "wall_s": 0.84
+  }
+ },
+ "arrow_backed_dtypes": {
+  "p15": {
+   "maxrss_mb": 93.5,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT dtypes: ['object', 'int64', 'float64']",
+    "RESULT missing sentinels: ['nan', 'nan']"
+   ],
+   "stderr_tail": "        0.27 real         0.21 user         0.05 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; dtypes: ['object', 'int64', 'float64'] ; missing sentinels: ['nan', 'nan']",
+   "wall_s": 0.28
+  },
+  "p30": {
+   "maxrss_mb": 98.7,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT dtypes: ['str', 'int64', 'float64']",
+    "RESULT missing sentinels: ['nan', 'np.float64(nan)']"
+   ],
+   "stderr_tail": "        0.26 real         0.21 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; dtypes: ['str', 'int64', 'float64'] ; missing sentinels: ['nan', 'np.float64(nan)']",
+   "wall_s": 0.27
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 99.7,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT dtypes: ['string[pyarrow]', 'int64[pyarrow]', 'double[pyarrow]']",
+    "RESULT missing sentinels: ['<NA>', '<NA>']"
+   ],
+   "stderr_tail": "        0.29 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; dtypes: ['string[pyarrow]', 'int64[pyarrow]', 'double[pyarrow]'] ; missing sentinels: ['<NA>', '<NA>']",
+   "wall_s": 0.3
+  },
+  "ref": {
+   "maxrss_mb": 98.3,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT dtypes: ['object', 'int64', 'float64']",
+    "RESULT missing sentinels: ['nan', 'np.float64(nan)']"
+   ],
+   "stderr_tail": "        0.28 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; dtypes: ['object', 'int64', 'float64'] ; missing sentinels: ['nan', 'np.float64(nan)']",
+   "wall_s": 0.29
+  }
+ },
+ "arrow_dtype_errors": {
+  "p15": {
+   "maxrss_mb": 93.0,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT int column <- '8+': [1, '8+']",
+    "RESULT np.isnan on a missing scalar: True",
+    "RESULT if value > 0 on a missing scalar: False"
+   ],
+   "stderr_tail": "        0.27 real         0.21 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; int column <- '8+': [1, '8+'] ; np.isnan on a missing scalar: True ; if value > 0 on a missing scalar: False",
+   "wall_s": 0.27
+  },
+  "p30": {
+   "maxrss_mb": 98.5,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT int column <- '8+': raised TypeError: Invalid value '8+' for dtype 'int64'",
+    "RESULT np.isnan on a missing scalar: True",
+    "RESULT if value > 0 on a missing scalar: False"
+   ],
+   "stderr_tail": "        0.26 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; int column <- '8+': raised TypeError: Invalid value '8+' for dtype 'int64' ; np.isnan on a missing scalar: True ; if value > 0 on a missing scalar: False",
+   "wall_s": 0.27
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 100.2,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT int column <- '8+': raised ArrowInvalid: Could not convert '8+' with type str: tried to convert to int64",
+    "RESULT np.isnan on a missing scalar: raised TypeError: boolean value of NA is ambiguous",
+    "RESULT if value > 0 on a missing scalar: raised TypeError: boolean value of NA is ambiguous"
+   ],
+   "stderr_tail": "        0.28 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; int column <- '8+': raised ArrowInvalid: Could not convert '8+' with type str: tried to convert to int64 ; np.isnan on a missing scalar: raised TypeError: boolean value of NA is ambiguous ; if value > 0 on a missing scalar: raised TypeError: boolean value of NA is ambiguous",
+   "wall_s": 0.29
+  },
+  "ref": {
+   "maxrss_mb": 98.4,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT int column <- '8+': [1, '8+']",
+    "RESULT np.isnan on a missing scalar: True",
+    "RESULT if value > 0 on a missing scalar: False"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; int column <- '8+': [1, '8+'] ; np.isnan on a missing scalar: True ; if value > 0 on a missing scalar: False",
+   "wall_s": 0.27
+  }
+ },
+ "cow_chained_assignment": {
+  "p15": {
+   "maxrss_mb": 93.2,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT df['a'].loc[mask] = 10: [1, 10, 10]",
+    "RESULT df['b'].fillna(0, inplace=True): [0.0, 2.0, 0.0]",
+    "RESULT df['b'].iloc[0] = -1: [-1.0, 2.0, nan]"
+   ],
+   "stderr_tail": "        0.26 real         0.21 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; df['a'].loc[mask] = 10: [1, 10, 10] ; df['b'].fillna(0, inplace=True): [0.0, 2.0, 0.0] ; df['b'].iloc[0] = -1: [-1.0, 2.0, nan]",
+   "wall_s": 0.27
+  },
+  "p30": {
+   "maxrss_mb": 98.0,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT df['a'].loc[mask] = 10: [1, 20, 30]",
+    "RESULT df['b'].fillna(0, inplace=True): [nan, 2.0, nan]",
+    "RESULT df['b'].iloc[0] = -1: [nan, 2.0, nan]"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; df['a'].loc[mask] = 10: [1, 20, 30] ; df['b'].fillna(0, inplace=True): [nan, 2.0, nan] ; df['b'].iloc[0] = -1: [nan, 2.0, nan]",
+   "wall_s": 0.28
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 98.1,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT df['a'].loc[mask] = 10: [1, 10, 10]",
+    "RESULT df['b'].fillna(0, inplace=True): [0.0, 2.0, 0.0]",
+    "RESULT df['b'].iloc[0] = -1: [-1.0, 2.0, nan]"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.03 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; df['a'].loc[mask] = 10: [1, 10, 10] ; df['b'].fillna(0, inplace=True): [0.0, 2.0, 0.0] ; df['b'].iloc[0] = -1: [-1.0, 2.0, nan]",
+   "wall_s": 0.28
+  },
+  "ref": {
+   "maxrss_mb": 97.7,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT df['a'].loc[mask] = 10: [1, 10, 10]",
+    "RESULT df['b'].fillna(0, inplace=True): [0.0, 2.0, 0.0]",
+    "RESULT df['b'].iloc[0] = -1: [-1.0, 2.0, nan]"
+   ],
+   "stderr_tail": "        0.27 real         0.23 user         0.03 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; df['a'].loc[mask] = 10: [1, 10, 10] ; df['b'].fillna(0, inplace=True): [0.0, 2.0, 0.0] ; df['b'].iloc[0] = -1: [-1.0, 2.0, nan]",
+   "wall_s": 0.28
+  }
+ },
+ "datetime_resolution_inference": {
+  "p15": {
+   "maxrss_mb": 93.1,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT dtype after parsing strings: datetime64[ns]",
+    "RESULT astype('int64'): [1523404800000000000, 1509840000000000000]",
+    "RESULT mean(): 2017-11-06 22:30:07.333333248"
+   ],
+   "stderr_tail": "        0.26 real         0.21 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; dtype after parsing strings: datetime64[ns] ; astype('int64'): [1523404800000000000, 1509840000000000000] ; mean(): 2017-11-06 22:30:07.333333248",
+   "wall_s": 0.27
+  },
+  "p30": {
+   "maxrss_mb": 97.6,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT dtype after parsing strings: datetime64[us]",
+    "RESULT astype('int64'): [1523404800000000, 1509840000000000]",
+    "RESULT mean(): 2017-11-06 22:30:07.333333"
+   ],
+   "stderr_tail": "        0.26 real         0.22 user         0.03 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; dtype after parsing strings: datetime64[us] ; astype('int64'): [1523404800000000, 1509840000000000] ; mean(): 2017-11-06 22:30:07.333333",
+   "wall_s": 0.27
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 98.1,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT dtype after parsing strings: datetime64[ns]",
+    "RESULT astype('int64'): [1523404800000000000, 1509840000000000000]",
+    "RESULT mean(): 2017-11-06 22:30:07.333333248"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; dtype after parsing strings: datetime64[ns] ; astype('int64'): [1523404800000000000, 1509840000000000000] ; mean(): 2017-11-06 22:30:07.333333248",
+   "wall_s": 0.27
+  },
+  "ref": {
+   "maxrss_mb": 97.8,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT dtype after parsing strings: datetime64[ns]",
+    "RESULT astype('int64'): [1523404800000000000, 1509840000000000000]",
+    "RESULT mean(): 2017-11-06 22:30:07.333333248"
+   ],
+   "stderr_tail": "        0.27 real         0.23 user         0.03 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; dtype after parsing strings: datetime64[ns] ; astype('int64'): [1523404800000000000, 1509840000000000000] ; mean(): 2017-11-06 22:30:07.333333248",
+   "wall_s": 0.28
+  }
+ },
+ "describe_datetime_numeric": {
+  "p15": {
+   "maxrss_mb": 93.1,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT describe() index and columns: (['count', 'mean', 'std', 'min', '25%', '50%', '75%', 'max'], ['x'])"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; describe() index and columns: (['count', 'mean', 'std', 'min', '25%', '50%', '75%', 'max'], ['x'])",
+   "wall_s": 0.28
+  },
+  "p30": {
+   "maxrss_mb": 99.0,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT describe() index and columns: (['count', 'mean', 'min', '25%', '50%', '75%', 'max', 'std'], ['t', 'x'])"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; describe() index and columns: (['count', 'mean', 'min', '25%', '50%', '75%', 'max', 'std'], ['t', 'x'])",
+   "wall_s": 0.28
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 98.2,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT describe() index and columns: (['count', 'mean', 'min', '25%', '50%', '75%', 'max', 'std'], ['t', 'x'])"
+   ],
+   "stderr_tail": "        0.27 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; describe() index and columns: (['count', 'mean', 'min', '25%', '50%', '75%', 'max', 'std'], ['t', 'x'])",
+   "wall_s": 0.28
+  },
+  "ref": {
+   "maxrss_mb": 98.2,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT describe() index and columns: (['count', 'mean', 'min', '25%', '50%', '75%', 'max', 'std'], ['t', 'x'])"
+   ],
+   "stderr_tail": "        0.28 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; describe() index and columns: (['count', 'mean', 'min', '25%', '50%', '75%', 'max', 'std'], ['t', 'x'])",
+   "wall_s": 0.29
+  }
+ },
+ "float_rounding_within_tolerance": {
+  "p15": {
+   "maxrss_mb": 103.5,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT parsed floats (repr): ['24.87302233333333', '25.005149333333332', '-73.9821548461914']",
+    "RESULT exact round trip vs float(): [False, False, True]",
+    "RESULT corr a,b (repr): {'a': {'a': 1.0, 'b': 0.00195562738191287}, 'b': {'a': 0.00195562738191287, 'b': 1.0}} dtype={'a': 'float64', 'b': 'float64'}",
+    "RESULT std / mean (repr): ('288273.2741057089', '499279.4992793096')"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; parsed floats (repr): ['24.87302233333333', '25.005149333333332', '-73.9821548461914'] ; exact round trip vs float(): [False, False, True] ; corr a,b (repr): {'a': {'a': 1.0, 'b': 0.00195562738191287}, 'b': {'a': 0.00195562738191287, 'b': 1.0}} dtype={'a': 'float64', 'b': 'float64'} ; std / mean (repr): ('288273.2741057089', '499279.4992793096')",
+   "wall_s": 0.28
+  },
+  "p30": {
+   "maxrss_mb": 106.6,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT parsed floats (repr): ['24.873022333333335', '25.005149333333335', '-73.9821548461914']",
+    "RESULT exact round trip vs float(): [True, True, True]",
+    "RESULT corr a,b (repr): {'a': {'a': 1.0, 'b': 0.001955627381912874}, 'b': {'a': 0.001955627381912874, 'b': 1.0}} dtype={'a': 'float64', 'b': 'float64'}",
+    "RESULT std / mean (repr): ('np.float64(288273.2741057089)', 'np.float64(499279.4992793096)')"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; parsed floats (repr): ['24.873022333333335', '25.005149333333335', '-73.9821548461914'] ; exact round trip vs float(): [True, True, True] ; corr a,b (repr): {'a': {'a': 1.0, 'b': 0.001955627381912874}, 'b': {'a': 0.001955627381912874, 'b': 1.0}} dtype={'a': 'float64', 'b': 'float64'} ; std / mean (repr): ('np.float64(288273.2741057089)', 'np.float64(499279.4992793096)')",
+   "wall_s": 0.28
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 105.9,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT parsed floats (repr): ['24.873022333333335', '25.005149333333335', '-73.9821548461914']",
+    "RESULT exact round trip vs float(): [True, True, True]",
+    "RESULT corr a,b (repr): {'a': {'a': 1.0, 'b': 0.001955627381912874}, 'b': {'a': 0.001955627381912874, 'b': 1.0}} dtype={'a': 'float64', 'b': 'float64'}",
+    "RESULT std / mean (repr): ('np.float64(288273.2741057089)', 'np.float64(499279.4992793096)')"
+   ],
+   "stderr_tail": "        0.28 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; parsed floats (repr): ['24.873022333333335', '25.005149333333335', '-73.9821548461914'] ; exact round trip vs float(): [True, True, True] ; corr a,b (repr): {'a': {'a': 1.0, 'b': 0.001955627381912874}, 'b': {'a': 0.001955627381912874, 'b': 1.0}} dtype={'a': 'float64', 'b': 'float64'} ; std / mean (repr): ('np.float64(288273.2741057089)', 'np.float64(499279.4992793096)')",
+   "wall_s": 0.29
+  },
+  "ref": {
+   "maxrss_mb": 104.0,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT parsed floats (repr): ['24.873022333333335', '25.005149333333335', '-73.9821548461914']",
+    "RESULT exact round trip vs float(): [True, True, True]",
+    "RESULT corr a,b (repr): {'a': {'a': 1.0, 'b': 0.001955627381912874}, 'b': {'a': 0.001955627381912874, 'b': 1.0}} dtype={'a': 'float64', 'b': 'float64'}",
+    "RESULT std / mean (repr): ('np.float64(288273.2741057089)', 'np.float64(499279.4992793096)')"
+   ],
+   "stderr_tail": "        0.27 real         0.23 user         0.03 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; parsed floats (repr): ['24.873022333333335', '25.005149333333335', '-73.9821548461914'] ; exact round trip vs float(): [True, True, True] ; corr a,b (repr): {'a': {'a': 1.0, 'b': 0.001955627381912874}, 'b': {'a': 0.001955627381912874, 'b': 1.0}} dtype={'a': 'float64', 'b': 'float64'} ; std / mean (repr): ('np.float64(288273.2741057089)', 'np.float64(499279.4992793096)')",
+   "wall_s": 0.28
+  }
+ },
+ "get_dummies_bool": {
+  "p15": {
+   "maxrss_mb": 93.7,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT get_dummies dtypes: ['uint8', 'uint8']"
+   ],
+   "stderr_tail": "        0.29 real         0.22 user         0.05 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; get_dummies dtypes: ['uint8', 'uint8']",
+   "wall_s": 0.3
+  },
+  "p30": {
+   "maxrss_mb": 99.7,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT get_dummies dtypes: ['bool', 'bool']"
+   ],
+   "stderr_tail": "        0.28 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; get_dummies dtypes: ['bool', 'bool']",
+   "wall_s": 0.29
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 98.2,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT get_dummies dtypes: ['bool', 'bool']"
+   ],
+   "stderr_tail": "        0.29 real         0.24 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; get_dummies dtypes: ['bool', 'bool']",
+   "wall_s": 0.3
+  },
+  "ref": {
+   "maxrss_mb": 98.1,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT get_dummies dtypes: ['bool', 'bool']"
+   ],
+   "stderr_tail": "        0.28 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; get_dummies dtypes: ['bool', 'bool']",
+   "wall_s": 0.29
+  }
+ },
+ "int_key_positional_fallback_removed": {
+  "p15": {
+   "maxrss_mb": 93.3,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT s[0] on a string index: first",
+    "RESULT corr()['x'][1]: 1.0"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; s[0] on a string index: first ; corr()['x'][1]: 1.0",
+   "wall_s": 0.28
+  },
+  "p30": {
+   "maxrss_mb": 98.6,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT s[0] on a string index: raised KeyError: 0",
+    "RESULT corr()['x'][1]: raised KeyError: 1"
+   ],
+   "stderr_tail": "        0.27 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; s[0] on a string index: raised KeyError: 0 ; corr()['x'][1]: raised KeyError: 1",
+   "wall_s": 0.28
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 98.0,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT s[0] on a string index: first",
+    "RESULT corr()['x'][1]: 1.0"
+   ],
+   "stderr_tail": "        0.28 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; s[0] on a string index: first ; corr()['x'][1]: 1.0",
+   "wall_s": 0.29
+  },
+  "ref": {
+   "maxrss_mb": 97.9,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT s[0] on a string index: first",
+    "RESULT corr()['x'][1]: 1.0"
+   ],
+   "stderr_tail": "        0.29 real         0.24 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; s[0] on a string index: first ; corr()['x'][1]: 1.0",
+   "wall_s": 0.3
+  }
+ },
+ "loc_setitem_inplace": {
+  "p15": {
+   "maxrss_mb": 92.8,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT dtype after df.loc[:, col] = to_datetime(...): ('datetime64[ns]', ['Timestamp', 'Timestamp'])"
+   ],
+   "stderr_tail": "        0.28 real         0.21 user         0.05 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; dtype after df.loc[:, col] = to_datetime(...): ('datetime64[ns]', ['Timestamp', 'Timestamp'])",
+   "wall_s": 0.29
+  },
+  "p30": {
+   "maxrss_mb": 98.6,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT dtype after df.loc[:, col] = to_datetime(...): raised TypeError: Invalid value '<DatetimeArray>"
+   ],
+   "stderr_tail": "        0.28 real         0.22 user         0.05 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; dtype after df.loc[:, col] = to_datetime(...): raised TypeError: Invalid value '<DatetimeArray>",
+   "wall_s": 0.29
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 97.7,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT dtype after df.loc[:, col] = to_datetime(...): ('object', ['Timestamp', 'Timestamp'])"
+   ],
+   "stderr_tail": "        0.26 real         0.22 user         0.03 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; dtype after df.loc[:, col] = to_datetime(...): ('object', ['Timestamp', 'Timestamp'])",
+   "wall_s": 0.27
+  },
+  "ref": {
+   "maxrss_mb": 97.5,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT dtype after df.loc[:, col] = to_datetime(...): ('object', ['Timestamp', 'Timestamp'])"
+   ],
+   "stderr_tail": "        0.36 real         0.24 user         0.06 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; dtype after df.loc[:, col] = to_datetime(...): ('object', ['Timestamp', 'Timestamp'])",
+   "wall_s": 0.36
+  }
+ },
+ "merge_row_order": {
+  "p15": {
+   "maxrss_mb": 93.6,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT inner merge order: [[1, 'x', 'p'], [1, 'z', 'p'], [2, 'y', 'q']]"
+   ],
+   "stderr_tail": "        0.26 real         0.21 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; inner merge order: [[1, 'x', 'p'], [1, 'z', 'p'], [2, 'y', 'q']]",
+   "wall_s": 0.27
+  },
+  "p30": {
+   "maxrss_mb": 98.8,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT inner merge order: [[1, 'x', 'p'], [2, 'y', 'q'], [1, 'z', 'p']]"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; inner merge order: [[1, 'x', 'p'], [2, 'y', 'q'], [1, 'z', 'p']]",
+   "wall_s": 0.28
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 98.9,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT inner merge order: [[1, 'x', 'p'], [2, 'y', 'q'], [1, 'z', 'p']]"
+   ],
+   "stderr_tail": "        0.28 real         0.24 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; inner merge order: [[1, 'x', 'p'], [2, 'y', 'q'], [1, 'z', 'p']]",
+   "wall_s": 0.29
+  },
+  "ref": {
+   "maxrss_mb": 98.4,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT inner merge order: [[1, 'x', 'p'], [2, 'y', 'q'], [1, 'z', 'p']]"
+   ],
+   "stderr_tail": "        0.28 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; inner merge order: [[1, 'x', 'p'], [2, 'y', 'q'], [1, 'z', 'p']]",
+   "wall_s": 0.28
+  }
+ },
+ "numeric_dtype_preservation": {
+  "p15": {
+   "maxrss_mb": 93.9,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT dt.year dtype: int64",
+    "RESULT Index(np.uint32 array) dtype: uint64",
+    "RESULT groupby uint32 key -> index dtype: uint64"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; dt.year dtype: int64 ; Index(np.uint32 array) dtype: uint64 ; groupby uint32 key -> index dtype: uint64",
+   "wall_s": 0.28
+  },
+  "p30": {
+   "maxrss_mb": 99.6,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT dt.year dtype: int32",
+    "RESULT Index(np.uint32 array) dtype: uint32",
+    "RESULT groupby uint32 key -> index dtype: uint32"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; dt.year dtype: int32 ; Index(np.uint32 array) dtype: uint32 ; groupby uint32 key -> index dtype: uint32",
+   "wall_s": 0.28
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 97.3,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT dt.year dtype: int32",
+    "RESULT Index(np.uint32 array) dtype: uint32",
+    "RESULT groupby uint32 key -> index dtype: uint32"
+   ],
+   "stderr_tail": "        0.28 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; dt.year dtype: int32 ; Index(np.uint32 array) dtype: uint32 ; groupby uint32 key -> index dtype: uint32",
+   "wall_s": 0.28
+  },
+  "ref": {
+   "maxrss_mb": 98.8,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT dt.year dtype: int32",
+    "RESULT Index(np.uint32 array) dtype: uint32",
+    "RESULT groupby uint32 key -> index dtype: uint32"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; dt.year dtype: int32 ; Index(np.uint32 array) dtype: uint32 ; groupby uint32 key -> index dtype: uint32",
+   "wall_s": 0.28
+  }
+ },
+ "numeric_only_default": {
+  "p15": {
+   "maxrss_mb": 93.7,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT groupby('Month').sum() columns: ['Price']"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; groupby('Month').sum() columns: ['Price']",
+   "wall_s": 0.28
+  },
+  "p30": {
+   "maxrss_mb": 99.7,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT groupby('Month').sum() columns: ['Product', 'Price']"
+   ],
+   "stderr_tail": "        0.26 real         0.21 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; groupby('Month').sum() columns: ['Product', 'Price']",
+   "wall_s": 0.27
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 97.8,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT groupby('Month').sum() columns: ['Product', 'Price']"
+   ],
+   "stderr_tail": "        0.27 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; groupby('Month').sum() columns: ['Product', 'Price']",
+   "wall_s": 0.28
+  },
+  "ref": {
+   "maxrss_mb": 98.0,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT groupby('Month').sum() columns: ['Product', 'Price']"
+   ],
+   "stderr_tail": "        0.27 real         0.23 user         0.03 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; groupby('Month').sum() columns: ['Product', 'Price']",
+   "wall_s": 0.28
+  }
+ },
+ "offset_alias_removed": {
+  "p15": {
+   "maxrss_mb": 93.5,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT date_range freq=AS: ['2000-01-01 00:00:00', '2001-01-01 00:00:00']",
+    "RESULT date_range freq=M: ['2000-01-31 00:00:00', '2000-02-29 00:00:00']",
+    "RESULT date_range freq=H: ['2000-01-01 00:00:00', '2000-01-01 01:00:00']",
+    "RESULT date_range freq=YS: ['2000-01-01 00:00:00', '2001-01-01 00:00:00']",
+    "RESULT date_range freq=ME: raised ValueError: Invalid frequency: ME",
+    "RESULT date_range freq=h: ['2000-01-01 00:00:00', '2000-01-01 01:00:00']"
+   ],
+   "stderr_tail": "        0.30 real         0.22 user         0.06 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; date_range freq=AS: ['2000-01-01 00:00:00', '2001-01-01 00:00:00'] ; date_range freq=M: ['2000-01-31 00:00:00', '2000-02-29 00:00:00'] ; date_range freq=H: ['2000-01-01 00:00:00', '2000-01-01 01:00:00'] ; date_range freq=YS: ['2000-01-01 00:00:00', '2001-01-01 00:00:00'] ; date_range freq=ME: raised ValueError: Invalid frequency: ME ; date_range freq=h: ['2000-01-01 00:00:00', '2000-01-01 01:00:00']",
+   "wall_s": 0.3
+  },
+  "p30": {
+   "maxrss_mb": 97.6,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT date_range freq=AS: raised ValueError: Invalid frequency: AS. Failed to parse with error message: ValueError(\"Invalid frequency: AS. Failed to parse with error message: KeyError('AS'). Did you mean Y",
+    "RESULT date_range freq=M: raised ValueError: Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")",
+    "RESULT date_range freq=H: raised ValueError: Invalid frequency: H. Failed to parse with error message: ValueError(\"Invalid frequency: H. Failed to parse with error message: KeyError('H'). Did you mean h?\")",
+    "RESULT date_range freq=YS: ['2000-01-01 00:00:00', '2001-01-01 00:00:00']",
+    "RESULT date_range freq=ME: ['2000-01-31 00:00:00', '2000-02-29 00:00:00']",
+    "RESULT date_range freq=h: ['2000-01-01 00:00:00', '2000-01-01 01:00:00']"
+   ],
+   "stderr_tail": "        0.26 real         0.21 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; date_range freq=AS: raised ValueError: Invalid frequency: AS. Failed to parse with error message: ValueError(\"Invalid frequency: AS. Failed to parse with error message: KeyError('AS'). Did you mean Y ; date_range freq=M: raised ValueError: Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\") ; date_range freq=H: raised ValueError: Invalid frequency: H. Failed to parse with error message: ValueError(\"Invalid frequency: H. Failed to parse with error message: KeyError('H'). Did you ",
+   "wall_s": 0.27
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 98.1,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT date_range freq=AS: ['2000-01-01 00:00:00', '2001-01-01 00:00:00']",
+    "RESULT date_range freq=M: ['2000-01-31 00:00:00', '2000-02-29 00:00:00']",
+    "RESULT date_range freq=H: ['2000-01-01 00:00:00', '2000-01-01 01:00:00']",
+    "RESULT date_range freq=YS: ['2000-01-01 00:00:00', '2001-01-01 00:00:00']",
+    "RESULT date_range freq=ME: ['2000-01-31 00:00:00', '2000-02-29 00:00:00']",
+    "RESULT date_range freq=h: ['2000-01-01 00:00:00', '2000-01-01 01:00:00']"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; date_range freq=AS: ['2000-01-01 00:00:00', '2001-01-01 00:00:00'] ; date_range freq=M: ['2000-01-31 00:00:00', '2000-02-29 00:00:00'] ; date_range freq=H: ['2000-01-01 00:00:00', '2000-01-01 01:00:00'] ; date_range freq=YS: ['2000-01-01 00:00:00', '2001-01-01 00:00:00'] ; date_range freq=ME: ['2000-01-31 00:00:00', '2000-02-29 00:00:00'] ; date_range freq=h: ['2000-01-01 00:00:00', '2000-01-01 01:00:00']",
+   "wall_s": 0.28
+  },
+  "ref": {
+   "maxrss_mb": 98.4,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT date_range freq=AS: ['2000-01-01 00:00:00', '2001-01-01 00:00:00']",
+    "RESULT date_range freq=M: ['2000-01-31 00:00:00', '2000-02-29 00:00:00']",
+    "RESULT date_range freq=H: ['2000-01-01 00:00:00', '2000-01-01 01:00:00']",
+    "RESULT date_range freq=YS: ['2000-01-01 00:00:00', '2001-01-01 00:00:00']",
+    "RESULT date_range freq=ME: ['2000-01-31 00:00:00', '2000-02-29 00:00:00']",
+    "RESULT date_range freq=h: ['2000-01-01 00:00:00', '2000-01-01 01:00:00']"
+   ],
+   "stderr_tail": "        0.27 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; date_range freq=AS: ['2000-01-01 00:00:00', '2001-01-01 00:00:00'] ; date_range freq=M: ['2000-01-31 00:00:00', '2000-02-29 00:00:00'] ; date_range freq=H: ['2000-01-01 00:00:00', '2000-01-01 01:00:00'] ; date_range freq=YS: ['2000-01-01 00:00:00', '2001-01-01 00:00:00'] ; date_range freq=ME: ['2000-01-31 00:00:00', '2000-02-29 00:00:00'] ; date_range freq=h: ['2000-01-01 00:00:00', '2000-01-01 01:00:00']",
+   "wall_s": 0.28
+  }
+ },
+ "p3_stricter_validation": {
+  "p15": {
+   "maxrss_mb": 93.0,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT drop(index=..., axis=1, errors='ignore'): (2, 1)"
+   ],
+   "stderr_tail": "        0.26 real         0.21 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; drop(index=..., axis=1, errors='ignore'): (2, 1)",
+   "wall_s": 0.27
+  },
+  "p30": {
+   "maxrss_mb": 98.0,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT drop(index=..., axis=1, errors='ignore'): raised ValueError: Cannot specify both 'axis' and 'index'/'columns'"
+   ],
+   "stderr_tail": "        0.26 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; drop(index=..., axis=1, errors='ignore'): raised ValueError: Cannot specify both 'axis' and 'index'/'columns'",
+   "wall_s": 0.27
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 97.5,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT drop(index=..., axis=1, errors='ignore'): (2, 1)"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; drop(index=..., axis=1, errors='ignore'): (2, 1)",
+   "wall_s": 0.28
+  },
+  "ref": {
+   "maxrss_mb": 97.7,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT drop(index=..., axis=1, errors='ignore'): (2, 1)"
+   ],
+   "stderr_tail": "        0.27 real         0.23 user         0.03 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; drop(index=..., axis=1, errors='ignore'): (2, 1)",
+   "wall_s": 0.28
+  }
+ },
+ "read_csv_big_int_python_ints": {
+  "p15": {
+   "maxrss_mb": 93.7,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT dtype: object",
+    "RESULT values (repr): [\"'0078700802378'\", \"'99999999999999999999999'\"]"
+   ],
+   "stderr_tail": "        0.24 real         0.20 user         0.03 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; dtype: object ; values (repr): [\"'0078700802378'\", \"'99999999999999999999999'\"]",
+   "wall_s": 0.25
+  },
+  "p30": {
+   "maxrss_mb": 98.1,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT dtype: object",
+    "RESULT values (repr): ['78700802378', '99999999999999999999999']"
+   ],
+   "stderr_tail": "        0.26 real         0.21 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; dtype: object ; values (repr): ['78700802378', '99999999999999999999999']",
+   "wall_s": 0.27
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 99.2,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT dtype: string[pyarrow]",
+    "RESULT values (repr): [\"'0078700802378'\", \"'99999999999999999999999'\"]"
+   ],
+   "stderr_tail": "        0.28 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; dtype: string[pyarrow] ; values (repr): [\"'0078700802378'\", \"'99999999999999999999999'\"]",
+   "wall_s": 0.29
+  },
+  "ref": {
+   "maxrss_mb": 98.1,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT dtype: object",
+    "RESULT values (repr): [\"'0078700802378'\", \"'99999999999999999999999'\"]"
+   ],
+   "stderr_tail": "        0.26 real         0.22 user         0.03 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; dtype: object ; values (repr): [\"'0078700802378'\", \"'99999999999999999999999'\"]",
+   "wall_s": 0.27
+  }
+ },
+ "read_csv_none_as_na": {
+  "p15": {
+   "maxrss_mb": 93.8,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT isna per row: [False, False, True]"
+   ],
+   "stderr_tail": "        0.26 real         0.21 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; isna per row: [False, False, True]",
+   "wall_s": 0.27
+  },
+  "p30": {
+   "maxrss_mb": 99.2,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT isna per row: [False, True, True]"
+   ],
+   "stderr_tail": "        0.26 real         0.21 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; isna per row: [False, True, True]",
+   "wall_s": 0.27
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 99.9,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT isna per row: [False, True, True]"
+   ],
+   "stderr_tail": "        0.29 real         0.24 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; isna per row: [False, True, True]",
+   "wall_s": 0.3
+  },
+  "ref": {
+   "maxrss_mb": 97.9,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT isna per row: [False, True, True]"
+   ],
+   "stderr_tail": "        0.27 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; isna per row: [False, True, True]",
+   "wall_s": 0.28
+  }
+ },
+ "removed_deprecated_api": {
+  "p15": {
+   "maxrss_mb": 93.5,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT fillna(method='bfill'): [1.0, 3.0, 3.0]",
+    "RESULT fillna(0, downcast='infer'): int64",
+    "RESULT to_datetime(infer_datetime_format=True): datetime64[ns]",
+    "RESULT pd.value_counts: {1: 2, 2: 1}",
+    "RESULT DataFrame.applymap: {'a': {0: 2}}",
+    "RESULT Index.sort attribute: True"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; fillna(method='bfill'): [1.0, 3.0, 3.0] ; fillna(0, downcast='infer'): int64 ; to_datetime(infer_datetime_format=True): datetime64[ns] ; pd.value_counts: {1: 2, 2: 1} ; DataFrame.applymap: {'a': {0: 2}} ; Index.sort attribute: True",
+   "wall_s": 0.28
+  },
+  "p30": {
+   "maxrss_mb": 97.9,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT fillna(method='bfill'): raised TypeError: NDFrame.fillna() got an unexpected keyword argument 'method'",
+    "RESULT fillna(0, downcast='infer'): raised TypeError: NDFrame.fillna() got an unexpected keyword argument 'downcast'",
+    "RESULT to_datetime(infer_datetime_format=True): raised TypeError: to_datetime() got an unexpected keyword argument 'infer_datetime_format'",
+    "RESULT pd.value_counts: raised AttributeError: module 'pandas' has no attribute 'value_counts'",
+    "RESULT DataFrame.applymap: raised AttributeError: 'DataFrame' object has no attribute 'applymap'",
+    "RESULT Index.sort attribute: raised AttributeError: 'Index' object has no attribute 'sort'"
+   ],
+   "stderr_tail": "        0.26 real         0.21 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; fillna(method='bfill'): raised TypeError: NDFrame.fillna() got an unexpected keyword argument 'method' ; fillna(0, downcast='infer'): raised TypeError: NDFrame.fillna() got an unexpected keyword argument 'downcast' ; to_datetime(infer_datetime_format=True): raised TypeError: to_datetime() got an unexpected keyword argument 'infer_datetime_format' ; pd.value_counts: raised AttributeError: module 'pandas' has no attribute 'value_counts' ; DataFrame.applymap: raised AttributeError: 'DataFrame' object has no attribute 'applymap' ; Index.sort attribute: raised Attrib",
+   "wall_s": 0.27
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 98.4,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT fillna(method='bfill'): [1.0, 3.0, 3.0]",
+    "RESULT fillna(0, downcast='infer'): int64",
+    "RESULT to_datetime(infer_datetime_format=True): datetime64[ns]",
+    "RESULT pd.value_counts: {1: 2, 2: 1}",
+    "RESULT DataFrame.applymap: {'a': {0: 2}}",
+    "RESULT Index.sort attribute: True"
+   ],
+   "stderr_tail": "        0.28 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; fillna(method='bfill'): [1.0, 3.0, 3.0] ; fillna(0, downcast='infer'): int64 ; to_datetime(infer_datetime_format=True): datetime64[ns] ; pd.value_counts: {1: 2, 2: 1} ; DataFrame.applymap: {'a': {0: 2}} ; Index.sort attribute: True",
+   "wall_s": 0.29
+  },
+  "ref": {
+   "maxrss_mb": 98.4,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT fillna(method='bfill'): [1.0, 3.0, 3.0]",
+    "RESULT fillna(0, downcast='infer'): int64",
+    "RESULT to_datetime(infer_datetime_format=True): datetime64[ns]",
+    "RESULT pd.value_counts: {1: 2, 2: 1}",
+    "RESULT DataFrame.applymap: {'a': {0: 2}}",
+    "RESULT Index.sort attribute: True"
+   ],
+   "stderr_tail": "        0.27 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; fillna(method='bfill'): [1.0, 3.0, 3.0] ; fillna(0, downcast='infer'): int64 ; to_datetime(infer_datetime_format=True): datetime64[ns] ; pd.value_counts: {1: 2, 2: 1} ; DataFrame.applymap: {'a': {0: 2}} ; Index.sort attribute: True",
+   "wall_s": 0.28
+  }
+ },
+ "row_order_ties": {
+  "p15": {
+   "maxrss_mb": 94.7,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT value_counts().nlargest(10) labels: ['n161', 'n289', 'n035', 'n041', 'n039', 'n227', 'n120', 'n288', 'n083', 'n086'] dtype=object",
+    "RESULT sort_values ties: id order: {1: 1, 3: 3, 6: 6, 2: 2, 5: 5, 0: 0, 4: 4} dtype=int64",
+    "RESULT groupby default group order: {'x': {'Man': 2, 'Nonbinary': 1, 'Woman': 1}} dtype={'x': 'int64'}"
+   ],
+   "stderr_tail": "        0.25 real         0.20 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; value_counts().nlargest(10) labels: ['n161', 'n289', 'n035', 'n041', 'n039', 'n227', 'n120', 'n288', 'n083', 'n086'] dtype=object ; sort_values ties: id order: {1: 1, 3: 3, 6: 6, 2: 2, 5: 5, 0: 0, 4: 4} dtype=int64 ; groupby default group order: {'x': {'Man': 2, 'Nonbinary': 1, 'Woman': 1}} dtype={'x': 'int64'}",
+   "wall_s": 0.26
+  },
+  "p30": {
+   "maxrss_mb": 101.2,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT value_counts().nlargest(10) labels: ['n161', 'n035', 'n289', 'n041', 'n010', 'n246', 'n114', 'n120', 'n288', 'n083'] dtype=str",
+    "RESULT sort_values ties: id order: {1: 1, 3: 3, 6: 6, 2: 2, 5: 5, 0: 0, 4: 4} dtype=int64",
+    "RESULT groupby default group order: {'x': {'Man': 2, 'Nonbinary': 1, 'Woman': 1}} dtype={'x': 'int64'}"
+   ],
+   "stderr_tail": "        0.25 real         0.21 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; value_counts().nlargest(10) labels: ['n161', 'n035', 'n289', 'n041', 'n010', 'n246', 'n114', 'n120', 'n288', 'n083'] dtype=str ; sort_values ties: id order: {1: 1, 3: 3, 6: 6, 2: 2, 5: 5, 0: 0, 4: 4} dtype=int64 ; groupby default group order: {'x': {'Man': 2, 'Nonbinary': 1, 'Woman': 1}} dtype={'x': 'int64'}",
+   "wall_s": 0.26
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 102.8,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT value_counts().nlargest(10) labels: ['n161', 'n035', 'n289', 'n041', 'n010', 'n246', 'n114', 'n120', 'n288', 'n083'] dtype=string[pyarrow]",
+    "RESULT sort_values ties: id order: {1: 1, 3: 3, 6: 6, 2: 2, 5: 5, 0: 0, 4: 4} dtype=int64",
+    "RESULT groupby default group order: {'x': {'Man': 2, 'Nonbinary': 1, 'Woman': 1}} dtype={'x': 'int64'}"
+   ],
+   "stderr_tail": "        0.28 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; value_counts().nlargest(10) labels: ['n161', 'n035', 'n289', 'n041', 'n010', 'n246', 'n114', 'n120', 'n288', 'n083'] dtype=string[pyarrow] ; sort_values ties: id order: {1: 1, 3: 3, 6: 6, 2: 2, 5: 5, 0: 0, 4: 4} dtype=int64 ; groupby default group order: {'x': {'Man': 2, 'Nonbinary': 1, 'Woman': 1}} dtype={'x': 'int64'}",
+   "wall_s": 0.29
+  },
+  "ref": {
+   "maxrss_mb": 99.2,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT value_counts().nlargest(10) labels: ['n161', 'n289', 'n035', 'n041', 'n039', 'n227', 'n120', 'n288', 'n083', 'n086'] dtype=object",
+    "RESULT sort_values ties: id order: {1: 1, 3: 3, 6: 6, 2: 2, 5: 5, 0: 0, 4: 4} dtype=int64",
+    "RESULT groupby default group order: {'x': {'Man': 2, 'Nonbinary': 1, 'Woman': 1}} dtype={'x': 'int64'}"
+   ],
+   "stderr_tail": "        0.27 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; value_counts().nlargest(10) labels: ['n161', 'n289', 'n035', 'n041', 'n039', 'n227', 'n120', 'n288', 'n083', 'n086'] dtype=object ; sort_values ties: id order: {1: 1, 3: 3, 6: 6, 2: 2, 5: 5, 0: 0, 4: 4} dtype=int64 ; groupby default group order: {'x': {'Man': 2, 'Nonbinary': 1, 'Woman': 1}} dtype={'x': 'int64'}",
+   "wall_s": 0.28
+  }
+ },
+ "setitem_incompatible_dtype_raises": {
+  "p15": {
+   "maxrss_mb": 93.6,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT int column <- '8+': ([1, 2, '8+'], 'object')",
+    "RESULT int column <- floats: [1.0, 0.6931471805599453, 1.0986122886681098]"
+   ],
+   "stderr_tail": "        0.26 real         0.21 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; int column <- '8+': ([1, 2, '8+'], 'object') ; int column <- floats: [1.0, 0.6931471805599453, 1.0986122886681098]",
+   "wall_s": 0.26
+  },
+  "p30": {
+   "maxrss_mb": 98.8,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT int column <- '8+': raised TypeError: Invalid value '8+' for dtype 'int64'",
+    "RESULT int column <- floats: raised TypeError: Invalid value '[0.69314718 1.09861229]' for dtype 'int64'"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; int column <- '8+': raised TypeError: Invalid value '8+' for dtype 'int64' ; int column <- floats: raised TypeError: Invalid value '[0.69314718 1.09861229]' for dtype 'int64'",
+   "wall_s": 0.28
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 98.3,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT int column <- '8+': ([1, 2, '8+'], 'object')",
+    "RESULT int column <- floats: [1.0, 0.6931471805599453, 1.0986122886681098]"
+   ],
+   "stderr_tail": "        0.28 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; int column <- '8+': ([1, 2, '8+'], 'object') ; int column <- floats: [1.0, 0.6931471805599453, 1.0986122886681098]",
+   "wall_s": 0.29
+  },
+  "ref": {
+   "maxrss_mb": 98.2,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT int column <- '8+': ([1, 2, '8+'], 'object')",
+    "RESULT int column <- floats: [1.0, 0.6931471805599453, 1.0986122886681098]"
+   ],
+   "stderr_tail": "        0.28 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; int column <- '8+': ([1, 2, '8+'], 'object') ; int column <- floats: [1.0, 0.6931471805599453, 1.0986122886681098]",
+   "wall_s": 0.29
+  }
+ },
+ "str_default_dtype": {
+  "p15": {
+   "maxrss_mb": 93.1,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT column dtype: object",
+    "RESULT dtypes as values: ['object', 'int64']",
+    "RESULT unique() type: ndarray"
+   ],
+   "stderr_tail": "        0.26 real         0.21 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; column dtype: object ; dtypes as values: ['object', 'int64'] ; unique() type: ndarray",
+   "wall_s": 0.27
+  },
+  "p30": {
+   "maxrss_mb": 99.3,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT column dtype: str",
+    "RESULT dtypes as values: ['str', 'int64']",
+    "RESULT unique() type: ArrowStringArray"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; column dtype: str ; dtypes as values: ['str', 'int64'] ; unique() type: ArrowStringArray",
+   "wall_s": 0.27
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 99.8,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT column dtype: string[pyarrow]",
+    "RESULT dtypes as values: ['string[pyarrow]', 'int64[pyarrow]']",
+    "RESULT unique() type: ArrowExtensionArray"
+   ],
+   "stderr_tail": "        0.28 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; column dtype: string[pyarrow] ; dtypes as values: ['string[pyarrow]', 'int64[pyarrow]'] ; unique() type: ArrowExtensionArray",
+   "wall_s": 0.29
+  },
+  "ref": {
+   "maxrss_mb": 97.7,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT column dtype: object",
+    "RESULT dtypes as values: ['object', 'int64']",
+    "RESULT unique() type: ndarray"
+   ],
+   "stderr_tail": "        0.27 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; column dtype: object ; dtypes as values: ['object', 'int64'] ; unique() type: ndarray",
+   "wall_s": 0.28
+  }
+ },
+ "str_dtype_errors": {
+  "p15": {
+   "maxrss_mb": 93.9,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT dtypes.sort_values() with float64 and str: ['float64', 'object']",
+    "RESULT setitem float into string Series: (['a', 2.5], 'object')",
+    "RESULT categorical with object vs str categories union: category"
+   ],
+   "stderr_tail": "        0.26 real         0.21 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; dtypes.sort_values() with float64 and str: ['float64', 'object'] ; setitem float into string Series: (['a', 2.5], 'object') ; categorical with object vs str categories union: category",
+   "wall_s": 0.27
+  },
+  "p30": {
+   "maxrss_mb": 100.0,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT dtypes.sort_values() with float64 and str: raised TypeError: '<' not supported between instances of 'StringDtype' and 'numpy.dtypes.Float64DType'",
+    "RESULT setitem float into string Series: raised TypeError: Invalid value '2.5' for dtype 'str'. Value should be a string or missing value, got 'float' instead.",
+    "RESULT categorical with object vs str categories union: category"
+   ],
+   "stderr_tail": "        0.26 real         0.21 user         0.03 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; dtypes.sort_values() with float64 and str: raised TypeError: '<' not supported between instances of 'StringDtype' and 'numpy.dtypes.Float64DType' ; setitem float into string Series: raised TypeError: Invalid value '2.5' for dtype 'str'. Value should be a string or missing value, got 'float' instead. ; categorical with object vs str categories union: category",
+   "wall_s": 0.27
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 98.3,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT dtypes.sort_values() with float64 and str: ['float64', 'object']",
+    "RESULT setitem float into string Series: (['a', 2.5], 'object')",
+    "RESULT categorical with object vs str categories union: category"
+   ],
+   "stderr_tail": "        0.26 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; dtypes.sort_values() with float64 and str: ['float64', 'object'] ; setitem float into string Series: (['a', 2.5], 'object') ; categorical with object vs str categories union: category",
+   "wall_s": 0.27
+  },
+  "ref": {
+   "maxrss_mb": 98.4,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT dtypes.sort_values() with float64 and str: ['float64', 'object']",
+    "RESULT setitem float into string Series: (['a', 2.5], 'object')",
+    "RESULT categorical with object vs str categories union: category"
+   ],
+   "stderr_tail": "        0.29 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; dtypes.sort_values() with float64 and str: ['float64', 'object'] ; setitem float into string Series: (['a', 2.5], 'object') ; categorical with object vs str categories union: category",
+   "wall_s": 0.3
+  }
+ },
+ "str_dtype_na_semantics": {
+  "p15": {
+   "maxrss_mb": 93.0,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT astype(str) of a missing value: [\"'1.5'\", \"'nan'\"]",
+    "RESULT str.split(...).tolist() -> DataFrame.stack().unique(): raised TypeError: object of type 'NoneType' has no len()",
+    "RESULT str.contains on missing: ['True', 'None', 'False']"
+   ],
+   "stderr_tail": "        0.26 real         0.21 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; astype(str) of a missing value: [\"'1.5'\", \"'nan'\"] ; str.split(...).tolist() -> DataFrame.stack().unique(): raised TypeError: object of type 'NoneType' has no len() ; str.contains on missing: ['True', 'None', 'False']",
+   "wall_s": 0.27
+  },
+  "p30": {
+   "maxrss_mb": 98.7,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT astype(str) of a missing value: [\"'1.5'\", 'nan']",
+    "RESULT str.split(...).tolist() -> DataFrame.stack().unique(): raised TypeError: object of type 'float' has no len()",
+    "RESULT str.contains on missing: ['True', 'False', 'False']"
+   ],
+   "stderr_tail": "        0.26 real         0.21 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; astype(str) of a missing value: [\"'1.5'\", 'nan'] ; str.split(...).tolist() -> DataFrame.stack().unique(): raised TypeError: object of type 'float' has no len() ; str.contains on missing: ['True', 'False', 'False']",
+   "wall_s": 0.27
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 98.0,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT astype(str) of a missing value: [\"'1.5'\", \"'nan'\"]",
+    "RESULT str.split(...).tolist() -> DataFrame.stack().unique(): raised TypeError: object of type 'NoneType' has no len()",
+    "RESULT str.contains on missing: ['True', 'None', 'False']"
+   ],
+   "stderr_tail": "        0.27 real         0.23 user         0.03 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; astype(str) of a missing value: [\"'1.5'\", \"'nan'\"] ; str.split(...).tolist() -> DataFrame.stack().unique(): raised TypeError: object of type 'NoneType' has no len() ; str.contains on missing: ['True', 'None', 'False']",
+   "wall_s": 0.28
+  },
+  "ref": {
+   "maxrss_mb": 97.8,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT astype(str) of a missing value: [\"'1.5'\", \"'nan'\"]",
+    "RESULT str.split(...).tolist() -> DataFrame.stack().unique(): raised TypeError: object of type 'NoneType' has no len()",
+    "RESULT str.contains on missing: ['True', 'None', 'False']"
+   ],
+   "stderr_tail": "        0.28 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; astype(str) of a missing value: [\"'1.5'\", \"'nan'\"] ; str.split(...).tolist() -> DataFrame.stack().unique(): raised TypeError: object of type 'NoneType' has no len() ; str.contains on missing: ['True', 'None', 'False']",
+   "wall_s": 0.29
+  }
+ },
+ "str_dtype_object_checks": {
+  "p15": {
+   "maxrss_mb": 93.5,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT cat cols via dtypes == 'object': ['city']",
+    "RESULT num cols via dtype != 'object': ['price', 'rooms']",
+    "RESULT select_dtypes(include='object'): ['city']"
+   ],
+   "stderr_tail": "        0.25 real         0.21 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; cat cols via dtypes == 'object': ['city'] ; num cols via dtype != 'object': ['price', 'rooms'] ; select_dtypes(include='object'): ['city']",
+   "wall_s": 0.26
+  },
+  "p30": {
+   "maxrss_mb": 99.6,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT cat cols via dtypes == 'object': []",
+    "RESULT num cols via dtype != 'object': ['city', 'price', 'rooms']",
+    "RESULT select_dtypes(include='object'): ['city']"
+   ],
+   "stderr_tail": "        0.26 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; cat cols via dtypes == 'object': [] ; num cols via dtype != 'object': ['city', 'price', 'rooms'] ; select_dtypes(include='object'): ['city']",
+   "wall_s": 0.27
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 100.2,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT cat cols via dtypes == 'object': []",
+    "RESULT num cols via dtype != 'object': ['city', 'price', 'rooms']",
+    "RESULT select_dtypes(include='object'): []"
+   ],
+   "stderr_tail": "        0.27 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; cat cols via dtypes == 'object': [] ; num cols via dtype != 'object': ['city', 'price', 'rooms'] ; select_dtypes(include='object'): []",
+   "wall_s": 0.28
+  },
+  "ref": {
+   "maxrss_mb": 98.1,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT cat cols via dtypes == 'object': ['city']",
+    "RESULT num cols via dtype != 'object': ['price', 'rooms']",
+    "RESULT select_dtypes(include='object'): ['city']"
+   ],
+   "stderr_tail": "        0.28 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; cat cols via dtypes == 'object': ['city'] ; num cols via dtype != 'object': ['price', 'rooms'] ; select_dtypes(include='object'): ['city']",
+   "wall_s": 0.29
+  }
+ },
+ "str_replace_regex_default": {
+  "p15": {
+   "maxrss_mb": 92.7,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT str.replace('(Sr.)', 'sr.'): ['sr. Data Scientist', '(sr.) Analyst']"
+   ],
+   "stderr_tail": "        0.24 real         0.20 user         0.03 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; str.replace('(Sr.)', 'sr.'): ['sr. Data Scientist', '(sr.) Analyst']",
+   "wall_s": 0.25
+  },
+  "p30": {
+   "maxrss_mb": 98.1,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT str.replace('(Sr.)', 'sr.'): ['Sr. Data Scientist', 'sr. Analyst']"
+   ],
+   "stderr_tail": "        0.26 real         0.22 user         0.03 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; str.replace('(Sr.)', 'sr.'): ['Sr. Data Scientist', 'sr. Analyst']",
+   "wall_s": 0.27
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 97.6,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT str.replace('(Sr.)', 'sr.'): ['Sr. Data Scientist', 'sr. Analyst']"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; str.replace('(Sr.)', 'sr.'): ['Sr. Data Scientist', 'sr. Analyst']",
+   "wall_s": 0.28
+  },
+  "ref": {
+   "maxrss_mb": 98.0,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT str.replace('(Sr.)', 'sr.'): ['Sr. Data Scientist', 'sr. Analyst']"
+   ],
+   "stderr_tail": "        0.28 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; str.replace('(Sr.)', 'sr.'): ['Sr. Data Scientist', 'sr. Analyst']",
+   "wall_s": 0.28
+  }
+ },
+ "to_datetime_consistent_format": {
+  "p15": {
+   "maxrss_mb": 92.5,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT to_datetime(errors='coerce'): ['2001-01-13 00:00:00', '2001-02-01 00:00:00', '2001-02-13 00:00:00', '2001-03-01 00:00:00']"
+   ],
+   "stderr_tail": "        0.24 real         0.20 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; to_datetime(errors='coerce'): ['2001-01-13 00:00:00', '2001-02-01 00:00:00', '2001-02-13 00:00:00', '2001-03-01 00:00:00']",
+   "wall_s": 0.25
+  },
+  "p30": {
+   "maxrss_mb": 98.0,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT to_datetime(errors='coerce'): ['2001-01-13 00:00:00', 'NaT', 'NaT', 'NaT']"
+   ],
+   "stderr_tail": "        0.26 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; to_datetime(errors='coerce'): ['2001-01-13 00:00:00', 'NaT', 'NaT', 'NaT']",
+   "wall_s": 0.27
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 97.8,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT to_datetime(errors='coerce'): ['2001-01-13 00:00:00', 'NaT', 'NaT', 'NaT']"
+   ],
+   "stderr_tail": "        0.27 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; to_datetime(errors='coerce'): ['2001-01-13 00:00:00', 'NaT', 'NaT', 'NaT']",
+   "wall_s": 0.28
+  },
+  "ref": {
+   "maxrss_mb": 97.9,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT to_datetime(errors='coerce'): ['2001-01-13 00:00:00', 'NaT', 'NaT', 'NaT']"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.03 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; to_datetime(errors='coerce'): ['2001-01-13 00:00:00', 'NaT', 'NaT', 'NaT']",
+   "wall_s": 0.27
+  }
+ },
+ "value_counts_naming": {
+  "p15": {
+   "maxrss_mb": 93.0,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=1.5.3",
+    "RESULT value_counts name / index name: ('col', None)",
+    "RESULT to_frame().reset_index() columns: ['index', 'col']",
+    "RESULT normalize=True name: col"
+   ],
+   "stderr_tail": "        0.26 real         0.21 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=1.5.3 ; value_counts name / index name: ('col', None) ; to_frame().reset_index() columns: ['index', 'col'] ; normalize=True name: col",
+   "wall_s": 0.27
+  },
+  "p30": {
+   "maxrss_mb": 99.4,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=3.0.6",
+    "RESULT value_counts name / index name: ('count', 'col')",
+    "RESULT to_frame().reset_index() columns: ['col', 'count']",
+    "RESULT normalize=True name: proportion"
+   ],
+   "stderr_tail": "        0.27 real         0.22 user         0.04 sys",
+   "summary": "env: mode=pandas pandas=3.0.6 ; value_counts name / index name: ('count', 'col') ; to_frame().reset_index() columns: ['col', 'count'] ; normalize=True name: proportion",
+   "wall_s": 0.28
+  },
+  "pyarrow_backend": {
+   "maxrss_mb": 97.8,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pyarrow_backend pandas=2.3.3",
+    "RESULT value_counts name / index name: ('count', 'col')",
+    "RESULT to_frame().reset_index() columns: ['col', 'count']",
+    "RESULT normalize=True name: proportion"
+   ],
+   "stderr_tail": "        0.27 real         0.23 user         0.04 sys",
+   "summary": "env: mode=pyarrow_backend pandas=2.3.3 ; value_counts name / index name: ('count', 'col') ; to_frame().reset_index() columns: ['col', 'count'] ; normalize=True name: proportion",
+   "wall_s": 0.28
+  },
+  "ref": {
+   "maxrss_mb": 98.1,
+   "rc": 0,
+   "result_lines": [
+    "RESULT env: mode=pandas pandas=2.3.3",
+    "RESULT value_counts name / index name: ('count', 'col')",
+    "RESULT to_frame().reset_index() columns: ['col', 'count']",
+    "RESULT normalize=True name: proportion"
+   ],
+   "stderr_tail": "        0.27 real         0.23 user         0.03 sys",
+   "summary": "env: mode=pandas pandas=2.3.3 ; value_counts name / index name: ('count', 'col') ; to_frame().reset_index() columns: ['col', 'count'] ; normalize=True name: proportion",
+   "wall_s": 0.28
+  }
+ }
+}

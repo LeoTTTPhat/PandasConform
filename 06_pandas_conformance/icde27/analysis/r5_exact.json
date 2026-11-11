@@ -1,0 +1,2097 @@
+{
+ "generated_from": {
+  "compare_tag": "d92c8db54d45b",
+  "harness_tag": "hd1c421ecb5ee",
+  "overrides": "icde27/analysis/r5_capture/c1_overrides.json graded (152 cells)",
+  "bootstrap": {
+   "resamples": 10000,
+   "seed": 20261026,
+   "unit": "notebook",
+   "interval": "percentile"
+  }
+ },
+ "consistency_checks": {
+  "n": 84,
+  "mismatches": 0
+ },
+ "definitions": {
+  "introduced_DIFF_all": "a notebook with a cell whose grade worsens to DIFF (pure definition), all cells",
+  "introduced_DIFF": "as introduced_DIFF_all, without the 16 printed-form cells of the single rater (in the exact basis only the one without an exact encoding still differs)",
+  "introduced_DIFF_heuristic_all": "as introduced_DIFF_all with the heuristic of Section IV (59 cells inherited)",
+  "introduced_DIFF_heuristic": "as introduced_DIFF with the heuristic of Section IV",
+  "error_free": "as r5_reliability.json",
+  "agreeing": "as r5_reliability.json"
+ },
+ "known_artifacts_without_override": [
+  "modin|j0thu777/onlineretailanalysis|20"
+ ],
+ "base": {
+  "clean_E2": {
+   "p15": {
+    "clean_E2_cells": 2129,
+    "clean_E2_DIFF": 49,
+    "clean_E2_DIFF_share": 0.023016
+   },
+   "p30": {
+    "clean_E2_cells": 2215,
+    "clean_E2_DIFF": 56,
+    "clean_E2_DIFF_share": 0.025282
+   },
+   "pyarrow_backend": {
+    "clean_E2_cells": 1091,
+    "clean_E2_DIFF": 28,
+    "clean_E2_DIFF_share": 0.025665
+   },
+   "modin": {
+    "clean_E2_cells": 2332,
+    "clean_E2_DIFF": 47,
+    "clean_E2_DIFF_share": 0.020154
+   },
+   "fireducks": {
+    "clean_E2_cells": 1248,
+    "clean_E2_DIFF": 34,
+    "clean_E2_DIFF_share": 0.027244
+   },
+   "bodo": {
+    "clean_E2_cells": 753,
+    "clean_E2_DIFF": 45,
+    "clean_E2_DIFF_share": 0.059761
+   },
+   "dask": {
+    "clean_E2_cells": 545,
+    "clean_E2_DIFF": 34,
+    "clean_E2_DIFF_share": 0.062385
+   }
+  },
+  "notebooks": {
+   "p15": {
+    "error_free": 100,
+    "agreeing": 59,
+    "introduced_DIFF_all": 36,
+    "introduced_DIFF": 36,
+    "introduced_DIFF_heuristic_all": 34,
+    "introduced_DIFF_heuristic": 34,
+    "introduced_DIFF_notebooks_all": [
+     "akshaypetkar/supermarket-sales-analysis",
+     "ashukr/first-step-ingestion-to-prediction",
+     "beratozmen/clash-of-clans-exploratory-data-analysis",
+     "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+     "brianmendieta/data-cleaning-plus-eda",
+     "carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled",
+     "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+     "corazzon/how-to-use-pandas-filter-in-survey-eda",
+     "dbatao/kernel2f80fc9d78",
+     "galiph/titanic-explorary-data-analysis",
+     "guyalmog/hr-analytics-predicting-employees-attrition",
+     "jirakst/book-recommendation",
+     "kanncaa1/dataiteam-titanic-eda",
+     "kenjee/titanic-project-example",
+     "koko1998/summer-products-and-sales-wish-com",
+     "loveall/favorita-analytics",
+     "luizep/movieslens20m",
+     "macespinoza/simple-eda-with-python-pandas-data-avocado-paltas",
+     "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+     "nadare/feature-engenieering-with-pivot-table",
+     "penny8/my-sub1",
+     "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697",
+     "robinfaber/monsters-a-simple-logistic-regression-approach",
+     "sabya40/data-cleaning-and-pandas-for-beginners",
+     "sal001/beginner-s-note-top-12-by-single-linear-model",
+     "santhoshrao1995/assi01-santhosh-19101036",
+     "sudheer259/house-price-prediction",
+     "sunnybiswas/eda-on-airline-dataset",
+     "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+     "ukveteran/sarima-time-series-eda-predict-jma-sao-paulo",
+     "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+     "willkoehrsen/start-here-a-gentle-introduction",
+     "wyl4417/machine-learning-and-how-it-affects-you",
+     "xokent/cyber-security-attack-eda",
+     "yonelanuba/elo-merchant-by-yonela",
+     "yuliagm/talkingdata-eda-plus-time-patterns"
+    ]
+   },
+   "p30": {
+    "error_free": 74,
+    "agreeing": 49,
+    "introduced_DIFF_all": 33,
+    "introduced_DIFF": 33,
+    "introduced_DIFF_heuristic_all": 33,
+    "introduced_DIFF_heuristic": 33,
+    "introduced_DIFF_notebooks_all": [
+     "akgauravin/gun-violence-data-exploration-and-plotting",
+     "arjoonn/scout-script-7",
+     "ayushsingh5941/tweet-disaster-or-not",
+     "beratozmen/clash-of-clans-exploratory-data-analysis",
+     "brianmendieta/data-cleaning-plus-eda",
+     "chinstan/notebook249b4f3f5b",
+     "dbatao/kernel2f80fc9d78",
+     "ersinsen/fraud-3-eda",
+     "grudd0/mass-shooting-analysis",
+     "j0thu777/onlineretailanalysis",
+     "jagangupta/stop-the-s-toxic-comments-eda",
+     "julieberteaux/workshop-2",
+     "jyotsananegi/melbourne-housing-snapshot-eda",
+     "kanncaa1/dataiteam-titanic-eda",
+     "kimtaehun/simple-preprocessing-for-time-series-prediction",
+     "koko1998/summer-products-and-sales-wish-com",
+     "luckygemini/notebook5d5fc80c9f",
+     "luizep/movieslens20m",
+     "nihhaar/etltransform",
+     "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+     "sal001/beginner-s-note-top-12-by-single-linear-model",
+     "salmaneunus/student-s-performance-quantitative-visual-eda",
+     "saniaks/melbourne-house-price-eda",
+     "santhoshrao1995/assi01-santhosh-19101036",
+     "shivavashishtha/zomato-eda-tutorial",
+     "sunnybiswas/eda-on-airline-dataset",
+     "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+     "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+     "willkoehrsen/start-here-a-gentle-introduction",
+     "wyl4417/machine-learning-and-how-it-affects-you",
+     "xokent/cyber-security-attack-eda",
+     "yonelanuba/elo-merchant-by-yonela",
+     "yuliagm/talkingdata-eda-plus-time-patterns"
+    ]
+   },
+   "pyarrow_backend": {
+    "error_free": 73,
+    "agreeing": 42,
+    "introduced_DIFF_all": 38,
+    "introduced_DIFF": 33,
+    "introduced_DIFF_heuristic_all": 36,
+    "introduced_DIFF_heuristic": 31,
+    "introduced_DIFF_notebooks_all": [
+     "akgauravin/gun-violence-data-exploration-and-plotting",
+     "akshaypetkar/supermarket-sales-analysis",
+     "bcannon/indexing-selecting-assigning",
+     "beratozmen/clash-of-clans-exploratory-data-analysis",
+     "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+     "carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled",
+     "chinstan/notebook249b4f3f5b",
+     "dbatao/kernel2f80fc9d78",
+     "ersinsen/fraud-3-eda",
+     "grudd0/mass-shooting-analysis",
+     "jackwatson99/pima-indians-diabetes-rf-81",
+     "kenjee/titanic-project-example",
+     "kimtaehun/simple-preprocessing-for-time-series-prediction",
+     "kmader/analyzing-matches",
+     "luizep/movieslens20m",
+     "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+     "nihhaar/etltransform",
+     "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+     "penny8/my-sub1",
+     "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697",
+     "pradeepjeya/allstate-encoding-high-cardinality-features",
+     "sal001/beginner-s-note-top-12-by-single-linear-model",
+     "salmaneunus/student-s-performance-quantitative-visual-eda",
+     "saniaks/melbourne-house-price-eda",
+     "sanket30/eda-of-application-train-home-credit-default",
+     "santhoshrao1995/assi01-santhosh-19101036",
+     "shivavashishtha/zomato-eda-tutorial",
+     "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+     "sudheer259/house-price-prediction",
+     "sunnybiswas/eda-on-airline-dataset",
+     "taylorhickem/singapore-building-energy",
+     "tunguz/fathers-day-specials-just-the-features",
+     "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+     "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+     "willkoehrsen/start-here-a-gentle-introduction",
+     "wyl4417/machine-learning-and-how-it-affects-you",
+     "xingobar/computer-science-data-visualization",
+     "yonelanuba/elo-merchant-by-yonela"
+    ]
+   },
+   "modin": {
+    "error_free": 69,
+    "agreeing": 45,
+    "introduced_DIFF_all": 36,
+    "introduced_DIFF": 34,
+    "introduced_DIFF_heuristic_all": 36,
+    "introduced_DIFF_heuristic": 34,
+    "introduced_DIFF_notebooks_all": [
+     "artgor/eda-and-models",
+     "balajivenkat96/solar-plants",
+     "brianmendieta/data-cleaning-plus-eda",
+     "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+     "chinstan/notebook249b4f3f5b",
+     "christophriley/intro-machine-learning",
+     "danielresende/game-of-thrones-battles",
+     "dbatao/kernel2f80fc9d78",
+     "deffro/eda-is-fun",
+     "ersinsen/fraud-3-eda",
+     "grudd0/mass-shooting-analysis",
+     "gsilves/quiz-4-question-1",
+     "guyalmog/hr-analytics-predicting-employees-attrition",
+     "j0thu777/onlineretailanalysis",
+     "jagangupta/stop-the-s-toxic-comments-eda",
+     "jirakst/book-recommendation",
+     "kenjee/titanic-project-example",
+     "kmader/analyzing-matches",
+     "kwullum/when-do-traffic-related-deaths-occur",
+     "luizep/movieslens20m",
+     "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+     "nihhaar/etltransform",
+     "qnqfbqfqo/electric-vehicle-landscape-in-washington-state",
+     "sabya40/data-cleaning-and-pandas-for-beginners",
+     "saniaks/melbourne-house-price-eda",
+     "santhoshrao1995/assi01-santhosh-19101036",
+     "shivavashishtha/zomato-eda-tutorial",
+     "sunnybiswas/eda-on-airline-dataset",
+     "thirumani/biggboss-hindi-telugu-tamil-kannada-marathi-bangla",
+     "trinath003/data-manipulation-visualisation-on-kaggle-datasets",
+     "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+     "willkoehrsen/start-here-a-gentle-introduction",
+     "wyl4417/machine-learning-and-how-it-affects-you",
+     "xingobar/computer-science-data-visualization",
+     "yonelanuba/elo-merchant-by-yonela",
+     "yuliagm/talkingdata-eda-plus-time-patterns"
+    ]
+   },
+   "fireducks": {
+    "error_free": 66,
+    "agreeing": 35,
+    "introduced_DIFF_all": 43,
+    "introduced_DIFF": 41,
+    "introduced_DIFF_heuristic_all": 40,
+    "introduced_DIFF_heuristic": 38,
+    "introduced_DIFF_notebooks_all": [
+     "akshaypetkar/supermarket-sales-analysis",
+     "arjoonn/scout-script-7",
+     "ashukr/first-step-ingestion-to-prediction",
+     "ayushsingh5941/tweet-disaster-or-not",
+     "beratozmen/clash-of-clans-exploratory-data-analysis",
+     "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+     "brianmendieta/data-cleaning-plus-eda",
+     "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+     "danielresende/game-of-thrones-battles",
+     "dbatao/kernel2f80fc9d78",
+     "ersinsen/fraud-3-eda",
+     "grudd0/mass-shooting-analysis",
+     "guyalmog/hr-analytics-predicting-employees-attrition",
+     "jagangupta/stop-the-s-toxic-comments-eda",
+     "jyotsananegi/melbourne-housing-snapshot-eda",
+     "kanncaa1/dataiteam-titanic-eda",
+     "kenjee/titanic-project-example",
+     "kmader/analyzing-matches",
+     "koko1998/summer-products-and-sales-wish-com",
+     "kwullum/when-do-traffic-related-deaths-occur",
+     "loveall/favorita-analytics",
+     "luckygemini/notebook5d5fc80c9f",
+     "luizep/movieslens20m",
+     "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+     "nadare/feature-engenieering-with-pivot-table",
+     "nandhuelan/ott-platforms",
+     "nihhaar/etltransform",
+     "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+     "sal001/beginner-s-note-top-12-by-single-linear-model",
+     "saniaks/melbourne-house-price-eda",
+     "santhoshrao1995/assi01-santhosh-19101036",
+     "shivavashishtha/zomato-eda-tutorial",
+     "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+     "sudheer259/house-price-prediction",
+     "sunnybiswas/eda-on-airline-dataset",
+     "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+     "taylorhickem/singapore-building-energy",
+     "vbmokin/automatic-eda-with-pandas-profiling-2-9-09-2020",
+     "willkoehrsen/start-here-a-gentle-introduction",
+     "wyl4417/machine-learning-and-how-it-affects-you",
+     "xokent/cyber-security-attack-eda",
+     "yonelanuba/elo-merchant-by-yonela",
+     "yuliagm/talkingdata-eda-plus-time-patterns"
+    ]
+   },
+   "bodo": {
+    "error_free": 16,
+    "agreeing": 8,
+    "introduced_DIFF_all": 47,
+    "introduced_DIFF": 45,
+    "introduced_DIFF_heuristic_all": 45,
+    "introduced_DIFF_heuristic": 43,
+    "introduced_DIFF_notebooks_all": [
+     "akgauravin/gun-violence-data-exploration-and-plotting",
+     "akshaypetkar/supermarket-sales-analysis",
+     "artgor/eda-and-models",
+     "ayushsingh5941/tweet-disaster-or-not",
+     "balajivenkat96/solar-plants",
+     "bcannon/indexing-selecting-assigning",
+     "beratozmen/clash-of-clans-exploratory-data-analysis",
+     "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+     "brianmendieta/data-cleaning-plus-eda",
+     "carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled",
+     "corazzon/how-to-use-pandas-filter-in-survey-eda",
+     "deffro/eda-is-fun",
+     "ersinsen/fraud-3-eda",
+     "gmanish/help-ngo-country-clustering",
+     "grudd0/mass-shooting-analysis",
+     "guyalmog/hr-analytics-predicting-employees-attrition",
+     "jackwatson99/pima-indians-diabetes-rf-81",
+     "jagangupta/stop-the-s-toxic-comments-eda",
+     "julieberteaux/workshop-2",
+     "kanncaa1/dataiteam-titanic-eda",
+     "kenjee/titanic-project-example",
+     "kwullum/when-do-traffic-related-deaths-occur",
+     "luizep/movieslens20m",
+     "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost",
+     "nadare/feature-engenieering-with-pivot-table",
+     "nihhaar/etltransform",
+     "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+     "sabya40/data-cleaning-and-pandas-for-beginners",
+     "salmaneunus/student-s-performance-quantitative-visual-eda",
+     "saniaks/melbourne-house-price-eda",
+     "sanket30/eda-of-application-train-home-credit-default",
+     "santhoshrao1995/assi01-santhosh-19101036",
+     "seriousran/eda-ing",
+     "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+     "snanilim/video-games-sales-analysis-and-visualization",
+     "stefanjov/my-first-normalize-on-big-dataset",
+     "sudheer259/house-price-prediction",
+     "sunnybiswas/eda-on-airline-dataset",
+     "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+     "taylorhickem/singapore-building-energy",
+     "tunguz/fathers-day-specials-just-the-features",
+     "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+     "willkoehrsen/start-here-a-gentle-introduction",
+     "wyl4417/machine-learning-and-how-it-affects-you",
+     "xokent/cyber-security-attack-eda",
+     "yashjaiswal1097/911-emergency-calls-kernel",
+     "yonelanuba/elo-merchant-by-yonela"
+    ]
+   },
+   "dask": {
+    "error_free": 2,
+    "agreeing": 2,
+    "introduced_DIFF_all": 24,
+    "introduced_DIFF": 24,
+    "introduced_DIFF_heuristic_all": 24,
+    "introduced_DIFF_heuristic": 24,
+    "introduced_DIFF_notebooks_all": [
+     "akshaypetkar/supermarket-sales-analysis",
+     "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+     "brianmendieta/data-cleaning-plus-eda",
+     "corazzon/how-to-use-pandas-filter-in-survey-eda",
+     "deffro/eda-is-fun",
+     "gmanish/help-ngo-country-clustering",
+     "jackwatson99/pima-indians-diabetes-rf-81",
+     "jirakst/book-recommendation",
+     "jyotsananegi/melbourne-housing-snapshot-eda",
+     "luckygemini/notebook5d5fc80c9f",
+     "luizep/movieslens20m",
+     "madseth/customer-shopping-trends-dataset-eda",
+     "mathewvondersaar/analysis-of-student-performance",
+     "mustafatatarhan1/iris-kernel",
+     "nihhaar/etltransform",
+     "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697",
+     "roopahegde/cryptocurrency-price-correlation",
+     "salmaneunus/student-s-performance-quantitative-visual-eda",
+     "sanket30/eda-of-application-train-home-credit-default",
+     "stefanjov/my-first-normalize-on-big-dataset",
+     "willkoehrsen/start-here-a-gentle-introduction",
+     "wyl4417/machine-learning-and-how-it-affects-you",
+     "yashjaiswal1097/911-emergency-calls-kernel",
+     "yonelanuba/elo-merchant-by-yonela"
+    ]
+   }
+  },
+  "pairs": {
+   "pyarrow_backend-p15": {
+    "cells": 997,
+    "notebooks": 102,
+    "engine_DIFF": 28,
+    "pandas_DIFF": 31,
+    "diff_pp": -0.301,
+    "ci95_pp": [
+     -1.954,
+     1.434
+    ],
+    "ci90_pp": [
+     -1.68,
+     1.146
+    ],
+    "within_2pp": true,
+    "reading": "not distinguishable"
+   },
+   "pyarrow_backend-p30": {
+    "cells": 1010,
+    "notebooks": 102,
+    "engine_DIFF": 27,
+    "pandas_DIFF": 21,
+    "diff_pp": 0.594,
+    "ci95_pp": [
+     -0.749,
+     1.874
+    ],
+    "ci90_pp": [
+     -0.503,
+     1.672
+    ],
+    "within_2pp": true,
+    "reading": "not distinguishable"
+   },
+   "modin-p15": {
+    "cells": 1833,
+    "notebooks": 102,
+    "engine_DIFF": 40,
+    "pandas_DIFF": 42,
+    "diff_pp": -0.109,
+    "ci95_pp": [
+     -1.165,
+     0.977
+    ],
+    "ci90_pp": [
+     -1.003,
+     0.798
+    ],
+    "within_2pp": true,
+    "reading": "not distinguishable"
+   },
+   "modin-p30": {
+    "cells": 1938,
+    "notebooks": 102,
+    "engine_DIFF": 41,
+    "pandas_DIFF": 46,
+    "diff_pp": -0.258,
+    "ci95_pp": [
+     -1.266,
+     0.699
+    ],
+    "ci90_pp": [
+     -1.094,
+     0.554
+    ],
+    "within_2pp": true,
+    "reading": "not distinguishable"
+   },
+   "fireducks-p15": {
+    "cells": 1137,
+    "notebooks": 102,
+    "engine_DIFF": 29,
+    "pandas_DIFF": 31,
+    "diff_pp": -0.176,
+    "ci95_pp": [
+     -1.402,
+     1.103
+    ],
+    "ci90_pp": [
+     -1.204,
+     0.889
+    ],
+    "within_2pp": true,
+    "reading": "not distinguishable"
+   },
+   "fireducks-p30": {
+    "cells": 1206,
+    "notebooks": 102,
+    "engine_DIFF": 32,
+    "pandas_DIFF": 25,
+    "diff_pp": 0.58,
+    "ci95_pp": [
+     -0.792,
+     1.994
+    ],
+    "ci90_pp": [
+     -0.583,
+     1.777
+    ],
+    "within_2pp": true,
+    "reading": "not distinguishable"
+   },
+   "bodo-p15": {
+    "cells": 715,
+    "notebooks": 102,
+    "engine_DIFF": 42,
+    "pandas_DIFF": 22,
+    "diff_pp": 2.797,
+    "ci95_pp": [
+     0.395,
+     5.468
+    ],
+    "ci90_pp": [
+     0.766,
+     5.034
+    ],
+    "within_2pp": false,
+    "reading": "more often"
+   },
+   "bodo-p30": {
+    "cells": 749,
+    "notebooks": 102,
+    "engine_DIFF": 45,
+    "pandas_DIFF": 14,
+    "diff_pp": 4.139,
+    "ci95_pp": [
+     2.182,
+     6.442
+    ],
+    "ci90_pp": [
+     2.469,
+     6.036
+    ],
+    "within_2pp": false,
+    "reading": "more often"
+   },
+   "dask-p15": {
+    "cells": 541,
+    "notebooks": 102,
+    "engine_DIFF": 34,
+    "pandas_DIFF": 19,
+    "diff_pp": 2.773,
+    "ci95_pp": [
+     -0.615,
+     5.854
+    ],
+    "ci90_pp": [
+     0.0,
+     5.339
+    ],
+    "within_2pp": false,
+    "reading": "not distinguishable"
+   },
+   "dask-p30": {
+    "cells": 539,
+    "notebooks": 102,
+    "engine_DIFF": 34,
+    "pandas_DIFF": 13,
+    "diff_pp": 3.896,
+    "ci95_pp": [
+     1.635,
+     6.139
+    ],
+    "ci90_pp": [
+     1.975,
+     5.79
+    ],
+    "within_2pp": false,
+    "reading": "more often"
+   }
+  },
+  "notebook_pairs": {
+   "pyarrow_backend-p15": {
+    "error_free": {
+     "engine": 73,
+     "pandas": 100,
+     "diff_pp": -26.471,
+     "ci95_pp": [
+      -35.294,
+      -17.647
+     ],
+     "reading": "less often"
+    },
+    "agreeing": {
+     "engine": 42,
+     "pandas": 59,
+     "diff_pp": -16.667,
+     "ci95_pp": [
+      -28.431,
+      -5.882
+     ],
+     "reading": "less often"
+    }
+   },
+   "pyarrow_backend-p30": {
+    "error_free": {
+     "engine": 73,
+     "pandas": 74,
+     "diff_pp": -0.98,
+     "ci95_pp": [
+      -11.789,
+      9.804
+     ],
+     "reading": "not distinguishable"
+    },
+    "agreeing": {
+     "engine": 42,
+     "pandas": 49,
+     "diff_pp": -6.863,
+     "ci95_pp": [
+      -17.647,
+      3.922
+     ],
+     "reading": "not distinguishable"
+    }
+   },
+   "modin-p15": {
+    "error_free": {
+     "engine": 69,
+     "pandas": 100,
+     "diff_pp": -30.392,
+     "ci95_pp": [
+      -40.196,
+      -21.569
+     ],
+     "reading": "less often"
+    },
+    "agreeing": {
+     "engine": 45,
+     "pandas": 59,
+     "diff_pp": -13.725,
+     "ci95_pp": [
+      -25.49,
+      -2.941
+     ],
+     "reading": "less often"
+    }
+   },
+   "modin-p30": {
+    "error_free": {
+     "engine": 69,
+     "pandas": 74,
+     "diff_pp": -4.902,
+     "ci95_pp": [
+      -15.686,
+      5.882
+     ],
+     "reading": "not distinguishable"
+    },
+    "agreeing": {
+     "engine": 45,
+     "pandas": 49,
+     "diff_pp": -3.922,
+     "ci95_pp": [
+      -15.686,
+      7.843
+     ],
+     "reading": "not distinguishable"
+    }
+   },
+   "fireducks-p15": {
+    "error_free": {
+     "engine": 66,
+     "pandas": 100,
+     "diff_pp": -33.333,
+     "ci95_pp": [
+      -43.137,
+      -23.529
+     ],
+     "reading": "less often"
+    },
+    "agreeing": {
+     "engine": 35,
+     "pandas": 59,
+     "diff_pp": -23.529,
+     "ci95_pp": [
+      -34.314,
+      -12.745
+     ],
+     "reading": "less often"
+    }
+   },
+   "fireducks-p30": {
+    "error_free": {
+     "engine": 66,
+     "pandas": 74,
+     "diff_pp": -7.843,
+     "ci95_pp": [
+      -19.608,
+      3.922
+     ],
+     "reading": "not distinguishable"
+    },
+    "agreeing": {
+     "engine": 35,
+     "pandas": 49,
+     "diff_pp": -13.725,
+     "ci95_pp": [
+      -23.529,
+      -3.922
+     ],
+     "reading": "less often"
+    }
+   },
+   "bodo-p15": {
+    "error_free": {
+     "engine": 16,
+     "pandas": 100,
+     "diff_pp": -82.353,
+     "ci95_pp": [
+      -89.216,
+      -74.51
+     ],
+     "reading": "less often"
+    },
+    "agreeing": {
+     "engine": 8,
+     "pandas": 59,
+     "diff_pp": -50.0,
+     "ci95_pp": [
+      -59.804,
+      -39.216
+     ],
+     "reading": "less often"
+    }
+   },
+   "bodo-p30": {
+    "error_free": {
+     "engine": 16,
+     "pandas": 74,
+     "diff_pp": -56.863,
+     "ci95_pp": [
+      -67.647,
+      -46.078
+     ],
+     "reading": "less often"
+    },
+    "agreeing": {
+     "engine": 8,
+     "pandas": 49,
+     "diff_pp": -40.196,
+     "ci95_pp": [
+      -50.98,
+      -29.412
+     ],
+     "reading": "less often"
+    }
+   },
+   "dask-p15": {
+    "error_free": {
+     "engine": 2,
+     "pandas": 100,
+     "diff_pp": -96.078,
+     "ci95_pp": [
+      -99.02,
+      -92.157
+     ],
+     "reading": "less often"
+    },
+    "agreeing": {
+     "engine": 2,
+     "pandas": 59,
+     "diff_pp": -55.882,
+     "ci95_pp": [
+      -65.686,
+      -46.078
+     ],
+     "reading": "less often"
+    }
+   },
+   "dask-p30": {
+    "error_free": {
+     "engine": 2,
+     "pandas": 74,
+     "diff_pp": -70.588,
+     "ci95_pp": [
+      -79.412,
+      -61.765
+     ],
+     "reading": "less often"
+    },
+    "agreeing": {
+     "engine": 2,
+     "pandas": 49,
+     "diff_pp": -46.078,
+     "ci95_pp": [
+      -55.882,
+      -36.275
+     ],
+     "reading": "less often"
+    }
+   }
+  },
+  "failure_decomposition": {
+   "bodo": {
+    "error on supported API": 61,
+    "error after an earlier difference": 15,
+    "unsupported API or execution model": 8,
+    "time limit": 1,
+    "memory cap": 1
+   },
+   "dask": {
+    "unsupported API or execution model": 61,
+    "error on supported API": 36,
+    "error after an earlier difference": 3
+   },
+   "fireducks": {
+    "error after an earlier difference": 11,
+    "native crash": 1,
+    "error on supported API": 17,
+    "other": 1,
+    "unsupported API or execution model": 2,
+    "time limit": 4
+   },
+   "modin": {
+    "memory cap": 7,
+    "error on supported API": 19,
+    "error after an earlier difference": 5,
+    "unsupported API or execution model": 1,
+    "time limit": 1
+   },
+   "pyarrow_backend": {
+    "error on supported API": 25,
+    "error after an earlier difference": 4
+   },
+   "p15": {
+    "API removed or changed by pandas": 1,
+    "error after an earlier difference": 1
+   },
+   "p30": {
+    "error after an earlier difference": 7,
+    "API removed or changed by pandas": 21
+   }
+  },
+  "error_free_confirmed": {
+   "bodo": {
+    "error_free_introduced_DIFF": 7,
+    "error_free_introduced_DIFF_reproduced_cause": 4,
+    "confirmed_evidence_from_overridden_cells": 0
+   },
+   "dask": {
+    "error_free_introduced_DIFF": 0,
+    "error_free_introduced_DIFF_reproduced_cause": 0,
+    "confirmed_evidence_from_overridden_cells": 0
+   },
+   "fireducks": {
+    "error_free_introduced_DIFF": 25,
+    "error_free_introduced_DIFF_reproduced_cause": 9,
+    "confirmed_evidence_from_overridden_cells": 0
+   },
+   "modin": {
+    "error_free_introduced_DIFF": 21,
+    "error_free_introduced_DIFF_reproduced_cause": 11,
+    "confirmed_evidence_from_overridden_cells": 0
+   },
+   "pyarrow_backend": {
+    "error_free_introduced_DIFF": 21,
+    "error_free_introduced_DIFF_reproduced_cause": 13,
+    "confirmed_evidence_from_overridden_cells": 0
+   },
+   "p15": {
+    "error_free_introduced_DIFF": 35,
+    "error_free_introduced_DIFF_reproduced_cause": 33,
+    "confirmed_evidence_from_overridden_cells": 0
+   },
+   "p30": {
+    "error_free_introduced_DIFF": 21,
+    "error_free_introduced_DIFF_reproduced_cause": 21,
+    "confirmed_evidence_from_overridden_cells": 0
+   }
+  }
+ },
+ "exact": {
+  "clean_E2": {
+   "p15": {
+    "clean_E2_cells": 2131,
+    "clean_E2_DIFF": 47,
+    "clean_E2_DIFF_share": 0.022055
+   },
+   "p30": {
+    "clean_E2_cells": 2217,
+    "clean_E2_DIFF": 53,
+    "clean_E2_DIFF_share": 0.023906
+   },
+   "pyarrow_backend": {
+    "clean_E2_cells": 1104,
+    "clean_E2_DIFF": 19,
+    "clean_E2_DIFF_share": 0.01721
+   },
+   "modin": {
+    "clean_E2_cells": 2333,
+    "clean_E2_DIFF": 42,
+    "clean_E2_DIFF_share": 0.018003
+   },
+   "fireducks": {
+    "clean_E2_cells": 1248,
+    "clean_E2_DIFF": 31,
+    "clean_E2_DIFF_share": 0.02484
+   },
+   "bodo": {
+    "clean_E2_cells": 761,
+    "clean_E2_DIFF": 39,
+    "clean_E2_DIFF_share": 0.051248
+   },
+   "dask": {
+    "clean_E2_cells": 548,
+    "clean_E2_DIFF": 19,
+    "clean_E2_DIFF_share": 0.034672
+   }
+  },
+  "notebooks": {
+   "p15": {
+    "error_free": 100,
+    "agreeing": 60,
+    "introduced_DIFF_all": 35,
+    "introduced_DIFF": 35,
+    "introduced_DIFF_heuristic_all": 33,
+    "introduced_DIFF_heuristic": 33,
+    "introduced_DIFF_notebooks_all": [
+     "akshaypetkar/supermarket-sales-analysis",
+     "ashukr/first-step-ingestion-to-prediction",
+     "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+     "brianmendieta/data-cleaning-plus-eda",
+     "carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled",
+     "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+     "corazzon/how-to-use-pandas-filter-in-survey-eda",
+     "dbatao/kernel2f80fc9d78",
+     "galiph/titanic-explorary-data-analysis",
+     "guyalmog/hr-analytics-predicting-employees-attrition",
+     "jirakst/book-recommendation",
+     "kanncaa1/dataiteam-titanic-eda",
+     "kenjee/titanic-project-example",
+     "koko1998/summer-products-and-sales-wish-com",
+     "loveall/favorita-analytics",
+     "luizep/movieslens20m",
+     "macespinoza/simple-eda-with-python-pandas-data-avocado-paltas",
+     "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+     "nadare/feature-engenieering-with-pivot-table",
+     "penny8/my-sub1",
+     "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697",
+     "robinfaber/monsters-a-simple-logistic-regression-approach",
+     "sabya40/data-cleaning-and-pandas-for-beginners",
+     "sal001/beginner-s-note-top-12-by-single-linear-model",
+     "santhoshrao1995/assi01-santhosh-19101036",
+     "sudheer259/house-price-prediction",
+     "sunnybiswas/eda-on-airline-dataset",
+     "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+     "ukveteran/sarima-time-series-eda-predict-jma-sao-paulo",
+     "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+     "willkoehrsen/start-here-a-gentle-introduction",
+     "wyl4417/machine-learning-and-how-it-affects-you",
+     "xokent/cyber-security-attack-eda",
+     "yonelanuba/elo-merchant-by-yonela",
+     "yuliagm/talkingdata-eda-plus-time-patterns"
+    ]
+   },
+   "p30": {
+    "error_free": 74,
+    "agreeing": 51,
+    "introduced_DIFF_all": 31,
+    "introduced_DIFF": 31,
+    "introduced_DIFF_heuristic_all": 31,
+    "introduced_DIFF_heuristic": 31,
+    "introduced_DIFF_notebooks_all": [
+     "akgauravin/gun-violence-data-exploration-and-plotting",
+     "arjoonn/scout-script-7",
+     "ayushsingh5941/tweet-disaster-or-not",
+     "brianmendieta/data-cleaning-plus-eda",
+     "chinstan/notebook249b4f3f5b",
+     "dbatao/kernel2f80fc9d78",
+     "ersinsen/fraud-3-eda",
+     "grudd0/mass-shooting-analysis",
+     "j0thu777/onlineretailanalysis",
+     "jagangupta/stop-the-s-toxic-comments-eda",
+     "julieberteaux/workshop-2",
+     "jyotsananegi/melbourne-housing-snapshot-eda",
+     "kanncaa1/dataiteam-titanic-eda",
+     "kimtaehun/simple-preprocessing-for-time-series-prediction",
+     "koko1998/summer-products-and-sales-wish-com",
+     "luckygemini/notebook5d5fc80c9f",
+     "luizep/movieslens20m",
+     "nihhaar/etltransform",
+     "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+     "sal001/beginner-s-note-top-12-by-single-linear-model",
+     "salmaneunus/student-s-performance-quantitative-visual-eda",
+     "saniaks/melbourne-house-price-eda",
+     "santhoshrao1995/assi01-santhosh-19101036",
+     "shivavashishtha/zomato-eda-tutorial",
+     "sunnybiswas/eda-on-airline-dataset",
+     "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+     "willkoehrsen/start-here-a-gentle-introduction",
+     "wyl4417/machine-learning-and-how-it-affects-you",
+     "xokent/cyber-security-attack-eda",
+     "yonelanuba/elo-merchant-by-yonela",
+     "yuliagm/talkingdata-eda-plus-time-patterns"
+    ]
+   },
+   "pyarrow_backend": {
+    "error_free": 73,
+    "agreeing": 49,
+    "introduced_DIFF_all": 31,
+    "introduced_DIFF": 31,
+    "introduced_DIFF_heuristic_all": 29,
+    "introduced_DIFF_heuristic": 29,
+    "introduced_DIFF_notebooks_all": [
+     "akgauravin/gun-violence-data-exploration-and-plotting",
+     "akshaypetkar/supermarket-sales-analysis",
+     "bcannon/indexing-selecting-assigning",
+     "carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled",
+     "chinstan/notebook249b4f3f5b",
+     "dbatao/kernel2f80fc9d78",
+     "ersinsen/fraud-3-eda",
+     "grudd0/mass-shooting-analysis",
+     "jackwatson99/pima-indians-diabetes-rf-81",
+     "kenjee/titanic-project-example",
+     "kimtaehun/simple-preprocessing-for-time-series-prediction",
+     "luizep/movieslens20m",
+     "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+     "nihhaar/etltransform",
+     "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+     "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697",
+     "pradeepjeya/allstate-encoding-high-cardinality-features",
+     "sal001/beginner-s-note-top-12-by-single-linear-model",
+     "salmaneunus/student-s-performance-quantitative-visual-eda",
+     "saniaks/melbourne-house-price-eda",
+     "sanket30/eda-of-application-train-home-credit-default",
+     "santhoshrao1995/assi01-santhosh-19101036",
+     "shivavashishtha/zomato-eda-tutorial",
+     "sudheer259/house-price-prediction",
+     "sunnybiswas/eda-on-airline-dataset",
+     "tunguz/fathers-day-specials-just-the-features",
+     "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+     "willkoehrsen/start-here-a-gentle-introduction",
+     "wyl4417/machine-learning-and-how-it-affects-you",
+     "xingobar/computer-science-data-visualization",
+     "yonelanuba/elo-merchant-by-yonela"
+    ]
+   },
+   "modin": {
+    "error_free": 69,
+    "agreeing": 49,
+    "introduced_DIFF_all": 32,
+    "introduced_DIFF": 31,
+    "introduced_DIFF_heuristic_all": 32,
+    "introduced_DIFF_heuristic": 31,
+    "introduced_DIFF_notebooks_all": [
+     "artgor/eda-and-models",
+     "brianmendieta/data-cleaning-plus-eda",
+     "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+     "chinstan/notebook249b4f3f5b",
+     "christophriley/intro-machine-learning",
+     "danielresende/game-of-thrones-battles",
+     "dbatao/kernel2f80fc9d78",
+     "deffro/eda-is-fun",
+     "ersinsen/fraud-3-eda",
+     "grudd0/mass-shooting-analysis",
+     "gsilves/quiz-4-question-1",
+     "guyalmog/hr-analytics-predicting-employees-attrition",
+     "j0thu777/onlineretailanalysis",
+     "jirakst/book-recommendation",
+     "kenjee/titanic-project-example",
+     "kwullum/when-do-traffic-related-deaths-occur",
+     "luizep/movieslens20m",
+     "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+     "nihhaar/etltransform",
+     "qnqfbqfqo/electric-vehicle-landscape-in-washington-state",
+     "sabya40/data-cleaning-and-pandas-for-beginners",
+     "saniaks/melbourne-house-price-eda",
+     "santhoshrao1995/assi01-santhosh-19101036",
+     "shivavashishtha/zomato-eda-tutorial",
+     "sunnybiswas/eda-on-airline-dataset",
+     "thirumani/biggboss-hindi-telugu-tamil-kannada-marathi-bangla",
+     "trinath003/data-manipulation-visualisation-on-kaggle-datasets",
+     "willkoehrsen/start-here-a-gentle-introduction",
+     "wyl4417/machine-learning-and-how-it-affects-you",
+     "xingobar/computer-science-data-visualization",
+     "yonelanuba/elo-merchant-by-yonela",
+     "yuliagm/talkingdata-eda-plus-time-patterns"
+    ]
+   },
+   "fireducks": {
+    "error_free": 66,
+    "agreeing": 38,
+    "introduced_DIFF_all": 39,
+    "introduced_DIFF": 39,
+    "introduced_DIFF_heuristic_all": 36,
+    "introduced_DIFF_heuristic": 36,
+    "introduced_DIFF_notebooks_all": [
+     "akshaypetkar/supermarket-sales-analysis",
+     "arjoonn/scout-script-7",
+     "ashukr/first-step-ingestion-to-prediction",
+     "ayushsingh5941/tweet-disaster-or-not",
+     "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+     "brianmendieta/data-cleaning-plus-eda",
+     "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+     "danielresende/game-of-thrones-battles",
+     "dbatao/kernel2f80fc9d78",
+     "ersinsen/fraud-3-eda",
+     "grudd0/mass-shooting-analysis",
+     "guyalmog/hr-analytics-predicting-employees-attrition",
+     "jagangupta/stop-the-s-toxic-comments-eda",
+     "jyotsananegi/melbourne-housing-snapshot-eda",
+     "kanncaa1/dataiteam-titanic-eda",
+     "kenjee/titanic-project-example",
+     "koko1998/summer-products-and-sales-wish-com",
+     "kwullum/when-do-traffic-related-deaths-occur",
+     "loveall/favorita-analytics",
+     "luckygemini/notebook5d5fc80c9f",
+     "luizep/movieslens20m",
+     "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+     "nadare/feature-engenieering-with-pivot-table",
+     "nandhuelan/ott-platforms",
+     "nihhaar/etltransform",
+     "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+     "sal001/beginner-s-note-top-12-by-single-linear-model",
+     "saniaks/melbourne-house-price-eda",
+     "santhoshrao1995/assi01-santhosh-19101036",
+     "shivavashishtha/zomato-eda-tutorial",
+     "sudheer259/house-price-prediction",
+     "sunnybiswas/eda-on-airline-dataset",
+     "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+     "vbmokin/automatic-eda-with-pandas-profiling-2-9-09-2020",
+     "willkoehrsen/start-here-a-gentle-introduction",
+     "wyl4417/machine-learning-and-how-it-affects-you",
+     "xokent/cyber-security-attack-eda",
+     "yonelanuba/elo-merchant-by-yonela",
+     "yuliagm/talkingdata-eda-plus-time-patterns"
+    ]
+   },
+   "bodo": {
+    "error_free": 16,
+    "agreeing": 8,
+    "introduced_DIFF_all": 44,
+    "introduced_DIFF": 44,
+    "introduced_DIFF_heuristic_all": 42,
+    "introduced_DIFF_heuristic": 42,
+    "introduced_DIFF_notebooks_all": [
+     "akgauravin/gun-violence-data-exploration-and-plotting",
+     "akshaypetkar/supermarket-sales-analysis",
+     "artgor/eda-and-models",
+     "ayushsingh5941/tweet-disaster-or-not",
+     "balajivenkat96/solar-plants",
+     "bcannon/indexing-selecting-assigning",
+     "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+     "brianmendieta/data-cleaning-plus-eda",
+     "carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled",
+     "corazzon/how-to-use-pandas-filter-in-survey-eda",
+     "deffro/eda-is-fun",
+     "ersinsen/fraud-3-eda",
+     "gmanish/help-ngo-country-clustering",
+     "grudd0/mass-shooting-analysis",
+     "guyalmog/hr-analytics-predicting-employees-attrition",
+     "jackwatson99/pima-indians-diabetes-rf-81",
+     "jagangupta/stop-the-s-toxic-comments-eda",
+     "julieberteaux/workshop-2",
+     "kanncaa1/dataiteam-titanic-eda",
+     "kenjee/titanic-project-example",
+     "kwullum/when-do-traffic-related-deaths-occur",
+     "luizep/movieslens20m",
+     "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost",
+     "nadare/feature-engenieering-with-pivot-table",
+     "nihhaar/etltransform",
+     "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+     "sabya40/data-cleaning-and-pandas-for-beginners",
+     "salmaneunus/student-s-performance-quantitative-visual-eda",
+     "saniaks/melbourne-house-price-eda",
+     "sanket30/eda-of-application-train-home-credit-default",
+     "santhoshrao1995/assi01-santhosh-19101036",
+     "seriousran/eda-ing",
+     "snanilim/video-games-sales-analysis-and-visualization",
+     "stefanjov/my-first-normalize-on-big-dataset",
+     "sudheer259/house-price-prediction",
+     "sunnybiswas/eda-on-airline-dataset",
+     "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+     "tunguz/fathers-day-specials-just-the-features",
+     "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+     "willkoehrsen/start-here-a-gentle-introduction",
+     "wyl4417/machine-learning-and-how-it-affects-you",
+     "xokent/cyber-security-attack-eda",
+     "yashjaiswal1097/911-emergency-calls-kernel",
+     "yonelanuba/elo-merchant-by-yonela"
+    ]
+   },
+   "dask": {
+    "error_free": 2,
+    "agreeing": 2,
+    "introduced_DIFF_all": 15,
+    "introduced_DIFF": 15,
+    "introduced_DIFF_heuristic_all": 15,
+    "introduced_DIFF_heuristic": 15,
+    "introduced_DIFF_notebooks_all": [
+     "akshaypetkar/supermarket-sales-analysis",
+     "deffro/eda-is-fun",
+     "jackwatson99/pima-indians-diabetes-rf-81",
+     "luckygemini/notebook5d5fc80c9f",
+     "luizep/movieslens20m",
+     "madseth/customer-shopping-trends-dataset-eda",
+     "mustafatatarhan1/iris-kernel",
+     "nihhaar/etltransform",
+     "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697",
+     "salmaneunus/student-s-performance-quantitative-visual-eda",
+     "sanket30/eda-of-application-train-home-credit-default",
+     "willkoehrsen/start-here-a-gentle-introduction",
+     "wyl4417/machine-learning-and-how-it-affects-you",
+     "yashjaiswal1097/911-emergency-calls-kernel",
+     "yonelanuba/elo-merchant-by-yonela"
+    ]
+   }
+  },
+  "pairs": {
+   "pyarrow_backend-p15": {
+    "cells": 1002,
+    "notebooks": 102,
+    "engine_DIFF": 19,
+    "pandas_DIFF": 31,
+    "diff_pp": -1.198,
+    "ci95_pp": [
+     -2.772,
+     0.422
+    ],
+    "ci90_pp": [
+     -2.524,
+     0.186
+    ],
+    "within_2pp": false,
+    "reading": "not distinguishable"
+   },
+   "pyarrow_backend-p30": {
+    "cells": 1018,
+    "notebooks": 102,
+    "engine_DIFF": 18,
+    "pandas_DIFF": 19,
+    "diff_pp": -0.098,
+    "ci95_pp": [
+     -1.265,
+     0.951
+    ],
+    "ci90_pp": [
+     -1.059,
+     0.79
+    ],
+    "within_2pp": true,
+    "reading": "not distinguishable"
+   },
+   "modin-p15": {
+    "cells": 1833,
+    "notebooks": 102,
+    "engine_DIFF": 36,
+    "pandas_DIFF": 40,
+    "diff_pp": -0.218,
+    "ci95_pp": [
+     -1.225,
+     0.802
+    ],
+    "ci90_pp": [
+     -1.061,
+     0.645
+    ],
+    "within_2pp": true,
+    "reading": "not distinguishable"
+   },
+   "modin-p30": {
+    "cells": 1941,
+    "notebooks": 102,
+    "engine_DIFF": 36,
+    "pandas_DIFF": 43,
+    "diff_pp": -0.361,
+    "ci95_pp": [
+     -1.325,
+     0.566
+    ],
+    "ci90_pp": [
+     -1.165,
+     0.417
+    ],
+    "within_2pp": true,
+    "reading": "not distinguishable"
+   },
+   "fireducks-p15": {
+    "cells": 1139,
+    "notebooks": 102,
+    "engine_DIFF": 26,
+    "pandas_DIFF": 30,
+    "diff_pp": -0.351,
+    "ci95_pp": [
+     -1.524,
+     0.85
+    ],
+    "ci90_pp": [
+     -1.331,
+     0.67
+    ],
+    "within_2pp": true,
+    "reading": "not distinguishable"
+   },
+   "fireducks-p30": {
+    "cells": 1208,
+    "notebooks": 102,
+    "engine_DIFF": 29,
+    "pandas_DIFF": 23,
+    "diff_pp": 0.497,
+    "ci95_pp": [
+     -0.821,
+     1.846
+    ],
+    "ci90_pp": [
+     -0.607,
+     1.627
+    ],
+    "within_2pp": true,
+    "reading": "not distinguishable"
+   },
+   "bodo-p15": {
+    "cells": 720,
+    "notebooks": 102,
+    "engine_DIFF": 37,
+    "pandas_DIFF": 22,
+    "diff_pp": 2.083,
+    "ci95_pp": [
+     -0.232,
+     4.638
+    ],
+    "ci90_pp": [
+     0.138,
+     4.203
+    ],
+    "within_2pp": false,
+    "reading": "not distinguishable"
+   },
+   "bodo-p30": {
+    "cells": 757,
+    "notebooks": 102,
+    "engine_DIFF": 39,
+    "pandas_DIFF": 12,
+    "diff_pp": 3.567,
+    "ci95_pp": [
+     1.771,
+     5.766
+    ],
+    "ci90_pp": [
+     2.019,
+     5.36
+    ],
+    "within_2pp": false,
+    "reading": "more often"
+   },
+   "dask-p15": {
+    "cells": 542,
+    "notebooks": 102,
+    "engine_DIFF": 19,
+    "pandas_DIFF": 19,
+    "diff_pp": 0.0,
+    "ci95_pp": [
+     -2.97,
+     2.742
+    ],
+    "ci90_pp": [
+     -2.444,
+     2.269
+    ],
+    "within_2pp": false,
+    "reading": "not distinguishable"
+   },
+   "dask-p30": {
+    "cells": 544,
+    "notebooks": 102,
+    "engine_DIFF": 19,
+    "pandas_DIFF": 12,
+    "diff_pp": 1.287,
+    "ci95_pp": [
+     -0.214,
+     3.0
+    ],
+    "ci90_pp": [
+     0.0,
+     2.713
+    ],
+    "within_2pp": false,
+    "reading": "not distinguishable"
+   }
+  },
+  "notebook_pairs": {
+   "pyarrow_backend-p15": {
+    "error_free": {
+     "engine": 73,
+     "pandas": 100,
+     "diff_pp": -26.471,
+     "ci95_pp": [
+      -35.294,
+      -17.647
+     ],
+     "reading": "less often"
+    },
+    "agreeing": {
+     "engine": 49,
+     "pandas": 60,
+     "diff_pp": -10.784,
+     "ci95_pp": [
+      -22.549,
+      0.98
+     ],
+     "reading": "not distinguishable"
+    }
+   },
+   "pyarrow_backend-p30": {
+    "error_free": {
+     "engine": 73,
+     "pandas": 74,
+     "diff_pp": -0.98,
+     "ci95_pp": [
+      -11.789,
+      9.804
+     ],
+     "reading": "not distinguishable"
+    },
+    "agreeing": {
+     "engine": 49,
+     "pandas": 51,
+     "diff_pp": -1.961,
+     "ci95_pp": [
+      -12.745,
+      8.824
+     ],
+     "reading": "not distinguishable"
+    }
+   },
+   "modin-p15": {
+    "error_free": {
+     "engine": 69,
+     "pandas": 100,
+     "diff_pp": -30.392,
+     "ci95_pp": [
+      -40.196,
+      -21.569
+     ],
+     "reading": "less often"
+    },
+    "agreeing": {
+     "engine": 49,
+     "pandas": 60,
+     "diff_pp": -10.784,
+     "ci95_pp": [
+      -22.549,
+      0.0
+     ],
+     "reading": "not distinguishable"
+    }
+   },
+   "modin-p30": {
+    "error_free": {
+     "engine": 69,
+     "pandas": 74,
+     "diff_pp": -4.902,
+     "ci95_pp": [
+      -15.686,
+      5.882
+     ],
+     "reading": "not distinguishable"
+    },
+    "agreeing": {
+     "engine": 49,
+     "pandas": 51,
+     "diff_pp": -1.961,
+     "ci95_pp": [
+      -13.725,
+      9.804
+     ],
+     "reading": "not distinguishable"
+    }
+   },
+   "fireducks-p15": {
+    "error_free": {
+     "engine": 66,
+     "pandas": 100,
+     "diff_pp": -33.333,
+     "ci95_pp": [
+      -43.137,
+      -23.529
+     ],
+     "reading": "less often"
+    },
+    "agreeing": {
+     "engine": 38,
+     "pandas": 60,
+     "diff_pp": -21.569,
+     "ci95_pp": [
+      -32.353,
+      -10.784
+     ],
+     "reading": "less often"
+    }
+   },
+   "fireducks-p30": {
+    "error_free": {
+     "engine": 66,
+     "pandas": 74,
+     "diff_pp": -7.843,
+     "ci95_pp": [
+      -19.608,
+      3.922
+     ],
+     "reading": "not distinguishable"
+    },
+    "agreeing": {
+     "engine": 38,
+     "pandas": 51,
+     "diff_pp": -12.745,
+     "ci95_pp": [
+      -22.549,
+      -2.941
+     ],
+     "reading": "less often"
+    }
+   },
+   "bodo-p15": {
+    "error_free": {
+     "engine": 16,
+     "pandas": 100,
+     "diff_pp": -82.353,
+     "ci95_pp": [
+      -89.216,
+      -74.51
+     ],
+     "reading": "less often"
+    },
+    "agreeing": {
+     "engine": 8,
+     "pandas": 60,
+     "diff_pp": -50.98,
+     "ci95_pp": [
+      -60.784,
+      -40.196
+     ],
+     "reading": "less often"
+    }
+   },
+   "bodo-p30": {
+    "error_free": {
+     "engine": 16,
+     "pandas": 74,
+     "diff_pp": -56.863,
+     "ci95_pp": [
+      -67.647,
+      -46.078
+     ],
+     "reading": "less often"
+    },
+    "agreeing": {
+     "engine": 8,
+     "pandas": 51,
+     "diff_pp": -42.157,
+     "ci95_pp": [
+      -52.941,
+      -31.373
+     ],
+     "reading": "less often"
+    }
+   },
+   "dask-p15": {
+    "error_free": {
+     "engine": 2,
+     "pandas": 100,
+     "diff_pp": -96.078,
+     "ci95_pp": [
+      -99.02,
+      -92.157
+     ],
+     "reading": "less often"
+    },
+    "agreeing": {
+     "engine": 2,
+     "pandas": 60,
+     "diff_pp": -56.863,
+     "ci95_pp": [
+      -66.667,
+      -47.059
+     ],
+     "reading": "less often"
+    }
+   },
+   "dask-p30": {
+    "error_free": {
+     "engine": 2,
+     "pandas": 74,
+     "diff_pp": -70.588,
+     "ci95_pp": [
+      -79.412,
+      -61.765
+     ],
+     "reading": "less often"
+    },
+    "agreeing": {
+     "engine": 2,
+     "pandas": 51,
+     "diff_pp": -48.039,
+     "ci95_pp": [
+      -57.843,
+      -38.235
+     ],
+     "reading": "less often"
+    }
+   }
+  },
+  "failure_decomposition": {
+   "bodo": {
+    "error on supported API": 62,
+    "error after an earlier difference": 14,
+    "unsupported API or execution model": 8,
+    "time limit": 1,
+    "memory cap": 1
+   },
+   "dask": {
+    "unsupported API or execution model": 61,
+    "error on supported API": 36,
+    "error after an earlier difference": 3
+   },
+   "fireducks": {
+    "error after an earlier difference": 11,
+    "native crash": 1,
+    "error on supported API": 17,
+    "other": 1,
+    "unsupported API or execution model": 2,
+    "time limit": 4
+   },
+   "modin": {
+    "memory cap": 7,
+    "error on supported API": 19,
+    "error after an earlier difference": 5,
+    "unsupported API or execution model": 1,
+    "time limit": 1
+   },
+   "pyarrow_backend": {
+    "error on supported API": 25,
+    "error after an earlier difference": 4
+   },
+   "p15": {
+    "API removed or changed by pandas": 2
+   },
+   "p30": {
+    "error after an earlier difference": 7,
+    "API removed or changed by pandas": 21
+   }
+  },
+  "error_free_confirmed": {
+   "bodo": {
+    "error_free_introduced_DIFF": 7,
+    "error_free_introduced_DIFF_reproduced_cause": 4,
+    "confirmed_evidence_from_overridden_cells": 0
+   },
+   "dask": {
+    "error_free_introduced_DIFF": 0,
+    "error_free_introduced_DIFF_reproduced_cause": 0,
+    "confirmed_evidence_from_overridden_cells": 0
+   },
+   "fireducks": {
+    "error_free_introduced_DIFF": 23,
+    "error_free_introduced_DIFF_reproduced_cause": 8,
+    "confirmed_evidence_from_overridden_cells": 0
+   },
+   "modin": {
+    "error_free_introduced_DIFF": 18,
+    "error_free_introduced_DIFF_reproduced_cause": 8,
+    "confirmed_evidence_from_overridden_cells": 0
+   },
+   "pyarrow_backend": {
+    "error_free_introduced_DIFF": 19,
+    "error_free_introduced_DIFF_reproduced_cause": 11,
+    "confirmed_evidence_from_overridden_cells": 0
+   },
+   "p15": {
+    "error_free_introduced_DIFF": 34,
+    "error_free_introduced_DIFF_reproduced_cause": 32,
+    "confirmed_evidence_from_overridden_cells": 0
+   },
+   "p30": {
+    "error_free_introduced_DIFF": 19,
+    "error_free_introduced_DIFF_reproduced_cause": 19,
+    "confirmed_evidence_from_overridden_cells": 0
+   }
+  }
+ },
+ "changed_base_to_exact": {
+  "p15": {
+   "error_free": [
+    100,
+    100
+   ],
+   "agreeing": [
+    59,
+    60
+   ],
+   "introduced_DIFF_all": [
+    36,
+    35
+   ],
+   "introduced_DIFF": [
+    36,
+    35
+   ],
+   "introduced_DIFF_heuristic_all": [
+    34,
+    33
+   ],
+   "introduced_DIFF_heuristic": [
+    34,
+    33
+   ],
+   "failure_decomposition": [
+    {
+     "API removed or changed by pandas": 1,
+     "error after an earlier difference": 1
+    },
+    {
+     "API removed or changed by pandas": 2
+    }
+   ],
+   "error_free_confirmed": [
+    {
+     "error_free_introduced_DIFF": 35,
+     "error_free_introduced_DIFF_reproduced_cause": 33,
+     "confirmed_evidence_from_overridden_cells": 0
+    },
+    {
+     "error_free_introduced_DIFF": 34,
+     "error_free_introduced_DIFF_reproduced_cause": 32,
+     "confirmed_evidence_from_overridden_cells": 0
+    }
+   ],
+   "failure_decomposition_unchanged": false
+  },
+  "p30": {
+   "error_free": [
+    74,
+    74
+   ],
+   "agreeing": [
+    49,
+    51
+   ],
+   "introduced_DIFF_all": [
+    33,
+    31
+   ],
+   "introduced_DIFF": [
+    33,
+    31
+   ],
+   "introduced_DIFF_heuristic_all": [
+    33,
+    31
+   ],
+   "introduced_DIFF_heuristic": [
+    33,
+    31
+   ],
+   "failure_decomposition": [
+    {
+     "error after an earlier difference": 7,
+     "API removed or changed by pandas": 21
+    },
+    {
+     "error after an earlier difference": 7,
+     "API removed or changed by pandas": 21
+    }
+   ],
+   "error_free_confirmed": [
+    {
+     "error_free_introduced_DIFF": 21,
+     "error_free_introduced_DIFF_reproduced_cause": 21,
+     "confirmed_evidence_from_overridden_cells": 0
+    },
+    {
+     "error_free_introduced_DIFF": 19,
+     "error_free_introduced_DIFF_reproduced_cause": 19,
+     "confirmed_evidence_from_overridden_cells": 0
+    }
+   ],
+   "failure_decomposition_unchanged": true
+  },
+  "pyarrow_backend": {
+   "error_free": [
+    73,
+    73
+   ],
+   "agreeing": [
+    42,
+    49
+   ],
+   "introduced_DIFF_all": [
+    38,
+    31
+   ],
+   "introduced_DIFF": [
+    33,
+    31
+   ],
+   "introduced_DIFF_heuristic_all": [
+    36,
+    29
+   ],
+   "introduced_DIFF_heuristic": [
+    31,
+    29
+   ],
+   "failure_decomposition": [
+    {
+     "error on supported API": 25,
+     "error after an earlier difference": 4
+    },
+    {
+     "error on supported API": 25,
+     "error after an earlier difference": 4
+    }
+   ],
+   "error_free_confirmed": [
+    {
+     "error_free_introduced_DIFF": 21,
+     "error_free_introduced_DIFF_reproduced_cause": 13,
+     "confirmed_evidence_from_overridden_cells": 0
+    },
+    {
+     "error_free_introduced_DIFF": 19,
+     "error_free_introduced_DIFF_reproduced_cause": 11,
+     "confirmed_evidence_from_overridden_cells": 0
+    }
+   ],
+   "failure_decomposition_unchanged": true
+  },
+  "modin": {
+   "error_free": [
+    69,
+    69
+   ],
+   "agreeing": [
+    45,
+    49
+   ],
+   "introduced_DIFF_all": [
+    36,
+    32
+   ],
+   "introduced_DIFF": [
+    34,
+    31
+   ],
+   "introduced_DIFF_heuristic_all": [
+    36,
+    32
+   ],
+   "introduced_DIFF_heuristic": [
+    34,
+    31
+   ],
+   "failure_decomposition": [
+    {
+     "memory cap": 7,
+     "error on supported API": 19,
+     "error after an earlier difference": 5,
+     "unsupported API or execution model": 1,
+     "time limit": 1
+    },
+    {
+     "memory cap": 7,
+     "error on supported API": 19,
+     "error after an earlier difference": 5,
+     "unsupported API or execution model": 1,
+     "time limit": 1
+    }
+   ],
+   "error_free_confirmed": [
+    {
+     "error_free_introduced_DIFF": 21,
+     "error_free_introduced_DIFF_reproduced_cause": 11,
+     "confirmed_evidence_from_overridden_cells": 0
+    },
+    {
+     "error_free_introduced_DIFF": 18,
+     "error_free_introduced_DIFF_reproduced_cause": 8,
+     "confirmed_evidence_from_overridden_cells": 0
+    }
+   ],
+   "failure_decomposition_unchanged": true
+  },
+  "fireducks": {
+   "error_free": [
+    66,
+    66
+   ],
+   "agreeing": [
+    35,
+    38
+   ],
+   "introduced_DIFF_all": [
+    43,
+    39
+   ],
+   "introduced_DIFF": [
+    41,
+    39
+   ],
+   "introduced_DIFF_heuristic_all": [
+    40,
+    36
+   ],
+   "introduced_DIFF_heuristic": [
+    38,
+    36
+   ],
+   "failure_decomposition": [
+    {
+     "error after an earlier difference": 11,
+     "native crash": 1,
+     "error on supported API": 17,
+     "other": 1,
+     "unsupported API or execution model": 2,
+     "time limit": 4
+    },
+    {
+     "error after an earlier difference": 11,
+     "native crash": 1,
+     "error on supported API": 17,
+     "other": 1,
+     "unsupported API or execution model": 2,
+     "time limit": 4
+    }
+   ],
+   "error_free_confirmed": [
+    {
+     "error_free_introduced_DIFF": 25,
+     "error_free_introduced_DIFF_reproduced_cause": 9,
+     "confirmed_evidence_from_overridden_cells": 0
+    },
+    {
+     "error_free_introduced_DIFF": 23,
+     "error_free_introduced_DIFF_reproduced_cause": 8,
+     "confirmed_evidence_from_overridden_cells": 0
+    }
+   ],
+   "failure_decomposition_unchanged": true
+  },
+  "bodo": {
+   "error_free": [
+    16,
+    16
+   ],
+   "agreeing": [
+    8,
+    8
+   ],
+   "introduced_DIFF_all": [
+    47,
+    44
+   ],
+   "introduced_DIFF": [
+    45,
+    44
+   ],
+   "introduced_DIFF_heuristic_all": [
+    45,
+    42
+   ],
+   "introduced_DIFF_heuristic": [
+    43,
+    42
+   ],
+   "failure_decomposition": [
+    {
+     "error on supported API": 61,
+     "error after an earlier difference": 15,
+     "unsupported API or execution model": 8,
+     "time limit": 1,
+     "memory cap": 1
+    },
+    {
+     "error on supported API": 62,
+     "error after an earlier difference": 14,
+     "unsupported API or execution model": 8,
+     "time limit": 1,
+     "memory cap": 1
+    }
+   ],
+   "error_free_confirmed": [
+    {
+     "error_free_introduced_DIFF": 7,
+     "error_free_introduced_DIFF_reproduced_cause": 4,
+     "confirmed_evidence_from_overridden_cells": 0
+    },
+    {
+     "error_free_introduced_DIFF": 7,
+     "error_free_introduced_DIFF_reproduced_cause": 4,
+     "confirmed_evidence_from_overridden_cells": 0
+    }
+   ],
+   "failure_decomposition_unchanged": false
+  },
+  "dask": {
+   "error_free": [
+    2,
+    2
+   ],
+   "agreeing": [
+    2,
+    2
+   ],
+   "introduced_DIFF_all": [
+    24,
+    15
+   ],
+   "introduced_DIFF": [
+    24,
+    15
+   ],
+   "introduced_DIFF_heuristic_all": [
+    24,
+    15
+   ],
+   "introduced_DIFF_heuristic": [
+    24,
+    15
+   ],
+   "failure_decomposition": [
+    {
+     "unsupported API or execution model": 61,
+     "error on supported API": 36,
+     "error after an earlier difference": 3
+    },
+    {
+     "unsupported API or execution model": 61,
+     "error on supported API": 36,
+     "error after an earlier difference": 3
+    }
+   ],
+   "error_free_confirmed": [
+    {
+     "error_free_introduced_DIFF": 0,
+     "error_free_introduced_DIFF_reproduced_cause": 0,
+     "confirmed_evidence_from_overridden_cells": 0
+    },
+    {
+     "error_free_introduced_DIFF": 0,
+     "error_free_introduced_DIFF_reproduced_cause": 0,
+     "confirmed_evidence_from_overridden_cells": 0
+    }
+   ],
+   "failure_decomposition_unchanged": true
+  }
+ },
+ "readings": {
+  "exact_introduced_DIFF_range_all": [
+   15,
+   44
+  ],
+  "exact_introduced_DIFF_range": [
+   15,
+   44
+  ],
+  "exact_introduced_DIFF_range_heuristic": [
+   15,
+   42
+  ],
+  "base_introduced_DIFF_range_all": [
+   24,
+   47
+  ],
+  "base_introduced_DIFF_range": [
+   24,
+   45
+  ],
+  "exact_drop_in_diff_pp_range": [
+   -1.198,
+   0.497
+  ],
+  "exact_readings": {
+   "pyarrow_backend-p15": "not distinguishable",
+   "pyarrow_backend-p30": "not distinguishable",
+   "modin-p15": "not distinguishable",
+   "modin-p30": "not distinguishable",
+   "fireducks-p15": "not distinguishable",
+   "fireducks-p30": "not distinguishable",
+   "bodo-p15": "not distinguishable",
+   "bodo-p30": "more often",
+   "dask-p15": "not distinguishable",
+   "dask-p30": "not distinguishable"
+  },
+  "exact_within_2pp": {
+   "pyarrow_backend-p15": false,
+   "pyarrow_backend-p30": true,
+   "modin-p15": true,
+   "modin-p30": true,
+   "fireducks-p15": true,
+   "fireducks-p30": true,
+   "bodo-p15": false,
+   "bodo-p30": false,
+   "dask-p15": false,
+   "dask-p30": false
+  },
+  "exact_agreeing_range_drop_in": [
+   38,
+   49
+  ]
+ }
+}

@@ -1,0 +1,3106 @@
+{
+ "code": {
+  "checked_out_head": "ae70611671b0200c325581cb717e84249763fce6",
+  "commit": "ae70611671b0200c325581cb717e84249763fce6",
+  "license": "Apache-2.0 (repository LICENSE file); notebooks are Kaggle kernels, check licenses per notebook",
+  "license_file_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+  "retrieved": "2026-10-02",
+  "url": "https://github.com/ADAPT-uiuc/PandasBench"
+ },
+ "data_archive": {
+  "bytes": 11969398844,
+  "license": "datasets are the original Kaggle inputs of each notebook; per-dataset Kaggle licenses apply",
+  "mirror_tried": "https://uofi.box.com/shared/static/tipejtwr4khhyzl207uhcwjh2i7k9u8l (HTTP 404 on 2026-10-02)",
+  "path": "raw/PandasBench_data.zip",
+  "retrieved": "2026-10-02",
+  "sha256": "85e8c77f5a748bb92b942bd8a87f93c56a9f458acca67882ca6fce170bc69c1f",
+  "tool": "gdown",
+  "url": "https://drive.google.com/file/d/1WUX-gUycsXVngCaaoDecLdjAv7hjSoeR/view?usp=sharing"
+ },
+ "data_extracted_root": "raw/PandasBench_data",
+ "data_manifest": {
+  "akgauravin/gun-violence-data-exploration-and-plotting/input/gun-violence-data_01-2013_03-2018.csv": {
+   "bytes": 149698584,
+   "sha256": "c752945fb1d9252a61fbd2abdd8849999cc203a04bbee62af4d507e71cb8e703"
+  },
+  "akshaypetkar/supermarket-sales-analysis/input/annex1.csv": {
+   "bytes": 16597,
+   "sha256": "62f7c025b1bc5b9496686555a1c76ee2750ff76856de43bc027f737bbf64da2b"
+  },
+  "akshaypetkar/supermarket-sales-analysis/input/annex2.csv": {
+   "bytes": 51794172,
+   "sha256": "ce1b93208140063ce1d8e18daef20d4fd7ce03d8fb0065fd0c67183e5498569e"
+  },
+  "akshaypetkar/supermarket-sales-analysis/input/annex3.csv": {
+   "bytes": 1843940,
+   "sha256": "0fabf74e911e97254e261c8fe5493994774171c7e0df04c05e4980c887f006e5"
+  },
+  "akshaypetkar/supermarket-sales-analysis/input/annex4.csv": {
+   "bytes": 10805,
+   "sha256": "d608e2a9d7a76df594f4084c26706157930d9dbf5add7673552f3fdad456e372"
+  },
+  "arimishabirin/globalsalary-simple-eda/input/salary_data.csv": {
+   "bytes": 12594,
+   "sha256": "5f55f4736a88fc132d42726cdbfaca361f78bbee57b83e493762705ba7b9b123"
+  },
+  "arjoonn/scout-script-7/input/survey.csv": {
+   "bytes": 303684,
+   "sha256": "3c4e3e16917f74b5e219ba01caecd09f9dc464c4848becdd018c9442d627abb4"
+  },
+  "artgor/eda-and-models/input/sample_submission.csv": {
+   "bytes": 6080314,
+   "sha256": "50d7e0d6fcfc6e498efc297001f252101512ccdcb34aefbde6db98f8242a3626"
+  },
+  "artgor/eda-and-models/input/test_identity.csv": {
+   "bytes": 25797161,
+   "sha256": "3e5978cb13ca5e72f52babc4349ae0125e14b87ca8bfabe952ab67bb4ff1e10b"
+  },
+  "artgor/eda-and-models/input/test_transaction.csv": {
+   "bytes": 613194934,
+   "sha256": "2a8e51f1d335a86025d2b7f45beb9b78d0ab1edd726ef531d8b71a8a0065c011"
+  },
+  "artgor/eda-and-models/input/train_identity.csv": {
+   "bytes": 26529680,
+   "sha256": "b63c725d8377be90a995268d97f347c17d456b95db45807adcf9f59cd603c37c"
+  },
+  "artgor/eda-and-models/input/train_transaction.csv": {
+   "bytes": 683351067,
+   "sha256": "3a5c83ab6b3cc13dcabe5ffa9f522307fd5f7f7b6e6f6a60c32284ca6283d642"
+  },
+  "ashukr/first-step-ingestion-to-prediction/input/train.csv": {
+   "bytes": 460676,
+   "sha256": "1e18addf81e5e4d347cc17ee6075bbe4a42b7fa26b9e5b063e8f692a5f929d41"
+  },
+  "atultaur/house-sales-in-king-county/input/kc_house_data.csv": {
+   "bytes": 2515206,
+   "sha256": "d0875baa0251b21d4bdc9d2ae940a4fe0bb6009824f23dd0e2a5b2bf04557b7e"
+  },
+  "ayushsingh5941/tweet-disaster-or-not/input/test.csv": {
+   "bytes": 420783,
+   "sha256": "33375dc852696331c5ad30d078ea4d20e357b74052be6225fecc2a2b0f468bd2"
+  },
+  "ayushsingh5941/tweet-disaster-or-not/input/train.csv": {
+   "bytes": 987712,
+   "sha256": "61111c6dc31eaffa34d1e1fa62e2395325c9bc3b38bba1941a5f1ed9b3fa60df"
+  },
+  "balajivenkat96/solar-plants/input/Plant_1_Generation_Data.csv": {
+   "bytes": 4839076,
+   "sha256": "882f75f1c295946633617646cc92343ddb6fb821a2546c82f7e5cc737a13624e"
+  },
+  "balajivenkat96/solar-plants/input/Plant_1_Weather_Sensor_Data.csv": {
+   "bytes": 287847,
+   "sha256": "91325041328745c288cb809aebd8b1b59cde54284500902ead1fb393499d6806"
+  },
+  "balajivenkat96/solar-plants/input/Plant_2_Generation_Data.csv": {
+   "bytes": 5805157,
+   "sha256": "9b735e9278774d4d1dd4601047315ef50b3793244d892446f6aabf4fae63bd37"
+  },
+  "balajivenkat96/solar-plants/input/Plant_2_Weather_Sensor_Data.csv": {
+   "bytes": 301443,
+   "sha256": "cafd80885a51b88521b3301cffa4e4f013e2516fcb3478b439a81855edac3a64"
+  },
+  "bcannon/indexing-selecting-assigning/input/winemag-data-130k-v2.csv": {
+   "bytes": 52908706,
+   "sha256": "52af2643c8ac29f010f0cc629dfbdda1c74aa0f332d11762af9ef3de4e567ac9"
+  },
+  "beratozmen/clash-of-clans-exploratory-data-analysis/input/coc_clans_dataset.csv": {
+   "bytes": 929004619,
+   "sha256": "dc12613e0c94affac605359571df0e8dc6fd11c8a0316c10f6c15c4d02167a05"
+  },
+  "blaskowitz100/feature-engineering-based-on-the-suprise-me/input/air_reserve.csv": {
+   "bytes": 5827666,
+   "sha256": "50c6ce5583e8938bf0f47cb9dca986a4916111c0921bcc5cfb04acf8fbbda0bc"
+  },
+  "blaskowitz100/feature-engineering-based-on-the-suprise-me/input/air_store_info.csv": {
+   "bytes": 74450,
+   "sha256": "355af01df53ba67d70a2bb762b18e76095a78245495cc14a3de3886834dc1d33"
+  },
+  "blaskowitz100/feature-engineering-based-on-the-suprise-me/input/air_visit_data.csv": {
+   "bytes": 8755742,
+   "sha256": "6bbf58c94337cd60e483da9a1a7b214bb8f10ad8e39354ec75922b8fb406ab07"
+  },
+  "blaskowitz100/feature-engineering-based-on-the-suprise-me/input/date_info.csv": {
+   "bytes": 10968,
+   "sha256": "67fe2fdec775bdc9a1545bcf14400af9d8631c258e36ef7f28e7c616ce0691e7"
+  },
+  "blaskowitz100/feature-engineering-based-on-the-suprise-me/input/hpg_reserve.csv": {
+   "bytes": 126244535,
+   "sha256": "ff0dbf85e798993eaef5c54433ffe154858e16b90817fdf3168f826c94cd0caf"
+  },
+  "blaskowitz100/feature-engineering-based-on-the-suprise-me/input/sample_submission.csv": {
+   "bytes": 1088658,
+   "sha256": "b19415025e82d6630f029bc21cd49e9ecee5b775dc61a6292b2615fcf55a8e76"
+  },
+  "blaskowitz100/feature-engineering-based-on-the-suprise-me/input/store_id_relation.csv": {
+   "bytes": 6326,
+   "sha256": "5092ef7e83c98ed7300a79686ced75063e96e24f74eea2c267426c56aa341f33"
+  },
+  "brianmendieta/data-cleaning-plus-eda/input/Uncleaned_DS_jobs.csv": {
+   "bytes": 2503018,
+   "sha256": "2c3b9a523056675dcc05481952d06768368b240421a2e80c1de82e3b505378b3"
+  },
+  "carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled/input/MasterAchievements.csv": {
+   "bytes": 190304,
+   "sha256": "87a616902cbe5271ddd7d4af7e1e4cbc1a48bc593d2f2d2a2093bb2f8175b12f"
+  },
+  "carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled/input/MasterProfiles.csv": {
+   "bytes": 695631,
+   "sha256": "1b177637d28dc8ff8840391f85caf39a8c0b12045e38447fb3b22a63451ce4af"
+  },
+  "carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled/input/UserAchievements.csv": {
+   "bytes": 4539647667,
+   "sha256": "851aacc024afcb9d5f47b3deb4659578e34c9518eef86d1c28f4b1a14ec37fb2"
+  },
+  "carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled/input/UserFollowers.csv": {
+   "bytes": 55318871,
+   "sha256": "10e88135885fc2d323f23ee52ad73ddde0b09fd627437adb7bf896a89562a782"
+  },
+  "carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled/input/Users.csv": {
+   "bytes": 880540553,
+   "sha256": "5cb5518eb5e3bd168bff9bfeb6b86c4ef03c1fd04cb9fe299ec764b362b30657"
+  },
+  "charulatashelar/indian-startup-funding-exploratory-data-analysis/input/startup_funding.csv": {
+   "bytes": 425801,
+   "sha256": "03823824b982e814c10df9ccb8b7d811726b91d5fecf8eb846d4889e5f354890"
+  },
+  "chinstan/notebook249b4f3f5b/input/en.openfoodfacts.org.products.tsv": {
+   "bytes": 342895328,
+   "sha256": "9e57b333c2fd2c68ec52af24a70c677eabb1adbaa1747e5429d7d8acfa273ec0"
+  },
+  "christophriley/intro-machine-learning/input/test.csv": {
+   "bytes": 28629,
+   "sha256": "56023b9948236f3c7a1c9448fcf418b283e109ef177fa8c7e069158dd7dd52b2"
+  },
+  "christophriley/intro-machine-learning/input/train.csv": {
+   "bytes": 61194,
+   "sha256": "7d118fef8b6ccf7f81111877bc388536f7b1e498a655e3d649d19aaa010e9f6f"
+  },
+  "corazzon/how-to-use-pandas-filter-in-survey-eda/input/kaggle_survey_2020_responses.csv": {
+   "bytes": 25431748,
+   "sha256": "448b505c8cb1e2919848c6c13e29d3c515295f4359fd6bb34954c6302abc7ce7"
+  },
+  "danielresende/game-of-thrones-battles/input/battles.csv": {
+   "bytes": 8550,
+   "sha256": "71955bcdaf668990fb8524a2b5a23d74d28d5f77629aaa8a2a19e0975a62d00c"
+  },
+  "dbatao/kernel2f80fc9d78/input/test.csv": {
+   "bytes": 451405,
+   "sha256": "8fdd3d829d4d986b58f845c9553b225e67dd8383624d90fb6ca1d4bed5798c1e"
+  },
+  "dbatao/kernel2f80fc9d78/input/train.csv": {
+   "bytes": 460676,
+   "sha256": "1e18addf81e5e4d347cc17ee6075bbe4a42b7fa26b9e5b063e8f692a5f929d41"
+  },
+  "deffro/eda-is-fun/input/train.csv": {
+   "bytes": 659540495,
+   "sha256": "435a78193a0ad2e9aaa7f0cfffa22a8317b320aee81fdd44235e1b37afd28d36"
+  },
+  "doyouevendata/kiva-exploration-by-a-kiva-lender-and-python-newb/input/FINDEXData.csv": {
+   "bytes": 17680361,
+   "sha256": "5841f39c88cf447dab693679884881cf8c30ff88ac3c29b5e11a8b38b181dde2"
+  },
+  "doyouevendata/kiva-exploration-by-a-kiva-lender-and-python-newb/input/MPI_national.csv": {
+   "bytes": 4962,
+   "sha256": "b089d92a4b1b17b39a7a6392ace537979242d2ef5149f5d6854fb3e364a1351a"
+  },
+  "doyouevendata/kiva-exploration-by-a-kiva-lender-and-python-newb/input/MPI_subnational.csv": {
+   "bytes": 74000,
+   "sha256": "d76e81cdcc19e2c631ed40ddc7a837eac89e7b09b7cc4c971cc442f7fd7a9b85"
+  },
+  "doyouevendata/kiva-exploration-by-a-kiva-lender-and-python-newb/input/WorldPopulation.csv": {
+   "bytes": 134321,
+   "sha256": "48cd26b7faac13062636c6253ddfa75e7ea785b451b82c36109c0b3e4c68e82a"
+  },
+  "doyouevendata/kiva-exploration-by-a-kiva-lender-and-python-newb/input/cato_2017_human_freedom_index.csv": {
+   "bytes": 73545,
+   "sha256": "57529dc329e99dada1f74d9475e7fe13c345f9be2d97c51ba474e80b54a33204"
+  },
+  "doyouevendata/kiva-exploration-by-a-kiva-lender-and-python-newb/input/kiva_loans.csv": {
+   "bytes": 195852823,
+   "sha256": "b20efc20de600b27608d69fe07e728b00a075c3db29849e146b717098f778d92"
+  },
+  "doyouevendata/kiva-exploration-by-a-kiva-lender-and-python-newb/input/kiva_locations.csv": {
+   "bytes": 722202,
+   "sha256": "48971fd00a83fb9201e46b25b9ef94b3f7ea3e13e0281d6a6225945339bd8600"
+  },
+  "doyouevendata/kiva-exploration-by-a-kiva-lender-and-python-newb/input/kiva_mpi_region_locations.csv": {
+   "bytes": 177359,
+   "sha256": "80906c94ab4d6fef29eeaaf42934ecdc4f691b959af77da2ea1402644e0cbe7f"
+  },
+  "doyouevendata/kiva-exploration-by-a-kiva-lender-and-python-newb/input/lenders.csv": {
+   "bytes": 136623942,
+   "sha256": "c6317d6014f31370b0e051daff7d3c6dcc6344e340f92c214baca8f27f52046d"
+  },
+  "doyouevendata/kiva-exploration-by-a-kiva-lender-and-python-newb/input/loan_theme_ids.csv": {
+   "bytes": 31641314,
+   "sha256": "48f3d922eef1d329ba913d0ec3c1b88714014f45ec5940a4084c311f4a455baa"
+  },
+  "doyouevendata/kiva-exploration-by-a-kiva-lender-and-python-newb/input/loan_themes_by_region.csv": {
+   "bytes": 5055066,
+   "sha256": "362a45d5785b9a889d5e97d7de9730bbab9c67207728c9437b9e6822a1574866"
+  },
+  "doyouevendata/kiva-exploration-by-a-kiva-lender-and-python-newb/input/phil_pip_output.csv": {
+   "bytes": 4113408,
+   "sha256": "1ebd2f4c66092a0233ba63c60acbe54737e38e40901d5249fe918d5a63bba996"
+  },
+  "doyouevendata/kiva-exploration-by-a-kiva-lender-and-python-newb/input/rural_pop.csv": {
+   "bytes": 113939,
+   "sha256": "e705448870286d429df156a7bdd371621301bd006c510fc5ed271970d21cc561"
+  },
+  "drainvers/instacart-sandbox-lmf/input/order_products__prior.csv": {
+   "bytes": 577550706,
+   "sha256": "27b59dc9cf0d485f55e64e0bc9c5d6fb077ae167f8dfeab9246a03b5b0186359"
+  },
+  "drainvers/instacart-sandbox-lmf/input/order_products__train.csv": {
+   "bytes": 24680147,
+   "sha256": "d27c4034883051c85e37c2cb0379fecbbeccad932970e171461aa99f18f75aea"
+  },
+  "drainvers/instacart-sandbox-lmf/input/orders.csv": {
+   "bytes": 108968645,
+   "sha256": "92a60ced67ac33bd82271f66ff9675374f69482d17a0e1442ba42caa8b3bff89"
+  },
+  "drainvers/instacart-sandbox-lmf/input/products.csv": {
+   "bytes": 2166953,
+   "sha256": "abc61fdd748003d280ae49cc5d71b65380805ab1ca55dba96fd9a49295ea78b9"
+  },
+  "ersinsen/fraud-3-eda/input/test_transaction.csv": {
+   "bytes": 613194934,
+   "sha256": "2a8e51f1d335a86025d2b7f45beb9b78d0ab1edd726ef531d8b71a8a0065c011"
+  },
+  "ersinsen/fraud-3-eda/input/train_transaction.csv": {
+   "bytes": 683351067,
+   "sha256": "3a5c83ab6b3cc13dcabe5ffa9f522307fd5f7f7b6e6f6a60c32284ca6283d642"
+  },
+  "felsal/ibov-and-the-s-p-500/input/b3_stocks_1994_2020.csv": {
+   "bytes": 88947596,
+   "sha256": "a698385edbebb0a2fe592086713aef09a430b61c32c71c3725c98949f3548bc4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/selic.csv": {
+   "bytes": 164612,
+   "sha256": "ea1af53d0c4c2670ba9fd5a1a9c94a5ea781032c40e66d0bafc23e0e26be08da"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/a.csv": {
+   "bytes": 266219,
+   "sha256": "d2bc362ffb003244efde3cdd585689103b224611b03ce967baa6a0eec703242b"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/aal.csv": {
+   "bytes": 187519,
+   "sha256": "1d86f1e42793d49deb9bc287d6d3d056a087c773a5769f36a67894e33a3d28bf"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/aap.csv": {
+   "bytes": 244384,
+   "sha256": "f26ee07ae0dd6b0b98147a66d784bd4e66dac6bdedab27d5b71b991d8884ab05"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/aapl.csv": {
+   "bytes": 504966,
+   "sha256": "78821584a1c36e9ff0385069bc876f939c036656103f739f2e9251755faee362"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/abbv.csv": {
+   "bytes": 93385,
+   "sha256": "336b0d2af0e747a934e21f91b61d2e41a4c242ae42a3ce8077c2bbd5d995ec45"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/abc.csv": {
+   "bytes": 320552,
+   "sha256": "98ce1fe7cb5994c06ace7c17b522028fb1b59f679b4673ecbbc14a19957ba254"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/abmd.csv": {
+   "bytes": 381400,
+   "sha256": "8e9ddab635b339c8e2250653d29341c632eefa550ad4ef649659cbeaa5e72ff4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/abt.csv": {
+   "bytes": 507176,
+   "sha256": "dbcf736215e48767c3d840c0fd64e56a8f76fa0a286c8efe705eef52842b6e36"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/acn.csv": {
+   "bytes": 249313,
+   "sha256": "fa1c902777e52bcef06f3cb9e28e1d244e047f066724fdadc1d3e9903a2fa827"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/adbe.csv": {
+   "bytes": 431315,
+   "sha256": "b90a50e93d215703831292d7b11220201ce5b6dee281756973219b31faeca9c3"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/adi.csv": {
+   "bytes": 501148,
+   "sha256": "f5d2e1e51ec19f9764060fb964a119fdf509d43f19cbc367cdbb170c17a67316"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/adm.csv": {
+   "bytes": 499384,
+   "sha256": "b6f518117025a85e82a7a6ce35da0a89603c6b8f55c212794aee23b9263f61a6"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/adp.csv": {
+   "bytes": 528305,
+   "sha256": "0a3927e16718d42f751da98bc4afb92b8d8f48b2a1fcf3063afb70b4705c4963"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ads.csv": {
+   "bytes": 250585,
+   "sha256": "a4d71bd2c54d0ad76313c1da4977e523e84861e60dbce377a36c59dfcf9b9384"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/adsk.csv": {
+   "bytes": 439153,
+   "sha256": "2d3b4942d513424e69c02184c28121b3deea2dda83f9ee1f5c85f772d52388c6"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/aee.csv": {
+   "bytes": 277442,
+   "sha256": "29c87ee56293ed3c5ddd89be70752c7662060c504bc9670d0ca90348d2bb0224"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/aep.csv": {
+   "bytes": 594906,
+   "sha256": "9ec32eb25e4eb27fa111505a46524e57797b777ba9cf991fe403b1d29685dc26"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/aes.csv": {
+   "bytes": 360971,
+   "sha256": "8e94780ffbd9cc3a0b803d985daaf363e5ff303c884db2ecc73e3cfbc867ebab"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/afl.csv": {
+   "bytes": 500247,
+   "sha256": "d602b5da3be2f66e0433860c495d9d321b7e728ac14fb84b7113e25e90149458"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/aig.csv": {
+   "bytes": 640646,
+   "sha256": "4fc1bf288296aba13b580449b7dafb149db461f2b9edded0048f54005dcf405b"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/aiv.csv": {
+   "bytes": 324658,
+   "sha256": "6a1f371ca67807f315208c2f364cdd27a8b2fdf9e9b2d736e9861ac160bb967d"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/aiz.csv": {
+   "bytes": 202291,
+   "sha256": "4c526c4f73e2a0c23e2722e5622df68bfd924ca2ab01c609cf313cd5a4df5f2e"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ajg.csv": {
+   "bytes": 439815,
+   "sha256": "c6faa9a976a53e09472ab0b1b188463f715e5edd38d60cda6651019a7f7487b7"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/akam.csv": {
+   "bytes": 242896,
+   "sha256": "a61a16e3aea977e2ff4c2915efb6f34040ec0e42d25ca5a70aac0e322ec2d141"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/alb.csv": {
+   "bytes": 341931,
+   "sha256": "993cdaf493188a74760592128da3f3cf944c0280969b93ed0fa461aff0862378"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/algn.csv": {
+   "bytes": 225421,
+   "sha256": "31b3b4f15933a632b0d108f30e38d1252352bcbd9fc574b32cb8a9bad841f419"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/alk.csv": {
+   "bytes": 486756,
+   "sha256": "3b43d4ff75ab2b7503c029663876bf95caf6a264619e0f68aa2830eb0b1528c6"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/all.csv": {
+   "bytes": 349007,
+   "sha256": "6ba2790c6e06634bcfacee1bc4f816f959cc4b268689034c7746f6d6c88b63b7"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/alle.csv": {
+   "bytes": 81140,
+   "sha256": "ea99c1e939517c7a817af70b70849a22bee0dddd17ccc08b06f98f8776ab8c64"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/alxn.csv": {
+   "bytes": 296716,
+   "sha256": "a78558e959f95c9f5175d10d09b91c4185dadc02aa3b487c711687c1dc8644ba"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/amat.csv": {
+   "bytes": 528196,
+   "sha256": "8985e8b9e6e3938de71c8d1f889c3470fac23ee7604bf0e75d8165fbc6b45876"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/amcr.csv": {
+   "bytes": 84695,
+   "sha256": "5063454c2bd3083b76b4f88322247f70ac4d1c14702beb7030b129d1d7540152"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/amd.csv": {
+   "bytes": 480237,
+   "sha256": "67ed47cb30abe110ec22763f07cd19ba28b6e8b1d185eeb6814d10d0761b18d0"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ame.csv": {
+   "bytes": 457964,
+   "sha256": "4825a0f0febb99b9ff764a25d2826093f837093916eff085877e4164c27bea89"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/amgn.csv": {
+   "bytes": 476638,
+   "sha256": "81148ae62fec38e6b81bf53c685b49a62d963b385237a82f615fc03fc49fb488"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/amp.csv": {
+   "bytes": 187451,
+   "sha256": "a61ec020845ef275c9e8d48e9999a79da430f75a271666d7a42e5258b091dbca"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/amt.csv": {
+   "bytes": 278624,
+   "sha256": "f5b16e771ec128b8e47ed09a8e2ccad2817c6545cf52dd10bb5c431f44cdf4b6"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/amzn.csv": {
+   "bytes": 298735,
+   "sha256": "9cd483dfd4077c18a055923797bef1c50a201f4708bfed7d0ac74e921f22d3f5"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/anet.csv": {
+   "bytes": 73662,
+   "sha256": "33d8a295538972340e1cf758d36eab6d3fbc17d4f36bb6e8655b02dec0f1ec2e"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/anss.csv": {
+   "bytes": 288031,
+   "sha256": "ff5274412f0662cbbfbb1fe3f88fbaa1918afadda719140c180f95fb54c9cb07"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/antm.csv": {
+   "bytes": 247486,
+   "sha256": "510aa1466dad8d6d1dd47c5270f0ac245184bc8d0279e41adc7aa7eac4775820"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/aon.csv": {
+   "bytes": 522376,
+   "sha256": "e3220ac268d6855c79b52624d1c2675b56ac50737269707ae5585ac794a7b8f3"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/aos.csv": {
+   "bytes": 457833,
+   "sha256": "3581a3357da0278bca5850452f68bf0fc8036cd37fd8fb825e708c367d995f07"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/apa.csv": {
+   "bytes": 511600,
+   "sha256": "297ac5b973d0739077342e2123e0b7ac5468aeb15ad0f2d92bb4032fabb6b186"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/apd.csv": {
+   "bytes": 508290,
+   "sha256": "ea3eafc29bfee69e58a528413eed1cbac27331668501c16cb46885720664af42"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/aph.csv": {
+   "bytes": 355373,
+   "sha256": "c16b7472f43fe1dd435fd5fb859656fb5780fc029d0f6d8eb7e7840f39cc618f"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/aptv.csv": {
+   "bytes": 110852,
+   "sha256": "1d649a77e04f5baa1ccbe01ba93bfec06385c8e320b77cc4eed622269c33448d"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/are.csv": {
+   "bytes": 295054,
+   "sha256": "f02f842535436001da60d79dcdaaf32610b9b43d839c0f2733b0d1173864995f"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ato.csv": {
+   "bytes": 444539,
+   "sha256": "1ac533647b5b9b539b0c396422a3d041cc51b6fb83c82a15cb9d2e578b24b4a7"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/atvi.csv": {
+   "bytes": 331081,
+   "sha256": "3dad93d706bb615f07fd55708640e08638d1a309fa91c41a39046dd406055a66"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/avb.csv": {
+   "bytes": 339802,
+   "sha256": "a46aecac9ab183a0445334d74db181195360237336a70490d8a071bc12e2a7ab"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/avgo.csv": {
+   "bytes": 140386,
+   "sha256": "7bb67081162f2eb43738c656df4c75fca6058f78aa952efb533a986404a29545"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/avy.csv": {
+   "bytes": 578823,
+   "sha256": "6222839a33c78d6615520e829995436bb222d6b873b35d0aaae608fde43c4be4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/awk.csv": {
+   "bytes": 150709,
+   "sha256": "9f25a0fe8c448801768bddae7f693aa3408937edd0dcfb23a8b435b6d06c85e4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/axp.csv": {
+   "bytes": 601639,
+   "sha256": "fb7a2d63c78eb4ccb802435b232b835dfc526a21e35500b2e66f47910b080728"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/azo.csv": {
+   "bytes": 369795,
+   "sha256": "6c0f92ed058f29e0f6e45b302da97fb5c07954a291fa9d5a8ee8c88892397565"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ba.csv": {
+   "bytes": 735922,
+   "sha256": "65d614edfdb582a925c7d6b402c2bdf68b18b7bc1dc61f90cb4dd14b8b6828f6"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/bac.csv": {
+   "bytes": 612358,
+   "sha256": "6926610efeb40b7a35a9979dd670e7fe4c4096f11369ffd3dffa9c493e6017d2"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/bax.csv": {
+   "bytes": 485754,
+   "sha256": "e342478a6f23656638561d650a189560f89863144d0a50044ff7cc9b5cf8350b"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/bby.csv": {
+   "bytes": 442594,
+   "sha256": "9fcfe9537e8340b353c374ff14fb2039cd22ae419a930d06c09ef8e6c3f43282"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/bdx.csv": {
+   "bytes": 589371,
+   "sha256": "7ae8886428d7b741b5152aaf444fc11c377cf7a2464774f889ca3ab89e45af03"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ben.csv": {
+   "bytes": 454777,
+   "sha256": "6c53e66a3705a8b491525f84eb2893ff703d642ead5c5bfd92273c3d799a6837"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/biib.csv": {
+   "bytes": 356512,
+   "sha256": "604064db1d3f6ec72e1fdfa6d5a6e41bf27acd518b708433cb8c6e662da5f48c"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/bk.csv": {
+   "bytes": 607508,
+   "sha256": "6d19df41755775bfa30cfc5f5667ef941b39d8627fc264d7012e786e20bc6bb7"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/bkng.csv": {
+   "bytes": 277245,
+   "sha256": "eb7fdfb7de34f2a05d08254d56a44e42600b7c33b0a7892e9bae96e931b9b05f"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/bkr.csv": {
+   "bytes": 407585,
+   "sha256": "f92104ea8d40410447db7d1d5b2c0fe393cf333ff52f13cef4b3c8f34bcac3a5"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/blk.csv": {
+   "bytes": 275902,
+   "sha256": "21ecd3438888d08487a5f697437bf3444a36c8c91cdd478fd127c4f757434f16"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/bll.csv": {
+   "bytes": 595179,
+   "sha256": "4d2b61989bbee392989258e3a9bf453ff479bc23607573ed01461a2f0969512c"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/bmy.csv": {
+   "bytes": 601227,
+   "sha256": "922a2691a05e00c5fb7d8965ca7b38e49fcb2092dc01804623ec1ad10794106b"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/br.csv": {
+   "bytes": 163875,
+   "sha256": "5c9d2c131dc8ee395f0faca9f96eef93f579ba30009d72d4d8ae6df4e407d007"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/brkb.csv": {
+   "bytes": 2154,
+   "sha256": "0b86a759dfbda87855f46ca912d63745ceb943c82ecc5560dab440014a9d7ecb"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/bsx.csv": {
+   "bytes": 341664,
+   "sha256": "3ec5b83eea5450afbbe12a0952d5e419bd7d3d726d78714dd83d6d2e2a21d43b"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/bwa.csv": {
+   "bytes": 334870,
+   "sha256": "23eec2397d6afa144e8a2886d92953524c640ea792c07f70a795534174f351eb"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/bxp.csv": {
+   "bytes": 287531,
+   "sha256": "f281e0974ff53f75fb195fed9f8c21bc064931ff7625f46f5394e321b2963972"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/c.csv": {
+   "bytes": 564806,
+   "sha256": "05ac44614f0b9e053341418971825094de9dad7551ce5398bf2dc930a394749a"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cag.csv": {
+   "bytes": 518203,
+   "sha256": "5f5e12e95df54bceb93cb966a1fe60e227e1853eaef8e31404c0defbbdfc9e1a"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cah.csv": {
+   "bytes": 478445,
+   "sha256": "8c011c8b21a2ceddbc1d915bb1b1cdc1121ca5d030c66d3b61c748205b094b3a"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/carr.csv": {
+   "bytes": 2652,
+   "sha256": "2f3218d20d0ff409c14e600dc614fc2cd5ca4ff4090e9a54fc6f96321de9a5e8"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cat.csv": {
+   "bytes": 750510,
+   "sha256": "2cfa5b126915ef41d672045cd9e4bacecb8c2ef0da3556a47acdb5c28b3c7cca"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cb.csv": {
+   "bytes": 350810,
+   "sha256": "c897b6b2271fb608792f6f606af4c6c920478cbb98dc1bee82b10e794d8b8b31"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cboe.csv": {
+   "bytes": 124570,
+   "sha256": "9472d6484838d36077e63c6159bb6193f09d822082adf9ebdbe882d4180b6076"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cbre.csv": {
+   "bytes": 197515,
+   "sha256": "03ff141d7e8ff9c4504c7f1309cdc0782afee07650eccb687f585f0970814600"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cci.csv": {
+   "bytes": 270381,
+   "sha256": "29692f4d69b068e2d24fa97f25945fb5d6d412f437097ef83cb2eb8f3c99548b"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ccl.csv": {
+   "bytes": 415386,
+   "sha256": "bc794894d717acb176726217c731fd8a47582e0a32acdc40b7a1f8f9601c5591"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cdns.csv": {
+   "bytes": 396646,
+   "sha256": "4b5d4a1532b43a187f1fe3aee6bb615864598afbde7ff0367ae2a5db4b687e42"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cdw.csv": {
+   "bytes": 86577,
+   "sha256": "b4eac9818f9866487e6a8b2efe32d1bebb1f4ec8f4c4e7b259876e0878bf8c6f"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ce.csv": {
+   "bytes": 191643,
+   "sha256": "c21f205ec3d0a9a6bf3aa3b241454d2c94032c2a0bf0851f44f61a09be4dcbe4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cern.csv": {
+   "bytes": 412924,
+   "sha256": "c7ce725ab7de4b9176157ac7365b79ec3e75cb9e6bae0735fad207dea20db35d"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cf.csv": {
+   "bytes": 190779,
+   "sha256": "1c9c3348aeab02b90fbe33dac4556cd68b3dc0aa79d891e0affd4f9a473a3afd"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cfg.csv": {
+   "bytes": 71288,
+   "sha256": "cee06b4c0918e95d91b466d139401da93e6a4a4b082104a580930f5b20a5da19"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/chd.csv": {
+   "bytes": 487132,
+   "sha256": "27c2b4b552f9cec012f1a0b51668fc067a9688b4d58644f11e8b70638e94d20e"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/chrw.csv": {
+   "bytes": 288059,
+   "sha256": "1aeb749ab3cca5a2f90b70fdcbb473498507c5e0883d832860c7d20535032e09"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/chtr.csv": {
+   "bytes": 134847,
+   "sha256": "7d46270b7ffad57edda3b5c7c5671c8a1e3509b51717106ad97a7db516858e18"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ci.csv": {
+   "bytes": 487401,
+   "sha256": "6953376317157844b994e8fddda4f2073923359824d14d4b564ee9e99c93b720"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cinf.csv": {
+   "bytes": 493591,
+   "sha256": "4cca0257948da89128abf679e86f632c4f815415380522f467f650769240715d"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cl.csv": {
+   "bytes": 587540,
+   "sha256": "9231c341fba8ffe3df43aa328e1fab1960940439b4c8eada07c9b0e8bdd51c59"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/clx.csv": {
+   "bytes": 586385,
+   "sha256": "de5013e84224963436d47c262b40d2074a9972856e34d2f065bf899d2990ee78"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cma.csv": {
+   "bytes": 518120,
+   "sha256": "d6a3f80c267ebf6d6729528bcc4627130009991c088dffc5e6c4817ea70b7160"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cmcsa.csv": {
+   "bytes": 494401,
+   "sha256": "12248820e51d090bc1771d91d55c5e5a3443f0d3b9078712d1ac5e9ecbb77b91"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cme.csv": {
+   "bytes": 229463,
+   "sha256": "2d3d1080c72a9dd4f0590ab2e7ca601a4edb354ae32c906f348a96f229804775"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cmg.csv": {
+   "bytes": 178530,
+   "sha256": "6e8dd1af3f925cee563f8b6cb7a47f1b55be6791ce3a432c9c8ccc673e3592e9"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cmi.csv": {
+   "bytes": 603049,
+   "sha256": "74d4baf63934f60027a89a6d7006324944e4f194ab7dd68155299395c29f53e9"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cms.csv": {
+   "bytes": 552863,
+   "sha256": "05f720773174ea6ae5fbd08c9b5977eec4243ba4a1ac5b5083d94e8fb6e05a90"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cnc.csv": {
+   "bytes": 219514,
+   "sha256": "0bb61c8d7d5d53c67ef9d1af773df97b91c648ceb52090442121a0b8ec9bd711"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cnp.csv": {
+   "bytes": 607488,
+   "sha256": "83c39d6079743c857786f332847d7c2166c585ee538015681fc76d3f8c0bc72e"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cof.csv": {
+   "bytes": 328959,
+   "sha256": "f804bec9150a01147c55bf89b045ceb78e39aafd44772f58041d6933e672d2d9"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cog.csv": {
+   "bytes": 371673,
+   "sha256": "0e37a584d287934de29d470009f00a592a7b15db586c707aa9c501b2250f10c7"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/coo.csv": {
+   "bytes": 471522,
+   "sha256": "220c29a308e371e0c9c69f66a7c3493db6f14caff649b2d769b0df7c509cc070"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cop.csv": {
+   "bytes": 483612,
+   "sha256": "49febd548c7b3aa7755a528da31138b74dce3e00c6bd2146eb3021a94efb70da"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cost.csv": {
+   "bytes": 436377,
+   "sha256": "0162ac4b70e4d006242949199b132653165914f6d9e790e096fc43caaf54d201"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/coty.csv": {
+   "bytes": 86388,
+   "sha256": "10623df4dc24b7eea36061d08d91c3973eb4549f9c5b368f1d985f66039156f9"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cpb.csv": {
+   "bytes": 582196,
+   "sha256": "6f297ec4e8f85cae83c6273e67a9c8add8edf3a333b9cbedb6b4bc4bbbc891ca"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cprt.csv": {
+   "bytes": 321606,
+   "sha256": "dd6af90d22f3a91bb35ade3a779b92a5d2d883a3040b5795df651bca32089b99"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/crm.csv": {
+   "bytes": 198955,
+   "sha256": "c6497b2a4b04eabcbb8015bdc1412f7899bf8435950c6ee4a5072b06cbe7a8fd"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/csco.csv": {
+   "bytes": 393569,
+   "sha256": "ed71b255885866c92510736362b72c4a95734dc19cd3cd3734610c400147abd8"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/csx.csv": {
+   "bytes": 489907,
+   "sha256": "eca77cb017e388fb45e354a6c7c27eb951118bf5e5fd938249b7273983a40ce7"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ctas.csv": {
+   "bytes": 459759,
+   "sha256": "d0337ff39d13d4a9c563e66aab66f6d5941b7564b07f5ed883c3028d4a7c1b84"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ctl.csv": {
+   "bytes": 494406,
+   "sha256": "78212eef9d1c04785875131054317524d5510cc90b650180a81a9cd166a335cc"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ctsh.csv": {
+   "bytes": 278475,
+   "sha256": "875a9134921481da8b6b2919aa3a783b3406cc705e18f4f859a5d986c04259d0"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ctva.csv": {
+   "bytes": 13005,
+   "sha256": "74bf062ea9a5cb100a8ec1e2081f976213f30291fdc5c6cd8197e820f7fa8eb6"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ctxs.csv": {
+   "bytes": 316556,
+   "sha256": "09b571ae64417125e1c2778eb64f43332f95e700a09d013e06efc55b8983e48f"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cvs.csv": {
+   "bytes": 584095,
+   "sha256": "c2cdc2fba53f56b60a2d9d587ad080c3cf906b319d5136b716e90562cdf7f502"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cvx.csv": {
+   "bytes": 722133,
+   "sha256": "e424677d01fe4f47069f26c0ed59a4e3211b2654bfcadeb298d7c7f6988313ed"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/cxo.csv": {
+   "bytes": 164722,
+   "sha256": "ca3de8098a6bdf206fff395c584aa08504cd649b37ab70ec3dee00d82fd4b83a"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/d.csv": {
+   "bytes": 497981,
+   "sha256": "46ba1d8807fcc6a713b28e104daf4f54456ef8fd42e6a65268004a492370249f"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/dal.csv": {
+   "bytes": 161537,
+   "sha256": "159389a65d89fd3bc011cc0dff9c9b9c5f4a0bfc5de796f589d662652b8d3814"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/dd.csv": {
+   "bytes": 601257,
+   "sha256": "ff30916c264eb2f6311b6b3fd6b62007759be998f384594178567a51710c5a80"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/de.csv": {
+   "bytes": 601464,
+   "sha256": "c5b03f14bc6595ec765f41cfe3e6f4cb530c56262e76e5de4d91db426d0eaf87"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/dfs.csv": {
+   "bytes": 161514,
+   "sha256": "3dd9466b5759df87971c42febb8a8cec55001ced57ad9b2be5ea0be37f8ece74"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/dg.csv": {
+   "bytes": 133497,
+   "sha256": "d021bfdc874966527cce5a0bbbb197d10de4a8a54cdbca6f3c4482f8f23d80e2"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/dgx.csv": {
+   "bytes": 300222,
+   "sha256": "eed378c17a5044bc71d69d608be1482cc4368dc32226b2e1c79c7615069a2c8e"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/dhi.csv": {
+   "bytes": 349152,
+   "sha256": "224a7c4b4e843cd06a28ad125f385708b9a3ced4c9806dd823bec34c4c5efc02"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/dhr.csv": {
+   "bytes": 510523,
+   "sha256": "61d9dbed3954c60855decb88508eec2bd0fa16e0f583ffb02f7da1fad0fe61dc"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/dis.csv": {
+   "bytes": 732139,
+   "sha256": "0321ce03edbd618dac1d4747dd804857037bcd56bfe24347d3546c5af9d22757"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/disca.csv": {
+   "bytes": 183702,
+   "sha256": "e5e25fedc490e603f00cef8a6382eb9498f892c85894e6ddd82b66e8a92b3a08"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/disck.csv": {
+   "bytes": 144548,
+   "sha256": "02d2ae0672e2c9e568a75249e4843149dbbe4de37c9b241d6007a17b74d16a56"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/dish.csv": {
+   "bytes": 319274,
+   "sha256": "78c79dcdd8c8e8411d30c548dd9da465a985441e0b27e0fca7e531b8c6422057"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/dlr.csv": {
+   "bytes": 194909,
+   "sha256": "7584003f357ccbc374613f910d5327e3ed67d1c49779f809924a90c837895834"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/dltr.csv": {
+   "bytes": 305815,
+   "sha256": "0b43306a0bac405f9b22cba1d47886fda6657300fdf22c495142f5e7615388d0"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/dov.csv": {
+   "bytes": 501079,
+   "sha256": "ddc944154a66f9046fff3876cad050739d695da6456c20d0410294066825f333"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/dow.csv": {
+   "bytes": 15305,
+   "sha256": "d21c9f544c113c5923d11916669a90b7eeb6f370e23e444b6ac1ad8a0c198a76"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/dpz.csv": {
+   "bytes": 198020,
+   "sha256": "90081b17e0059ab2f0021e3824f81aa3395881ddf65094665fac50ca2ef9bdda"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/dre.csv": {
+   "bytes": 415807,
+   "sha256": "a7979607f631e6a6e5a119eb7a7efa3de02fe4d060f151981a5c5c9bca317a67"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/dri.csv": {
+   "bytes": 319698,
+   "sha256": "d2836d87a2fa927cd5e968f5ed5bb448a9d40ba202f399944be8b8ba3a060508"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/dte.csv": {
+   "bytes": 704152,
+   "sha256": "021c97ae0d1ad8deb1d139ad21496e5694d62eb3827f11e80ea2adab58152cfe"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/duk.csv": {
+   "bytes": 504176,
+   "sha256": "d9523ab860126020851d1feea3b90a492ce15a7d49add3c11d61524cb146fc12"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/dva.csv": {
+   "bytes": 296276,
+   "sha256": "d6fbecc15c46f331b652699c99331f208c40198ea7036477fca4f61b1065a79e"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/dvn.csv": {
+   "bytes": 451654,
+   "sha256": "0bf6544a754bea55ea418c67c193549940645dab31c0d9771086a2829016b543"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/dxc.csv": {
+   "bytes": 481055,
+   "sha256": "0f65e6c43d091aa96ee9af9d17549cf8c6c663bbc3f0e006638b1a28e4010123"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/dxcm.csv": {
+   "bytes": 175628,
+   "sha256": "59b0fe85b96b4966c3cac46bc7d5f7a4b42a73d0a17bdffb80474ff12659f0b1"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ea.csv": {
+   "bytes": 376544,
+   "sha256": "72b0f6b25eadce12d543d82311700c73bf54a64d024c2982db21017e48357e33"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ebay.csv": {
+   "bytes": 280285,
+   "sha256": "5667ac906e05a2ab0dddbf3438b6d22b3738919259fb7ba47165ab99e9d231b7"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ecl.csv": {
+   "bytes": 608206,
+   "sha256": "ce904c3a9c7da4d2c24490cb03f84db047a84fde93cd12350a227ce41c437b64"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ed.csv": {
+   "bytes": 708183,
+   "sha256": "e6038b7cf0c12c13faf097894e4efdc94afdf6a2050af5f426bf539e00cb43af"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/efx.csv": {
+   "bytes": 499219,
+   "sha256": "480a21e1eb9b5298fdd0408e2c28369ba1ede55b7e3fa497f41aef263d369cb0"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/eix.csv": {
+   "bytes": 578745,
+   "sha256": "dceb1c063e7546830903974fa99b7e4c40b08fd2542edd576b3612afa2d3971d"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/el.csv": {
+   "bytes": 330791,
+   "sha256": "3cff4890fec50b040536b09af5a74ae3163b268bc4e85d5870f3f28afd92ba5a"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/emn.csv": {
+   "bytes": 353085,
+   "sha256": "c82c73649939a0d5735ed0cafd19ee55c51538e74e83b8c359137d5cb03c6945"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/emr.csv": {
+   "bytes": 598028,
+   "sha256": "3605556db98f5528b562598683e6c2775829abccd2c0d42b5a27a257e2d87ebd"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/eog.csv": {
+   "bytes": 384634,
+   "sha256": "5aac61d9a3673f4bdb15424098e54d2242c9778a614d8bda98498186d4dcdb1d"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/eqix.csv": {
+   "bytes": 259854,
+   "sha256": "54c7b1b8dec14860c80782d0039beed75b3c0cdf88b0f705948a5bd36dbffc0e"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/eqr.csv": {
+   "bytes": 338003,
+   "sha256": "a62749ea12e495494acf5570ec967ac2e7c067d01dc26bd98c1d8c161667247f"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/es.csv": {
+   "bytes": 573838,
+   "sha256": "4c2fb66d4c1f3554a69ff574ca9f62ebf3d1925388981779bd35e3c40529e456"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ess.csv": {
+   "bytes": 322586,
+   "sha256": "4159d51f57b605fe1fddc18a5aa79f968ffd5a1ef35f5886ce7f063413ef15d1"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/etfc.csv": {
+   "bytes": 311477,
+   "sha256": "a67e6b1ebb5c2ed56e20091165d6c6ccbd06c590bf91cde3145cafdf2c824db5"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/etn.csv": {
+   "bytes": 586712,
+   "sha256": "cea0a48b5a44c3c6130a369cc1b5a048d77d3ad25e9a17d8243dec7578a4d1e7"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/etr.csv": {
+   "bytes": 567646,
+   "sha256": "fcb13cb27de50f0b5d9827b470424e8e8615c5649c138d4ff654c34d932c9679"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/evrg.csv": {
+   "bytes": 566129,
+   "sha256": "1c917a7ecdc0e5ec41ce72407ec6e72dc79f17ed7eb18879fece8ddcdcba68d2"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ew.csv": {
+   "bytes": 240179,
+   "sha256": "8323876b6fc0a4e4e2b9292baf1de76a38e0080908505ddaaeb862a321cec2a0"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/exc.csv": {
+   "bytes": 577669,
+   "sha256": "0409bbe82710ef407f4b251307f801cc097c264f08a54ffe1b2e904d5721a5ce"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/expd.csv": {
+   "bytes": 459406,
+   "sha256": "5921854eec0cf8cadfbb1eb80723538424029cf4d015ed2ea0088dc688284486"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/expe.csv": {
+   "bytes": 197382,
+   "sha256": "fc2f8d2399ec1268a778fce6944a5e90005103aa845096cd008d8f3a48344117"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/exr.csv": {
+   "bytes": 190800,
+   "sha256": "ad990c93e14a32a55c278b1d7452726d7f76c988c2f4464b89c30725f2d8fe9f"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/f.csv": {
+   "bytes": 590293,
+   "sha256": "f07ae2f0d638db698d2ef714b665c61a1321fefe925ca8089440430abb2663db"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/fang.csv": {
+   "bytes": 96438,
+   "sha256": "f366e56c514bbcb36b36538f4d73970c10e478228f87294734d29312a2e435c7"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/fast.csv": {
+   "bytes": 402768,
+   "sha256": "cf5de2586e9616b902a28ce9d514663c2382cb9da00b9b9168fe119f984da0cf"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/fb.csv": {
+   "bytes": 102605,
+   "sha256": "fd6370de2e738da4dfffe946f7135e14f074e5a85cd372601159b6d0f49102f0"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/fbhs.csv": {
+   "bytes": 108202,
+   "sha256": "5f13b5c2f2be29d228563ad1ba1bf12a734c8ddb81f8cca9dec2ee08942d67c7"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/fcx.csv": {
+   "bytes": 316529,
+   "sha256": "caf7748f6451719decf8d845d77d6750f2a3de824b65916ddfca326baa29f0cd"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/fdx.csv": {
+   "bytes": 542023,
+   "sha256": "ee77e5d098740417b3f03d0ff9d0cd015c6a701c1a04124a16a774bc62e5fbf6"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/fe.csv": {
+   "bytes": 291058,
+   "sha256": "5793f250c4fa4eee4f7d09aa8d9fd450aa3cc968d5c63293827d267b6f46af2b"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ffiv.csv": {
+   "bytes": 264553,
+   "sha256": "98773f5bdb9f74830507855be87e3200c7850abe2486fbeb12230f316c49cf29"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/fis.csv": {
+   "bytes": 236575,
+   "sha256": "3129854d7f6693413de0189af5876a58667599e8cdf83ff83fefcb31646f40c4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/fisv.csv": {
+   "bytes": 401195,
+   "sha256": "ea1597f4701f489f1e1a6610faf4dcc01302dc6b16c3b83a65fd7413e5077d81"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/fitb.csv": {
+   "bytes": 496198,
+   "sha256": "4648ce0940e26bc79e157c43d1872e0e92ef8ced222d330bb9717f4592f40f08"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/flir.csv": {
+   "bytes": 334822,
+   "sha256": "f756452f4b0fb86312b5f44967953b7bac563c1c35edce493e1c7c5e52392f57"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/fls.csv": {
+   "bytes": 486251,
+   "sha256": "84d7333d1dba1caf1dfe9e9316018bfbb37a8ba259c18af2993f556985e9e23c"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/flt.csv": {
+   "bytes": 117783,
+   "sha256": "b3eb82dc28551939f3740745749802be4acb2695b208a35f7caf32c957ace9df"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/fmc.csv": {
+   "bytes": 490893,
+   "sha256": "e7e24024c74d972eb12579b4239fa34d92fa613f7550740bd3cb7b2d245c4f66"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/fox.csv": {
+   "bytes": 15474,
+   "sha256": "0e0aa1974ec7f15c8ac5e4b5f2a225cc5f2800bb3886aca8628caf1dd6035c78"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/foxa.csv": {
+   "bytes": 15579,
+   "sha256": "f1bffee5ecc1b4868ab9ab667e9d44cb438787df23c1126e1302b91906688eb5"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/frc.csv": {
+   "bytes": 117711,
+   "sha256": "1de2c48633e8a23ab712adb2ba7925b07675097efa7de965e6373d01b68538a4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/frt.csv": {
+   "bytes": 566665,
+   "sha256": "330482890e0e2457341a4767f2d00cd3b9609ad5da4c0bad9ea0e8376200d420"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/fti.csv": {
+   "bytes": 240380,
+   "sha256": "a514784cb5279923ae5803cd8dbd53a10c9f4a31961435c82ae3464b9e65d40a"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ftnt.csv": {
+   "bytes": 130606,
+   "sha256": "892ef99af04a46f80e8eb448a32e30649f97ebbd3c7f0324b1ee65a56626afe7"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ftv.csv": {
+   "bytes": 48938,
+   "sha256": "13cfb4483d29bd98aadf63d30cb5140b3d0d2a3d9f992398ff65eb8b93b8c67c"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/gd.csv": {
+   "bytes": 547340,
+   "sha256": "89d46881bd19a97a478d0feba0067117f1d3e4f1786fec20ab7f52fa59c3a866"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ge.csv": {
+   "bytes": 732740,
+   "sha256": "bc406fa41f7806bd63724180266459d849682bb68003280e7d28f0041771f7fa"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/gild.csv": {
+   "bytes": 359361,
+   "sha256": "f8815cc04d5526a44fd973b928c52fc120f6b32aa7eec00cf3cf1771ad59d481"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/gis.csv": {
+   "bytes": 522626,
+   "sha256": "ebdea29c44190f4c961b42ad1795bdd9e4119c894984c1f6a8f7eb32fe986a41"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/gl.csv": {
+   "bytes": 489406,
+   "sha256": "90678309b0c742cd603dbefc2436a33439fd6ee23c6a484d0571db21df2ca530"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/glw.csv": {
+   "bytes": 500169,
+   "sha256": "936721b214185ebcfbeefcf0ee1e40553cd8a9836c1bc2308a2d4f944f8735d8"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/gm.csv": {
+   "bytes": 120767,
+   "sha256": "ebfce626be9db97c361fba40fe34113d5e4ab4e4f957d58a05702b21ba8b8bf3"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/goog.csv": {
+   "bytes": 215357,
+   "sha256": "48052690bf3768611cd67d0983e6de18afcb741efa560ada870e6317b304f3ce"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/googl.csv": {
+   "bytes": 215322,
+   "sha256": "c5f8718470278edfce3ab3e1c9121da5787139470883fc64d2ae37dff6b4d6e2"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/gpc.csv": {
+   "bytes": 499652,
+   "sha256": "3f02aafc82ce0935eac2d523d836bfe7b88d47543d705394861cdf7323f9fd42"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/gpn.csv": {
+   "bytes": 249476,
+   "sha256": "75b0dfb1c359e8f9b0c208c48cb12f97b2091f8a037a1cb48ee7ab425a8bc6dd"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/gps.csv": {
+   "bytes": 522713,
+   "sha256": "616e205e4511f9d249fc168766028523f2b40f64c8fc36c4b6c258eadf3c22bb"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/grmn.csv": {
+   "bytes": 248518,
+   "sha256": "db61ed071c21b17043e7ff60a74a852776fae990be6d18d2535596c05eb96041"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/gs.csv": {
+   "bytes": 277352,
+   "sha256": "ab663738f91840c1ecdc0f7bec6f15e1a47e6ef8fea1b02a431e3d2f35e72298"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/gww.csv": {
+   "bytes": 590570,
+   "sha256": "8d0186186106f5ad22cf0fda7eeb4deeb35a506ad883840a87bdb9b28a8768e4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/hal.csv": {
+   "bytes": 622023,
+   "sha256": "d30f1e44552d9ff1b78f0dfbad43ae2967d56a8cdeaaf3ffd0db46d5cdce2b6b"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/has.csv": {
+   "bytes": 497216,
+   "sha256": "b4bb907ec9be25a1adb5dcec5272fc7c8977dadcad53d1f013c20aeb197437bd"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/hban.csv": {
+   "bytes": 505767,
+   "sha256": "3168e2acf29db15c390b8098045603dd59d1085d13d0b94bd89987cfa214ec95"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/hbi.csv": {
+   "bytes": 172004,
+   "sha256": "54aea74c9594eb2b6959d2a8e68a4b79a0715235a5551d684930637312c91ac4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/hca.csv": {
+   "bytes": 117321,
+   "sha256": "203a85a9166bb4cb9c706592868efa7ec9e9d9e7a2eb16b8fb57ed6463a4e577"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/hd.csv": {
+   "bytes": 495520,
+   "sha256": "ddc0dceeb54b6e6a3c9086f0f963b316565f73f020f4e11b11feb2d589c3c627"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/hes.csv": {
+   "bytes": 529378,
+   "sha256": "685aa29d28bf0a27d1c10f2b524734f39c2b9f37d0ab595a1f4ff29b6891e1b3"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/hfc.csv": {
+   "bytes": 481088,
+   "sha256": "0ebc354c997108d3d852fccc6554546e7751d2f5055197c23a5c28e82cb0bbe5"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/hig.csv": {
+   "bytes": 316470,
+   "sha256": "8fc2fb56b42de4ace1b29af7691162136de1bddad8573ede753f997d94e034c5"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/hii.csv": {
+   "bytes": 118237,
+   "sha256": "9d91ae8e326fe91a72fe5ccb2f9fdfe98c42d9d37913019990e01a70ddef6c67"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/hlt.csv": {
+   "bytes": 84470,
+   "sha256": "82a2c3b92af0700091e9f6afa4be2682dd682b8447a2ab93e3da9c275a03dc12"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/hog.csv": {
+   "bytes": 443934,
+   "sha256": "890dbb1a413619082a1e77d595932b05b1236ba40e5ee1e5c0bd093197db346c"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/holx.csv": {
+   "bytes": 358473,
+   "sha256": "8aa1d27fc4d2c60242d89e62f3884443c7f66b4ae79478dd1919db461c8e2d5b"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/hon.csv": {
+   "bytes": 630735,
+   "sha256": "eea1e3a4987648120d6f9aee4924d63022ffc2279c3cb7768f31e40d1ef47417"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/hpe.csv": {
+   "bytes": 60147,
+   "sha256": "8ba1cb6d58eb778bc766fc3b496a3b6ba89bcd14384d0ae62ef9bd80e29cf4cc"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/hpq.csv": {
+   "bytes": 721512,
+   "sha256": "891bed164f2b0bc0d23ddf50bab31ac519916de91cc4e2ccd7705b8e7e774c4e"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/hrb.csv": {
+   "bytes": 578423,
+   "sha256": "d7dd30bf9c81575587ce9bd7348d9630f252be6602c0d5d7cbf82483550ae53e"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/hrl.csv": {
+   "bytes": 483782,
+   "sha256": "6960667932b0640588bff4556202fb096bb6854c0d43f177e5a9ffba7d324d67"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/hsic.csv": {
+   "bytes": 297391,
+   "sha256": "5551c12fb48849df096b73f2ca72d5d5e4a7e99254776bc9fd12b55054331ed5"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/hst.csv": {
+   "bytes": 490684,
+   "sha256": "8604b892ca1e96386001697cc528b22e2b57ce78328c30d2396be60e7d90df4a"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/hsy.csv": {
+   "bytes": 501558,
+   "sha256": "99673c290702f47a15ab0b09aa2529eb9b8d66b4d26bb77fd23d8feb069cb639"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/hum.csv": {
+   "bytes": 487337,
+   "sha256": "772885f2b4a6a7e7b5855858675ba66f3cd1d131456756896cd4023c10fe8afd"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/hwm.csv": {
+   "bytes": 4600,
+   "sha256": "fa11df86d9929ff228cf13925b7b033c259da8f91ed2e54f70b42113ea3c51e5"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ibm.csv": {
+   "bytes": 744300,
+   "sha256": "e70d676a438bbd23695e74de371a773696c8fa0d9ebb14f478a90d7c6395e9a9"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ice.csv": {
+   "bytes": 189150,
+   "sha256": "5fadab83c50a5970cb84d8312b444a615bf78f1345624dded72bafcf220c3b9b"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/idxx.csv": {
+   "bytes": 348362,
+   "sha256": "259d39d6ee6ba6647dd6046aebb3de13cc05f353c4ccf1445d661a6e9b4677ff"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/iex.csv": {
+   "bytes": 385362,
+   "sha256": "4b8a8abb49c9c8927e4ac1adbf69cbcdc60342ecc7530921f9bda894cfda2d75"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/iff.csv": {
+   "bytes": 567284,
+   "sha256": "d007a0970c800787b63dca71900e6efb847241421330e71e01a7f44f72d13d51"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ilmn.csv": {
+   "bytes": 245149,
+   "sha256": "c9217562af2146e12765aff66c9163887b827f9ccd1deca805d6ad39fe623ad4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/incy.csv": {
+   "bytes": 318151,
+   "sha256": "1586bc2b30f7ddf237ac469c00bb38e895aaf653dad4b9fc51519e9374395ca2"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/info.csv": {
+   "bytes": 77033,
+   "sha256": "e91e5e3b539deb03761bdac6c4557df1a82ecc2e656bd8931fdef4d347a0bc42"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/intc.csv": {
+   "bytes": 516997,
+   "sha256": "5107933b7fdbb74e2f6863fd99c49df86f93c84fb46df28f339ca0f38c8f9af9"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/intu.csv": {
+   "bytes": 352229,
+   "sha256": "3171896175deb5bb89d10a3a5d240fa2a5c60a2598c9ed63cdb2c128ef80e747"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ip.csv": {
+   "bytes": 719793,
+   "sha256": "580f86ad3ad10e3df4ee842223eb8f6fd1752d1c979b4f410c97178331245037"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ipg.csv": {
+   "bytes": 491345,
+   "sha256": "184140227652527dd1062d36583a424d2a182774a9ff19081e2fef6c9be96631"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ipgp.csv": {
+   "bytes": 160421,
+   "sha256": "e81c2b4ea271876440bed251c021f716c4546a9fb0bb384ee353af045a303ce5"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/iqv.csv": {
+   "bytes": 85954,
+   "sha256": "9e83ecb85cff904214113dedd20043e24023eca8c43039e6ab84e67b103b1705"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ir.csv": {
+   "bytes": 38041,
+   "sha256": "810ca73ef4a332fc962f949e8173ed9f6f612f5cf0733fcfebd9cf2d613b165c"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/irm.csv": {
+   "bytes": 303187,
+   "sha256": "71cfc7737b3ab2efb02a1e688f5ac99a99da8ff3fbacf87b8722813ba52ea4c1"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/isrg.csv": {
+   "bytes": 251658,
+   "sha256": "369ace10dc65e8f4d581507d7e14ae3b41a291d0adc2b35eb888eae8713ff3fe"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/it.csv": {
+   "bytes": 338279,
+   "sha256": "f440e6d962e54b433607284a877c6a27ff238bb294994ec2467432e372dee7b9"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/itw.csv": {
+   "bytes": 583178,
+   "sha256": "61f4db2eebb7fdf3e4b4f7ff81aa749b07b5066f50be0176adb25c0dac8488e7"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ivz.csv": {
+   "bytes": 308667,
+   "sha256": "b21fb6e7324c62deb07cc6d1c1553934c3d2a0a70fe35a9612ae55aa7b21a83a"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/j.csv": {
+   "bytes": 491532,
+   "sha256": "fb6fffdf11ace3ad3ccc4b803b01b88c7a8f07c71f54dfc4fb3d78d9b30e80e4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/jbht.csv": {
+   "bytes": 467372,
+   "sha256": "cbd46ef256eac08025bd6ea7ced402a6a4b4f69b91d728e46a86b8ed1b7bbbd8"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/jci.csv": {
+   "bytes": 429935,
+   "sha256": "af92eaf70d6522a492d8816f842615c444db952fd193dd7ec365de5d5e7c0d99"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/jkhy.csv": {
+   "bytes": 426115,
+   "sha256": "bc00450a21eb38855ba9728ddc2e3015301cab7cd1cbdbfb5dbed86196ec5948"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/jnj.csv": {
+   "bytes": 727160,
+   "sha256": "945a1062705f5c83b8e28b893e1d6061fa41325055f574eecac0f502fa799246"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/jnpr.csv": {
+   "bytes": 273246,
+   "sha256": "00be80f88ed7aee3ba95aa3e44cf662a9eb3e2cb890c0d9061d34a546965ae8c"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/jpm.csv": {
+   "bytes": 510060,
+   "sha256": "7592151e6513d3a366876bcf934f4967e247d9946ae97333798151a40b428146"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/jwn.csv": {
+   "bytes": 495540,
+   "sha256": "63b1ffa351795893a81aca1e8efe850868d3716295d9acc1bd4e095094745f58"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/k.csv": {
+   "bytes": 585850,
+   "sha256": "7507cb60b358983ca2178ac427dadde49510d279a051a3095872963da40dfee4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/key.csv": {
+   "bytes": 407692,
+   "sha256": "d13cc4bdd0812043033901e0a6c8e4efaea27c6bb7edca578913118a81be5b49"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/keys.csv": {
+   "bytes": 66786,
+   "sha256": "08da5159972c171d8a59e704090216d3a779c666e38c9af86a3d3f2e423be1d3"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/khc.csv": {
+   "bytes": 61706,
+   "sha256": "4a6da6192df1f44717085f95722388406146e44ab3261df07b28ba44631c2c47"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/kim.csv": {
+   "bytes": 351956,
+   "sha256": "db90e1eed43176f5235788e326b48136d6ac9415e7cbab831c66d95a609dd5e2"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/klac.csv": {
+   "bytes": 495530,
+   "sha256": "34ba6fd62a47c40cca10f8eb8476a84bf69c86f6207699732bba43dafc410ecc"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/kmb.csv": {
+   "bytes": 511171,
+   "sha256": "9be0741f19d0876d91318e068fff603796df91a24e5f13a3cb85bac6ca249cb0"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/kmi.csv": {
+   "bytes": 126889,
+   "sha256": "8261c0da89eeb438c188491d285ff07eea755f480663afce4693618f489c4295"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/kmx.csv": {
+   "bytes": 282472,
+   "sha256": "62796e7b1240559a690776cf5a286842a6d4832f731e04e1596d260f7157fecf"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ko.csv": {
+   "bytes": 757701,
+   "sha256": "a885c20d155f7276903e98b34ba1bfb6047291993ea53f8b371abea9a89ac2e7"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/kr.csv": {
+   "bytes": 530761,
+   "sha256": "f28929045ef32d555114856c1fc82975d1e89dc6f1bab494faf0687e4c411f4e"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/kss.csv": {
+   "bytes": 358136,
+   "sha256": "8ef813b09449b86bd66f5e5bd711951b1c577c7a7746f1d8ebdb1789c5ce4e45"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ksu.csv": {
+   "bytes": 501172,
+   "sha256": "e6502ec8788f05eacac624ed228bb1b0b2fa6c9d744dacb17e8335a7b620ff81"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/l.csv": {
+   "bytes": 502125,
+   "sha256": "8016f344e1022ca33956e1e6d97facce382a3fb4d2e16158c107cbb3549622e7"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/lb.csv": {
+   "bytes": 487960,
+   "sha256": "6023032443dd06f40dadb09b3387b4383680436564d0379d217a49fbc58eed17"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ldos.csv": {
+   "bytes": 175221,
+   "sha256": "ccab6f32609c9577760a38fee034e338fcb0d70d271ea505fae93c8c76391f67"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/leg.csv": {
+   "bytes": 491982,
+   "sha256": "224014a32a719e519cb86e8a914845da3619b4c255751adb96c5d7d7b1445ccd"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/len.csv": {
+   "bytes": 493545,
+   "sha256": "98b7654d9b3c92a24d463a1affb985194d2bbe2206821edfaabdc7fc3294c8d8"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/lh.csv": {
+   "bytes": 386324,
+   "sha256": "a74db46a36fe8338abfa8b4e33a44b423357703c7421de5991c68efcdcf4a8a4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/lhx.csv": {
+   "bytes": 478699,
+   "sha256": "6a80c5addd2672b10bca2f7560ff96ceef0b513935d2f39bd8882d6be47a40b5"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/lin.csv": {
+   "bytes": 364483,
+   "sha256": "7f65e091c157403585b00ca2ccbf14b75c235e228c8be9902333a77d15fc360a"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/lkq.csv": {
+   "bytes": 200665,
+   "sha256": "ef77a0bd0fa19f840311a10b945a83033ca7b0d9f49f91fdaba43115fede36cb"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/lly.csv": {
+   "bytes": 601848,
+   "sha256": "264d05008eb4f0d1dcf06a1aa22b2c1819b9ad76d15bc650d851115e8f810606"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/lmt.csv": {
+   "bytes": 572459,
+   "sha256": "574efa79679dd1a3ee8bdd4677a6b5e5a872dc144abec6f96684d4122830d994"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/lnc.csv": {
+   "bytes": 521082,
+   "sha256": "f367023f8c9c8c987d47572e6c09e218e4e95bba98d4c7256899ecf5fa6e8974"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/lnt.csv": {
+   "bytes": 585317,
+   "sha256": "422dae1d42c0477d031ff3ced5c67fbfe6eca0039ea33c087ee6e2f44d4131a4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/low.csv": {
+   "bytes": 504475,
+   "sha256": "517c099fd81819d7643deaf1b88913e15f7c5fd27a7c6f3d1f4d5e33270ab571"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/lrcx.csv": {
+   "bytes": 456607,
+   "sha256": "e576d800be4287f28c3c8eedad062c9c66cdeafd21a066113ff1a3a98573e365"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/luv.csv": {
+   "bytes": 524982,
+   "sha256": "5b232cf720dfbbfc97765a9a2739ad616e1a84cc8897ed549059d3c11a3ad322"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/lvs.csv": {
+   "bytes": 193081,
+   "sha256": "54bec250f4318b724816e289158e59f2e4ff25ca27cf71494decd83d80a64ccd"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/lw.csv": {
+   "bytes": 44119,
+   "sha256": "7a4e0443cadf77b6892b9b127322004aac23dd8c52938a87a4a532ce575c33e3"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/lyb.csv": {
+   "bytes": 125987,
+   "sha256": "d3f905523ba6040adcb369f5ae1af87c60acfcee4bb51862c61abe30bd6938ac"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/lyv.csv": {
+   "bytes": 167898,
+   "sha256": "ae7b2dfc6a20df440b3665dc7c039b9de57c445f9cb2b42d32bd419be30e357a"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ma.csv": {
+   "bytes": 186520,
+   "sha256": "1d229f7b26159670fd618e297cb363430874c6add3df86fd1ff1bb2e871ca272"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/maa.csv": {
+   "bytes": 313080,
+   "sha256": "a929231e55d1996627c5a1336d6ca2617c38cdad7124a7ba199ae842c470693b"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mar.csv": {
+   "bytes": 343996,
+   "sha256": "21de2faf5dba72fafc9f94e573ba25ab712728720464143f4c530d77c785bde1"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mas.csv": {
+   "bytes": 499324,
+   "sha256": "bdde36278bd63e252231ea8c4ca70001af41f84e1e3c08a4288eaa7b288ee677"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mcd.csv": {
+   "bytes": 675355,
+   "sha256": "4afd7be4aff522e96d1f27126abf8d350afdbde8e5b6310063a1ffb9e2aa10c5"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mchp.csv": {
+   "bytes": 346856,
+   "sha256": "b154906f9c94c44559cf024391bff678bb30ec90a050d2e66864fbcd5e4a7afd"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mck.csv": {
+   "bytes": 337683,
+   "sha256": "3c432d40e1cf0bd8ce771c29ce7e14322195c38312cd81d8c24c1e9563c67579"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mco.csv": {
+   "bytes": 328496,
+   "sha256": "9ecc00a422b7f2f46c5d3baabf0c45422de17c54d6db632f251dcba856888a20"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mdlz.csv": {
+   "bytes": 247530,
+   "sha256": "172c8526e5921add6e501e112263c32c892db4a0592901430ef26282e800fe65"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mdt.csv": {
+   "bytes": 588172,
+   "sha256": "4c83eed1a5461b0615beebb6a5f364d089b86c61e48f628add3df69e55068d3d"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/met.csv": {
+   "bytes": 262603,
+   "sha256": "0181fab77496037d91a095a6296bc617d56911e7ab51a86d61faf2bbffc1ca7e"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mgm.csv": {
+   "bytes": 400672,
+   "sha256": "bec3a17bf6dfa90fb5f19b02eef211a2ae62c62d6e83fb152ba7f95a7bb4dd94"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mhk.csv": {
+   "bytes": 348174,
+   "sha256": "00c1b9ca4c99e84fd1be7154f37de3cde5e023ae86f703e3a0a0f0e7d43b5f53"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mkc.csv": {
+   "bytes": 576257,
+   "sha256": "74b639323c916c8a0019d9dbb0063bed9faee1bd98fc6d99a5a8567408f2c017"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mktx.csv": {
+   "bytes": 191896,
+   "sha256": "21a3e4c294bd07691f82dc653aa3e197f40b655960df090828645d6789fc622d"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mlm.csv": {
+   "bytes": 328411,
+   "sha256": "bea2e9353d3c75261cce456128f8658058fe9be093ef299d7bd87a122f5089d0"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mmc.csv": {
+   "bytes": 582238,
+   "sha256": "d1383d3b0c965ee2a3a03bb48c73f6251f4e668ed9d7b069e2a022c164f458c7"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mmm.csv": {
+   "bytes": 638359,
+   "sha256": "405777628031cfa9e32ea55fd652f8e3be16b53f27cf3893fac4511199623b82"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mnst.csv": {
+   "bytes": 416737,
+   "sha256": "c16d26c9474af0d7649e70b866d343e6296f5a5083fa79a8d9926642c7c86ec9"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mo.csv": {
+   "bytes": 740159,
+   "sha256": "15a757021c3eddb7c398451d301e450a0624340265a3d6d171c8eb4cdb1deeb4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mos.csv": {
+   "bytes": 430514,
+   "sha256": "c7c4309ca7e1cde282e615a238060dd86f9a854c3f04586565666ffd06902d8f"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mpc.csv": {
+   "bytes": 116496,
+   "sha256": "22e66ae82d8bcfeef5d7e0200652798794bbfc19c00f2188a44b7beca602718e"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mrk.csv": {
+   "bytes": 633537,
+   "sha256": "613246691a54f4fed29d09c93bed634a495f39535baf9fd9c094abe077165226"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mro.csv": {
+   "bytes": 619376,
+   "sha256": "bf0c90a38d2037ce8a6a6f1584fcef584a5d2824df7fdd74e94a7b041850254d"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ms.csv": {
+   "bytes": 366694,
+   "sha256": "a16d468811156a5a8a9a9665dd04c4d68faeacf2ea712a13da43efe753c97ab4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/msci.csv": {
+   "bytes": 157061,
+   "sha256": "dddd3f3f8a9b849826e3ded62b66f0d49dd9c7f55a2916d679bca5bcdea9b48d"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/msft.csv": {
+   "bytes": 445521,
+   "sha256": "c0813ec534da94789c11122cbaf924484a830463533929215d24ec60588b37da"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/msi.csv": {
+   "bytes": 576571,
+   "sha256": "74b3f223788c6191b605beb534a2203eb936d708982face2406d04ed5ed988d7"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mtb.csv": {
+   "bytes": 496719,
+   "sha256": "f748754b5a076fa15e3adc5889de8c3d3089a5a5387a1c7c6a7584b404b7d2ad"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mtd.csv": {
+   "bytes": 272349,
+   "sha256": "4009d38e6427b3708d3ff46c196b5b89c8b7fe8616748c3d2bd52c4932f88d68"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mu.csv": {
+   "bytes": 454041,
+   "sha256": "6fcfd5275e1e7d716a722a7df193f11a37c6629780b4cdd66307a98cfd4e19c9"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/mxim.csv": {
+   "bytes": 407230,
+   "sha256": "682da363e64f355890e52f97618fd622c26c253a8462a4d1d007593081e2d4ca"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/myl.csv": {
+   "bytes": 497972,
+   "sha256": "92b82fa1646a5e0407d9eac2a4138b35ad5b4534a6552a5459895dfc708f861a"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/nbl.csv": {
+   "bytes": 493663,
+   "sha256": "fb18dc00061dbdc5cd053a845b565b0f89a0822c3419ad38b8d294a6067ef1c1"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/nclh.csv": {
+   "bytes": 87769,
+   "sha256": "a9bac27efaca2dbed8ecc6b6e45eee171afc97a8a21e63982a49f14a04814767"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ndaq.csv": {
+   "bytes": 218926,
+   "sha256": "ad6867c6a9b5096209747767dcaf7297d4fc0fde510a7ccb3df4f526161f9f6b"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/nee.csv": {
+   "bytes": 586452,
+   "sha256": "437da13fef318410476357977a2620bcd8239b55d6d775fda3f1fed5b652476b"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/nem.csv": {
+   "bytes": 532472,
+   "sha256": "6e3d6ad7f3050cc7a135d37a6143b78052c97527a0cdc341dff51c36876b3f00"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/nflx.csv": {
+   "bytes": 223442,
+   "sha256": "3c2992a08b870a07ef980db3cac5644cbdb03e35d016e01f68076919e3047ca7"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ni.csv": {
+   "bytes": 588834,
+   "sha256": "467aa1d55c49b35c728370f7152840af85f96130e9441751898844c03945f61b"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/nke.csv": {
+   "bytes": 502948,
+   "sha256": "a3ce56b69b5039fedb24d4f0de0888707a86a5815e61517379efb44c9d8290e5"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/nlok.csv": {
+   "bytes": 378719,
+   "sha256": "c43e6b311f481299db57ca32ba5d4d370b1948945079330a972f916f06828a7d"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/nlsn.csv": {
+   "bytes": 116480,
+   "sha256": "c23104aea4b978af40cfc73ba7f5a844c8add23851564f8439a7119590246ce7"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/noc.csv": {
+   "bytes": 506500,
+   "sha256": "2b1f7b75fd766cac769e94c9e6db0ac145ab836fe2970a63cc82c8f33600fbfe"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/nov.csv": {
+   "bytes": 300658,
+   "sha256": "e49d54a61901a0c0454881cd796dfb459cb4bee726355c413cc3d5277f9146fe"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/now.csv": {
+   "bytes": 97258,
+   "sha256": "a09842395cc21aa685ef86f2985e7152034f61d4f95b411182d02de82157c71c"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/nrg.csv": {
+   "bytes": 213714,
+   "sha256": "4510da0bbe2e5c9651e8139d88a82b677ae0684c79a78c8d7ed04601d7a9ff9c"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/nsc.csv": {
+   "bytes": 483977,
+   "sha256": "92a1351d3db7c8e399f88d88a1546410e716126d94ee8dbe4b422a314c2fde1f"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ntap.csv": {
+   "bytes": 315045,
+   "sha256": "e5261821355b28cbf16cc5d8e355d2ba5e5dd5ed4a22ea97dd93edebf47e64ec"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ntrs.csv": {
+   "bytes": 497710,
+   "sha256": "ec7a95a04e805273d552fab05065aa4c26a274640809ac3ba8bf6007fd58bdc0"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/nue.csv": {
+   "bytes": 494800,
+   "sha256": "70ae6c50f24f50b6c0decc1ec1b50a6d5511b06535dd27999b2d420620d0870a"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/nvda.csv": {
+   "bytes": 289214,
+   "sha256": "0e47fc16f0555b910ad0debb3e19bff04f163f3c5b4e05d57bc5dd16401d9eba"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/nvr.csv": {
+   "bytes": 427707,
+   "sha256": "5cb2b909506e36da52b078bed1ee738682b1cc9e9ce5ae229155c9f186c5004f"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/nwl.csv": {
+   "bytes": 499641,
+   "sha256": "8c0936568d1e0123001d0f07c20e3e007e25ca8b86c9d4408350717504c91d95"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/nws.csv": {
+   "bytes": 85583,
+   "sha256": "351caf29f6e53efaabd38e3c54b44e733a3da13c0d7578c716ad661280da02e5"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/nwsa.csv": {
+   "bytes": 86881,
+   "sha256": "48f7a65e0297197c389edd87e6619f1ef4c7bcfa5a4b3235ef970ab2a9aca1bf"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/o.csv": {
+   "bytes": 318119,
+   "sha256": "1deebfd26cb92a60f35cc037ad46738a06e10444574b091911bf319da7ac9496"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/odfl.csv": {
+   "bytes": 359221,
+   "sha256": "95990f72b88cbce93618692d95f3df916e05a9ade4a4b82d2a8a8c7afaf5af35"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/oke.csv": {
+   "bytes": 480789,
+   "sha256": "13db7f863645e1e94796468840eb51c5d7554ffe57273bd3efa82ce454c77021"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/omc.csv": {
+   "bytes": 497766,
+   "sha256": "a97bc823b9018155d51f0360fffae3cfb6683ea80855d195fd7c19750db1e447"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/orcl.csv": {
+   "bytes": 438698,
+   "sha256": "3585af9fab4a9585c34da7f2ff286de53840e9d5d3761cad182919bd2ab118ec"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/orly.csv": {
+   "bytes": 332982,
+   "sha256": "85655fb8638f597de7bd92e97b1f704cf35461ea0d5d4ea6a36142edb389fa3d"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/otis.csv": {
+   "bytes": 2781,
+   "sha256": "8220f8608725964f9be20c3dbb31e57e21494a6be1cbc12baf949c6f9c477013"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/oxy.csv": {
+   "bytes": 477236,
+   "sha256": "6addd9b0b6dc68c00fd1589fbdbcc166bd322beca0486504a9f633d754981781"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/payc.csv": {
+   "bytes": 74201,
+   "sha256": "682bc46beb774aa2c4edf157d8892747a938661e283ed8e06138f222a268bbfd"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/payx.csv": {
+   "bytes": 459944,
+   "sha256": "29909c0e136a13e38d340161528d2f9f501af0ae1831ef944ab5bab7cac64615"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/pbct.csv": {
+   "bytes": 387429,
+   "sha256": "81d64af8750860f60186f06389f343c58a84c96c617f7ab4f992b777811f59cb"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/pcar.csv": {
+   "bytes": 494838,
+   "sha256": "b9c527e36ab3c778f505707935033747c70149d6bee4dfa3f1bf71657d3252a8"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/peak.csv": {
+   "bytes": 446549,
+   "sha256": "1b7c55471a0eeb2e4e2eb42a15985b3a701b8d5d5dc5293cdce63d267d759c65"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/peg.csv": {
+   "bytes": 499114,
+   "sha256": "71b402ffe48a20c0f22ba90f738ba88d7d566d1ff2f31aa57e042d016aeee8c8"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/pep.csv": {
+   "bytes": 605674,
+   "sha256": "96c97720a8fd70276e6f505b2d7ea35f6461e5753f7c157427824449e729fb87"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/pfe.csv": {
+   "bytes": 606026,
+   "sha256": "4cb325ce8f199877522f10fe949383cedee9c8c7493c5033c46ed1357e00e20b"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/pfg.csv": {
+   "bytes": 231023,
+   "sha256": "74331ec18a3b7396a0d7bf2e76e6fe51357024974ced668296a19dbcdff9afc8"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/pg.csv": {
+   "bytes": 723620,
+   "sha256": "401b701bcef480cd20bc2e3acdb4051b93a5a85f60576458e71d9432f604cc20"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/pgr.csv": {
+   "bytes": 516056,
+   "sha256": "29d6cf6f1821e042c2c0712c78396fd3e73bd5015fb80e9e038924540144b634"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ph.csv": {
+   "bytes": 525536,
+   "sha256": "1fb8c05fc8946ecb8af9ea1d170367a2aee7b5653958d7b3882528553af5d3c6"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/phm.csv": {
+   "bytes": 492308,
+   "sha256": "849bd8ec72cd4feeb6c640561e088e7172fecba4155b4b63765eb0e4957a82ae"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/pkg.csv": {
+   "bytes": 249625,
+   "sha256": "e556ee3a0ce39bef580cfa81a599bf82217bf33eac00ee375ecef21d22518ae0"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/pki.csv": {
+   "bytes": 575091,
+   "sha256": "a9cc86adbb1b9a37e8769ae622f5e417852205c65022d5e6f9fb9564ed899673"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/pld.csv": {
+   "bytes": 275784,
+   "sha256": "224c0ebd2ec1e4ed03509e8cb867ad081d19855e3d745fa9373280ea018a247d"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/pm.csv": {
+   "bytes": 153342,
+   "sha256": "d30528556b3d0b0e82b32fd5d0f8df5fecdd7a0eee4d4aee9090ceda364d3ad9"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/pnc.csv": {
+   "bytes": 554281,
+   "sha256": "74cdd2909a988ec7dfcadc62eda55a66e4e9d55b8f574b20c42619282fb29f34"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/pnr.csv": {
+   "bytes": 569871,
+   "sha256": "ecfd36a8627b15fa8be994d905ea2e3837560a461340155eb3c9767bdaf6bf7e"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/pnw.csv": {
+   "bytes": 575288,
+   "sha256": "2f7ec3f5255aeb689d8a388676b213260637dd424f421301dc280dbb06836b40"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ppg.csv": {
+   "bytes": 506729,
+   "sha256": "d930e385700eedc11054b83057499ca8b724938e874217685aba16b9b36a5c37"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ppl.csv": {
+   "bytes": 493163,
+   "sha256": "e56f6705852d14435ac27ad9925d4e9280ca08b69c79bade513c57a11a05f49d"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/prgo.csv": {
+   "bytes": 363626,
+   "sha256": "939e9fc5f4b70438cd7b17554e6c4660231ccb7da09f6cf9911b071bdc308333"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/pru.csv": {
+   "bytes": 230954,
+   "sha256": "4f549edb5db920057a225127945a9c4ecc029c052e411294e7072106de851d23"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/psa.csv": {
+   "bytes": 492270,
+   "sha256": "44e72864bda2d2c4b1fce7d04e178621152add82c8d74353d97db0ea4c0e2fbb"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/psx.csv": {
+   "bytes": 102611,
+   "sha256": "cad92e0a198949eb13cfc05a3b803da883fdb634b0f58686f5ec89bc0ed9a061"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/pvh.csv": {
+   "bytes": 498795,
+   "sha256": "7c574f38f1ef97a874c31566301e84e0a867a3761a4eeef3a7d5d20d194e3088"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/pwr.csv": {
+   "bytes": 283481,
+   "sha256": "ad515d3bd7b41a3f094ecf66e77d03577c35e0604351aa7fc2c7da6cb451170f"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/pxd.csv": {
+   "bytes": 289644,
+   "sha256": "dd84f1cb72eb35511ec236c7d6c5e52cb896b521259cbedb4dd91b5392d4ae69"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/pypl.csv": {
+   "bytes": 60238,
+   "sha256": "1c427edd1f79d0fdb170ab4a1517cb67bb71659fc3f5910b0fb07a31bcfbeb4b"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/qcom.csv": {
+   "bytes": 367571,
+   "sha256": "06d93d0b916296aeb1fcf7ea6556d6de09acc9746c0d46bb8652760e0d69ec22"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/qrvo.csv": {
+   "bytes": 67616,
+   "sha256": "b9bf8174b8ef4ada544880038824f686eb040b2ad9dc58a02f23a7f3c92e2484"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/rcl.csv": {
+   "bytes": 360765,
+   "sha256": "bf7676f38af608fd91c377f73ccbbd7310e75813ec82ab5c35a36a4739745c47"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/re.csv": {
+   "bytes": 309213,
+   "sha256": "57049d03da4ea05de60d5f7b5058800556fc4bea9cc21057fd666eab741d68cf"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/reg.csv": {
+   "bytes": 316582,
+   "sha256": "db1207523a6637dff23113c8caf9fe2996ca8e7d9267b607c33ff18df1fec63e"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/regn.csv": {
+   "bytes": 341272,
+   "sha256": "5145b7013433835c3d9773eb934f5bc5f08d0da2b6fedb67e844ec8ffabab2ca"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/rf.csv": {
+   "bytes": 489785,
+   "sha256": "a6285fe302c3360d8f96158a38f9c393cb19d0b42706566fc76764463db95c21"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/rhi.csv": {
+   "bytes": 492852,
+   "sha256": "e43f0a3ed1a3939ce7487c2084d14c85097cd93b995a4824f9028d4805aa323c"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/rjf.csv": {
+   "bytes": 450554,
+   "sha256": "7cdf0fcddd2012a8572dd5f994a74e2e1c1a8f490ea3fd2f5df09f0630e1035b"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/rl.csv": {
+   "bytes": 289465,
+   "sha256": "96d7f17828957d71f1fab60e1e333e107ad2d172658c87c47e4e211513374a94"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/rmd.csv": {
+   "bytes": 314296,
+   "sha256": "80a296a09fa9139c6397d16c760ac76da8039caa246a27124103d3cc3b463717"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/rok.csv": {
+   "bytes": 480749,
+   "sha256": "9fd1a3160c5716128e837b7416db77bdd51e2ca7cfea8d5547bef1386a794ec4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/rol.csv": {
+   "bytes": 479443,
+   "sha256": "e35206519987fafd881352df97c7497c4316c389a9573c516304dc153bdebcb7"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/rop.csv": {
+   "bytes": 362542,
+   "sha256": "f1b4baf28535497a1417de3a1a934f24bc164de3b19a5d13a413b07b58830ec9"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/rost.csv": {
+   "bytes": 447846,
+   "sha256": "4374e9713fcef04b61e898eb3efe570f3bf853dd1eb88ce1713ffdaa77d8c1fa"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/rsg.csv": {
+   "bytes": 278104,
+   "sha256": "fdf8016f602848019e69bf3aaa45fa4e4dff9439e7b889639c7a12dcb37d9404"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/rtx.csv": {
+   "bytes": 627639,
+   "sha256": "71564184b94bb6dcebfc1ffe4df6ecf3d88f76e0628b869d4f11fecab701db5e"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/sbac.csv": {
+   "bytes": 261030,
+   "sha256": "8fcc7bd6a39935a5243560f7bb5beedbcd21d4a1003f22f4da0515e61d83703d"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/sbux.csv": {
+   "bytes": 353215,
+   "sha256": "4b2d28393741303becb037fe571a2f45aac1dcf9794aef72ce9478eca97e310f"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/schw.csv": {
+   "bytes": 411549,
+   "sha256": "70ff5280095925156c75191fedc6f175d7e15588ac7d51eed823012512909700"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/see.csv": {
+   "bytes": 510556,
+   "sha256": "3647c2b281101245df35e5109e09baa368eafe72e1312f7f2c60d164d121bc36"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/shw.csv": {
+   "bytes": 508713,
+   "sha256": "3c8adc8df48bcf0643e7a8b68896b74cd43608bff0864eb9710116bd4b7f1031"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/sivb.csv": {
+   "bytes": 408197,
+   "sha256": "81e38cfb930c553c8fca9d93a11256fc17eddafd88ab5800b4389c4a6eb3cbd6"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/sjm.csv": {
+   "bytes": 327432,
+   "sha256": "be21c3d37efedd5b3a7b69b2b317ef8822778932673a7af49969cb17d001de4a"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/slb.csv": {
+   "bytes": 487285,
+   "sha256": "48eeb3ad8f94dfe184b62c6a9f65ededed2078d41f9926da1978a811e2792bee"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/slg.csv": {
+   "bytes": 279187,
+   "sha256": "b9374be63343ff5ebf767a0d53ef0b748bedd245992f044e21db33f3cb2f7e45"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/sna.csv": {
+   "bytes": 586526,
+   "sha256": "9f380c666666fe49a9fe6c231ac9f25480bb62cd5e244cbd4523124dee408594"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/snps.csv": {
+   "bytes": 348489,
+   "sha256": "eadfcb2c5b084a7573b4bae8703a06883da37037977fa694f2ce0189e2fb3cca"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/so.csv": {
+   "bytes": 479111,
+   "sha256": "cf2556b444e23afdfe96f536fc69090fc96f11a55b1a3d52e2cca3df5101abd6"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/spg.csv": {
+   "bytes": 341831,
+   "sha256": "65ba7f5993cca43d3c6ddacda64f5409ee221102f36701810ff544310469a1b9"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/spgi.csv": {
+   "bytes": 586251,
+   "sha256": "03bc417bbb5196bcba88b1448f820fc98cf40093593f5082a8dc7d1bd3efa7f4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/sre.csv": {
+   "bytes": 273443,
+   "sha256": "3ea17028d543e6bffdd10137379da2abe8632657dca83b8a0d258f18cacc461a"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ste.csv": {
+   "bytes": 355377,
+   "sha256": "0efbd85419b563a9efa2d16efecff1142817964f86cd064c2103e11320ec8acd"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/stt.csv": {
+   "bytes": 502044,
+   "sha256": "d35b7d65e19c1d9a13476d096bb4bad851171b5f1380ec33ffd62426e8948c4b"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/stx.csv": {
+   "bytes": 214600,
+   "sha256": "04904e410e4678b6e73bdbe3fd62467588df9eb3a9911ff2f55b18d78b1fe802"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/stz.csv": {
+   "bytes": 359602,
+   "sha256": "adecd37e78c46660932d15be9c68267bc01f117607148e4493faef179a706a13"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/swk.csv": {
+   "bytes": 502927,
+   "sha256": "8e52c3c75db1e26564712ac360c834daedc952ebe1ed75d622a81d97331037d4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/swks.csv": {
+   "bytes": 436240,
+   "sha256": "1be696fd9b0eb0e20cdd816ab992f6ebe9ee7f8861c252d1a89ea648234e968a"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/syf.csv": {
+   "bytes": 73229,
+   "sha256": "25c169b31fed5a813b60e9d3b700edbb94bee3a862e7b7abca69f33132d9e125"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/syk.csv": {
+   "bytes": 502874,
+   "sha256": "5f30f1e8f6a9f2ce3c93575432b4b95664c26ea6ca435094dac674b6eda989b7"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/syy.csv": {
+   "bytes": 579889,
+   "sha256": "0665e3065d00d13986630fd12357d74e249741d33f1ff5a01ace38e0b7df805e"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/t.csv": {
+   "bytes": 464119,
+   "sha256": "a5dec4cf82b4a2ed81de3ee7a9929a435775d5d30eb281b37b4be85399e7ed6f"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/tap.csv": {
+   "bytes": 549880,
+   "sha256": "da23ab63d2be318f149f36f7fc0b4cf4b0ebb36a53991330430730ebd5c5dff4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/tdg.csv": {
+   "bytes": 180579,
+   "sha256": "c47973e4726d14353061f054ace8d819f990056ebf4db4808d14368139a3d869"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/tel.csv": {
+   "bytes": 161870,
+   "sha256": "c07fca9e09dd38be4651df21cdda039ac22a122e98ddd9311eb720fac147cc13"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/tfc.csv": {
+   "bytes": 494374,
+   "sha256": "373880e09828582bf076123145ca3ad8cd2b1a04c1e8089bf48a58490cd1eca0"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/tfx.csv": {
+   "bytes": 500199,
+   "sha256": "4416bfae522da13af6f784511c4a883bc149623bac54abcef2c3c2d76ab5b6e1"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/tgt.csv": {
+   "bytes": 587802,
+   "sha256": "e529d132bb81ea8778deb075fa0d1b1977330a38b109ba5f01349bf1e4a10e37"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/tif.csv": {
+   "bytes": 415772,
+   "sha256": "43edb513a55923f1d021f8b63ccbc4816beff45212f1fd4ac82a32328b3444f3"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/tjx.csv": {
+   "bytes": 403599,
+   "sha256": "1986a09ef992463df8b4f54ab9fdb22cda5e599fd3a3b6a6eba14a376d4838ce"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/tmo.csv": {
+   "bytes": 508108,
+   "sha256": "0c8402fa165e42cb018739433ea7a2a1ff66ca594d56e34a374903acfbc087d2"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/tmus.csv": {
+   "bytes": 170235,
+   "sha256": "2db320f1530124b875ca8269299ed8b907464ed1561e034c025dcd987fb223d8"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/tpr.csv": {
+   "bytes": 252537,
+   "sha256": "c8e959a42db1a0c5102fec88b5abf31ff492aa5b5107e41f98afbce4ae2baec7"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/trow.csv": {
+   "bytes": 445802,
+   "sha256": "58233e9cccf2f6d0664ad748381447e2845d6555226de8bc99de5e1821944ac4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/trv.csv": {
+   "bytes": 556008,
+   "sha256": "3ea73c0a7533e6ac16d61219e3e9d31c18aaba084aa9c0f003a467c5fedb7905"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/tsco.csv": {
+   "bytes": 325173,
+   "sha256": "288ddceef9971e35dd57dd96f4599c6431e77d61c6b6ef12f6a5dfb8ff855cde"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/tsn.csv": {
+   "bytes": 498822,
+   "sha256": "7f6b243885eade6f7d086434378d20894f8aa8d7c20460342fdb717bb8d6acf3"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/tt.csv": {
+   "bytes": 245097,
+   "sha256": "abd4f9955b51629004e2da650166db942e5460ead90ed6820ddc35ff941d34ea"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ttwo.csv": {
+   "bytes": 294278,
+   "sha256": "a9913d1227406b4da8be06b0d02d5d707fd1d24991b3b85134d66a5bb9fe1836"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/twtr.csv": {
+   "bytes": 80057,
+   "sha256": "fc0f16d08d4bff6101d45ff1945ef09825a66782febeda1e19628d97686acb67"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/txn.csv": {
+   "bytes": 629038,
+   "sha256": "f1c93ac4b7debf167139ec77bffc1df91435078649456b5d15278b17d5d20414"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/txt.csv": {
+   "bytes": 606730,
+   "sha256": "a2e95e08da517cad60448c4ee19598fe77fbdfb5b87db5864a4844613ff1d665"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ua.csv": {
+   "bytes": 60997,
+   "sha256": "7f449bfa8b3ec4c46edc195e5ce2dc65908f461129fbd9a1eba1a696747b0d32"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/uaa.csv": {
+   "bytes": 175683,
+   "sha256": "891e1b5fd0a5e454ccf3e7081059cf87d9ea18140c993301b11fa3b5c250613a"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ual.csv": {
+   "bytes": 177780,
+   "sha256": "57ff12f7db9a05f32e414762d618c05cfe4c9e4f04a105dc0e96f3466db1363d"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/udr.csv": {
+   "bytes": 481941,
+   "sha256": "54fe2fff6b2839776d4fd63906ac1f5eb6e464650005f0cd3668e1a1021f9a65"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/uhs.csv": {
+   "bytes": 484714,
+   "sha256": "3a583e71a099904ebaaa43829f0f9482ae8846652caef6aff7782b18f882b9de"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ulta.csv": {
+   "bytes": 160247,
+   "sha256": "86680ecae0ea918d674b886cee11195073805482ee118865b0559cffbf737dd4"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/unh.csv": {
+   "bytes": 452521,
+   "sha256": "1c7c37d88f361503b22a0410fd5e67e6828f910252adcc41ee2086dac7565683"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/unm.csv": {
+   "bytes": 427057,
+   "sha256": "b883ed052ddbfd9c77c4771072c5eccd39750ec6098d29d2562d242695943fda"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/unp.csv": {
+   "bytes": 508518,
+   "sha256": "2ff50b83b20438c81d3b1822a7beba92c468e3908fe0ab7eb4b59f24cd3ebd1e"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/ups.csv": {
+   "bytes": 258823,
+   "sha256": "d7a75d5b3f7f695b2bee0bb3005cd9646aa900010520b7f5d198bb68f60b20cf"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/uri.csv": {
+   "bytes": 266548,
+   "sha256": "35d5598f5b341a7de4a3b149f639fef3a6c43f9d062965b023be4fdb4b505351"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/usb.csv": {
+   "bytes": 568003,
+   "sha256": "8de1292587cb7c9bb3333a2d8029b80ab15f3f78d5dfacbaafab4c63892dc6ce"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/v.csv": {
+   "bytes": 163483,
+   "sha256": "e3c644feed715f81bf84fdb00440a8c0d3412de316b51fd68351154a32f2239e"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/var.csv": {
+   "bytes": 498697,
+   "sha256": "b1c59533b23bcce2afbb4b7534dff82c4f99223dea35cbd8714ccc611c87cabb"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/vfc.csv": {
+   "bytes": 492677,
+   "sha256": "9463d2332144ff15ce8b381c54bf507c0957f3f91280838f66d9bfcf177f637b"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/viac.csv": {
+   "bytes": 6372,
+   "sha256": "a2f4f4192cb05c59fcdfaa5fb1135e8d7dc5275e96b550020f3df8290745b537"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/vlo.csv": {
+   "bytes": 475791,
+   "sha256": "7d0de524037952520babae2e33494cf7df0547d35dd89e57ebea057811a345ff"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/vmc.csv": {
+   "bytes": 578714,
+   "sha256": "46468ffb571558b6a20b840749a871eb59b1a18d0921e85430dccf58f758711f"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/vno.csv": {
+   "bytes": 489471,
+   "sha256": "c74f10ac68912e5aabc7de741d2d9adb159080204851ca7d5e875f7d62bebed3"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/vrsk.csv": {
+   "bytes": 133361,
+   "sha256": "a3e5d134688a2476f6f868a6d37cc907b411ab927ac8b642fbe010a34e9e9d00"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/vrsn.csv": {
+   "bytes": 290677,
+   "sha256": "ccf4d1a603bdd28f8e9ed7325a360b22b41a3bf571ceb80b6f2e776732631373"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/vrtx.csv": {
+   "bytes": 353550,
+   "sha256": "86491b6929f9b37fce3d31f9ae70139c30b62590beff8ff71bb668c1c8ed1256"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/vtr.csv": {
+   "bytes": 290199,
+   "sha256": "c050397634059e15b3b6a1025f1f3fd7509392b5a905ea89d08d20355af1928e"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/vz.csv": {
+   "bytes": 464538,
+   "sha256": "21fbedfe28731e27b888f5105af5734f9c2fc73d6ec771d90f8efce98bd79eaa"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/wab.csv": {
+   "bytes": 309990,
+   "sha256": "9c4ad0f7d335ceee9ba8847ff3c6453c73e481aa34da2c92e7208fff7d01c6b3"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/wat.csv": {
+   "bytes": 317173,
+   "sha256": "dc690606009d67e205dda328328309737e45bb245356e540241f62ac0a3de15c"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/wba.csv": {
+   "bytes": 503948,
+   "sha256": "74beb4615507f729e9d435b1fe98180c2a1c96da7a9b98182889f1533b2a19a3"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/wdc.csv": {
+   "bytes": 509857,
+   "sha256": "54c1e5d23045b155c7740accc1393baceffff143ccff8b08acec7492e2b77cc5"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/wec.csv": {
+   "bytes": 490852,
+   "sha256": "d0b4922c346f6243ed4e11a5ef1a7e1ca8d8bf38cb9af4aff3482b0de73b9342"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/well.csv": {
+   "bytes": 481739,
+   "sha256": "d91724de6b68d06177a26131c4fbb02e50bd7c857eb0455e40e3b69cba39556d"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/wfc.csv": {
+   "bytes": 598863,
+   "sha256": "eca03545b5741f44ee5572b5707b09032ea29d3e6fba98db992e6d12e45b2579"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/whr.csv": {
+   "bytes": 617982,
+   "sha256": "320e8abfb8d9029060d798b723abbccecacf740c5b703977a74d88ca6fe772bb"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/wltw.csv": {
+   "bytes": 248397,
+   "sha256": "42717e2896ccf9beb837eb87423f9a0c11ed38d21cd233d815df7a018ae104b0"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/wm.csv": {
+   "bytes": 387653,
+   "sha256": "4341ec15d8c7753db7f61faa40c89a3599a54dd0d7d3d2cd0ff5a214b88869f9"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/wmb.csv": {
+   "bytes": 497344,
+   "sha256": "ee65353834698c7fad8c371f33d8332838b20fd419a73555a75e161c72356d1a"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/wmt.csv": {
+   "bytes": 600758,
+   "sha256": "8c22fb2dbba773c1dd0d13868ec33c71336c0e6a6981a2b6328b7c4f72ab438a"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/wrb.csv": {
+   "bytes": 560977,
+   "sha256": "9e57713c6ea74e391fef4a686bc15581e1ece470dbe01a910401d76534073e81"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/wrk.csv": {
+   "bytes": 64306,
+   "sha256": "5271e3722884d308e672c43e6b426dfe517cf327a4ddb12289c0b81391067265"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/wst.csv": {
+   "bytes": 482789,
+   "sha256": "f722e42fe98086b440947860c31861ec48c5f02480bc532d207721b5fdbd2992"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/wu.csv": {
+   "bytes": 170739,
+   "sha256": "9ea64859db647c1aba5a6aafdd4e5208e4811f48ca0db66de774aaf84233913e"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/wy.csv": {
+   "bytes": 587780,
+   "sha256": "c459b88b1dfc44e36c77e6951aacd1563a2045eac3179cc77454f06101d6411b"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/wynn.csv": {
+   "bytes": 223611,
+   "sha256": "cd963df9b5e115acd608eb1ba56ac7e4d33a1f63a10e062da1be69b818b90d5a"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/xel.csv": {
+   "bytes": 572941,
+   "sha256": "bb9de448c94d6baefad07cdf60304aa27d5b1b07eb936deb5d23ec8f7669727f"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/xlnx.csv": {
+   "bytes": 382755,
+   "sha256": "fd9389d3f4138a39923cdf9515367b2d826cfe109ec71ef4982f30cdc1fa0db2"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/xom.csv": {
+   "bytes": 726581,
+   "sha256": "232df688e4e82f7c3bdcc7fd229b5158024c321f7af894b232d446467b41c8c3"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/xray.csv": {
+   "bytes": 422870,
+   "sha256": "3326504c65feedafe22a991618a92a9353f265083bf05b40caa83531e6ca6a2f"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/xrx.csv": {
+   "bytes": 573043,
+   "sha256": "4833fa10aa9f44091b300eee0a512aff2541a437b2f976f31baaa1bcaa9a4e6d"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/xyl.csv": {
+   "bytes": 106937,
+   "sha256": "3cb6c9a2d7a9ca211b9b82b3ed3e9a84e6c2778175ce95d5f46d3b3f4d8eebec"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/yum.csv": {
+   "bytes": 289298,
+   "sha256": "20e43f70d5a958f4261047e9eb70ec770125b35f86eb0e222dd7600405459575"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/zbh.csv": {
+   "bytes": 239208,
+   "sha256": "52889222039eca96742150298fe37a28ed3c2a98938a159934207c1467153853"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/zbra.csv": {
+   "bytes": 351736,
+   "sha256": "11a8a304bdffa71b609ddefdfff5c40d37f4b572431dd83934218caa6ba0c444"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/zion.csv": {
+   "bytes": 494012,
+   "sha256": "8cb6931296a9da4b0a72c9fb8c51a59d7ff339a5aa13a1727fefc0bbe7d4ca74"
+  },
+  "felsal/ibov-and-the-s-p-500/input/sp-500-full-dataset/zts.csv": {
+   "bytes": 92965,
+   "sha256": "2e46b9a4f42d9285c183c17bd28de4d6f4b80fbd20057a79f44fcaf9d4f20c0d"
+  },
+  "felsal/ibov-and-the-s-p-500/input/usd2brl.csv": {
+   "bytes": 118669,
+   "sha256": "b8e2687be13123274511e9512fa98640488b331cb52aa706402d77c07c3f824d"
+  },
+  "galiph/titanic-explorary-data-analysis/input/train.csv": {
+   "bytes": 61194,
+   "sha256": "7d118fef8b6ccf7f81111877bc388536f7b1e498a655e3d649d19aaa010e9f6f"
+  },
+  "gautamsihag/notebook32c1acdb76/input/deliveries.csv": {
+   "bytes": 14010009,
+   "sha256": "7d87317ff5f894d31576fa4c686148d3908617038bc440b5a809a324fb7ad6d0"
+  },
+  "gmanish/help-ngo-country-clustering/input/Country-data.csv": {
+   "bytes": 9229,
+   "sha256": "046ee922073579422b28855a8922e350a960af4b5724ae9b4eb0dae1fe91416e"
+  },
+  "gmanish/help-ngo-country-clustering/input/data-dictionary.csv": {
+   "bytes": 808,
+   "sha256": "8b330a80885faa8665f46488bd3e0f24f1b971e0995af0d6c9ed4b4b29928352"
+  },
+  "gravix/gradient-in-a-box/input/test.csv": {
+   "bytes": 41868556,
+   "sha256": "74a56292909798bd602a97528d3e614eb2bdf77afe27d952c3bee94c86717ca8"
+  },
+  "gravix/gradient-in-a-box/input/train.csv": {
+   "bytes": 28311747,
+   "sha256": "26a261acdcf1c890143917b5aab6811f0300599a9138ebcfb640bb159ff1b92f"
+  },
+  "grudd0/mass-shooting-analysis/input/Mass Shootings Dataset Ver 5.csv": {
+   "bytes": 140270,
+   "sha256": "577414219c9278b60437e4560f56a38fd84397ea3b24b8b19e12989252976870"
+  },
+  "gsilves/quiz-4-question-1/input/nfl_offense_cleaned.csv": {
+   "bytes": 70284,
+   "sha256": "f41cc587493390c7b910280e184c68cf2c9f273ff05f553f1819cd08f8311d0e"
+  },
+  "guyalmog/hr-analytics-predicting-employees-attrition/input/employee_survey_data.csv": {
+   "bytes": 51964,
+   "sha256": "977dd83c8c96d116d5e330015dd15f01e41659bf6f64ea4beb9e340bad303ccb"
+  },
+  "guyalmog/hr-analytics-predicting-employees-attrition/input/general_data.csv": {
+   "bytes": 549994,
+   "sha256": "24cda1ad8364b860744bc87674bcd052fe3349a21aa2926a7232792f6688ea6e"
+  },
+  "guyalmog/hr-analytics-predicting-employees-attrition/input/in_time.csv": {
+   "bytes": 23287270,
+   "sha256": "d14c8b33188a42aabb0355469df0a23b081a7043e7d4cec8b2d7d2157648c9d8"
+  },
+  "guyalmog/hr-analytics-predicting-employees-attrition/input/manager_survey_data.csv": {
+   "bytes": 43038,
+   "sha256": "bcc7f475987560a3a2a756fc6460ee7e1f933467f74819267baf40bf44d5be38"
+  },
+  "guyalmog/hr-analytics-predicting-employees-attrition/input/out_time.csv": {
+   "bytes": 23287270,
+   "sha256": "7170702fa1583f93b476d975f3c22de0c87e79a928218eade14b984d0e134948"
+  },
+  "j0thu777/onlineretailanalysis/input/OnlineRetail.csv": {
+   "bytes": 45580638,
+   "sha256": "d07aec9960083af2339975a3f9d3b26313b342dcd9f86cce0b919b1cde639a44"
+  },
+  "jackwatson99/pima-indians-diabetes-rf-81/input/diabetes.csv": {
+   "bytes": 23873,
+   "sha256": "698c203a14aa31941d2251175330c9199f3ccdb31597abbba2a3e35416257a72"
+  },
+  "jafethsm/what-affects-the-ratings/input/chefmozaccepts.csv": {
+   "bytes": 22678,
+   "sha256": "c60001bd0009826c8d8fe29a692c57249960b05d2569ffdba222f0fbcd83e8f7"
+  },
+  "jafethsm/what-affects-the-ratings/input/chefmozcuisine.csv": {
+   "bytes": 15214,
+   "sha256": "70fb1c59250039f00792b49d1c38e64c424935288f10564c463797dc828d533a"
+  },
+  "jafethsm/what-affects-the-ratings/input/chefmozhours4.csv": {
+   "bytes": 73336,
+   "sha256": "daee9dd9fee854f93ca6ef3a34c92fb85bef1eaa6337baf3934bbb194d510aca"
+  },
+  "jafethsm/what-affects-the-ratings/input/chefmozparking.csv": {
+   "bytes": 8744,
+   "sha256": "ac9c536476334d9aa4d6093690bcedde22e9c9a85bf885d4a80cf2c3ce880902"
+  },
+  "jafethsm/what-affects-the-ratings/input/geoplaces2.csv": {
+   "bytes": 30250,
+   "sha256": "4eff7a908fd21a95a6058fbecf6143ebda31bec1ff5b726d9a23a486d6eaac5c"
+  },
+  "jafethsm/what-affects-the-ratings/input/rating_final.csv": {
+   "bytes": 22108,
+   "sha256": "fc994ea4e872365fc63e7f0bc970b36f86edeb4e80218d6a674a3d0e51181901"
+  },
+  "jafethsm/what-affects-the-ratings/input/usercuisine.csv": {
+   "bytes": 5062,
+   "sha256": "2cb93a2c5432ccd0d2ece72e60ec0f79fd08339a78006ed8c945fd1100e90e80"
+  },
+  "jafethsm/what-affects-the-ratings/input/userpayment.csv": {
+   "bytes": 2323,
+   "sha256": "92b25576fd7582109e0ff12db60811cb8b4d1e01c102079c905ba9ffb138c696"
+  },
+  "jafethsm/what-affects-the-ratings/input/userprofile.csv": {
+   "bytes": 21338,
+   "sha256": "9ac765bf4731d7ce322580f33b472b4fa96409cc626390286affee097152bfb3"
+  },
+  "jagangupta/stop-the-s-toxic-comments-eda/input/test.csv": {
+   "bytes": 60354593,
+   "sha256": "c2513ce4abb98c4d1d216e3ca0d4377d57589a0989aa8c06a840509a16c786e8"
+  },
+  "jagangupta/stop-the-s-toxic-comments-eda/input/train.csv": {
+   "bytes": 68802655,
+   "sha256": "bd4084611bd27c939ba98e5e63bc3e5a2c1a4e99477dcba46c829e4c986c429d"
+  },
+  "jaideepvalani/useful-eda-for-beginners-rsna-embolism/input/sample_submission.csv": {
+   "bytes": 2686960,
+   "sha256": "72b82b9439fe65c0f6c003f7212ae18e219afb5c5714fedb5fc7fa5403362b07"
+  },
+  "jaideepvalani/useful-eda-for-beginners-rsna-embolism/input/test.csv": {
+   "bytes": 5727317,
+   "sha256": "a44ea4dea8789778e4fbabb8dd8d665b94a5b7ded0c4cc180df8b9a313e0470a"
+  },
+  "jaideepvalani/useful-eda-for-beginners-rsna-embolism/input/train.csv": {
+   "bytes": 119970071,
+   "sha256": "951977a52e4cd282eee8f2a055c7eb0b7bd29b43ec4729ffd45a63ea12645c7c"
+  },
+  "jirakst/book-recommendation/input/BX-Book-Ratings.csv": {
+   "bytes": 30682276,
+   "sha256": "f359084e5f350151b61f3d07acbe3c6ff0e2bd057d88901fa60507449d0e0e57"
+  },
+  "jirakst/book-recommendation/input/BX-Books.csv": {
+   "bytes": 77787439,
+   "sha256": "b7a21c9332e39226758a3dce6365f1a5c23653514ca445b419b938adf5b41ce6"
+  },
+  "jirakst/book-recommendation/input/BX-Users.csv": {
+   "bytes": 12284157,
+   "sha256": "33cfe23088cb9f857861f240553425f87372888c22edce59c94fd17fb97b1c82"
+  },
+  "julieberteaux/workshop-2/input/test_users.csv": {
+   "bytes": 6763170,
+   "sha256": "17b25cbae6f3f6c95ff553ac108f145f0e3f0873bdae0c5f45f2f821ffd81384"
+  },
+  "julieberteaux/workshop-2/input/train_users_2.csv": {
+   "bytes": 24853881,
+   "sha256": "1d57dabe8b06534e51f86520ce6a66b6f67cce1704fb77a3fcfb596124858818"
+  },
+  "jyotsananegi/melbourne-housing-snapshot-eda/input/melb_data.csv": {
+   "bytes": 2091239,
+   "sha256": "3e449c3e95088da8a3a6b10331a5703f2c951d0740f317f97ed9baf0db1fd9f8"
+  },
+  "kabure/extensive-usa-youtube-eda/input/youtube-new/USvideos.csv": {
+   "bytes": 62756152,
+   "sha256": "09b4eb71295752705e472ebefeac9d2afab4177b7a818af795dea62744a48eb2"
+  },
+  "kanncaa1/dataiteam-titanic-eda/input/gender_submission.csv": {
+   "bytes": 3258,
+   "sha256": "7a262a7f4cb807f53911dccc84257ed3976b21b7b50ffc468b58446bff8bb6a4"
+  },
+  "kanncaa1/dataiteam-titanic-eda/input/test.csv": {
+   "bytes": 28629,
+   "sha256": "56023b9948236f3c7a1c9448fcf418b283e109ef177fa8c7e069158dd7dd52b2"
+  },
+  "kanncaa1/dataiteam-titanic-eda/input/train.csv": {
+   "bytes": 61194,
+   "sha256": "7d118fef8b6ccf7f81111877bc388536f7b1e498a655e3d649d19aaa010e9f6f"
+  },
+  "kenjee/titanic-project-example/input/gender_submission.csv": {
+   "bytes": 3258,
+   "sha256": "7a262a7f4cb807f53911dccc84257ed3976b21b7b50ffc468b58446bff8bb6a4"
+  },
+  "kenjee/titanic-project-example/input/test.csv": {
+   "bytes": 28629,
+   "sha256": "56023b9948236f3c7a1c9448fcf418b283e109ef177fa8c7e069158dd7dd52b2"
+  },
+  "kenjee/titanic-project-example/input/train.csv": {
+   "bytes": 61194,
+   "sha256": "7d118fef8b6ccf7f81111877bc388536f7b1e498a655e3d649d19aaa010e9f6f"
+  },
+  "kimtaehun/simple-preprocessing-for-time-series-prediction/input/train_clinical_data.csv": {
+   "bytes": 74055,
+   "sha256": "0897237a7c943f6afda9e083cf534eb0b506e5e00ffedad9bdc0c69248b86722"
+  },
+  "kimtaehun/simple-preprocessing-for-time-series-prediction/input/train_peptides.csv": {
+   "bytes": 51376223,
+   "sha256": "3d1eba59f7def39fef4793a6e120e3ec84ab27c8911ae343fdcbf30a7324e301"
+  },
+  "kimtaehun/simple-preprocessing-for-time-series-prediction/input/train_proteins.csv": {
+   "bytes": 7659148,
+   "sha256": "e6ec158bf3013338989806897276485ab930787d691f1eb1863c8da18e56f32d"
+  },
+  "kmader/analyzing-matches/input/CrowdsCureCancer2017Annotations.csv": {
+   "bytes": 947066,
+   "sha256": "bf410b38813e55bc0cda6ff2b36ca1d7a993d6046ef04411a6e7beb0d2c77493"
+  },
+  "kmader/analyzing-matches/input/matching_results.csv": {
+   "bytes": 1280151,
+   "sha256": "8a30e48aed4c15ecb89e1bfebc533ea42cc52b16ebb34d302d832a55fb9a15d5"
+  },
+  "koko1998/summer-products-and-sales-wish-com/input/summer-products-with-rating-and-performance_2020-08.csv": {
+   "bytes": 1236963,
+   "sha256": "ca6df583c252939b6210bcb983d299fc29d479f4fa6aa7a71bb887081e16130c"
+  },
+  "kwu2018/surviving-random-forest-and-logistic-regression/input/test.csv": {
+   "bytes": 28629,
+   "sha256": "56023b9948236f3c7a1c9448fcf418b283e109ef177fa8c7e069158dd7dd52b2"
+  },
+  "kwu2018/surviving-random-forest-and-logistic-regression/input/train.csv": {
+   "bytes": 61194,
+   "sha256": "7d118fef8b6ccf7f81111877bc388536f7b1e498a655e3d649d19aaa010e9f6f"
+  },
+  "kwullum/when-do-traffic-related-deaths-occur/input/UK_Traffic_Accidents_2015.csv": {
+   "bytes": 19235021,
+   "sha256": "cfe23a777d41ec4291caa12f56f9920f41afad0c2f8698e54a27a944e4299d6e"
+  },
+  "leoromanovich/i-wish-to-predict-v3/input/item_categories.csv": {
+   "bytes": 3573,
+   "sha256": "0370c58682701140234f93cc126becd9da585da2b6e88bf6106d330d4dc68a2b"
+  },
+  "leoromanovich/i-wish-to-predict-v3/input/items.csv": {
+   "bytes": 1568417,
+   "sha256": "4e606be321bd5f0e0d6dc35fe4c3eb15ded96eef6305cc6d7aa3187ee3b6a85d"
+  },
+  "leoromanovich/i-wish-to-predict-v3/input/sales_train.csv": {
+   "bytes": 94603866,
+   "sha256": "aa23f232a697beffc7764e06a3ede7007eba8c222ad7babbf61bd98841a65972"
+  },
+  "leoromanovich/i-wish-to-predict-v3/input/shops.csv": {
+   "bytes": 2977,
+   "sha256": "37290bac867cb0bc5edcb15fea946c347f6773a4a48c886db0d57e7f67d4d86c"
+  },
+  "leoromanovich/i-wish-to-predict-v3/input/test.csv": {
+   "bytes": 3182735,
+   "sha256": "b40c075351286bbea1b04c3cbb2ac279478f139d0e5b87c52df776db5e842cb0"
+  },
+  "loveall/favorita-analytics/input/items.csv": {
+   "bytes": 101841,
+   "sha256": "1efd8295f52c8531ec5bf6c3de37228a56bad2f2c653e79c4869baaf637edcc6"
+  },
+  "loveall/favorita-analytics/input/oil.csv": {
+   "bytes": 20580,
+   "sha256": "944b23b857580f9d804399346fd3ed69bffcb7facfd98c55fdb408b8d057cca7"
+  },
+  "loveall/favorita-analytics/input/stores.csv": {
+   "bytes": 1387,
+   "sha256": "af503b2bce11d7906d249f81cc0598f10e2addcc9f6c59aa2d95c9f2652c296b"
+  },
+  "loveall/favorita-analytics/input/train.csv": {
+   "bytes": 4997452288,
+   "sha256": "ccf4236a6b58b0db937b8c5006a0ad8fffef6acd06bed1c10cd5cd4d68d93248"
+  },
+  "loveall/favorita-analytics/input/transactions.csv": {
+   "bytes": 1552637,
+   "sha256": "e116384a6981af74932832436aa2f6a43121f77ca81accc44e3a5160158ca03c"
+  },
+  "luckygemini/notebook5d5fc80c9f/input/._train_photo_to_biz_ids.csv": {
+   "bytes": 547,
+   "sha256": "3f150de3aa4dd276b37a0cd54f72c9c38f1a96cb7265cb8d4a119d13b72aa2e6"
+  },
+  "luckygemini/notebook5d5fc80c9f/input/train.csv": {
+   "bytes": 28760,
+   "sha256": "86a527326ad4ef227fdeefa8962963d87472d05eff441e1ce159857b9b7eed3d"
+  },
+  "luckygemini/notebook5d5fc80c9f/input/train_photo_to_biz_ids.csv": {
+   "bytes": 2698404,
+   "sha256": "99669212fe64464f1f24aa96c30d9a69d80eb6093e79913dfbcff34e52426d9a"
+  },
+  "luizep/movieslens20m/input/movie.csv": {
+   "bytes": 1493648,
+   "sha256": "45763d3eaf1235bca9e5e5b93d41d1ba03823c485c9d3fead23ea0c5eafa6b3a"
+  },
+  "luizep/movieslens20m/input/rating.csv": {
+   "bytes": 690353377,
+   "sha256": "9ec53ccb3e51c78fd31a451499f1c856c5c778766a7e7979683741ffb696adca"
+  },
+  "macespinoza/simple-eda-with-python-pandas-data-avocado-paltas/input/avocado.csv": {
+   "bytes": 1989197,
+   "sha256": "a608b8513343e063a3d7440d863f94a73f99084b3c24205cafb8d02792653cc9"
+  },
+  "madseth/customer-shopping-trends-dataset-eda/input/shopping_trends.csv": {
+   "bytes": 453248,
+   "sha256": "33b5880325da80f719b1f168b14bd20faa868121352c18e97680ee9f20db92f4"
+  },
+  "madseth/customer-shopping-trends-dataset-eda/input/shopping_trends_updated.csv": {
+   "bytes": 416614,
+   "sha256": "3e05d375388b7f74039bfeefd41405075e0b0643e1d04a77de1ed11cd1e68dd5"
+  },
+  "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost/input/test.csv": {
+   "bytes": 983020,
+   "sha256": "5e0a74613f3e347f560f98ce18aa8873ff608eeeb85c5547e3052b51cd11fd0f"
+  },
+  "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost/input/train.csv": {
+   "bytes": 5697178298,
+   "sha256": "762e7b58cf987a1cb51af9526edac173446fb26b4f3cd706c8d59514256b98a3"
+  },
+  "mathewvondersaar/analysis-of-student-performance/input/.DS_Store": {
+   "bytes": 6148,
+   "sha256": "d3312cda0a72ddaf680f7569807e3579839871f0d19c9a5d5beef6dce1c16f08"
+  },
+  "mathewvondersaar/analysis-of-student-performance/input/StudentsPerformance_with_headers.csv": {
+   "bytes": 11645,
+   "sha256": "d85ef57c30ff55c36023823680cf5371ff1a2762217a2b91e2f65df63d3cae6c"
+  },
+  "mathewvondersaar/analysis-of-student-performance/input/highereducationstudentsperformanceevaluation/DATA (1).csv": {
+   "bytes": 11024,
+   "sha256": "d5905d231bedd7e4cdcf708fab55fc65b79dfe12012e846eccad3e88b5ecb019"
+  },
+  "maxiaoyue/data-cleaning-challenge-handling-missing-values/input/Building_Permits.csv": {
+   "bytes": 79037431,
+   "sha256": "a8536abd4667f93b8f0773accf76198cc7f231de013c0a62d33667aaa22b829d"
+  },
+  "maxiaoyue/data-cleaning-challenge-handling-missing-values/input/NFL Play by Play 2009-2017 (v4).csv": {
+   "bytes": 275530460,
+   "sha256": "2433f41d45abe53ba842b5ddc529d574d0482e62362de83abfc8b821be3538da"
+  },
+  "mikedelong/python-eda-with-kdes/input/Airline Dataset Updated - v2.csv": {
+   "bytes": 12699818,
+   "sha256": "b18668d80cc18e083c4c3415ba136a5816e65b50321225ddb89aaa45a2fdcf58"
+  },
+  "mikedelong/python-eda-with-kdes/input/Airline Dataset Updated.csv": {
+   "bytes": 12639389,
+   "sha256": "15d330b416fc0870ad0663c135552e06a37f620275c58d838506cc165caa8f52"
+  },
+  "mikedelong/python-eda-with-kdes/input/Airline Dataset.csv": {
+   "bytes": 12540770,
+   "sha256": "8519a70081b982c3ad3bd1c4e19d8a9339a115e1080edb5504ff4859654f44d0"
+  },
+  "muhammadawaistayyab/used-cars-in-pakistan-stats/input/used_cars_Pakistan.csv": {
+   "bytes": 4783243,
+   "sha256": "1da0ae88cb1281e33ed975760ced0f39226f80a33bc705e13020fcee524bbd65"
+  },
+  "mustafatatarhan1/iris-kernel/input/iris.csv": {
+   "bytes": 3975,
+   "sha256": "119e30db8a4ea8b33723603743591a5f8229684e6236d89ef1966a72d7293607"
+  },
+  "nadare/feature-engenieering-with-pivot-table/input/test_set_metadata.csv": {
+   "bytes": 298526870,
+   "sha256": "5113217d633092920054f0c28544a8bc9b8cefa74d0afbf96e11148c53750541"
+  },
+  "nadare/feature-engenieering-with-pivot-table/input/training_set.csv": {
+   "bytes": 60016555,
+   "sha256": "9e8f648a7aec365916d465355d4c0cf479c8c60ef7f09132946ea6c6e5482d6f"
+  },
+  "nadare/feature-engenieering-with-pivot-table/input/training_set_metadata.csv": {
+   "bytes": 705945,
+   "sha256": "ae9941bb0c455e03aba6dc23cfcc5be089853137626eba5920ce62f1bbab38ed"
+  },
+  "nandhuelan/ott-platforms/input/netflix_titles_nov_2019.csv": {
+   "bytes": 2235052,
+   "sha256": "190f7ebaa40ae90ea8df72b737ce156accfb64d04321b426da2dade626a5d887"
+  },
+  "narasimhach/ashrae-data-preprocessing/input/building_metadata.csv": {
+   "bytes": 45527,
+   "sha256": "357bf585047359e9dfbaef2935453429f8ec19e5e80c08a8eb066789f28c4070"
+  },
+  "narasimhach/ashrae-data-preprocessing/input/test.csv": {
+   "bytes": 1462461085,
+   "sha256": "3b3d9ce771a2266500e085717d9959bd37674fb3573397955953523d06d6aa2b"
+  },
+  "narasimhach/ashrae-data-preprocessing/input/train.csv": {
+   "bytes": 678616640,
+   "sha256": "2d75e0c4cfa93818647cf5272ef8d48f9cf8e9d3479dde357faae381d1abbcb3"
+  },
+  "narasimhach/ashrae-data-preprocessing/input/weather_test.csv": {
+   "bytes": 14787908,
+   "sha256": "ba8021675ca99796e4bf9087793b955c84822a0cef24a15d7ecc7dc63dcd1423"
+  },
+  "narasimhach/ashrae-data-preprocessing/input/weather_train.csv": {
+   "bytes": 7450075,
+   "sha256": "81022191f16dacc21494c15dac7975611cb39922fc7332e419a857cbb00cc125"
+  },
+  "naziatazneen/ted-data-analysis/input/ted_main.csv": {
+   "bytes": 7579795,
+   "sha256": "801c01b1f88181bce3dc1af7d4416df45d45f5729e6384eccb60368c00fabd6e"
+  },
+  "naziatazneen/ted-data-analysis/input/transcripts.csv": {
+   "bytes": 28526129,
+   "sha256": "682b8d7e69cfabcdfabf4b0f9700190aa0f700ba0d05fa1561e6edcc4ac27556"
+  },
+  "nickel/austral-uni-k2-2nd-benchmark/input/application_test.csv": {
+   "bytes": 26567651,
+   "sha256": "a36161331d839150a67b6216d4de066f543a3b01a34061507d40e76612e0dec8"
+  },
+  "nickel/austral-uni-k2-2nd-benchmark/input/application_train.csv": {
+   "bytes": 166133370,
+   "sha256": "52e96b895b1112e1c853f670e58372719c8441c5ed1c57ac2f7fad559d784f5f"
+  },
+  "nickel/austral-uni-k2-2nd-benchmark/input/bureau.csv": {
+   "bytes": 170016717,
+   "sha256": "9d799143423f280720cf51c1bfbbab2a0422da8ff2763335bb30bf43155494f7"
+  },
+  "nickel/austral-uni-k2-2nd-benchmark/input/bureau_balance.csv": {
+   "bytes": 375592889,
+   "sha256": "33e09f06174c26f0be6b8b7398886c69e7bf0abbb29b4122f7841ffe545729a9"
+  },
+  "nihhaar/etltransform/input/books.csv": {
+   "bytes": 1559650,
+   "sha256": "38608249125de795a50a352c8cba7ccb4ee79d6a379628f6d100921faa6de14e"
+  },
+  "oghulk/russian-tweets-network-and-ts-visualizations/input/tweets.csv": {
+   "bytes": 59075614,
+   "sha256": "3732da7588e1df6f0cc293313772aa81d6ab6421f95478ca6bd8aba8e2ddf7be"
+  },
+  "oghulk/russian-tweets-network-and-ts-visualizations/input/users.csv": {
+   "bytes": 94780,
+   "sha256": "af328f93819da47f3b24376eaa833d5432fb53dde7e5c005a320dbf23aefc968"
+  },
+  "paramarthasengupta/plotly-eda-top-movies-of-20th-century/input/Movie Dataset.csv": {
+   "bytes": 127211,
+   "sha256": "802caef0204f3fa783fe902d8e31b0aec7c9fa3709b5d08189b3306d99effa6a"
+  },
+  "penny8/my-sub1/input/test.csv": {
+   "bytes": 70794289,
+   "sha256": "986697cc7f4996684f1cda4298a2ebbdeb83cb1c0de2edee185f0c316a642dc2"
+  },
+  "penny8/my-sub1/input/train.csv": {
+   "bytes": 200589097,
+   "sha256": "fc8c777a4ab99a362d8b6b6f2038ff8a2c4625b9593248a47352d0d26fa99927"
+  },
+  "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697/input/test.csv": {
+   "bytes": 8031938,
+   "sha256": "55a1923d905cab07a3a1981fc55b517c45da315087f8444d042d70992d9290bb"
+  },
+  "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697/input/train.csv": {
+   "bytes": 3237288,
+   "sha256": "8f2f060d81613c467197616784033da8864986aa2d89318393e496bb9961c2c5"
+  },
+  "poiss0nriot/classifying-client-type-using-client-names/input/cliente_tabla.csv": {
+   "bytes": 21254426,
+   "sha256": "6e0ec405eaeb1b2dca4d57a5748ba825868f09e9978c24daae16df8443494b6b"
+  },
+  "pradeepjeya/allstate-encoding-high-cardinality-features/input/test.csv": {
+   "bytes": 45715862,
+   "sha256": "e8055e8cff1690046750e2098b95e3309a73e20501c45719c7eb591d87ab1052"
+  },
+  "pradeepjeya/allstate-encoding-high-cardinality-features/input/train.csv": {
+   "bytes": 70025339,
+   "sha256": "74037cb248a1064e4d578692a4f4e5d8492ed1b2033daf643496e1b68b14ae03"
+  },
+  "qingyuanwu/deep-neural-network/input/sample_submission_V2.csv": {
+   "bytes": 32880974,
+   "sha256": "ca7ff0ca1c3f7850956192714b3c9536d76d9cdbc5bc82b190b0e0b3125e8852"
+  },
+  "qingyuanwu/deep-neural-network/input/test_V2.csv": {
+   "bytes": 273239581,
+   "sha256": "bf8c26335517a5a1d992afc2be1bb9bf747d6e763c72e47be69866ee178aa533"
+  },
+  "qingyuanwu/deep-neural-network/input/train_V2.csv": {
+   "bytes": 659540495,
+   "sha256": "435a78193a0ad2e9aaa7f0cfffa22a8317b320aee81fdd44235e1b37afd28d36"
+  },
+  "qnqfbqfqo/electric-vehicle-landscape-in-washington-state/input/.DS_Store": {
+   "bytes": 6148,
+   "sha256": "0c9f05d25e0d269faf80e639d4172d841ce32543060c92d30fa6b5e3939a8f98"
+  },
+  "qnqfbqfqo/electric-vehicle-landscape-in-washington-state/input/Electric_Vehicle_Population_Data.csv": {
+   "bytes": 36332393,
+   "sha256": "68c180e8cf362731c597a693bd801ada0eabfd653a5f2addcca6e9e447c25a45"
+  },
+  "robikscube/big-data-bowl-comprehensive-eda-with-pandas/input/train.csv": {
+   "bytes": 248677952,
+   "sha256": "a1fa3185e218c96a12e534c14a1ec0c17c3a9c7fb2fd8ccd058bbe4be784152a"
+  },
+  "robinfaber/monsters-a-simple-logistic-regression-approach/input/test.csv": {
+   "bytes": 45729,
+   "sha256": "4f6e8d22fd8b23877a518723d1c3009221b934a493bad8e73dd8b7d3e0701281"
+  },
+  "robinfaber/monsters-a-simple-logistic-regression-approach/input/train.csv": {
+   "bytes": 34499,
+   "sha256": "f30c4e56e784effd53779242fc76a69dfab4e0cb689e31256e5a7f2d413a97ef"
+  },
+  "roopahegde/cryptocurrency-price-correlation/input/gemini_BTCUSD_2020_1min.csv": {
+   "bytes": 51899835,
+   "sha256": "a629d22678049a2e4bdcd904bb6f78350a09c9a22408af44d8c9699acd5f9aca"
+  },
+  "roopahegde/cryptocurrency-price-correlation/input/gemini_ETHUSD_2020_1min.csv": {
+   "bytes": 46278947,
+   "sha256": "9036996392567d4e1fbce0d7a0d3ccca6c6a704e5f74b1cdea342e9c6557c29c"
+  },
+  "roopahegde/cryptocurrency-price-correlation/input/gemini_LTCUSD_2020_1min.csv": {
+   "bytes": 42071180,
+   "sha256": "410f689d8331a21eda0b51f8cf6146402c8889ea969a500f16764746be8617ef"
+  },
+  "roydatascience/malware-detection-stacking-2-0/input/output_Kfold.csv": {
+   "bytes": 409599429,
+   "sha256": "94fd31cd5a3db1df5f18609799575193c6c6526de7c055f1269b828310414f0e"
+  },
+  "roydatascience/malware-detection-stacking-2-0/input/output_stratfold.csv": {
+   "bytes": 409596180,
+   "sha256": "4eefd0514a51a7f78333e7f7566f9919fcfd537ffae38e44ac94fa537ef357f1"
+  },
+  "roydatascience/malware-detection-stacking-2-0/input/sample_submission.csv": {
+   "bytes": 290570393,
+   "sha256": "cd578e6e8386ca9b3310716c6f918128b6e6bd2067b75d969bb1f431bceb80d8"
+  },
+  "roydatascience/malware-detection-stacking-2-0/input/test.csv": {
+   "bytes": 3795687226,
+   "sha256": "5c0c17c37f4d3f181cd0290a99e7baafe16d49f8836b131c3f0c85df5c53f23e"
+  },
+  "roydatascience/malware-detection-stacking-2-0/input/train.csv": {
+   "bytes": 4384966482,
+   "sha256": "4a6e07446d1e8bac6cde781ecd2f1da9dff271b4a294183fc27a182ceeab8fa4"
+  },
+  "roydatascience/malware-detection-stacking-2-0/input/val_kfold.csv": {
+   "bytes": 247797289,
+   "sha256": "f23a2189b8f5a04648f0c56bc8449b13ab26c849af3dbeeddd14fcb81766de0f"
+  },
+  "roydatascience/malware-detection-stacking-2-0/input/val_stratfold.csv": {
+   "bytes": 247793460,
+   "sha256": "535546c84ea1b3ac1bfab58dbb29c9836272db80531a08522561917c33ce5600"
+  },
+  "sabya40/data-cleaning-and-pandas-for-beginners/input/OnlineOrders_of_a_ecommerce_website.csv": {
+   "bytes": 1625158,
+   "sha256": "87e2eb666385676f3897522e3576fd8964119c0ffe1e80deab2a4b43a3ad501c"
+  },
+  "sal001/beginner-s-note-top-12-by-single-linear-model/input/test.csv": {
+   "bytes": 451405,
+   "sha256": "8fdd3d829d4d986b58f845c9553b225e67dd8383624d90fb6ca1d4bed5798c1e"
+  },
+  "sal001/beginner-s-note-top-12-by-single-linear-model/input/train.csv": {
+   "bytes": 460676,
+   "sha256": "1e18addf81e5e4d347cc17ee6075bbe4a42b7fa26b9e5b063e8f692a5f929d41"
+  },
+  "salmaneunus/student-s-performance-quantitative-visual-eda/input/StudentsPerformance.csv": {
+   "bytes": 72036,
+   "sha256": "ade5869dba8b2d3e2b96379359fb2f61cb0308e8394d9b1ba37e174cfe3bee69"
+  },
+  "saniaks/melbourne-house-price-eda/input/melb_data.csv": {
+   "bytes": 2091239,
+   "sha256": "3e449c3e95088da8a3a6b10331a5703f2c951d0740f317f97ed9baf0db1fd9f8"
+  },
+  "sanket30/eda-of-application-train-home-credit-default/input/application_train.csv": {
+   "bytes": 166133370,
+   "sha256": "52e96b895b1112e1c853f670e58372719c8441c5ed1c57ac2f7fad559d784f5f"
+  },
+  "santhoshrao1995/assi01-santhosh-19101036/input/House_prediction.csv": {
+   "bytes": 697786,
+   "sha256": "94dec27b1d54fcb63ae6f0e5de630173e8fa1aa40f3236c32cb2dfde93d0d8e1"
+  },
+  "selvasolves/day-wise-stats/input/2019_nCoV_data.csv": {
+   "bytes": 43865,
+   "sha256": "625db6df6ff438fc469b6ab4b21e994b744af5481f3fa3cedc57721f1127e92d"
+  },
+  "seriousran/eda-ing/input/Measurement_item_info.csv": {
+   "bytes": 289,
+   "sha256": "f43864cab0831b4ff722a11b7ca7c7ce38c5f5f271f6d1a3e7196b89fda71500"
+  },
+  "seriousran/eda-ing/input/Measurement_station_info.csv": {
+   "bytes": 2688,
+   "sha256": "d2575908dad98f41189801419e16ee058fdaaf5408d94cf3e9669093d1d41031"
+  },
+  "seriousran/eda-ing/input/Measurement_summary.csv": {
+   "bytes": 92711120,
+   "sha256": "ab1794950ebc40df64a0e9b24e7c7499b227f3ffd580cacc568b1344e85ce82c"
+  },
+  "shashi772/data-cleaning-challenge-parsing-dates/input/catalog.csv": {
+   "bytes": 441762,
+   "sha256": "0dea9d51bf126efbf73b7d861273a419fed494c0a07fda8c26749a4b883d492d"
+  },
+  "shashi772/data-cleaning-challenge-parsing-dates/input/earthquake-database.csv": {
+   "bytes": 2397103,
+   "sha256": "691ff3ab40c1a5c25fb14dd23f92f14c71cd57cb673a5b5b484d4a5fe0866e03"
+  },
+  "shashi772/data-cleaning-challenge-parsing-dates/input/volcanic-eruptions-database.csv": {
+   "bytes": 259712,
+   "sha256": "f6d8352566621e7d0d887cb0c386351c5f7747735c790fa4c5680343f14cae06"
+  },
+  "shivavashishtha/zomato-eda-tutorial/input/zomato_restaurants_in_India.csv": {
+   "bytes": 114853689,
+   "sha256": "a54236c975b384548539cbd666427a5e707896bad8bb1b865709e0fa5c631f22"
+  },
+  "shubhammahalank/eda-hotel-booking-demand/input/hotel_bookings.csv": {
+   "bytes": 16855599,
+   "sha256": "7c2ae42a7353905ea136e5c2287f17c92c5435826598bfbb8491c6f0c7b1fc06"
+  },
+  "shunjiangxu/blood-is-thicker-than-water-friendship-forever/input/test.csv": {
+   "bytes": 28629,
+   "sha256": "56023b9948236f3c7a1c9448fcf418b283e109ef177fa8c7e069158dd7dd52b2"
+  },
+  "shunjiangxu/blood-is-thicker-than-water-friendship-forever/input/train.csv": {
+   "bytes": 61194,
+   "sha256": "7d118fef8b6ccf7f81111877bc388536f7b1e498a655e3d649d19aaa010e9f6f"
+  },
+  "snanilim/video-games-sales-analysis-and-visualization/input/vgsales.csv": {
+   "bytes": 1355781,
+   "sha256": "e2076095ffcae2a92dbc6de6ecbd54455ee034bb38da550b2dc385e9265d4ebe"
+  },
+  "stefanjov/my-first-normalize-on-big-dataset/input/Measurement_summary.csv": {
+   "bytes": 92711120,
+   "sha256": "ab1794950ebc40df64a0e9b24e7c7499b227f3ffd580cacc568b1344e85ce82c"
+  },
+  "sudheer259/house-price-prediction/input/test.csv": {
+   "bytes": 451405,
+   "sha256": "8fdd3d829d4d986b58f845c9553b225e67dd8383624d90fb6ca1d4bed5798c1e"
+  },
+  "sudheer259/house-price-prediction/input/train.csv": {
+   "bytes": 460676,
+   "sha256": "1e18addf81e5e4d347cc17ee6075bbe4a42b7fa26b9e5b063e8f692a5f929d41"
+  },
+  "sunnybiswas/eda-on-airline-dataset/input/Airline Dataset Updated - v2.csv": {
+   "bytes": 12699818,
+   "sha256": "b18668d80cc18e083c4c3415ba136a5816e65b50321225ddb89aaa45a2fdcf58"
+  },
+  "sunnybiswas/eda-on-airline-dataset/input/Airline Dataset Updated.csv": {
+   "bytes": 12639389,
+   "sha256": "15d330b416fc0870ad0663c135552e06a37f620275c58d838506cc165caa8f52"
+  },
+  "sunnybiswas/eda-on-airline-dataset/input/Airline Dataset.csv": {
+   "bytes": 12540770,
+   "sha256": "8519a70081b982c3ad3bd1c4e19d8a9339a115e1080edb5504ff4859654f44d0"
+  },
+  "surajitcba2021/week3-covid-1/input/Life expectancy at birth.csv": {
+   "bytes": 38581,
+   "sha256": "9931598e72bb12d7297e79f027d8960f2f954a90268da9930c514ec14db51f94"
+  },
+  "surajitcba2021/week3-covid-1/input/WEO.csv": {
+   "bytes": 2985463,
+   "sha256": "c4618ed441443ae27bb9237786894bd91c286614f61779a85f72ae924b8058ca"
+  },
+  "surajitcba2021/week3-covid-1/input/covid19countryinfo.csv": {
+   "bytes": 51327,
+   "sha256": "89eed8f5ec164ad22b4ac8dc3d7183451f8c1699dbe451ec8155eeb7cff286d4"
+  },
+  "surajitcba2021/week3-covid-1/input/share-of-adults-who-smoke.csv": {
+   "bytes": 46673,
+   "sha256": "5abff6066f03f739d172ece4320c567beed628383f7a2aaf0ea3d0a5e04a5da2"
+  },
+  "surajitcba2021/week3-covid-1/input/submission.csv": {
+   "bytes": 120511,
+   "sha256": "e5bab1a8f6c83377f8d9f9c1ee052529c2d100c6ab5f3726f9f7f9a8469eb41c"
+  },
+  "surajitcba2021/week3-covid-1/input/test.csv": {
+   "bytes": 384196,
+   "sha256": "c9ceb58572ccc5318ecdda599d1c55dfe3617d104bb5bf05fbbc0d0bab584df3"
+  },
+  "surajitcba2021/week3-covid-1/input/train.csv": {
+   "bytes": 906719,
+   "sha256": "86b617d3fe46f9b50075a87d74cad3c6ba53212f43609fe3295b1375400273a3"
+  },
+  "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model/input/sample_submission.csv": {
+   "bytes": 42429,
+   "sha256": "16034b02edb7b7988e84aaf5a73e49e513dacb70c2d0c9d9170f848a6f3c8f28"
+  },
+  "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model/input/test.csv": {
+   "bytes": 313984,
+   "sha256": "4d1fc2995ce88eb7d435f18563e93361f35956c3e74ed22572b9614eff6d04e6"
+  },
+  "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model/input/train.csv": {
+   "bytes": 3501243,
+   "sha256": "192204063468a632b2601f6e833c42d7875b618d1a6e5c9529ad8ca58ee6be75"
+  },
+  "taylorhickem/singapore-building-energy/input/energy_performance_data_2016.csv": {
+   "bytes": 80222,
+   "sha256": "88c7f065d81ca4f574e9948d705c7f37ea779f1080ee9329d90496b5f0684fe2"
+  },
+  "taylorhickem/singapore-building-energy/input/singapore_building_gfa_energy.csv": {
+   "bytes": 188,
+   "sha256": "f742d551d72129fe709633eb21d708e6e14ca223f87da87e659443393c71c1ad"
+  },
+  "teemingyi/pubg-data-exploration-example-matches/input/train_V2.csv": {
+   "bytes": 659540495,
+   "sha256": "435a78193a0ad2e9aaa7f0cfffa22a8317b320aee81fdd44235e1b37afd28d36"
+  },
+  "thirumani/biggboss-hindi-telugu-tamil-kannada-marathi-bangla/input/Bigg_Boss_India.csv": {
+   "bytes": 254716,
+   "sha256": "e71a366c514d1bdbdea3212fb1561933a9f99408c4cddf0ae8f2b3e9badebdb2"
+  },
+  "trinath003/data-manipulation-visualisation-on-kaggle-datasets/input/KaggelMostVotes.csv": {
+   "bytes": 679236,
+   "sha256": "c59067f584aafec2c68b7698627b22550d3898e6dad500594d6591a692201c79"
+  },
+  "tunguz/fathers-day-specials-just-the-features/input/historical_transactions.csv": {
+   "bytes": 2845920484,
+   "sha256": "69b0bf0426fe97d2f8ba3c60f0d714aaef790c5c9451ee9d3c5ec11d3659d444"
+  },
+  "tunguz/fathers-day-specials-just-the-features/input/new_merchant_transactions.csv": {
+   "bytes": 190246145,
+   "sha256": "1d1a6d4f78020b52550471669815a5e1ed117506930031d8a0b7ed8a15d647fc"
+  },
+  "tunguz/fathers-day-specials-just-the-features/input/test.csv": {
+   "bytes": 3708740,
+   "sha256": "5242f091bd22be22f85a517c719b4e1e5746f91701bf2731a133b69b7d77379a"
+  },
+  "tunguz/fathers-day-specials-just-the-features/input/train.csv": {
+   "bytes": 8383651,
+   "sha256": "fa3fd1db3c29ba79b20e7d3a66d835d4ff8cc12155d296fdb3d08bd2f849c0fc"
+  },
+  "ukveteran/sarima-time-series-eda-predict-jma-sao-paulo/input/covid-19 sp.csv": {
+   "bytes": 770,
+   "sha256": "15083a242657929cced24afdb246b7507403a2be3640625582ea47a8b3c0d906"
+  },
+  "vanguarde/h-m-eda-first-look/input/articles.csv": {
+   "bytes": 36127865,
+   "sha256": "25f21882053517f7684ea43f524225a9481a7bb9aab9cf0abfc7fe8c4576a72b"
+  },
+  "vanguarde/h-m-eda-first-look/input/customers.csv": {
+   "bytes": 207135859,
+   "sha256": "abf3450c37ee1c16124e0d3379371153f5371148742efdcfe44c97c0445df6b2"
+  },
+  "vanguarde/h-m-eda-first-look/input/transactions_train.csv": {
+   "bytes": 3488002253,
+   "sha256": "fff5e3b35c1b26016aa0bf2231be9525bc766eed32c94f1653420b465aef84fa"
+  },
+  "vatsalmavani/music-recommendation-system-using-spotify-dataset/input/data.csv": {
+   "bytes": 29654587,
+   "sha256": "c97c42349c2e97339ff908ab01163ec5a3264f02ec65e78cb961c85077ded7f8"
+  },
+  "vatsalmavani/music-recommendation-system-using-spotify-dataset/input/data_by_artist.csv": {
+   "bytes": 4315607,
+   "sha256": "49e6ba3ee87dd74ea5476cebe91898a7d4e475de725feea5b8a3bf3a52af31ce"
+  },
+  "vatsalmavani/music-recommendation-system-using-spotify-dataset/input/data_by_genres.csv": {
+   "bytes": 576456,
+   "sha256": "e93a9e1e14630285b97adddee3b756a7faca062d048f204521ebd82111d7ec35"
+  },
+  "vatsalmavani/music-recommendation-system-using-spotify-dataset/input/data_by_year.csv": {
+   "bytes": 21194,
+   "sha256": "61bbca5fdc2e3118e3d74cc02adf26d76c8edc80b4c32df1c22bb1809a048bcf"
+  },
+  "vatsalmavani/music-recommendation-system-using-spotify-dataset/input/data_w_genres.csv": {
+   "bytes": 5224673,
+   "sha256": "4b0a9548fb6c380ca5e87be11cc1ecd48852f30346ac153831306b0a0de3a829"
+  },
+  "vbmokin/automatic-eda-with-pandas-profiling-2-9-09-2020/input/gender_submission.csv": {
+   "bytes": 3258,
+   "sha256": "7a262a7f4cb807f53911dccc84257ed3976b21b7b50ffc468b58446bff8bb6a4"
+  },
+  "vbmokin/automatic-eda-with-pandas-profiling-2-9-09-2020/input/test.csv": {
+   "bytes": 28629,
+   "sha256": "56023b9948236f3c7a1c9448fcf418b283e109ef177fa8c7e069158dd7dd52b2"
+  },
+  "vbmokin/automatic-eda-with-pandas-profiling-2-9-09-2020/input/train.csv": {
+   "bytes": 61194,
+   "sha256": "7d118fef8b6ccf7f81111877bc388536f7b1e498a655e3d649d19aaa010e9f6f"
+  },
+  "vinothsuku/osic-pulmonary-fibrosis-simple-eda/input/test.csv": {
+   "bytes": 392,
+   "sha256": "dc3fcba011f5d673982dc3f2380bb653f8ee39106c28ce48ec9cfa57e29cfdd9"
+  },
+  "vinothsuku/osic-pulmonary-fibrosis-simple-eda/input/train.csv": {
+   "bytes": 108892,
+   "sha256": "45aa8d255d4c26476d6ba1bd4ba38823752420a716b75cf3ec24f2fab93f7270"
+  },
+  "viviktpharale/house-price-prediction-eda-linear-ridge-lasso/input/kc_house_data.csv": {
+   "bytes": 2515206,
+   "sha256": "d0875baa0251b21d4bdc9d2ae940a4fe0bb6009824f23dd0e2a5b2bf04557b7e"
+  },
+  "willkoehrsen/start-here-a-gentle-introduction/input/application_test.csv": {
+   "bytes": 26567651,
+   "sha256": "a36161331d839150a67b6216d4de066f543a3b01a34061507d40e76612e0dec8"
+  },
+  "willkoehrsen/start-here-a-gentle-introduction/input/application_train.csv": {
+   "bytes": 166133370,
+   "sha256": "52e96b895b1112e1c853f670e58372719c8441c5ed1c57ac2f7fad559d784f5f"
+  },
+  "wyl4417/machine-learning-and-how-it-affects-you/input/multiple_choice_responses.csv": {
+   "bytes": 21314201,
+   "sha256": "3610d06c82c99fedec41d51a5757ebde7a4581d7a4375f3ef4c0e752fb7b4cdc"
+  },
+  "xingobar/computer-science-data-visualization/input/historical.csv": {
+   "bytes": 4045,
+   "sha256": "acd74be15f28018b4615f3cbdd4ba3ecc8263a6bef6f3dc1b6e030fed554f3a6"
+  },
+  "xingobar/computer-science-data-visualization/input/pass_06_13.csv": {
+   "bytes": 18904,
+   "sha256": "099262665142b0cab26ccb4d0a825b9d3ef7b0b0d98dc0316b828062701f081a"
+  },
+  "xokent/cyber-security-attack-eda/input/cybersecurity_attacks.csv": {
+   "bytes": 17859563,
+   "sha256": "7035d0e7f38f1217a76842209da2f8d47ef54c67f55519ade56f53be64c72d24"
+  },
+  "yashjaiswal1097/911-emergency-calls-kernel/input/911.csv": {
+   "bytes": 78512019,
+   "sha256": "0ec1d25483be67d2d5fabdb675cf5422528c70caaf003a860fe3c9d19e80637a"
+  },
+  "yonelanuba/elo-merchant-by-yonela/input/Data_Dictionary.xlsx": {
+   "bytes": 17600,
+   "sha256": "f8d94acc95eef64395414f48c6344f8beb31ba7aceb033bf96c06e4932aa9ac2"
+  },
+  "yonelanuba/elo-merchant-by-yonela/input/historical_transactions.csv": {
+   "bytes": 2845920484,
+   "sha256": "69b0bf0426fe97d2f8ba3c60f0d714aaef790c5c9451ee9d3c5ec11d3659d444"
+  },
+  "yonelanuba/elo-merchant-by-yonela/input/merchants.csv": {
+   "bytes": 50040976,
+   "sha256": "63b2ab7753a4096646565b2a2d5649077bd3f7f97a34b01971de9d8a6257440a"
+  },
+  "yonelanuba/elo-merchant-by-yonela/input/new_merchant_transactions.csv": {
+   "bytes": 190246145,
+   "sha256": "1d1a6d4f78020b52550471669815a5e1ed117506930031d8a0b7ed8a15d647fc"
+  },
+  "yonelanuba/elo-merchant-by-yonela/input/test.csv": {
+   "bytes": 3708740,
+   "sha256": "5242f091bd22be22f85a517c719b4e1e5746f91701bf2731a133b69b7d77379a"
+  },
+  "yonelanuba/elo-merchant-by-yonela/input/train.csv": {
+   "bytes": 8383651,
+   "sha256": "fa3fd1db3c29ba79b20e7d3a66d835d4ff8cc12155d296fdb3d08bd2f849c0fc"
+  },
+  "yuliagm/talkingdata-eda-plus-time-patterns/input/test.csv": {
+   "bytes": 863271911,
+   "sha256": "3733eb951df085eccc16c59c754db55f0920e2e88c159112c28fdc55e7b683c8"
+  },
+  "yuliagm/talkingdata-eda-plus-time-patterns/input/train.csv": {
+   "bytes": 7537649302,
+   "sha256": "ec8ce78588b29f1c665e595a1875adacd4dafbbe53372b87b9fc76e234273871"
+  },
+  "yuliagm/talkingdata-eda-plus-time-patterns/input/train_sample.csv": {
+   "bytes": 4076438,
+   "sha256": "4002317e4162b3c27e4b40f604afd9f7b6f1c91e97674114279c3409a8a05b2a"
+  }
+ },
+ "data_manifest_bytes": 59309402644,
+ "data_manifest_files": 770,
+ "dataset": "PandasBench (Broihier, Baziotis, Kang, Mendis; arXiv:2506.02345)"
+}

@@ -1,0 +1,18 @@
+* -text
+"/06_pandas_conformance/results/conf_1x/raw/runs__hd1c421ecb5ee/bodo/sf1/nadare__feature-engenieering-with-pivot-table__3447154ac923.json" filter=lfs diff=lfs merge=lfs -text
+"/06_pandas_conformance/results/conf_1x/raw/runs__hd1c421ecb5ee/bodo_dw/sf1/nadare__feature-engenieering-with-pivot-table__aeaef87567fa.json" filter=lfs diff=lfs merge=lfs -text
+"/06_pandas_conformance/results/conf_1x/raw/runs__hd1c421ecb5ee/fireducks/sf1/nadare__feature-engenieering-with-pivot-table__cd8c3969c475.json" filter=lfs diff=lfs merge=lfs -text
+"/06_pandas_conformance/results/conf_1x/raw/runs__hd1c421ecb5ee/modin/sf1/luizep__movieslens20m__38b83b2d38c2.json" filter=lfs diff=lfs merge=lfs -text
+"/06_pandas_conformance/results/conf_1x/raw/runs__hd1c421ecb5ee/modin/sf1/nadare__feature-engenieering-with-pivot-table__8998dcd46e33.json" filter=lfs diff=lfs merge=lfs -text
+"/06_pandas_conformance/results/conf_1x/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/nadare__feature-engenieering-with-pivot-table__8414460ee81f.json" filter=lfs diff=lfs merge=lfs -text
+"/06_pandas_conformance/results/conf_1x/raw/runs__hd1c421ecb5ee/ref/sf1/nadare__feature-engenieering-with-pivot-table__1d74c769638f.json" filter=lfs diff=lfs merge=lfs -text
+"/06_pandas_conformance/results/conf_1x/raw/runs__hd1c421ecb5ee/ref_r2/sf1/nadare__feature-engenieering-with-pivot-table__64b2008b8a5c.json" filter=lfs diff=lfs merge=lfs -text
+"/06_pandas_conformance/results/conf_5x/raw/runs__hd1c421ecb5ee/bodo/sf5/nadare__feature-engenieering-with-pivot-table__042a966606ff.json" filter=lfs diff=lfs merge=lfs -text
+"/06_pandas_conformance/results/conf_5x/raw/runs__hd1c421ecb5ee/fireducks/sf5/nadare__feature-engenieering-with-pivot-table__9d83a24cfc35.json" filter=lfs diff=lfs merge=lfs -text
+"/06_pandas_conformance/results/conf_5x/raw/runs__hd1c421ecb5ee/modin/sf5/nadare__feature-engenieering-with-pivot-table__f68b40204db4.json" filter=lfs diff=lfs merge=lfs -text
+"/06_pandas_conformance/results/conf_5x/raw/runs__hd1c421ecb5ee/ref/sf5/nadare__feature-engenieering-with-pivot-table__9e90829ca5db.json" filter=lfs diff=lfs merge=lfs -text
+"/06_pandas_conformance/results/conf_5x/raw/runs__hd1c421ecb5ee/ref_r2/sf5/nadare__feature-engenieering-with-pivot-table__f4501b0f471f.json" filter=lfs diff=lfs merge=lfs -text
+"/06_pandas_conformance/results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/nadare__feature-engenieering-with-pivot-table__5420bddd7fd0.json" filter=lfs diff=lfs merge=lfs -text
+"/06_pandas_conformance/results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/nadare__feature-engenieering-with-pivot-table__fdd9223d2cd6.json" filter=lfs diff=lfs merge=lfs -text
+"/06_pandas_conformance/results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/nadare__feature-engenieering-with-pivot-table__1d74c769638f.json" filter=lfs diff=lfs merge=lfs -text
+"/06_pandas_conformance/results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/nadare__feature-engenieering-with-pivot-table__64b2008b8a5c.json" filter=lfs diff=lfs merge=lfs -text

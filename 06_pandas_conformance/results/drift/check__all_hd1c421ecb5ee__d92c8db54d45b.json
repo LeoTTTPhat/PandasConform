@@ -1,0 +1,59 @@
+{
+ "campaign": "drift",
+ "compare_tag": "hd1c421ecb5ee__d92c8db54d45b",
+ "engines": [
+  "ref",
+  "ref#2",
+  "p15",
+  "p30"
+ ],
+ "harness_tag": "hd1c421ecb5ee",
+ "n_problems": 0,
+ "notebooks": 102,
+ "oracle": {
+  "p15": {
+   "cells": 3608,
+   "compared": 102,
+   "match_identity": 525,
+   "match_sort": 70,
+   "outputs": 4619
+  },
+  "p30": {
+   "cells": 3608,
+   "compared": 102,
+   "match_identity": 2183,
+   "match_sort": 57,
+   "outputs": 4333
+  }
+ },
+ "problems": [],
+ "records": {
+  "p15": {
+   "completed": 102
+  },
+  "p30": {
+   "completed": 102
+  },
+  "ref": {
+   "completed": 102
+  },
+  "ref#2": {
+   "completed": 102
+  }
+ },
+ "self_check": {
+  "ref#2": {
+   "cells": 3608,
+   "compared": 102,
+   "nondet_cells": 14,
+   "outputs": 4655
+  }
+ },
+ "set": "all",
+ "store": {
+  "missing": 0,
+  "referenced_blobs": 153938,
+  "sample_hash_mismatch": 0,
+  "sample_verified": 300
+ }
+}

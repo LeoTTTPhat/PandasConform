@@ -1,0 +1,1638 @@
+{
+ "harness_sha": "d1c421ecb5eec2bda275e05aebacd0f0a8766869334d36f786f3f66a3a86a380",
+ "runs": {
+  "capture|p15|akgauravin/gun-violence-data-exploration-and-plotting|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/akgauravin__gun-violence-data-exploration-and-plotting__afdd69caf264.json",
+   "status": "completed"
+  },
+  "capture|p15|akshaypetkar/supermarket-sales-analysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/akshaypetkar__supermarket-sales-analysis__b7b530565417.json",
+   "status": "completed"
+  },
+  "capture|p15|arimishabirin/globalsalary-simple-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/arimishabirin__globalsalary-simple-eda__1b5f03cc4073.json",
+   "status": "completed"
+  },
+  "capture|p15|arjoonn/scout-script-7|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/arjoonn__scout-script-7__b4be0df09d6f.json",
+   "status": "completed"
+  },
+  "capture|p15|artgor/eda-and-models|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/artgor__eda-and-models__665c01584655.json",
+   "status": "completed"
+  },
+  "capture|p15|ashukr/first-step-ingestion-to-prediction|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/ashukr__first-step-ingestion-to-prediction__996a6d60d8ca.json",
+   "status": "completed"
+  },
+  "capture|p15|atultaur/house-sales-in-king-county|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/atultaur__house-sales-in-king-county__72273e45bb85.json",
+   "status": "completed"
+  },
+  "capture|p15|ayushsingh5941/tweet-disaster-or-not|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/ayushsingh5941__tweet-disaster-or-not__fc17a7717bdb.json",
+   "status": "completed"
+  },
+  "capture|p15|balajivenkat96/solar-plants|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/balajivenkat96__solar-plants__5f15a751f7f2.json",
+   "status": "completed"
+  },
+  "capture|p15|bcannon/indexing-selecting-assigning|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/bcannon__indexing-selecting-assigning__29dc07fd9146.json",
+   "status": "completed"
+  },
+  "capture|p15|beratozmen/clash-of-clans-exploratory-data-analysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/beratozmen__clash-of-clans-exploratory-data-analysis__573e65a984c8.json",
+   "status": "completed"
+  },
+  "capture|p15|blaskowitz100/feature-engineering-based-on-the-suprise-me|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/blaskowitz100__feature-engineering-based-on-the-suprise-me__3fbf04eaccd6.json",
+   "status": "completed"
+  },
+  "capture|p15|brianmendieta/data-cleaning-plus-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/brianmendieta__data-cleaning-plus-eda__8721bfd87126.json",
+   "status": "completed"
+  },
+  "capture|p15|carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/carlmcbrideellis__simple-eda-of-kaggle-grandmasters-scheduled__3ade4dd7d132.json",
+   "status": "completed"
+  },
+  "capture|p15|charulatashelar/indian-startup-funding-exploratory-data-analysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/charulatashelar__indian-startup-funding-exploratory-data-analysis__eff5008668b7.json",
+   "status": "completed"
+  },
+  "capture|p15|chinstan/notebook249b4f3f5b|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/chinstan__notebook249b4f3f5b__bc2833d2cad4.json",
+   "status": "completed"
+  },
+  "capture|p15|christophriley/intro-machine-learning|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/christophriley__intro-machine-learning__ce0572dc3105.json",
+   "status": "completed"
+  },
+  "capture|p15|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__88dc6ef273a9.json",
+   "status": "reused"
+  },
+  "capture|p15|danielresende/game-of-thrones-battles|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/danielresende__game-of-thrones-battles__308be56a35a2.json",
+   "status": "completed"
+  },
+  "capture|p15|dbatao/kernel2f80fc9d78|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/dbatao__kernel2f80fc9d78__3ecb28c37d1d.json",
+   "status": "completed"
+  },
+  "capture|p15|deffro/eda-is-fun|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/deffro__eda-is-fun__4a7680d8e456.json",
+   "status": "reused"
+  },
+  "capture|p15|drainvers/instacart-sandbox-lmf|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/drainvers__instacart-sandbox-lmf__7cb404b0a33a.json",
+   "status": "completed"
+  },
+  "capture|p15|ersinsen/fraud-3-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/ersinsen__fraud-3-eda__4286202e9312.json",
+   "status": "completed"
+  },
+  "capture|p15|galiph/titanic-explorary-data-analysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/galiph__titanic-explorary-data-analysis__a6bcc24a3a71.json",
+   "status": "completed"
+  },
+  "capture|p15|gautamsihag/notebook32c1acdb76|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/gautamsihag__notebook32c1acdb76__cb2461698180.json",
+   "status": "completed"
+  },
+  "capture|p15|gmanish/help-ngo-country-clustering|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/gmanish__help-ngo-country-clustering__b88b858da6d8.json",
+   "status": "completed"
+  },
+  "capture|p15|gravix/gradient-in-a-box|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/gravix__gradient-in-a-box__3ce00e81b280.json",
+   "status": "completed"
+  },
+  "capture|p15|grudd0/mass-shooting-analysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/grudd0__mass-shooting-analysis__c97ea1376c14.json",
+   "status": "completed"
+  },
+  "capture|p15|gsilves/quiz-4-question-1|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/gsilves__quiz-4-question-1__7d5f5ed4c296.json",
+   "status": "completed"
+  },
+  "capture|p15|guyalmog/hr-analytics-predicting-employees-attrition|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/guyalmog__hr-analytics-predicting-employees-attrition__3e1366d4a6d4.json",
+   "status": "completed"
+  },
+  "capture|p15|j0thu777/onlineretailanalysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/j0thu777__onlineretailanalysis__ff2fb51ffe6a.json",
+   "status": "completed"
+  },
+  "capture|p15|jackwatson99/pima-indians-diabetes-rf-81|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/jackwatson99__pima-indians-diabetes-rf-81__f82244863746.json",
+   "status": "completed"
+  },
+  "capture|p15|jagangupta/stop-the-s-toxic-comments-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/jagangupta__stop-the-s-toxic-comments-eda__ead0c18fd496.json",
+   "status": "completed"
+  },
+  "capture|p15|jaideepvalani/useful-eda-for-beginners-rsna-embolism|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/jaideepvalani__useful-eda-for-beginners-rsna-embolism__113c161fffc6.json",
+   "status": "completed"
+  },
+  "capture|p15|jirakst/book-recommendation|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/jirakst__book-recommendation__be24ef0a71d1.json",
+   "status": "completed"
+  },
+  "capture|p15|julieberteaux/workshop-2|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/julieberteaux__workshop-2__9e16a6f0d121.json",
+   "status": "completed"
+  },
+  "capture|p15|jyotsananegi/melbourne-housing-snapshot-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/jyotsananegi__melbourne-housing-snapshot-eda__ca53ebb8e59a.json",
+   "status": "completed"
+  },
+  "capture|p15|kanncaa1/dataiteam-titanic-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/kanncaa1__dataiteam-titanic-eda__405cfba56b19.json",
+   "status": "reused"
+  },
+  "capture|p15|kenjee/titanic-project-example|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/kenjee__titanic-project-example__96b821a2455a.json",
+   "status": "completed"
+  },
+  "capture|p15|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__ea2d9880f068.json",
+   "status": "reused"
+  },
+  "capture|p15|kmader/analyzing-matches|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/kmader__analyzing-matches__a7536c595b85.json",
+   "status": "completed"
+  },
+  "capture|p15|koko1998/summer-products-and-sales-wish-com|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/koko1998__summer-products-and-sales-wish-com__ec1a02e2fd7f.json",
+   "status": "completed"
+  },
+  "capture|p15|kwullum/when-do-traffic-related-deaths-occur|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/kwullum__when-do-traffic-related-deaths-occur__cb9de948cf83.json",
+   "status": "completed"
+  },
+  "capture|p15|loveall/favorita-analytics|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/loveall__favorita-analytics__357db785e75c.json",
+   "status": "completed"
+  },
+  "capture|p15|luckygemini/notebook5d5fc80c9f|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/luckygemini__notebook5d5fc80c9f__f283ad80cf0d.json",
+   "status": "completed"
+  },
+  "capture|p15|luizep/movieslens20m|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/luizep__movieslens20m__20e11d081a14.json",
+   "status": "completed"
+  },
+  "capture|p15|macespinoza/simple-eda-with-python-pandas-data-avocado-paltas|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/macespinoza__simple-eda-with-python-pandas-data-avocado-paltas__a1ce87435120.json",
+   "status": "completed"
+  },
+  "capture|p15|madseth/customer-shopping-trends-dataset-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/madseth__customer-shopping-trends-dataset-eda__5f6c9a27c059.json",
+   "status": "completed"
+  },
+  "capture|p15|mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/mahtieu__nyc-taxi-fare-prediction-data-expl-xgboost__025dfa836287.json",
+   "status": "completed"
+  },
+  "capture|p15|mathewvondersaar/analysis-of-student-performance|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/mathewvondersaar__analysis-of-student-performance__cdf4d12d2d55.json",
+   "status": "completed"
+  },
+  "capture|p15|maxiaoyue/data-cleaning-challenge-handling-missing-values|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/maxiaoyue__data-cleaning-challenge-handling-missing-values__bb45af84f016.json",
+   "status": "completed"
+  },
+  "capture|p15|mikedelong/python-eda-with-kdes|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/mikedelong__python-eda-with-kdes__f3ceea35f1bb.json",
+   "status": "completed"
+  },
+  "capture|p15|muhammadawaistayyab/used-cars-in-pakistan-stats|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/muhammadawaistayyab__used-cars-in-pakistan-stats__4f991feb407f.json",
+   "status": "completed"
+  },
+  "capture|p15|mustafatatarhan1/iris-kernel|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/mustafatatarhan1__iris-kernel__ab83caefa844.json",
+   "status": "completed"
+  },
+  "capture|p15|nadare/feature-engenieering-with-pivot-table|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/nadare__feature-engenieering-with-pivot-table__5420bddd7fd0.json",
+   "status": "completed"
+  },
+  "capture|p15|nandhuelan/ott-platforms|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/nandhuelan__ott-platforms__efc8e380dc80.json",
+   "status": "completed"
+  },
+  "capture|p15|narasimhach/ashrae-data-preprocessing|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/narasimhach__ashrae-data-preprocessing__28c0a34dfcc3.json",
+   "status": "completed"
+  },
+  "capture|p15|nihhaar/etltransform|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/nihhaar__etltransform__43b494585fcb.json",
+   "status": "completed"
+  },
+  "capture|p15|paramarthasengupta/plotly-eda-top-movies-of-20th-century|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/paramarthasengupta__plotly-eda-top-movies-of-20th-century__744744bce5af.json",
+   "status": "completed"
+  },
+  "capture|p15|penny8/my-sub1|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/penny8__my-sub1__9822c1120658.json",
+   "status": "completed"
+  },
+  "capture|p15|pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/pmr3508f20977e697__poverty-level-pmr3508-2018-f20977e697__56f0cc8e1fcf.json",
+   "status": "completed"
+  },
+  "capture|p15|poiss0nriot/classifying-client-type-using-client-names|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/poiss0nriot__classifying-client-type-using-client-names__fdac44761e73.json",
+   "status": "completed"
+  },
+  "capture|p15|pradeepjeya/allstate-encoding-high-cardinality-features|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/pradeepjeya__allstate-encoding-high-cardinality-features__3409e148616e.json",
+   "status": "completed"
+  },
+  "capture|p15|qingyuanwu/deep-neural-network|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/qingyuanwu__deep-neural-network__c6e342eb5e82.json",
+   "status": "completed"
+  },
+  "capture|p15|qnqfbqfqo/electric-vehicle-landscape-in-washington-state|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/qnqfbqfqo__electric-vehicle-landscape-in-washington-state__11313826e80e.json",
+   "status": "completed"
+  },
+  "capture|p15|robikscube/big-data-bowl-comprehensive-eda-with-pandas|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/robikscube__big-data-bowl-comprehensive-eda-with-pandas__701f91f0964e.json",
+   "status": "completed"
+  },
+  "capture|p15|robinfaber/monsters-a-simple-logistic-regression-approach|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/robinfaber__monsters-a-simple-logistic-regression-approach__a882e71cc7ca.json",
+   "status": "completed"
+  },
+  "capture|p15|roopahegde/cryptocurrency-price-correlation|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/roopahegde__cryptocurrency-price-correlation__cbe40f034cf7.json",
+   "status": "reused"
+  },
+  "capture|p15|roydatascience/malware-detection-stacking-2-0|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/roydatascience__malware-detection-stacking-2-0__1e3ec5fe7eb3.json",
+   "status": "completed"
+  },
+  "capture|p15|sabya40/data-cleaning-and-pandas-for-beginners|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/sabya40__data-cleaning-and-pandas-for-beginners__eb29ac4c52ea.json",
+   "status": "reused"
+  },
+  "capture|p15|sal001/beginner-s-note-top-12-by-single-linear-model|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/sal001__beginner-s-note-top-12-by-single-linear-model__de70d0761829.json",
+   "status": "completed"
+  },
+  "capture|p15|salmaneunus/student-s-performance-quantitative-visual-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/salmaneunus__student-s-performance-quantitative-visual-eda__900415abaa9b.json",
+   "status": "completed"
+  },
+  "capture|p15|saniaks/melbourne-house-price-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/saniaks__melbourne-house-price-eda__c307020e0e3e.json",
+   "status": "completed"
+  },
+  "capture|p15|sanket30/eda-of-application-train-home-credit-default|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/sanket30__eda-of-application-train-home-credit-default__e903c2d59941.json",
+   "status": "completed"
+  },
+  "capture|p15|santhoshrao1995/assi01-santhosh-19101036|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/santhoshrao1995__assi01-santhosh-19101036__fc93f32a7b72.json",
+   "status": "completed"
+  },
+  "capture|p15|seriousran/eda-ing|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/seriousran__eda-ing__4b93708c83f7.json",
+   "status": "completed"
+  },
+  "capture|p15|shashi772/data-cleaning-challenge-parsing-dates|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/shashi772__data-cleaning-challenge-parsing-dates__5a5533daf9b9.json",
+   "status": "reused"
+  },
+  "capture|p15|shivavashishtha/zomato-eda-tutorial|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/shivavashishtha__zomato-eda-tutorial__ec8a2f02287d.json",
+   "status": "completed"
+  },
+  "capture|p15|shubhammahalank/eda-hotel-booking-demand|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/shubhammahalank__eda-hotel-booking-demand__a28ad6554873.json",
+   "status": "completed"
+  },
+  "capture|p15|shunjiangxu/blood-is-thicker-than-water-friendship-forever|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/shunjiangxu__blood-is-thicker-than-water-friendship-forever__4769680a2d7a.json",
+   "status": "completed"
+  },
+  "capture|p15|snanilim/video-games-sales-analysis-and-visualization|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/snanilim__video-games-sales-analysis-and-visualization__e10158ad0dce.json",
+   "status": "completed"
+  },
+  "capture|p15|stefanjov/my-first-normalize-on-big-dataset|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/stefanjov__my-first-normalize-on-big-dataset__52397870a0c2.json",
+   "status": "completed"
+  },
+  "capture|p15|sudheer259/house-price-prediction|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/sudheer259__house-price-prediction__b82f5270f423.json",
+   "status": "completed"
+  },
+  "capture|p15|sunnybiswas/eda-on-airline-dataset|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/sunnybiswas__eda-on-airline-dataset__984f29fcd328.json",
+   "status": "completed"
+  },
+  "capture|p15|tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/tanulsingh077__twitter-sentiment-extaction-analysis-eda-and-model__a6609fa5a8fa.json",
+   "status": "completed"
+  },
+  "capture|p15|taylorhickem/singapore-building-energy|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/taylorhickem__singapore-building-energy__338385e3d21e.json",
+   "status": "completed"
+  },
+  "capture|p15|teemingyi/pubg-data-exploration-example-matches|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/teemingyi__pubg-data-exploration-example-matches__66c02406b893.json",
+   "status": "completed"
+  },
+  "capture|p15|thirumani/biggboss-hindi-telugu-tamil-kannada-marathi-bangla|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/thirumani__biggboss-hindi-telugu-tamil-kannada-marathi-bangla__7aab12af704b.json",
+   "status": "completed"
+  },
+  "capture|p15|trinath003/data-manipulation-visualisation-on-kaggle-datasets|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__abc38698deab.json",
+   "status": "reused"
+  },
+  "capture|p15|tunguz/fathers-day-specials-just-the-features|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/tunguz__fathers-day-specials-just-the-features__5272b8212d95.json",
+   "status": "completed"
+  },
+  "capture|p15|ukveteran/sarima-time-series-eda-predict-jma-sao-paulo|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/ukveteran__sarima-time-series-eda-predict-jma-sao-paulo__4bbf0712f969.json",
+   "status": "completed"
+  },
+  "capture|p15|vatsalmavani/music-recommendation-system-using-spotify-dataset|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/vatsalmavani__music-recommendation-system-using-spotify-dataset__90f706f3ad51.json",
+   "status": "completed"
+  },
+  "capture|p15|vbmokin/automatic-eda-with-pandas-profiling-2-9-09-2020|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/vbmokin__automatic-eda-with-pandas-profiling-2-9-09-2020__8ba7505a879b.json",
+   "status": "completed"
+  },
+  "capture|p15|vinothsuku/osic-pulmonary-fibrosis-simple-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/vinothsuku__osic-pulmonary-fibrosis-simple-eda__6d967885d245.json",
+   "status": "completed"
+  },
+  "capture|p15|viviktpharale/house-price-prediction-eda-linear-ridge-lasso|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/viviktpharale__house-price-prediction-eda-linear-ridge-lasso__51e3f32bb2ea.json",
+   "status": "completed"
+  },
+  "capture|p15|willkoehrsen/start-here-a-gentle-introduction|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/willkoehrsen__start-here-a-gentle-introduction__2cc6bcf6f888.json",
+   "status": "completed"
+  },
+  "capture|p15|wyl4417/machine-learning-and-how-it-affects-you|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/wyl4417__machine-learning-and-how-it-affects-you__ddd1b1999d6b.json",
+   "status": "completed"
+  },
+  "capture|p15|xingobar/computer-science-data-visualization|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/xingobar__computer-science-data-visualization__941394615914.json",
+   "status": "reused"
+  },
+  "capture|p15|xokent/cyber-security-attack-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/xokent__cyber-security-attack-eda__7d7f27dd1b18.json",
+   "status": "completed"
+  },
+  "capture|p15|yashjaiswal1097/911-emergency-calls-kernel|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/yashjaiswal1097__911-emergency-calls-kernel__3c1e3e353747.json",
+   "status": "completed"
+  },
+  "capture|p15|yonelanuba/elo-merchant-by-yonela|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/yonelanuba__elo-merchant-by-yonela__7a8793750c38.json",
+   "status": "reused"
+  },
+  "capture|p15|yuliagm/talkingdata-eda-plus-time-patterns|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p15/sf1/yuliagm__talkingdata-eda-plus-time-patterns__2d83850823ff.json",
+   "status": "completed"
+  },
+  "capture|p30|akgauravin/gun-violence-data-exploration-and-plotting|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/akgauravin__gun-violence-data-exploration-and-plotting__6799dc9ebb32.json",
+   "status": "completed"
+  },
+  "capture|p30|akshaypetkar/supermarket-sales-analysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/akshaypetkar__supermarket-sales-analysis__0e13747e2ee5.json",
+   "status": "completed"
+  },
+  "capture|p30|arimishabirin/globalsalary-simple-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/arimishabirin__globalsalary-simple-eda__5ed9567b35d3.json",
+   "status": "completed"
+  },
+  "capture|p30|arjoonn/scout-script-7|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/arjoonn__scout-script-7__ff7797faff5c.json",
+   "status": "completed"
+  },
+  "capture|p30|artgor/eda-and-models|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/artgor__eda-and-models__d670f120f784.json",
+   "status": "completed"
+  },
+  "capture|p30|ashukr/first-step-ingestion-to-prediction|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/ashukr__first-step-ingestion-to-prediction__723c2106c33f.json",
+   "status": "completed"
+  },
+  "capture|p30|atultaur/house-sales-in-king-county|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/atultaur__house-sales-in-king-county__d98fb6331e53.json",
+   "status": "completed"
+  },
+  "capture|p30|ayushsingh5941/tweet-disaster-or-not|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/ayushsingh5941__tweet-disaster-or-not__1c1c3a68fc7c.json",
+   "status": "completed"
+  },
+  "capture|p30|balajivenkat96/solar-plants|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/balajivenkat96__solar-plants__98b5e75d61cb.json",
+   "status": "completed"
+  },
+  "capture|p30|bcannon/indexing-selecting-assigning|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/bcannon__indexing-selecting-assigning__8ad3a4d331b8.json",
+   "status": "completed"
+  },
+  "capture|p30|beratozmen/clash-of-clans-exploratory-data-analysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/beratozmen__clash-of-clans-exploratory-data-analysis__d422e3e2c45c.json",
+   "status": "completed"
+  },
+  "capture|p30|blaskowitz100/feature-engineering-based-on-the-suprise-me|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/blaskowitz100__feature-engineering-based-on-the-suprise-me__6d62ce995850.json",
+   "status": "completed"
+  },
+  "capture|p30|brianmendieta/data-cleaning-plus-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/brianmendieta__data-cleaning-plus-eda__056d6b3c2354.json",
+   "status": "completed"
+  },
+  "capture|p30|carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/carlmcbrideellis__simple-eda-of-kaggle-grandmasters-scheduled__72b72bc92689.json",
+   "status": "completed"
+  },
+  "capture|p30|charulatashelar/indian-startup-funding-exploratory-data-analysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/charulatashelar__indian-startup-funding-exploratory-data-analysis__dad70de86419.json",
+   "status": "completed"
+  },
+  "capture|p30|chinstan/notebook249b4f3f5b|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/chinstan__notebook249b4f3f5b__05d5ff76e9b4.json",
+   "status": "completed"
+  },
+  "capture|p30|christophriley/intro-machine-learning|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/christophriley__intro-machine-learning__674f03b92b59.json",
+   "status": "completed"
+  },
+  "capture|p30|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__b4f91b4cb5f8.json",
+   "status": "reused"
+  },
+  "capture|p30|danielresende/game-of-thrones-battles|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/danielresende__game-of-thrones-battles__38818d82466d.json",
+   "status": "completed"
+  },
+  "capture|p30|dbatao/kernel2f80fc9d78|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/dbatao__kernel2f80fc9d78__56fa61c19bb4.json",
+   "status": "completed"
+  },
+  "capture|p30|deffro/eda-is-fun|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/deffro__eda-is-fun__12caba0a8ae8.json",
+   "status": "reused"
+  },
+  "capture|p30|drainvers/instacart-sandbox-lmf|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/drainvers__instacart-sandbox-lmf__377f77e3b3b4.json",
+   "status": "completed"
+  },
+  "capture|p30|ersinsen/fraud-3-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/ersinsen__fraud-3-eda__091a0c9a34e4.json",
+   "status": "completed"
+  },
+  "capture|p30|galiph/titanic-explorary-data-analysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/galiph__titanic-explorary-data-analysis__5abe43a10feb.json",
+   "status": "completed"
+  },
+  "capture|p30|gautamsihag/notebook32c1acdb76|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/gautamsihag__notebook32c1acdb76__98ed58e11f79.json",
+   "status": "completed"
+  },
+  "capture|p30|gmanish/help-ngo-country-clustering|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/gmanish__help-ngo-country-clustering__f492f72d821b.json",
+   "status": "completed"
+  },
+  "capture|p30|gravix/gradient-in-a-box|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/gravix__gradient-in-a-box__7dfc0b1052d1.json",
+   "status": "completed"
+  },
+  "capture|p30|grudd0/mass-shooting-analysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/grudd0__mass-shooting-analysis__66dcc695845c.json",
+   "status": "completed"
+  },
+  "capture|p30|gsilves/quiz-4-question-1|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/gsilves__quiz-4-question-1__f6aa739da1a0.json",
+   "status": "completed"
+  },
+  "capture|p30|guyalmog/hr-analytics-predicting-employees-attrition|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/guyalmog__hr-analytics-predicting-employees-attrition__244ec3473f25.json",
+   "status": "completed"
+  },
+  "capture|p30|j0thu777/onlineretailanalysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/j0thu777__onlineretailanalysis__601687c0f0d1.json",
+   "status": "completed"
+  },
+  "capture|p30|jackwatson99/pima-indians-diabetes-rf-81|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/jackwatson99__pima-indians-diabetes-rf-81__c3648f7e21c6.json",
+   "status": "completed"
+  },
+  "capture|p30|jagangupta/stop-the-s-toxic-comments-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/jagangupta__stop-the-s-toxic-comments-eda__c9dfe18a6679.json",
+   "status": "completed"
+  },
+  "capture|p30|jaideepvalani/useful-eda-for-beginners-rsna-embolism|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/jaideepvalani__useful-eda-for-beginners-rsna-embolism__ea490432efb2.json",
+   "status": "completed"
+  },
+  "capture|p30|jirakst/book-recommendation|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/jirakst__book-recommendation__bcb0d9bc554b.json",
+   "status": "completed"
+  },
+  "capture|p30|julieberteaux/workshop-2|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/julieberteaux__workshop-2__e6281e183962.json",
+   "status": "completed"
+  },
+  "capture|p30|jyotsananegi/melbourne-housing-snapshot-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/jyotsananegi__melbourne-housing-snapshot-eda__7515df27ce1f.json",
+   "status": "completed"
+  },
+  "capture|p30|kanncaa1/dataiteam-titanic-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/kanncaa1__dataiteam-titanic-eda__c3e1f292e69b.json",
+   "status": "reused"
+  },
+  "capture|p30|kenjee/titanic-project-example|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/kenjee__titanic-project-example__6b9321585390.json",
+   "status": "completed"
+  },
+  "capture|p30|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__045bd4dda26e.json",
+   "status": "reused"
+  },
+  "capture|p30|kmader/analyzing-matches|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/kmader__analyzing-matches__7de532b61f52.json",
+   "status": "completed"
+  },
+  "capture|p30|koko1998/summer-products-and-sales-wish-com|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/koko1998__summer-products-and-sales-wish-com__7f0f75d6a1fd.json",
+   "status": "completed"
+  },
+  "capture|p30|kwullum/when-do-traffic-related-deaths-occur|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/kwullum__when-do-traffic-related-deaths-occur__beae0a7613a2.json",
+   "status": "completed"
+  },
+  "capture|p30|loveall/favorita-analytics|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/loveall__favorita-analytics__44eed498afcb.json",
+   "status": "completed"
+  },
+  "capture|p30|luckygemini/notebook5d5fc80c9f|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/luckygemini__notebook5d5fc80c9f__cef40b192b1e.json",
+   "status": "completed"
+  },
+  "capture|p30|luizep/movieslens20m|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/luizep__movieslens20m__676a177c1cd0.json",
+   "status": "completed"
+  },
+  "capture|p30|macespinoza/simple-eda-with-python-pandas-data-avocado-paltas|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/macespinoza__simple-eda-with-python-pandas-data-avocado-paltas__2c51e37eae98.json",
+   "status": "completed"
+  },
+  "capture|p30|madseth/customer-shopping-trends-dataset-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/madseth__customer-shopping-trends-dataset-eda__5d3920cce5e3.json",
+   "status": "completed"
+  },
+  "capture|p30|mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/mahtieu__nyc-taxi-fare-prediction-data-expl-xgboost__f754f3e38aab.json",
+   "status": "completed"
+  },
+  "capture|p30|mathewvondersaar/analysis-of-student-performance|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/mathewvondersaar__analysis-of-student-performance__cea0a71a158b.json",
+   "status": "completed"
+  },
+  "capture|p30|maxiaoyue/data-cleaning-challenge-handling-missing-values|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/maxiaoyue__data-cleaning-challenge-handling-missing-values__51c8eb67fb84.json",
+   "status": "completed"
+  },
+  "capture|p30|mikedelong/python-eda-with-kdes|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/mikedelong__python-eda-with-kdes__32f1cc34ce27.json",
+   "status": "completed"
+  },
+  "capture|p30|muhammadawaistayyab/used-cars-in-pakistan-stats|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/muhammadawaistayyab__used-cars-in-pakistan-stats__9acdb53e8775.json",
+   "status": "completed"
+  },
+  "capture|p30|mustafatatarhan1/iris-kernel|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/mustafatatarhan1__iris-kernel__34339daf87e0.json",
+   "status": "completed"
+  },
+  "capture|p30|nadare/feature-engenieering-with-pivot-table|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/nadare__feature-engenieering-with-pivot-table__fdd9223d2cd6.json",
+   "status": "completed"
+  },
+  "capture|p30|nandhuelan/ott-platforms|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/nandhuelan__ott-platforms__71734e3bb780.json",
+   "status": "completed"
+  },
+  "capture|p30|narasimhach/ashrae-data-preprocessing|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/narasimhach__ashrae-data-preprocessing__70148404c3ad.json",
+   "status": "completed"
+  },
+  "capture|p30|nihhaar/etltransform|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/nihhaar__etltransform__9004dffe0c4d.json",
+   "status": "completed"
+  },
+  "capture|p30|paramarthasengupta/plotly-eda-top-movies-of-20th-century|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/paramarthasengupta__plotly-eda-top-movies-of-20th-century__93c3a0b947f8.json",
+   "status": "completed"
+  },
+  "capture|p30|penny8/my-sub1|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/penny8__my-sub1__3b26f0802ece.json",
+   "status": "completed"
+  },
+  "capture|p30|pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/pmr3508f20977e697__poverty-level-pmr3508-2018-f20977e697__2323015485ed.json",
+   "status": "completed"
+  },
+  "capture|p30|poiss0nriot/classifying-client-type-using-client-names|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/poiss0nriot__classifying-client-type-using-client-names__240391cfbc95.json",
+   "status": "completed"
+  },
+  "capture|p30|pradeepjeya/allstate-encoding-high-cardinality-features|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/pradeepjeya__allstate-encoding-high-cardinality-features__211357940d99.json",
+   "status": "completed"
+  },
+  "capture|p30|qingyuanwu/deep-neural-network|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/qingyuanwu__deep-neural-network__1a62733c4c01.json",
+   "status": "completed"
+  },
+  "capture|p30|qnqfbqfqo/electric-vehicle-landscape-in-washington-state|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/qnqfbqfqo__electric-vehicle-landscape-in-washington-state__cae1340738ea.json",
+   "status": "completed"
+  },
+  "capture|p30|robikscube/big-data-bowl-comprehensive-eda-with-pandas|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/robikscube__big-data-bowl-comprehensive-eda-with-pandas__f75a5f0389c1.json",
+   "status": "completed"
+  },
+  "capture|p30|robinfaber/monsters-a-simple-logistic-regression-approach|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/robinfaber__monsters-a-simple-logistic-regression-approach__e459f9569a38.json",
+   "status": "completed"
+  },
+  "capture|p30|roopahegde/cryptocurrency-price-correlation|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/roopahegde__cryptocurrency-price-correlation__295686afe200.json",
+   "status": "reused"
+  },
+  "capture|p30|roydatascience/malware-detection-stacking-2-0|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/roydatascience__malware-detection-stacking-2-0__fcdd32831d7c.json",
+   "status": "completed"
+  },
+  "capture|p30|sabya40/data-cleaning-and-pandas-for-beginners|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/sabya40__data-cleaning-and-pandas-for-beginners__9b76d98f95a3.json",
+   "status": "reused"
+  },
+  "capture|p30|sal001/beginner-s-note-top-12-by-single-linear-model|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/sal001__beginner-s-note-top-12-by-single-linear-model__5daeeff7b100.json",
+   "status": "completed"
+  },
+  "capture|p30|salmaneunus/student-s-performance-quantitative-visual-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/salmaneunus__student-s-performance-quantitative-visual-eda__8f9275aedd45.json",
+   "status": "completed"
+  },
+  "capture|p30|saniaks/melbourne-house-price-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/saniaks__melbourne-house-price-eda__cabe64976ce0.json",
+   "status": "completed"
+  },
+  "capture|p30|sanket30/eda-of-application-train-home-credit-default|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/sanket30__eda-of-application-train-home-credit-default__6aaca80f4ec9.json",
+   "status": "completed"
+  },
+  "capture|p30|santhoshrao1995/assi01-santhosh-19101036|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/santhoshrao1995__assi01-santhosh-19101036__30d94ccaecf0.json",
+   "status": "completed"
+  },
+  "capture|p30|seriousran/eda-ing|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/seriousran__eda-ing__eaf356d76662.json",
+   "status": "completed"
+  },
+  "capture|p30|shashi772/data-cleaning-challenge-parsing-dates|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/shashi772__data-cleaning-challenge-parsing-dates__528d2263e589.json",
+   "status": "reused"
+  },
+  "capture|p30|shivavashishtha/zomato-eda-tutorial|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/shivavashishtha__zomato-eda-tutorial__bcb66c6c48ed.json",
+   "status": "completed"
+  },
+  "capture|p30|shubhammahalank/eda-hotel-booking-demand|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/shubhammahalank__eda-hotel-booking-demand__8be55dfaaf56.json",
+   "status": "completed"
+  },
+  "capture|p30|shunjiangxu/blood-is-thicker-than-water-friendship-forever|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/shunjiangxu__blood-is-thicker-than-water-friendship-forever__1674a2aac2b3.json",
+   "status": "completed"
+  },
+  "capture|p30|snanilim/video-games-sales-analysis-and-visualization|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/snanilim__video-games-sales-analysis-and-visualization__29648e496869.json",
+   "status": "completed"
+  },
+  "capture|p30|stefanjov/my-first-normalize-on-big-dataset|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/stefanjov__my-first-normalize-on-big-dataset__ff4a06eec039.json",
+   "status": "completed"
+  },
+  "capture|p30|sudheer259/house-price-prediction|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/sudheer259__house-price-prediction__51881b5b9677.json",
+   "status": "completed"
+  },
+  "capture|p30|sunnybiswas/eda-on-airline-dataset|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/sunnybiswas__eda-on-airline-dataset__04f894fffd71.json",
+   "status": "completed"
+  },
+  "capture|p30|tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/tanulsingh077__twitter-sentiment-extaction-analysis-eda-and-model__6fcfc6ddfe71.json",
+   "status": "completed"
+  },
+  "capture|p30|taylorhickem/singapore-building-energy|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/taylorhickem__singapore-building-energy__4a3da30b0adf.json",
+   "status": "completed"
+  },
+  "capture|p30|teemingyi/pubg-data-exploration-example-matches|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/teemingyi__pubg-data-exploration-example-matches__c98279d4815d.json",
+   "status": "completed"
+  },
+  "capture|p30|thirumani/biggboss-hindi-telugu-tamil-kannada-marathi-bangla|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/thirumani__biggboss-hindi-telugu-tamil-kannada-marathi-bangla__beccb85243a5.json",
+   "status": "completed"
+  },
+  "capture|p30|trinath003/data-manipulation-visualisation-on-kaggle-datasets|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__883442f9b99b.json",
+   "status": "reused"
+  },
+  "capture|p30|tunguz/fathers-day-specials-just-the-features|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/tunguz__fathers-day-specials-just-the-features__913f089f956d.json",
+   "status": "completed"
+  },
+  "capture|p30|ukveteran/sarima-time-series-eda-predict-jma-sao-paulo|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/ukveteran__sarima-time-series-eda-predict-jma-sao-paulo__e1c00bd4ddf0.json",
+   "status": "completed"
+  },
+  "capture|p30|vatsalmavani/music-recommendation-system-using-spotify-dataset|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/vatsalmavani__music-recommendation-system-using-spotify-dataset__8af7c13d10a3.json",
+   "status": "completed"
+  },
+  "capture|p30|vbmokin/automatic-eda-with-pandas-profiling-2-9-09-2020|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/vbmokin__automatic-eda-with-pandas-profiling-2-9-09-2020__d0dbb582dd57.json",
+   "status": "completed"
+  },
+  "capture|p30|vinothsuku/osic-pulmonary-fibrosis-simple-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/vinothsuku__osic-pulmonary-fibrosis-simple-eda__39111ddfbdc3.json",
+   "status": "completed"
+  },
+  "capture|p30|viviktpharale/house-price-prediction-eda-linear-ridge-lasso|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/viviktpharale__house-price-prediction-eda-linear-ridge-lasso__6d3554741612.json",
+   "status": "completed"
+  },
+  "capture|p30|willkoehrsen/start-here-a-gentle-introduction|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/willkoehrsen__start-here-a-gentle-introduction__8bd53d5ff467.json",
+   "status": "completed"
+  },
+  "capture|p30|wyl4417/machine-learning-and-how-it-affects-you|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/wyl4417__machine-learning-and-how-it-affects-you__973ecac7669c.json",
+   "status": "completed"
+  },
+  "capture|p30|xingobar/computer-science-data-visualization|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/xingobar__computer-science-data-visualization__3586ce21bd87.json",
+   "status": "reused"
+  },
+  "capture|p30|xokent/cyber-security-attack-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/xokent__cyber-security-attack-eda__b470cf0092e7.json",
+   "status": "completed"
+  },
+  "capture|p30|yashjaiswal1097/911-emergency-calls-kernel|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/yashjaiswal1097__911-emergency-calls-kernel__8bf32c14a65c.json",
+   "status": "completed"
+  },
+  "capture|p30|yonelanuba/elo-merchant-by-yonela|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/yonelanuba__elo-merchant-by-yonela__82c7be9558c7.json",
+   "status": "reused"
+  },
+  "capture|p30|yuliagm/talkingdata-eda-plus-time-patterns|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/p30/sf1/yuliagm__talkingdata-eda-plus-time-patterns__00f36ba27227.json",
+   "status": "completed"
+  },
+  "capture|ref#2|akgauravin/gun-violence-data-exploration-and-plotting|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/akgauravin__gun-violence-data-exploration-and-plotting__d3b5fd3479ed.json",
+   "status": "reused"
+  },
+  "capture|ref#2|akshaypetkar/supermarket-sales-analysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/akshaypetkar__supermarket-sales-analysis__19281c1ac5a0.json",
+   "status": "reused"
+  },
+  "capture|ref#2|arimishabirin/globalsalary-simple-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/arimishabirin__globalsalary-simple-eda__c9d518d784ef.json",
+   "status": "reused"
+  },
+  "capture|ref#2|arjoonn/scout-script-7|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/arjoonn__scout-script-7__4d453fb96702.json",
+   "status": "reused"
+  },
+  "capture|ref#2|artgor/eda-and-models|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/artgor__eda-and-models__16e25516e843.json",
+   "status": "reused"
+  },
+  "capture|ref#2|ashukr/first-step-ingestion-to-prediction|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/ashukr__first-step-ingestion-to-prediction__8bc8c466af8c.json",
+   "status": "reused"
+  },
+  "capture|ref#2|atultaur/house-sales-in-king-county|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/atultaur__house-sales-in-king-county__d0cbbead74b4.json",
+   "status": "reused"
+  },
+  "capture|ref#2|ayushsingh5941/tweet-disaster-or-not|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/ayushsingh5941__tweet-disaster-or-not__26ea38722bfe.json",
+   "status": "reused"
+  },
+  "capture|ref#2|balajivenkat96/solar-plants|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/balajivenkat96__solar-plants__ee7240f7bbe5.json",
+   "status": "reused"
+  },
+  "capture|ref#2|bcannon/indexing-selecting-assigning|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/bcannon__indexing-selecting-assigning__9feb87e0ad8d.json",
+   "status": "reused"
+  },
+  "capture|ref#2|beratozmen/clash-of-clans-exploratory-data-analysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/beratozmen__clash-of-clans-exploratory-data-analysis__9d53931e1392.json",
+   "status": "reused"
+  },
+  "capture|ref#2|blaskowitz100/feature-engineering-based-on-the-suprise-me|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/blaskowitz100__feature-engineering-based-on-the-suprise-me__713f47df0160.json",
+   "status": "reused"
+  },
+  "capture|ref#2|brianmendieta/data-cleaning-plus-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/brianmendieta__data-cleaning-plus-eda__04b91cc7968d.json",
+   "status": "reused"
+  },
+  "capture|ref#2|carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/carlmcbrideellis__simple-eda-of-kaggle-grandmasters-scheduled__213588f76249.json",
+   "status": "reused"
+  },
+  "capture|ref#2|charulatashelar/indian-startup-funding-exploratory-data-analysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/charulatashelar__indian-startup-funding-exploratory-data-analysis__c2b10556d0b6.json",
+   "status": "reused"
+  },
+  "capture|ref#2|chinstan/notebook249b4f3f5b|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/chinstan__notebook249b4f3f5b__8c516b16db08.json",
+   "status": "reused"
+  },
+  "capture|ref#2|christophriley/intro-machine-learning|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/christophriley__intro-machine-learning__bb92eb43ab4a.json",
+   "status": "reused"
+  },
+  "capture|ref#2|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__5f935f650d12.json",
+   "status": "reused"
+  },
+  "capture|ref#2|danielresende/game-of-thrones-battles|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/danielresende__game-of-thrones-battles__7c401cbd8137.json",
+   "status": "reused"
+  },
+  "capture|ref#2|dbatao/kernel2f80fc9d78|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/dbatao__kernel2f80fc9d78__6255874223bc.json",
+   "status": "reused"
+  },
+  "capture|ref#2|deffro/eda-is-fun|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/deffro__eda-is-fun__df509c7afc3c.json",
+   "status": "reused"
+  },
+  "capture|ref#2|drainvers/instacart-sandbox-lmf|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/drainvers__instacart-sandbox-lmf__450f5187004e.json",
+   "status": "reused"
+  },
+  "capture|ref#2|ersinsen/fraud-3-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/ersinsen__fraud-3-eda__926231c9e535.json",
+   "status": "reused"
+  },
+  "capture|ref#2|galiph/titanic-explorary-data-analysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/galiph__titanic-explorary-data-analysis__71c9a1bc18d1.json",
+   "status": "reused"
+  },
+  "capture|ref#2|gautamsihag/notebook32c1acdb76|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/gautamsihag__notebook32c1acdb76__7bfc0ca2d24d.json",
+   "status": "reused"
+  },
+  "capture|ref#2|gmanish/help-ngo-country-clustering|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/gmanish__help-ngo-country-clustering__1caa4c5e3f31.json",
+   "status": "reused"
+  },
+  "capture|ref#2|gravix/gradient-in-a-box|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/gravix__gradient-in-a-box__3178c332516d.json",
+   "status": "reused"
+  },
+  "capture|ref#2|grudd0/mass-shooting-analysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/grudd0__mass-shooting-analysis__455422cdfd04.json",
+   "status": "reused"
+  },
+  "capture|ref#2|gsilves/quiz-4-question-1|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/gsilves__quiz-4-question-1__2c3b647dbf38.json",
+   "status": "reused"
+  },
+  "capture|ref#2|guyalmog/hr-analytics-predicting-employees-attrition|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/guyalmog__hr-analytics-predicting-employees-attrition__1c74af0f317f.json",
+   "status": "reused"
+  },
+  "capture|ref#2|j0thu777/onlineretailanalysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/j0thu777__onlineretailanalysis__e2eb4539b4ae.json",
+   "status": "reused"
+  },
+  "capture|ref#2|jackwatson99/pima-indians-diabetes-rf-81|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/jackwatson99__pima-indians-diabetes-rf-81__3d5336c0a2eb.json",
+   "status": "reused"
+  },
+  "capture|ref#2|jagangupta/stop-the-s-toxic-comments-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/jagangupta__stop-the-s-toxic-comments-eda__95c960a107de.json",
+   "status": "reused"
+  },
+  "capture|ref#2|jaideepvalani/useful-eda-for-beginners-rsna-embolism|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/jaideepvalani__useful-eda-for-beginners-rsna-embolism__4a28cde6d91f.json",
+   "status": "reused"
+  },
+  "capture|ref#2|jirakst/book-recommendation|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/jirakst__book-recommendation__87c33f6f7022.json",
+   "status": "reused"
+  },
+  "capture|ref#2|julieberteaux/workshop-2|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/julieberteaux__workshop-2__a9160a5c6b33.json",
+   "status": "reused"
+  },
+  "capture|ref#2|jyotsananegi/melbourne-housing-snapshot-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/jyotsananegi__melbourne-housing-snapshot-eda__89edfdefde42.json",
+   "status": "reused"
+  },
+  "capture|ref#2|kanncaa1/dataiteam-titanic-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/kanncaa1__dataiteam-titanic-eda__d708a5d867ca.json",
+   "status": "reused"
+  },
+  "capture|ref#2|kenjee/titanic-project-example|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/kenjee__titanic-project-example__673bae9932e1.json",
+   "status": "reused"
+  },
+  "capture|ref#2|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__811f49af2885.json",
+   "status": "reused"
+  },
+  "capture|ref#2|kmader/analyzing-matches|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/kmader__analyzing-matches__cac51c002bfb.json",
+   "status": "reused"
+  },
+  "capture|ref#2|koko1998/summer-products-and-sales-wish-com|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/koko1998__summer-products-and-sales-wish-com__507af439bea6.json",
+   "status": "reused"
+  },
+  "capture|ref#2|kwullum/when-do-traffic-related-deaths-occur|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/kwullum__when-do-traffic-related-deaths-occur__8b35e58b9095.json",
+   "status": "reused"
+  },
+  "capture|ref#2|loveall/favorita-analytics|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/loveall__favorita-analytics__44c5a123c4d8.json",
+   "status": "reused"
+  },
+  "capture|ref#2|luckygemini/notebook5d5fc80c9f|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/luckygemini__notebook5d5fc80c9f__3e8c7ffd5767.json",
+   "status": "reused"
+  },
+  "capture|ref#2|luizep/movieslens20m|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/luizep__movieslens20m__085f08ba41a2.json",
+   "status": "reused"
+  },
+  "capture|ref#2|macespinoza/simple-eda-with-python-pandas-data-avocado-paltas|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/macespinoza__simple-eda-with-python-pandas-data-avocado-paltas__14e9a820e238.json",
+   "status": "reused"
+  },
+  "capture|ref#2|madseth/customer-shopping-trends-dataset-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/madseth__customer-shopping-trends-dataset-eda__f725d6b76203.json",
+   "status": "reused"
+  },
+  "capture|ref#2|mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/mahtieu__nyc-taxi-fare-prediction-data-expl-xgboost__16f86c633b66.json",
+   "status": "reused"
+  },
+  "capture|ref#2|mathewvondersaar/analysis-of-student-performance|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/mathewvondersaar__analysis-of-student-performance__21319a26c967.json",
+   "status": "reused"
+  },
+  "capture|ref#2|maxiaoyue/data-cleaning-challenge-handling-missing-values|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/maxiaoyue__data-cleaning-challenge-handling-missing-values__db303a61b3ec.json",
+   "status": "reused"
+  },
+  "capture|ref#2|mikedelong/python-eda-with-kdes|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/mikedelong__python-eda-with-kdes__c11da9baf151.json",
+   "status": "reused"
+  },
+  "capture|ref#2|muhammadawaistayyab/used-cars-in-pakistan-stats|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/muhammadawaistayyab__used-cars-in-pakistan-stats__e9799356c692.json",
+   "status": "reused"
+  },
+  "capture|ref#2|mustafatatarhan1/iris-kernel|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/mustafatatarhan1__iris-kernel__01ad3411bdd1.json",
+   "status": "reused"
+  },
+  "capture|ref#2|nadare/feature-engenieering-with-pivot-table|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/nadare__feature-engenieering-with-pivot-table__64b2008b8a5c.json",
+   "status": "reused"
+  },
+  "capture|ref#2|nandhuelan/ott-platforms|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/nandhuelan__ott-platforms__2bc0e2597fc9.json",
+   "status": "reused"
+  },
+  "capture|ref#2|narasimhach/ashrae-data-preprocessing|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/narasimhach__ashrae-data-preprocessing__30355a4384ff.json",
+   "status": "reused"
+  },
+  "capture|ref#2|nihhaar/etltransform|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/nihhaar__etltransform__88c7909de61e.json",
+   "status": "reused"
+  },
+  "capture|ref#2|paramarthasengupta/plotly-eda-top-movies-of-20th-century|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/paramarthasengupta__plotly-eda-top-movies-of-20th-century__878ff40f8216.json",
+   "status": "reused"
+  },
+  "capture|ref#2|penny8/my-sub1|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/penny8__my-sub1__43f3199ff685.json",
+   "status": "reused"
+  },
+  "capture|ref#2|pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/pmr3508f20977e697__poverty-level-pmr3508-2018-f20977e697__dfecd76a6062.json",
+   "status": "reused"
+  },
+  "capture|ref#2|poiss0nriot/classifying-client-type-using-client-names|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/poiss0nriot__classifying-client-type-using-client-names__410d8b2e596a.json",
+   "status": "reused"
+  },
+  "capture|ref#2|pradeepjeya/allstate-encoding-high-cardinality-features|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/pradeepjeya__allstate-encoding-high-cardinality-features__f6c3475d0b1c.json",
+   "status": "reused"
+  },
+  "capture|ref#2|qingyuanwu/deep-neural-network|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/qingyuanwu__deep-neural-network__6af60cd91a9a.json",
+   "status": "reused"
+  },
+  "capture|ref#2|qnqfbqfqo/electric-vehicle-landscape-in-washington-state|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/qnqfbqfqo__electric-vehicle-landscape-in-washington-state__30230afacf26.json",
+   "status": "reused"
+  },
+  "capture|ref#2|robikscube/big-data-bowl-comprehensive-eda-with-pandas|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/robikscube__big-data-bowl-comprehensive-eda-with-pandas__e18fc7aec898.json",
+   "status": "reused"
+  },
+  "capture|ref#2|robinfaber/monsters-a-simple-logistic-regression-approach|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/robinfaber__monsters-a-simple-logistic-regression-approach__576b8d376b3c.json",
+   "status": "reused"
+  },
+  "capture|ref#2|roopahegde/cryptocurrency-price-correlation|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/roopahegde__cryptocurrency-price-correlation__0baae9bd3b4c.json",
+   "status": "reused"
+  },
+  "capture|ref#2|roydatascience/malware-detection-stacking-2-0|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/roydatascience__malware-detection-stacking-2-0__f38bccadf3ec.json",
+   "status": "reused"
+  },
+  "capture|ref#2|sabya40/data-cleaning-and-pandas-for-beginners|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/sabya40__data-cleaning-and-pandas-for-beginners__dd79f03b9d8d.json",
+   "status": "reused"
+  },
+  "capture|ref#2|sal001/beginner-s-note-top-12-by-single-linear-model|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/sal001__beginner-s-note-top-12-by-single-linear-model__8d8bec0a97a8.json",
+   "status": "reused"
+  },
+  "capture|ref#2|salmaneunus/student-s-performance-quantitative-visual-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/salmaneunus__student-s-performance-quantitative-visual-eda__48c3fb39ed9c.json",
+   "status": "reused"
+  },
+  "capture|ref#2|saniaks/melbourne-house-price-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/saniaks__melbourne-house-price-eda__614366bde78c.json",
+   "status": "reused"
+  },
+  "capture|ref#2|sanket30/eda-of-application-train-home-credit-default|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/sanket30__eda-of-application-train-home-credit-default__d33a7d599503.json",
+   "status": "reused"
+  },
+  "capture|ref#2|santhoshrao1995/assi01-santhosh-19101036|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/santhoshrao1995__assi01-santhosh-19101036__65416d5a9e9a.json",
+   "status": "reused"
+  },
+  "capture|ref#2|seriousran/eda-ing|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/seriousran__eda-ing__2d2358c32cae.json",
+   "status": "reused"
+  },
+  "capture|ref#2|shashi772/data-cleaning-challenge-parsing-dates|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/shashi772__data-cleaning-challenge-parsing-dates__885019d865e8.json",
+   "status": "reused"
+  },
+  "capture|ref#2|shivavashishtha/zomato-eda-tutorial|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/shivavashishtha__zomato-eda-tutorial__88638f0af3ab.json",
+   "status": "reused"
+  },
+  "capture|ref#2|shubhammahalank/eda-hotel-booking-demand|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/shubhammahalank__eda-hotel-booking-demand__f89a5d5cc4e6.json",
+   "status": "reused"
+  },
+  "capture|ref#2|shunjiangxu/blood-is-thicker-than-water-friendship-forever|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/shunjiangxu__blood-is-thicker-than-water-friendship-forever__10d7c6e24ce1.json",
+   "status": "reused"
+  },
+  "capture|ref#2|snanilim/video-games-sales-analysis-and-visualization|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/snanilim__video-games-sales-analysis-and-visualization__df8621064516.json",
+   "status": "reused"
+  },
+  "capture|ref#2|stefanjov/my-first-normalize-on-big-dataset|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/stefanjov__my-first-normalize-on-big-dataset__47d984db46b5.json",
+   "status": "reused"
+  },
+  "capture|ref#2|sudheer259/house-price-prediction|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/sudheer259__house-price-prediction__c12544de78c5.json",
+   "status": "reused"
+  },
+  "capture|ref#2|sunnybiswas/eda-on-airline-dataset|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/sunnybiswas__eda-on-airline-dataset__2e0145c3b544.json",
+   "status": "reused"
+  },
+  "capture|ref#2|tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/tanulsingh077__twitter-sentiment-extaction-analysis-eda-and-model__7d3ea2ee9dac.json",
+   "status": "reused"
+  },
+  "capture|ref#2|taylorhickem/singapore-building-energy|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/taylorhickem__singapore-building-energy__37c2118296d1.json",
+   "status": "reused"
+  },
+  "capture|ref#2|teemingyi/pubg-data-exploration-example-matches|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/teemingyi__pubg-data-exploration-example-matches__ba339bd11689.json",
+   "status": "reused"
+  },
+  "capture|ref#2|thirumani/biggboss-hindi-telugu-tamil-kannada-marathi-bangla|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/thirumani__biggboss-hindi-telugu-tamil-kannada-marathi-bangla__bfe257930d09.json",
+   "status": "reused"
+  },
+  "capture|ref#2|trinath003/data-manipulation-visualisation-on-kaggle-datasets|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__c004febb5e9f.json",
+   "status": "reused"
+  },
+  "capture|ref#2|tunguz/fathers-day-specials-just-the-features|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/tunguz__fathers-day-specials-just-the-features__9cb8bb62849b.json",
+   "status": "reused"
+  },
+  "capture|ref#2|ukveteran/sarima-time-series-eda-predict-jma-sao-paulo|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/ukveteran__sarima-time-series-eda-predict-jma-sao-paulo__d51c03bf2771.json",
+   "status": "reused"
+  },
+  "capture|ref#2|vatsalmavani/music-recommendation-system-using-spotify-dataset|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/vatsalmavani__music-recommendation-system-using-spotify-dataset__d5b17ee13dda.json",
+   "status": "reused"
+  },
+  "capture|ref#2|vbmokin/automatic-eda-with-pandas-profiling-2-9-09-2020|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/vbmokin__automatic-eda-with-pandas-profiling-2-9-09-2020__221ae3b69c61.json",
+   "status": "reused"
+  },
+  "capture|ref#2|vinothsuku/osic-pulmonary-fibrosis-simple-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/vinothsuku__osic-pulmonary-fibrosis-simple-eda__1b1c08a13d10.json",
+   "status": "reused"
+  },
+  "capture|ref#2|viviktpharale/house-price-prediction-eda-linear-ridge-lasso|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/viviktpharale__house-price-prediction-eda-linear-ridge-lasso__b1845ee945fd.json",
+   "status": "reused"
+  },
+  "capture|ref#2|willkoehrsen/start-here-a-gentle-introduction|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/willkoehrsen__start-here-a-gentle-introduction__ad53c1164d3d.json",
+   "status": "reused"
+  },
+  "capture|ref#2|wyl4417/machine-learning-and-how-it-affects-you|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/wyl4417__machine-learning-and-how-it-affects-you__3379ec963c16.json",
+   "status": "reused"
+  },
+  "capture|ref#2|xingobar/computer-science-data-visualization|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/xingobar__computer-science-data-visualization__271ab6ac6482.json",
+   "status": "reused"
+  },
+  "capture|ref#2|xokent/cyber-security-attack-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/xokent__cyber-security-attack-eda__95f19ae17f0b.json",
+   "status": "reused"
+  },
+  "capture|ref#2|yashjaiswal1097/911-emergency-calls-kernel|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/yashjaiswal1097__911-emergency-calls-kernel__5f9ca7afdecb.json",
+   "status": "reused"
+  },
+  "capture|ref#2|yonelanuba/elo-merchant-by-yonela|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/yonelanuba__elo-merchant-by-yonela__981d1a497415.json",
+   "status": "reused"
+  },
+  "capture|ref#2|yuliagm/talkingdata-eda-plus-time-patterns|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref_r2/sf1/yuliagm__talkingdata-eda-plus-time-patterns__f849448a35a1.json",
+   "status": "reused"
+  },
+  "capture|ref|akgauravin/gun-violence-data-exploration-and-plotting|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/akgauravin__gun-violence-data-exploration-and-plotting__e4e7bc668b42.json",
+   "status": "reused"
+  },
+  "capture|ref|akshaypetkar/supermarket-sales-analysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/akshaypetkar__supermarket-sales-analysis__85440bff02b8.json",
+   "status": "reused"
+  },
+  "capture|ref|arimishabirin/globalsalary-simple-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/arimishabirin__globalsalary-simple-eda__74cc2c67bf44.json",
+   "status": "reused"
+  },
+  "capture|ref|arjoonn/scout-script-7|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/arjoonn__scout-script-7__ef1d8db4d72a.json",
+   "status": "reused"
+  },
+  "capture|ref|artgor/eda-and-models|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/artgor__eda-and-models__8606d514d3da.json",
+   "status": "reused"
+  },
+  "capture|ref|ashukr/first-step-ingestion-to-prediction|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/ashukr__first-step-ingestion-to-prediction__a8f049bc9439.json",
+   "status": "reused"
+  },
+  "capture|ref|atultaur/house-sales-in-king-county|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/atultaur__house-sales-in-king-county__e5c2dc28b186.json",
+   "status": "reused"
+  },
+  "capture|ref|ayushsingh5941/tweet-disaster-or-not|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/ayushsingh5941__tweet-disaster-or-not__4c7076a9a03a.json",
+   "status": "reused"
+  },
+  "capture|ref|balajivenkat96/solar-plants|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/balajivenkat96__solar-plants__5b5f7aafcd9f.json",
+   "status": "reused"
+  },
+  "capture|ref|bcannon/indexing-selecting-assigning|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/bcannon__indexing-selecting-assigning__104067006253.json",
+   "status": "reused"
+  },
+  "capture|ref|beratozmen/clash-of-clans-exploratory-data-analysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/beratozmen__clash-of-clans-exploratory-data-analysis__80e8c1f5a911.json",
+   "status": "reused"
+  },
+  "capture|ref|blaskowitz100/feature-engineering-based-on-the-suprise-me|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/blaskowitz100__feature-engineering-based-on-the-suprise-me__83811a5cd9e1.json",
+   "status": "reused"
+  },
+  "capture|ref|brianmendieta/data-cleaning-plus-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/brianmendieta__data-cleaning-plus-eda__eda151b765eb.json",
+   "status": "reused"
+  },
+  "capture|ref|carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/carlmcbrideellis__simple-eda-of-kaggle-grandmasters-scheduled__bdd8a296c08e.json",
+   "status": "reused"
+  },
+  "capture|ref|charulatashelar/indian-startup-funding-exploratory-data-analysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/charulatashelar__indian-startup-funding-exploratory-data-analysis__0285b630594e.json",
+   "status": "reused"
+  },
+  "capture|ref|chinstan/notebook249b4f3f5b|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/chinstan__notebook249b4f3f5b__f8927836eae0.json",
+   "status": "reused"
+  },
+  "capture|ref|christophriley/intro-machine-learning|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/christophriley__intro-machine-learning__613ed2b36fed.json",
+   "status": "reused"
+  },
+  "capture|ref|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__691f7191dae8.json",
+   "status": "reused"
+  },
+  "capture|ref|danielresende/game-of-thrones-battles|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/danielresende__game-of-thrones-battles__2979774e8b16.json",
+   "status": "reused"
+  },
+  "capture|ref|dbatao/kernel2f80fc9d78|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/dbatao__kernel2f80fc9d78__46d889789ed3.json",
+   "status": "reused"
+  },
+  "capture|ref|deffro/eda-is-fun|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/deffro__eda-is-fun__af4a474bd6d5.json",
+   "status": "reused"
+  },
+  "capture|ref|drainvers/instacart-sandbox-lmf|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/drainvers__instacart-sandbox-lmf__a7ca9e778179.json",
+   "status": "reused"
+  },
+  "capture|ref|ersinsen/fraud-3-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/ersinsen__fraud-3-eda__b8194181b474.json",
+   "status": "reused"
+  },
+  "capture|ref|galiph/titanic-explorary-data-analysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/galiph__titanic-explorary-data-analysis__28caba44f70a.json",
+   "status": "reused"
+  },
+  "capture|ref|gautamsihag/notebook32c1acdb76|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/gautamsihag__notebook32c1acdb76__27026706c071.json",
+   "status": "reused"
+  },
+  "capture|ref|gmanish/help-ngo-country-clustering|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/gmanish__help-ngo-country-clustering__281ef3d9d949.json",
+   "status": "reused"
+  },
+  "capture|ref|gravix/gradient-in-a-box|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/gravix__gradient-in-a-box__5030c9e72ba5.json",
+   "status": "reused"
+  },
+  "capture|ref|grudd0/mass-shooting-analysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/grudd0__mass-shooting-analysis__8be01b6e113c.json",
+   "status": "reused"
+  },
+  "capture|ref|gsilves/quiz-4-question-1|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/gsilves__quiz-4-question-1__7727a4ce8923.json",
+   "status": "reused"
+  },
+  "capture|ref|guyalmog/hr-analytics-predicting-employees-attrition|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/guyalmog__hr-analytics-predicting-employees-attrition__1265b5576adb.json",
+   "status": "reused"
+  },
+  "capture|ref|j0thu777/onlineretailanalysis|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/j0thu777__onlineretailanalysis__aabaa4a10c99.json",
+   "status": "reused"
+  },
+  "capture|ref|jackwatson99/pima-indians-diabetes-rf-81|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/jackwatson99__pima-indians-diabetes-rf-81__127028b75f7b.json",
+   "status": "reused"
+  },
+  "capture|ref|jagangupta/stop-the-s-toxic-comments-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/jagangupta__stop-the-s-toxic-comments-eda__fc313736c768.json",
+   "status": "reused"
+  },
+  "capture|ref|jaideepvalani/useful-eda-for-beginners-rsna-embolism|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/jaideepvalani__useful-eda-for-beginners-rsna-embolism__d2e8d3d47071.json",
+   "status": "reused"
+  },
+  "capture|ref|jirakst/book-recommendation|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/jirakst__book-recommendation__b3800df411ee.json",
+   "status": "reused"
+  },
+  "capture|ref|julieberteaux/workshop-2|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/julieberteaux__workshop-2__a6a1d41c93d6.json",
+   "status": "reused"
+  },
+  "capture|ref|jyotsananegi/melbourne-housing-snapshot-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/jyotsananegi__melbourne-housing-snapshot-eda__0e0d5ccdd527.json",
+   "status": "reused"
+  },
+  "capture|ref|kanncaa1/dataiteam-titanic-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/kanncaa1__dataiteam-titanic-eda__238e8629e720.json",
+   "status": "reused"
+  },
+  "capture|ref|kenjee/titanic-project-example|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/kenjee__titanic-project-example__9775c8fd8d15.json",
+   "status": "reused"
+  },
+  "capture|ref|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__509d6ad4b2ae.json",
+   "status": "reused"
+  },
+  "capture|ref|kmader/analyzing-matches|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/kmader__analyzing-matches__ce4c4d46c248.json",
+   "status": "reused"
+  },
+  "capture|ref|koko1998/summer-products-and-sales-wish-com|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/koko1998__summer-products-and-sales-wish-com__956498a86951.json",
+   "status": "reused"
+  },
+  "capture|ref|kwullum/when-do-traffic-related-deaths-occur|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/kwullum__when-do-traffic-related-deaths-occur__c940d8279aaf.json",
+   "status": "reused"
+  },
+  "capture|ref|loveall/favorita-analytics|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/loveall__favorita-analytics__6aaca7546a1c.json",
+   "status": "reused"
+  },
+  "capture|ref|luckygemini/notebook5d5fc80c9f|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/luckygemini__notebook5d5fc80c9f__c64095cdff2d.json",
+   "status": "reused"
+  },
+  "capture|ref|luizep/movieslens20m|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/luizep__movieslens20m__30c78bbad677.json",
+   "status": "reused"
+  },
+  "capture|ref|macespinoza/simple-eda-with-python-pandas-data-avocado-paltas|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/macespinoza__simple-eda-with-python-pandas-data-avocado-paltas__d21e771d33a3.json",
+   "status": "reused"
+  },
+  "capture|ref|madseth/customer-shopping-trends-dataset-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/madseth__customer-shopping-trends-dataset-eda__3b53db5496dc.json",
+   "status": "reused"
+  },
+  "capture|ref|mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/mahtieu__nyc-taxi-fare-prediction-data-expl-xgboost__782351ecb0fd.json",
+   "status": "reused"
+  },
+  "capture|ref|mathewvondersaar/analysis-of-student-performance|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/mathewvondersaar__analysis-of-student-performance__187de34cd7d9.json",
+   "status": "reused"
+  },
+  "capture|ref|maxiaoyue/data-cleaning-challenge-handling-missing-values|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/maxiaoyue__data-cleaning-challenge-handling-missing-values__42baab36043b.json",
+   "status": "reused"
+  },
+  "capture|ref|mikedelong/python-eda-with-kdes|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/mikedelong__python-eda-with-kdes__a9a8fc01f40c.json",
+   "status": "reused"
+  },
+  "capture|ref|muhammadawaistayyab/used-cars-in-pakistan-stats|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/muhammadawaistayyab__used-cars-in-pakistan-stats__9e7d038ab4ea.json",
+   "status": "reused"
+  },
+  "capture|ref|mustafatatarhan1/iris-kernel|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/mustafatatarhan1__iris-kernel__c6af0c1fb1dc.json",
+   "status": "reused"
+  },
+  "capture|ref|nadare/feature-engenieering-with-pivot-table|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/nadare__feature-engenieering-with-pivot-table__1d74c769638f.json",
+   "status": "reused"
+  },
+  "capture|ref|nandhuelan/ott-platforms|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/nandhuelan__ott-platforms__681a9b9aa16e.json",
+   "status": "reused"
+  },
+  "capture|ref|narasimhach/ashrae-data-preprocessing|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/narasimhach__ashrae-data-preprocessing__a74da849abe3.json",
+   "status": "reused"
+  },
+  "capture|ref|nihhaar/etltransform|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/nihhaar__etltransform__670f1ba52a76.json",
+   "status": "reused"
+  },
+  "capture|ref|paramarthasengupta/plotly-eda-top-movies-of-20th-century|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/paramarthasengupta__plotly-eda-top-movies-of-20th-century__20ccf5e0858d.json",
+   "status": "reused"
+  },
+  "capture|ref|penny8/my-sub1|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/penny8__my-sub1__f94bf717e637.json",
+   "status": "reused"
+  },
+  "capture|ref|pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/pmr3508f20977e697__poverty-level-pmr3508-2018-f20977e697__39c6be0caa01.json",
+   "status": "reused"
+  },
+  "capture|ref|poiss0nriot/classifying-client-type-using-client-names|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/poiss0nriot__classifying-client-type-using-client-names__de44e8809a64.json",
+   "status": "reused"
+  },
+  "capture|ref|pradeepjeya/allstate-encoding-high-cardinality-features|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/pradeepjeya__allstate-encoding-high-cardinality-features__036af93fc905.json",
+   "status": "reused"
+  },
+  "capture|ref|qingyuanwu/deep-neural-network|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/qingyuanwu__deep-neural-network__52909b975525.json",
+   "status": "reused"
+  },
+  "capture|ref|qnqfbqfqo/electric-vehicle-landscape-in-washington-state|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/qnqfbqfqo__electric-vehicle-landscape-in-washington-state__6bc5b3dbb30f.json",
+   "status": "reused"
+  },
+  "capture|ref|robikscube/big-data-bowl-comprehensive-eda-with-pandas|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/robikscube__big-data-bowl-comprehensive-eda-with-pandas__6ec7d2efdffc.json",
+   "status": "reused"
+  },
+  "capture|ref|robinfaber/monsters-a-simple-logistic-regression-approach|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/robinfaber__monsters-a-simple-logistic-regression-approach__96263d9ed2cf.json",
+   "status": "reused"
+  },
+  "capture|ref|roopahegde/cryptocurrency-price-correlation|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/roopahegde__cryptocurrency-price-correlation__8b18719bb1e3.json",
+   "status": "reused"
+  },
+  "capture|ref|roydatascience/malware-detection-stacking-2-0|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/roydatascience__malware-detection-stacking-2-0__37c8116bd55e.json",
+   "status": "reused"
+  },
+  "capture|ref|sabya40/data-cleaning-and-pandas-for-beginners|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/sabya40__data-cleaning-and-pandas-for-beginners__9473a200de56.json",
+   "status": "reused"
+  },
+  "capture|ref|sal001/beginner-s-note-top-12-by-single-linear-model|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/sal001__beginner-s-note-top-12-by-single-linear-model__55a40eff1e7b.json",
+   "status": "reused"
+  },
+  "capture|ref|salmaneunus/student-s-performance-quantitative-visual-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/salmaneunus__student-s-performance-quantitative-visual-eda__3b3e31a35a04.json",
+   "status": "reused"
+  },
+  "capture|ref|saniaks/melbourne-house-price-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/saniaks__melbourne-house-price-eda__184f1e776925.json",
+   "status": "reused"
+  },
+  "capture|ref|sanket30/eda-of-application-train-home-credit-default|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/sanket30__eda-of-application-train-home-credit-default__1267e8b59c20.json",
+   "status": "reused"
+  },
+  "capture|ref|santhoshrao1995/assi01-santhosh-19101036|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/santhoshrao1995__assi01-santhosh-19101036__cf769ec370d9.json",
+   "status": "reused"
+  },
+  "capture|ref|seriousran/eda-ing|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/seriousran__eda-ing__d8b357dfa5ed.json",
+   "status": "reused"
+  },
+  "capture|ref|shashi772/data-cleaning-challenge-parsing-dates|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/shashi772__data-cleaning-challenge-parsing-dates__3bfc39c607e8.json",
+   "status": "reused"
+  },
+  "capture|ref|shivavashishtha/zomato-eda-tutorial|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/shivavashishtha__zomato-eda-tutorial__c8280ebc4ac8.json",
+   "status": "reused"
+  },
+  "capture|ref|shubhammahalank/eda-hotel-booking-demand|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/shubhammahalank__eda-hotel-booking-demand__16aae4ce99a3.json",
+   "status": "reused"
+  },
+  "capture|ref|shunjiangxu/blood-is-thicker-than-water-friendship-forever|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/shunjiangxu__blood-is-thicker-than-water-friendship-forever__264bd4d0f48f.json",
+   "status": "reused"
+  },
+  "capture|ref|snanilim/video-games-sales-analysis-and-visualization|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/snanilim__video-games-sales-analysis-and-visualization__1924db40e328.json",
+   "status": "reused"
+  },
+  "capture|ref|stefanjov/my-first-normalize-on-big-dataset|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/stefanjov__my-first-normalize-on-big-dataset__4b60e8526c63.json",
+   "status": "reused"
+  },
+  "capture|ref|sudheer259/house-price-prediction|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/sudheer259__house-price-prediction__81cf800a6e40.json",
+   "status": "reused"
+  },
+  "capture|ref|sunnybiswas/eda-on-airline-dataset|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/sunnybiswas__eda-on-airline-dataset__18e4c9329948.json",
+   "status": "reused"
+  },
+  "capture|ref|tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/tanulsingh077__twitter-sentiment-extaction-analysis-eda-and-model__630ae7ab0f6e.json",
+   "status": "reused"
+  },
+  "capture|ref|taylorhickem/singapore-building-energy|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/taylorhickem__singapore-building-energy__946775c28df1.json",
+   "status": "reused"
+  },
+  "capture|ref|teemingyi/pubg-data-exploration-example-matches|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/teemingyi__pubg-data-exploration-example-matches__226983d54bfe.json",
+   "status": "reused"
+  },
+  "capture|ref|thirumani/biggboss-hindi-telugu-tamil-kannada-marathi-bangla|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/thirumani__biggboss-hindi-telugu-tamil-kannada-marathi-bangla__97f84e1ed54c.json",
+   "status": "reused"
+  },
+  "capture|ref|trinath003/data-manipulation-visualisation-on-kaggle-datasets|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__c9b66cb977bd.json",
+   "status": "reused"
+  },
+  "capture|ref|tunguz/fathers-day-specials-just-the-features|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/tunguz__fathers-day-specials-just-the-features__df29f831b1d0.json",
+   "status": "reused"
+  },
+  "capture|ref|ukveteran/sarima-time-series-eda-predict-jma-sao-paulo|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/ukveteran__sarima-time-series-eda-predict-jma-sao-paulo__beb3bb661ac1.json",
+   "status": "reused"
+  },
+  "capture|ref|vatsalmavani/music-recommendation-system-using-spotify-dataset|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/vatsalmavani__music-recommendation-system-using-spotify-dataset__041a4c20d818.json",
+   "status": "reused"
+  },
+  "capture|ref|vbmokin/automatic-eda-with-pandas-profiling-2-9-09-2020|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/vbmokin__automatic-eda-with-pandas-profiling-2-9-09-2020__2dc1f59f8bd1.json",
+   "status": "reused"
+  },
+  "capture|ref|vinothsuku/osic-pulmonary-fibrosis-simple-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/vinothsuku__osic-pulmonary-fibrosis-simple-eda__0877864c7b4d.json",
+   "status": "reused"
+  },
+  "capture|ref|viviktpharale/house-price-prediction-eda-linear-ridge-lasso|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/viviktpharale__house-price-prediction-eda-linear-ridge-lasso__1225337b58fe.json",
+   "status": "reused"
+  },
+  "capture|ref|willkoehrsen/start-here-a-gentle-introduction|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/willkoehrsen__start-here-a-gentle-introduction__ab7056843553.json",
+   "status": "reused"
+  },
+  "capture|ref|wyl4417/machine-learning-and-how-it-affects-you|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/wyl4417__machine-learning-and-how-it-affects-you__982146cba88b.json",
+   "status": "reused"
+  },
+  "capture|ref|xingobar/computer-science-data-visualization|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/xingobar__computer-science-data-visualization__a08bd463a8af.json",
+   "status": "reused"
+  },
+  "capture|ref|xokent/cyber-security-attack-eda|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/xokent__cyber-security-attack-eda__9671871d2ff8.json",
+   "status": "reused"
+  },
+  "capture|ref|yashjaiswal1097/911-emergency-calls-kernel|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/yashjaiswal1097__911-emergency-calls-kernel__b8d433ea8dc2.json",
+   "status": "reused"
+  },
+  "capture|ref|yonelanuba/elo-merchant-by-yonela|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/yonelanuba__elo-merchant-by-yonela__5ccdc7a7ddac.json",
+   "status": "reused"
+  },
+  "capture|ref|yuliagm/talkingdata-eda-plus-time-patterns|1.0|1": {
+   "record": "results/drift/raw/runs__hd1c421ecb5ee/ref/sf1/yuliagm__talkingdata-eda-plus-time-patterns__0ab39718a14d.json",
+   "status": "reused"
+  }
+ },
+ "updated": "2026-10-03T08:44:07"
+}

@@ -1,0 +1,170 @@
+{
+ "campaign": "pilot",
+ "compare_tag": "hd1c421ecb5ee__da915cb28b4c6",
+ "engines": [
+  "ref",
+  "ref#2",
+  "pyarrow_backend",
+  "p15",
+  "p30",
+  "fireducks",
+  "bodo",
+  "bodo_dw",
+  "modin",
+  "dask",
+  "modin#2",
+  "fireducks#2",
+  "bodo#2",
+  "dask#2"
+ ],
+ "harness_tag": "hd1c421ecb5ee",
+ "n_problems": 0,
+ "notebooks": 10,
+ "oracle": {
+  "bodo": {
+   "cells": 486,
+   "compared": 10,
+   "match_identity": 174,
+   "match_sort": 7,
+   "outputs": 466
+  },
+  "bodo#2": {
+   "cells": 486,
+   "compared": 10,
+   "match_identity": 174,
+   "match_sort": 7,
+   "outputs": 466
+  },
+  "bodo_dw": {
+   "cells": 486,
+   "compared": 10,
+   "match_identity": 165,
+   "match_sort": 8,
+   "outputs": 466
+  },
+  "dask": {
+   "cells": 486,
+   "compared": 10,
+   "match_identity": 60,
+   "match_sort": 8,
+   "outputs": 267
+  },
+  "dask#2": {
+   "cells": 486,
+   "compared": 10,
+   "match_identity": 60,
+   "match_sort": 8,
+   "outputs": 267
+  },
+  "fireducks": {
+   "cells": 486,
+   "compared": 10,
+   "match_identity": 84,
+   "match_sort": 10,
+   "outputs": 540
+  },
+  "fireducks#2": {
+   "cells": 486,
+   "compared": 10,
+   "match_identity": 84,
+   "match_sort": 10,
+   "outputs": 540
+  },
+  "modin": {
+   "cells": 486,
+   "compared": 10,
+   "match_identity": 38,
+   "match_sort": 5,
+   "outputs": 536
+  },
+  "modin#2": {
+   "cells": 486,
+   "compared": 10,
+   "match_identity": 38,
+   "match_sort": 6,
+   "outputs": 536
+  },
+  "p15": {
+   "cells": 486,
+   "compared": 10,
+   "match_identity": 30,
+   "match_sort": 26,
+   "outputs": 586
+  },
+  "p30": {
+   "cells": 486,
+   "compared": 10,
+   "match_identity": 289,
+   "match_sort": 2,
+   "outputs": 565
+  },
+  "pyarrow_backend": {
+   "cells": 486,
+   "compared": 10,
+   "match_identity": 226,
+   "match_sort": 3,
+   "outputs": 515
+  }
+ },
+ "problems": [],
+ "records": {
+  "bodo": {
+   "completed": 10
+  },
+  "bodo#2": {
+   "completed": 10
+  },
+  "bodo_dw": {
+   "completed": 10
+  },
+  "dask": {
+   "completed": 10
+  },
+  "dask#2": {
+   "completed": 10
+  },
+  "fireducks": {
+   "completed": 10
+  },
+  "fireducks#2": {
+   "completed": 10
+  },
+  "modin": {
+   "completed": 9,
+   "nb_memory": 1
+  },
+  "modin#2": {
+   "completed": 9,
+   "nb_memory": 1
+  },
+  "p15": {
+   "completed": 10
+  },
+  "p30": {
+   "completed": 10
+  },
+  "pyarrow_backend": {
+   "completed": 10
+  },
+  "ref": {
+   "completed": 10
+  },
+  "ref#2": {
+   "completed": 10
+  }
+ },
+ "self_check": {
+  "ref#2": {
+   "cells": 486,
+   "compared": 10,
+   "outputs": 586
+  }
+ },
+ "set": "pilot",
+ "store": {
+  "missing": 0,
+  "referenced_blobs": 21713,
+  "sample_hash_mismatch": 0,
+  "sample_verified": 300
+ }
+}

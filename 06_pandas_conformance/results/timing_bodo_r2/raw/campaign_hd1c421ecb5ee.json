@@ -1,0 +1,726 @@
+{
+ "harness_sha": "d1c421ecb5eec2bda275e05aebacd0f0a8766869334d36f786f3f66a3a86a380",
+ "runs": {
+  "timing|bodo|akgauravin/gun-violence-data-exploration-and-plotting|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/akgauravin__gun-violence-data-exploration-and-plotting__eabb6c43449d.json",
+   "status": "skipped"
+  },
+  "timing|bodo|akgauravin/gun-violence-data-exploration-and-plotting|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/akgauravin__gun-violence-data-exploration-and-plotting__974b5e9b10b8.json",
+   "status": "skipped"
+  },
+  "timing|bodo|akgauravin/gun-violence-data-exploration-and-plotting|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/akgauravin__gun-violence-data-exploration-and-plotting__f1ed15dc2c4f.json",
+   "status": "skipped"
+  },
+  "timing|bodo|akshaypetkar/supermarket-sales-analysis|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/akshaypetkar__supermarket-sales-analysis__fdcd60d02959.json",
+   "status": "skipped"
+  },
+  "timing|bodo|akshaypetkar/supermarket-sales-analysis|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/akshaypetkar__supermarket-sales-analysis__02dd985b1133.json",
+   "status": "skipped"
+  },
+  "timing|bodo|akshaypetkar/supermarket-sales-analysis|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/akshaypetkar__supermarket-sales-analysis__340e9aab9a71.json",
+   "status": "skipped"
+  },
+  "timing|bodo|bcannon/indexing-selecting-assigning|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/bcannon__indexing-selecting-assigning__3731fb67d774.json",
+   "status": "skipped"
+  },
+  "timing|bodo|bcannon/indexing-selecting-assigning|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/bcannon__indexing-selecting-assigning__444d7a0f17e9.json",
+   "status": "skipped"
+  },
+  "timing|bodo|bcannon/indexing-selecting-assigning|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/bcannon__indexing-selecting-assigning__c9ab4dff05f3.json",
+   "status": "skipped"
+  },
+  "timing|bodo|blaskowitz100/feature-engineering-based-on-the-suprise-me|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/blaskowitz100__feature-engineering-based-on-the-suprise-me__7bc88b0d7457.json",
+   "status": "skipped"
+  },
+  "timing|bodo|blaskowitz100/feature-engineering-based-on-the-suprise-me|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/blaskowitz100__feature-engineering-based-on-the-suprise-me__b245741a6418.json",
+   "status": "skipped"
+  },
+  "timing|bodo|blaskowitz100/feature-engineering-based-on-the-suprise-me|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/blaskowitz100__feature-engineering-based-on-the-suprise-me__80c6b43f92f7.json",
+   "status": "skipped"
+  },
+  "timing|bodo|chinstan/notebook249b4f3f5b|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/chinstan__notebook249b4f3f5b__e5e3a69a5779.json",
+   "status": "skipped"
+  },
+  "timing|bodo|chinstan/notebook249b4f3f5b|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/chinstan__notebook249b4f3f5b__6a04acd7efc4.json",
+   "status": "skipped"
+  },
+  "timing|bodo|chinstan/notebook249b4f3f5b|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/chinstan__notebook249b4f3f5b__b25e0e3a9470.json",
+   "status": "skipped"
+  },
+  "timing|bodo|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__081806efca89.json",
+   "status": "completed"
+  },
+  "timing|bodo|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__f849d23cc587.json",
+   "status": "completed"
+  },
+  "timing|bodo|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__614c513f0c08.json",
+   "status": "completed"
+  },
+  "timing|bodo|gravix/gradient-in-a-box|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/gravix__gradient-in-a-box__b087ca71b770.json",
+   "status": "skipped"
+  },
+  "timing|bodo|gravix/gradient-in-a-box|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/gravix__gradient-in-a-box__a81813bdc5ff.json",
+   "status": "skipped"
+  },
+  "timing|bodo|gravix/gradient-in-a-box|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/gravix__gradient-in-a-box__14c8afcb0e52.json",
+   "status": "skipped"
+  },
+  "timing|bodo|guyalmog/hr-analytics-predicting-employees-attrition|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/guyalmog__hr-analytics-predicting-employees-attrition__2bea8e40bbb3.json",
+   "status": "skipped"
+  },
+  "timing|bodo|guyalmog/hr-analytics-predicting-employees-attrition|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/guyalmog__hr-analytics-predicting-employees-attrition__6a65a4417a24.json",
+   "status": "skipped"
+  },
+  "timing|bodo|guyalmog/hr-analytics-predicting-employees-attrition|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/guyalmog__hr-analytics-predicting-employees-attrition__c7bf85a1f916.json",
+   "status": "skipped"
+  },
+  "timing|bodo|j0thu777/onlineretailanalysis|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/j0thu777__onlineretailanalysis__a81ea85016c7.json",
+   "status": "skipped"
+  },
+  "timing|bodo|j0thu777/onlineretailanalysis|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/j0thu777__onlineretailanalysis__7f64716ff102.json",
+   "status": "skipped"
+  },
+  "timing|bodo|j0thu777/onlineretailanalysis|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/j0thu777__onlineretailanalysis__244d2d09d3fa.json",
+   "status": "nb_timeout"
+  },
+  "timing|bodo|jagangupta/stop-the-s-toxic-comments-eda|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/jagangupta__stop-the-s-toxic-comments-eda__81db6e65d102.json",
+   "status": "skipped"
+  },
+  "timing|bodo|jagangupta/stop-the-s-toxic-comments-eda|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/jagangupta__stop-the-s-toxic-comments-eda__d41309c52702.json",
+   "status": "skipped"
+  },
+  "timing|bodo|jagangupta/stop-the-s-toxic-comments-eda|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/jagangupta__stop-the-s-toxic-comments-eda__48fc018ef2bf.json",
+   "status": "skipped"
+  },
+  "timing|bodo|jaideepvalani/useful-eda-for-beginners-rsna-embolism|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/jaideepvalani__useful-eda-for-beginners-rsna-embolism__0c6d6c197d18.json",
+   "status": "skipped"
+  },
+  "timing|bodo|jaideepvalani/useful-eda-for-beginners-rsna-embolism|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/jaideepvalani__useful-eda-for-beginners-rsna-embolism__fe88acf85702.json",
+   "status": "skipped"
+  },
+  "timing|bodo|jaideepvalani/useful-eda-for-beginners-rsna-embolism|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/jaideepvalani__useful-eda-for-beginners-rsna-embolism__eea53858862f.json",
+   "status": "skipped"
+  },
+  "timing|bodo|jirakst/book-recommendation|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/jirakst__book-recommendation__d65b8c0d3de5.json",
+   "status": "skipped"
+  },
+  "timing|bodo|jirakst/book-recommendation|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/jirakst__book-recommendation__136b6e7584c1.json",
+   "status": "skipped"
+  },
+  "timing|bodo|jirakst/book-recommendation|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/jirakst__book-recommendation__9864e75e130d.json",
+   "status": "skipped"
+  },
+  "timing|bodo|julieberteaux/workshop-2|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/julieberteaux__workshop-2__882723c2633b.json",
+   "status": "completed"
+  },
+  "timing|bodo|julieberteaux/workshop-2|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/julieberteaux__workshop-2__cf092f05f5b9.json",
+   "status": "completed"
+  },
+  "timing|bodo|julieberteaux/workshop-2|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/julieberteaux__workshop-2__96aaee37e30d.json",
+   "status": "completed"
+  },
+  "timing|bodo|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__1331b737d30e.json",
+   "status": "skipped"
+  },
+  "timing|bodo|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__e723c0dc4bc9.json",
+   "status": "skipped"
+  },
+  "timing|bodo|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__36e2a3f98875.json",
+   "status": "skipped"
+  },
+  "timing|bodo|maxiaoyue/data-cleaning-challenge-handling-missing-values|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/maxiaoyue__data-cleaning-challenge-handling-missing-values__180f6bc13723.json",
+   "status": "skipped"
+  },
+  "timing|bodo|maxiaoyue/data-cleaning-challenge-handling-missing-values|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/maxiaoyue__data-cleaning-challenge-handling-missing-values__4b3551752251.json",
+   "status": "skipped"
+  },
+  "timing|bodo|maxiaoyue/data-cleaning-challenge-handling-missing-values|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/maxiaoyue__data-cleaning-challenge-handling-missing-values__13cd16f88fa1.json",
+   "status": "skipped"
+  },
+  "timing|bodo|mikedelong/python-eda-with-kdes|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/mikedelong__python-eda-with-kdes__4d52d3fba04e.json",
+   "status": "completed"
+  },
+  "timing|bodo|mikedelong/python-eda-with-kdes|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/mikedelong__python-eda-with-kdes__0fe1cdd9f45a.json",
+   "status": "completed"
+  },
+  "timing|bodo|mikedelong/python-eda-with-kdes|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/mikedelong__python-eda-with-kdes__83aebc5e0fd6.json",
+   "status": "completed"
+  },
+  "timing|bodo|nadare/feature-engenieering-with-pivot-table|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/nadare__feature-engenieering-with-pivot-table__b289108c948a.json",
+   "status": "skipped"
+  },
+  "timing|bodo|nadare/feature-engenieering-with-pivot-table|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/nadare__feature-engenieering-with-pivot-table__1b4dede1c6bd.json",
+   "status": "skipped"
+  },
+  "timing|bodo|nadare/feature-engenieering-with-pivot-table|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/nadare__feature-engenieering-with-pivot-table__8f6a16c35fd3.json",
+   "status": "skipped"
+  },
+  "timing|bodo|penny8/my-sub1|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/penny8__my-sub1__f012a4c935e4.json",
+   "status": "skipped"
+  },
+  "timing|bodo|penny8/my-sub1|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/penny8__my-sub1__986473f7e883.json",
+   "status": "skipped"
+  },
+  "timing|bodo|penny8/my-sub1|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/penny8__my-sub1__17bc914a34af.json",
+   "status": "skipped"
+  },
+  "timing|bodo|pradeepjeya/allstate-encoding-high-cardinality-features|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/pradeepjeya__allstate-encoding-high-cardinality-features__ab89b898d0f4.json",
+   "status": "skipped"
+  },
+  "timing|bodo|pradeepjeya/allstate-encoding-high-cardinality-features|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/pradeepjeya__allstate-encoding-high-cardinality-features__35a725c36c85.json",
+   "status": "skipped"
+  },
+  "timing|bodo|pradeepjeya/allstate-encoding-high-cardinality-features|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/pradeepjeya__allstate-encoding-high-cardinality-features__1b252fbdecaf.json",
+   "status": "skipped"
+  },
+  "timing|bodo|qnqfbqfqo/electric-vehicle-landscape-in-washington-state|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/qnqfbqfqo__electric-vehicle-landscape-in-washington-state__14fb168be2d3.json",
+   "status": "completed"
+  },
+  "timing|bodo|qnqfbqfqo/electric-vehicle-landscape-in-washington-state|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/qnqfbqfqo__electric-vehicle-landscape-in-washington-state__e15db7366835.json",
+   "status": "completed"
+  },
+  "timing|bodo|qnqfbqfqo/electric-vehicle-landscape-in-washington-state|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/qnqfbqfqo__electric-vehicle-landscape-in-washington-state__fa4a8bad40bf.json",
+   "status": "completed"
+  },
+  "timing|bodo|robikscube/big-data-bowl-comprehensive-eda-with-pandas|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/robikscube__big-data-bowl-comprehensive-eda-with-pandas__6fb9bdb578af.json",
+   "status": "skipped"
+  },
+  "timing|bodo|robikscube/big-data-bowl-comprehensive-eda-with-pandas|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/robikscube__big-data-bowl-comprehensive-eda-with-pandas__1a7bfa3454ae.json",
+   "status": "skipped"
+  },
+  "timing|bodo|robikscube/big-data-bowl-comprehensive-eda-with-pandas|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/robikscube__big-data-bowl-comprehensive-eda-with-pandas__a60ddc5d5f85.json",
+   "status": "skipped"
+  },
+  "timing|bodo|roopahegde/cryptocurrency-price-correlation|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/roopahegde__cryptocurrency-price-correlation__11de08edcf5f.json",
+   "status": "skipped"
+  },
+  "timing|bodo|roopahegde/cryptocurrency-price-correlation|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/roopahegde__cryptocurrency-price-correlation__fa293b58b6c9.json",
+   "status": "skipped"
+  },
+  "timing|bodo|roopahegde/cryptocurrency-price-correlation|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/roopahegde__cryptocurrency-price-correlation__1db4f98db950.json",
+   "status": "skipped"
+  },
+  "timing|bodo|sanket30/eda-of-application-train-home-credit-default|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/sanket30__eda-of-application-train-home-credit-default__b9509f31b1a0.json",
+   "status": "skipped"
+  },
+  "timing|bodo|sanket30/eda-of-application-train-home-credit-default|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/sanket30__eda-of-application-train-home-credit-default__ceafd25a9f92.json",
+   "status": "skipped"
+  },
+  "timing|bodo|sanket30/eda-of-application-train-home-credit-default|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/sanket30__eda-of-application-train-home-credit-default__98575ab6bbb9.json",
+   "status": "skipped"
+  },
+  "timing|bodo|seriousran/eda-ing|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/seriousran__eda-ing__9c581350d574.json",
+   "status": "skipped"
+  },
+  "timing|bodo|seriousran/eda-ing|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/seriousran__eda-ing__ca76f750e7a7.json",
+   "status": "skipped"
+  },
+  "timing|bodo|seriousran/eda-ing|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/seriousran__eda-ing__c63f7a2f1f49.json",
+   "status": "skipped"
+  },
+  "timing|bodo|shivavashishtha/zomato-eda-tutorial|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/shivavashishtha__zomato-eda-tutorial__5d4dcc580308.json",
+   "status": "skipped"
+  },
+  "timing|bodo|shivavashishtha/zomato-eda-tutorial|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/shivavashishtha__zomato-eda-tutorial__a506259b8197.json",
+   "status": "skipped"
+  },
+  "timing|bodo|shivavashishtha/zomato-eda-tutorial|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/shivavashishtha__zomato-eda-tutorial__a0cf2032a2ef.json",
+   "status": "skipped"
+  },
+  "timing|bodo|stefanjov/my-first-normalize-on-big-dataset|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/stefanjov__my-first-normalize-on-big-dataset__26c6c145544b.json",
+   "status": "skipped"
+  },
+  "timing|bodo|stefanjov/my-first-normalize-on-big-dataset|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/stefanjov__my-first-normalize-on-big-dataset__7fd17b1db1b9.json",
+   "status": "skipped"
+  },
+  "timing|bodo|stefanjov/my-first-normalize-on-big-dataset|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/stefanjov__my-first-normalize-on-big-dataset__2d7672cdd569.json",
+   "status": "skipped"
+  },
+  "timing|bodo|sunnybiswas/eda-on-airline-dataset|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/sunnybiswas__eda-on-airline-dataset__3491ab84699a.json",
+   "status": "completed"
+  },
+  "timing|bodo|sunnybiswas/eda-on-airline-dataset|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/sunnybiswas__eda-on-airline-dataset__be7de4ae238e.json",
+   "status": "completed"
+  },
+  "timing|bodo|sunnybiswas/eda-on-airline-dataset|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/sunnybiswas__eda-on-airline-dataset__9f8a87c66898.json",
+   "status": "completed"
+  },
+  "timing|bodo|vatsalmavani/music-recommendation-system-using-spotify-dataset|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/vatsalmavani__music-recommendation-system-using-spotify-dataset__853393b4978c.json",
+   "status": "completed"
+  },
+  "timing|bodo|vatsalmavani/music-recommendation-system-using-spotify-dataset|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/vatsalmavani__music-recommendation-system-using-spotify-dataset__3c5a075415af.json",
+   "status": "completed"
+  },
+  "timing|bodo|vatsalmavani/music-recommendation-system-using-spotify-dataset|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/vatsalmavani__music-recommendation-system-using-spotify-dataset__21185872f30b.json",
+   "status": "completed"
+  },
+  "timing|bodo|willkoehrsen/start-here-a-gentle-introduction|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/willkoehrsen__start-here-a-gentle-introduction__e19f6ef6fae8.json",
+   "status": "skipped"
+  },
+  "timing|bodo|willkoehrsen/start-here-a-gentle-introduction|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/willkoehrsen__start-here-a-gentle-introduction__03ee880a367c.json",
+   "status": "skipped"
+  },
+  "timing|bodo|willkoehrsen/start-here-a-gentle-introduction|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/willkoehrsen__start-here-a-gentle-introduction__1284361a061c.json",
+   "status": "skipped"
+  },
+  "timing|bodo|yashjaiswal1097/911-emergency-calls-kernel|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/yashjaiswal1097__911-emergency-calls-kernel__9658bdf112d6.json",
+   "status": "skipped"
+  },
+  "timing|bodo|yashjaiswal1097/911-emergency-calls-kernel|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/yashjaiswal1097__911-emergency-calls-kernel__9a0f94329cd3.json",
+   "status": "skipped"
+  },
+  "timing|bodo|yashjaiswal1097/911-emergency-calls-kernel|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/bodo/sf1/yashjaiswal1097__911-emergency-calls-kernel__4c364015e120.json",
+   "status": "skipped"
+  },
+  "timing|ref|akgauravin/gun-violence-data-exploration-and-plotting|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/akgauravin__gun-violence-data-exploration-and-plotting__10cf427b0981.json",
+   "status": "skipped"
+  },
+  "timing|ref|akgauravin/gun-violence-data-exploration-and-plotting|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/akgauravin__gun-violence-data-exploration-and-plotting__e579944760c7.json",
+   "status": "skipped"
+  },
+  "timing|ref|akgauravin/gun-violence-data-exploration-and-plotting|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/akgauravin__gun-violence-data-exploration-and-plotting__4dc0fdd6c45c.json",
+   "status": "skipped"
+  },
+  "timing|ref|akshaypetkar/supermarket-sales-analysis|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/akshaypetkar__supermarket-sales-analysis__1bf25f35c9bd.json",
+   "status": "skipped"
+  },
+  "timing|ref|akshaypetkar/supermarket-sales-analysis|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/akshaypetkar__supermarket-sales-analysis__639381d7cf30.json",
+   "status": "skipped"
+  },
+  "timing|ref|akshaypetkar/supermarket-sales-analysis|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/akshaypetkar__supermarket-sales-analysis__8a95a2c42203.json",
+   "status": "skipped"
+  },
+  "timing|ref|bcannon/indexing-selecting-assigning|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/bcannon__indexing-selecting-assigning__04a5ced99889.json",
+   "status": "skipped"
+  },
+  "timing|ref|bcannon/indexing-selecting-assigning|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/bcannon__indexing-selecting-assigning__19e244e5f4b8.json",
+   "status": "skipped"
+  },
+  "timing|ref|bcannon/indexing-selecting-assigning|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/bcannon__indexing-selecting-assigning__597a3edc20e6.json",
+   "status": "skipped"
+  },
+  "timing|ref|blaskowitz100/feature-engineering-based-on-the-suprise-me|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/blaskowitz100__feature-engineering-based-on-the-suprise-me__807d3676a9a4.json",
+   "status": "skipped"
+  },
+  "timing|ref|blaskowitz100/feature-engineering-based-on-the-suprise-me|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/blaskowitz100__feature-engineering-based-on-the-suprise-me__2cd7b473ec42.json",
+   "status": "skipped"
+  },
+  "timing|ref|blaskowitz100/feature-engineering-based-on-the-suprise-me|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/blaskowitz100__feature-engineering-based-on-the-suprise-me__4c48cf6b9f16.json",
+   "status": "skipped"
+  },
+  "timing|ref|chinstan/notebook249b4f3f5b|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/chinstan__notebook249b4f3f5b__c9b2821feec5.json",
+   "status": "skipped"
+  },
+  "timing|ref|chinstan/notebook249b4f3f5b|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/chinstan__notebook249b4f3f5b__c580c9e7f555.json",
+   "status": "skipped"
+  },
+  "timing|ref|chinstan/notebook249b4f3f5b|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/chinstan__notebook249b4f3f5b__6f6e9dd2f152.json",
+   "status": "skipped"
+  },
+  "timing|ref|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__5d71909b834d.json",
+   "status": "skipped"
+  },
+  "timing|ref|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__26add896c8b5.json",
+   "status": "skipped"
+  },
+  "timing|ref|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__cf0b8574761e.json",
+   "status": "skipped"
+  },
+  "timing|ref|gravix/gradient-in-a-box|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/gravix__gradient-in-a-box__3fec7d1442a3.json",
+   "status": "skipped"
+  },
+  "timing|ref|gravix/gradient-in-a-box|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/gravix__gradient-in-a-box__91732d52041b.json",
+   "status": "skipped"
+  },
+  "timing|ref|gravix/gradient-in-a-box|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/gravix__gradient-in-a-box__d200793940fc.json",
+   "status": "skipped"
+  },
+  "timing|ref|guyalmog/hr-analytics-predicting-employees-attrition|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/guyalmog__hr-analytics-predicting-employees-attrition__81ef6d60faef.json",
+   "status": "skipped"
+  },
+  "timing|ref|guyalmog/hr-analytics-predicting-employees-attrition|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/guyalmog__hr-analytics-predicting-employees-attrition__4c4014abafd7.json",
+   "status": "skipped"
+  },
+  "timing|ref|guyalmog/hr-analytics-predicting-employees-attrition|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/guyalmog__hr-analytics-predicting-employees-attrition__7208eb498947.json",
+   "status": "skipped"
+  },
+  "timing|ref|j0thu777/onlineretailanalysis|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/j0thu777__onlineretailanalysis__a85894cb0d94.json",
+   "status": "skipped"
+  },
+  "timing|ref|j0thu777/onlineretailanalysis|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/j0thu777__onlineretailanalysis__761d8dc5649e.json",
+   "status": "skipped"
+  },
+  "timing|ref|j0thu777/onlineretailanalysis|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/j0thu777__onlineretailanalysis__1006ef53c96f.json",
+   "status": "skipped"
+  },
+  "timing|ref|jagangupta/stop-the-s-toxic-comments-eda|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/jagangupta__stop-the-s-toxic-comments-eda__ea125e210c16.json",
+   "status": "skipped"
+  },
+  "timing|ref|jagangupta/stop-the-s-toxic-comments-eda|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/jagangupta__stop-the-s-toxic-comments-eda__b47b416434be.json",
+   "status": "skipped"
+  },
+  "timing|ref|jagangupta/stop-the-s-toxic-comments-eda|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/jagangupta__stop-the-s-toxic-comments-eda__d7f77799eb04.json",
+   "status": "skipped"
+  },
+  "timing|ref|jaideepvalani/useful-eda-for-beginners-rsna-embolism|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/jaideepvalani__useful-eda-for-beginners-rsna-embolism__4173d7976b10.json",
+   "status": "skipped"
+  },
+  "timing|ref|jaideepvalani/useful-eda-for-beginners-rsna-embolism|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/jaideepvalani__useful-eda-for-beginners-rsna-embolism__7cdc1ec1f3c2.json",
+   "status": "skipped"
+  },
+  "timing|ref|jaideepvalani/useful-eda-for-beginners-rsna-embolism|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/jaideepvalani__useful-eda-for-beginners-rsna-embolism__a0243da1f5ca.json",
+   "status": "skipped"
+  },
+  "timing|ref|jirakst/book-recommendation|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/jirakst__book-recommendation__569a5d24ba20.json",
+   "status": "skipped"
+  },
+  "timing|ref|jirakst/book-recommendation|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/jirakst__book-recommendation__de307f66c40c.json",
+   "status": "skipped"
+  },
+  "timing|ref|jirakst/book-recommendation|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/jirakst__book-recommendation__f80bd384bb17.json",
+   "status": "skipped"
+  },
+  "timing|ref|julieberteaux/workshop-2|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/julieberteaux__workshop-2__6e27895daff3.json",
+   "status": "skipped"
+  },
+  "timing|ref|julieberteaux/workshop-2|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/julieberteaux__workshop-2__b2c4ee457dc9.json",
+   "status": "skipped"
+  },
+  "timing|ref|julieberteaux/workshop-2|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/julieberteaux__workshop-2__8048ddf4f313.json",
+   "status": "skipped"
+  },
+  "timing|ref|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__9324a418f7f1.json",
+   "status": "skipped"
+  },
+  "timing|ref|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__aa2f1633a2ac.json",
+   "status": "skipped"
+  },
+  "timing|ref|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__c1875c74127b.json",
+   "status": "skipped"
+  },
+  "timing|ref|maxiaoyue/data-cleaning-challenge-handling-missing-values|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/maxiaoyue__data-cleaning-challenge-handling-missing-values__35faf8c02afe.json",
+   "status": "skipped"
+  },
+  "timing|ref|maxiaoyue/data-cleaning-challenge-handling-missing-values|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/maxiaoyue__data-cleaning-challenge-handling-missing-values__9269ed4540c5.json",
+   "status": "skipped"
+  },
+  "timing|ref|maxiaoyue/data-cleaning-challenge-handling-missing-values|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/maxiaoyue__data-cleaning-challenge-handling-missing-values__dbca229624f3.json",
+   "status": "skipped"
+  },
+  "timing|ref|mikedelong/python-eda-with-kdes|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/mikedelong__python-eda-with-kdes__b36efe374e4c.json",
+   "status": "skipped"
+  },
+  "timing|ref|mikedelong/python-eda-with-kdes|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/mikedelong__python-eda-with-kdes__377ecf3d07b3.json",
+   "status": "skipped"
+  },
+  "timing|ref|mikedelong/python-eda-with-kdes|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/mikedelong__python-eda-with-kdes__1437479f7a39.json",
+   "status": "skipped"
+  },
+  "timing|ref|nadare/feature-engenieering-with-pivot-table|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/nadare__feature-engenieering-with-pivot-table__18dfcfee1f04.json",
+   "status": "skipped"
+  },
+  "timing|ref|nadare/feature-engenieering-with-pivot-table|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/nadare__feature-engenieering-with-pivot-table__631649acbd27.json",
+   "status": "skipped"
+  },
+  "timing|ref|nadare/feature-engenieering-with-pivot-table|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/nadare__feature-engenieering-with-pivot-table__9b4fd02b585f.json",
+   "status": "skipped"
+  },
+  "timing|ref|penny8/my-sub1|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/penny8__my-sub1__e71bb996f355.json",
+   "status": "skipped"
+  },
+  "timing|ref|penny8/my-sub1|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/penny8__my-sub1__1124712870e3.json",
+   "status": "skipped"
+  },
+  "timing|ref|penny8/my-sub1|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/penny8__my-sub1__ebce7b78ac8b.json",
+   "status": "skipped"
+  },
+  "timing|ref|pradeepjeya/allstate-encoding-high-cardinality-features|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/pradeepjeya__allstate-encoding-high-cardinality-features__c4e4acc7bd19.json",
+   "status": "skipped"
+  },
+  "timing|ref|pradeepjeya/allstate-encoding-high-cardinality-features|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/pradeepjeya__allstate-encoding-high-cardinality-features__7f5df7939ccc.json",
+   "status": "skipped"
+  },
+  "timing|ref|pradeepjeya/allstate-encoding-high-cardinality-features|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/pradeepjeya__allstate-encoding-high-cardinality-features__d8964fc11bfd.json",
+   "status": "skipped"
+  },
+  "timing|ref|qnqfbqfqo/electric-vehicle-landscape-in-washington-state|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/qnqfbqfqo__electric-vehicle-landscape-in-washington-state__3791145454b3.json",
+   "status": "skipped"
+  },
+  "timing|ref|qnqfbqfqo/electric-vehicle-landscape-in-washington-state|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/qnqfbqfqo__electric-vehicle-landscape-in-washington-state__dd61bf4d3ca5.json",
+   "status": "skipped"
+  },
+  "timing|ref|qnqfbqfqo/electric-vehicle-landscape-in-washington-state|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/qnqfbqfqo__electric-vehicle-landscape-in-washington-state__e67e3490d8ef.json",
+   "status": "skipped"
+  },
+  "timing|ref|robikscube/big-data-bowl-comprehensive-eda-with-pandas|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/robikscube__big-data-bowl-comprehensive-eda-with-pandas__928175650d8a.json",
+   "status": "skipped"
+  },
+  "timing|ref|robikscube/big-data-bowl-comprehensive-eda-with-pandas|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/robikscube__big-data-bowl-comprehensive-eda-with-pandas__914078da8cea.json",
+   "status": "skipped"
+  },
+  "timing|ref|robikscube/big-data-bowl-comprehensive-eda-with-pandas|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/robikscube__big-data-bowl-comprehensive-eda-with-pandas__00bc7303deea.json",
+   "status": "skipped"
+  },
+  "timing|ref|roopahegde/cryptocurrency-price-correlation|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/roopahegde__cryptocurrency-price-correlation__ce766a3bf012.json",
+   "status": "skipped"
+  },
+  "timing|ref|roopahegde/cryptocurrency-price-correlation|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/roopahegde__cryptocurrency-price-correlation__64e3e300395b.json",
+   "status": "skipped"
+  },
+  "timing|ref|roopahegde/cryptocurrency-price-correlation|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/roopahegde__cryptocurrency-price-correlation__ad14dcf88acb.json",
+   "status": "skipped"
+  },
+  "timing|ref|sanket30/eda-of-application-train-home-credit-default|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/sanket30__eda-of-application-train-home-credit-default__e3341abbdf53.json",
+   "status": "skipped"
+  },
+  "timing|ref|sanket30/eda-of-application-train-home-credit-default|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/sanket30__eda-of-application-train-home-credit-default__173bb35072c5.json",
+   "status": "skipped"
+  },
+  "timing|ref|sanket30/eda-of-application-train-home-credit-default|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/sanket30__eda-of-application-train-home-credit-default__078571f5ab2d.json",
+   "status": "skipped"
+  },
+  "timing|ref|seriousran/eda-ing|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/seriousran__eda-ing__08ecff43c154.json",
+   "status": "skipped"
+  },
+  "timing|ref|seriousran/eda-ing|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/seriousran__eda-ing__dfff63066358.json",
+   "status": "skipped"
+  },
+  "timing|ref|seriousran/eda-ing|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/seriousran__eda-ing__bc8c757f06bb.json",
+   "status": "skipped"
+  },
+  "timing|ref|shivavashishtha/zomato-eda-tutorial|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/shivavashishtha__zomato-eda-tutorial__5388e205f59b.json",
+   "status": "skipped"
+  },
+  "timing|ref|shivavashishtha/zomato-eda-tutorial|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/shivavashishtha__zomato-eda-tutorial__ce5a4c512be6.json",
+   "status": "skipped"
+  },
+  "timing|ref|shivavashishtha/zomato-eda-tutorial|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/shivavashishtha__zomato-eda-tutorial__17845b3daafc.json",
+   "status": "skipped"
+  },
+  "timing|ref|stefanjov/my-first-normalize-on-big-dataset|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/stefanjov__my-first-normalize-on-big-dataset__d2b890573bb8.json",
+   "status": "skipped"
+  },
+  "timing|ref|stefanjov/my-first-normalize-on-big-dataset|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/stefanjov__my-first-normalize-on-big-dataset__60d69101ea4c.json",
+   "status": "skipped"
+  },
+  "timing|ref|stefanjov/my-first-normalize-on-big-dataset|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/stefanjov__my-first-normalize-on-big-dataset__e7d942b2f510.json",
+   "status": "skipped"
+  },
+  "timing|ref|sunnybiswas/eda-on-airline-dataset|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/sunnybiswas__eda-on-airline-dataset__5d0782d9c14f.json",
+   "status": "skipped"
+  },
+  "timing|ref|sunnybiswas/eda-on-airline-dataset|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/sunnybiswas__eda-on-airline-dataset__467e28dee8cb.json",
+   "status": "skipped"
+  },
+  "timing|ref|sunnybiswas/eda-on-airline-dataset|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/sunnybiswas__eda-on-airline-dataset__da4d80928bf7.json",
+   "status": "skipped"
+  },
+  "timing|ref|vatsalmavani/music-recommendation-system-using-spotify-dataset|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/vatsalmavani__music-recommendation-system-using-spotify-dataset__12161e88ad1b.json",
+   "status": "skipped"
+  },
+  "timing|ref|vatsalmavani/music-recommendation-system-using-spotify-dataset|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/vatsalmavani__music-recommendation-system-using-spotify-dataset__610b410f200a.json",
+   "status": "skipped"
+  },
+  "timing|ref|vatsalmavani/music-recommendation-system-using-spotify-dataset|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/vatsalmavani__music-recommendation-system-using-spotify-dataset__016b59255d8c.json",
+   "status": "skipped"
+  },
+  "timing|ref|willkoehrsen/start-here-a-gentle-introduction|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/willkoehrsen__start-here-a-gentle-introduction__5c2b800d3044.json",
+   "status": "skipped"
+  },
+  "timing|ref|willkoehrsen/start-here-a-gentle-introduction|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/willkoehrsen__start-here-a-gentle-introduction__6a083bb8ba34.json",
+   "status": "skipped"
+  },
+  "timing|ref|willkoehrsen/start-here-a-gentle-introduction|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/willkoehrsen__start-here-a-gentle-introduction__477afb654d5e.json",
+   "status": "skipped"
+  },
+  "timing|ref|yashjaiswal1097/911-emergency-calls-kernel|1.0|1": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/yashjaiswal1097__911-emergency-calls-kernel__7eb4d197fa30.json",
+   "status": "skipped"
+  },
+  "timing|ref|yashjaiswal1097/911-emergency-calls-kernel|1.0|2": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/yashjaiswal1097__911-emergency-calls-kernel__ec66d86ec6b3.json",
+   "status": "skipped"
+  },
+  "timing|ref|yashjaiswal1097/911-emergency-calls-kernel|1.0|3": {
+   "record": "results/timing_bodo_r2/raw/timing__hd1c421ecb5ee/ref/sf1/yashjaiswal1097__911-emergency-calls-kernel__ea60680d4e47.json",
+   "status": "skipped"
+  }
+ },
+ "updated": "2026-10-27T23:25:12"
+}

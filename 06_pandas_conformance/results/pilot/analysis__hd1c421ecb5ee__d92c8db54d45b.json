@@ -1,0 +1,6675 @@
+{
+ "campaign": "pilot",
+ "compare_tag": "hd1c421ecb5ee__d92c8db54d45b",
+ "eng_status": {
+  "bodo": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": "completed",
+   "deffro/eda-is-fun": "completed",
+   "kanncaa1/dataiteam-titanic-eda": "completed",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": "completed",
+   "roopahegde/cryptocurrency-price-correlation": "completed",
+   "sabya40/data-cleaning-and-pandas-for-beginners": "completed",
+   "shashi772/data-cleaning-challenge-parsing-dates": "completed",
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": "completed",
+   "xingobar/computer-science-data-visualization": "completed",
+   "yonelanuba/elo-merchant-by-yonela": "completed"
+  },
+  "bodo#2": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": "completed",
+   "deffro/eda-is-fun": "completed",
+   "kanncaa1/dataiteam-titanic-eda": "completed",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": "completed",
+   "roopahegde/cryptocurrency-price-correlation": "completed",
+   "sabya40/data-cleaning-and-pandas-for-beginners": "completed",
+   "shashi772/data-cleaning-challenge-parsing-dates": "completed",
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": "completed",
+   "xingobar/computer-science-data-visualization": "completed",
+   "yonelanuba/elo-merchant-by-yonela": "completed"
+  },
+  "bodo#2~vs~bodo": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": "completed",
+   "deffro/eda-is-fun": "completed",
+   "kanncaa1/dataiteam-titanic-eda": "completed",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": "completed",
+   "roopahegde/cryptocurrency-price-correlation": "completed",
+   "sabya40/data-cleaning-and-pandas-for-beginners": "completed",
+   "shashi772/data-cleaning-challenge-parsing-dates": "completed",
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": "completed",
+   "xingobar/computer-science-data-visualization": "completed",
+   "yonelanuba/elo-merchant-by-yonela": "completed"
+  },
+  "bodo_dw": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": "completed",
+   "deffro/eda-is-fun": "completed",
+   "kanncaa1/dataiteam-titanic-eda": "completed",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": "completed",
+   "roopahegde/cryptocurrency-price-correlation": "completed",
+   "sabya40/data-cleaning-and-pandas-for-beginners": "completed",
+   "shashi772/data-cleaning-challenge-parsing-dates": "completed",
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": "completed",
+   "xingobar/computer-science-data-visualization": "completed",
+   "yonelanuba/elo-merchant-by-yonela": "completed"
+  },
+  "dask": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": "completed",
+   "deffro/eda-is-fun": "completed",
+   "kanncaa1/dataiteam-titanic-eda": "completed",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": "completed",
+   "roopahegde/cryptocurrency-price-correlation": "completed",
+   "sabya40/data-cleaning-and-pandas-for-beginners": "completed",
+   "shashi772/data-cleaning-challenge-parsing-dates": "completed",
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": "completed",
+   "xingobar/computer-science-data-visualization": "completed",
+   "yonelanuba/elo-merchant-by-yonela": "completed"
+  },
+  "dask#2": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": "completed",
+   "deffro/eda-is-fun": "completed",
+   "kanncaa1/dataiteam-titanic-eda": "completed",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": "completed",
+   "roopahegde/cryptocurrency-price-correlation": "completed",
+   "sabya40/data-cleaning-and-pandas-for-beginners": "completed",
+   "shashi772/data-cleaning-challenge-parsing-dates": "completed",
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": "completed",
+   "xingobar/computer-science-data-visualization": "completed",
+   "yonelanuba/elo-merchant-by-yonela": "completed"
+  },
+  "dask#2~vs~dask": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": "completed",
+   "deffro/eda-is-fun": "completed",
+   "kanncaa1/dataiteam-titanic-eda": "completed",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": "completed",
+   "roopahegde/cryptocurrency-price-correlation": "completed",
+   "sabya40/data-cleaning-and-pandas-for-beginners": "completed",
+   "shashi772/data-cleaning-challenge-parsing-dates": "completed",
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": "completed",
+   "xingobar/computer-science-data-visualization": "completed",
+   "yonelanuba/elo-merchant-by-yonela": "completed"
+  },
+  "fireducks": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": "completed",
+   "deffro/eda-is-fun": "completed",
+   "kanncaa1/dataiteam-titanic-eda": "completed",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": "completed",
+   "roopahegde/cryptocurrency-price-correlation": "completed",
+   "sabya40/data-cleaning-and-pandas-for-beginners": "completed",
+   "shashi772/data-cleaning-challenge-parsing-dates": "completed",
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": "completed",
+   "xingobar/computer-science-data-visualization": "completed",
+   "yonelanuba/elo-merchant-by-yonela": "completed"
+  },
+  "fireducks#2": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": "completed",
+   "deffro/eda-is-fun": "completed",
+   "kanncaa1/dataiteam-titanic-eda": "completed",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": "completed",
+   "roopahegde/cryptocurrency-price-correlation": "completed",
+   "sabya40/data-cleaning-and-pandas-for-beginners": "completed",
+   "shashi772/data-cleaning-challenge-parsing-dates": "completed",
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": "completed",
+   "xingobar/computer-science-data-visualization": "completed",
+   "yonelanuba/elo-merchant-by-yonela": "completed"
+  },
+  "fireducks#2~vs~fireducks": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": "completed",
+   "deffro/eda-is-fun": "completed",
+   "kanncaa1/dataiteam-titanic-eda": "completed",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": "completed",
+   "roopahegde/cryptocurrency-price-correlation": "completed",
+   "sabya40/data-cleaning-and-pandas-for-beginners": "completed",
+   "shashi772/data-cleaning-challenge-parsing-dates": "completed",
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": "completed",
+   "xingobar/computer-science-data-visualization": "completed",
+   "yonelanuba/elo-merchant-by-yonela": "completed"
+  },
+  "modin": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": "completed",
+   "deffro/eda-is-fun": "completed",
+   "kanncaa1/dataiteam-titanic-eda": "completed",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": "completed",
+   "roopahegde/cryptocurrency-price-correlation": "completed",
+   "sabya40/data-cleaning-and-pandas-for-beginners": "completed",
+   "shashi772/data-cleaning-challenge-parsing-dates": "completed",
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": "completed",
+   "xingobar/computer-science-data-visualization": "completed",
+   "yonelanuba/elo-merchant-by-yonela": "nb_memory"
+  },
+  "modin#2": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": "completed",
+   "deffro/eda-is-fun": "completed",
+   "kanncaa1/dataiteam-titanic-eda": "completed",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": "completed",
+   "roopahegde/cryptocurrency-price-correlation": "completed",
+   "sabya40/data-cleaning-and-pandas-for-beginners": "completed",
+   "shashi772/data-cleaning-challenge-parsing-dates": "completed",
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": "completed",
+   "xingobar/computer-science-data-visualization": "completed",
+   "yonelanuba/elo-merchant-by-yonela": "nb_memory"
+  },
+  "modin#2~vs~modin": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": "completed",
+   "deffro/eda-is-fun": "completed",
+   "kanncaa1/dataiteam-titanic-eda": "completed",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": "completed",
+   "roopahegde/cryptocurrency-price-correlation": "completed",
+   "sabya40/data-cleaning-and-pandas-for-beginners": "completed",
+   "shashi772/data-cleaning-challenge-parsing-dates": "completed",
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": "completed",
+   "xingobar/computer-science-data-visualization": "completed",
+   "yonelanuba/elo-merchant-by-yonela": "nb_memory"
+  },
+  "p15": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": "completed",
+   "deffro/eda-is-fun": "completed",
+   "kanncaa1/dataiteam-titanic-eda": "completed",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": "completed",
+   "roopahegde/cryptocurrency-price-correlation": "completed",
+   "sabya40/data-cleaning-and-pandas-for-beginners": "completed",
+   "shashi772/data-cleaning-challenge-parsing-dates": "completed",
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": "completed",
+   "xingobar/computer-science-data-visualization": "completed",
+   "yonelanuba/elo-merchant-by-yonela": "completed"
+  },
+  "p30": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": "completed",
+   "deffro/eda-is-fun": "completed",
+   "kanncaa1/dataiteam-titanic-eda": "completed",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": "completed",
+   "roopahegde/cryptocurrency-price-correlation": "completed",
+   "sabya40/data-cleaning-and-pandas-for-beginners": "completed",
+   "shashi772/data-cleaning-challenge-parsing-dates": "completed",
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": "completed",
+   "xingobar/computer-science-data-visualization": "completed",
+   "yonelanuba/elo-merchant-by-yonela": "completed"
+  },
+  "pyarrow_backend": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": "completed",
+   "deffro/eda-is-fun": "completed",
+   "kanncaa1/dataiteam-titanic-eda": "completed",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": "completed",
+   "roopahegde/cryptocurrency-price-correlation": "completed",
+   "sabya40/data-cleaning-and-pandas-for-beginners": "completed",
+   "shashi772/data-cleaning-challenge-parsing-dates": "completed",
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": "completed",
+   "xingobar/computer-science-data-visualization": "completed",
+   "yonelanuba/elo-merchant-by-yonela": "completed"
+  },
+  "ref#2": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": "completed",
+   "deffro/eda-is-fun": "completed",
+   "kanncaa1/dataiteam-titanic-eda": "completed",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": "completed",
+   "roopahegde/cryptocurrency-price-correlation": "completed",
+   "sabya40/data-cleaning-and-pandas-for-beginners": "completed",
+   "shashi772/data-cleaning-challenge-parsing-dates": "completed",
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": "completed",
+   "xingobar/computer-science-data-visualization": "completed",
+   "yonelanuba/elo-merchant-by-yonela": "completed"
+  }
+ },
+ "engines": {
+  "bodo": {
+   "all": {
+    "cells": 404,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0364,
+      0.3379
+     ],
+     "E0": [
+      0.1589,
+      0.5098
+     ],
+     "E1": [
+      0.0,
+      0.0074
+     ],
+     "E2": [
+      0.0933,
+      0.3779
+     ],
+     "E3": [
+      0.042,
+      0.1429
+     ],
+     "E4": [
+      0.0437,
+      0.0893
+     ],
+     "ERR": [
+      0.0528,
+      0.3012
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0055
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.297,
+     "<=E1": 0.2995,
+     "<=E2": 0.4802,
+     "<=E3": 0.5594,
+     "<=E4": 0.6262
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.1931,
+     "E0": 0.297,
+     "E1": 0.0025,
+     "E2": 0.1807,
+     "E3": 0.0792,
+     "E4": 0.0668,
+     "ERR": 0.1782,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0025
+    }
+   },
+   "clean_E0": {
+    "cells": 20,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0
+     ],
+     "E0": [
+      0.1765,
+      0.5652
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.0,
+      0.4617
+     ],
+     "E3": [
+      0.2172,
+      0.5007
+     ],
+     "E4": [
+      0.0,
+      0.0
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.1581
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.4,
+     "<=E1": 0.4,
+     "<=E2": 0.6,
+     "<=E3": 0.95,
+     "<=E4": 0.95
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0,
+     "E0": 0.4,
+     "E1": 0.0,
+     "E2": 0.2,
+     "E3": 0.35,
+     "E4": 0.0,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.05
+    }
+   },
+   "clean_E2": {
+    "cells": 113,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.1464
+     ],
+     "E0": [
+      0.1585,
+      0.4575
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.2716,
+      0.5813
+     ],
+     "E3": [
+      0.023,
+      0.1429
+     ],
+     "E4": [
+      0.0,
+      0.0828
+     ],
+     "ERR": [
+      0.0119,
+      0.1429
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.033
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.2832,
+     "<=E1": 0.2832,
+     "<=E2": 0.7611,
+     "<=E3": 0.823,
+     "<=E4": 0.8673
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0619,
+     "E0": 0.2832,
+     "E1": 0.0,
+     "E2": 0.4779,
+     "E3": 0.0619,
+     "E4": 0.0442,
+     "ERR": 0.0619,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0088
+    }
+   },
+   "excluded_cells": {
+    "NOOUT": 82
+   },
+   "fallback_cells": {
+    "all": 210,
+    "clean_E2": 54
+   }
+  },
+  "bodo#2": {
+   "all": {
+    "cells": 404,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0232,
+      0.3515
+     ],
+     "E0": [
+      0.1592,
+      0.5068
+     ],
+     "E1": [
+      0.0,
+      0.0068
+     ],
+     "E2": [
+      0.0961,
+      0.3704
+     ],
+     "E3": [
+      0.0393,
+      0.1597
+     ],
+     "E4": [
+      0.0445,
+      0.0916
+     ],
+     "ERR": [
+      0.0481,
+      0.2918
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0055
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.297,
+     "<=E1": 0.2995,
+     "<=E2": 0.4802,
+     "<=E3": 0.5594,
+     "<=E4": 0.6262
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.1931,
+     "E0": 0.297,
+     "E1": 0.0025,
+     "E2": 0.1807,
+     "E3": 0.0792,
+     "E4": 0.0668,
+     "ERR": 0.1782,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0025
+    }
+   },
+   "clean_E0": {
+    "cells": 20,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0
+     ],
+     "E0": [
+      0.1333,
+      0.5652
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.0,
+      0.4737
+     ],
+     "E3": [
+      0.2174,
+      0.5294
+     ],
+     "E4": [
+      0.0,
+      0.0
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.1765
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.4,
+     "<=E1": 0.4,
+     "<=E2": 0.6,
+     "<=E3": 0.95,
+     "<=E4": 0.95
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0,
+     "E0": 0.4,
+     "E1": 0.0,
+     "E2": 0.2,
+     "E3": 0.35,
+     "E4": 0.0,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.05
+    }
+   },
+   "clean_E2": {
+    "cells": 113,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.1474
+     ],
+     "E0": [
+      0.1524,
+      0.465
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.2584,
+      0.5804
+     ],
+     "E3": [
+      0.0242,
+      0.1607
+     ],
+     "E4": [
+      0.0,
+      0.0891
+     ],
+     "ERR": [
+      0.0136,
+      0.1364
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.033
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.2832,
+     "<=E1": 0.2832,
+     "<=E2": 0.7611,
+     "<=E3": 0.823,
+     "<=E4": 0.8673
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0619,
+     "E0": 0.2832,
+     "E1": 0.0,
+     "E2": 0.4779,
+     "E3": 0.0619,
+     "E4": 0.0442,
+     "ERR": 0.0619,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0088
+    }
+   },
+   "excluded_cells": {
+    "NOOUT": 82
+   },
+   "fallback_cells": {
+    "all": 210,
+    "clean_E2": 54
+   }
+  },
+  "bodo#2~vs~bodo": {
+   "all": {
+    "cells": 331,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0308
+     ],
+     "E0": [
+      0.9692,
+      1.0
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.0,
+      0.0
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.0
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.9909,
+     "<=E1": 0.9909,
+     "<=E2": 0.9909,
+     "<=E3": 0.9909,
+     "<=E4": 0.9909
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0091,
+     "E0": 0.9909,
+     "E1": 0.0,
+     "E2": 0.0,
+     "E3": 0.0,
+     "E4": 0.0,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "clean_E0": {
+    "cells": 329,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0359
+     ],
+     "E0": [
+      0.9641,
+      1.0
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.0,
+      0.0
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.0
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.9909,
+     "<=E1": 0.9909,
+     "<=E2": 0.9909,
+     "<=E3": 0.9909,
+     "<=E4": 0.9909
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0091,
+     "E0": 0.9909,
+     "E1": 0.0,
+     "E2": 0.0,
+     "E3": 0.0,
+     "E4": 0.0,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "clean_E2": {
+    "cells": 329,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0359
+     ],
+     "E0": [
+      0.9641,
+      1.0
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.0,
+      0.0
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.0
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.9909,
+     "<=E1": 0.9909,
+     "<=E2": 0.9909,
+     "<=E3": 0.9909,
+     "<=E4": 0.9909
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0091,
+     "E0": 0.9909,
+     "E1": 0.0,
+     "E2": 0.0,
+     "E3": 0.0,
+     "E4": 0.0,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "excluded_cells": {
+    "NOOUT": 83,
+    "REF_ERR": 72
+   },
+   "fallback_cells": {
+    "all": 179,
+    "clean_E2": 179
+   }
+  },
+  "bodo_dw": {
+   "all": {
+    "cells": 404,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0476,
+      0.3798
+     ],
+     "E0": [
+      0.1619,
+      0.5072
+     ],
+     "E1": [
+      0.0,
+      0.0072
+     ],
+     "E2": [
+      0.0852,
+      0.3439
+     ],
+     "E3": [
+      0.0337,
+      0.1429
+     ],
+     "E4": [
+      0.0486,
+      0.0962
+     ],
+     "ERR": [
+      0.0598,
+      0.2994
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0054
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.297,
+     "<=E1": 0.2995,
+     "<=E2": 0.4703,
+     "<=E3": 0.5421,
+     "<=E4": 0.6089
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.2054,
+     "E0": 0.297,
+     "E1": 0.0025,
+     "E2": 0.1708,
+     "E3": 0.0718,
+     "E4": 0.0668,
+     "ERR": 0.1832,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0025
+    }
+   },
+   "clean_E0": {
+    "cells": 20,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.1765
+     ],
+     "E0": [
+      0.1765,
+      0.5833
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.0,
+      0.4446
+     ],
+     "E3": [
+      0.1667,
+      0.4349
+     ],
+     "E4": [
+      0.0,
+      0.0
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.1579
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.4,
+     "<=E1": 0.4,
+     "<=E2": 0.6,
+     "<=E3": 0.9,
+     "<=E4": 0.9
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.05,
+     "E0": 0.4,
+     "E1": 0.0,
+     "E2": 0.2,
+     "E3": 0.3,
+     "E4": 0.0,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.05
+    }
+   },
+   "clean_E2": {
+    "cells": 110,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0065,
+      0.1667
+     ],
+     "E0": [
+      0.1502,
+      0.4681
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.2539,
+      0.5862
+     ],
+     "E3": [
+      0.0181,
+      0.1429
+     ],
+     "E4": [
+      0.0076,
+      0.1275
+     ],
+     "ERR": [
+      0.0079,
+      0.0667
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0333
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.2909,
+     "<=E1": 0.2909,
+     "<=E2": 0.7636,
+     "<=E3": 0.8182,
+     "<=E4": 0.8818
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0727,
+     "E0": 0.2909,
+     "E1": 0.0,
+     "E2": 0.4727,
+     "E3": 0.0545,
+     "E4": 0.0636,
+     "ERR": 0.0364,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0091
+    }
+   },
+   "excluded_cells": {
+    "NOOUT": 82
+   },
+   "fallback_cells": {
+    "all": 210,
+    "clean_E2": 54
+   }
+  },
+  "dask": {
+   "all": {
+    "cells": 404,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0306,
+      0.1926
+     ],
+     "E0": [
+      0.0672,
+      0.243
+     ],
+     "E1": [
+      0.0,
+      0.0231
+     ],
+     "E2": [
+      0.0339,
+      0.1515
+     ],
+     "E3": [
+      0.0046,
+      0.0229
+     ],
+     "E4": [
+      0.0,
+      0.0625
+     ],
+     "ERR": [
+      0.4171,
+      0.8137
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.1634,
+     "<=E1": 0.1683,
+     "<=E2": 0.25,
+     "<=E3": 0.2624,
+     "<=E4": 0.2896
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.1213,
+     "E0": 0.1634,
+     "E1": 0.005,
+     "E2": 0.0817,
+     "E3": 0.0124,
+     "E4": 0.0272,
+     "ERR": 0.5891,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "clean_E0": {
+    "cells": 20,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.1429
+     ],
+     "E0": [
+      0.2103,
+      0.5417
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.0,
+      0.353
+     ],
+     "E3": [
+      0.0,
+      0.1667
+     ],
+     "E4": [
+      0.0,
+      0.1667
+     ],
+     "ERR": [
+      0.1429,
+      0.4707
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.4,
+     "<=E1": 0.4,
+     "<=E2": 0.55,
+     "<=E3": 0.6,
+     "<=E4": 0.65
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.05,
+     "E0": 0.4,
+     "E1": 0.0,
+     "E2": 0.15,
+     "E3": 0.05,
+     "E4": 0.05,
+     "ERR": 0.3,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "clean_E2": {
+    "cells": 77,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.2128
+     ],
+     "E0": [
+      0.1904,
+      0.4949
+     ],
+     "E1": [
+      0.0,
+      0.097
+     ],
+     "E2": [
+      0.0978,
+      0.3721
+     ],
+     "E3": [
+      0.0,
+      0.0303
+     ],
+     "E4": [
+      0.0,
+      0.0597
+     ],
+     "ERR": [
+      0.1337,
+      0.3751
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.3506,
+     "<=E1": 0.3766,
+     "<=E2": 0.6234,
+     "<=E3": 0.6364,
+     "<=E4": 0.6494
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.1169,
+     "E0": 0.3506,
+     "E1": 0.026,
+     "E2": 0.2468,
+     "E3": 0.013,
+     "E4": 0.013,
+     "ERR": 0.2338,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "excluded_cells": {
+    "NOOUT": 82
+   },
+   "fallback_cells": {
+    "all": 0,
+    "clean_E2": 0
+   }
+  },
+  "dask#2": {
+   "all": {
+    "cells": 404,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0375,
+      0.1948
+     ],
+     "E0": [
+      0.0685,
+      0.2425
+     ],
+     "E1": [
+      0.0,
+      0.0206
+     ],
+     "E2": [
+      0.0386,
+      0.1444
+     ],
+     "E3": [
+      0.0034,
+      0.0228
+     ],
+     "E4": [
+      0.0,
+      0.062
+     ],
+     "ERR": [
+      0.4195,
+      0.7953
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.1634,
+     "<=E1": 0.1683,
+     "<=E2": 0.25,
+     "<=E3": 0.2624,
+     "<=E4": 0.2896
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.1213,
+     "E0": 0.1634,
+     "E1": 0.005,
+     "E2": 0.0817,
+     "E3": 0.0124,
+     "E4": 0.0272,
+     "ERR": 0.5891,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "clean_E0": {
+    "cells": 20,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.1429
+     ],
+     "E0": [
+      0.2105,
+      0.5455
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.0,
+      0.3158
+     ],
+     "E3": [
+      0.0,
+      0.1668
+     ],
+     "E4": [
+      0.0,
+      0.1667
+     ],
+     "ERR": [
+      0.1364,
+      0.4707
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.4,
+     "<=E1": 0.4,
+     "<=E2": 0.55,
+     "<=E3": 0.6,
+     "<=E4": 0.65
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.05,
+     "E0": 0.4,
+     "E1": 0.0,
+     "E2": 0.15,
+     "E3": 0.05,
+     "E4": 0.05,
+     "ERR": 0.3,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "clean_E2": {
+    "cells": 77,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0096,
+      0.2135
+     ],
+     "E0": [
+      0.2043,
+      0.493
+     ],
+     "E1": [
+      0.0,
+      0.0909
+     ],
+     "E2": [
+      0.0973,
+      0.3765
+     ],
+     "E3": [
+      0.0,
+      0.0303
+     ],
+     "E4": [
+      0.0,
+      0.0606
+     ],
+     "ERR": [
+      0.1327,
+      0.3654
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.3506,
+     "<=E1": 0.3766,
+     "<=E2": 0.6234,
+     "<=E3": 0.6364,
+     "<=E4": 0.6494
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.1169,
+     "E0": 0.3506,
+     "E1": 0.026,
+     "E2": 0.2468,
+     "E3": 0.013,
+     "E4": 0.013,
+     "ERR": 0.2338,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "excluded_cells": {
+    "NOOUT": 82
+   },
+   "fallback_cells": {
+    "all": 0,
+    "clean_E2": 0
+   }
+  },
+  "dask#2~vs~dask": {
+   "all": {
+    "cells": 194,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0082,
+      0.0722
+     ],
+     "E0": [
+      0.6,
+      0.9323
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.0,
+      0.0
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.0
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0296,
+      0.3761
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.8196,
+     "<=E1": 0.8196,
+     "<=E2": 0.8196,
+     "<=E3": 0.8196,
+     "<=E4": 0.8196
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0309,
+     "E0": 0.8196,
+     "E1": 0.0,
+     "E2": 0.0,
+     "E3": 0.0,
+     "E4": 0.0,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.1495
+    }
+   },
+   "clean_E0": {
+    "cells": 161,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0115,
+      0.0952
+     ],
+     "E0": [
+      0.8358,
+      0.9616
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.0,
+      0.0
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.0
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0083,
+      0.103
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.9317,
+     "<=E1": 0.9317,
+     "<=E2": 0.9317,
+     "<=E3": 0.9317,
+     "<=E4": 0.9317
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0373,
+     "E0": 0.9317,
+     "E1": 0.0,
+     "E2": 0.0,
+     "E3": 0.0,
+     "E4": 0.0,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0311
+    }
+   },
+   "clean_E2": {
+    "cells": 161,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0116,
+      0.1017
+     ],
+     "E0": [
+      0.8289,
+      0.9608
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.0,
+      0.0
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.0
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0093,
+      0.1072
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.9317,
+     "<=E1": 0.9317,
+     "<=E2": 0.9317,
+     "<=E3": 0.9317,
+     "<=E4": 0.9317
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0373,
+     "E0": 0.9317,
+     "E1": 0.0,
+     "E2": 0.0,
+     "E3": 0.0,
+     "E4": 0.0,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0311
+    }
+   },
+   "excluded_cells": {
+    "NOOUT": 83,
+    "REF_ERR": 209
+   },
+   "fallback_cells": {
+    "all": 0,
+    "clean_E2": 0
+   }
+  },
+  "fireducks": {
+   "all": {
+    "cells": 404,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.1698
+     ],
+     "E0": [
+      0.4862,
+      0.8092
+     ],
+     "E1": [
+      0.0,
+      0.0152
+     ],
+     "E2": [
+      0.0429,
+      0.1376
+     ],
+     "E3": [
+      0.0224,
+      0.1796
+     ],
+     "E4": [
+      0.0027,
+      0.04
+     ],
+     "ERR": [
+      0.0106,
+      0.1627
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0053
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.6287,
+     "<=E1": 0.6337,
+     "<=E2": 0.7079,
+     "<=E3": 0.797,
+     "<=E4": 0.8193
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0916,
+     "E0": 0.6287,
+     "E1": 0.005,
+     "E2": 0.0743,
+     "E3": 0.0891,
+     "E4": 0.0223,
+     "ERR": 0.0866,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0025
+    }
+   },
+   "clean_E0": {
+    "cells": 170,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0
+     ],
+     "E0": [
+      0.7324,
+      0.8767
+     ],
+     "E1": [
+      0.0,
+      0.0263
+     ],
+     "E2": [
+      0.0482,
+      0.1507
+     ],
+     "E3": [
+      0.0132,
+      0.121
+     ],
+     "E4": [
+      0.0,
+      0.0244
+     ],
+     "ERR": [
+      0.0,
+      0.0268
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0163
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.8235,
+     "<=E1": 0.8353,
+     "<=E2": 0.9235,
+     "<=E3": 0.9765,
+     "<=E4": 0.9824
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0,
+     "E0": 0.8235,
+     "E1": 0.0118,
+     "E2": 0.0882,
+     "E3": 0.0529,
+     "E4": 0.0059,
+     "ERR": 0.0118,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0059
+    }
+   },
+   "clean_E2": {
+    "cells": 183,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0
+     ],
+     "E0": [
+      0.6697,
+      0.8584
+     ],
+     "E1": [
+      0.0,
+      0.0244
+     ],
+     "E2": [
+      0.0739,
+      0.2137
+     ],
+     "E3": [
+      0.0116,
+      0.1135
+     ],
+     "E4": [
+      0.0,
+      0.0216
+     ],
+     "ERR": [
+      0.0,
+      0.0326
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0157
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.7869,
+     "<=E1": 0.7978,
+     "<=E2": 0.9235,
+     "<=E3": 0.9727,
+     "<=E4": 0.9781
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0,
+     "E0": 0.7869,
+     "E1": 0.0109,
+     "E2": 0.1257,
+     "E3": 0.0492,
+     "E4": 0.0055,
+     "ERR": 0.0164,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0055
+    }
+   },
+   "excluded_cells": {
+    "NOOUT": 82
+   },
+   "fallback_cells": {
+    "all": 158,
+    "clean_E2": 61
+   }
+  },
+  "fireducks#2": {
+   "all": {
+    "cells": 404,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.1701
+     ],
+     "E0": [
+      0.4893,
+      0.8069
+     ],
+     "E1": [
+      0.0,
+      0.0155
+     ],
+     "E2": [
+      0.0425,
+      0.1459
+     ],
+     "E3": [
+      0.0226,
+      0.1735
+     ],
+     "E4": [
+      0.0025,
+      0.0405
+     ],
+     "ERR": [
+      0.0119,
+      0.1633
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0054
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.6287,
+     "<=E1": 0.6337,
+     "<=E2": 0.7079,
+     "<=E3": 0.797,
+     "<=E4": 0.8193
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0916,
+     "E0": 0.6287,
+     "E1": 0.005,
+     "E2": 0.0743,
+     "E3": 0.0891,
+     "E4": 0.0223,
+     "ERR": 0.0866,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0025
+    }
+   },
+   "clean_E0": {
+    "cells": 170,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0
+     ],
+     "E0": [
+      0.7281,
+      0.882
+     ],
+     "E1": [
+      0.0,
+      0.0256
+     ],
+     "E2": [
+      0.0473,
+      0.1523
+     ],
+     "E3": [
+      0.0144,
+      0.1212
+     ],
+     "E4": [
+      0.0,
+      0.0233
+     ],
+     "ERR": [
+      0.0,
+      0.0276
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0156
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.8235,
+     "<=E1": 0.8353,
+     "<=E2": 0.9235,
+     "<=E3": 0.9765,
+     "<=E4": 0.9824
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0,
+     "E0": 0.8235,
+     "E1": 0.0118,
+     "E2": 0.0882,
+     "E3": 0.0529,
+     "E4": 0.0059,
+     "ERR": 0.0118,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0059
+    }
+   },
+   "clean_E2": {
+    "cells": 183,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0
+     ],
+     "E0": [
+      0.6776,
+      0.8536
+     ],
+     "E1": [
+      0.0,
+      0.0234
+     ],
+     "E2": [
+      0.0685,
+      0.2039
+     ],
+     "E3": [
+      0.0143,
+      0.1093
+     ],
+     "E4": [
+      0.0,
+      0.0214
+     ],
+     "ERR": [
+      0.0,
+      0.0327
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0142
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.7869,
+     "<=E1": 0.7978,
+     "<=E2": 0.9235,
+     "<=E3": 0.9727,
+     "<=E4": 0.9781
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0,
+     "E0": 0.7869,
+     "E1": 0.0109,
+     "E2": 0.1257,
+     "E3": 0.0492,
+     "E4": 0.0055,
+     "ERR": 0.0164,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0055
+    }
+   },
+   "excluded_cells": {
+    "NOOUT": 82
+   },
+   "fallback_cells": {
+    "all": 158,
+    "clean_E2": 61
+   }
+  },
+  "fireducks#2~vs~fireducks": {
+   "all": {
+    "cells": 379,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0
+     ],
+     "E0": [
+      0.9509,
+      0.9896
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.0,
+      0.0
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.0111
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0086,
+      0.0443
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.971,
+     "<=E1": 0.971,
+     "<=E2": 0.971,
+     "<=E3": 0.971,
+     "<=E4": 0.9736
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0,
+     "E0": 0.971,
+     "E1": 0.0,
+     "E2": 0.0,
+     "E3": 0.0,
+     "E4": 0.0026,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0264
+    }
+   },
+   "clean_E0": {
+    "cells": 370,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0
+     ],
+     "E0": [
+      0.9753,
+      0.9972
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.0,
+      0.0
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.0115
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0017,
+      0.0191
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.9892,
+     "<=E1": 0.9892,
+     "<=E2": 0.9892,
+     "<=E3": 0.9892,
+     "<=E4": 0.9919
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0,
+     "E0": 0.9892,
+     "E1": 0.0,
+     "E2": 0.0,
+     "E3": 0.0,
+     "E4": 0.0027,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0081
+    }
+   },
+   "clean_E2": {
+    "cells": 370,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0
+     ],
+     "E0": [
+      0.9754,
+      0.9975
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.0,
+      0.0
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.012
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0178
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.9892,
+     "<=E1": 0.9892,
+     "<=E2": 0.9892,
+     "<=E3": 0.9892,
+     "<=E4": 0.9919
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0,
+     "E0": 0.9892,
+     "E1": 0.0,
+     "E2": 0.0,
+     "E3": 0.0,
+     "E4": 0.0027,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0081
+    }
+   },
+   "excluded_cells": {
+    "NOOUT": 82,
+    "REF_ERR": 25
+   },
+   "fallback_cells": {
+    "all": 156,
+    "clean_E2": 155
+   }
+  },
+  "modin": {
+   "all": {
+    "cells": 419,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0107,
+      0.1197
+     ],
+     "E0": [
+      0.5765,
+      0.8829
+     ],
+     "E1": [
+      0.0,
+      0.0221
+     ],
+     "E2": [
+      0.0209,
+      0.1533
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.0326
+     ],
+     "ERR": [
+      0.0058,
+      0.0602
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.005
+     ],
+     "NOTRUN": [
+      0.0,
+      0.1809
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.716,
+     "<=E1": 0.7255,
+     "<=E2": 0.7924,
+     "<=E3": 0.7924,
+     "<=E4": 0.8043
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0692,
+     "E0": 0.716,
+     "E1": 0.0095,
+     "E2": 0.0668,
+     "E3": 0.0,
+     "E4": 0.0119,
+     "ERR": 0.0382,
+     "KILLED": 0.0,
+     "MEMORY": 0.0024,
+     "NOTRUN": 0.0859,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "clean_E0": {
+    "cells": 281,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0108,
+      0.0595
+     ],
+     "E0": [
+      0.7817,
+      0.9009
+     ],
+     "E1": [
+      0.0,
+      0.0357
+     ],
+     "E2": [
+      0.0184,
+      0.1738
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.0289
+     ],
+     "ERR": [
+      0.0,
+      0.0341
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.8434,
+     "<=E1": 0.8577,
+     "<=E2": 0.9431,
+     "<=E3": 0.9431,
+     "<=E4": 0.9537
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.032,
+     "E0": 0.8434,
+     "E1": 0.0142,
+     "E2": 0.0854,
+     "E3": 0.0,
+     "E4": 0.0107,
+     "ERR": 0.0142,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "clean_E2": {
+    "cells": 338,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0076,
+      0.0521
+     ],
+     "E0": [
+      0.7887,
+      0.9011
+     ],
+     "E1": [
+      0.0,
+      0.0233
+     ],
+     "E2": [
+      0.0238,
+      0.1653
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0019,
+      0.0195
+     ],
+     "ERR": [
+      0.0,
+      0.0365
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0076
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.8491,
+     "<=E1": 0.8609,
+     "<=E2": 0.9408,
+     "<=E3": 0.9408,
+     "<=E4": 0.9497
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0266,
+     "E0": 0.8491,
+     "E1": 0.0118,
+     "E2": 0.0799,
+     "E3": 0.0,
+     "E4": 0.0089,
+     "ERR": 0.0207,
+     "KILLED": 0.0,
+     "MEMORY": 0.003,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "excluded_cells": {
+    "NOOUT": 67
+   },
+   "fallback_cells": {
+    "all": 13,
+    "clean_E2": 13
+   }
+  },
+  "modin#2": {
+   "all": {
+    "cells": 419,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0086,
+      0.1197
+     ],
+     "E0": [
+      0.573,
+      0.8824
+     ],
+     "E1": [
+      0.0,
+      0.029
+     ],
+     "E2": [
+      0.0216,
+      0.1547
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.0317
+     ],
+     "ERR": [
+      0.0057,
+      0.0625
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0051
+     ],
+     "NOTRUN": [
+      0.0,
+      0.1851
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.716,
+     "<=E1": 0.7279,
+     "<=E2": 0.7947,
+     "<=E3": 0.7947,
+     "<=E4": 0.8067
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0668,
+     "E0": 0.716,
+     "E1": 0.0119,
+     "E2": 0.0668,
+     "E3": 0.0,
+     "E4": 0.0119,
+     "ERR": 0.0382,
+     "KILLED": 0.0,
+     "MEMORY": 0.0024,
+     "NOTRUN": 0.0859,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "clean_E0": {
+    "cells": 281,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0096,
+      0.0489
+     ],
+     "E0": [
+      0.7834,
+      0.9029
+     ],
+     "E1": [
+      0.0,
+      0.0402
+     ],
+     "E2": [
+      0.0192,
+      0.1773
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.0254
+     ],
+     "ERR": [
+      0.0,
+      0.0362
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.8434,
+     "<=E1": 0.8612,
+     "<=E2": 0.9466,
+     "<=E3": 0.9466,
+     "<=E4": 0.9573
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0285,
+     "E0": 0.8434,
+     "E1": 0.0178,
+     "E2": 0.0854,
+     "E3": 0.0,
+     "E4": 0.0107,
+     "ERR": 0.0142,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "clean_E2": {
+    "cells": 338,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0076,
+      0.0447
+     ],
+     "E0": [
+      0.7891,
+      0.9008
+     ],
+     "E1": [
+      0.0,
+      0.0311
+     ],
+     "E2": [
+      0.0228,
+      0.1611
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.0219
+     ],
+     "ERR": [
+      0.0,
+      0.0363
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0077
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.8491,
+     "<=E1": 0.8639,
+     "<=E2": 0.9438,
+     "<=E3": 0.9438,
+     "<=E4": 0.9527
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0237,
+     "E0": 0.8491,
+     "E1": 0.0148,
+     "E2": 0.0799,
+     "E3": 0.0,
+     "E4": 0.0089,
+     "ERR": 0.0207,
+     "KILLED": 0.0,
+     "MEMORY": 0.003,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "excluded_cells": {
+    "NOOUT": 67
+   },
+   "fallback_cells": {
+    "all": 13,
+    "clean_E2": 13
+   }
+  },
+  "modin#2~vs~modin": {
+   "all": {
+    "cells": 366,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0105
+     ],
+     "E0": [
+      0.9645,
+      0.9964
+     ],
+     "E1": [
+      0.0,
+      0.0185
+     ],
+     "E2": [
+      0.0,
+      0.0183
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.0
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.9836,
+     "<=E1": 0.9918,
+     "<=E2": 0.9973,
+     "<=E3": 0.9973,
+     "<=E4": 0.9973
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0027,
+     "E0": 0.9836,
+     "E1": 0.0082,
+     "E2": 0.0055,
+     "E3": 0.0,
+     "E4": 0.0,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "clean_E0": {
+    "cells": 366,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0105
+     ],
+     "E0": [
+      0.964,
+      1.0
+     ],
+     "E1": [
+      0.0,
+      0.0191
+     ],
+     "E2": [
+      0.0,
+      0.021
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.0
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.9836,
+     "<=E1": 0.9918,
+     "<=E2": 0.9973,
+     "<=E3": 0.9973,
+     "<=E4": 0.9973
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0027,
+     "E0": 0.9836,
+     "E1": 0.0082,
+     "E2": 0.0055,
+     "E3": 0.0,
+     "E4": 0.0,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "clean_E2": {
+    "cells": 366,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0098
+     ],
+     "E0": [
+      0.9642,
+      1.0
+     ],
+     "E1": [
+      0.0,
+      0.0184
+     ],
+     "E2": [
+      0.0,
+      0.0195
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.0
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.9836,
+     "<=E1": 0.9918,
+     "<=E2": 0.9973,
+     "<=E3": 0.9973,
+     "<=E4": 0.9973
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0027,
+     "E0": 0.9836,
+     "E1": 0.0082,
+     "E2": 0.0055,
+     "E3": 0.0,
+     "E4": 0.0,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "excluded_cells": {
+    "NOOUT": 67,
+    "REF_ERR": 16
+   },
+   "fallback_cells": {
+    "all": 13,
+    "clean_E2": 13
+   }
+  },
+  "p15": {
+   "all": {
+    "cells": 404,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0114,
+      0.1965
+     ],
+     "E0": [
+      0.6608,
+      0.8815
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.0221,
+      0.0963
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0058,
+      0.122
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.7426,
+     "<=E1": 0.7426,
+     "<=E2": 0.7921,
+     "<=E3": 0.7921,
+     "<=E4": 0.8564
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.1436,
+     "E0": 0.7426,
+     "E1": 0.0,
+     "E2": 0.0495,
+     "E3": 0.0,
+     "E4": 0.0644,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "clean_E0": {
+    "cells": 244,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0202
+     ],
+     "E0": [
+      0.8836,
+      0.9417
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.0327,
+      0.0733
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.05
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.9098,
+     "<=E1": 0.9098,
+     "<=E2": 0.9672,
+     "<=E3": 0.9672,
+     "<=E4": 0.9918
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0082,
+     "E0": 0.9098,
+     "E1": 0.0,
+     "E2": 0.0574,
+     "E3": 0.0,
+     "E4": 0.0246,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "clean_E2": {
+    "cells": 252,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.027
+     ],
+     "E0": [
+      0.8426,
+      0.9298
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.0408,
+      0.1124
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0063,
+      0.0496
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.8889,
+     "<=E1": 0.8889,
+     "<=E2": 0.9643,
+     "<=E3": 0.9643,
+     "<=E4": 0.9881
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0119,
+     "E0": 0.8889,
+     "E1": 0.0,
+     "E2": 0.0754,
+     "E3": 0.0,
+     "E4": 0.0238,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "excluded_cells": {
+    "NOOUT": 82
+   },
+   "fallback_cells": {
+    "all": 0,
+    "clean_E2": 0
+   }
+  },
+  "p30": {
+   "all": {
+    "cells": 404,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.1604
+     ],
+     "E0": [
+      0.2083,
+      0.5016
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.4125,
+      0.6679
+     ],
+     "E3": [
+      0.0,
+      0.0073
+     ],
+     "E4": [
+      0.0,
+      0.0
+     ],
+     "ERR": [
+      0.0077,
+      0.0654
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0055
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.349,
+     "<=E1": 0.349,
+     "<=E2": 0.8861,
+     "<=E3": 0.8886,
+     "<=E4": 0.8886
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0817,
+     "E0": 0.349,
+     "E1": 0.0,
+     "E2": 0.5371,
+     "E3": 0.0025,
+     "E4": 0.0,
+     "ERR": 0.0272,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0025
+    }
+   },
+   "clean_E0": {
+    "cells": 30,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0
+     ],
+     "E0": [
+      0.3333,
+      0.7292
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.2083,
+      0.6667
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.0
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0652
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.6,
+     "<=E1": 0.6,
+     "<=E2": 0.9667,
+     "<=E3": 0.9667,
+     "<=E4": 0.9667
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0,
+     "E0": 0.6,
+     "E1": 0.0,
+     "E2": 0.3667,
+     "E3": 0.0,
+     "E4": 0.0,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0333
+    }
+   },
+   "clean_E2": {
+    "cells": 353,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0534
+     ],
+     "E0": [
+      0.2359,
+      0.5068
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.4377,
+      0.7233
+     ],
+     "E3": [
+      0.0,
+      0.0076
+     ],
+     "E4": [
+      0.0,
+      0.0
+     ],
+     "ERR": [
+      0.0081,
+      0.0547
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0061
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.3683,
+     "<=E1": 0.3683,
+     "<=E2": 0.9405,
+     "<=E3": 0.9433,
+     "<=E4": 0.9433
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0283,
+     "E0": 0.3683,
+     "E1": 0.0,
+     "E2": 0.5722,
+     "E3": 0.0028,
+     "E4": 0.0,
+     "ERR": 0.0255,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0028
+    }
+   },
+   "excluded_cells": {
+    "NOOUT": 82
+   },
+   "fallback_cells": {
+    "all": 0,
+    "clean_E2": 0
+   }
+  },
+  "pyarrow_backend": {
+   "all": {
+    "cells": 404,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0039,
+      0.1742
+     ],
+     "E0": [
+      0.2595,
+      0.5902
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.1551,
+      0.4213
+     ],
+     "E3": [
+      0.0886,
+      0.2914
+     ],
+     "E4": [
+      0.0,
+      0.0
+     ],
+     "ERR": [
+      0.0,
+      0.179
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0053
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.3936,
+     "<=E1": 0.3936,
+     "<=E2": 0.6361,
+     "<=E3": 0.802,
+     "<=E4": 0.802
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.1064,
+     "E0": 0.3936,
+     "E1": 0.0,
+     "E2": 0.2426,
+     "E3": 0.1658,
+     "E4": 0.0,
+     "ERR": 0.0891,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0025
+    }
+   },
+   "clean_E0": {
+    "cells": 24,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0
+     ],
+     "E0": [
+      0.2855,
+      0.6333
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.0323,
+      0.4211
+     ],
+     "E3": [
+      0.1818,
+      0.4091
+     ],
+     "E4": [
+      0.0,
+      0.0
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.1364
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.5,
+     "<=E1": 0.5,
+     "<=E2": 0.6667,
+     "<=E3": 0.9583,
+     "<=E4": 0.9583
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0,
+     "E0": 0.5,
+     "E1": 0.0,
+     "E2": 0.1667,
+     "E3": 0.2917,
+     "E4": 0.0,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0417
+    }
+   },
+   "clean_E2": {
+    "cells": 134,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0544
+     ],
+     "E0": [
+      0.2283,
+      0.5306
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.3414,
+      0.6712
+     ],
+     "E3": [
+      0.0254,
+      0.1719
+     ],
+     "E4": [
+      0.0,
+      0.0
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0222
+     ]
+    },
+    "cum_share": {
+     "<=E0": 0.3881,
+     "<=E1": 0.3881,
+     "<=E2": 0.8955,
+     "<=E3": 0.9701,
+     "<=E4": 0.9701
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0224,
+     "E0": 0.3881,
+     "E1": 0.0,
+     "E2": 0.5075,
+     "E3": 0.0746,
+     "E4": 0.0,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0075
+    }
+   },
+   "excluded_cells": {
+    "NOOUT": 82
+   },
+   "fallback_cells": {
+    "all": 0,
+    "clean_E2": 0
+   }
+  },
+  "ref#2": {
+   "all": {
+    "cells": 404,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0
+     ],
+     "E0": [
+      1.0,
+      1.0
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.0,
+      0.0
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.0
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 1.0,
+     "<=E1": 1.0,
+     "<=E2": 1.0,
+     "<=E3": 1.0,
+     "<=E4": 1.0
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0,
+     "E0": 1.0,
+     "E1": 0.0,
+     "E2": 0.0,
+     "E3": 0.0,
+     "E4": 0.0,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "clean_E0": {
+    "cells": 404,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0
+     ],
+     "E0": [
+      1.0,
+      1.0
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.0,
+      0.0
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.0
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 1.0,
+     "<=E1": 1.0,
+     "<=E2": 1.0,
+     "<=E3": 1.0,
+     "<=E4": 1.0
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0,
+     "E0": 1.0,
+     "E1": 0.0,
+     "E2": 0.0,
+     "E3": 0.0,
+     "E4": 0.0,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "clean_E2": {
+    "cells": 404,
+    "ci95": {
+     "CRASH": [
+      0.0,
+      0.0
+     ],
+     "DIFF": [
+      0.0,
+      0.0
+     ],
+     "E0": [
+      1.0,
+      1.0
+     ],
+     "E1": [
+      0.0,
+      0.0
+     ],
+     "E2": [
+      0.0,
+      0.0
+     ],
+     "E3": [
+      0.0,
+      0.0
+     ],
+     "E4": [
+      0.0,
+      0.0
+     ],
+     "ERR": [
+      0.0,
+      0.0
+     ],
+     "KILLED": [
+      0.0,
+      0.0
+     ],
+     "MEMORY": [
+      0.0,
+      0.0
+     ],
+     "NOTRUN": [
+      0.0,
+      0.0
+     ],
+     "TIMEOUT": [
+      0.0,
+      0.0
+     ],
+     "UNCOMPARABLE": [
+      0.0,
+      0.0
+     ]
+    },
+    "cum_share": {
+     "<=E0": 1.0,
+     "<=E1": 1.0,
+     "<=E2": 1.0,
+     "<=E3": 1.0,
+     "<=E4": 1.0
+    },
+    "notebooks": 10,
+    "share": {
+     "CRASH": 0.0,
+     "DIFF": 0.0,
+     "E0": 1.0,
+     "E1": 0.0,
+     "E2": 0.0,
+     "E3": 0.0,
+     "E4": 0.0,
+     "ERR": 0.0,
+     "KILLED": 0.0,
+     "MEMORY": 0.0,
+     "NOTRUN": 0.0,
+     "TIMEOUT": 0.0,
+     "UNCOMPARABLE": 0.0
+    }
+   },
+   "excluded_cells": {
+    "NOOUT": 82
+   },
+   "fallback_cells": {
+    "all": 0,
+    "clean_E2": 0
+   }
+  }
+ },
+ "families": {
+  "bodo": {
+   "apply_map": {
+    "E0": 1,
+    "E2": 2,
+    "ERR": 1
+   },
+   "datetime": {
+    "E2": 6
+   },
+   "dedup_unique": {
+    "E2": 1
+   },
+   "describe_stats": {
+    "E0": 3,
+    "E2": 19,
+    "ERR": 5
+   },
+   "dtype_conv": {
+    "DIFF": 2,
+    "E2": 2,
+    "ERR": 1
+   },
+   "groupby_agg": {
+    "ERR": 5
+   },
+   "indexing": {
+    "DIFF": 6,
+    "E0": 3,
+    "E2": 18,
+    "E4": 1,
+    "ERR": 2
+   },
+   "merge_join": {
+    "E2": 3
+   },
+   "missing": {
+    "E2": 4
+   },
+   "other": {
+    "E0": 25,
+    "E2": 6,
+    "E4": 2,
+    "ERR": 1
+   },
+   "pivot_reshape": {
+    "E0": 2,
+    "E2": 5,
+    "E4": 1
+   },
+   "read": {
+    "E2": 4,
+    "E3": 7,
+    "UNCOMPARABLE": 1
+   },
+   "sort": {
+    "E0": 1,
+    "E2": 2,
+    "E4": 1,
+    "ERR": 1
+   },
+   "string": {
+    "ERR": 1
+   }
+  },
+  "bodo#2": {
+   "apply_map": {
+    "E0": 1,
+    "E2": 2,
+    "ERR": 1
+   },
+   "datetime": {
+    "E2": 6
+   },
+   "dedup_unique": {
+    "E2": 1
+   },
+   "describe_stats": {
+    "E0": 3,
+    "E2": 19,
+    "ERR": 5
+   },
+   "dtype_conv": {
+    "DIFF": 2,
+    "E2": 2,
+    "ERR": 1
+   },
+   "groupby_agg": {
+    "ERR": 5
+   },
+   "indexing": {
+    "DIFF": 6,
+    "E0": 3,
+    "E2": 18,
+    "E4": 1,
+    "ERR": 2
+   },
+   "merge_join": {
+    "E2": 3
+   },
+   "missing": {
+    "E2": 4
+   },
+   "other": {
+    "E0": 25,
+    "E2": 6,
+    "E4": 2,
+    "ERR": 1
+   },
+   "pivot_reshape": {
+    "E0": 2,
+    "E2": 5,
+    "E4": 1
+   },
+   "read": {
+    "E2": 4,
+    "E3": 7,
+    "UNCOMPARABLE": 1
+   },
+   "sort": {
+    "E0": 1,
+    "E2": 2,
+    "E4": 1,
+    "ERR": 1
+   },
+   "string": {
+    "ERR": 1
+   }
+  },
+  "bodo#2~vs~bodo": {
+   "apply_map": {
+    "E0": 4
+   },
+   "datetime": {
+    "E0": 10
+   },
+   "dedup_unique": {
+    "E0": 1
+   },
+   "describe_stats": {
+    "DIFF": 3,
+    "E0": 64
+   },
+   "dtype_conv": {
+    "E0": 12
+   },
+   "groupby_agg": {
+    "E0": 6
+   },
+   "indexing": {
+    "E0": 77
+   },
+   "merge_join": {
+    "E0": 8
+   },
+   "missing": {
+    "E0": 20
+   },
+   "other": {
+    "E0": 133
+   },
+   "pivot_reshape": {
+    "E0": 16
+   },
+   "read": {
+    "E0": 12
+   },
+   "sort": {
+    "E0": 14
+   }
+  },
+  "bodo_dw": {
+   "apply_map": {
+    "E0": 1,
+    "E2": 2,
+    "ERR": 1
+   },
+   "datetime": {
+    "E2": 6
+   },
+   "dedup_unique": {
+    "E4": 1
+   },
+   "describe_stats": {
+    "E0": 3,
+    "E2": 19,
+    "ERR": 3
+   },
+   "dtype_conv": {
+    "DIFF": 2,
+    "E2": 2,
+    "ERR": 1
+   },
+   "groupby_agg": {
+    "ERR": 3
+   },
+   "indexing": {
+    "DIFF": 6,
+    "E0": 3,
+    "E2": 18,
+    "E4": 1
+   },
+   "merge_join": {
+    "E2": 2,
+    "E4": 1
+   },
+   "missing": {
+    "E2": 4
+   },
+   "other": {
+    "E0": 25,
+    "E2": 6,
+    "E4": 2
+   },
+   "pivot_reshape": {
+    "E0": 2,
+    "E2": 5,
+    "E4": 1
+   },
+   "read": {
+    "DIFF": 1,
+    "E2": 4,
+    "E3": 6,
+    "UNCOMPARABLE": 1
+   },
+   "sort": {
+    "E0": 1,
+    "E2": 2,
+    "E4": 1,
+    "ERR": 1
+   },
+   "string": {
+    "ERR": 1
+   }
+  },
+  "dask": {
+   "apply_map": {
+    "E0": 1
+   },
+   "datetime": {
+    "E2": 1
+   },
+   "dedup_unique": {
+    "E2": 1
+   },
+   "describe_stats": {
+    "DIFF": 1,
+    "E0": 3,
+    "E1": 2,
+    "E2": 5,
+    "ERR": 3
+   },
+   "dtype_conv": {
+    "DIFF": 4,
+    "E2": 1
+   },
+   "groupby_agg": {
+    "E0": 1,
+    "E2": 3
+   },
+   "indexing": {
+    "E0": 1,
+    "E2": 9,
+    "ERR": 6
+   },
+   "merge_join": {
+    "E2": 1
+   },
+   "missing": {
+    "E0": 2,
+    "E2": 1,
+    "ERR": 1
+   },
+   "other": {
+    "DIFF": 3,
+    "E0": 21,
+    "ERR": 2
+   },
+   "pivot_reshape": {
+    "ERR": 5
+   },
+   "read": {
+    "DIFF": 1,
+    "E2": 3,
+    "E3": 1,
+    "E4": 1,
+    "ERR": 6
+   },
+   "sort": {
+    "ERR": 1
+   }
+  },
+  "dask#2": {
+   "apply_map": {
+    "E0": 1
+   },
+   "datetime": {
+    "E2": 1
+   },
+   "dedup_unique": {
+    "E2": 1
+   },
+   "describe_stats": {
+    "DIFF": 1,
+    "E0": 3,
+    "E1": 2,
+    "E2": 5,
+    "ERR": 3
+   },
+   "dtype_conv": {
+    "DIFF": 4,
+    "E2": 1
+   },
+   "groupby_agg": {
+    "E0": 1,
+    "E2": 3
+   },
+   "indexing": {
+    "E0": 1,
+    "E2": 9,
+    "ERR": 6
+   },
+   "merge_join": {
+    "E2": 1
+   },
+   "missing": {
+    "E0": 2,
+    "E2": 1,
+    "ERR": 1
+   },
+   "other": {
+    "DIFF": 3,
+    "E0": 21,
+    "ERR": 2
+   },
+   "pivot_reshape": {
+    "ERR": 5
+   },
+   "read": {
+    "DIFF": 1,
+    "E2": 3,
+    "E3": 1,
+    "E4": 1,
+    "ERR": 6
+   },
+   "sort": {
+    "ERR": 1
+   }
+  },
+  "dask#2~vs~dask": {
+   "apply_map": {
+    "E0": 1
+   },
+   "datetime": {
+    "E0": 6
+   },
+   "dedup_unique": {
+    "E0": 1
+   },
+   "describe_stats": {
+    "E0": 39
+   },
+   "dtype_conv": {
+    "E0": 11
+   },
+   "groupby_agg": {
+    "E0": 4,
+    "UNCOMPARABLE": 1
+   },
+   "indexing": {
+    "E0": 22
+   },
+   "merge_join": {
+    "E0": 3
+   },
+   "missing": {
+    "E0": 7
+   },
+   "other": {
+    "DIFF": 5,
+    "E0": 62
+   },
+   "read": {
+    "DIFF": 1,
+    "E0": 5,
+    "UNCOMPARABLE": 4
+   },
+   "string": {
+    "E0": 2
+   }
+  },
+  "fireducks": {
+   "apply_map": {
+    "E0": 3,
+    "ERR": 1
+   },
+   "datetime": {
+    "E0": 4,
+    "E2": 2
+   },
+   "dedup_unique": {
+    "E0": 1
+   },
+   "describe_stats": {
+    "E0": 34,
+    "E2": 9,
+    "ERR": 2
+   },
+   "dtype_conv": {
+    "E0": 7,
+    "E2": 1,
+    "ERR": 2
+   },
+   "groupby_agg": {
+    "E0": 5,
+    "E2": 2,
+    "ERR": 1
+   },
+   "indexing": {
+    "E0": 32,
+    "E1": 1,
+    "E2": 8,
+    "E3": 5,
+    "ERR": 1
+   },
+   "merge_join": {
+    "E0": 2,
+    "E4": 1
+   },
+   "missing": {
+    "E0": 6,
+    "E1": 1,
+    "E2": 2
+   },
+   "other": {
+    "E0": 56,
+    "E2": 1
+   },
+   "pivot_reshape": {
+    "E0": 11,
+    "E2": 1
+   },
+   "read": {
+    "E0": 6,
+    "E2": 1,
+    "E3": 4,
+    "UNCOMPARABLE": 1
+   },
+   "sort": {
+    "E0": 4,
+    "E1": 2,
+    "E3": 2,
+    "ERR": 2
+   },
+   "string": {
+    "E2": 1,
+    "ERR": 1
+   }
+  },
+  "fireducks#2": {
+   "apply_map": {
+    "E0": 3,
+    "ERR": 1
+   },
+   "datetime": {
+    "E0": 4,
+    "E2": 2
+   },
+   "dedup_unique": {
+    "E0": 1
+   },
+   "describe_stats": {
+    "E0": 34,
+    "E2": 9,
+    "ERR": 2
+   },
+   "dtype_conv": {
+    "E0": 7,
+    "E2": 1,
+    "ERR": 2
+   },
+   "groupby_agg": {
+    "E0": 5,
+    "E2": 2,
+    "ERR": 1
+   },
+   "indexing": {
+    "E0": 32,
+    "E1": 1,
+    "E2": 8,
+    "E3": 5,
+    "ERR": 1
+   },
+   "merge_join": {
+    "E0": 2,
+    "E4": 1
+   },
+   "missing": {
+    "E0": 6,
+    "E1": 1,
+    "E2": 2
+   },
+   "other": {
+    "E0": 56,
+    "E2": 1
+   },
+   "pivot_reshape": {
+    "E0": 11,
+    "E2": 1
+   },
+   "read": {
+    "E0": 6,
+    "E2": 1,
+    "E3": 4,
+    "UNCOMPARABLE": 1
+   },
+   "sort": {
+    "E0": 4,
+    "E1": 2,
+    "E3": 2,
+    "ERR": 2
+   },
+   "string": {
+    "E2": 1,
+    "ERR": 1
+   }
+  },
+  "fireducks#2~vs~fireducks": {
+   "apply_map": {
+    "E0": 8,
+    "UNCOMPARABLE": 1
+   },
+   "datetime": {
+    "E0": 14
+   },
+   "dedup_unique": {
+    "E0": 1
+   },
+   "describe_stats": {
+    "E0": 73,
+    "UNCOMPARABLE": 2
+   },
+   "dtype_conv": {
+    "E0": 18,
+    "UNCOMPARABLE": 2
+   },
+   "groupby_agg": {
+    "E0": 12,
+    "UNCOMPARABLE": 1
+   },
+   "indexing": {
+    "E0": 88,
+    "UNCOMPARABLE": 1
+   },
+   "merge_join": {
+    "E0": 7,
+    "E4": 1
+   },
+   "missing": {
+    "E0": 23
+   },
+   "other": {
+    "E0": 144
+   },
+   "pivot_reshape": {
+    "E0": 20
+   },
+   "read": {
+    "E0": 12
+   },
+   "sort": {
+    "E0": 15,
+    "UNCOMPARABLE": 2
+   },
+   "string": {
+    "E0": 5,
+    "UNCOMPARABLE": 1
+   }
+  },
+  "modin": {
+   "apply_map": {
+    "DIFF": 2,
+    "E0": 6,
+    "E2": 1
+   },
+   "datetime": {
+    "E0": 12
+   },
+   "dedup_unique": {
+    "E0": 1
+   },
+   "describe_stats": {
+    "DIFF": 3,
+    "E0": 58,
+    "E1": 2,
+    "E2": 7
+   },
+   "dtype_conv": {
+    "E0": 12,
+    "E1": 1,
+    "E2": 2
+   },
+   "groupby_agg": {
+    "E0": 12
+   },
+   "indexing": {
+    "DIFF": 1,
+    "E0": 65,
+    "E1": 1,
+    "E2": 15,
+    "ERR": 2
+   },
+   "merge_join": {
+    "E0": 8
+   },
+   "missing": {
+    "DIFF": 1,
+    "E0": 16,
+    "E2": 1
+   },
+   "other": {
+    "DIFF": 1,
+    "E0": 122,
+    "E2": 3,
+    "ERR": 4
+   },
+   "pivot_reshape": {
+    "DIFF": 2,
+    "E0": 8,
+    "E2": 6,
+    "E4": 3,
+    "MEMORY": 1
+   },
+   "read": {
+    "DIFF": 1,
+    "E0": 10,
+    "ERR": 1
+   },
+   "sort": {
+    "DIFF": 2,
+    "E0": 7,
+    "E1": 4
+   },
+   "string": {
+    "DIFF": 2,
+    "E0": 4
+   }
+  },
+  "modin#2": {
+   "apply_map": {
+    "DIFF": 2,
+    "E0": 6,
+    "E2": 1
+   },
+   "datetime": {
+    "E0": 12
+   },
+   "dedup_unique": {
+    "E0": 1
+   },
+   "describe_stats": {
+    "DIFF": 3,
+    "E0": 58,
+    "E1": 2,
+    "E2": 7
+   },
+   "dtype_conv": {
+    "E0": 12,
+    "E1": 1,
+    "E2": 2
+   },
+   "groupby_agg": {
+    "E0": 12
+   },
+   "indexing": {
+    "E0": 65,
+    "E1": 2,
+    "E2": 15,
+    "ERR": 2
+   },
+   "merge_join": {
+    "E0": 8
+   },
+   "missing": {
+    "E0": 16,
+    "E1": 1,
+    "E2": 1
+   },
+   "other": {
+    "DIFF": 1,
+    "E0": 122,
+    "E2": 3,
+    "ERR": 4
+   },
+   "pivot_reshape": {
+    "DIFF": 2,
+    "E0": 8,
+    "E2": 6,
+    "E4": 3,
+    "MEMORY": 1
+   },
+   "read": {
+    "DIFF": 1,
+    "E0": 10,
+    "ERR": 1
+   },
+   "sort": {
+    "DIFF": 1,
+    "E0": 7,
+    "E1": 5
+   },
+   "string": {
+    "DIFF": 2,
+    "E0": 4
+   }
+  },
+  "modin#2~vs~modin": {
+   "apply_map": {
+    "E0": 12
+   },
+   "datetime": {
+    "E0": 14
+   },
+   "dedup_unique": {
+    "E0": 1
+   },
+   "describe_stats": {
+    "E0": 75,
+    "E1": 2,
+    "E2": 2
+   },
+   "dtype_conv": {
+    "E0": 19,
+    "E1": 1
+   },
+   "groupby_agg": {
+    "E0": 15
+   },
+   "indexing": {
+    "DIFF": 1,
+    "E0": 87,
+    "E1": 1
+   },
+   "merge_join": {
+    "E0": 8
+   },
+   "missing": {
+    "DIFF": 1,
+    "E0": 22
+   },
+   "other": {
+    "E0": 138
+   },
+   "pivot_reshape": {
+    "E0": 19
+   },
+   "read": {
+    "E0": 11
+   },
+   "sort": {
+    "DIFF": 1,
+    "E0": 11,
+    "E1": 3
+   },
+   "string": {
+    "E0": 8
+   }
+  },
+  "p15": {
+   "apply_map": {
+    "E0": 5
+   },
+   "datetime": {
+    "E0": 10,
+    "E2": 2
+   },
+   "dedup_unique": {
+    "E0": 1
+   },
+   "describe_stats": {
+    "DIFF": 1,
+    "E0": 45,
+    "E2": 14,
+    "E4": 4
+   },
+   "dtype_conv": {
+    "E0": 13,
+    "E2": 1
+   },
+   "groupby_agg": {
+    "DIFF": 1,
+    "E0": 12,
+    "E2": 1
+   },
+   "indexing": {
+    "DIFF": 1,
+    "E0": 63,
+    "E2": 2
+   },
+   "merge_join": {
+    "E0": 5,
+    "E4": 2
+   },
+   "missing": {
+    "E0": 19
+   },
+   "other": {
+    "E0": 71,
+    "E2": 1
+   },
+   "pivot_reshape": {
+    "DIFF": 1,
+    "E0": 11,
+    "E4": 2
+   },
+   "read": {
+    "DIFF": 1,
+    "E0": 11
+   },
+   "sort": {
+    "E0": 11,
+    "E2": 1
+   },
+   "string": {
+    "E0": 2
+   }
+  },
+  "p30": {
+   "apply_map": {
+    "E0": 1,
+    "E2": 8,
+    "E3": 1
+   },
+   "datetime": {
+    "E2": 10,
+    "ERR": 2
+   },
+   "dedup_unique": {
+    "E2": 1
+   },
+   "describe_stats": {
+    "DIFF": 1,
+    "E0": 12,
+    "E2": 54,
+    "ERR": 3
+   },
+   "dtype_conv": {
+    "DIFF": 8,
+    "E0": 1,
+    "E2": 7,
+    "E3": 1,
+    "ERR": 2
+   },
+   "groupby_agg": {
+    "E2": 15
+   },
+   "indexing": {
+    "DIFF": 1,
+    "E0": 3,
+    "E2": 65,
+    "ERR": 3
+   },
+   "merge_join": {
+    "E2": 7
+   },
+   "missing": {
+    "DIFF": 1,
+    "E0": 1,
+    "E2": 19
+   },
+   "other": {
+    "DIFF": 1,
+    "E0": 111,
+    "E2": 37,
+    "ERR": 2
+   },
+   "pivot_reshape": {
+    "E2": 13,
+    "ERR": 2
+   },
+   "read": {
+    "E2": 11,
+    "UNCOMPARABLE": 1
+   },
+   "sort": {
+    "E0": 2,
+    "E2": 13,
+    "E3": 1,
+    "ERR": 1
+   },
+   "string": {
+    "E2": 7,
+    "E3": 1
+   }
+  },
+  "pyarrow_backend": {
+   "apply_map": {
+    "E0": 1,
+    "E2": 2,
+    "E3": 1
+   },
+   "datetime": {
+    "E2": 6
+   },
+   "dedup_unique": {
+    "E2": 1
+   },
+   "describe_stats": {
+    "E0": 12,
+    "E2": 18
+   },
+   "dtype_conv": {
+    "DIFF": 2,
+    "E2": 3,
+    "E3": 1
+   },
+   "groupby_agg": {
+    "E2": 6
+   },
+   "indexing": {
+    "E0": 3,
+    "E2": 29,
+    "E3": 2
+   },
+   "merge_join": {
+    "E2": 3
+   },
+   "missing": {
+    "E0": 4,
+    "E2": 2
+   },
+   "other": {
+    "DIFF": 1,
+    "E0": 33,
+    "E2": 10
+   },
+   "pivot_reshape": {
+    "E0": 2,
+    "E2": 6,
+    "E3": 2
+   },
+   "read": {
+    "E2": 4,
+    "E3": 7,
+    "UNCOMPARABLE": 1
+   },
+   "sort": {
+    "E0": 2,
+    "E2": 4,
+    "E3": 1
+   },
+   "string": {
+    "E3": 1
+   }
+  },
+  "ref#2": {
+   "apply_map": {
+    "E0": 12
+   },
+   "datetime": {
+    "E0": 14
+   },
+   "dedup_unique": {
+    "E0": 1
+   },
+   "describe_stats": {
+    "E0": 79
+   },
+   "dtype_conv": {
+    "E0": 22
+   },
+   "groupby_agg": {
+    "E0": 15
+   },
+   "indexing": {
+    "E0": 96
+   },
+   "merge_join": {
+    "E0": 8
+   },
+   "missing": {
+    "E0": 23
+   },
+   "other": {
+    "E0": 163
+   },
+   "pivot_reshape": {
+    "E0": 21
+   },
+   "read": {
+    "E0": 12
+   },
+   "sort": {
+    "E0": 17
+   },
+   "string": {
+    "E0": 8
+   }
+  }
+ },
+ "first_divergent": {
+  "bodo": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 8,
+    "E4": 33
+   },
+   "deffro/eda-is-fun": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 6,
+    "E4": 6
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 13,
+    "E4": 16
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 8,
+    "E4": 8
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 11,
+    "E3": 11,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 7,
+    "E3": 7,
+    "E4": 7
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0,
+    "E3": 6,
+    "E4": 6
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 9,
+    "E3": 9,
+    "E4": 10
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 7,
+    "E4": 7
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "bodo#2": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 8,
+    "E4": 33
+   },
+   "deffro/eda-is-fun": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 6,
+    "E4": 6
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 13,
+    "E4": 16
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 8,
+    "E4": 8
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 11,
+    "E3": 11,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 7,
+    "E3": 7,
+    "E4": 7
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0,
+    "E3": 6,
+    "E4": 6
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 9,
+    "E3": 9,
+    "E4": 10
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 7,
+    "E4": 7
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "bodo#2~vs~bodo": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "deffro/eda-is-fun": {
+    "E0": 12,
+    "E1": 12,
+    "E2": 12,
+    "E3": 12,
+    "E4": 12
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   }
+  },
+  "bodo_dw": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 8,
+    "E4": 8
+   },
+   "deffro/eda-is-fun": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 6,
+    "E4": 6
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 13,
+    "E4": 16
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 6,
+    "E4": 8
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 11,
+    "E3": 11,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 7,
+    "E3": 7,
+    "E4": 7
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0,
+    "E3": 0,
+    "E4": 0
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 4,
+    "E3": 4,
+    "E4": 10
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 7,
+    "E4": 7
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "dask": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "deffro/eda-is-fun": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 5
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 1,
+    "E4": 1
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 5,
+    "E3": 5,
+    "E4": 5
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 4,
+    "E3": 4,
+    "E4": 4
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0,
+    "E3": 0,
+    "E4": 0
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 6,
+    "E3": 6,
+    "E4": 6
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "dask#2": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "deffro/eda-is-fun": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 5
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 1,
+    "E4": 1
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 5,
+    "E3": 5,
+    "E4": 5
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 4,
+    "E3": 4,
+    "E4": 4
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0,
+    "E3": 0,
+    "E4": 0
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 6,
+    "E3": 6,
+    "E4": 6
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "dask#2~vs~dask": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "deffro/eda-is-fun": {
+    "E0": 33,
+    "E1": 33,
+    "E2": 33,
+    "E3": 33,
+    "E4": 33
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 1,
+    "E4": 1
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 5,
+    "E1": 5,
+    "E2": 5,
+    "E3": 5,
+    "E4": 5
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 12,
+    "E1": 12,
+    "E2": 12,
+    "E3": 12,
+    "E4": 12
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0,
+    "E3": 0,
+    "E4": 0
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 66,
+    "E1": 66,
+    "E2": 66,
+    "E3": 66,
+    "E4": 66
+   }
+  },
+  "fireducks": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 3,
+    "E1": 3,
+    "E2": 3,
+    "E3": 56,
+    "E4": 56
+   },
+   "deffro/eda-is-fun": {
+    "E0": 6,
+    "E1": 6,
+    "E2": 6,
+    "E3": 6,
+    "E4": 6
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 11,
+    "E4": 42
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 6,
+    "E4": 8
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 33,
+    "E1": 33,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 13,
+    "E1": 13,
+    "E2": 16,
+    "E3": 16,
+    "E4": 16
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0,
+    "E3": null,
+    "E4": null
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 9,
+    "E1": 12,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 4,
+    "E1": 4,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "fireducks#2": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 3,
+    "E1": 3,
+    "E2": 3,
+    "E3": 56,
+    "E4": 56
+   },
+   "deffro/eda-is-fun": {
+    "E0": 6,
+    "E1": 6,
+    "E2": 6,
+    "E3": 6,
+    "E4": 6
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 11,
+    "E4": 42
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 6,
+    "E4": 8
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 33,
+    "E1": 33,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 13,
+    "E1": 13,
+    "E2": 16,
+    "E3": 16,
+    "E4": 16
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0,
+    "E3": null,
+    "E4": null
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 9,
+    "E1": 12,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 4,
+    "E1": 4,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "fireducks#2~vs~fireducks": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 56,
+    "E1": 56,
+    "E2": 56,
+    "E3": 56,
+    "E4": 56
+   },
+   "deffro/eda-is-fun": {
+    "E0": 6,
+    "E1": 6,
+    "E2": 6,
+    "E3": 6,
+    "E4": 6
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 6,
+    "E1": 6,
+    "E2": 6,
+    "E3": 6,
+    "E4": 8
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 16,
+    "E1": 16,
+    "E2": 16,
+    "E3": 16,
+    "E4": 16
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 113,
+    "E1": 113,
+    "E2": 113,
+    "E3": 113,
+    "E4": 113
+   }
+  },
+  "modin": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 4,
+    "E1": 4,
+    "E2": 11,
+    "E3": 11,
+    "E4": 21
+   },
+   "deffro/eda-is-fun": {
+    "E0": 6,
+    "E1": 30,
+    "E2": 30,
+    "E3": 30,
+    "E4": 30
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 19,
+    "E1": 19,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 8,
+    "E1": 8,
+    "E2": 18,
+    "E3": 18,
+    "E4": null
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 33,
+    "E1": 33,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 22,
+    "E1": 22,
+    "E2": 22,
+    "E3": 22,
+    "E4": 22
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 9,
+    "E1": 11,
+    "E2": 11,
+    "E3": 11,
+    "E4": 11
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "modin#2": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 4,
+    "E1": 4,
+    "E2": 11,
+    "E3": 11,
+    "E4": 21
+   },
+   "deffro/eda-is-fun": {
+    "E0": 6,
+    "E1": 30,
+    "E2": 30,
+    "E3": 30,
+    "E4": 30
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 19,
+    "E1": 19,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 8,
+    "E1": 8,
+    "E2": 18,
+    "E3": 18,
+    "E4": null
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 33,
+    "E1": 33,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 22,
+    "E1": 22,
+    "E2": 22,
+    "E3": 22,
+    "E4": 22
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 9,
+    "E1": 11,
+    "E2": 11,
+    "E3": 11,
+    "E4": 11
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "modin#2~vs~modin": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 8,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "deffro/eda-is-fun": {
+    "E0": 6,
+    "E1": 38,
+    "E2": 38,
+    "E3": 38,
+    "E4": 38
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 33,
+    "E1": 33,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   }
+  },
+  "p15": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "deffro/eda-is-fun": {
+    "E0": 30,
+    "E1": 30,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 28,
+    "E1": 28,
+    "E2": 53,
+    "E3": 53,
+    "E4": 53
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 4,
+    "E1": 4,
+    "E2": 4,
+    "E3": 4,
+    "E4": null
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 33,
+    "E1": 33,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 15,
+    "E1": 15,
+    "E2": 16,
+    "E3": 16,
+    "E4": 16
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 11,
+    "E1": 11,
+    "E2": 11,
+    "E3": 11,
+    "E4": null
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 13,
+    "E1": 13,
+    "E2": 65,
+    "E3": 65,
+    "E4": 67
+   }
+  },
+  "p30": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 21,
+    "E3": 21,
+    "E4": 21
+   },
+   "deffro/eda-is-fun": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 6,
+    "E3": 6,
+    "E4": 6
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 42,
+    "E3": 42,
+    "E4": 42
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 8,
+    "E3": 8,
+    "E4": 8
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 27,
+    "E3": 27,
+    "E4": 27
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 2,
+    "E1": 2,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 6,
+    "E3": 6,
+    "E4": 6
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 11,
+    "E3": 11,
+    "E4": 11
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 2,
+    "E1": 2,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "pyarrow_backend": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": null,
+    "E4": null
+   },
+   "deffro/eda-is-fun": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 6,
+    "E4": 6
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 42,
+    "E4": 42
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 8,
+    "E4": 8
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 2,
+    "E1": 2,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 2,
+    "E1": 2,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0,
+    "E3": null,
+    "E4": null
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 2,
+    "E1": 2,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 9,
+    "E4": 9
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "ref#2": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "deffro/eda-is-fun": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   }
+  }
+ }
+}

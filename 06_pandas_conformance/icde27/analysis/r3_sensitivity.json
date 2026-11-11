@@ -1,0 +1,5244 @@
+{
+ "generated_from": {
+  "summary_generated_utc": "2026-10-28T09:31:26Z",
+  "taxonomy_generated": "2026-10-04T08:52:24",
+  "r1_cells": "icde27/analysis/r1_cells.json",
+  "compare_tag": "d92c8db54d45b",
+  "harness_tag": "hd1c421ecb5ee",
+  "bootstrap": {
+   "resamples": 10000,
+   "seed": 20261026,
+   "unit": "notebook",
+   "interval": "percentile"
+  }
+ },
+ "removed": {
+  "printed_form_cells": [
+   [
+    "bodo",
+    "balajivenkat96/solar-plants",
+    18
+   ],
+   [
+    "bodo",
+    "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    1
+   ],
+   [
+    "bodo",
+    "salmaneunus/student-s-performance-quantitative-visual-eda",
+    16
+   ],
+   [
+    "bodo",
+    "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+    1
+   ],
+   [
+    "bodo",
+    "taylorhickem/singapore-building-energy",
+    3
+   ],
+   [
+    "fireducks",
+    "kmader/analyzing-matches",
+    12
+   ],
+   [
+    "fireducks",
+    "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+    1
+   ],
+   [
+    "modin",
+    "balajivenkat96/solar-plants",
+    21
+   ],
+   [
+    "modin",
+    "j0thu777/onlineretailanalysis",
+    20
+   ],
+   [
+    "pyarrow_backend",
+    "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    1
+   ],
+   [
+    "pyarrow_backend",
+    "kmader/analyzing-matches",
+    12
+   ],
+   [
+    "pyarrow_backend",
+    "penny8/my-sub1",
+    19
+   ],
+   [
+    "pyarrow_backend",
+    "penny8/my-sub1",
+    20
+   ],
+   [
+    "pyarrow_backend",
+    "salmaneunus/student-s-performance-quantitative-visual-eda",
+    16
+   ],
+   [
+    "pyarrow_backend",
+    "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+    1
+   ],
+   [
+    "pyarrow_backend",
+    "taylorhickem/singapore-building-energy",
+    3
+   ]
+  ],
+  "reduced_capture_notebooks": [
+   "artgor/eda-and-models",
+   "carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled",
+   "ersinsen/fraud-3-eda",
+   "loveall/favorita-analytics",
+   "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost",
+   "narasimhach/ashrae-data-preprocessing",
+   "roydatascience/malware-detection-stacking-2-0",
+   "tunguz/fathers-day-specials-just-the-features",
+   "yonelanuba/elo-merchant-by-yonela",
+   "yuliagm/talkingdata-eda-plus-time-patterns"
+  ]
+ },
+ "consistency_checks": {
+  "n": 87,
+  "mismatches": []
+ },
+ "variants": {
+  "base": {
+   "by_label": {
+    "bodo": {
+     "campaign": "conf_1x",
+     "all_cells": 2837,
+     "all_DIFF": 408,
+     "all_DIFF_share": 0.143814,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.059761,
+       "num": 45,
+       "den": 753,
+       "notebooks": 102,
+       "ci95": [
+        0.03846,
+        0.085578
+       ]
+      },
+      "le_E2": {
+       "share": 0.719788,
+       "num": 542,
+       "den": 753,
+       "notebooks": 102,
+       "ci95": [
+        0.669421,
+        0.763315
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 2.406,
+     "introduced": 420,
+     "introduced_DIFF": 85,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.441176,
+       "num": 45,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.343137,
+        0.539216
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.156863,
+       "num": 16,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.088235,
+        0.235294
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "representation choice": 33,
+      "parallel or lazy execution": 11,
+      "unattributed": 26,
+      "missing or erroneous support": 15
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "representation choice": 47,
+      "parallel or lazy execution": 12,
+      "missing or erroneous support": 20,
+      "harness artefact": 5,
+      "undetermined": 1
+     }
+    },
+    "dask": {
+     "campaign": "conf_1x",
+     "all_cells": 2819,
+     "all_DIFF": 230,
+     "all_DIFF_share": 0.081589,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.062385,
+       "num": 34,
+       "den": 545,
+       "notebooks": 102,
+       "ci95": [
+        0.038277,
+        0.089495
+       ]
+      },
+      "le_E2": {
+       "share": 0.616514,
+       "num": 336,
+       "den": 545,
+       "notebooks": 102,
+       "ci95": [
+        0.542055,
+        0.678142
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 1.308,
+     "introduced": 328,
+     "introduced_DIFF": 46,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.235294,
+       "num": 24,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.156863,
+        0.323529
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.019608,
+       "num": 2,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.0,
+        0.04902
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "unattributed": 10,
+      "representation choice": 16,
+      "parallel or lazy execution": 20
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "missing or erroneous support": 3,
+      "representation choice": 16,
+      "parallel or lazy execution": 27
+     }
+    },
+    "fireducks": {
+     "campaign": "conf_1x",
+     "all_cells": 2811,
+     "all_DIFF": 337,
+     "all_DIFF_share": 0.119886,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.027244,
+       "num": 34,
+       "den": 1248,
+       "notebooks": 102,
+       "ci95": [
+        0.016606,
+        0.039612
+       ]
+      },
+      "le_E2": {
+       "share": 0.886218,
+       "num": 1106,
+       "den": 1248,
+       "notebooks": 102,
+       "ci95": [
+        0.850664,
+        0.914125
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 4.4,
+     "introduced": 276,
+     "introduced_DIFF": 60,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.392157,
+       "num": 40,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.303922,
+        0.490196
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.647059,
+       "num": 66,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.558824,
+        0.735294
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "parallel or lazy execution": 6,
+      "representation choice": 16,
+      "unattributed": 38
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "parallel or lazy execution": 14,
+      "representation choice": 25,
+      "missing or erroneous support": 19,
+      "harness artefact": 2
+     }
+    },
+    "modin": {
+     "campaign": "conf_1x",
+     "all_cells": 2840,
+     "all_DIFF": 195,
+     "all_DIFF_share": 0.068662,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.020154,
+       "num": 47,
+       "den": 2332,
+       "notebooks": 102,
+       "ci95": [
+        0.013879,
+        0.027553
+       ]
+      },
+      "le_E2": {
+       "share": 0.944683,
+       "num": 2203,
+       "den": 2332,
+       "notebooks": 102,
+       "ci95": [
+        0.927667,
+        0.958784
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 3.407,
+     "introduced": 311,
+     "introduced_DIFF": 51,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.352941,
+       "num": 36,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.264706,
+        0.45098
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.676471,
+       "num": 69,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.578431,
+        0.764706
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "missing or erroneous support": 23,
+      "unattributed": 15,
+      "parallel or lazy execution": 10,
+      "representation choice": 3
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "missing or erroneous support": 27,
+      "harness artefact": 2,
+      "parallel or lazy execution": 18,
+      "representation choice": 3,
+      "undetermined": 1
+     }
+    },
+    "pyarrow_backend": {
+     "campaign": "conf_1x",
+     "all_cells": 2809,
+     "all_DIFF": 423,
+     "all_DIFF_share": 0.150587,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.025665,
+       "num": 28,
+       "den": 1091,
+       "notebooks": 102,
+       "ci95": [
+        0.015504,
+        0.037772
+       ]
+      },
+      "le_E2": {
+       "share": 0.882676,
+       "num": 963,
+       "den": 1091,
+       "notebooks": 102,
+       "ci95": [
+        0.851155,
+        0.90716
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 5.867,
+     "introduced": 229,
+     "introduced_DIFF": 58,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.352941,
+       "num": 36,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.264706,
+        0.45098
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.715686,
+       "num": 73,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.627451,
+        0.803922
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "representation choice": 36,
+      "unattributed": 21,
+      "parallel or lazy execution": 1
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "representation choice": 45,
+      "harness artefact": 7,
+      "parallel or lazy execution": 4,
+      "missing or erroneous support": 2
+     }
+    },
+    "p15": {
+     "campaign": "drift",
+     "all_cells": 2809,
+     "all_DIFF": 313,
+     "all_DIFF_share": 0.111428,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.023016,
+       "num": 49,
+       "den": 2129,
+       "notebooks": 102,
+       "ci95": [
+        0.015812,
+        0.031218
+       ]
+      },
+      "le_E2": {
+       "share": 0.916862,
+       "num": 1952,
+       "den": 2129,
+       "notebooks": 102,
+       "ci95": [
+        0.894392,
+        0.937531
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 4.841,
+     "introduced": 266,
+     "introduced_DIFF": 49,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.333333,
+       "num": 34,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.245098,
+        0.431373
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.980392,
+       "num": 100,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.95098,
+        1.0
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "pandas evolution": 49
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "pandas evolution": 49
+     }
+    },
+    "p30": {
+     "campaign": "drift",
+     "all_cells": 2811,
+     "all_DIFF": 289,
+     "all_DIFF_share": 0.10281,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.025282,
+       "num": 56,
+       "den": 2215,
+       "notebooks": 102,
+       "ci95": [
+        0.016326,
+        0.0353
+       ]
+      },
+      "le_E2": {
+       "share": 0.946727,
+       "num": 2097,
+       "den": 2215,
+       "notebooks": 102,
+       "ci95": [
+        0.926696,
+        0.963239
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 4.067,
+     "introduced": 252,
+     "introduced_DIFF": 54,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.323529,
+       "num": 33,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.235294,
+        0.421569
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.72549,
+       "num": 74,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.637255,
+        0.803922
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "pandas evolution": 54
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "pandas evolution": 54
+     }
+    }
+   },
+   "pairs": {
+    "pyarrow_backend-p15": {
+     "cells": 997,
+     "notebooks": 102,
+     "engine_DIFF_pct": 2.808,
+     "pandas_DIFF_pct": 3.109,
+     "diff_pp": -0.301,
+     "ci95_pp": [
+      -1.954,
+      1.434
+     ],
+     "ci90_pp": [
+      -1.68,
+      1.146
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "pyarrow_backend-p30": {
+     "cells": 1010,
+     "notebooks": 102,
+     "engine_DIFF_pct": 2.673,
+     "pandas_DIFF_pct": 2.079,
+     "diff_pp": 0.594,
+     "ci95_pp": [
+      -0.749,
+      1.874
+     ],
+     "ci90_pp": [
+      -0.503,
+      1.672
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "modin-p15": {
+     "cells": 1833,
+     "notebooks": 102,
+     "engine_DIFF_pct": 2.182,
+     "pandas_DIFF_pct": 2.291,
+     "diff_pp": -0.109,
+     "ci95_pp": [
+      -1.165,
+      0.977
+     ],
+     "ci90_pp": [
+      -1.003,
+      0.798
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "modin-p30": {
+     "cells": 1938,
+     "notebooks": 102,
+     "engine_DIFF_pct": 2.116,
+     "pandas_DIFF_pct": 2.374,
+     "diff_pp": -0.258,
+     "ci95_pp": [
+      -1.266,
+      0.699
+     ],
+     "ci90_pp": [
+      -1.094,
+      0.554
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "fireducks-p15": {
+     "cells": 1137,
+     "notebooks": 102,
+     "engine_DIFF_pct": 2.551,
+     "pandas_DIFF_pct": 2.726,
+     "diff_pp": -0.176,
+     "ci95_pp": [
+      -1.402,
+      1.103
+     ],
+     "ci90_pp": [
+      -1.204,
+      0.889
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "fireducks-p30": {
+     "cells": 1206,
+     "notebooks": 102,
+     "engine_DIFF_pct": 2.653,
+     "pandas_DIFF_pct": 2.073,
+     "diff_pp": 0.58,
+     "ci95_pp": [
+      -0.792,
+      1.994
+     ],
+     "ci90_pp": [
+      -0.583,
+      1.777
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "bodo-p15": {
+     "cells": 715,
+     "notebooks": 102,
+     "engine_DIFF_pct": 5.874,
+     "pandas_DIFF_pct": 3.077,
+     "diff_pp": 2.797,
+     "ci95_pp": [
+      0.395,
+      5.468
+     ],
+     "ci90_pp": [
+      0.766,
+      5.034
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "more often"
+    },
+    "bodo-p30": {
+     "cells": 749,
+     "notebooks": 102,
+     "engine_DIFF_pct": 6.008,
+     "pandas_DIFF_pct": 1.869,
+     "diff_pp": 4.139,
+     "ci95_pp": [
+      2.182,
+      6.442
+     ],
+     "ci90_pp": [
+      2.469,
+      6.036
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "more often"
+    },
+    "dask-p15": {
+     "cells": 541,
+     "notebooks": 102,
+     "engine_DIFF_pct": 6.285,
+     "pandas_DIFF_pct": 3.512,
+     "diff_pp": 2.773,
+     "ci95_pp": [
+      -0.615,
+      5.854
+     ],
+     "ci90_pp": [
+      0.0,
+      5.339
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "not distinguishable"
+    },
+    "dask-p30": {
+     "cells": 539,
+     "notebooks": 102,
+     "engine_DIFF_pct": 6.308,
+     "pandas_DIFF_pct": 2.412,
+     "diff_pp": 3.896,
+     "ci95_pp": [
+      1.635,
+      6.139
+     ],
+     "ci90_pp": [
+      1.975,
+      5.79
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "more often"
+    }
+   },
+   "readings": {
+    "drop_in_within_2pp_of_both": true,
+    "drop_in_within_1pp_of_both": false,
+    "readings": {
+     "pyarrow_backend-p15": "not distinguishable",
+     "pyarrow_backend-p30": "not distinguishable",
+     "modin-p15": "not distinguishable",
+     "modin-p30": "not distinguishable",
+     "fireducks-p15": "not distinguishable",
+     "fireducks-p30": "not distinguishable",
+     "bodo-p15": "more often",
+     "bodo-p30": "more often",
+     "dask-p15": "not distinguishable",
+     "dask-p30": "more often"
+    },
+    "drop_in_diff_pp_range": [
+     -0.301,
+     0.594
+    ],
+    "drop_in_ci90_extremes": [
+     -1.68,
+     1.777
+    ],
+    "drop_in_max_abs_diff_pp": 0.594,
+    "drop_in_all_not_distinguishable": true,
+    "drop_in_outside_2pp": [],
+    "pair_cells_range": [
+     539,
+     1938
+    ],
+    "ratio_range_drop_in_and_pandas": [
+     3.407,
+     5.867
+    ],
+    "introduced_DIFF_notebooks_range": [
+     24,
+     45
+    ],
+    "notebooks": 102
+   }
+  },
+  "no_printed": {
+   "by_label": {
+    "bodo": {
+     "campaign": "conf_1x",
+     "all_cells": 2832,
+     "all_DIFF": 403,
+     "all_DIFF_share": 0.142302,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.053476,
+       "num": 40,
+       "den": 748,
+       "notebooks": 101,
+       "ci95": [
+        0.032737,
+        0.079462
+       ]
+      },
+      "le_E2": {
+       "share": 0.724599,
+       "num": 542,
+       "den": 748,
+       "notebooks": 101,
+       "ci95": [
+        0.675037,
+        0.768202
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 2.661,
+     "introduced": 415,
+     "introduced_DIFF": 80,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.421569,
+       "num": 43,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.323529,
+        0.519608
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.156863,
+       "num": 16,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.088235,
+        0.235294
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "representation choice": 33,
+      "parallel or lazy execution": 11,
+      "unattributed": 21,
+      "missing or erroneous support": 15
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "representation choice": 47,
+      "parallel or lazy execution": 12,
+      "missing or erroneous support": 20,
+      "undetermined": 1
+     }
+    },
+    "dask": {
+     "campaign": "conf_1x",
+     "all_cells": 2819,
+     "all_DIFF": 230,
+     "all_DIFF_share": 0.081589,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.062385,
+       "num": 34,
+       "den": 545,
+       "notebooks": 102,
+       "ci95": [
+        0.038277,
+        0.089495
+       ]
+      },
+      "le_E2": {
+       "share": 0.616514,
+       "num": 336,
+       "den": 545,
+       "notebooks": 102,
+       "ci95": [
+        0.542055,
+        0.678142
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 1.308,
+     "introduced": 328,
+     "introduced_DIFF": 46,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.235294,
+       "num": 24,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.156863,
+        0.323529
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.019608,
+       "num": 2,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.0,
+        0.04902
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "unattributed": 10,
+      "representation choice": 16,
+      "parallel or lazy execution": 20
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "missing or erroneous support": 3,
+      "representation choice": 16,
+      "parallel or lazy execution": 27
+     }
+    },
+    "fireducks": {
+     "campaign": "conf_1x",
+     "all_cells": 2809,
+     "all_DIFF": 335,
+     "all_DIFF_share": 0.11926,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.025682,
+       "num": 32,
+       "den": 1246,
+       "notebooks": 101,
+       "ci95": [
+        0.015292,
+        0.037858
+       ]
+      },
+      "le_E2": {
+       "share": 0.88764,
+       "num": 1106,
+       "den": 1246,
+       "notebooks": 101,
+       "ci95": [
+        0.853488,
+        0.915212
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 4.644,
+     "introduced": 274,
+     "introduced_DIFF": 58,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.372549,
+       "num": 38,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.284314,
+        0.470588
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.647059,
+       "num": 66,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.558824,
+        0.735294
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "parallel or lazy execution": 6,
+      "representation choice": 16,
+      "unattributed": 36
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "parallel or lazy execution": 14,
+      "representation choice": 25,
+      "missing or erroneous support": 19
+     }
+    },
+    "modin": {
+     "campaign": "conf_1x",
+     "all_cells": 2838,
+     "all_DIFF": 193,
+     "all_DIFF_share": 0.068006,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.019313,
+       "num": 45,
+       "den": 2330,
+       "notebooks": 102,
+       "ci95": [
+        0.013049,
+        0.026728
+       ]
+      },
+      "le_E2": {
+       "share": 0.945494,
+       "num": 2203,
+       "den": 2330,
+       "notebooks": 102,
+       "ci95": [
+        0.928506,
+        0.95964
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 3.521,
+     "introduced": 309,
+     "introduced_DIFF": 49,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.333333,
+       "num": 34,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.245098,
+        0.421569
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.676471,
+       "num": 69,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.578431,
+        0.764706
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "missing or erroneous support": 23,
+      "unattributed": 13,
+      "parallel or lazy execution": 10,
+      "representation choice": 3
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "missing or erroneous support": 27,
+      "parallel or lazy execution": 18,
+      "representation choice": 3,
+      "undetermined": 1
+     }
+    },
+    "pyarrow_backend": {
+     "campaign": "conf_1x",
+     "all_cells": 2802,
+     "all_DIFF": 416,
+     "all_DIFF_share": 0.148465,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.019373,
+       "num": 21,
+       "den": 1084,
+       "notebooks": 102,
+       "ci95": [
+        0.010397,
+        0.03001
+       ]
+      },
+      "le_E2": {
+       "share": 0.888376,
+       "num": 963,
+       "den": 1084,
+       "notebooks": 102,
+       "ci95": [
+        0.856463,
+        0.913257
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 7.664,
+     "introduced": 222,
+     "introduced_DIFF": 51,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.303922,
+       "num": 31,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.215686,
+        0.392157
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.715686,
+       "num": 73,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.627451,
+        0.803922
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "representation choice": 36,
+      "parallel or lazy execution": 1,
+      "unattributed": 14
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "representation choice": 45,
+      "parallel or lazy execution": 4,
+      "missing or erroneous support": 2
+     }
+    },
+    "p15": {
+     "campaign": "drift",
+     "all_cells": 2809,
+     "all_DIFF": 313,
+     "all_DIFF_share": 0.111428,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.023016,
+       "num": 49,
+       "den": 2129,
+       "notebooks": 102,
+       "ci95": [
+        0.015812,
+        0.031218
+       ]
+      },
+      "le_E2": {
+       "share": 0.916862,
+       "num": 1952,
+       "den": 2129,
+       "notebooks": 102,
+       "ci95": [
+        0.894392,
+        0.937531
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 4.841,
+     "introduced": 266,
+     "introduced_DIFF": 49,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.333333,
+       "num": 34,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.245098,
+        0.431373
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.980392,
+       "num": 100,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.95098,
+        1.0
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "pandas evolution": 49
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "pandas evolution": 49
+     }
+    },
+    "p30": {
+     "campaign": "drift",
+     "all_cells": 2811,
+     "all_DIFF": 289,
+     "all_DIFF_share": 0.10281,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.025282,
+       "num": 56,
+       "den": 2215,
+       "notebooks": 102,
+       "ci95": [
+        0.016326,
+        0.0353
+       ]
+      },
+      "le_E2": {
+       "share": 0.946727,
+       "num": 2097,
+       "den": 2215,
+       "notebooks": 102,
+       "ci95": [
+        0.926696,
+        0.963239
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 4.067,
+     "introduced": 252,
+     "introduced_DIFF": 54,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.323529,
+       "num": 33,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.235294,
+        0.421569
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.72549,
+       "num": 74,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.637255,
+        0.803922
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "pandas evolution": 54
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "pandas evolution": 54
+     }
+    }
+   },
+   "pairs": {
+    "pyarrow_backend-p15": {
+     "cells": 990,
+     "notebooks": 102,
+     "engine_DIFF_pct": 2.121,
+     "pandas_DIFF_pct": 3.131,
+     "diff_pp": -1.01,
+     "ci95_pp": [
+      -2.638,
+      0.693
+     ],
+     "ci90_pp": [
+      -2.378,
+      0.413
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "not distinguishable"
+    },
+    "pyarrow_backend-p30": {
+     "cells": 1003,
+     "notebooks": 101,
+     "engine_DIFF_pct": 1.994,
+     "pandas_DIFF_pct": 2.094,
+     "diff_pp": -0.1,
+     "ci95_pp": [
+      -1.291,
+      0.97
+     ],
+     "ci90_pp": [
+      -1.077,
+      0.815
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "modin-p15": {
+     "cells": 1832,
+     "notebooks": 102,
+     "engine_DIFF_pct": 2.129,
+     "pandas_DIFF_pct": 2.293,
+     "diff_pp": -0.164,
+     "ci95_pp": [
+      -1.218,
+      0.92
+     ],
+     "ci90_pp": [
+      -1.057,
+      0.729
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "modin-p30": {
+     "cells": 1936,
+     "notebooks": 102,
+     "engine_DIFF_pct": 2.014,
+     "pandas_DIFF_pct": 2.324,
+     "diff_pp": -0.31,
+     "ci95_pp": [
+      -1.302,
+      0.644
+     ],
+     "ci90_pp": [
+      -1.137,
+      0.496
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "fireducks-p15": {
+     "cells": 1135,
+     "notebooks": 101,
+     "engine_DIFF_pct": 2.379,
+     "pandas_DIFF_pct": 2.731,
+     "diff_pp": -0.352,
+     "ci95_pp": [
+      -1.529,
+      0.897
+     ],
+     "ci90_pp": [
+      -1.349,
+      0.688
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "fireducks-p30": {
+     "cells": 1204,
+     "notebooks": 101,
+     "engine_DIFF_pct": 2.492,
+     "pandas_DIFF_pct": 2.076,
+     "diff_pp": 0.415,
+     "ci95_pp": [
+      -0.941,
+      1.777
+     ],
+     "ci90_pp": [
+      -0.727,
+      1.569
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "bodo-p15": {
+     "cells": 711,
+     "notebooks": 101,
+     "engine_DIFF_pct": 5.345,
+     "pandas_DIFF_pct": 3.094,
+     "diff_pp": 2.25,
+     "ci95_pp": [
+      -0.151,
+      4.859
+     ],
+     "ci90_pp": [
+      0.246,
+      4.407
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "not distinguishable"
+    },
+    "bodo-p30": {
+     "cells": 744,
+     "notebooks": 101,
+     "engine_DIFF_pct": 5.376,
+     "pandas_DIFF_pct": 1.882,
+     "diff_pp": 3.495,
+     "ci95_pp": [
+      1.635,
+      5.779
+     ],
+     "ci90_pp": [
+      1.894,
+      5.367
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "more often"
+    },
+    "dask-p15": {
+     "cells": 541,
+     "notebooks": 102,
+     "engine_DIFF_pct": 6.285,
+     "pandas_DIFF_pct": 3.512,
+     "diff_pp": 2.773,
+     "ci95_pp": [
+      -0.615,
+      5.854
+     ],
+     "ci90_pp": [
+      0.0,
+      5.339
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "not distinguishable"
+    },
+    "dask-p30": {
+     "cells": 539,
+     "notebooks": 102,
+     "engine_DIFF_pct": 6.308,
+     "pandas_DIFF_pct": 2.412,
+     "diff_pp": 3.896,
+     "ci95_pp": [
+      1.635,
+      6.139
+     ],
+     "ci90_pp": [
+      1.975,
+      5.79
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "more often"
+    }
+   },
+   "readings": {
+    "drop_in_within_2pp_of_both": false,
+    "drop_in_within_1pp_of_both": false,
+    "readings": {
+     "pyarrow_backend-p15": "not distinguishable",
+     "pyarrow_backend-p30": "not distinguishable",
+     "modin-p15": "not distinguishable",
+     "modin-p30": "not distinguishable",
+     "fireducks-p15": "not distinguishable",
+     "fireducks-p30": "not distinguishable",
+     "bodo-p15": "not distinguishable",
+     "bodo-p30": "more often",
+     "dask-p15": "not distinguishable",
+     "dask-p30": "more often"
+    },
+    "drop_in_diff_pp_range": [
+     -1.01,
+     0.415
+    ],
+    "drop_in_ci90_extremes": [
+     -2.378,
+     1.569
+    ],
+    "drop_in_max_abs_diff_pp": 1.01,
+    "drop_in_all_not_distinguishable": true,
+    "drop_in_outside_2pp": [
+     "pyarrow_backend-p15"
+    ],
+    "pair_cells_range": [
+     539,
+     1936
+    ],
+    "ratio_range_drop_in_and_pandas": [
+     3.521,
+     7.664
+    ],
+    "introduced_DIFF_notebooks_range": [
+     24,
+     43
+    ],
+    "notebooks": 102
+   }
+  },
+  "no_printed_readers": {
+   "by_label": {
+    "bodo": {
+     "campaign": "conf_1x",
+     "all_cells": 2832,
+     "all_DIFF": 403,
+     "all_DIFF_share": 0.142302,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.060367,
+       "num": 46,
+       "den": 762,
+       "notebooks": 101,
+       "ci95": [
+        0.035756,
+        0.09119
+       ]
+      },
+      "le_E2": {
+       "share": 0.715223,
+       "num": 545,
+       "den": 762,
+       "notebooks": 101,
+       "ci95": [
+        0.660686,
+        0.763158
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 2.357,
+     "introduced": 426,
+     "introduced_DIFF": 86,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.421569,
+       "num": 43,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.323529,
+        0.519608
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.156863,
+       "num": 16,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.088235,
+        0.235294
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "representation choice": 33,
+      "parallel or lazy execution": 11,
+      "unattributed": 21,
+      "reader of a printed-form container": 6,
+      "missing or erroneous support": 15
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "representation choice": 47,
+      "parallel or lazy execution": 12,
+      "missing or erroneous support": 20,
+      "reader of a printed-form container": 6,
+      "undetermined": 1
+     }
+    },
+    "dask": {
+     "campaign": "conf_1x",
+     "all_cells": 2819,
+     "all_DIFF": 230,
+     "all_DIFF_share": 0.081589,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.062385,
+       "num": 34,
+       "den": 545,
+       "notebooks": 102,
+       "ci95": [
+        0.038277,
+        0.089495
+       ]
+      },
+      "le_E2": {
+       "share": 0.616514,
+       "num": 336,
+       "den": 545,
+       "notebooks": 102,
+       "ci95": [
+        0.542055,
+        0.678142
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 1.308,
+     "introduced": 328,
+     "introduced_DIFF": 46,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.235294,
+       "num": 24,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.156863,
+        0.323529
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.019608,
+       "num": 2,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.0,
+        0.04902
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "unattributed": 10,
+      "representation choice": 16,
+      "parallel or lazy execution": 20
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "missing or erroneous support": 3,
+      "representation choice": 16,
+      "parallel or lazy execution": 27
+     }
+    },
+    "fireducks": {
+     "campaign": "conf_1x",
+     "all_cells": 2809,
+     "all_DIFF": 335,
+     "all_DIFF_share": 0.11926,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.025682,
+       "num": 32,
+       "den": 1246,
+       "notebooks": 101,
+       "ci95": [
+        0.015292,
+        0.037858
+       ]
+      },
+      "le_E2": {
+       "share": 0.88764,
+       "num": 1106,
+       "den": 1246,
+       "notebooks": 101,
+       "ci95": [
+        0.853488,
+        0.915212
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 4.644,
+     "introduced": 274,
+     "introduced_DIFF": 58,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.372549,
+       "num": 38,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.284314,
+        0.470588
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.647059,
+       "num": 66,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.558824,
+        0.735294
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "parallel or lazy execution": 6,
+      "representation choice": 16,
+      "unattributed": 36
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "parallel or lazy execution": 14,
+      "representation choice": 25,
+      "missing or erroneous support": 19
+     }
+    },
+    "modin": {
+     "campaign": "conf_1x",
+     "all_cells": 2838,
+     "all_DIFF": 193,
+     "all_DIFF_share": 0.068006,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.020128,
+       "num": 47,
+       "den": 2335,
+       "notebooks": 102,
+       "ci95": [
+        0.013731,
+        0.027763
+       ]
+      },
+      "le_E2": {
+       "share": 0.944754,
+       "num": 2206,
+       "den": 2335,
+       "notebooks": 102,
+       "ci95": [
+        0.92768,
+        0.958904
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 3.379,
+     "introduced": 311,
+     "introduced_DIFF": 51,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.343137,
+       "num": 35,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.254902,
+        0.431373
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.676471,
+       "num": 69,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.578431,
+        0.764706
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "missing or erroneous support": 23,
+      "unattributed": 13,
+      "parallel or lazy execution": 10,
+      "representation choice": 3,
+      "reader of a printed-form container": 2
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "missing or erroneous support": 27,
+      "parallel or lazy execution": 18,
+      "representation choice": 3,
+      "reader of a printed-form container": 2,
+      "undetermined": 1
+     }
+    },
+    "pyarrow_backend": {
+     "campaign": "conf_1x",
+     "all_cells": 2802,
+     "all_DIFF": 416,
+     "all_DIFF_share": 0.148465,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.025547,
+       "num": 28,
+       "den": 1096,
+       "notebooks": 102,
+       "ci95": [
+        0.012325,
+        0.042918
+       ]
+      },
+      "le_E2": {
+       "share": 0.883212,
+       "num": 968,
+       "den": 1096,
+       "notebooks": 102,
+       "ci95": [
+        0.850434,
+        0.909434
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 5.811,
+     "introduced": 229,
+     "introduced_DIFF": 58,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.313725,
+       "num": 32,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.22549,
+        0.401961
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.715686,
+       "num": 73,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.627451,
+        0.803922
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "representation choice": 36,
+      "reader of a printed-form container": 7,
+      "parallel or lazy execution": 1,
+      "unattributed": 14
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "representation choice": 45,
+      "reader of a printed-form container": 7,
+      "parallel or lazy execution": 4,
+      "missing or erroneous support": 2
+     }
+    },
+    "p15": {
+     "campaign": "drift",
+     "all_cells": 2809,
+     "all_DIFF": 313,
+     "all_DIFF_share": 0.111428,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.023016,
+       "num": 49,
+       "den": 2129,
+       "notebooks": 102,
+       "ci95": [
+        0.015812,
+        0.031218
+       ]
+      },
+      "le_E2": {
+       "share": 0.916862,
+       "num": 1952,
+       "den": 2129,
+       "notebooks": 102,
+       "ci95": [
+        0.894392,
+        0.937531
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 4.841,
+     "introduced": 266,
+     "introduced_DIFF": 49,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.333333,
+       "num": 34,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.245098,
+        0.431373
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.980392,
+       "num": 100,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.95098,
+        1.0
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "pandas evolution": 49
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "pandas evolution": 49
+     }
+    },
+    "p30": {
+     "campaign": "drift",
+     "all_cells": 2811,
+     "all_DIFF": 289,
+     "all_DIFF_share": 0.10281,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.025282,
+       "num": 56,
+       "den": 2215,
+       "notebooks": 102,
+       "ci95": [
+        0.016326,
+        0.0353
+       ]
+      },
+      "le_E2": {
+       "share": 0.946727,
+       "num": 2097,
+       "den": 2215,
+       "notebooks": 102,
+       "ci95": [
+        0.926696,
+        0.963239
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 4.067,
+     "introduced": 252,
+     "introduced_DIFF": 54,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.323529,
+       "num": 33,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.235294,
+        0.421569
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.72549,
+       "num": 74,
+       "den": 102,
+       "notebooks": 102,
+       "ci95": [
+        0.637255,
+        0.803922
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "pandas evolution": 54
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "pandas evolution": 54
+     }
+    }
+   },
+   "pairs": {
+    "pyarrow_backend-p15": {
+     "cells": 992,
+     "notebooks": 102,
+     "engine_DIFF_pct": 2.218,
+     "pandas_DIFF_pct": 3.226,
+     "diff_pp": -1.008,
+     "ci95_pp": [
+      -2.632,
+      0.692
+     ],
+     "ci90_pp": [
+      -2.373,
+      0.412
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "not distinguishable"
+    },
+    "pyarrow_backend-p30": {
+     "cells": 1010,
+     "notebooks": 101,
+     "engine_DIFF_pct": 2.475,
+     "pandas_DIFF_pct": 2.079,
+     "diff_pp": 0.396,
+     "ci95_pp": [
+      -1.024,
+      2.015
+     ],
+     "ci90_pp": [
+      -0.784,
+      1.7
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "modin-p15": {
+     "cells": 1836,
+     "notebooks": 102,
+     "engine_DIFF_pct": 2.233,
+     "pandas_DIFF_pct": 2.288,
+     "diff_pp": -0.054,
+     "ci95_pp": [
+      -1.119,
+      1.044
+     ],
+     "ci90_pp": [
+      -0.958,
+      0.858
+     ],
+     "equivalent_within_1pp": true,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "modin-p30": {
+     "cells": 1937,
+     "notebooks": 102,
+     "engine_DIFF_pct": 2.013,
+     "pandas_DIFF_pct": 2.323,
+     "diff_pp": -0.31,
+     "ci95_pp": [
+      -1.302,
+      0.644
+     ],
+     "ci90_pp": [
+      -1.136,
+      0.495
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "fireducks-p15": {
+     "cells": 1135,
+     "notebooks": 101,
+     "engine_DIFF_pct": 2.379,
+     "pandas_DIFF_pct": 2.731,
+     "diff_pp": -0.352,
+     "ci95_pp": [
+      -1.529,
+      0.897
+     ],
+     "ci90_pp": [
+      -1.349,
+      0.688
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "fireducks-p30": {
+     "cells": 1204,
+     "notebooks": 101,
+     "engine_DIFF_pct": 2.492,
+     "pandas_DIFF_pct": 2.076,
+     "diff_pp": 0.415,
+     "ci95_pp": [
+      -0.941,
+      1.777
+     ],
+     "ci90_pp": [
+      -0.727,
+      1.569
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "bodo-p15": {
+     "cells": 713,
+     "notebooks": 101,
+     "engine_DIFF_pct": 5.47,
+     "pandas_DIFF_pct": 3.226,
+     "diff_pp": 2.244,
+     "ci95_pp": [
+      -0.15,
+      4.848
+     ],
+     "ci90_pp": [
+      0.245,
+      4.4
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "not distinguishable"
+    },
+    "bodo-p30": {
+     "cells": 753,
+     "notebooks": 101,
+     "engine_DIFF_pct": 5.71,
+     "pandas_DIFF_pct": 1.859,
+     "diff_pp": 3.851,
+     "ci95_pp": [
+      1.822,
+      6.266
+     ],
+     "ci90_pp": [
+      2.098,
+      5.859
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "more often"
+    },
+    "dask-p15": {
+     "cells": 541,
+     "notebooks": 102,
+     "engine_DIFF_pct": 6.285,
+     "pandas_DIFF_pct": 3.512,
+     "diff_pp": 2.773,
+     "ci95_pp": [
+      -0.615,
+      5.854
+     ],
+     "ci90_pp": [
+      0.0,
+      5.339
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "not distinguishable"
+    },
+    "dask-p30": {
+     "cells": 539,
+     "notebooks": 102,
+     "engine_DIFF_pct": 6.308,
+     "pandas_DIFF_pct": 2.412,
+     "diff_pp": 3.896,
+     "ci95_pp": [
+      1.635,
+      6.139
+     ],
+     "ci90_pp": [
+      1.975,
+      5.79
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "more often"
+    }
+   },
+   "readings": {
+    "drop_in_within_2pp_of_both": false,
+    "drop_in_within_1pp_of_both": true,
+    "readings": {
+     "pyarrow_backend-p15": "not distinguishable",
+     "pyarrow_backend-p30": "not distinguishable",
+     "modin-p15": "not distinguishable",
+     "modin-p30": "not distinguishable",
+     "fireducks-p15": "not distinguishable",
+     "fireducks-p30": "not distinguishable",
+     "bodo-p15": "not distinguishable",
+     "bodo-p30": "more often",
+     "dask-p15": "not distinguishable",
+     "dask-p30": "more often"
+    },
+    "drop_in_diff_pp_range": [
+     -1.008,
+     0.415
+    ],
+    "drop_in_ci90_extremes": [
+     -2.373,
+     1.7
+    ],
+    "drop_in_max_abs_diff_pp": 1.008,
+    "drop_in_all_not_distinguishable": true,
+    "drop_in_outside_2pp": [
+     "pyarrow_backend-p15"
+    ],
+    "pair_cells_range": [
+     539,
+     1937
+    ],
+    "ratio_range_drop_in_and_pandas": [
+     3.379,
+     5.811
+    ],
+    "introduced_DIFF_notebooks_range": [
+     24,
+     43
+    ],
+    "notebooks": 102
+   }
+  },
+  "no_reduced": {
+   "by_label": {
+    "bodo": {
+     "campaign": "conf_1x",
+     "all_cells": 2531,
+     "all_DIFF": 343,
+     "all_DIFF_share": 0.13552,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.056115,
+       "num": 39,
+       "den": 695,
+       "notebooks": 92,
+       "ci95": [
+        0.034226,
+        0.082981
+       ]
+      },
+      "le_E2": {
+       "share": 0.719424,
+       "num": 500,
+       "den": 695,
+       "notebooks": 92,
+       "ci95": [
+        0.665071,
+        0.765511
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 2.415,
+     "introduced": 388,
+     "introduced_DIFF": 71,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.423913,
+       "num": 39,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.326087,
+        0.521739
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.152174,
+       "num": 14,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.086957,
+        0.228261
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "representation choice": 25,
+      "parallel or lazy execution": 8,
+      "unattributed": 23,
+      "missing or erroneous support": 15
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "representation choice": 38,
+      "parallel or lazy execution": 9,
+      "harness artefact": 5,
+      "missing or erroneous support": 18,
+      "undetermined": 1
+     }
+    },
+    "dask": {
+     "campaign": "conf_1x",
+     "all_cells": 2514,
+     "all_DIFF": 192,
+     "all_DIFF_share": 0.076372,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.057026,
+       "num": 28,
+       "den": 491,
+       "notebooks": 92,
+       "ci95": [
+        0.035714,
+        0.078629
+       ]
+      },
+      "le_E2": {
+       "share": 0.621181,
+       "num": 305,
+       "den": 491,
+       "notebooks": 92,
+       "ci95": [
+        0.541349,
+        0.685613
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 1.339,
+     "introduced": 294,
+     "introduced_DIFF": 37,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.25,
+       "num": 23,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.163043,
+        0.336957
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.021739,
+       "num": 2,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.0,
+        0.054348
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "unattributed": 10,
+      "representation choice": 11,
+      "parallel or lazy execution": 16
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "missing or erroneous support": 3,
+      "representation choice": 11,
+      "parallel or lazy execution": 23
+     }
+    },
+    "fireducks": {
+     "campaign": "conf_1x",
+     "all_cells": 2505,
+     "all_DIFF": 296,
+     "all_DIFF_share": 0.118164,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.028998,
+       "num": 33,
+       "den": 1138,
+       "notebooks": 92,
+       "ci95": [
+        0.017602,
+        0.042445
+       ]
+      },
+      "le_E2": {
+       "share": 0.889279,
+       "num": 1012,
+       "den": 1138,
+       "notebooks": 92,
+       "ci95": [
+        0.852341,
+        0.918118
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 4.075,
+     "introduced": 255,
+     "introduced_DIFF": 57,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.402174,
+       "num": 37,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.304348,
+        0.5
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.663043,
+       "num": 61,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.565217,
+        0.76087
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "parallel or lazy execution": 4,
+      "representation choice": 16,
+      "unattributed": 37
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "parallel or lazy execution": 12,
+      "representation choice": 24,
+      "missing or erroneous support": 19,
+      "harness artefact": 2
+     }
+    },
+    "modin": {
+     "campaign": "conf_1x",
+     "all_cells": 2514,
+     "all_DIFF": 168,
+     "all_DIFF_share": 0.066826,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.019285,
+       "num": 41,
+       "den": 2126,
+       "notebooks": 92,
+       "ci95": [
+        0.0129,
+        0.027371
+       ]
+      },
+      "le_E2": {
+       "share": 0.9492,
+       "num": 2018,
+       "den": 2126,
+       "notebooks": 92,
+       "ci95": [
+        0.93201,
+        0.962506
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 3.465,
+     "introduced": 285,
+     "introduced_DIFF": 45,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.347826,
+       "num": 32,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.25,
+        0.445652
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.706522,
+       "num": 65,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.608696,
+        0.793478
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "unattributed": 12,
+      "missing or erroneous support": 21,
+      "parallel or lazy execution": 9,
+      "representation choice": 3
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "harness artefact": 2,
+      "missing or erroneous support": 24,
+      "parallel or lazy execution": 15,
+      "representation choice": 3,
+      "undetermined": 1
+     }
+    },
+    "pyarrow_backend": {
+     "campaign": "conf_1x",
+     "all_cells": 2504,
+     "all_DIFF": 368,
+     "all_DIFF_share": 0.146965,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.024121,
+       "num": 24,
+       "den": 995,
+       "notebooks": 92,
+       "ci95": [
+        0.013787,
+        0.036276
+       ]
+      },
+      "le_E2": {
+       "share": 0.889447,
+       "num": 885,
+       "den": 995,
+       "notebooks": 92,
+       "ci95": [
+        0.856691,
+        0.914912
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 6.093,
+     "introduced": 201,
+     "introduced_DIFF": 49,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.347826,
+       "num": 32,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.25,
+        0.445652
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.706522,
+       "num": 65,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.608696,
+        0.793478
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "representation choice": 29,
+      "unattributed": 20
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "representation choice": 37,
+      "harness artefact": 7,
+      "missing or erroneous support": 2,
+      "parallel or lazy execution": 3
+     }
+    },
+    "p15": {
+     "campaign": "drift",
+     "all_cells": 2504,
+     "all_DIFF": 274,
+     "all_DIFF_share": 0.109425,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.022063,
+       "num": 43,
+       "den": 1949,
+       "notebooks": 92,
+       "ci95": [
+        0.014878,
+        0.030088
+       ]
+      },
+      "le_E2": {
+       "share": 0.915341,
+       "num": 1784,
+       "den": 1949,
+       "notebooks": 92,
+       "ci95": [
+        0.890899,
+        0.937631
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 4.96,
+     "introduced": 247,
+     "introduced_DIFF": 43,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.336957,
+       "num": 31,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.23913,
+        0.434783
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.978261,
+       "num": 90,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.945652,
+        1.0
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "pandas evolution": 43
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "pandas evolution": 43
+     }
+    },
+    "p30": {
+     "campaign": "drift",
+     "all_cells": 2506,
+     "all_DIFF": 253,
+     "all_DIFF_share": 0.100958,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.021446,
+       "num": 43,
+       "den": 2005,
+       "notebooks": 92,
+       "ci95": [
+        0.014037,
+        0.030371
+       ]
+      },
+      "le_E2": {
+       "share": 0.952618,
+       "num": 1910,
+       "den": 2005,
+       "notebooks": 92,
+       "ci95": [
+        0.931034,
+        0.968858
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 4.708,
+     "introduced": 221,
+     "introduced_DIFF": 41,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.326087,
+       "num": 30,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.228261,
+        0.423913
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.728261,
+       "num": 67,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.641304,
+        0.815217
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "pandas evolution": 41
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "pandas evolution": 41
+     }
+    }
+   },
+   "pairs": {
+    "pyarrow_backend-p15": {
+     "cells": 903,
+     "notebooks": 92,
+     "engine_DIFF_pct": 2.658,
+     "pandas_DIFF_pct": 2.99,
+     "diff_pp": -0.332,
+     "ci95_pp": [
+      -1.959,
+      1.274
+     ],
+     "ci90_pp": [
+      -1.7,
+      1.028
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "pyarrow_backend-p30": {
+     "cells": 922,
+     "notebooks": 92,
+     "engine_DIFF_pct": 2.495,
+     "pandas_DIFF_pct": 1.627,
+     "diff_pp": 0.868,
+     "ci95_pp": [
+      -0.133,
+      1.921
+     ],
+     "ci90_pp": [
+      0.0,
+      1.763
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "modin-p15": {
+     "cells": 1673,
+     "notebooks": 92,
+     "engine_DIFF_pct": 2.212,
+     "pandas_DIFF_pct": 2.212,
+     "diff_pp": 0.0,
+     "ci95_pp": [
+      -1.15,
+      1.151
+     ],
+     "ci90_pp": [
+      -0.971,
+      0.959
+     ],
+     "equivalent_within_1pp": true,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "modin-p30": {
+     "cells": 1795,
+     "notebooks": 92,
+     "engine_DIFF_pct": 2.006,
+     "pandas_DIFF_pct": 2.006,
+     "diff_pp": 0.0,
+     "ci95_pp": [
+      -1.004,
+      0.974
+     ],
+     "ci90_pp": [
+      -0.844,
+      0.824
+     ],
+     "equivalent_within_1pp": true,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "fireducks-p15": {
+     "cells": 1031,
+     "notebooks": 92,
+     "engine_DIFF_pct": 2.716,
+     "pandas_DIFF_pct": 2.522,
+     "diff_pp": 0.194,
+     "ci95_pp": [
+      -0.988,
+      1.489
+     ],
+     "ci90_pp": [
+      -0.811,
+      1.259
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "fireducks-p30": {
+     "cells": 1112,
+     "notebooks": 92,
+     "engine_DIFF_pct": 2.788,
+     "pandas_DIFF_pct": 1.619,
+     "diff_pp": 1.169,
+     "ci95_pp": [
+      0.0,
+      2.461
+     ],
+     "ci90_pp": [
+      0.185,
+      2.237
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "not distinguishable"
+    },
+    "bodo-p15": {
+     "cells": 661,
+     "notebooks": 92,
+     "engine_DIFF_pct": 5.446,
+     "pandas_DIFF_pct": 3.177,
+     "diff_pp": 2.269,
+     "ci95_pp": [
+      -0.171,
+      5.061
+     ],
+     "ci90_pp": [
+      0.164,
+      4.576
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "not distinguishable"
+    },
+    "bodo-p30": {
+     "cells": 693,
+     "notebooks": 92,
+     "engine_DIFF_pct": 5.628,
+     "pandas_DIFF_pct": 1.876,
+     "diff_pp": 3.752,
+     "ci95_pp": [
+      1.713,
+      6.225
+     ],
+     "ci90_pp": [
+      2.03,
+      5.772
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "more often"
+    },
+    "dask-p15": {
+     "cells": 487,
+     "notebooks": 92,
+     "engine_DIFF_pct": 5.749,
+     "pandas_DIFF_pct": 3.696,
+     "diff_pp": 2.053,
+     "ci95_pp": [
+      -1.048,
+      4.753
+     ],
+     "ci90_pp": [
+      -0.487,
+      4.338
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "not distinguishable"
+    },
+    "dask-p30": {
+     "cells": 485,
+     "notebooks": 92,
+     "engine_DIFF_pct": 5.773,
+     "pandas_DIFF_pct": 1.856,
+     "diff_pp": 3.918,
+     "ci95_pp": [
+      1.342,
+      6.388
+     ],
+     "ci90_pp": [
+      1.806,
+      5.953
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "more often"
+    }
+   },
+   "readings": {
+    "drop_in_within_2pp_of_both": false,
+    "drop_in_within_1pp_of_both": true,
+    "readings": {
+     "pyarrow_backend-p15": "not distinguishable",
+     "pyarrow_backend-p30": "not distinguishable",
+     "modin-p15": "not distinguishable",
+     "modin-p30": "not distinguishable",
+     "fireducks-p15": "not distinguishable",
+     "fireducks-p30": "not distinguishable",
+     "bodo-p15": "not distinguishable",
+     "bodo-p30": "more often",
+     "dask-p15": "not distinguishable",
+     "dask-p30": "more often"
+    },
+    "drop_in_diff_pp_range": [
+     -0.332,
+     1.169
+    ],
+    "drop_in_ci90_extremes": [
+     -1.7,
+     2.237
+    ],
+    "drop_in_max_abs_diff_pp": 1.169,
+    "drop_in_all_not_distinguishable": true,
+    "drop_in_outside_2pp": [
+     "fireducks-p30"
+    ],
+    "pair_cells_range": [
+     485,
+     1795
+    ],
+    "ratio_range_drop_in_and_pandas": [
+     3.465,
+     6.093
+    ],
+    "introduced_DIFF_notebooks_range": [
+     23,
+     39
+    ],
+    "notebooks": 92
+   }
+  },
+  "no_both": {
+   "by_label": {
+    "bodo": {
+     "campaign": "conf_1x",
+     "all_cells": 2526,
+     "all_DIFF": 338,
+     "all_DIFF_share": 0.133808,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.049275,
+       "num": 34,
+       "den": 690,
+       "notebooks": 91,
+       "ci95": [
+        0.028571,
+        0.07578
+       ]
+      },
+      "le_E2": {
+       "share": 0.724638,
+       "num": 500,
+       "den": 690,
+       "notebooks": 91,
+       "ci95": [
+        0.671523,
+        0.769039
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 2.716,
+     "introduced": 383,
+     "introduced_DIFF": 66,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.402174,
+       "num": 37,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.304348,
+        0.5
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.152174,
+       "num": 14,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.086957,
+        0.228261
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "representation choice": 25,
+      "parallel or lazy execution": 8,
+      "unattributed": 18,
+      "missing or erroneous support": 15
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "representation choice": 38,
+      "parallel or lazy execution": 9,
+      "missing or erroneous support": 18,
+      "undetermined": 1
+     }
+    },
+    "dask": {
+     "campaign": "conf_1x",
+     "all_cells": 2514,
+     "all_DIFF": 192,
+     "all_DIFF_share": 0.076372,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.057026,
+       "num": 28,
+       "den": 491,
+       "notebooks": 92,
+       "ci95": [
+        0.035714,
+        0.078629
+       ]
+      },
+      "le_E2": {
+       "share": 0.621181,
+       "num": 305,
+       "den": 491,
+       "notebooks": 92,
+       "ci95": [
+        0.541349,
+        0.685613
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 1.339,
+     "introduced": 294,
+     "introduced_DIFF": 37,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.25,
+       "num": 23,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.163043,
+        0.336957
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.021739,
+       "num": 2,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.0,
+        0.054348
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "unattributed": 10,
+      "representation choice": 11,
+      "parallel or lazy execution": 16
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "missing or erroneous support": 3,
+      "representation choice": 11,
+      "parallel or lazy execution": 23
+     }
+    },
+    "fireducks": {
+     "campaign": "conf_1x",
+     "all_cells": 2503,
+     "all_DIFF": 294,
+     "all_DIFF_share": 0.117459,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.027289,
+       "num": 31,
+       "den": 1136,
+       "notebooks": 91,
+       "ci95": [
+        0.015913,
+        0.040422
+       ]
+      },
+      "le_E2": {
+       "share": 0.890845,
+       "num": 1012,
+       "den": 1136,
+       "notebooks": 91,
+       "ci95": [
+        0.853854,
+        0.920062
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 4.304,
+     "introduced": 253,
+     "introduced_DIFF": 55,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.380435,
+       "num": 35,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.282609,
+        0.478261
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.663043,
+       "num": 61,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.565217,
+        0.76087
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "parallel or lazy execution": 4,
+      "representation choice": 16,
+      "unattributed": 35
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "parallel or lazy execution": 12,
+      "representation choice": 24,
+      "missing or erroneous support": 19
+     }
+    },
+    "modin": {
+     "campaign": "conf_1x",
+     "all_cells": 2512,
+     "all_DIFF": 166,
+     "all_DIFF_share": 0.066083,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.018362,
+       "num": 39,
+       "den": 2124,
+       "notebooks": 92,
+       "ci95": [
+        0.012021,
+        0.026256
+       ]
+      },
+      "le_E2": {
+       "share": 0.950094,
+       "num": 2018,
+       "den": 2124,
+       "notebooks": 92,
+       "ci95": [
+        0.932992,
+        0.96342
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 3.599,
+     "introduced": 283,
+     "introduced_DIFF": 43,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.326087,
+       "num": 30,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.228261,
+        0.423913
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.706522,
+       "num": 65,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.608696,
+        0.793478
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "missing or erroneous support": 21,
+      "unattributed": 10,
+      "parallel or lazy execution": 9,
+      "representation choice": 3
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "missing or erroneous support": 24,
+      "parallel or lazy execution": 15,
+      "representation choice": 3,
+      "undetermined": 1
+     }
+    },
+    "pyarrow_backend": {
+     "campaign": "conf_1x",
+     "all_cells": 2497,
+     "all_DIFF": 361,
+     "all_DIFF_share": 0.144573,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.017206,
+       "num": 17,
+       "den": 988,
+       "notebooks": 92,
+       "ci95": [
+        0.008642,
+        0.027778
+       ]
+      },
+      "le_E2": {
+       "share": 0.895749,
+       "num": 885,
+       "den": 988,
+       "notebooks": 92,
+       "ci95": [
+        0.862913,
+        0.921167
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 8.402,
+     "introduced": 194,
+     "introduced_DIFF": 42,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.293478,
+       "num": 27,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.206522,
+        0.391304
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.706522,
+       "num": 65,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.608696,
+        0.793478
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "representation choice": 29,
+      "unattributed": 13
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "representation choice": 37,
+      "missing or erroneous support": 2,
+      "parallel or lazy execution": 3
+     }
+    },
+    "p15": {
+     "campaign": "drift",
+     "all_cells": 2504,
+     "all_DIFF": 274,
+     "all_DIFF_share": 0.109425,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.022063,
+       "num": 43,
+       "den": 1949,
+       "notebooks": 92,
+       "ci95": [
+        0.014878,
+        0.030088
+       ]
+      },
+      "le_E2": {
+       "share": 0.915341,
+       "num": 1784,
+       "den": 1949,
+       "notebooks": 92,
+       "ci95": [
+        0.890899,
+        0.937631
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 4.96,
+     "introduced": 247,
+     "introduced_DIFF": 43,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.336957,
+       "num": 31,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.23913,
+        0.434783
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.978261,
+       "num": 90,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.945652,
+        1.0
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "pandas evolution": 43
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "pandas evolution": 43
+     }
+    },
+    "p30": {
+     "campaign": "drift",
+     "all_cells": 2506,
+     "all_DIFF": 253,
+     "all_DIFF_share": 0.100958,
+     "clean_E2": {
+      "DIFF": {
+       "share": 0.021446,
+       "num": 43,
+       "den": 2005,
+       "notebooks": 92,
+       "ci95": [
+        0.014037,
+        0.030371
+       ]
+      },
+      "le_E2": {
+       "share": 0.952618,
+       "num": 1910,
+       "den": 2005,
+       "notebooks": 92,
+       "ci95": [
+        0.931034,
+        0.968858
+       ]
+      }
+     },
+     "ratio_all_over_clean_E2_DIFF": 4.708,
+     "introduced": 221,
+     "introduced_DIFF": 41,
+     "notebooks": {
+      "introduced_DIFF": {
+       "share": 0.326087,
+       "num": 30,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.228261,
+        0.423913
+       ]
+      },
+      "no_engine_failure": {
+       "share": 0.728261,
+       "num": 67,
+       "den": 92,
+       "notebooks": 92,
+       "ci95": [
+        0.641304,
+        0.815217
+       ]
+      }
+     },
+     "introduced_DIFF_by_mechanism_rules": {
+      "pandas evolution": 41
+     },
+     "introduced_DIFF_by_mechanism_with_hand": {
+      "pandas evolution": 41
+     }
+    }
+   },
+   "pairs": {
+    "pyarrow_backend-p15": {
+     "cells": 896,
+     "notebooks": 92,
+     "engine_DIFF_pct": 1.897,
+     "pandas_DIFF_pct": 3.013,
+     "diff_pp": -1.116,
+     "ci95_pp": [
+      -2.727,
+      0.456
+     ],
+     "ci90_pp": [
+      -2.457,
+      0.215
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "not distinguishable"
+    },
+    "pyarrow_backend-p30": {
+     "cells": 915,
+     "notebooks": 91,
+     "engine_DIFF_pct": 1.749,
+     "pandas_DIFF_pct": 1.639,
+     "diff_pp": 0.109,
+     "ci95_pp": [
+      -0.684,
+      0.895
+     ],
+     "ci90_pp": [
+      -0.55,
+      0.761
+     ],
+     "equivalent_within_1pp": true,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "modin-p15": {
+     "cells": 1672,
+     "notebooks": 92,
+     "engine_DIFF_pct": 2.153,
+     "pandas_DIFF_pct": 2.213,
+     "diff_pp": -0.06,
+     "ci95_pp": [
+      -1.206,
+      1.084
+     ],
+     "ci90_pp": [
+      -1.017,
+      0.897
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "modin-p30": {
+     "cells": 1793,
+     "notebooks": 92,
+     "engine_DIFF_pct": 1.896,
+     "pandas_DIFF_pct": 1.952,
+     "diff_pp": -0.056,
+     "ci95_pp": [
+      -1.051,
+      0.918
+     ],
+     "ci90_pp": [
+      -0.887,
+      0.765
+     ],
+     "equivalent_within_1pp": true,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "fireducks-p15": {
+     "cells": 1029,
+     "notebooks": 91,
+     "engine_DIFF_pct": 2.527,
+     "pandas_DIFF_pct": 2.527,
+     "diff_pp": 0.0,
+     "ci95_pp": [
+      -1.126,
+      1.265
+     ],
+     "ci90_pp": [
+      -0.962,
+      1.044
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": true,
+     "reading": "not distinguishable"
+    },
+    "fireducks-p30": {
+     "cells": 1110,
+     "notebooks": 91,
+     "engine_DIFF_pct": 2.613,
+     "pandas_DIFF_pct": 1.622,
+     "diff_pp": 0.991,
+     "ci95_pp": [
+      -0.168,
+      2.248
+     ],
+     "ci90_pp": [
+      0.0,
+      2.044
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "not distinguishable"
+    },
+    "bodo-p15": {
+     "cells": 657,
+     "notebooks": 91,
+     "engine_DIFF_pct": 4.871,
+     "pandas_DIFF_pct": 3.196,
+     "diff_pp": 1.674,
+     "ci95_pp": [
+      -0.771,
+      4.315
+     ],
+     "ci90_pp": [
+      -0.392,
+      3.886
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "not distinguishable"
+    },
+    "bodo-p30": {
+     "cells": 688,
+     "notebooks": 91,
+     "engine_DIFF_pct": 4.942,
+     "pandas_DIFF_pct": 1.89,
+     "diff_pp": 3.052,
+     "ci95_pp": [
+      1.102,
+      5.452
+     ],
+     "ci90_pp": [
+      1.35,
+      5.006
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "more often"
+    },
+    "dask-p15": {
+     "cells": 487,
+     "notebooks": 92,
+     "engine_DIFF_pct": 5.749,
+     "pandas_DIFF_pct": 3.696,
+     "diff_pp": 2.053,
+     "ci95_pp": [
+      -1.048,
+      4.753
+     ],
+     "ci90_pp": [
+      -0.487,
+      4.338
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "not distinguishable"
+    },
+    "dask-p30": {
+     "cells": 485,
+     "notebooks": 92,
+     "engine_DIFF_pct": 5.773,
+     "pandas_DIFF_pct": 1.856,
+     "diff_pp": 3.918,
+     "ci95_pp": [
+      1.342,
+      6.388
+     ],
+     "ci90_pp": [
+      1.806,
+      5.953
+     ],
+     "equivalent_within_1pp": false,
+     "equivalent_within_2pp": false,
+     "reading": "more often"
+    }
+   },
+   "readings": {
+    "drop_in_within_2pp_of_both": false,
+    "drop_in_within_1pp_of_both": true,
+    "readings": {
+     "pyarrow_backend-p15": "not distinguishable",
+     "pyarrow_backend-p30": "not distinguishable",
+     "modin-p15": "not distinguishable",
+     "modin-p30": "not distinguishable",
+     "fireducks-p15": "not distinguishable",
+     "fireducks-p30": "not distinguishable",
+     "bodo-p15": "not distinguishable",
+     "bodo-p30": "more often",
+     "dask-p15": "not distinguishable",
+     "dask-p30": "more often"
+    },
+    "drop_in_diff_pp_range": [
+     -1.116,
+     0.991
+    ],
+    "drop_in_ci90_extremes": [
+     -2.457,
+     2.044
+    ],
+    "drop_in_max_abs_diff_pp": 1.116,
+    "drop_in_all_not_distinguishable": true,
+    "drop_in_outside_2pp": [
+     "fireducks-p30",
+     "pyarrow_backend-p15"
+    ],
+    "pair_cells_range": [
+     485,
+     1793
+    ],
+    "ratio_range_drop_in_and_pandas": [
+     3.599,
+     8.402
+    ],
+    "introduced_DIFF_notebooks_range": [
+     23,
+     37
+    ],
+    "notebooks": 92
+   }
+  }
+ },
+ "localization": {
+  "by_label": {
+   "bodo": {
+    "introduced_by_clean": {
+     "E0": 140,
+     "E3": 130,
+     "E2": 119,
+     "E4": 31
+    },
+    "introduced_DIFF_by_clean": {
+     "E3": 33,
+     "E2": 33,
+     "E4": 9,
+     "E0": 10
+    },
+    "introduced_DIFF_by_clean_no_printed": {
+     "E3": 33,
+     "E2": 31,
+     "E4": 9,
+     "E0": 7
+    },
+    "clean_E2_DIFF_by_clean_and_kind": {
+     "E2|introduced": 33,
+     "E0|introduced": 10,
+     "E1|propagated": 2
+    }
+   },
+   "dask": {
+    "introduced_by_clean": {
+     "E0": 158,
+     "E2": 87,
+     "E3": 41,
+     "E4": 42
+    },
+    "introduced_DIFF_by_clean": {
+     "E2": 28,
+     "E0": 5,
+     "E4": 10,
+     "E3": 3
+    },
+    "introduced_DIFF_by_clean_no_printed": {
+     "E2": 28,
+     "E0": 5,
+     "E4": 10,
+     "E3": 3
+    },
+    "clean_E2_DIFF_by_clean_and_kind": {
+     "E2|introduced": 28,
+     "E0|introduced": 5,
+     "E1|propagated": 1
+    }
+   },
+   "fireducks": {
+    "introduced_by_clean": {
+     "E0": 218,
+     "E3": 41,
+     "E2": 14,
+     "E4": 2,
+     "E1": 1
+    },
+    "introduced_DIFF_by_clean": {
+     "E0": 29,
+     "E3": 26,
+     "E2": 5
+    },
+    "introduced_DIFF_by_clean_no_printed": {
+     "E0": 28,
+     "E3": 26,
+     "E2": 4
+    },
+    "clean_E2_DIFF_by_clean_and_kind": {
+     "E0|introduced": 29,
+     "E2|introduced": 5
+    }
+   },
+   "modin": {
+    "introduced_by_clean": {
+     "E0": 296,
+     "E2": 8,
+     "E4": 6,
+     "E1": 1
+    },
+    "introduced_DIFF_by_clean": {
+     "E0": 43,
+     "E2": 2,
+     "E4": 6
+    },
+    "introduced_DIFF_by_clean_no_printed": {
+     "E0": 42,
+     "E2": 1,
+     "E4": 6
+    },
+    "clean_E2_DIFF_by_clean_and_kind": {
+     "E0|introduced": 43,
+     "E2|introduced": 2,
+     "E1|propagated": 2
+    }
+   },
+   "pyarrow_backend": {
+    "introduced_by_clean": {
+     "E0": 128,
+     "E3": 63,
+     "E2": 37,
+     "E4": 1
+    },
+    "introduced_DIFF_by_clean": {
+     "E3": 31,
+     "E2": 21,
+     "E0": 5,
+     "E4": 1
+    },
+    "introduced_DIFF_by_clean_no_printed": {
+     "E3": 31,
+     "E2": 17,
+     "E4": 1,
+     "E0": 2
+    },
+    "clean_E2_DIFF_by_clean_and_kind": {
+     "E2|introduced": 21,
+     "E0|introduced": 5,
+     "E1|propagated": 2
+    }
+   },
+   "p15": {
+    "introduced_by_clean": {
+     "E0": 223,
+     "E2": 43
+    },
+    "introduced_DIFF_by_clean": {
+     "E2": 10,
+     "E0": 39
+    },
+    "introduced_DIFF_by_clean_no_printed": {
+     "E2": 10,
+     "E0": 39
+    },
+    "clean_E2_DIFF_by_clean_and_kind": {
+     "E2|introduced": 10,
+     "E0|introduced": 39
+    }
+   },
+   "p30": {
+    "introduced_by_clean": {
+     "E0": 148,
+     "E2": 104
+    },
+    "introduced_DIFF_by_clean": {
+     "E2": 53,
+     "E0": 1
+    },
+    "introduced_DIFF_by_clean_no_printed": {
+     "E2": 53,
+     "E0": 1
+    },
+    "clean_E2_DIFF_by_clean_and_kind": {
+     "E2|introduced": 53,
+     "E0|introduced": 1,
+     "E1|propagated": 2
+    }
+   }
+  },
+  "totals": {
+   "engines": {
+    "introduced_DIFF": 300,
+    "introduced_DIFF_strict_clean": 92,
+    "introduced_DIFF_by_clean": {
+     "E3": 93,
+     "E2": 89,
+     "E0": 92,
+     "E4": 26
+    },
+    "introduced_DIFF_no_printed": 284,
+    "introduced_DIFF_no_printed_strict_clean": 84
+   },
+   "pandas": {
+    "introduced_DIFF": 103,
+    "introduced_DIFF_strict_clean": 40,
+    "introduced_DIFF_by_clean": {
+     "E2": 63,
+     "E0": 40
+    },
+    "introduced_DIFF_no_printed": 103,
+    "introduced_DIFF_no_printed_strict_clean": 40
+   }
+  },
+  "introduced_by_cause_clean_class": {
+   "api_added_later": {
+    "E0|other": 1
+   },
+   "approximate_quantile": {
+    "E3|DIFF": 6,
+    "E2|DIFF": 2,
+    "E4|DIFF": 4
+   },
+   "arrow_backed_dtypes": {
+    "E0|other": 263,
+    "E3|DIFF": 9,
+    "E3|other": 10,
+    "E4|DIFF": 5,
+    "E2|other": 17,
+    "E2|DIFF": 14
+   },
+   "arrow_dtype_errors": {
+    "E0|other": 13,
+    "E3|other": 29,
+    "E4|other": 1,
+    "E2|other": 6
+   },
+   "axis_names_lost": {
+    "E3|other": 1,
+    "E0|other": 23,
+    "E4|DIFF": 4,
+    "E2|other": 1,
+    "E0|DIFF": 4
+   },
+   "chunked_csv_type_inference": {
+    "E0|DIFF": 4
+   },
+   "cow_chained_assignment": {
+    "E3|DIFF": 7,
+    "E0|DIFF": 4,
+    "E2|DIFF": 20,
+    "E2|other": 1
+   },
+   "cr_only_line_endings": {
+    "E0|DIFF": 1
+   },
+   "datetime_resolution_inference": {
+    "E2|DIFF": 8
+   },
+   "describe_datetime_numeric": {
+    "E0|DIFF": 4
+   },
+   "dtype_inference_differs": {
+    "E0|other": 14
+   },
+   "engine_bug_error": {
+    "E3|other": 76,
+    "E4|other": 31,
+    "E2|other": 64,
+    "E0|other": 101
+   },
+   "engine_bug_silent": {
+    "E2|DIFF": 10,
+    "E3|DIFF": 5,
+    "E0|DIFF": 10
+   },
+   "engine_corr_wrong_values": {
+    "E0|DIFF": 6,
+    "E4|DIFF": 6
+   },
+   "engine_crash_timeout": {
+    "E3|other": 1,
+    "E2|other": 4,
+    "E0|other": 6
+   },
+   "engine_unsupported_api": {
+    "E2|other": 56,
+    "E0|other": 13,
+    "E4|other": 13,
+    "E3|other": 31
+   },
+   "float_rounding_within_tolerance": {
+    "E0|other": 223,
+    "E2|DIFF": 3
+   },
+   "get_dummies_bool": {
+    "E0|DIFF": 12,
+    "E2|DIFF": 2
+   },
+   "index_not_preserved": {
+    "E2|other": 21,
+    "E3|other": 25,
+    "E2|DIFF": 1,
+    "E0|other": 15,
+    "E1|other": 1
+   },
+   "int_float_nullable_repr": {
+    "E0|DIFF": 1,
+    "E0|other": 36,
+    "E2|DIFF": 1
+   },
+   "int_key_positional_fallback_removed": {
+    "E2|other": 7
+   },
+   "lazy_partition_model": {
+    "E2|other": 4,
+    "E2|DIFF": 12,
+    "E0|DIFF": 1,
+    "E4|other": 11,
+    "E3|other": 5,
+    "E0|other": 3,
+    "E3|DIFF": 1,
+    "E4|DIFF": 1
+   },
+   "loc_setitem_inplace": {
+    "E0|DIFF": 1
+   },
+   "merge_row_order": {
+    "E0|DIFF": 4,
+    "E2|DIFF": 1,
+    "E0|other": 4
+   },
+   "missing_sentinel_repr": {
+    "E0|other": 64,
+    "E2|other": 1
+   },
+   "na_comparison_masks": {
+    "E3|DIFF": 6
+   },
+   "numeric_dtype_preservation": {
+    "E0|other": 16,
+    "E0|DIFF": 1
+   },
+   "numeric_only_default": {
+    "E2|DIFF": 1
+   },
+   "offset_alias_removed": {
+    "E0|other": 2,
+    "E2|other": 16
+   },
+   "p3_stricter_validation": {
+    "E2|other": 1
+   },
+   "partitioned_type_inference": {
+    "E0|other": 41,
+    "E0|DIFF": 5
+   },
+   "read_csv_big_int_python_ints": {
+    "E0|DIFF": 1
+   },
+   "read_csv_none_as_na": {
+    "E0|DIFF": 10
+   },
+   "removed_deprecated_api": {
+    "E2|other": 15
+   },
+   "row_order_ties": {
+    "E2|DIFF": 2,
+    "E4|DIFF": 1,
+    "E3|DIFF": 4,
+    "E0|other": 94,
+    "E0|DIFF": 10,
+    "E1|other": 1,
+    "E2|other": 5
+   },
+   "scalar_type_numpy": {
+    "E0|other": 11
+   },
+   "setitem_incompatible_dtype_raises": {
+    "E0|other": 1,
+    "E2|other": 2
+   },
+   "str_default_dtype": {
+    "E0|other": 143,
+    "E2|DIFF": 11,
+    "E2|other": 3
+   },
+   "str_dtype_errors": {
+    "E2|other": 1,
+    "E0|other": 1
+   },
+   "str_dtype_na_semantics": {
+    "E2|DIFF": 3
+   },
+   "str_dtype_object_checks": {
+    "E4|DIFF": 5,
+    "E2|other": 2,
+    "E2|DIFF": 28,
+    "E3|DIFF": 17,
+    "E0|DIFF": 4,
+    "E3|other": 2
+   },
+   "str_replace_regex_default": {
+    "E0|DIFF": 1
+   },
+   "to_datetime_consistent_format": {
+    "E0|DIFF": 1
+   },
+   "unattributed": {
+    "E2|DIFF": 30,
+    "E3|DIFF": 38,
+    "E0|DIFF": 43,
+    "E0|other": 4,
+    "E3|other": 2
+   },
+   "value_counts_naming": {
+    "E0|other": 87,
+    "E2|DIFF": 3,
+    "E0|DIFF": 4,
+    "E2|other": 33
+   }
+  }
+ },
+ "cause_evidence": {
+  "causes": 44,
+  "symptom_level": [
+   "dtype_inference_differs",
+   "engine_bug_error",
+   "engine_bug_silent",
+   "engine_crash_timeout",
+   "engine_unsupported_api"
+  ],
+  "mechanism_causes": 39,
+  "mechanism_causes_reproduced": 33,
+  "symptom_causes_reproduced": 3,
+  "reproduced_total": 36
+ },
+ "order_rule": {
+  "cells": 59,
+  "notebooks": 10,
+  "by_clean": {
+   "E4": 50,
+   "E1": 9
+  },
+  "by_label": {
+   "bodo": 14,
+   "dask": 3,
+   "fireducks": 13,
+   "modin": 6,
+   "pyarrow_backend": 5,
+   "p15": 15,
+   "p30": 2,
+   "bodo_dw": 1
+  },
+  "positional_op_in_code": 37,
+  "in_clean_E2_view": 9,
+  "rule": "rootcause_taxonomy.classify_cell: an introduced cell (class coarser than its clean level) that no cause rule matches, with class DIFF and clean level E1 or E4, is counted as propagated",
+  "list": [
+   {
+    "campaign": "conf_1x",
+    "label": "bodo",
+    "nb": "akshaypetkar/supermarket-sales-analysis",
+    "i": 20,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "bodo",
+    "nb": "luizep/movieslens20m",
+    "i": 5,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "bodo",
+    "nb": "luizep/movieslens20m",
+    "i": 9,
+    "clean": "E4",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "bodo",
+    "nb": "santhoshrao1995/assi01-santhosh-19101036",
+    "i": 31,
+    "clean": "E1",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "bodo",
+    "nb": "santhoshrao1995/assi01-santhosh-19101036",
+    "i": 34,
+    "clean": "E1",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "bodo",
+    "nb": "stefanjov/my-first-normalize-on-big-dataset",
+    "i": 12,
+    "clean": "E4",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "bodo",
+    "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+    "i": 17,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "bodo",
+    "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+    "i": 18,
+    "clean": "E4",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "bodo",
+    "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+    "i": 29,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "bodo",
+    "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+    "i": 33,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "bodo",
+    "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+    "i": 36,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "bodo",
+    "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+    "i": 38,
+    "clean": "E4",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "bodo",
+    "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+    "i": 46,
+    "clean": "E4",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "bodo",
+    "nb": "yonelanuba/elo-merchant-by-yonela",
+    "i": 67,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "dask",
+    "nb": "luizep/movieslens20m",
+    "i": 5,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "dask",
+    "nb": "luizep/movieslens20m",
+    "i": 9,
+    "clean": "E4",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "dask",
+    "nb": "willkoehrsen/start-here-a-gentle-introduction",
+    "i": 43,
+    "clean": "E1",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "fireducks",
+    "nb": "akshaypetkar/supermarket-sales-analysis",
+    "i": 20,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "fireducks",
+    "nb": "akshaypetkar/supermarket-sales-analysis",
+    "i": 24,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "fireducks",
+    "nb": "luizep/movieslens20m",
+    "i": 5,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "fireducks",
+    "nb": "luizep/movieslens20m",
+    "i": 35,
+    "clean": "E4",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "fireducks",
+    "nb": "shivavashishtha/zomato-eda-tutorial",
+    "i": 56,
+    "clean": "E4",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "fireducks",
+    "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+    "i": 17,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "fireducks",
+    "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+    "i": 18,
+    "clean": "E4",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "fireducks",
+    "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+    "i": 29,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "fireducks",
+    "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+    "i": 30,
+    "clean": "E4",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "fireducks",
+    "nb": "yonelanuba/elo-merchant-by-yonela",
+    "i": 67,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "fireducks",
+    "nb": "yonelanuba/elo-merchant-by-yonela",
+    "i": 72,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "fireducks",
+    "nb": "yonelanuba/elo-merchant-by-yonela",
+    "i": 73,
+    "clean": "E4",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "fireducks",
+    "nb": "yuliagm/talkingdata-eda-plus-time-patterns",
+    "i": 15,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "modin",
+    "nb": "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+    "i": 28,
+    "clean": "E4",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "modin",
+    "nb": "luizep/movieslens20m",
+    "i": 5,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "modin",
+    "nb": "santhoshrao1995/assi01-santhosh-19101036",
+    "i": 31,
+    "clean": "E1",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "modin",
+    "nb": "santhoshrao1995/assi01-santhosh-19101036",
+    "i": 32,
+    "clean": "E4",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "modin",
+    "nb": "santhoshrao1995/assi01-santhosh-19101036",
+    "i": 34,
+    "clean": "E1",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "modin",
+    "nb": "shivavashishtha/zomato-eda-tutorial",
+    "i": 56,
+    "clean": "E4",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "pyarrow_backend",
+    "nb": "luizep/movieslens20m",
+    "i": 5,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "pyarrow_backend",
+    "nb": "luizep/movieslens20m",
+    "i": 9,
+    "clean": "E4",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "pyarrow_backend",
+    "nb": "santhoshrao1995/assi01-santhosh-19101036",
+    "i": 31,
+    "clean": "E1",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "pyarrow_backend",
+    "nb": "santhoshrao1995/assi01-santhosh-19101036",
+    "i": 34,
+    "clean": "E1",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "conf_1x",
+    "label": "pyarrow_backend",
+    "nb": "shivavashishtha/zomato-eda-tutorial",
+    "i": 56,
+    "clean": "E4",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "drift",
+    "label": "p15",
+    "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+    "i": 17,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "drift",
+    "label": "p15",
+    "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+    "i": 18,
+    "clean": "E4",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "drift",
+    "label": "p15",
+    "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+    "i": 29,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "drift",
+    "label": "p15",
+    "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+    "i": 33,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "drift",
+    "label": "p15",
+    "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+    "i": 48,
+    "clean": "E4",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "drift",
+    "label": "p15",
+    "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+    "i": 53,
+    "clean": "E4",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "drift",
+    "label": "p15",
+    "nb": "yonelanuba/elo-merchant-by-yonela",
+    "i": 67,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "drift",
+    "label": "p15",
+    "nb": "yonelanuba/elo-merchant-by-yonela",
+    "i": 72,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "drift",
+    "label": "p15",
+    "nb": "yonelanuba/elo-merchant-by-yonela",
+    "i": 85,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "drift",
+    "label": "p15",
+    "nb": "yonelanuba/elo-merchant-by-yonela",
+    "i": 87,
+    "clean": "E4",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "drift",
+    "label": "p15",
+    "nb": "yonelanuba/elo-merchant-by-yonela",
+    "i": 109,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "drift",
+    "label": "p15",
+    "nb": "yonelanuba/elo-merchant-by-yonela",
+    "i": 110,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "drift",
+    "label": "p15",
+    "nb": "yonelanuba/elo-merchant-by-yonela",
+    "i": 115,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "drift",
+    "label": "p15",
+    "nb": "yonelanuba/elo-merchant-by-yonela",
+    "i": 117,
+    "clean": "E4",
+    "positional_op_in_code": false
+   },
+   {
+    "campaign": "drift",
+    "label": "p15",
+    "nb": "yonelanuba/elo-merchant-by-yonela",
+    "i": 136,
+    "clean": "E4",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "drift",
+    "label": "p30",
+    "nb": "santhoshrao1995/assi01-santhosh-19101036",
+    "i": 31,
+    "clean": "E1",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "drift",
+    "label": "p30",
+    "nb": "santhoshrao1995/assi01-santhosh-19101036",
+    "i": 34,
+    "clean": "E1",
+    "positional_op_in_code": true
+   },
+   {
+    "campaign": "pilot",
+    "label": "bodo_dw",
+    "nb": "yonelanuba/elo-merchant-by-yonela",
+    "i": 67,
+    "clean": "E4",
+    "positional_op_in_code": true
+   }
+  ]
+ },
+ "strict_rule_notebooks": {
+  "bodo": {
+   "rule": 45,
+   "stated_rule_alone": 47
+  },
+  "dask": {
+   "rule": 24,
+   "stated_rule_alone": 24
+  },
+  "fireducks": {
+   "rule": 40,
+   "stated_rule_alone": 43
+  },
+  "modin": {
+   "rule": 36,
+   "stated_rule_alone": 36
+  },
+  "pyarrow_backend": {
+   "rule": 36,
+   "stated_rule_alone": 38
+  },
+  "p15": {
+   "rule": 34,
+   "stated_rule_alone": 36
+  },
+  "p30": {
+   "rule": 33,
+   "stated_rule_alone": 33
+  }
+ },
+ "downstream_of_printed": {
+  "cells": 47,
+  "by_cls": {
+   "E2": 9,
+   "ERR": 11,
+   "DIFF": 15,
+   "E3": 8,
+   "CRASH": 1,
+   "NOOUT": 1,
+   "E0": 2
+  },
+  "other_inputs_le_E2": 32,
+  "list": [
+   {
+    "label": "bodo",
+    "nb": "balajivenkat96/solar-plants",
+    "printed_cell": 18,
+    "cell": 20,
+    "cls": "E2",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "split_by_inverters"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "bodo",
+    "nb": "balajivenkat96/solar-plants",
+    "printed_cell": 18,
+    "cell": 21,
+    "cls": "ERR",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "split_by_inverters"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "bodo",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 2,
+    "cls": "DIFF",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "bodo",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 3,
+    "cls": "ERR",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "bodo",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 8,
+    "cls": "DIFF",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "bodo",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 9,
+    "cls": "ERR",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "bodo",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 10,
+    "cls": "ERR",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "bodo",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 11,
+    "cls": "DIFF",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "bodo",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 12,
+    "cls": "DIFF",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "bodo",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 13,
+    "cls": "ERR",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "bodo",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 18,
+    "cls": "DIFF",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "bodo",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 19,
+    "cls": "DIFF",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "bodo",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 20,
+    "cls": "E2",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "bodo",
+    "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+    "printed_cell": 1,
+    "cell": 5,
+    "cls": "E3",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "full_data"
+    ],
+    "other_inputs_le_E2": false
+   },
+   {
+    "label": "bodo",
+    "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+    "printed_cell": 1,
+    "cell": 6,
+    "cls": "E3",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "full_data"
+    ],
+    "other_inputs_le_E2": false
+   },
+   {
+    "label": "bodo",
+    "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+    "printed_cell": 1,
+    "cell": 7,
+    "cls": "E3",
+    "clean": "E3",
+    "kind": "propagated",
+    "names": [
+     "full_data"
+    ],
+    "other_inputs_le_E2": false
+   },
+   {
+    "label": "bodo",
+    "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+    "printed_cell": 1,
+    "cell": 8,
+    "cls": "ERR",
+    "clean": "E3",
+    "kind": "introduced",
+    "names": [
+     "full_data"
+    ],
+    "other_inputs_le_E2": false
+   },
+   {
+    "label": "bodo",
+    "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+    "printed_cell": 1,
+    "cell": 9,
+    "cls": "CRASH",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "full_data"
+    ],
+    "other_inputs_le_E2": false
+   },
+   {
+    "label": "bodo",
+    "nb": "taylorhickem/singapore-building-energy",
+    "printed_cell": 3,
+    "cell": 9,
+    "cls": "E2",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "tables"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "fireducks",
+    "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+    "printed_cell": 1,
+    "cell": 5,
+    "cls": "E3",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "full_data"
+    ],
+    "other_inputs_le_E2": false
+   },
+   {
+    "label": "fireducks",
+    "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+    "printed_cell": 1,
+    "cell": 6,
+    "cls": "E3",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "full_data"
+    ],
+    "other_inputs_le_E2": false
+   },
+   {
+    "label": "fireducks",
+    "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+    "printed_cell": 1,
+    "cell": 7,
+    "cls": "E3",
+    "clean": "E3",
+    "kind": "propagated",
+    "names": [
+     "full_data"
+    ],
+    "other_inputs_le_E2": false
+   },
+   {
+    "label": "fireducks",
+    "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+    "printed_cell": 1,
+    "cell": 8,
+    "cls": "ERR",
+    "clean": "E3",
+    "kind": "introduced",
+    "names": [
+     "full_data"
+    ],
+    "other_inputs_le_E2": false
+   },
+   {
+    "label": "fireducks",
+    "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+    "printed_cell": 1,
+    "cell": 9,
+    "cls": "ERR",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "full_data"
+    ],
+    "other_inputs_le_E2": false
+   },
+   {
+    "label": "fireducks",
+    "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+    "printed_cell": 1,
+    "cell": 10,
+    "cls": "ERR",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "full_data"
+    ],
+    "other_inputs_le_E2": false
+   },
+   {
+    "label": "fireducks",
+    "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+    "printed_cell": 1,
+    "cell": 11,
+    "cls": "ERR",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "full_data"
+    ],
+    "other_inputs_le_E2": false
+   },
+   {
+    "label": "fireducks",
+    "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+    "printed_cell": 1,
+    "cell": 14,
+    "cls": "ERR",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "full_data"
+    ],
+    "other_inputs_le_E2": false
+   },
+   {
+    "label": "modin",
+    "nb": "balajivenkat96/solar-plants",
+    "printed_cell": 21,
+    "cell": 31,
+    "cls": "NOOUT",
+    "clean": null,
+    "kind": null,
+    "names": [
+     "inverter_daily_power"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "modin",
+    "nb": "balajivenkat96/solar-plants",
+    "printed_cell": 21,
+    "cell": 32,
+    "cls": "E2",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "inverter_daily_power"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "modin",
+    "nb": "j0thu777/onlineretailanalysis",
+    "printed_cell": 20,
+    "cell": 21,
+    "cls": "DIFF",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "new_df"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "modin",
+    "nb": "j0thu777/onlineretailanalysis",
+    "printed_cell": 20,
+    "cell": 22,
+    "cls": "DIFF",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "new_df"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "modin",
+    "nb": "j0thu777/onlineretailanalysis",
+    "printed_cell": 20,
+    "cell": 23,
+    "cls": "E0",
+    "clean": null,
+    "kind": null,
+    "names": [
+     "new_df"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "modin",
+    "nb": "j0thu777/onlineretailanalysis",
+    "printed_cell": 20,
+    "cell": 24,
+    "cls": "E0",
+    "clean": null,
+    "kind": null,
+    "names": [
+     "new_df"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "pyarrow_backend",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 2,
+    "cls": "DIFF",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "pyarrow_backend",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 3,
+    "cls": "E2",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "pyarrow_backend",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 8,
+    "cls": "DIFF",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "pyarrow_backend",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 9,
+    "cls": "DIFF",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "pyarrow_backend",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 10,
+    "cls": "DIFF",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "pyarrow_backend",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 11,
+    "cls": "DIFF",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "pyarrow_backend",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 12,
+    "cls": "DIFF",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "pyarrow_backend",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 13,
+    "cls": "E2",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "pyarrow_backend",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 18,
+    "cls": "DIFF",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "pyarrow_backend",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 19,
+    "cls": "E2",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "pyarrow_backend",
+    "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+    "printed_cell": 1,
+    "cell": 20,
+    "cls": "E2",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "data"
+    ],
+    "other_inputs_le_E2": true
+   },
+   {
+    "label": "pyarrow_backend",
+    "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+    "printed_cell": 1,
+    "cell": 5,
+    "cls": "E3",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "full_data"
+    ],
+    "other_inputs_le_E2": false
+   },
+   {
+    "label": "pyarrow_backend",
+    "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+    "printed_cell": 1,
+    "cell": 6,
+    "cls": "E3",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "full_data"
+    ],
+    "other_inputs_le_E2": false
+   },
+   {
+    "label": "pyarrow_backend",
+    "nb": "taylorhickem/singapore-building-energy",
+    "printed_cell": 3,
+    "cell": 9,
+    "cls": "E2",
+    "clean": null,
+    "kind": "propagated",
+    "names": [
+     "tables"
+    ],
+    "other_inputs_le_E2": true
+   }
+  ]
+ },
+ "hand": {
+  "cells": 117,
+  "by_confidence": {
+   "verified": 94,
+   "undetermined": 2,
+   "likely": 21
+  },
+  "printed_form": 16,
+  "without_printed": {
+   "cells": 101,
+   "by_confidence": {
+    "verified": 79,
+    "undetermined": 2,
+    "likely": 20
+   },
+   "attributed": 99
+  },
+  "in_reduced_capture_notebooks": 10,
+  "in_reduced_by_cause": {
+   "stale_after_inplace_update": 1,
+   "str_of_missing_sentinel": 3,
+   "tz_dropped_at_parse": 1,
+   "float_rounding_within_tolerance": 2,
+   "concat_unnamed_labels": 1,
+   "apply_side_effects_lost": 2
+  }
+ },
+ "attribution_counts": {
+  "introduced": 2147,
+  "rule_attributed": 2030,
+  "unattributed_by_rules": 117,
+  "introduced_without_printed": 2131
+ },
+ "parallel_or_lazy": {
+  "pyarrow_backend": {
+   "with_hand": 4,
+   "rules_only": 1,
+   "rules_unattributed": 21,
+   "introduced_DIFF": 58,
+   "introduced_DIFF_no_printed": 51,
+   "rules_unattributed_no_printed": 14
+  },
+  "modin": {
+   "with_hand": 18,
+   "rules_only": 10,
+   "rules_unattributed": 15,
+   "introduced_DIFF": 51,
+   "introduced_DIFF_no_printed": 49,
+   "rules_unattributed_no_printed": 13
+  },
+  "fireducks": {
+   "with_hand": 14,
+   "rules_only": 6,
+   "rules_unattributed": 38,
+   "introduced_DIFF": 60,
+   "introduced_DIFF_no_printed": 58,
+   "rules_unattributed_no_printed": 36
+  },
+  "bodo": {
+   "with_hand": 12,
+   "rules_only": 11,
+   "rules_unattributed": 26,
+   "introduced_DIFF": 85,
+   "introduced_DIFF_no_printed": 80,
+   "rules_unattributed_no_printed": 21
+  },
+  "dask": {
+   "with_hand": 27,
+   "rules_only": 20,
+   "rules_unattributed": 10,
+   "introduced_DIFF": 46,
+   "introduced_DIFF_no_printed": 46,
+   "rules_unattributed_no_printed": 10
+  }
+ },
+ "reduced_capture_cells": {
+  "bodo": {
+   "scored": 2837,
+   "scored_in_reduced": 306,
+   "inputs_from_last_captured": 276
+  },
+  "dask": {
+   "scored": 2819,
+   "scored_in_reduced": 305,
+   "inputs_from_last_captured": 305
+  },
+  "fireducks": {
+   "scored": 2811,
+   "scored_in_reduced": 306,
+   "inputs_from_last_captured": 295
+  },
+  "modin": {
+   "scored": 2840,
+   "scored_in_reduced": 326,
+   "inputs_from_last_captured": 251
+  },
+  "pyarrow_backend": {
+   "scored": 2809,
+   "scored_in_reduced": 305,
+   "inputs_from_last_captured": 305
+  },
+  "p15": {
+   "scored": 2809,
+   "scored_in_reduced": 305,
+   "inputs_from_last_captured": 305
+  },
+  "p30": {
+   "scored": 2811,
+   "scored_in_reduced": 305,
+   "inputs_from_last_captured": 305
+  }
+ },
+ "scale_paired": {
+  "definition": "all scored cells of the conf_5x notebooks at 5x (conf_5x) and 1x (conf_1x), pooled shares; percentile interval of the 5x-minus-1x change over notebook resamples (the same notebooks on both sides)",
+  "by_engine": {
+   "modin": {
+    "notebooks": 29,
+    "DIFF": {
+     "change_pp_5x_minus_1x": 0.929,
+     "ci95_pp": [
+      -0.015,
+      1.977
+     ]
+    },
+    "le_E2": {
+     "change_pp_5x_minus_1x": -4.659,
+     "ci95_pp": [
+      -11.234,
+      -0.159
+     ]
+    },
+    "notebooks_stopped_at_5x": [
+     "willkoehrsen/start-here-a-gentle-introduction"
+    ],
+    "without_stopped": {
+     "notebooks": 28,
+     "DIFF": {
+      "change_pp_5x_minus_1x": 1.043,
+      "ci95_pp": [
+       0.0,
+       2.08
+      ]
+     },
+     "le_E2": {
+      "change_pp_5x_minus_1x": -1.565,
+      "ci95_pp": [
+       -3.366,
+       0.0
+      ]
+     }
+    }
+   },
+   "fireducks": {
+    "notebooks": 29,
+    "DIFF": {
+     "change_pp_5x_minus_1x": 0.819,
+     "ci95_pp": [
+      -1.919,
+      3.939
+     ]
+    },
+    "le_E2": {
+     "change_pp_5x_minus_1x": -0.746,
+     "ci95_pp": [
+      -2.895,
+      1.269
+     ]
+    },
+    "notebooks_stopped_at_5x": [
+     "nadare/feature-engenieering-with-pivot-table",
+     "penny8/my-sub1"
+    ],
+    "without_stopped": {
+     "notebooks": 27,
+     "DIFF": {
+      "change_pp_5x_minus_1x": 1.034,
+      "ci95_pp": [
+       -1.818,
+       4.301
+      ]
+     },
+     "le_E2": {
+      "change_pp_5x_minus_1x": -0.517,
+      "ci95_pp": [
+       -2.817,
+       1.502
+      ]
+     }
+    }
+   },
+   "bodo": {
+    "notebooks": 29,
+    "DIFF": {
+     "change_pp_5x_minus_1x": 0.0,
+     "ci95_pp": [
+      0.0,
+      0.0
+     ]
+    },
+    "le_E2": {
+     "change_pp_5x_minus_1x": -0.242,
+     "ci95_pp": [
+      -0.661,
+      0.0
+     ]
+    },
+    "notebooks_stopped_at_5x": [
+     "gravix/gradient-in-a-box",
+     "j0thu777/onlineretailanalysis",
+     "penny8/my-sub1"
+    ],
+    "without_stopped": {
+     "notebooks": 26,
+     "DIFF": {
+      "change_pp_5x_minus_1x": 0.0,
+      "ci95_pp": [
+       0.0,
+       0.0
+      ]
+     },
+     "le_E2": {
+      "change_pp_5x_minus_1x": -0.265,
+      "ci95_pp": [
+       -0.73,
+       0.0
+      ]
+     }
+    }
+   }
+  },
+  "all_intervals_contain_0": false
+ }
+}

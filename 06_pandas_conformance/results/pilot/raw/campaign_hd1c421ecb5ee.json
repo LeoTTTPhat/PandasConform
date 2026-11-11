@@ -1,0 +1,566 @@
+{
+ "harness_sha": "d1c421ecb5eec2bda275e05aebacd0f0a8766869334d36f786f3f66a3a86a380",
+ "runs": {
+  "capture|bodo#2|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo_r2/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__87cee5000493.json",
+   "status": "completed"
+  },
+  "capture|bodo#2|deffro/eda-is-fun|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo_r2/sf1/deffro__eda-is-fun__82f1116029aa.json",
+   "status": "completed"
+  },
+  "capture|bodo#2|kanncaa1/dataiteam-titanic-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo_r2/sf1/kanncaa1__dataiteam-titanic-eda__25e154fab10d.json",
+   "status": "completed"
+  },
+  "capture|bodo#2|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo_r2/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__eb141a9bedec.json",
+   "status": "completed"
+  },
+  "capture|bodo#2|roopahegde/cryptocurrency-price-correlation|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo_r2/sf1/roopahegde__cryptocurrency-price-correlation__aeaf731ef494.json",
+   "status": "completed"
+  },
+  "capture|bodo#2|sabya40/data-cleaning-and-pandas-for-beginners|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo_r2/sf1/sabya40__data-cleaning-and-pandas-for-beginners__c7a09b72a300.json",
+   "status": "completed"
+  },
+  "capture|bodo#2|shashi772/data-cleaning-challenge-parsing-dates|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo_r2/sf1/shashi772__data-cleaning-challenge-parsing-dates__139fef686bf1.json",
+   "status": "completed"
+  },
+  "capture|bodo#2|trinath003/data-manipulation-visualisation-on-kaggle-datasets|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo_r2/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__202acc240a64.json",
+   "status": "completed"
+  },
+  "capture|bodo#2|xingobar/computer-science-data-visualization|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo_r2/sf1/xingobar__computer-science-data-visualization__c619e016c8cc.json",
+   "status": "completed"
+  },
+  "capture|bodo#2|yonelanuba/elo-merchant-by-yonela|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo_r2/sf1/yonelanuba__elo-merchant-by-yonela__38baeee46f1e.json",
+   "status": "completed"
+  },
+  "capture|bodo_dw|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo_dw/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__80982fa700ff.json",
+   "status": "skipped"
+  },
+  "capture|bodo_dw|deffro/eda-is-fun|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo_dw/sf1/deffro__eda-is-fun__acce667a40b2.json",
+   "status": "skipped"
+  },
+  "capture|bodo_dw|kanncaa1/dataiteam-titanic-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo_dw/sf1/kanncaa1__dataiteam-titanic-eda__1bbdadb7ac68.json",
+   "status": "skipped"
+  },
+  "capture|bodo_dw|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo_dw/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__45b017bffbe6.json",
+   "status": "skipped"
+  },
+  "capture|bodo_dw|roopahegde/cryptocurrency-price-correlation|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo_dw/sf1/roopahegde__cryptocurrency-price-correlation__cf34326d7b3f.json",
+   "status": "skipped"
+  },
+  "capture|bodo_dw|sabya40/data-cleaning-and-pandas-for-beginners|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo_dw/sf1/sabya40__data-cleaning-and-pandas-for-beginners__c018c0352195.json",
+   "status": "skipped"
+  },
+  "capture|bodo_dw|shashi772/data-cleaning-challenge-parsing-dates|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo_dw/sf1/shashi772__data-cleaning-challenge-parsing-dates__f9a53b2d52d3.json",
+   "status": "skipped"
+  },
+  "capture|bodo_dw|trinath003/data-manipulation-visualisation-on-kaggle-datasets|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo_dw/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__fff41524764e.json",
+   "status": "skipped"
+  },
+  "capture|bodo_dw|xingobar/computer-science-data-visualization|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo_dw/sf1/xingobar__computer-science-data-visualization__710c52ca7944.json",
+   "status": "skipped"
+  },
+  "capture|bodo_dw|yonelanuba/elo-merchant-by-yonela|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo_dw/sf1/yonelanuba__elo-merchant-by-yonela__2c29290e7b7e.json",
+   "status": "skipped"
+  },
+  "capture|bodo|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__fdd737257202.json",
+   "status": "skipped"
+  },
+  "capture|bodo|deffro/eda-is-fun|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo/sf1/deffro__eda-is-fun__2e5ef1e211d0.json",
+   "status": "skipped"
+  },
+  "capture|bodo|kanncaa1/dataiteam-titanic-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo/sf1/kanncaa1__dataiteam-titanic-eda__b708737dc550.json",
+   "status": "skipped"
+  },
+  "capture|bodo|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__b69e54b4eda8.json",
+   "status": "skipped"
+  },
+  "capture|bodo|roopahegde/cryptocurrency-price-correlation|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo/sf1/roopahegde__cryptocurrency-price-correlation__3a32e7a33b8b.json",
+   "status": "skipped"
+  },
+  "capture|bodo|sabya40/data-cleaning-and-pandas-for-beginners|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo/sf1/sabya40__data-cleaning-and-pandas-for-beginners__43fcbf42fdc7.json",
+   "status": "skipped"
+  },
+  "capture|bodo|shashi772/data-cleaning-challenge-parsing-dates|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo/sf1/shashi772__data-cleaning-challenge-parsing-dates__37c29f59d1cf.json",
+   "status": "skipped"
+  },
+  "capture|bodo|trinath003/data-manipulation-visualisation-on-kaggle-datasets|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__38b4eb9239f9.json",
+   "status": "skipped"
+  },
+  "capture|bodo|xingobar/computer-science-data-visualization|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo/sf1/xingobar__computer-science-data-visualization__f02376e0c818.json",
+   "status": "skipped"
+  },
+  "capture|bodo|yonelanuba/elo-merchant-by-yonela|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/bodo/sf1/yonelanuba__elo-merchant-by-yonela__fec7d00554fe.json",
+   "status": "skipped"
+  },
+  "capture|dask#2|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/dask_r2/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__9f1bb21419d4.json",
+   "status": "completed"
+  },
+  "capture|dask#2|deffro/eda-is-fun|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/dask_r2/sf1/deffro__eda-is-fun__6ecd09ca01bc.json",
+   "status": "completed"
+  },
+  "capture|dask#2|kanncaa1/dataiteam-titanic-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/dask_r2/sf1/kanncaa1__dataiteam-titanic-eda__c1820029f406.json",
+   "status": "completed"
+  },
+  "capture|dask#2|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/dask_r2/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__8438c956343b.json",
+   "status": "completed"
+  },
+  "capture|dask#2|roopahegde/cryptocurrency-price-correlation|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/dask_r2/sf1/roopahegde__cryptocurrency-price-correlation__0c92b7f5de68.json",
+   "status": "completed"
+  },
+  "capture|dask#2|sabya40/data-cleaning-and-pandas-for-beginners|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/dask_r2/sf1/sabya40__data-cleaning-and-pandas-for-beginners__6661d52729bd.json",
+   "status": "completed"
+  },
+  "capture|dask#2|shashi772/data-cleaning-challenge-parsing-dates|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/dask_r2/sf1/shashi772__data-cleaning-challenge-parsing-dates__aa352d6874cd.json",
+   "status": "completed"
+  },
+  "capture|dask#2|trinath003/data-manipulation-visualisation-on-kaggle-datasets|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/dask_r2/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__6304c5775258.json",
+   "status": "completed"
+  },
+  "capture|dask#2|xingobar/computer-science-data-visualization|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/dask_r2/sf1/xingobar__computer-science-data-visualization__6e889b0dd8e4.json",
+   "status": "completed"
+  },
+  "capture|dask#2|yonelanuba/elo-merchant-by-yonela|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/dask_r2/sf1/yonelanuba__elo-merchant-by-yonela__8fbb8d637517.json",
+   "status": "completed"
+  },
+  "capture|dask|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/dask/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__747b5774b2e5.json",
+   "status": "completed"
+  },
+  "capture|dask|deffro/eda-is-fun|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/dask/sf1/deffro__eda-is-fun__190c148888e8.json",
+   "status": "completed"
+  },
+  "capture|dask|kanncaa1/dataiteam-titanic-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/dask/sf1/kanncaa1__dataiteam-titanic-eda__006a0de448ff.json",
+   "status": "completed"
+  },
+  "capture|dask|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/dask/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__7b1f197b5620.json",
+   "status": "completed"
+  },
+  "capture|dask|roopahegde/cryptocurrency-price-correlation|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/dask/sf1/roopahegde__cryptocurrency-price-correlation__02d4449674df.json",
+   "status": "completed"
+  },
+  "capture|dask|sabya40/data-cleaning-and-pandas-for-beginners|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/dask/sf1/sabya40__data-cleaning-and-pandas-for-beginners__0de42b0c725d.json",
+   "status": "completed"
+  },
+  "capture|dask|shashi772/data-cleaning-challenge-parsing-dates|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/dask/sf1/shashi772__data-cleaning-challenge-parsing-dates__cc84292db621.json",
+   "status": "completed"
+  },
+  "capture|dask|trinath003/data-manipulation-visualisation-on-kaggle-datasets|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/dask/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__99e0aa1092ff.json",
+   "status": "completed"
+  },
+  "capture|dask|xingobar/computer-science-data-visualization|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/dask/sf1/xingobar__computer-science-data-visualization__742022afb937.json",
+   "status": "completed"
+  },
+  "capture|dask|yonelanuba/elo-merchant-by-yonela|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/dask/sf1/yonelanuba__elo-merchant-by-yonela__b7b78bdde778.json",
+   "status": "completed"
+  },
+  "capture|fireducks#2|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/fireducks_r2/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__d85762168d98.json",
+   "status": "completed"
+  },
+  "capture|fireducks#2|deffro/eda-is-fun|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/fireducks_r2/sf1/deffro__eda-is-fun__57d8fa973eeb.json",
+   "status": "completed"
+  },
+  "capture|fireducks#2|kanncaa1/dataiteam-titanic-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/fireducks_r2/sf1/kanncaa1__dataiteam-titanic-eda__7f57ce69cfad.json",
+   "status": "completed"
+  },
+  "capture|fireducks#2|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/fireducks_r2/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__420f6581d61b.json",
+   "status": "completed"
+  },
+  "capture|fireducks#2|roopahegde/cryptocurrency-price-correlation|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/fireducks_r2/sf1/roopahegde__cryptocurrency-price-correlation__a1c258fee2db.json",
+   "status": "completed"
+  },
+  "capture|fireducks#2|sabya40/data-cleaning-and-pandas-for-beginners|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/fireducks_r2/sf1/sabya40__data-cleaning-and-pandas-for-beginners__f9c0c276080b.json",
+   "status": "completed"
+  },
+  "capture|fireducks#2|shashi772/data-cleaning-challenge-parsing-dates|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/fireducks_r2/sf1/shashi772__data-cleaning-challenge-parsing-dates__70bc0a59a667.json",
+   "status": "completed"
+  },
+  "capture|fireducks#2|trinath003/data-manipulation-visualisation-on-kaggle-datasets|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/fireducks_r2/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__c6d2f74d6378.json",
+   "status": "completed"
+  },
+  "capture|fireducks#2|xingobar/computer-science-data-visualization|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/fireducks_r2/sf1/xingobar__computer-science-data-visualization__88f1243851d7.json",
+   "status": "completed"
+  },
+  "capture|fireducks#2|yonelanuba/elo-merchant-by-yonela|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/fireducks_r2/sf1/yonelanuba__elo-merchant-by-yonela__96a906d25276.json",
+   "status": "completed"
+  },
+  "capture|fireducks|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/fireducks/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__98d09337dacb.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|deffro/eda-is-fun|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/fireducks/sf1/deffro__eda-is-fun__15e961890ef0.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|kanncaa1/dataiteam-titanic-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/fireducks/sf1/kanncaa1__dataiteam-titanic-eda__0f5e2414fa94.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/fireducks/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__e15651171873.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|roopahegde/cryptocurrency-price-correlation|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/fireducks/sf1/roopahegde__cryptocurrency-price-correlation__387312f0e08c.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|sabya40/data-cleaning-and-pandas-for-beginners|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/fireducks/sf1/sabya40__data-cleaning-and-pandas-for-beginners__bd4f23cab4d5.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|shashi772/data-cleaning-challenge-parsing-dates|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/fireducks/sf1/shashi772__data-cleaning-challenge-parsing-dates__9348abb77073.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|trinath003/data-manipulation-visualisation-on-kaggle-datasets|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/fireducks/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__84d1fa766e9b.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|xingobar/computer-science-data-visualization|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/fireducks/sf1/xingobar__computer-science-data-visualization__c84bc88fdf6e.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|yonelanuba/elo-merchant-by-yonela|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/fireducks/sf1/yonelanuba__elo-merchant-by-yonela__e4e2fdb8f6aa.json",
+   "status": "skipped"
+  },
+  "capture|modin#2|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/modin_r2/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__bb9f15bd23e7.json",
+   "status": "completed"
+  },
+  "capture|modin#2|deffro/eda-is-fun|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/modin_r2/sf1/deffro__eda-is-fun__fadb696ca357.json",
+   "status": "completed"
+  },
+  "capture|modin#2|kanncaa1/dataiteam-titanic-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/modin_r2/sf1/kanncaa1__dataiteam-titanic-eda__a46fa60d8512.json",
+   "status": "completed"
+  },
+  "capture|modin#2|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/modin_r2/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__c1728b964199.json",
+   "status": "completed"
+  },
+  "capture|modin#2|roopahegde/cryptocurrency-price-correlation|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/modin_r2/sf1/roopahegde__cryptocurrency-price-correlation__d2252c3f7837.json",
+   "status": "completed"
+  },
+  "capture|modin#2|sabya40/data-cleaning-and-pandas-for-beginners|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/modin_r2/sf1/sabya40__data-cleaning-and-pandas-for-beginners__984ab1ee4079.json",
+   "status": "completed"
+  },
+  "capture|modin#2|shashi772/data-cleaning-challenge-parsing-dates|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/modin_r2/sf1/shashi772__data-cleaning-challenge-parsing-dates__e1bdb2d4337e.json",
+   "status": "completed"
+  },
+  "capture|modin#2|trinath003/data-manipulation-visualisation-on-kaggle-datasets|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/modin_r2/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__c1a3889e6187.json",
+   "status": "completed"
+  },
+  "capture|modin#2|xingobar/computer-science-data-visualization|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/modin_r2/sf1/xingobar__computer-science-data-visualization__d3ae482ec2e9.json",
+   "status": "completed"
+  },
+  "capture|modin#2|yonelanuba/elo-merchant-by-yonela|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/modin_r2/sf1/yonelanuba__elo-merchant-by-yonela__76b8620c583b.json",
+   "status": "nb_memory"
+  },
+  "capture|modin|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/modin/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__eb524224f8fb.json",
+   "status": "skipped"
+  },
+  "capture|modin|deffro/eda-is-fun|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/modin/sf1/deffro__eda-is-fun__7387be143d9f.json",
+   "status": "skipped"
+  },
+  "capture|modin|kanncaa1/dataiteam-titanic-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/modin/sf1/kanncaa1__dataiteam-titanic-eda__f18d87cef70c.json",
+   "status": "skipped"
+  },
+  "capture|modin|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/modin/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__04edafa71d6f.json",
+   "status": "skipped"
+  },
+  "capture|modin|roopahegde/cryptocurrency-price-correlation|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/modin/sf1/roopahegde__cryptocurrency-price-correlation__4a126571e0e7.json",
+   "status": "skipped"
+  },
+  "capture|modin|sabya40/data-cleaning-and-pandas-for-beginners|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/modin/sf1/sabya40__data-cleaning-and-pandas-for-beginners__2587f6b5fc26.json",
+   "status": "skipped"
+  },
+  "capture|modin|shashi772/data-cleaning-challenge-parsing-dates|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/modin/sf1/shashi772__data-cleaning-challenge-parsing-dates__d7c9e1fc2d89.json",
+   "status": "skipped"
+  },
+  "capture|modin|trinath003/data-manipulation-visualisation-on-kaggle-datasets|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/modin/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__f293e3ade78a.json",
+   "status": "skipped"
+  },
+  "capture|modin|xingobar/computer-science-data-visualization|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/modin/sf1/xingobar__computer-science-data-visualization__e4060e4c311d.json",
+   "status": "skipped"
+  },
+  "capture|modin|yonelanuba/elo-merchant-by-yonela|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/modin/sf1/yonelanuba__elo-merchant-by-yonela__94c51513a3d5.json",
+   "status": "nb_memory"
+  },
+  "capture|p15|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/p15/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__88dc6ef273a9.json",
+   "status": "skipped"
+  },
+  "capture|p15|deffro/eda-is-fun|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/p15/sf1/deffro__eda-is-fun__4a7680d8e456.json",
+   "status": "skipped"
+  },
+  "capture|p15|kanncaa1/dataiteam-titanic-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/p15/sf1/kanncaa1__dataiteam-titanic-eda__405cfba56b19.json",
+   "status": "skipped"
+  },
+  "capture|p15|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/p15/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__ea2d9880f068.json",
+   "status": "skipped"
+  },
+  "capture|p15|roopahegde/cryptocurrency-price-correlation|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/p15/sf1/roopahegde__cryptocurrency-price-correlation__cbe40f034cf7.json",
+   "status": "skipped"
+  },
+  "capture|p15|sabya40/data-cleaning-and-pandas-for-beginners|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/p15/sf1/sabya40__data-cleaning-and-pandas-for-beginners__eb29ac4c52ea.json",
+   "status": "skipped"
+  },
+  "capture|p15|shashi772/data-cleaning-challenge-parsing-dates|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/p15/sf1/shashi772__data-cleaning-challenge-parsing-dates__5a5533daf9b9.json",
+   "status": "skipped"
+  },
+  "capture|p15|trinath003/data-manipulation-visualisation-on-kaggle-datasets|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/p15/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__abc38698deab.json",
+   "status": "skipped"
+  },
+  "capture|p15|xingobar/computer-science-data-visualization|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/p15/sf1/xingobar__computer-science-data-visualization__941394615914.json",
+   "status": "skipped"
+  },
+  "capture|p15|yonelanuba/elo-merchant-by-yonela|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/p15/sf1/yonelanuba__elo-merchant-by-yonela__7a8793750c38.json",
+   "status": "skipped"
+  },
+  "capture|p30|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/p30/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__b4f91b4cb5f8.json",
+   "status": "skipped"
+  },
+  "capture|p30|deffro/eda-is-fun|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/p30/sf1/deffro__eda-is-fun__12caba0a8ae8.json",
+   "status": "skipped"
+  },
+  "capture|p30|kanncaa1/dataiteam-titanic-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/p30/sf1/kanncaa1__dataiteam-titanic-eda__c3e1f292e69b.json",
+   "status": "skipped"
+  },
+  "capture|p30|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/p30/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__045bd4dda26e.json",
+   "status": "skipped"
+  },
+  "capture|p30|roopahegde/cryptocurrency-price-correlation|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/p30/sf1/roopahegde__cryptocurrency-price-correlation__295686afe200.json",
+   "status": "skipped"
+  },
+  "capture|p30|sabya40/data-cleaning-and-pandas-for-beginners|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/p30/sf1/sabya40__data-cleaning-and-pandas-for-beginners__9b76d98f95a3.json",
+   "status": "skipped"
+  },
+  "capture|p30|shashi772/data-cleaning-challenge-parsing-dates|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/p30/sf1/shashi772__data-cleaning-challenge-parsing-dates__528d2263e589.json",
+   "status": "skipped"
+  },
+  "capture|p30|trinath003/data-manipulation-visualisation-on-kaggle-datasets|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/p30/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__883442f9b99b.json",
+   "status": "skipped"
+  },
+  "capture|p30|xingobar/computer-science-data-visualization|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/p30/sf1/xingobar__computer-science-data-visualization__3586ce21bd87.json",
+   "status": "skipped"
+  },
+  "capture|p30|yonelanuba/elo-merchant-by-yonela|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/p30/sf1/yonelanuba__elo-merchant-by-yonela__82c7be9558c7.json",
+   "status": "skipped"
+  },
+  "capture|pyarrow_backend|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__a6e186cab792.json",
+   "status": "skipped"
+  },
+  "capture|pyarrow_backend|deffro/eda-is-fun|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/deffro__eda-is-fun__f6bff250bfaa.json",
+   "status": "skipped"
+  },
+  "capture|pyarrow_backend|kanncaa1/dataiteam-titanic-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/kanncaa1__dataiteam-titanic-eda__1bfe1d6c7698.json",
+   "status": "skipped"
+  },
+  "capture|pyarrow_backend|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__265f91add093.json",
+   "status": "skipped"
+  },
+  "capture|pyarrow_backend|roopahegde/cryptocurrency-price-correlation|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/roopahegde__cryptocurrency-price-correlation__7bc4173e3336.json",
+   "status": "skipped"
+  },
+  "capture|pyarrow_backend|sabya40/data-cleaning-and-pandas-for-beginners|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/sabya40__data-cleaning-and-pandas-for-beginners__4965a0955229.json",
+   "status": "skipped"
+  },
+  "capture|pyarrow_backend|shashi772/data-cleaning-challenge-parsing-dates|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/shashi772__data-cleaning-challenge-parsing-dates__828a5544208c.json",
+   "status": "skipped"
+  },
+  "capture|pyarrow_backend|trinath003/data-manipulation-visualisation-on-kaggle-datasets|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__00d132bd5efe.json",
+   "status": "skipped"
+  },
+  "capture|pyarrow_backend|xingobar/computer-science-data-visualization|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/xingobar__computer-science-data-visualization__ca3f62d18af0.json",
+   "status": "skipped"
+  },
+  "capture|pyarrow_backend|yonelanuba/elo-merchant-by-yonela|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/yonelanuba__elo-merchant-by-yonela__1c5091560119.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref_r2/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__5f935f650d12.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|deffro/eda-is-fun|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref_r2/sf1/deffro__eda-is-fun__df509c7afc3c.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|kanncaa1/dataiteam-titanic-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref_r2/sf1/kanncaa1__dataiteam-titanic-eda__d708a5d867ca.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref_r2/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__811f49af2885.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|roopahegde/cryptocurrency-price-correlation|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref_r2/sf1/roopahegde__cryptocurrency-price-correlation__0baae9bd3b4c.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|sabya40/data-cleaning-and-pandas-for-beginners|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref_r2/sf1/sabya40__data-cleaning-and-pandas-for-beginners__dd79f03b9d8d.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|shashi772/data-cleaning-challenge-parsing-dates|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref_r2/sf1/shashi772__data-cleaning-challenge-parsing-dates__885019d865e8.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|trinath003/data-manipulation-visualisation-on-kaggle-datasets|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref_r2/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__c004febb5e9f.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|xingobar/computer-science-data-visualization|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref_r2/sf1/xingobar__computer-science-data-visualization__271ab6ac6482.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|yonelanuba/elo-merchant-by-yonela|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref_r2/sf1/yonelanuba__elo-merchant-by-yonela__981d1a497415.json",
+   "status": "skipped"
+  },
+  "capture|ref|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__691f7191dae8.json",
+   "status": "skipped"
+  },
+  "capture|ref|deffro/eda-is-fun|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref/sf1/deffro__eda-is-fun__af4a474bd6d5.json",
+   "status": "skipped"
+  },
+  "capture|ref|kanncaa1/dataiteam-titanic-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref/sf1/kanncaa1__dataiteam-titanic-eda__238e8629e720.json",
+   "status": "skipped"
+  },
+  "capture|ref|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__509d6ad4b2ae.json",
+   "status": "skipped"
+  },
+  "capture|ref|roopahegde/cryptocurrency-price-correlation|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref/sf1/roopahegde__cryptocurrency-price-correlation__8b18719bb1e3.json",
+   "status": "skipped"
+  },
+  "capture|ref|sabya40/data-cleaning-and-pandas-for-beginners|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref/sf1/sabya40__data-cleaning-and-pandas-for-beginners__9473a200de56.json",
+   "status": "skipped"
+  },
+  "capture|ref|shashi772/data-cleaning-challenge-parsing-dates|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref/sf1/shashi772__data-cleaning-challenge-parsing-dates__3bfc39c607e8.json",
+   "status": "skipped"
+  },
+  "capture|ref|trinath003/data-manipulation-visualisation-on-kaggle-datasets|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__c9b66cb977bd.json",
+   "status": "skipped"
+  },
+  "capture|ref|xingobar/computer-science-data-visualization|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref/sf1/xingobar__computer-science-data-visualization__a08bd463a8af.json",
+   "status": "skipped"
+  },
+  "capture|ref|yonelanuba/elo-merchant-by-yonela|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref/sf1/yonelanuba__elo-merchant-by-yonela__5ccdc7a7ddac.json",
+   "status": "skipped"
+  }
+ },
+ "updated": "2026-10-02T22:42:42"
+}

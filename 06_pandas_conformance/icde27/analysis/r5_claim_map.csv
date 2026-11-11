@@ -1,0 +1,96 @@
+cause,campaign,configuration,cells,documented_level,evidence_class,doc_url,doc_quote,reproducer,reproducer_evidence
+api_added_later,drift,p15,1,yes,documented incompatibility,https://pandas.pydata.org/docs/whatsnew/v2.0.0.html,"read_csv(), read_table(), read_fwf() and read_excel() now accept date_format",results/rootcause/repro/api_added_later.py,pandas reproducer differs
+approximate_quantile,conf_1x,bodo,7,partial,contradicts a compatibility claim,,,results/rootcause/repro/approximate_quantile.py,engine probe confirms
+approximate_quantile,conf_1x,dask,5,partial,partly documented,https://docs.dask.org/en/stable/generated/dask.dataframe.Series.quantile.html,Approximate quantiles of Series,results/rootcause/repro/approximate_quantile.py,engine probe confirms
+approximate_quantile,pilot,bodo_dw,5,partial,contradicts a compatibility claim,,,results/rootcause/repro/approximate_quantile.py,engine probe confirms
+arrow_backed_dtypes,conf_1x,bodo,125,partial,contradicts a compatibility claim,,,results/rootcause/repro/arrow_backed_dtypes.py,engine probe confirms
+arrow_backed_dtypes,conf_1x,dask,53,partial,partly documented,https://github.com/dask/dask/pull/10400,Convert to pyarrow strings if proper dependencies are installed,results/rootcause/repro/arrow_backed_dtypes.py,engine probe confirms
+arrow_backed_dtypes,conf_1x,pyarrow_backend,140,partial,partly documented,https://pandas.pydata.org/docs/user_guide/pyarrow.html,"These readers can return PyArrow-backed data by specifying the parameter dtype_backend=""pyarrow""",results/rootcause/repro/arrow_backed_dtypes.py,pandas reproducer differs
+arrow_backed_dtypes,pilot,bodo_dw,13,partial,contradicts a compatibility claim,,,results/rootcause/repro/arrow_backed_dtypes.py,none
+arrow_dtype_errors,conf_1x,bodo,8,partial,contradicts a compatibility claim,,,results/rootcause/repro/arrow_dtype_errors.py,engine probe confirms
+arrow_dtype_errors,conf_1x,fireducks,9,partial,contradicts a compatibility claim,,,results/rootcause/repro/arrow_dtype_errors.py,engine probe confirms
+arrow_dtype_errors,conf_1x,pyarrow_backend,32,partial,partly documented,https://pandas.pydata.org/docs/user_guide/missing_data.html,it is ambiguous to convert NA to a boolean value,results/rootcause/repro/arrow_dtype_errors.py,pandas reproducer differs
+arrow_dtype_errors,pilot,bodo_dw,2,partial,contradicts a compatibility claim,,,results/rootcause/repro/arrow_dtype_errors.py,none
+axis_names_lost,conf_1x,bodo,9,no,contradicts a compatibility claim,,,results/rootcause/repro/axis_names_lost.py,engine probe confirms
+axis_names_lost,conf_1x,fireducks,1,no,contradicts a compatibility claim,,,results/rootcause/repro/axis_names_lost.py,none
+axis_names_lost,conf_1x,modin,23,no,contradicts a compatibility claim,,,results/rootcause/repro/axis_names_lost.py,engine probe confirms
+axis_names_lost,pilot,bodo_dw,2,no,contradicts a compatibility claim,,,results/rootcause/repro/axis_names_lost.py,none
+chunked_csv_type_inference,conf_1x,bodo,2,partial,contradicts a compatibility claim,,,,none
+chunked_csv_type_inference,conf_1x,dask,1,partial,no applicable promise found,,,,none
+chunked_csv_type_inference,conf_1x,fireducks,1,partial,contradicts a compatibility claim,,,,none
+cow_chained_assignment,conf_1x,fireducks,13,yes,contradicts a compatibility claim,,,results/rootcause/repro/cow_chained_assignment.py,engine probe confirms
+cow_chained_assignment,drift,p30,19,yes,documented incompatibility,https://pandas.pydata.org/docs/user_guide/copy_on_write.html,chained assignment will consistently never work,results/rootcause/repro/cow_chained_assignment.py,pandas reproducer differs
+cr_only_line_endings,conf_1x,modin,1,not_searched,contradicts a compatibility claim,,,,none
+datetime_resolution_inference,drift,p30,8,yes,documented incompatibility,https://pandas.pydata.org/docs/whatsnew/v3.0.0.html,The new default resolution when parsing strings is microseconds,results/rootcause/repro/datetime_resolution_inference.py,pandas reproducer differs
+describe_datetime_numeric,drift,p15,4,yes,documented incompatibility,https://pandas.pydata.org/docs/whatsnew/v2.0.0.html,Removed argument datetime_is_numeric from DataFrame.describe() ... datetime data will always be summarized as numeric data,results/rootcause/repro/describe_datetime_numeric.py,pandas reproducer differs
+dtype_inference_differs,conf_1x,fireducks,3,not_searched,contradicts a compatibility claim,,,,none
+dtype_inference_differs,conf_1x,modin,11,not_searched,contradicts a compatibility claim,,,,none
+engine_bug_error,conf_1x,bodo,137,partial,contradicts a compatibility claim,,,results/rootcause/repro/engine_bug_error.py,engine probe confirms
+engine_bug_error,conf_1x,dask,84,partial,no applicable promise found,,,results/rootcause/repro/engine_bug_error.py,none
+engine_bug_error,conf_1x,fireducks,9,partial,partly documented,https://fireducks-dev.github.io/docs/user-guide/04-compatibility/,the timing of errors and warnings in FireDucks is different from that in pandas,results/rootcause/repro/engine_bug_error.py,engine probe does not reproduce
+engine_bug_error,conf_1x,modin,42,partial,contradicts a compatibility claim,,,results/rootcause/repro/engine_bug_error.py,engine probe confirms
+engine_bug_error,pilot,bodo_dw,15,partial,contradicts a compatibility claim,,,results/rootcause/repro/engine_bug_error.py,engine probe confirms
+engine_bug_silent,conf_1x,bodo,15,no,contradicts a compatibility claim,,,results/rootcause/repro/engine_bug_silent.py,engine probe does not reproduce
+engine_bug_silent,conf_1x,modin,10,no,contradicts a compatibility claim,,,results/rootcause/repro/engine_bug_silent.py,engine probe confirms
+engine_bug_silent,pilot,bodo_dw,7,no,contradicts a compatibility claim,,,results/rootcause/repro/engine_bug_silent.py,engine probe does not reproduce
+engine_corr_wrong_values,conf_1x,modin,12,no,contradicts a compatibility claim,,,results/rootcause/repro/engine_corr_wrong_values.py,engine probe does not reproduce
+engine_crash_timeout,conf_1x,bodo,4,not_searched,contradicts a compatibility claim,,,,none
+engine_crash_timeout,conf_1x,fireducks,5,not_searched,contradicts a compatibility claim,,,,none
+engine_crash_timeout,conf_1x,modin,2,not_searched,contradicts a compatibility claim,,,,none
+engine_unsupported_api,conf_1x,bodo,34,partial,contradicts a compatibility claim,,,results/rootcause/repro/engine_unsupported_api.py,engine probe confirms
+engine_unsupported_api,conf_1x,dask,76,partial,partly documented,https://docs.dask.org/en/stable/dataframe-indexing.html,DataFrame.iloc() only supports indexers where the row indexer is slice(None),results/rootcause/repro/engine_unsupported_api.py,engine probe confirms
+engine_unsupported_api,conf_1x,fireducks,2,partial,contradicts a compatibility claim,,,results/rootcause/repro/engine_unsupported_api.py,engine probe confirms
+engine_unsupported_api,conf_1x,modin,1,partial,contradicts a compatibility claim,,,results/rootcause/repro/engine_unsupported_api.py,none
+engine_unsupported_api,pilot,bodo_dw,3,partial,contradicts a compatibility claim,,,results/rootcause/repro/engine_unsupported_api.py,none
+float_rounding_within_tolerance,conf_1x,dask,2,partial,no applicable promise found,,,results/rootcause/repro/float_rounding_within_tolerance.py,none
+float_rounding_within_tolerance,conf_1x,fireducks,67,partial,contradicts a compatibility claim,,,results/rootcause/repro/float_rounding_within_tolerance.py,engine probe confirms
+float_rounding_within_tolerance,conf_1x,modin,78,partial,partly documented,https://modin.readthedocs.io/en/latest/supported_apis/dataframe_supported.html,Correlation floating point precision may slightly differ from pandas,results/rootcause/repro/float_rounding_within_tolerance.py,engine probe confirms
+float_rounding_within_tolerance,drift,p15,79,partial,no applicable promise found,,,results/rootcause/repro/float_rounding_within_tolerance.py,pandas reproducer differs
+get_dummies_bool,drift,p15,14,yes,documented incompatibility,https://pandas.pydata.org/docs/whatsnew/v2.0.0.html,Default value of dtype in get_dummies() is changed to bool from uint8,results/rootcause/repro/get_dummies_bool.py,pandas reproducer differs
+index_not_preserved,conf_1x,bodo,33,no,contradicts a compatibility claim,,,results/rootcause/repro/index_not_preserved.py,engine probe confirms
+index_not_preserved,conf_1x,dask,6,no,no applicable promise found,,,results/rootcause/repro/index_not_preserved.py,engine probe does not reproduce
+index_not_preserved,conf_1x,fireducks,22,no,contradicts a compatibility claim,,,results/rootcause/repro/index_not_preserved.py,engine probe confirms
+index_not_preserved,conf_1x,modin,1,no,contradicts a compatibility claim,,,results/rootcause/repro/index_not_preserved.py,none
+index_not_preserved,conf_1x,pyarrow_backend,1,no,no applicable promise found,,,results/rootcause/repro/index_not_preserved.py,none
+index_not_preserved,pilot,bodo_dw,11,no,contradicts a compatibility claim,,,results/rootcause/repro/index_not_preserved.py,engine probe confirms
+int_float_nullable_repr,conf_1x,fireducks,12,no,contradicts a compatibility claim,,,results/rootcause/repro/int_float_nullable_repr.py,engine probe does not reproduce
+int_float_nullable_repr,conf_1x,modin,21,no,contradicts a compatibility claim,,,results/rootcause/repro/int_float_nullable_repr.py,engine probe does not reproduce
+int_float_nullable_repr,conf_1x,pyarrow_backend,5,no,no applicable promise found,,,results/rootcause/repro/int_float_nullable_repr.py,none
+int_key_positional_fallback_removed,drift,p30,7,yes,documented incompatibility,https://pandas.pydata.org/docs/whatsnew/v3.0.0.html,"Changed behavior of Series.__getitem__() and Series.__setitem__() to always treat integer keys as labels, never as positional",results/rootcause/repro/int_key_positional_fallback_removed.py,pandas reproducer differs
+lazy_partition_model,conf_1x,dask,38,yes,documented incompatibility,https://docs.dask.org/en/stable/dataframe-indexing.html,Dask DataFrame does not track the length of partitions,results/rootcause/repro/lazy_partition_model.py,engine probe confirms
+loc_setitem_inplace,drift,p15,1,yes,documented incompatibility,https://pandas.pydata.org/docs/whatsnew/v2.0.0.html,"Changed behavior in setting values with df.loc[:, foo] = bar ... now always attempt to set values inplace",results/rootcause/repro/loc_setitem_inplace.py,pandas reproducer differs
+merge_row_order,drift,p15,9,yes,documented incompatibility,https://pandas.pydata.org/docs/whatsnew/v2.2.0.html,merge() and DataFrame.join() now consistently follow documented sort behavior,results/rootcause/repro/merge_row_order.py,pandas reproducer differs
+missing_sentinel_repr,conf_1x,fireducks,64,no,contradicts a compatibility claim,,,results/rootcause/repro/missing_sentinel_repr.py,engine probe confirms
+missing_sentinel_repr,conf_1x,modin,1,no,contradicts a compatibility claim,,,results/rootcause/repro/missing_sentinel_repr.py,none
+na_comparison_masks,conf_1x,bodo,2,partial,contradicts a compatibility claim,,,,none
+na_comparison_masks,conf_1x,pyarrow_backend,4,partial,partly documented,https://pandas.pydata.org/docs/user_guide/missing_data.html,"In equality and comparison operations, NA also propagates. This deviates from the behaviour of np.nan, where comparisons with np.nan always return False.",,none
+numeric_dtype_preservation,drift,p15,17,yes,documented incompatibility,https://pandas.pydata.org/docs/whatsnew/v2.0.0.html,Index can now hold numpy numeric dtypes; datetime fields are now int32,results/rootcause/repro/numeric_dtype_preservation.py,pandas reproducer differs
+numeric_only_default,drift,p15,1,yes,documented incompatibility,https://pandas.pydata.org/docs/whatsnew/v2.0.0.html,Changed default of numeric_only in various DataFrameGroupBy methods; all methods now default to numeric_only=False,results/rootcause/repro/numeric_only_default.py,pandas reproducer differs
+offset_alias_removed,drift,p30,18,yes,documented incompatibility,https://pandas.pydata.org/docs/whatsnew/v3.0.0.html,"Enforced deprecation of string AS denoting frequency in YearBegin; strings H, BH, and CBH denoting frequencies in Hour; MonthEnd M -> ME",results/rootcause/repro/offset_alias_removed.py,pandas reproducer differs
+p3_stricter_validation,drift,p30,1,no,no applicable promise found,,,results/rootcause/repro/p3_stricter_validation.py,pandas reproducer differs
+partitioned_type_inference,conf_1x,dask,41,partial,partly documented,https://docs.dask.org/en/stable/generated/dask.dataframe.read_csv.html,Dask dataframe tries to infer the dtype of each column by reading a sample from the start of the file,results/rootcause/repro/partitioned_type_inference.py,engine probe confirms
+partitioned_type_inference,conf_1x,modin,5,partial,contradicts a compatibility claim,,,results/rootcause/repro/partitioned_type_inference.py,engine probe does not reproduce
+read_csv_big_int_python_ints,drift,p30,1,partial,partly documented,https://pandas.pydata.org/docs/whatsnew/v3.0.0.html,Bug in read_csv() with c and python engines reading big integers as strings. Now reads them as python integers. (GH 51295),results/rootcause/repro/read_csv_big_int_python_ints.py,pandas reproducer differs
+read_csv_none_as_na,drift,p15,10,yes,documented incompatibility,https://pandas.pydata.org/docs/whatsnew/v2.0.0.html,"Added ""None"" to default na_values in read_csv()",results/rootcause/repro/read_csv_none_as_na.py,pandas reproducer differs
+removed_deprecated_api,drift,p30,15,yes,documented incompatibility,https://pandas.pydata.org/docs/whatsnew/v3.0.0.html,"Removed deprecated keyword method on Series.fillna(), DataFrame.fillna(); Removed DataFrame.applymap; Removed pandas.value_counts; Removed Index.sort()",results/rootcause/repro/removed_deprecated_api.py,pandas reproducer differs
+row_order_ties,conf_1x,bodo,4,partial,contradicts a compatibility claim,,,results/rootcause/repro/row_order_ties.py,engine probe confirms
+row_order_ties,conf_1x,dask,3,partial,no applicable promise found,,,results/rootcause/repro/row_order_ties.py,none
+row_order_ties,conf_1x,fireducks,27,partial,partly documented,https://fireducks-dev.github.io/docs/user-guide/04-compatibility/,The order of rows in merge/join results may not match the order in pandas,results/rootcause/repro/row_order_ties.py,engine probe confirms
+row_order_ties,conf_1x,modin,76,partial,partly documented,https://modin.readthedocs.io/en/latest/supported_apis/dataframe_supported.html,Order of indexes that have the same sort key is not guaranteed,results/rootcause/repro/row_order_ties.py,engine probe confirms
+row_order_ties,conf_1x,pyarrow_backend,1,partial,no applicable promise found,,,results/rootcause/repro/row_order_ties.py,pandas reproducer differs
+row_order_ties,drift,p30,6,partial,no applicable promise found,,,results/rootcause/repro/row_order_ties.py,pandas reproducer differs
+row_order_ties,pilot,bodo_dw,2,partial,contradicts a compatibility claim,,,results/rootcause/repro/row_order_ties.py,none
+scalar_type_numpy,conf_1x,fireducks,2,not_searched,contradicts a compatibility claim,,,,none
+scalar_type_numpy,conf_1x,modin,9,not_searched,contradicts a compatibility claim,,,,none
+setitem_incompatible_dtype_raises,drift,p30,3,yes,documented incompatibility,https://pandas.pydata.org/docs/whatsnew/v3.0.0.html,Enforce banning of upcasting in in-place setitem-like operations; see PDEP6,results/rootcause/repro/setitem_incompatible_dtype_raises.py,pandas reproducer differs
+str_default_dtype,drift,p30,157,yes,documented incompatibility,https://pandas.pydata.org/docs/whatsnew/v3.0.0.html,Dedicated string data type by default,results/rootcause/repro/str_default_dtype.py,pandas reproducer differs
+str_dtype_errors,drift,p30,2,yes,documented incompatibility,https://pandas.pydata.org/docs/user_guide/migration-3-strings.html,setitem operations will now raise an error for non-string data; prod() raising for string data,results/rootcause/repro/str_dtype_errors.py,pandas reproducer differs
+str_dtype_na_semantics,drift,p30,3,partial,partly documented,https://pandas.pydata.org/docs/user_guide/migration-3-strings.html,astype(str) preserving missing values; The missing value sentinel is now always NaN,results/rootcause/repro/str_dtype_na_semantics.py,pandas reproducer differs
+str_dtype_object_checks,conf_1x,bodo,14,yes,contradicts a compatibility claim,,,results/rootcause/repro/str_dtype_object_checks.py,engine probe confirms
+str_dtype_object_checks,conf_1x,dask,9,yes,no applicable promise found,,,results/rootcause/repro/str_dtype_object_checks.py,engine probe confirms
+str_dtype_object_checks,conf_1x,pyarrow_backend,23,yes,documented incompatibility,https://pandas.pydata.org/docs/user_guide/migration-3-strings.html,Checking the dtype ... will no longer work in pandas 3+,results/rootcause/repro/str_dtype_object_checks.py,pandas reproducer differs
+str_dtype_object_checks,drift,p30,12,yes,documented incompatibility,https://pandas.pydata.org/docs/user_guide/migration-3-strings.html,Checking the dtype ... will no longer work in pandas 3+,results/rootcause/repro/str_dtype_object_checks.py,pandas reproducer differs
+str_dtype_object_checks,pilot,bodo_dw,5,yes,contradicts a compatibility claim,,,results/rootcause/repro/str_dtype_object_checks.py,none
+str_replace_regex_default,drift,p15,1,yes,documented incompatibility,https://pandas.pydata.org/docs/whatsnew/v2.0.0.html,Change the default argument of regex for Series.str.replace() from True to False,results/rootcause/repro/str_replace_regex_default.py,pandas reproducer differs
+to_datetime_consistent_format,drift,p15,1,yes,documented incompatibility,https://pandas.pydata.org/docs/whatsnew/v2.0.0.html,Datetimes are now parsed with a consistent format,results/rootcause/repro/to_datetime_consistent_format.py,pandas reproducer differs
+value_counts_naming,drift,p15,127,yes,documented incompatibility,https://pandas.pydata.org/docs/whatsnew/v2.0.0.html,Value counts sets the resulting name to count,results/rootcause/repro/value_counts_naming.py,pandas reproducer differs

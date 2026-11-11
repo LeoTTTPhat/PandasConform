@@ -1,0 +1,522 @@
+{
+ "script": "icde27/analysis/r4_probes.py",
+ "cases": "icde27/analysis/r4_probe_cases.py",
+ "generated": "2026-11-10T18:41:17+0700",
+ "repetitions": 2,
+ "environments": {
+  "pandas": {
+   "env": "ref",
+   "settings": {},
+   "runs": [
+    {
+     "status": "ok",
+     "seconds": 0.5
+    },
+    {
+     "status": "ok",
+     "seconds": 0.5
+    }
+   ],
+   "env_line": "mode=pandas pandas=2.3.3"
+  },
+  "modin": {
+   "env": "modin",
+   "settings": {
+    "RAY_ENABLE_MAC_LARGE_OBJECT_STORE": "1",
+    "RAY_USAGE_STATS_ENABLED": "0"
+   },
+   "runs": [
+    {
+     "status": "ok",
+     "seconds": 9.7
+    },
+    {
+     "status": "ok",
+     "seconds": 9.3
+    }
+   ],
+   "env_line": "mode=modin pandas=2.3.3"
+  },
+  "fireducks": {
+   "env": "fireducks",
+   "settings": {
+    "FIREDUCKS_FLAGS": "-Wfallback"
+   },
+   "runs": [
+    {
+     "status": "ok",
+     "seconds": 1.4
+    },
+    {
+     "status": "ok",
+     "seconds": 0.7
+    }
+   ],
+   "env_line": "mode=fireducks pandas=2.3.3"
+  },
+  "bodo": {
+   "env": "bodo",
+   "settings": {
+    "BODO_NUM_WORKERS": "1",
+    "OMPI_MCA_btl_tcp_if_include": "lo0"
+   },
+   "runs": [
+    {
+     "status": "ok",
+     "seconds": 10.7
+    },
+    {
+     "status": "ok",
+     "seconds": 9.4
+    }
+   ],
+   "env_line": "mode=bodo pandas=2.3.3"
+  }
+ },
+ "checks": {
+  "apply_extend_global_list": {
+   "pandas": "60000",
+   "if_stale": [],
+   "modin": {
+    "value": "2",
+    "repetitions_agree": true,
+    "equals_pandas": false,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "fireducks": {
+    "value": "60000",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "bodo": {
+    "value": "60000",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   }
+  },
+  "apply_mutate_list_element": {
+   "pandas": "30000",
+   "if_stale": [],
+   "modin": {
+    "value": "1",
+    "repetitions_agree": true,
+    "equals_pandas": false,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "fireducks": {
+    "value": "30000",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "bodo": {
+    "value": "30000",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   }
+  },
+  "stale_map_head": {
+   "pandas": "['05', '10', '15', '20', '01']",
+   "if_stale": [
+    "['05:07', '10:14', '15:21', '20:28', '01:35']",
+    "['MISSING', '05:07', '10:14', '15:21', '20:28']"
+   ],
+   "modin": {
+    "value": "['05', '10', '15', '20', '01']",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "fireducks": {
+    "value": "['05', '10', '15', '20', '01']",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "bodo": {
+    "value": "['MISSING', '05:07', '10:14', '15:21', '20:28']",
+    "repetitions_agree": true,
+    "equals_pandas": false,
+    "raised": false,
+    "equals_if_stale": true
+   }
+  },
+  "stale_multiply_head": {
+   "pandas": "[50.0, 115.0, 195.0, 290.0, 400.0]",
+   "if_stale": [
+    "[10.0, 11.5, 13.0, 14.5, 16.0]"
+   ],
+   "modin": {
+    "value": "[50.0, 115.0, 195.0, 290.0, 400.0]",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "fireducks": {
+    "value": "[50.0, 115.0, 195.0, 290.0, 400.0]",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "bodo": {
+    "value": "[10.0, 11.5, 13.0, 14.5, 16.0]",
+    "repetitions_agree": true,
+    "equals_pandas": false,
+    "raised": false,
+    "equals_if_stale": true
+   }
+  },
+  "stale_assign_head": {
+   "pandas": "[0.0, 0.004016, 0.008032, 0.012048, 0.016064]",
+   "if_stale": [
+    "[0.5, 0.5, 0.5, 0.5, 0.5]"
+   ],
+   "modin": {
+    "value": "[0.0, 0.004016, 0.008032, 0.012048, 0.016064]",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "fireducks": {
+    "value": "[0.0, 0.004016, 0.008032, 0.012048, 0.016064]",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "bodo": {
+    "value": "[0.5, 0.5, 0.5, 0.5, 0.5]",
+    "repetitions_agree": true,
+    "equals_pandas": false,
+    "raised": false,
+    "equals_if_stale": true
+   }
+  },
+  "stale_at_groupby": {
+   "pandas": "[(\"('Balon Greyjoy', 'Stannis Baratheon')\", 9), (\"('Joffrey Baratheon', 'Robb Stark')\", 10), (\"('Mance Rayder', 'Stannis Baratheon')\", 1), (\"('Robb Stark', 'Balon Greyjoy')\", 10), (\"('Stannis Baratheon', 'Joffrey Baratheon')\", 8)]",
+   "if_stale": [
+    "[(\"('Balon Greyjoy', 'Stannis Baratheon')\", 9), (\"('Joffrey Baratheon', 'Robb Stark')\", 10), (\"('Robb Stark', 'Balon Greyjoy')\", 10), (\"('Stannis Baratheon', 'Joffrey Baratheon')\", 9)]"
+   ],
+   "modin": {
+    "value": "[(\"('Balon Greyjoy', 'Stannis Baratheon')\", 9), (\"('Joffrey Baratheon', 'Robb Stark')\", 10), (\"('Mance Rayder', 'Stannis Baratheon')\", 1), (\"('Robb Stark', 'Balon Greyjoy')\", 10), (\"('Stannis Baratheon', 'Joffrey Baratheon')\", 8)]",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "fireducks": {
+    "value": "[(\"('Balon Greyjoy', 'Stannis Baratheon')\", 9), (\"('Joffrey Baratheon', 'Robb Stark')\", 10), (\"('Robb Stark', 'Balon Greyjoy')\", 10), (\"('Stannis Baratheon', 'Joffrey Baratheon')\", 9)]",
+    "repetitions_agree": true,
+    "equals_pandas": false,
+    "raised": false,
+    "equals_if_stale": true
+   },
+   "bodo": {
+    "value": "raised AttributeError: 'DataFrame' object has no attribute '_plan'",
+    "repetitions_agree": true,
+    "equals_pandas": false,
+    "raised": true,
+    "equals_if_stale": false
+   }
+  },
+  "stale_at_groupby_unstack": {
+   "pandas": "[('Balon Greyjoy', 'loss', 3), ('Balon Greyjoy', 'win', 6), ('Joffrey Baratheon', 'loss', 3), ('Joffrey Baratheon', 'win', 7), ('Mance Rayder', 'loss', 1), ('Mance Rayder', 'win', None), ('Robb Stark', 'loss', 6), ('Robb Stark', 'win', 4), ('Stannis Baratheon', 'loss', 5), ('Stannis Baratheon', 'win', 3)]",
+   "if_stale": [
+    "[('Balon Greyjoy', 'loss', 3), ('Balon Greyjoy', 'win', 6), ('Joffrey Baratheon', 'loss', 3), ('Joffrey Baratheon', 'win', 7), ('Robb Stark', 'loss', 6), ('Robb Stark', 'win', 4), ('Stannis Baratheon', 'loss', 6), ('Stannis Baratheon', 'win', 3)]"
+   ],
+   "modin": {
+    "value": "[('Balon Greyjoy', 'loss', 3), ('Balon Greyjoy', 'win', 6), ('Joffrey Baratheon', 'loss', 3), ('Joffrey Baratheon', 'win', 7), ('Mance Rayder', 'loss', 1), ('Mance Rayder', 'win', None), ('Robb Stark', 'loss', 6), ('Robb Stark', 'win', 4), ('Stannis Baratheon', 'loss', 5), ('Stannis Baratheon', 'win', 3)]",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "fireducks": {
+    "value": "[('Balon Greyjoy', 'loss', 3), ('Balon Greyjoy', 'win', 6), ('Joffrey Baratheon', 'loss', 3), ('Joffrey Baratheon', 'win', 7), ('Robb Stark', 'loss', 6), ('Robb Stark', 'win', 4), ('Stannis Baratheon', 'loss', 6), ('Stannis Baratheon', 'win', 3)]",
+    "repetitions_agree": true,
+    "equals_pandas": false,
+    "raised": false,
+    "equals_if_stale": true
+   },
+   "bodo": {
+    "value": "raised AttributeError: 'DataFrame' object has no attribute '_plan'",
+    "repetitions_agree": true,
+    "equals_pandas": false,
+    "raised": true,
+    "equals_if_stale": false
+   }
+  },
+  "stale_at_filter": {
+   "pandas": "['Balon Greyjoy', 'Balon Greyjoy', 'Balon Greyjoy', 'Joffrey Baratheon', 'Joffrey Baratheon', 'Joffrey Baratheon', 'Mance Rayder', 'Robb Stark', 'Robb Stark', 'Robb Stark', 'Robb Stark', 'Robb Stark', 'Robb Stark', 'Stannis Baratheon', 'Stannis Baratheon', 'Stannis Baratheon', 'Stannis Baratheon', 'Stannis Baratheon']",
+   "if_stale": [
+    "['Balon Greyjoy', 'Balon Greyjoy', 'Balon Greyjoy', 'Joffrey Baratheon', 'Joffrey Baratheon', 'Joffrey Baratheon', 'Robb Stark', 'Robb Stark', 'Robb Stark', 'Robb Stark', 'Robb Stark', 'Robb Stark', 'Stannis Baratheon', 'Stannis Baratheon', 'Stannis Baratheon', 'Stannis Baratheon', 'Stannis Baratheon', 'Stannis Baratheon']"
+   ],
+   "modin": {
+    "value": "['Balon Greyjoy', 'Balon Greyjoy', 'Balon Greyjoy', 'Joffrey Baratheon', 'Joffrey Baratheon', 'Joffrey Baratheon', 'Mance Rayder', 'Robb Stark', 'Robb Stark', 'Robb Stark', 'Robb Stark', 'Robb Stark', 'Robb Stark', 'Stannis Baratheon', 'Stannis Baratheon', 'Stannis Baratheon', 'Stannis Baratheon', 'Stannis Baratheon']",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "fireducks": {
+    "value": "['Balon Greyjoy', 'Balon Greyjoy', 'Balon Greyjoy', 'Joffrey Baratheon', 'Joffrey Baratheon', 'Joffrey Baratheon', 'Robb Stark', 'Robb Stark', 'Robb Stark', 'Robb Stark', 'Robb Stark', 'Robb Stark', 'Stannis Baratheon', 'Stannis Baratheon', 'Stannis Baratheon', 'Stannis Baratheon', 'Stannis Baratheon', 'Stannis Baratheon']",
+    "repetitions_agree": true,
+    "equals_pandas": false,
+    "raised": false,
+    "equals_if_stale": true
+   },
+   "bodo": {
+    "value": "['Balon Greyjoy', 'Balon Greyjoy', 'Balon Greyjoy', 'Joffrey Baratheon', 'Joffrey Baratheon', 'Joffrey Baratheon', 'Mance Rayder', 'Robb Stark', 'Robb Stark', 'Robb Stark', 'Robb Stark', 'Robb Stark', 'Robb Stark', 'Stannis Baratheon', 'Stannis Baratheon', 'Stannis Baratheon', 'Stannis Baratheon', 'Stannis Baratheon']",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   }
+  },
+  "filter_index_drop": {
+   "pandas": "rows=100 max_year=2015 first_ranks=[1, 2, 3, 5, 6, 7]",
+   "if_stale": [],
+   "modin": {
+    "value": "rows=100 max_year=2015 first_ranks=[1, 2, 3, 5, 6, 7]",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "fireducks": {
+    "value": "rows=100 max_year=2015 first_ranks=[1, 2, 3, 5, 6, 7]",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "bodo": {
+    "value": "rows=100 max_year=2019 first_ranks=[21, 22, 23, 24, 25, 26]",
+    "repetitions_agree": true,
+    "equals_pandas": false,
+    "raised": false,
+    "equals_if_stale": false
+   }
+  },
+  "unique_with_missing": {
+   "pandas": "['Brazil', 'India', 'MISSING', 'Spain']",
+   "if_stale": [],
+   "modin": {
+    "value": "['Brazil', 'India', 'MISSING', 'Spain']",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "fireducks": {
+    "value": "['Brazil', 'India', 'MISSING', 'Spain']",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "bodo": {
+    "value": "['Brazil', 'India', 'MISSING', 'Spain']",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   }
+  },
+  "nunique_column": {
+   "pandas": "3",
+   "if_stale": [],
+   "modin": {
+    "value": "3",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "fireducks": {
+    "value": "4",
+    "repetitions_agree": true,
+    "equals_pandas": false,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "bodo": {
+    "value": "3",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   }
+  },
+  "nunique_loop_over_columns": {
+   "pandas": "[3, 9, 2]",
+   "if_stale": [],
+   "modin": {
+    "value": "[3, 9, 2]",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "fireducks": {
+    "value": "[4, 9, 3]",
+    "repetitions_agree": true,
+    "equals_pandas": false,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "bodo": {
+    "value": "[3, 9, 2]",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   }
+  },
+  "nunique_select_dtypes_apply": {
+   "pandas": "[('clan_location', 3), ('war_frequency', 2)]",
+   "if_stale": [],
+   "modin": {
+    "value": "[('clan_location', 3), ('war_frequency', 2)]",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "fireducks": {
+    "value": "[('clan_location', 4), ('war_frequency', 3)]",
+    "repetitions_agree": true,
+    "equals_pandas": false,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "bodo": {
+    "value": "raised RuntimeError: {\"exception_type\":\"INTERNAL\",\"exception_message\":\"Attempted to access index 0 within vector of size 0\",\"stack_trace_pointers\":\"4926528860;4926424420;4916332820;",
+    "repetitions_agree": false,
+    "equals_pandas": false,
+    "raised": true,
+    "equals_if_stale": false
+   }
+  },
+  "value_counts_with_missing": {
+   "pandas": "[('Brazil', 10), ('India', 10), ('Spain', 20)]",
+   "if_stale": [],
+   "modin": {
+    "value": "[('Brazil', 10), ('India', 10), ('Spain', 20)]",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "fireducks": {
+    "value": "[('Brazil', 10), ('India', 10), ('Spain', 20)]",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   },
+   "bodo": {
+    "value": "[('Brazil', 10), ('India', 10), ('Spain', 20)]",
+    "repetitions_agree": true,
+    "equals_pandas": true,
+    "raised": false,
+    "equals_if_stale": false
+   }
+  }
+ },
+ "verdicts": {
+  "apply_side_effects_lost": {
+   "engine": "modin",
+   "description": "a function passed to apply extends or mutates a driver-side list",
+   "checks": {
+    "apply_extend_global_list": "reproduced",
+    "apply_mutate_list_element": "reproduced"
+   },
+   "verdict": "reproduced",
+   "reproduced_checks": 2,
+   "n_checks": 2,
+   "other_engines_differ": []
+  },
+  "stale_after_inplace_update_bodo": {
+   "engine": "bodo",
+   "description": "head() after a column update shows the data from before the update",
+   "checks": {
+    "stale_map_head": "reproduced",
+    "stale_multiply_head": "reproduced",
+    "stale_assign_head": "reproduced"
+   },
+   "verdict": "reproduced",
+   "reproduced_checks": 3,
+   "n_checks": 3,
+   "other_engines_differ": []
+  },
+  "stale_after_inplace_update_fireducks": {
+   "engine": "fireducks",
+   "description": "group-by and filter after two .at assignments use the data from before them",
+   "checks": {
+    "stale_at_groupby": "reproduced",
+    "stale_at_groupby_unstack": "reproduced",
+    "stale_at_filter": "reproduced"
+   },
+   "verdict": "reproduced",
+   "reproduced_checks": 3,
+   "n_checks": 3,
+   "other_engines_differ": [
+    "bodo"
+   ]
+  },
+  "positions_instead_of_labels": {
+   "engine": "bodo",
+   "description": "a Boolean filter's index holds positions, so drop() removes other rows",
+   "checks": {
+    "filter_index_drop": "reproduced"
+   },
+   "verdict": "reproduced",
+   "reproduced_checks": 1,
+   "n_checks": 1,
+   "other_engines_differ": []
+  },
+  "unique_nunique_missing": {
+   "engine": "fireducks",
+   "description": "unique() and nunique() treat missing values differently",
+   "checks": {
+    "unique_with_missing": "not reproduced",
+    "nunique_column": "reproduced",
+    "nunique_loop_over_columns": "reproduced",
+    "nunique_select_dtypes_apply": "reproduced"
+   },
+   "verdict": "reproduced",
+   "reproduced_checks": 3,
+   "n_checks": 4,
+   "other_engines_differ": [
+    "bodo"
+   ]
+  }
+ },
+ "summary": {
+  "behaviours": 5,
+  "reproduced": [
+   "apply_side_effects_lost",
+   "positions_instead_of_labels",
+   "stale_after_inplace_update_bodo",
+   "stale_after_inplace_update_fireducks",
+   "unique_nunique_missing"
+  ],
+  "not_reproduced": [],
+  "other": []
+ }
+}

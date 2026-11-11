@@ -1,0 +1,4912 @@
+{
+ "by_label": {
+  "bodo": {
+   "DIFF|containers of scalars only": 48,
+   "DIFF|dtype objects (and scalar containers)": 8,
+   "DIFF|frames, Series, arrays involved": 18,
+   "DIFF|other objects involved": 1,
+   "matching|containers of scalars only": 11,
+   "matching|dtype objects (and scalar containers)": 1,
+   "matching|frames, Series, arrays involved": 1,
+   "matching|other objects involved": 1,
+   "other|containers of scalars only": 5,
+   "other|other objects involved": 1
+  },
+  "dask": {
+   "DIFF|containers of scalars only": 9,
+   "DIFF|dtype objects (and scalar containers)": 8,
+   "DIFF|frames, Series, arrays involved": 51,
+   "matching|containers of scalars only": 2,
+   "matching|dtype objects (and scalar containers)": 1,
+   "matching|frames, Series, arrays involved": 2,
+   "matching|other objects involved": 1,
+   "other|containers of scalars only": 3,
+   "other|dtype objects (and scalar containers)": 1,
+   "other|frames, Series, arrays involved": 2
+  },
+  "fireducks": {
+   "DIFF|containers of scalars only": 14,
+   "DIFF|frames, Series, arrays involved": 20,
+   "DIFF|other objects involved": 4,
+   "matching|containers of scalars only": 7,
+   "matching|dtype objects (and scalar containers)": 3,
+   "matching|frames, Series, arrays involved": 18,
+   "other|dtype objects (and scalar containers)": 11,
+   "other|frames, Series, arrays involved": 1,
+   "other|other objects involved": 3
+  },
+  "modin": {
+   "DIFF|containers of scalars only": 20,
+   "DIFF|dtype objects (and scalar containers)": 1,
+   "DIFF|frames, Series, arrays involved": 8,
+   "DIFF|other objects involved": 4,
+   "matching|containers of scalars only": 27,
+   "matching|dtype objects (and scalar containers)": 14,
+   "matching|frames, Series, arrays involved": 18,
+   "matching|other objects involved": 3,
+   "other|frames, Series, arrays involved": 1
+  },
+  "p15": {
+   "DIFF|containers of scalars only": 7,
+   "DIFF|dtype objects (and scalar containers)": 1,
+   "DIFF|frames, Series, arrays involved": 12,
+   "DIFF|other objects involved": 1,
+   "matching|containers of scalars only": 45,
+   "matching|dtype objects (and scalar containers)": 16,
+   "matching|frames, Series, arrays involved": 15,
+   "matching|other objects involved": 6
+  },
+  "p30": {
+   "DIFF|containers of scalars only": 5,
+   "DIFF|dtype objects (and scalar containers)": 8,
+   "DIFF|frames, Series, arrays involved": 7,
+   "DIFF|other objects involved": 3,
+   "matching|containers of scalars only": 46,
+   "matching|dtype objects (and scalar containers)": 6,
+   "matching|frames, Series, arrays involved": 22,
+   "matching|other objects involved": 4
+  },
+  "pyarrow_backend": {
+   "DIFF|containers of scalars only": 50,
+   "DIFF|dtype objects (and scalar containers)": 13,
+   "DIFF|frames, Series, arrays involved": 22,
+   "matching|containers of scalars only": 32,
+   "matching|dtype objects (and scalar containers)": 1,
+   "matching|frames, Series, arrays involved": 7,
+   "matching|other objects involved": 7
+  }
+ },
+ "cells": [
+  [
+   "bodo",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   5,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "bodo",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   12,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "bodo",
+   "artgor/eda-and-models",
+   32,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "bodo",
+   "balajivenkat96/solar-plants",
+   18,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "bodo",
+   "beratozmen/clash-of-clans-exploratory-data-analysis",
+   7,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "bodo",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   1,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "bodo",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   2,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "bodo",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   8,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "bodo",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   11,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "bodo",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   12,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "bodo",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   18,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "bodo",
+   "grudd0/mass-shooting-analysis",
+   1,
+   "E4",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "grudd0/mass-shooting-analysis",
+   43,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "bodo",
+   "j0thu777/onlineretailanalysis",
+   21,
+   "ERR",
+   "other objects involved"
+  ],
+  [
+   "bodo",
+   "j0thu777/onlineretailanalysis",
+   22,
+   "E2",
+   "other objects involved"
+  ],
+  [
+   "bodo",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   12,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   8,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   13,
+   "ERR",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   14,
+   "ERR",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   17,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   20,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   21,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   23,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   25,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   28,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   29,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   30,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   31,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   33,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   37,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   40,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   48,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   51,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   53,
+   "ERR",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   58,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   59,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   60,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   61,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   62,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   63,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   64,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   65,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   66,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   67,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   68,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   69,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   70,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   71,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   72,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   75,
+   "ERR",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   78,
+   "ERR",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   95,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   96,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   97,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   98,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   99,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   103,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "koko1998/summer-products-and-sales-wish-com",
+   105,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "luckygemini/notebook5d5fc80c9f",
+   6,
+   "E3",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "luckygemini/notebook5d5fc80c9f",
+   8,
+   "E3",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "luizep/movieslens20m",
+   6,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "bodo",
+   "luizep/movieslens20m",
+   7,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "bodo",
+   "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost",
+   9,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "nadare/feature-engenieering-with-pivot-table",
+   2,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "nandhuelan/ott-platforms",
+   11,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "nihhaar/etltransform",
+   3,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "bodo",
+   "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   4,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "bodo",
+   "salmaneunus/student-s-performance-quantitative-visual-eda",
+   11,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "bodo",
+   "salmaneunus/student-s-performance-quantitative-visual-eda",
+   16,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "bodo",
+   "sanket30/eda-of-application-train-home-credit-default",
+   11,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "bodo",
+   "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+   1,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "bodo",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   14,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   18,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "bodo",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   30,
+   "E4",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   32,
+   "E4",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   35,
+   "E4",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   38,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   66,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   67,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "taylorhickem/singapore-building-energy",
+   3,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "bodo",
+   "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+   7,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "bodo",
+   "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+   8,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "bodo",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   9,
+   "E4",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "bodo",
+   "wyl4417/machine-learning-and-how-it-affects-you",
+   4,
+   "DIFF",
+   "other objects involved"
+  ],
+  [
+   "bodo",
+   "yonelanuba/elo-merchant-by-yonela",
+   72,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "yonelanuba/elo-merchant-by-yonela",
+   73,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "yonelanuba/elo-merchant-by-yonela",
+   85,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "yonelanuba/elo-merchant-by-yonela",
+   97,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "yonelanuba/elo-merchant-by-yonela",
+   100,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "yonelanuba/elo-merchant-by-yonela",
+   103,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "yonelanuba/elo-merchant-by-yonela",
+   105,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "yonelanuba/elo-merchant-by-yonela",
+   107,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "yonelanuba/elo-merchant-by-yonela",
+   109,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "yonelanuba/elo-merchant-by-yonela",
+   110,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "bodo",
+   "yonelanuba/elo-merchant-by-yonela",
+   115,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "dask",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   5,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "dask",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   8,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   12,
+   "ERR",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "dask",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   15,
+   "ERR",
+   "containers of scalars only"
+  ],
+  [
+   "dask",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   17,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "ashukr/first-step-ingestion-to-prediction",
+   4,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "ayushsingh5941/tweet-disaster-or-not",
+   7,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "ayushsingh5941/tweet-disaster-or-not",
+   25,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "balajivenkat96/solar-plants",
+   21,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   1,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   2,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   18,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "brianmendieta/data-cleaning-plus-eda",
+   6,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "brianmendieta/data-cleaning-plus-eda",
+   11,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+   2,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "corazzon/how-to-use-pandas-filter-in-survey-eda",
+   2,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "dbatao/kernel2f80fc9d78",
+   43,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "dask",
+   "ersinsen/fraud-3-eda",
+   31,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "gmanish/help-ngo-country-clustering",
+   7,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "gmanish/help-ngo-country-clustering",
+   18,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "gravix/gradient-in-a-box",
+   10,
+   "ERR",
+   "containers of scalars only"
+  ],
+  [
+   "dask",
+   "grudd0/mass-shooting-analysis",
+   43,
+   "ERR",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "gsilves/quiz-4-question-1",
+   3,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "j0thu777/onlineretailanalysis",
+   5,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "jackwatson99/pima-indians-diabetes-rf-81",
+   6,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   31,
+   "E4",
+   "other objects involved"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   4,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   5,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   6,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   15,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   18,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation",
+   50,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "jyotsananegi/melbourne-housing-snapshot-eda",
+   2,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "koko1998/summer-products-and-sales-wish-com",
+   8,
+   "ERR",
+   "containers of scalars only"
+  ],
+  [
+   "dask",
+   "koko1998/summer-products-and-sales-wish-com",
+   97,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "koko1998/summer-products-and-sales-wish-com",
+   99,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "koko1998/summer-products-and-sales-wish-com",
+   104,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "luizep/movieslens20m",
+   6,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "dask",
+   "luizep/movieslens20m",
+   7,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "dask",
+   "madseth/customer-shopping-trends-dataset-eda",
+   3,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "mathewvondersaar/analysis-of-student-performance",
+   2,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+   11,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+   25,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "narasimhach/ashrae-data-preprocessing",
+   13,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "nihhaar/etltransform",
+   2,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "nihhaar/etltransform",
+   3,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "dask",
+   "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   4,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "dask",
+   "penny8/my-sub1",
+   19,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "penny8/my-sub1",
+   20,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "roopahegde/cryptocurrency-price-correlation",
+   5,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "roopahegde/cryptocurrency-price-correlation",
+   7,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "roydatascience/malware-detection-stacking-2-0",
+   7,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "salmaneunus/student-s-performance-quantitative-visual-eda",
+   11,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "dask",
+   "salmaneunus/student-s-performance-quantitative-visual-eda",
+   15,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "salmaneunus/student-s-performance-quantitative-visual-eda",
+   16,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "sanket30/eda-of-application-train-home-credit-default",
+   11,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "dask",
+   "shivavashishtha/zomato-eda-tutorial",
+   10,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "shivavashishtha/zomato-eda-tutorial",
+   47,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "shubhammahalank/eda-hotel-booking-demand",
+   3,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+   1,
+   "ERR",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "snanilim/video-games-sales-analysis-and-visualization",
+   3,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "stefanjov/my-first-normalize-on-big-dataset",
+   4,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   18,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   32,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "dask",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   35,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "dask",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   38,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "dask",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   66,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "dask",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   67,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "dask",
+   "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+   7,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+   8,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+   3,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   9,
+   "E4",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "dask",
+   "yonelanuba/elo-merchant-by-yonela",
+   66,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "dask",
+   "yonelanuba/elo-merchant-by-yonela",
+   97,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "dask",
+   "yonelanuba/elo-merchant-by-yonela",
+   100,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "dask",
+   "yonelanuba/elo-merchant-by-yonela",
+   103,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "dask",
+   "yonelanuba/elo-merchant-by-yonela",
+   105,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "dask",
+   "yonelanuba/elo-merchant-by-yonela",
+   107,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "dask",
+   "yonelanuba/elo-merchant-by-yonela",
+   108,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "dask",
+   "yonelanuba/elo-merchant-by-yonela",
+   149,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   5,
+   "UNCOMPARABLE",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "fireducks",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   12,
+   "UNCOMPARABLE",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "fireducks",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   15,
+   "E3",
+   "containers of scalars only"
+  ],
+  [
+   "fireducks",
+   "artgor/eda-and-models",
+   32,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "balajivenkat96/solar-plants",
+   18,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "balajivenkat96/solar-plants",
+   21,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "beratozmen/clash-of-clans-exploratory-data-analysis",
+   7,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   1,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   2,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   8,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   9,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   10,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   11,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   12,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   18,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "dbatao/kernel2f80fc9d78",
+   28,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "fireducks",
+   "dbatao/kernel2f80fc9d78",
+   43,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "fireducks",
+   "grudd0/mass-shooting-analysis",
+   1,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "fireducks",
+   "grudd0/mass-shooting-analysis",
+   43,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "guyalmog/hr-analytics-predicting-employees-attrition",
+   75,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "fireducks",
+   "j0thu777/onlineretailanalysis",
+   20,
+   "ERR",
+   "other objects involved"
+  ],
+  [
+   "fireducks",
+   "j0thu777/onlineretailanalysis",
+   21,
+   "ERR",
+   "other objects involved"
+  ],
+  [
+   "fireducks",
+   "j0thu777/onlineretailanalysis",
+   22,
+   "ERR",
+   "other objects involved"
+  ],
+  [
+   "fireducks",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   12,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   31,
+   "DIFF",
+   "other objects involved"
+  ],
+  [
+   "fireducks",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   34,
+   "DIFF",
+   "other objects involved"
+  ],
+  [
+   "fireducks",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   35,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   36,
+   "DIFF",
+   "other objects involved"
+  ],
+  [
+   "fireducks",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   37,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction",
+   8,
+   "ERR",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "fireducks",
+   "kmader/analyzing-matches",
+   12,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "kmader/analyzing-matches",
+   15,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "kmader/analyzing-matches",
+   18,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "fireducks",
+   "koko1998/summer-products-and-sales-wish-com",
+   8,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "koko1998/summer-products-and-sales-wish-com",
+   97,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "koko1998/summer-products-and-sales-wish-com",
+   99,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "luckygemini/notebook5d5fc80c9f",
+   6,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "luckygemini/notebook5d5fc80c9f",
+   8,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "luizep/movieslens20m",
+   6,
+   "UNCOMPARABLE",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "fireducks",
+   "luizep/movieslens20m",
+   7,
+   "UNCOMPARABLE",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "fireducks",
+   "luizep/movieslens20m",
+   35,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "fireducks",
+   "nadare/feature-engenieering-with-pivot-table",
+   2,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "fireducks",
+   "nadare/feature-engenieering-with-pivot-table",
+   16,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "nandhuelan/ott-platforms",
+   11,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "nihhaar/etltransform",
+   3,
+   "UNCOMPARABLE",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "fireducks",
+   "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   4,
+   "UNCOMPARABLE",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "fireducks",
+   "salmaneunus/student-s-performance-quantitative-visual-eda",
+   11,
+   "UNCOMPARABLE",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "fireducks",
+   "salmaneunus/student-s-performance-quantitative-visual-eda",
+   16,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "sanket30/eda-of-application-train-home-credit-default",
+   11,
+   "UNCOMPARABLE",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "fireducks",
+   "sanket30/eda-of-application-train-home-credit-default",
+   24,
+   "UNCOMPARABLE",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "fireducks",
+   "sanket30/eda-of-application-train-home-credit-default",
+   42,
+   "UNCOMPARABLE",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "fireducks",
+   "shivavashishtha/zomato-eda-tutorial",
+   69,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "shivavashishtha/zomato-eda-tutorial",
+   76,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "shivavashishtha/zomato-eda-tutorial",
+   87,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+   1,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   14,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   18,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   30,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   32,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   35,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   38,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   66,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   67,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "fireducks",
+   "taylorhickem/singapore-building-energy",
+   3,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+   7,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+   8,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+   9,
+   "ERR",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "fireducks",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   9,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "fireducks",
+   "wyl4417/machine-learning-and-how-it-affects-you",
+   4,
+   "DIFF",
+   "other objects involved"
+  ],
+  [
+   "fireducks",
+   "yonelanuba/elo-merchant-by-yonela",
+   76,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "fireducks",
+   "yonelanuba/elo-merchant-by-yonela",
+   81,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "fireducks",
+   "yonelanuba/elo-merchant-by-yonela",
+   83,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "fireducks",
+   "yonelanuba/elo-merchant-by-yonela",
+   85,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "fireducks",
+   "yonelanuba/elo-merchant-by-yonela",
+   97,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "fireducks",
+   "yonelanuba/elo-merchant-by-yonela",
+   100,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "fireducks",
+   "yonelanuba/elo-merchant-by-yonela",
+   103,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "fireducks",
+   "yonelanuba/elo-merchant-by-yonela",
+   105,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "fireducks",
+   "yonelanuba/elo-merchant-by-yonela",
+   107,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "fireducks",
+   "yonelanuba/elo-merchant-by-yonela",
+   108,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "fireducks",
+   "yonelanuba/elo-merchant-by-yonela",
+   109,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "fireducks",
+   "yonelanuba/elo-merchant-by-yonela",
+   110,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   5,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "modin",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   12,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "modin",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   15,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "balajivenkat96/solar-plants",
+   18,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "balajivenkat96/solar-plants",
+   21,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "beratozmen/clash-of-clans-exploratory-data-analysis",
+   7,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   1,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   2,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   8,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   9,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   10,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   11,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   12,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   18,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "dbatao/kernel2f80fc9d78",
+   28,
+   "E1",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "modin",
+   "dbatao/kernel2f80fc9d78",
+   43,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "modin",
+   "gravix/gradient-in-a-box",
+   6,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "gravix/gradient-in-a-box",
+   7,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "gravix/gradient-in-a-box",
+   8,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "gravix/gradient-in-a-box",
+   9,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "gravix/gradient-in-a-box",
+   10,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "gravix/gradient-in-a-box",
+   11,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "gravix/gradient-in-a-box",
+   12,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "grudd0/mass-shooting-analysis",
+   1,
+   "E4",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "grudd0/mass-shooting-analysis",
+   40,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "grudd0/mass-shooting-analysis",
+   43,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "j0thu777/onlineretailanalysis",
+   20,
+   "DIFF",
+   "other objects involved"
+  ],
+  [
+   "modin",
+   "j0thu777/onlineretailanalysis",
+   21,
+   "DIFF",
+   "other objects involved"
+  ],
+  [
+   "modin",
+   "j0thu777/onlineretailanalysis",
+   22,
+   "DIFF",
+   "other objects involved"
+  ],
+  [
+   "modin",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   12,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   31,
+   "E0",
+   "other objects involved"
+  ],
+  [
+   "modin",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   34,
+   "E0",
+   "other objects involved"
+  ],
+  [
+   "modin",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   35,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   36,
+   "E0",
+   "other objects involved"
+  ],
+  [
+   "modin",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   37,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "jirakst/book-recommendation",
+   76,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "jirakst/book-recommendation",
+   77,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "jirakst/book-recommendation",
+   83,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction",
+   8,
+   "E2",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "modin",
+   "kmader/analyzing-matches",
+   12,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "kmader/analyzing-matches",
+   15,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "kmader/analyzing-matches",
+   18,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "koko1998/summer-products-and-sales-wish-com",
+   8,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "koko1998/summer-products-and-sales-wish-com",
+   97,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "koko1998/summer-products-and-sales-wish-com",
+   99,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "luckygemini/notebook5d5fc80c9f",
+   6,
+   "E3",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "luckygemini/notebook5d5fc80c9f",
+   8,
+   "E3",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "luizep/movieslens20m",
+   6,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "modin",
+   "luizep/movieslens20m",
+   7,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "modin",
+   "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost",
+   9,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "nadare/feature-engenieering-with-pivot-table",
+   2,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "nandhuelan/ott-platforms",
+   11,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "nandhuelan/ott-platforms",
+   17,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "nihhaar/etltransform",
+   3,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "modin",
+   "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   4,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "modin",
+   "penny8/my-sub1",
+   19,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "penny8/my-sub1",
+   20,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697",
+   63,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "modin",
+   "salmaneunus/student-s-performance-quantitative-visual-eda",
+   11,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "modin",
+   "salmaneunus/student-s-performance-quantitative-visual-eda",
+   16,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "sanket30/eda-of-application-train-home-credit-default",
+   11,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "modin",
+   "sanket30/eda-of-application-train-home-credit-default",
+   24,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "modin",
+   "sanket30/eda-of-application-train-home-credit-default",
+   42,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "modin",
+   "shivavashishtha/zomato-eda-tutorial",
+   69,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "shivavashishtha/zomato-eda-tutorial",
+   76,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "shivavashishtha/zomato-eda-tutorial",
+   87,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+   1,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "sudheer259/house-price-prediction",
+   187,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   14,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   18,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   30,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   32,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   35,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   38,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   66,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   67,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "taylorhickem/singapore-building-energy",
+   3,
+   "ERR",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+   7,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+   8,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+   9,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "modin",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   9,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "modin",
+   "wyl4417/machine-learning-and-how-it-affects-you",
+   4,
+   "DIFF",
+   "other objects involved"
+  ],
+  [
+   "modin",
+   "yonelanuba/elo-merchant-by-yonela",
+   75,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "yonelanuba/elo-merchant-by-yonela",
+   76,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "yonelanuba/elo-merchant-by-yonela",
+   80,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "yonelanuba/elo-merchant-by-yonela",
+   81,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "yonelanuba/elo-merchant-by-yonela",
+   83,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "yonelanuba/elo-merchant-by-yonela",
+   85,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "yonelanuba/elo-merchant-by-yonela",
+   97,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "yonelanuba/elo-merchant-by-yonela",
+   100,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "yonelanuba/elo-merchant-by-yonela",
+   103,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "yonelanuba/elo-merchant-by-yonela",
+   105,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "yonelanuba/elo-merchant-by-yonela",
+   107,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "yonelanuba/elo-merchant-by-yonela",
+   108,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "yonelanuba/elo-merchant-by-yonela",
+   109,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "modin",
+   "yonelanuba/elo-merchant-by-yonela",
+   110,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   5,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p15",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   12,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p15",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   15,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "artgor/eda-and-models",
+   32,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "balajivenkat96/solar-plants",
+   21,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "beratozmen/clash-of-clans-exploratory-data-analysis",
+   7,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   1,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   2,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   8,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   11,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   12,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   18,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "dbatao/kernel2f80fc9d78",
+   28,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p15",
+   "dbatao/kernel2f80fc9d78",
+   43,
+   "E4",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p15",
+   "gravix/gradient-in-a-box",
+   6,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "gravix/gradient-in-a-box",
+   7,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "gravix/gradient-in-a-box",
+   8,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "gravix/gradient-in-a-box",
+   9,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "gravix/gradient-in-a-box",
+   10,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "gravix/gradient-in-a-box",
+   11,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "gravix/gradient-in-a-box",
+   12,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "grudd0/mass-shooting-analysis",
+   1,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "grudd0/mass-shooting-analysis",
+   40,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "grudd0/mass-shooting-analysis",
+   43,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "j0thu777/onlineretailanalysis",
+   20,
+   "E2",
+   "other objects involved"
+  ],
+  [
+   "p15",
+   "j0thu777/onlineretailanalysis",
+   21,
+   "E2",
+   "other objects involved"
+  ],
+  [
+   "p15",
+   "j0thu777/onlineretailanalysis",
+   22,
+   "E2",
+   "other objects involved"
+  ],
+  [
+   "p15",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   12,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   31,
+   "E0",
+   "other objects involved"
+  ],
+  [
+   "p15",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   34,
+   "E0",
+   "other objects involved"
+  ],
+  [
+   "p15",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   35,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   36,
+   "E0",
+   "other objects involved"
+  ],
+  [
+   "p15",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   37,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "jirakst/book-recommendation",
+   76,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "jirakst/book-recommendation",
+   77,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "jirakst/book-recommendation",
+   83,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction",
+   8,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p15",
+   "kmader/analyzing-matches",
+   12,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "kmader/analyzing-matches",
+   15,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "kmader/analyzing-matches",
+   18,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "koko1998/summer-products-and-sales-wish-com",
+   8,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "koko1998/summer-products-and-sales-wish-com",
+   97,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "koko1998/summer-products-and-sales-wish-com",
+   99,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "luckygemini/notebook5d5fc80c9f",
+   6,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "luckygemini/notebook5d5fc80c9f",
+   8,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "luizep/movieslens20m",
+   6,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p15",
+   "luizep/movieslens20m",
+   7,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p15",
+   "luizep/movieslens20m",
+   35,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost",
+   9,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "nadare/feature-engenieering-with-pivot-table",
+   2,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "nadare/feature-engenieering-with-pivot-table",
+   16,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "nandhuelan/ott-platforms",
+   11,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "nandhuelan/ott-platforms",
+   17,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "nihhaar/etltransform",
+   3,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p15",
+   "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   4,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p15",
+   "penny8/my-sub1",
+   19,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "penny8/my-sub1",
+   20,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697",
+   63,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p15",
+   "salmaneunus/student-s-performance-quantitative-visual-eda",
+   11,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p15",
+   "salmaneunus/student-s-performance-quantitative-visual-eda",
+   16,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "sanket30/eda-of-application-train-home-credit-default",
+   11,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p15",
+   "sanket30/eda-of-application-train-home-credit-default",
+   24,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p15",
+   "sanket30/eda-of-application-train-home-credit-default",
+   42,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p15",
+   "shivavashishtha/zomato-eda-tutorial",
+   69,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "shivavashishtha/zomato-eda-tutorial",
+   70,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "shivavashishtha/zomato-eda-tutorial",
+   76,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "shivavashishtha/zomato-eda-tutorial",
+   77,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "shivavashishtha/zomato-eda-tutorial",
+   87,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+   1,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "sudheer259/house-price-prediction",
+   32,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "sudheer259/house-price-prediction",
+   187,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   14,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   18,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   30,
+   "E4",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   32,
+   "E4",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   35,
+   "E4",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   38,
+   "E4",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   66,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   67,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "taylorhickem/singapore-building-energy",
+   3,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "tunguz/fathers-day-specials-just-the-features",
+   26,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p15",
+   "tunguz/fathers-day-specials-just-the-features",
+   27,
+   "E0",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p15",
+   "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+   7,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+   8,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+   9,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p15",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   9,
+   "E4",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p15",
+   "wyl4417/machine-learning-and-how-it-affects-you",
+   4,
+   "DIFF",
+   "other objects involved"
+  ],
+  [
+   "p15",
+   "yonelanuba/elo-merchant-by-yonela",
+   75,
+   "E4",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "yonelanuba/elo-merchant-by-yonela",
+   76,
+   "E4",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "yonelanuba/elo-merchant-by-yonela",
+   80,
+   "E4",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "yonelanuba/elo-merchant-by-yonela",
+   81,
+   "E4",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "yonelanuba/elo-merchant-by-yonela",
+   83,
+   "E4",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "yonelanuba/elo-merchant-by-yonela",
+   85,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "yonelanuba/elo-merchant-by-yonela",
+   97,
+   "E4",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "yonelanuba/elo-merchant-by-yonela",
+   100,
+   "E4",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "yonelanuba/elo-merchant-by-yonela",
+   103,
+   "E4",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "yonelanuba/elo-merchant-by-yonela",
+   105,
+   "E4",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "yonelanuba/elo-merchant-by-yonela",
+   107,
+   "E4",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "yonelanuba/elo-merchant-by-yonela",
+   108,
+   "E4",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "yonelanuba/elo-merchant-by-yonela",
+   109,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "yonelanuba/elo-merchant-by-yonela",
+   110,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "yonelanuba/elo-merchant-by-yonela",
+   135,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p15",
+   "yonelanuba/elo-merchant-by-yonela",
+   143,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   5,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p30",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   12,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p30",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   15,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "artgor/eda-and-models",
+   32,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "balajivenkat96/solar-plants",
+   18,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "balajivenkat96/solar-plants",
+   21,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "beratozmen/clash-of-clans-exploratory-data-analysis",
+   7,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   1,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   2,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   8,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   9,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   10,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   12,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   18,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "dbatao/kernel2f80fc9d78",
+   43,
+   "E4",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p30",
+   "gravix/gradient-in-a-box",
+   6,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "gravix/gradient-in-a-box",
+   7,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "gravix/gradient-in-a-box",
+   8,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "gravix/gradient-in-a-box",
+   9,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "gravix/gradient-in-a-box",
+   10,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "gravix/gradient-in-a-box",
+   11,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "gravix/gradient-in-a-box",
+   12,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "grudd0/mass-shooting-analysis",
+   1,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "grudd0/mass-shooting-analysis",
+   40,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "grudd0/mass-shooting-analysis",
+   43,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "j0thu777/onlineretailanalysis",
+   20,
+   "DIFF",
+   "other objects involved"
+  ],
+  [
+   "p30",
+   "j0thu777/onlineretailanalysis",
+   21,
+   "DIFF",
+   "other objects involved"
+  ],
+  [
+   "p30",
+   "j0thu777/onlineretailanalysis",
+   22,
+   "DIFF",
+   "other objects involved"
+  ],
+  [
+   "p30",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   12,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   31,
+   "E2",
+   "other objects involved"
+  ],
+  [
+   "p30",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   34,
+   "E2",
+   "other objects involved"
+  ],
+  [
+   "p30",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   35,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   36,
+   "E0",
+   "other objects involved"
+  ],
+  [
+   "p30",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   37,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "jirakst/book-recommendation",
+   76,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "jirakst/book-recommendation",
+   77,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "jirakst/book-recommendation",
+   83,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction",
+   8,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p30",
+   "kmader/analyzing-matches",
+   12,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "kmader/analyzing-matches",
+   15,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "kmader/analyzing-matches",
+   18,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "koko1998/summer-products-and-sales-wish-com",
+   8,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "koko1998/summer-products-and-sales-wish-com",
+   97,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "koko1998/summer-products-and-sales-wish-com",
+   99,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "luckygemini/notebook5d5fc80c9f",
+   6,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "luckygemini/notebook5d5fc80c9f",
+   8,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "luizep/movieslens20m",
+   6,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p30",
+   "luizep/movieslens20m",
+   7,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p30",
+   "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost",
+   9,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "nadare/feature-engenieering-with-pivot-table",
+   2,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "nadare/feature-engenieering-with-pivot-table",
+   16,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "nandhuelan/ott-platforms",
+   11,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "nandhuelan/ott-platforms",
+   17,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "nihhaar/etltransform",
+   3,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p30",
+   "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   4,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p30",
+   "penny8/my-sub1",
+   19,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "penny8/my-sub1",
+   20,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697",
+   63,
+   "E2",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p30",
+   "salmaneunus/student-s-performance-quantitative-visual-eda",
+   11,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p30",
+   "salmaneunus/student-s-performance-quantitative-visual-eda",
+   16,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "sanket30/eda-of-application-train-home-credit-default",
+   11,
+   "E2",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p30",
+   "sanket30/eda-of-application-train-home-credit-default",
+   24,
+   "E2",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p30",
+   "sanket30/eda-of-application-train-home-credit-default",
+   42,
+   "E2",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p30",
+   "shivavashishtha/zomato-eda-tutorial",
+   69,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "shivavashishtha/zomato-eda-tutorial",
+   70,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "shivavashishtha/zomato-eda-tutorial",
+   76,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "shivavashishtha/zomato-eda-tutorial",
+   77,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "shivavashishtha/zomato-eda-tutorial",
+   87,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+   1,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "sudheer259/house-price-prediction",
+   32,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "sudheer259/house-price-prediction",
+   187,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   14,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   18,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   30,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   32,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   35,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   38,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   66,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   67,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "taylorhickem/singapore-building-energy",
+   3,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+   7,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+   8,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+   9,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "p30",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   9,
+   "E4",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "p30",
+   "wyl4417/machine-learning-and-how-it-affects-you",
+   4,
+   "E2",
+   "other objects involved"
+  ],
+  [
+   "p30",
+   "yonelanuba/elo-merchant-by-yonela",
+   75,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "yonelanuba/elo-merchant-by-yonela",
+   76,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "yonelanuba/elo-merchant-by-yonela",
+   80,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "yonelanuba/elo-merchant-by-yonela",
+   81,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "yonelanuba/elo-merchant-by-yonela",
+   83,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "yonelanuba/elo-merchant-by-yonela",
+   85,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "yonelanuba/elo-merchant-by-yonela",
+   97,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "yonelanuba/elo-merchant-by-yonela",
+   100,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "yonelanuba/elo-merchant-by-yonela",
+   103,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "yonelanuba/elo-merchant-by-yonela",
+   105,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "yonelanuba/elo-merchant-by-yonela",
+   107,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "yonelanuba/elo-merchant-by-yonela",
+   108,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "yonelanuba/elo-merchant-by-yonela",
+   109,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "yonelanuba/elo-merchant-by-yonela",
+   110,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "yonelanuba/elo-merchant-by-yonela",
+   135,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "p30",
+   "yonelanuba/elo-merchant-by-yonela",
+   143,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   5,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "pyarrow_backend",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   12,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "pyarrow_backend",
+   "akgauravin/gun-violence-data-exploration-and-plotting",
+   15,
+   "E3",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "artgor/eda-and-models",
+   32,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "balajivenkat96/solar-plants",
+   21,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "beratozmen/clash-of-clans-exploratory-data-analysis",
+   7,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   1,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   2,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   8,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   9,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   10,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   11,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   12,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   18,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "dbatao/kernel2f80fc9d78",
+   43,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "pyarrow_backend",
+   "gravix/gradient-in-a-box",
+   6,
+   "E3",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "gravix/gradient-in-a-box",
+   7,
+   "E3",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "gravix/gradient-in-a-box",
+   8,
+   "E3",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "gravix/gradient-in-a-box",
+   9,
+   "E3",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "gravix/gradient-in-a-box",
+   10,
+   "E3",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "grudd0/mass-shooting-analysis",
+   1,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "grudd0/mass-shooting-analysis",
+   43,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "j0thu777/onlineretailanalysis",
+   20,
+   "E3",
+   "other objects involved"
+  ],
+  [
+   "pyarrow_backend",
+   "j0thu777/onlineretailanalysis",
+   21,
+   "E2",
+   "other objects involved"
+  ],
+  [
+   "pyarrow_backend",
+   "j0thu777/onlineretailanalysis",
+   22,
+   "E2",
+   "other objects involved"
+  ],
+  [
+   "pyarrow_backend",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   12,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   31,
+   "E2",
+   "other objects involved"
+  ],
+  [
+   "pyarrow_backend",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   34,
+   "E0",
+   "other objects involved"
+  ],
+  [
+   "pyarrow_backend",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   35,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   36,
+   "E0",
+   "other objects involved"
+  ],
+  [
+   "pyarrow_backend",
+   "jagangupta/stop-the-s-toxic-comments-eda",
+   37,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "jirakst/book-recommendation",
+   76,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "jirakst/book-recommendation",
+   77,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "jirakst/book-recommendation",
+   83,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "kimtaehun/simple-preprocessing-for-time-series-prediction",
+   8,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "pyarrow_backend",
+   "kmader/analyzing-matches",
+   12,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "kmader/analyzing-matches",
+   15,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "kmader/analyzing-matches",
+   18,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   8,
+   "E3",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   17,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   20,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   21,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   23,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   25,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   28,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   29,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   30,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   31,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   33,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   34,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   37,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   40,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   48,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   51,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   53,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   58,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   59,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   60,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   61,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   62,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   63,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   64,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   65,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   66,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   67,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   68,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   69,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   70,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   71,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   72,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   75,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   78,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   95,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   96,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   97,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   98,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   99,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   103,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "koko1998/summer-products-and-sales-wish-com",
+   105,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "luckygemini/notebook5d5fc80c9f",
+   6,
+   "E3",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "luckygemini/notebook5d5fc80c9f",
+   8,
+   "E3",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "luizep/movieslens20m",
+   6,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "pyarrow_backend",
+   "luizep/movieslens20m",
+   7,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "pyarrow_backend",
+   "luizep/movieslens20m",
+   35,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost",
+   9,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "nadare/feature-engenieering-with-pivot-table",
+   2,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "nadare/feature-engenieering-with-pivot-table",
+   16,
+   "E2",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "nandhuelan/ott-platforms",
+   11,
+   "E3",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "nandhuelan/ott-platforms",
+   17,
+   "E3",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "nihhaar/etltransform",
+   3,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "pyarrow_backend",
+   "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   4,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "pyarrow_backend",
+   "penny8/my-sub1",
+   19,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "penny8/my-sub1",
+   20,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697",
+   63,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "pyarrow_backend",
+   "salmaneunus/student-s-performance-quantitative-visual-eda",
+   11,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "pyarrow_backend",
+   "salmaneunus/student-s-performance-quantitative-visual-eda",
+   16,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "sanket30/eda-of-application-train-home-credit-default",
+   11,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "pyarrow_backend",
+   "shivavashishtha/zomato-eda-tutorial",
+   69,
+   "E3",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "shivavashishtha/zomato-eda-tutorial",
+   70,
+   "E3",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "shivavashishtha/zomato-eda-tutorial",
+   76,
+   "E3",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "shivavashishtha/zomato-eda-tutorial",
+   77,
+   "E3",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "shivavashishtha/zomato-eda-tutorial",
+   87,
+   "E3",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+   1,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "sudheer259/house-price-prediction",
+   32,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "sudheer259/house-price-prediction",
+   187,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   14,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   18,
+   "E0",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   30,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   32,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   35,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   38,
+   "E2",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   66,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   67,
+   "E0",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "taylorhickem/singapore-building-energy",
+   3,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "tunguz/fathers-day-specials-just-the-features",
+   26,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "pyarrow_backend",
+   "tunguz/fathers-day-specials-just-the-features",
+   27,
+   "DIFF",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "pyarrow_backend",
+   "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+   7,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+   8,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+   9,
+   "DIFF",
+   "frames, Series, arrays involved"
+  ],
+  [
+   "pyarrow_backend",
+   "willkoehrsen/start-here-a-gentle-introduction",
+   9,
+   "E4",
+   "dtype objects (and scalar containers)"
+  ],
+  [
+   "pyarrow_backend",
+   "wyl4417/machine-learning-and-how-it-affects-you",
+   4,
+   "E3",
+   "other objects involved"
+  ],
+  [
+   "pyarrow_backend",
+   "yonelanuba/elo-merchant-by-yonela",
+   72,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "yonelanuba/elo-merchant-by-yonela",
+   73,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "yonelanuba/elo-merchant-by-yonela",
+   85,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "yonelanuba/elo-merchant-by-yonela",
+   97,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "yonelanuba/elo-merchant-by-yonela",
+   100,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "yonelanuba/elo-merchant-by-yonela",
+   103,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "yonelanuba/elo-merchant-by-yonela",
+   105,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "yonelanuba/elo-merchant-by-yonela",
+   107,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "yonelanuba/elo-merchant-by-yonela",
+   109,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "yonelanuba/elo-merchant-by-yonela",
+   110,
+   "DIFF",
+   "containers of scalars only"
+  ],
+  [
+   "pyarrow_backend",
+   "yonelanuba/elo-merchant-by-yonela",
+   115,
+   "DIFF",
+   "containers of scalars only"
+  ]
+ ],
+ "n_cells": 688,
+ "totals": {
+  "DIFF|containers of scalars only": 153,
+  "DIFF|dtype objects (and scalar containers)": 39,
+  "DIFF|frames, Series, arrays involved": 138,
+  "DIFF|other objects involved": 13,
+  "matching|containers of scalars only": 170,
+  "matching|dtype objects (and scalar containers)": 42,
+  "matching|frames, Series, arrays involved": 83,
+  "matching|other objects involved": 22,
+  "other|containers of scalars only": 8,
+  "other|dtype objects (and scalar containers)": 12,
+  "other|frames, Series, arrays involved": 4,
+  "other|other objects involved": 4
+ }
+}

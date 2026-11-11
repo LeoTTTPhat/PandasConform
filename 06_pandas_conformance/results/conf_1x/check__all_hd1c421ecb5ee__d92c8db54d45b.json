@@ -1,0 +1,112 @@
+{
+ "campaign": "conf_1x",
+ "compare_tag": "hd1c421ecb5ee__d92c8db54d45b",
+ "engines": [
+  "ref",
+  "ref#2",
+  "pyarrow_backend",
+  "fireducks",
+  "bodo",
+  "bodo_dw",
+  "modin",
+  "dask"
+ ],
+ "harness_tag": "hd1c421ecb5ee",
+ "n_problems": 0,
+ "notebooks": 102,
+ "oracle": {
+  "bodo": {
+   "cells": 3608,
+   "compared": 102,
+   "match_identity": 1078,
+   "match_sort": 113,
+   "outputs": 2596
+  },
+  "bodo_dw": {
+   "cells": 3608,
+   "compared": 102,
+   "match_identity": 924,
+   "match_sort": 113,
+   "outputs": 2260
+  },
+  "dask": {
+   "cells": 3608,
+   "compared": 102,
+   "match_identity": 290,
+   "match_sort": 54,
+   "outputs": 1719
+  },
+  "fireducks": {
+   "cells": 3608,
+   "compared": 102,
+   "match_identity": 564,
+   "match_sort": 162,
+   "outputs": 3972
+  },
+  "modin": {
+   "cells": 3608,
+   "compared": 102,
+   "match_identity": 220,
+   "match_sort": 139,
+   "outputs": 4086
+  },
+  "pyarrow_backend": {
+   "cells": 3608,
+   "compared": 102,
+   "match_identity": 1962,
+   "match_limit": 1,
+   "match_sort": 95,
+   "outputs": 4296
+  }
+ },
+ "problems": [],
+ "records": {
+  "bodo": {
+   "completed": 94,
+   "nb_crash": 6,
+   "nb_memory": 1,
+   "nb_timeout": 1
+  },
+  "bodo_dw": {
+   "completed": 93,
+   "nb_crash": 6,
+   "nb_memory": 1,
+   "nb_timeout": 2
+  },
+  "dask": {
+   "completed": 102
+  },
+  "fireducks": {
+   "completed": 101,
+   "nb_crash": 1
+  },
+  "modin": {
+   "completed": 94,
+   "nb_memory": 8
+  },
+  "pyarrow_backend": {
+   "completed": 102
+  },
+  "ref": {
+   "completed": 102
+  },
+  "ref#2": {
+   "completed": 102
+  }
+ },
+ "self_check": {
+  "ref#2": {
+   "cells": 3608,
+   "compared": 102,
+   "nondet_cells": 14,
+   "outputs": 4655
+  }
+ },
+ "set": "all",
+ "store": {
+  "missing": 0,
+  "referenced_blobs": 360139,
+  "sample_hash_mismatch": 0,
+  "sample_verified": 300
+ }
+}

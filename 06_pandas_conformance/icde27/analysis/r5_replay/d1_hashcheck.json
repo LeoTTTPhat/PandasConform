@@ -1,0 +1,4123 @@
+{
+ "item": "D1",
+ "method": "D1 hash-level self-comparison (stdlib only, no blob decoding): replay record vs original engine record, cell by\ncell. A cell is identical when its status, exception type, every captured output entry (content hash or status\nstring) and every captured input entry are equal. If EVERY cell of a notebook is identical, the comparator's result\nfor the replay equals the published one exactly (classify is a function of these entries and the blobs they name), so\nno re-comparison is needed; notebooks with any difference are listed for the full comparator (d1_compare.py).\nWrites d1_hashcheck.json.   Usage: python3 d1_hashcheck.py --tags d1b",
+ "n_identical": 157,
+ "n_notebooks": 199,
+ "need_full_compare": [
+  [
+   "bodo",
+   "tunguz/fathers-day-specials-just-the-features"
+  ],
+  [
+   "fireducks",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me"
+  ],
+  [
+   "fireducks",
+   "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model"
+  ],
+  [
+   "pyarrow_backend",
+   "tunguz/fathers-day-specials-just-the-features"
+  ],
+  [
+   "modin",
+   "j0thu777/onlineretailanalysis"
+  ],
+  [
+   "modin",
+   "artgor/eda-and-models"
+  ],
+  [
+   "dask",
+   "yonelanuba/elo-merchant-by-yonela"
+  ],
+  [
+   "bodo",
+   "deffro/eda-is-fun"
+  ],
+  [
+   "fireducks",
+   "willkoehrsen/start-here-a-gentle-introduction"
+  ],
+  [
+   "fireducks",
+   "loveall/favorita-analytics"
+  ],
+  [
+   "modin",
+   "deffro/eda-is-fun"
+  ],
+  [
+   "dask",
+   "willkoehrsen/start-here-a-gentle-introduction"
+  ],
+  [
+   "fireducks",
+   "yuliagm/talkingdata-eda-plus-time-patterns"
+  ],
+  [
+   "fireducks",
+   "paramarthasengupta/plotly-eda-top-movies-of-20th-century"
+  ],
+  [
+   "fireducks",
+   "nandhuelan/ott-platforms"
+  ],
+  [
+   "modin",
+   "wyl4417/machine-learning-and-how-it-affects-you"
+  ],
+  [
+   "fireducks",
+   "kmader/analyzing-matches"
+  ],
+  [
+   "dask",
+   "jirakst/book-recommendation"
+  ],
+  [
+   "modin",
+   "kmader/analyzing-matches"
+  ],
+  [
+   "dask",
+   "roopahegde/cryptocurrency-price-correlation"
+  ],
+  [
+   "modin",
+   "maxiaoyue/data-cleaning-challenge-handling-missing-values"
+  ],
+  [
+   "dask",
+   "stefanjov/my-first-normalize-on-big-dataset"
+  ],
+  [
+   "dask",
+   "brianmendieta/data-cleaning-plus-eda"
+  ],
+  [
+   "dask",
+   "gmanish/help-ngo-country-clustering"
+  ],
+  [
+   "dask",
+   "corazzon/how-to-use-pandas-filter-in-survey-eda"
+  ],
+  [
+   "dask",
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me"
+  ],
+  [
+   "dask",
+   "salmaneunus/student-s-performance-quantitative-visual-eda"
+  ],
+  [
+   "dask",
+   "jyotsananegi/melbourne-housing-snapshot-eda"
+  ],
+  [
+   "dask",
+   "nihhaar/etltransform"
+  ],
+  [
+   "dask",
+   "madseth/customer-shopping-trends-dataset-eda"
+  ],
+  [
+   "dask",
+   "jackwatson99/pima-indians-diabetes-rf-81"
+  ],
+  [
+   "dask",
+   "mathewvondersaar/analysis-of-student-performance"
+  ],
+  [
+   "dask",
+   "luckygemini/notebook5d5fc80c9f"
+  ],
+  [
+   "dask",
+   "gsilves/quiz-4-question-1"
+  ],
+  [
+   "modin",
+   "yuliagm/talkingdata-eda-plus-time-patterns"
+  ],
+  [
+   "modin",
+   "shivavashishtha/zomato-eda-tutorial"
+  ],
+  [
+   "modin",
+   "sunnybiswas/eda-on-airline-dataset"
+  ],
+  [
+   "modin",
+   "santhoshrao1995/assi01-santhosh-19101036"
+  ],
+  [
+   "modin",
+   "brianmendieta/data-cleaning-plus-eda"
+  ],
+  [
+   "modin",
+   "charulatashelar/indian-startup-funding-exploratory-data-analysis"
+  ],
+  [
+   "modin",
+   "grudd0/mass-shooting-analysis"
+  ],
+  [
+   "modin",
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets"
+  ]
+ ],
+ "notebooks": [
+  {
+   "diff_cells": [
+    {
+     "i": 5,
+     "what": [
+      "out:test"
+     ]
+    },
+    {
+     "i": 8,
+     "what": [
+      "out:test"
+     ]
+    },
+    {
+     "i": 14,
+     "what": [
+      "out:test"
+     ]
+    },
+    {
+     "i": 17,
+     "what": [
+      "out:test"
+     ]
+    },
+    {
+     "i": 21,
+     "what": [
+      "out:test"
+     ]
+    },
+    {
+     "i": 22,
+     "what": [
+      "out:test"
+     ]
+    },
+    {
+     "i": 31,
+     "what": [
+      "out:test"
+     ]
+    }
+   ],
+   "engine": "bodo",
+   "identical": false,
+   "n_cells": 38,
+   "n_cells_differing": 7,
+   "nb": "tunguz/fathers-day-specials-just-the-features",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/tunguz__fathers-day-specials-just-the-features__4054805b1d50.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 88,
+   "n_cells_differing": 0,
+   "nb": "jirakst/book-recommendation",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/jirakst__book-recommendation__c95de70c10d2.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 88,
+   "n_cells_differing": 0,
+   "nb": "jirakst/book-recommendation",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/jirakst__book-recommendation__cc601a710529.json",
+   "replay_status": "completed",
+   "role": "control"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 19,
+   "n_cells_differing": 0,
+   "nb": "nadare/feature-engenieering-with-pivot-table",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/nadare__feature-engenieering-with-pivot-table__cd8c3969c475.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 171,
+   "n_cells_differing": 0,
+   "nb": "yonelanuba/elo-merchant-by-yonela",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/yonelanuba__elo-merchant-by-yonela__e4e2fdb8f6aa.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 171,
+   "n_cells_differing": 0,
+   "nb": "yonelanuba/elo-merchant-by-yonela",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/yonelanuba__elo-merchant-by-yonela__fec7d00554fe.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 31,
+   "n_cells_differing": 0,
+   "nb": "penny8/my-sub1",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/penny8__my-sub1__854f34f7f859.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 63,
+   "n_cells_differing": 0,
+   "nb": "jagangupta/stop-the-s-toxic-comments-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/jagangupta__stop-the-s-toxic-comments-eda__2ea8fbbda523.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 7,
+     "what": [
+      "out:__last__",
+      "out:reservation_history",
+      "out:tmp1",
+      "out:tmp4"
+     ]
+    },
+    {
+     "i": 13,
+     "what": [
+      "out:__last__",
+      "out:stores"
+     ]
+    },
+    {
+     "i": 14,
+     "what": [
+      "out:stores",
+      "in:stores"
+     ]
+    },
+    {
+     "i": 15,
+     "what": [
+      "out:stores",
+      "in:stores"
+     ]
+    },
+    {
+     "i": 16,
+     "what": [
+      "out:stores",
+      "in:stores"
+     ]
+    },
+    {
+     "i": 17,
+     "what": [
+      "in:stores"
+     ]
+    },
+    {
+     "i": 19,
+     "what": [
+      "out:train"
+     ]
+    },
+    {
+     "i": 20,
+     "what": [
+      "out:test"
+     ]
+    },
+    {
+     "i": 21,
+     "what": [
+      "out:test",
+      "out:train",
+      "in:reservation_history",
+      "in:stores",
+      "in:test",
+      "in:train"
+     ]
+    },
+    {
+     "i": 22,
+     "what": [
+      "out:test",
+      "out:train",
+      "in:test",
+      "in:train"
+     ]
+    },
+    {
+     "i": 23,
+     "what": [
+      "out:test",
+      "out:train",
+      "in:test",
+      "in:train"
+     ]
+    },
+    {
+     "i": 24,
+     "what": [
+      "in:test",
+      "in:train"
+     ]
+    }
+   ],
+   "engine": "fireducks",
+   "identical": false,
+   "n_cells": 27,
+   "n_cells_differing": 12,
+   "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/blaskowitz100__feature-engineering-based-on-the-suprise-me__b1fa2014f8bf.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 213,
+   "n_cells_differing": 0,
+   "nb": "sudheer259/house-price-prediction",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/sudheer259__house-price-prediction__11843f97d64f.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 63,
+   "n_cells_differing": 0,
+   "nb": "willkoehrsen/start-here-a-gentle-introduction",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/willkoehrsen__start-here-a-gentle-introduction__8736fa8194ac.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 91,
+   "n_cells_differing": 0,
+   "nb": "shivavashishtha/zomato-eda-tutorial",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/shivavashishtha__zomato-eda-tutorial__85605d665093.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 15,
+     "what": [
+      "out:train"
+     ]
+    },
+    {
+     "i": 16,
+     "what": [
+      "out:train",
+      "in:train"
+     ]
+    },
+    {
+     "i": 17,
+     "what": [
+      "out:__last__",
+      "in:train"
+     ]
+    },
+    {
+     "i": 18,
+     "what": [
+      "out:hist_data",
+      "in:train"
+     ]
+    },
+    {
+     "i": 19,
+     "what": [
+      "out:_",
+      "in:train"
+     ]
+    },
+    {
+     "i": 20,
+     "what": [
+      "out:_",
+      "in:train"
+     ]
+    },
+    {
+     "i": 21,
+     "what": [
+      "out:_",
+      "in:train"
+     ]
+    },
+    {
+     "i": 22,
+     "what": [
+      "out:_",
+      "in:train"
+     ]
+    },
+    {
+     "i": 23,
+     "what": [
+      "out:_",
+      "in:train"
+     ]
+    },
+    {
+     "i": 24,
+     "what": [
+      "out:k",
+      "in:train"
+     ]
+    },
+    {
+     "i": 25,
+     "what": [
+      "in:k"
+     ]
+    },
+    {
+     "i": 26,
+     "what": [
+      "out:__last__",
+      "in:k"
+     ]
+    },
+    {
+     "i": 28,
+     "what": [
+      "out:train",
+      "in:train"
+     ]
+    },
+    {
+     "i": 29,
+     "what": [
+      "out:__last__",
+      "in:train"
+     ]
+    },
+    {
+     "i": 30,
+     "what": [
+      "out:top",
+      "out:train",
+      "in:train"
+     ]
+    },
+    {
+     "i": 32,
+     "what": [
+      "out:train",
+      "in:train"
+     ]
+    },
+    {
+     "i": 33,
+     "what": [
+      "out:__last__",
+      "out:temp",
+      "out:top",
+      "in:train"
+     ]
+    },
+    {
+     "i": 35,
+     "what": [
+      "out:train",
+      "in:train"
+     ]
+    },
+    {
+     "i": 36,
+     "what": [
+      "out:__last__",
+      "out:temp",
+      "out:top",
+      "in:train"
+     ]
+    },
+    {
+     "i": 38,
+     "what": [
+      "out:Negative_sent",
+      "out:Neutral_sent",
+      "out:Positive_sent",
+      "in:train"
+     ]
+    },
+    {
+     "i": 39,
+     "what": [
+      "out:top",
+      "in:Positive_sent"
+     ]
+    },
+    {
+     "i": 41,
+     "what": [
+      "out:top",
+      "in:Negative_sent"
+     ]
+    },
+    {
+     "i": 43,
+     "what": [
+      "out:__last__",
+      "out:temp_neutral",
+      "out:top",
+      "in:Neutral_sent"
+     ]
+    },
+    {
+     "i": 46,
+     "what": [
+      "out:raw_text",
+      "in:train"
+     ]
+    },
+    {
+     "i": 48,
+     "what": [
+      "out:Unique_Positive",
+      "out:__last__",
+      "in:raw_text"
+     ]
+    },
+    {
+     "i": 50,
+     "what": [
+      "in:Unique_Positive"
+     ]
+    },
+    {
+     "i": 51,
+     "what": [
+      "out:Unique_Negative",
+      "out:__last__",
+      "in:raw_text"
+     ]
+    },
+    {
+     "i": 52,
+     "what": [
+      "in:Unique_Negative"
+     ]
+    },
+    {
+     "i": 53,
+     "what": [
+      "out:Unique_Neutral",
+      "out:__last__",
+      "in:raw_text"
+     ]
+    },
+    {
+     "i": 54,
+     "what": [
+      "in:Unique_Neutral"
+     ]
+    },
+    {
+     "i": 56,
+     "what": [
+      "out:_",
+      "in:Neutral_sent"
+     ]
+    },
+    {
+     "i": 57,
+     "what": [
+      "out:_",
+      "in:Positive_sent"
+     ]
+    },
+    {
+     "i": 58,
+     "what": [
+      "out:_",
+      "in:Negative_sent"
+     ]
+    }
+   ],
+   "engine": "fireducks",
+   "identical": false,
+   "n_cells": 72,
+   "n_cells_differing": 33,
+   "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/tanulsingh077__twitter-sentiment-extaction-analysis-eda-and-model__ed854d86bb42.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 11,
+     "what": [
+      "out:transactions"
+     ]
+    },
+    {
+     "i": 12,
+     "what": [
+      "out:transactions"
+     ]
+    },
+    {
+     "i": 13,
+     "what": [
+      "out:transactions"
+     ]
+    },
+    {
+     "i": 14,
+     "what": [
+      "out:test",
+      "out:train"
+     ]
+    },
+    {
+     "i": 15,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 16,
+     "what": [
+      "out:train"
+     ]
+    },
+    {
+     "i": 17,
+     "what": [
+      "out:test"
+     ]
+    },
+    {
+     "i": 20,
+     "what": [
+      "out:new_transactions"
+     ]
+    },
+    {
+     "i": 21,
+     "what": [
+      "out:test",
+      "out:train"
+     ]
+    },
+    {
+     "i": 22,
+     "what": [
+      "out:test",
+      "out:train"
+     ]
+    },
+    {
+     "i": 25,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 30,
+     "what": [
+      "out:train"
+     ]
+    },
+    {
+     "i": 31,
+     "what": [
+      "out:test",
+      "out:train"
+     ]
+    },
+    {
+     "i": 33,
+     "what": [
+      "out:train"
+     ]
+    },
+    {
+     "i": 35,
+     "what": [
+      "out:__last__"
+     ]
+    }
+   ],
+   "engine": "pyarrow_backend",
+   "identical": false,
+   "n_cells": 38,
+   "n_cells_differing": 15,
+   "nb": "tunguz/fathers-day-specials-just-the-features",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/tunguz__fathers-day-specials-just-the-features__4410c23cfd7b.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 18,
+   "n_cells_differing": 0,
+   "nb": "wyl4417/machine-learning-and-how-it-affects-you",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/wyl4417__machine-learning-and-how-it-affects-you__87d49a0b0c4a.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 43,
+   "n_cells_differing": 0,
+   "nb": "akgauravin/gun-violence-data-exploration-and-plotting",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/akgauravin__gun-violence-data-exploration-and-plotting__d013c3a66686.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 27,
+     "what": [
+      "out:__last__",
+      "out:avg_sales"
+     ]
+    }
+   ],
+   "engine": "modin",
+   "identical": false,
+   "n_cells": 28,
+   "n_cells_differing": 1,
+   "nb": "j0thu777/onlineretailanalysis",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/j0thu777__onlineretailanalysis__605fe71b7142.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 18,
+   "n_cells_differing": 0,
+   "nb": "qingyuanwu/deep-neural-network",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/qingyuanwu__deep-neural-network__8471b5663552.json",
+   "replay_status": "completed",
+   "role": "control"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 17,
+     "what": [
+      "out:feature_count"
+     ]
+    },
+    {
+     "i": 20,
+     "what": [
+      "out:feature_count"
+     ]
+    },
+    {
+     "i": 28,
+     "what": [
+      "out:X",
+      "out:y"
+     ]
+    }
+   ],
+   "engine": "modin",
+   "identical": false,
+   "n_cells": 29,
+   "n_cells_differing": 3,
+   "nb": "artgor/eda-and-models",
+   "orig_status": "nb_memory",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/artgor__eda-and-models__e8802bdf679d.json",
+   "replay_status": "nb_memory",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 66,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 149,
+     "what": [
+      "out:__last__"
+     ]
+    }
+   ],
+   "engine": "dask",
+   "identical": false,
+   "n_cells": 171,
+   "n_cells_differing": 2,
+   "nb": "yonelanuba/elo-merchant-by-yonela",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/yonelanuba__elo-merchant-by-yonela__b7b78bdde778.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 171,
+   "n_cells_differing": 0,
+   "nb": "yonelanuba/elo-merchant-by-yonela",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/yonelanuba__elo-merchant-by-yonela__1c5091560119.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 20,
+   "n_cells_differing": 0,
+   "nb": "beratozmen/clash-of-clans-exploratory-data-analysis",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/beratozmen__clash-of-clans-exploratory-data-analysis__5d6302def158.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 42,
+   "n_cells_differing": 0,
+   "nb": "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/maxiaoyue__data-cleaning-challenge-handling-missing-values__e76a4ba10ba1.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 12,
+     "what": [
+      "out:_",
+      "out:data"
+     ]
+    },
+    {
+     "i": 13,
+     "what": [
+      "in:data"
+     ]
+    },
+    {
+     "i": 16,
+     "what": [
+      "out:_",
+      "out:data"
+     ]
+    },
+    {
+     "i": 17,
+     "what": [
+      "in:data"
+     ]
+    },
+    {
+     "i": 21,
+     "what": [
+      "out:_",
+      "out:data"
+     ]
+    }
+   ],
+   "engine": "bodo",
+   "identical": false,
+   "n_cells": 41,
+   "n_cells_differing": 5,
+   "nb": "deffro/eda-is-fun",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/deffro__eda-is-fun__2e5ef1e211d0.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 37,
+   "n_cells_differing": 0,
+   "nb": "ersinsen/fraud-3-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/ersinsen__fraud-3-eda__19ca64d7fd0d.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 20,
+   "n_cells_differing": 0,
+   "nb": "beratozmen/clash-of-clans-exploratory-data-analysis",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/beratozmen__clash-of-clans-exploratory-data-analysis__5b8fdf118a40.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 59,
+   "n_cells_differing": 0,
+   "nb": "dbatao/kernel2f80fc9d78",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/dbatao__kernel2f80fc9d78__d9dce185c2a5.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 73,
+   "n_cells_differing": 0,
+   "nb": "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/viviktpharale__house-price-prediction-eda-linear-ridge-lasso__6c2b1e62ad8f.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 27,
+   "n_cells_differing": 0,
+   "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/blaskowitz100__feature-engineering-based-on-the-suprise-me__df1068d8b7d3.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 42,
+   "n_cells_differing": 0,
+   "nb": "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/maxiaoyue__data-cleaning-challenge-handling-missing-values__7f7eea156c1c.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 18,
+   "n_cells_differing": 0,
+   "nb": "wyl4417/machine-learning-and-how-it-affects-you",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/wyl4417__machine-learning-and-how-it-affects-you__31a241ccfd36.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 37,
+   "n_cells_differing": 0,
+   "nb": "ersinsen/fraud-3-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/ersinsen__fraud-3-eda__98dba2042f45.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 18,
+   "n_cells_differing": 0,
+   "nb": "wyl4417/machine-learning-and-how-it-affects-you",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/wyl4417__machine-learning-and-how-it-affects-you__36e16cc2bf11.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 37,
+   "n_cells_differing": 0,
+   "nb": "ersinsen/fraud-3-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/ersinsen__fraud-3-eda__25ed6fc4b4f0.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 63,
+   "n_cells_differing": 0,
+   "nb": "willkoehrsen/start-here-a-gentle-introduction",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/willkoehrsen__start-here-a-gentle-introduction__33bca6e26ba5.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 35,
+   "n_cells_differing": 0,
+   "nb": "chinstan/notebook249b4f3f5b",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/chinstan__notebook249b4f3f5b__70a0de5bc8b3.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "dask",
+   "identical": true,
+   "n_cells": 41,
+   "n_cells_differing": 0,
+   "nb": "deffro/eda-is-fun",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/deffro__eda-is-fun__190c148888e8.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 53,
+   "n_cells_differing": 0,
+   "nb": "sanket30/eda-of-application-train-home-credit-default",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/sanket30__eda-of-application-train-home-credit-default__3f49fe9baccc.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 38,
+   "n_cells_differing": 0,
+   "nb": "akshaypetkar/supermarket-sales-analysis",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/akshaypetkar__supermarket-sales-analysis__72e8e53867ba.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 58,
+   "n_cells_differing": 0,
+   "nb": "kenjee/titanic-project-example",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/kenjee__titanic-project-example__f594b23f5380.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 15,
+   "n_cells_differing": 0,
+   "nb": "beratozmen/clash-of-clans-exploratory-data-analysis",
+   "orig_status": "nb_crash",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/beratozmen__clash-of-clans-exploratory-data-analysis__d077d84aa8ec.json",
+   "replay_status": "nb_crash",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 18,
+   "n_cells_differing": 0,
+   "nb": "bcannon/indexing-selecting-assigning",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/bcannon__indexing-selecting-assigning__88ee71622acb.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 35,
+     "what": [
+      "out:app_test_poly",
+      "out:app_train_poly"
+     ]
+    },
+    {
+     "i": 47,
+     "what": [
+      "in:app_train_poly"
+     ]
+    }
+   ],
+   "engine": "fireducks",
+   "identical": false,
+   "n_cells": 63,
+   "n_cells_differing": 2,
+   "nb": "willkoehrsen/start-here-a-gentle-introduction",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/willkoehrsen__start-here-a-gentle-introduction__f263d06d9933.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 44,
+   "n_cells_differing": 0,
+   "nb": "grudd0/mass-shooting-analysis",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/grudd0__mass-shooting-analysis__09b51a0701fa.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 69,
+   "n_cells_differing": 0,
+   "nb": "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/pmr3508f20977e697__poverty-level-pmr3508-2018-f20977e697__2e830a58a336.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 18,
+   "n_cells_differing": 0,
+   "nb": "taylorhickem/singapore-building-energy",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/taylorhickem__singapore-building-energy__681b8a50c39c.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 26,
+   "n_cells_differing": 0,
+   "nb": "sunnybiswas/eda-on-airline-dataset",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/sunnybiswas__eda-on-airline-dataset__27fa4b99f9b8.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 12,
+   "n_cells_differing": 0,
+   "nb": "carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/carlmcbrideellis__simple-eda-of-kaggle-grandmasters-scheduled__d8189475ec6f.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 44,
+   "n_cells_differing": 0,
+   "nb": "salmaneunus/student-s-performance-quantitative-visual-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/salmaneunus__student-s-performance-quantitative-visual-eda__d953b2bb080b.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 21,
+   "n_cells_differing": 0,
+   "nb": "kmader/analyzing-matches",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/kmader__analyzing-matches__a677d66a8386.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 30,
+   "n_cells_differing": 0,
+   "nb": "pradeepjeya/allstate-encoding-high-cardinality-features",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/pradeepjeya__allstate-encoding-high-cardinality-features__792529ca919e.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 18,
+   "n_cells_differing": 0,
+   "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/shunjiangxu__blood-is-thicker-than-water-friendship-forever__6131ff158347.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 27,
+   "n_cells_differing": 0,
+   "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/blaskowitz100__feature-engineering-based-on-the-suprise-me__38bb3fb7cd34.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 15,
+   "n_cells_differing": 0,
+   "nb": "christophriley/intro-machine-learning",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/christophriley__intro-machine-learning__bbcfc26141f1.json",
+   "replay_status": "completed",
+   "role": "control"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 36,
+   "n_cells_differing": 0,
+   "nb": "santhoshrao1995/assi01-santhosh-19101036",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/santhoshrao1995__assi01-santhosh-19101036__4fb656c06f3f.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 32,
+   "n_cells_differing": 0,
+   "nb": "saniaks/melbourne-house-price-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/saniaks__melbourne-house-price-eda__35bb05e41b18.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 43,
+   "n_cells_differing": 0,
+   "nb": "sal001/beginner-s-note-top-12-by-single-linear-model",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/sal001__beginner-s-note-top-12-by-single-linear-model__9118b090a921.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 18,
+   "n_cells_differing": 0,
+   "nb": "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/vinothsuku__osic-pulmonary-fibrosis-simple-eda__056fbee90b49.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 15,
+   "n_cells_differing": 0,
+   "nb": "jackwatson99/pima-indians-diabetes-rf-81",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/jackwatson99__pima-indians-diabetes-rf-81__549f110a80a3.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 9,
+   "n_cells_differing": 0,
+   "nb": "mikedelong/python-eda-with-kdes",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/mikedelong__python-eda-with-kdes__f2550aceab0b.json",
+   "replay_status": "completed",
+   "role": "control"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 26,
+   "n_cells_differing": 0,
+   "nb": "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/paramarthasengupta__plotly-eda-top-movies-of-20th-century__8950703d9a7c.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 11,
+   "n_cells_differing": 0,
+   "nb": "nihhaar/etltransform",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/nihhaar__etltransform__f6265c9974f0.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 16,
+   "n_cells_differing": 0,
+   "nb": "xingobar/computer-science-data-visualization",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/xingobar__computer-science-data-visualization__ca3f62d18af0.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 21,
+   "n_cells_differing": 0,
+   "nb": "kimtaehun/simple-preprocessing-for-time-series-prediction",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__265f91add093.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 4,
+     "what": [
+      "out:__last__",
+      "out:train_items"
+     ]
+    },
+    {
+     "i": 5,
+     "what": [
+      "out:df"
+     ]
+    }
+   ],
+   "engine": "fireducks",
+   "identical": false,
+   "n_cells": 24,
+   "n_cells_differing": 2,
+   "nb": "loveall/favorita-analytics",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/loveall__favorita-analytics__1ef73c976350.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 72,
+   "n_cells_differing": 0,
+   "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/tanulsingh077__twitter-sentiment-extaction-analysis-eda-and-model__fd75197d2048.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "pyarrow_backend",
+   "identical": true,
+   "n_cells": 37,
+   "n_cells_differing": 0,
+   "nb": "luizep/movieslens20m",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/luizep__movieslens20m__61391a1ccd32.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 12,
+   "n_cells_differing": 0,
+   "nb": "carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/carlmcbrideellis__simple-eda-of-kaggle-grandmasters-scheduled__fac6140b1d0e.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 30,
+   "n_cells_differing": 0,
+   "nb": "yashjaiswal1097/911-emergency-calls-kernel",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/yashjaiswal1097__911-emergency-calls-kernel__794bfc21f955.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 37,
+   "n_cells_differing": 0,
+   "nb": "luizep/movieslens20m",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/luizep__movieslens20m__da4aaf512e0c.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 6,
+     "what": [
+      "out:_"
+     ]
+    },
+    {
+     "i": 38,
+     "what": [
+      "out:__last__"
+     ]
+    }
+   ],
+   "engine": "modin",
+   "identical": false,
+   "n_cells": 41,
+   "n_cells_differing": 2,
+   "nb": "deffro/eda-is-fun",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/deffro__eda-is-fun__7387be143d9f.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 16,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 17,
+     "what": [
+      "out:anom",
+      "out:non_anom",
+      "in:app_train"
+     ]
+    },
+    {
+     "i": 18,
+     "what": [
+      "out:app_train"
+     ]
+    },
+    {
+     "i": 20,
+     "what": [
+      "in:app_train"
+     ]
+    },
+    {
+     "i": 21,
+     "what": [
+      "out:__last__",
+      "in:app_train"
+     ]
+    },
+    {
+     "i": 22,
+     "what": [
+      "out:_"
+     ]
+    },
+    {
+     "i": 24,
+     "what": [
+      "out:age_data",
+      "in:app_train"
+     ]
+    },
+    {
+     "i": 26,
+     "what": [
+      "out:_"
+     ]
+    },
+    {
+     "i": 27,
+     "what": [
+      "out:ext_data",
+      "out:ext_data_corrs"
+     ]
+    },
+    {
+     "i": 29,
+     "what": [
+      "out:_",
+      "in:app_train"
+     ]
+    },
+    {
+     "i": 30,
+     "what": [
+      "in:age_data",
+      "in:ext_data"
+     ]
+    },
+    {
+     "i": 34,
+     "what": [
+      "in:poly_features",
+      "in:poly_target"
+     ]
+    },
+    {
+     "i": 35,
+     "what": [
+      "out:poly_features",
+      "in:app_train",
+      "in:poly_features"
+     ]
+    },
+    {
+     "i": 36,
+     "what": [
+      "out:app_train_domain"
+     ]
+    },
+    {
+     "i": 38,
+     "what": [
+      "out:_"
+     ]
+    },
+    {
+     "i": 39,
+     "what": [
+      "in:app_train"
+     ]
+    },
+    {
+     "i": 43,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 46,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 49,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 50,
+     "what": [
+      "out:app_train_domain",
+      "in:app_train_domain"
+     ]
+    },
+    {
+     "i": 51,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 56,
+     "what": [
+      "in:app_train"
+     ]
+    }
+   ],
+   "engine": "dask",
+   "identical": false,
+   "n_cells": 63,
+   "n_cells_differing": 22,
+   "nb": "willkoehrsen/start-here-a-gentle-introduction",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/willkoehrsen__start-here-a-gentle-introduction__dff9357250e8.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 86,
+   "n_cells_differing": 0,
+   "nb": "brianmendieta/data-cleaning-plus-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/brianmendieta__data-cleaning-plus-eda__a80a46954446.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 17,
+   "n_cells_differing": 0,
+   "nb": "luizep/movieslens20m",
+   "orig_status": "nb_crash",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/luizep__movieslens20m__194b83388267.json",
+   "replay_status": "nb_crash",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 19,
+   "n_cells_differing": 0,
+   "nb": "shubhammahalank/eda-hotel-booking-demand",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/shubhammahalank__eda-hotel-booking-demand__9e31f9c9f09a.json",
+   "replay_status": "completed",
+   "role": "control"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 14,
+     "what": [
+      "out:train"
+     ]
+    },
+    {
+     "i": 15,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 17,
+     "what": [
+      "out:train"
+     ]
+    },
+    {
+     "i": 18,
+     "what": [
+      "out:merge"
+     ]
+    },
+    {
+     "i": 19,
+     "what": [
+      "out:merge"
+     ]
+    },
+    {
+     "i": 20,
+     "what": [
+      "out:merge"
+     ]
+    },
+    {
+     "i": 21,
+     "what": [
+      "out:merge"
+     ]
+    },
+    {
+     "i": 22,
+     "what": [
+      "out:merge"
+     ]
+    },
+    {
+     "i": 35,
+     "what": [
+      "out:train"
+     ]
+    }
+   ],
+   "engine": "fireducks",
+   "identical": false,
+   "n_cells": 37,
+   "n_cells_differing": 9,
+   "nb": "yuliagm/talkingdata-eda-plus-time-patterns",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/yuliagm__talkingdata-eda-plus-time-patterns__c2cd9f511176.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 53,
+   "n_cells_differing": 0,
+   "nb": "sanket30/eda-of-application-train-home-credit-default",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/sanket30__eda-of-application-train-home-credit-default__13d456771bd5.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 30,
+   "n_cells_differing": 0,
+   "nb": "pradeepjeya/allstate-encoding-high-cardinality-features",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/pradeepjeya__allstate-encoding-high-cardinality-features__4b9102dc2aaa.json",
+   "replay_status": "completed",
+   "role": "control"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 85,
+   "n_cells_differing": 0,
+   "nb": "corazzon/how-to-use-pandas-filter-in-survey-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__fdd737257202.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 17,
+   "n_cells_differing": 0,
+   "nb": "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/mahtieu__nyc-taxi-fare-prediction-data-expl-xgboost__c8c94f004d35.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 31,
+   "n_cells_differing": 0,
+   "nb": "jaideepvalani/useful-eda-for-beginners-rsna-embolism",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/jaideepvalani__useful-eda-for-beginners-rsna-embolism__006398297f89.json",
+   "replay_status": "completed",
+   "role": "control"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 117,
+   "n_cells_differing": 0,
+   "nb": "yonelanuba/elo-merchant-by-yonela",
+   "orig_status": "nb_memory",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/yonelanuba__elo-merchant-by-yonela__94c51513a3d5.json",
+   "replay_status": "nb_memory",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 38,
+   "n_cells_differing": 0,
+   "nb": "akshaypetkar/supermarket-sales-analysis",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/akshaypetkar__supermarket-sales-analysis__4c36b27a41b9.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 16,
+     "what": [
+      "out:act_overall"
+     ]
+    },
+    {
+     "i": 17,
+     "what": [
+      "out:cast_overall"
+     ]
+    }
+   ],
+   "engine": "fireducks",
+   "identical": false,
+   "n_cells": 26,
+   "n_cells_differing": 2,
+   "nb": "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/paramarthasengupta__plotly-eda-top-movies-of-20th-century__b031ba3e72ea.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 43,
+   "n_cells_differing": 0,
+   "nb": "akgauravin/gun-violence-data-exploration-and-plotting",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/akgauravin__gun-violence-data-exploration-and-plotting__667b8ce50e19.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 12,
+   "n_cells_differing": 0,
+   "nb": "seriousran/eda-ing",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/seriousran__eda-ing__3c007ba91277.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 97,
+   "n_cells_differing": 0,
+   "nb": "guyalmog/hr-analytics-predicting-employees-attrition",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/guyalmog__hr-analytics-predicting-employees-attrition__984d3b37cd03.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 21,
+   "n_cells_differing": 0,
+   "nb": "stefanjov/my-first-normalize-on-big-dataset",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/stefanjov__my-first-normalize-on-big-dataset__5c4c76da2269.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 38,
+   "n_cells_differing": 0,
+   "nb": "akshaypetkar/supermarket-sales-analysis",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/akshaypetkar__supermarket-sales-analysis__598c8ed98014.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 88,
+   "n_cells_differing": 0,
+   "nb": "kanncaa1/dataiteam-titanic-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/kanncaa1__dataiteam-titanic-eda__b708737dc550.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 88,
+   "n_cells_differing": 0,
+   "nb": "kanncaa1/dataiteam-titanic-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/kanncaa1__dataiteam-titanic-eda__0f5e2414fa94.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 21,
+   "n_cells_differing": 0,
+   "nb": "julieberteaux/workshop-2",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/julieberteaux__workshop-2__76460b4b1f98.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 19,
+   "n_cells_differing": 0,
+   "nb": "vbmokin/automatic-eda-with-pandas-profiling-2-9-09-2020",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/vbmokin__automatic-eda-with-pandas-profiling-2-9-09-2020__cb524722cff2.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 18,
+   "n_cells_differing": 0,
+   "nb": "bcannon/indexing-selecting-assigning",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/bcannon__indexing-selecting-assigning__c06b8a816789.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 61,
+   "n_cells_differing": 0,
+   "nb": "balajivenkat96/solar-plants",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/balajivenkat96__solar-plants__ff07f81b6151.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 213,
+   "n_cells_differing": 0,
+   "nb": "sudheer259/house-price-prediction",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/sudheer259__house-price-prediction__db5db93294ac.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 6,
+     "what": [
+      "out:df1",
+      "out:df2"
+     ]
+    }
+   ],
+   "engine": "fireducks",
+   "identical": false,
+   "n_cells": 22,
+   "n_cells_differing": 1,
+   "nb": "nandhuelan/ott-platforms",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/nandhuelan__ott-platforms__a49110425ff1.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 97,
+   "n_cells_differing": 0,
+   "nb": "guyalmog/hr-analytics-predicting-employees-attrition",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/guyalmog__hr-analytics-predicting-employees-attrition__9ca2003b362a.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 37,
+   "n_cells_differing": 0,
+   "nb": "ayushsingh5941/tweet-disaster-or-not",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/ayushsingh5941__tweet-disaster-or-not__fbfae0b9fb2c.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 63,
+   "n_cells_differing": 0,
+   "nb": "jagangupta/stop-the-s-toxic-comments-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/jagangupta__stop-the-s-toxic-comments-eda__b301389392e5.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 86,
+   "n_cells_differing": 0,
+   "nb": "brianmendieta/data-cleaning-plus-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/brianmendieta__data-cleaning-plus-eda__dec5492b3a68.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 26,
+   "n_cells_differing": 0,
+   "nb": "sabya40/data-cleaning-and-pandas-for-beginners",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/sabya40__data-cleaning-and-pandas-for-beginners__43fcbf42fdc7.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 8,
+     "what": [
+      "status",
+      "exc",
+      "out:_",
+      "out:bob",
+      "out:bob_1",
+      "out:bob_2",
+      "out:labels"
+     ]
+    }
+   ],
+   "engine": "modin",
+   "identical": false,
+   "n_cells": 18,
+   "n_cells_differing": 1,
+   "nb": "wyl4417/machine-learning-and-how-it-affects-you",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/wyl4417__machine-learning-and-how-it-affects-you__7f18b9c629a7.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 131,
+   "n_cells_differing": 0,
+   "nb": "koko1998/summer-products-and-sales-wish-com",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/koko1998__summer-products-and-sales-wish-com__573c04bfcb82.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 213,
+   "n_cells_differing": 0,
+   "nb": "sudheer259/house-price-prediction",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/sudheer259__house-price-prediction__873d5f137d63.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 26,
+   "n_cells_differing": 0,
+   "nb": "sunnybiswas/eda-on-airline-dataset",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/sunnybiswas__eda-on-airline-dataset__860f1752f54b.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 59,
+   "n_cells_differing": 0,
+   "nb": "dbatao/kernel2f80fc9d78",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/dbatao__kernel2f80fc9d78__8de2bf82486d.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 26,
+   "n_cells_differing": 0,
+   "nb": "sunnybiswas/eda-on-airline-dataset",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/sunnybiswas__eda-on-airline-dataset__902608f94628.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 11,
+   "n_cells_differing": 0,
+   "nb": "kwullum/when-do-traffic-related-deaths-occur",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/kwullum__when-do-traffic-related-deaths-occur__4ffbbffc3264.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "dask",
+   "identical": true,
+   "n_cells": 37,
+   "n_cells_differing": 0,
+   "nb": "luizep/movieslens20m",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/luizep__movieslens20m__c111efdacab5.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 38,
+   "n_cells_differing": 0,
+   "nb": "ashukr/first-step-ingestion-to-prediction",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/ashukr__first-step-ingestion-to-prediction__01a542d325f0.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 22,
+   "n_cells_differing": 0,
+   "nb": "xokent/cyber-security-attack-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/xokent__cyber-security-attack-eda__9497516545e7.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 23,
+   "n_cells_differing": 0,
+   "nb": "trinath003/data-manipulation-visualisation-on-kaggle-datasets",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__38b4eb9239f9.json",
+   "replay_status": "completed",
+   "role": "control"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 43,
+   "n_cells_differing": 0,
+   "nb": "sal001/beginner-s-note-top-12-by-single-linear-model",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/sal001__beginner-s-note-top-12-by-single-linear-model__7a16588890de.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 66,
+   "n_cells_differing": 0,
+   "nb": "snanilim/video-games-sales-analysis-and-visualization",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/snanilim__video-games-sales-analysis-and-visualization__b00f2b5cde92.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 7,
+     "what": [
+      "out:avg_annot_df"
+     ]
+    },
+    {
+     "i": 8,
+     "what": [
+      "in:avg_annot_df"
+     ]
+    },
+    {
+     "i": 12,
+     "what": [
+      "out:out_df"
+     ]
+    },
+    {
+     "i": 15,
+     "what": [
+      "in:out_df"
+     ]
+    }
+   ],
+   "engine": "fireducks",
+   "identical": false,
+   "n_cells": 21,
+   "n_cells_differing": 4,
+   "nb": "kmader/analyzing-matches",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/kmader__analyzing-matches__80f5330ed9df.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 32,
+   "n_cells_differing": 0,
+   "nb": "saniaks/melbourne-house-price-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/saniaks__melbourne-house-price-eda__d1d986c16d76.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 18,
+   "n_cells_differing": 0,
+   "nb": "taylorhickem/singapore-building-energy",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/taylorhickem__singapore-building-energy__d6a2b8154ed2.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 36,
+   "n_cells_differing": 0,
+   "nb": "santhoshrao1995/assi01-santhosh-19101036",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/santhoshrao1995__assi01-santhosh-19101036__6ec669ac9b94.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 22,
+   "n_cells_differing": 0,
+   "nb": "xokent/cyber-security-attack-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/xokent__cyber-security-attack-eda__c68ea2caae9b.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 65,
+   "n_cells_differing": 0,
+   "nb": "gmanish/help-ngo-country-clustering",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/gmanish__help-ngo-country-clustering__c6b89a6e54a3.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 44,
+   "n_cells_differing": 0,
+   "nb": "grudd0/mass-shooting-analysis",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/grudd0__mass-shooting-analysis__0637c28f6a63.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 18,
+   "n_cells_differing": 0,
+   "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/shunjiangxu__blood-is-thicker-than-water-friendship-forever__b5d348dcae48.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 58,
+   "n_cells_differing": 0,
+   "nb": "kenjee/titanic-project-example",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/kenjee__titanic-project-example__e9dc53c67cd2.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 26,
+   "n_cells_differing": 0,
+   "nb": "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/paramarthasengupta__plotly-eda-top-movies-of-20th-century__ad0940fe0909.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 18,
+   "n_cells_differing": 0,
+   "nb": "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/vinothsuku__osic-pulmonary-fibrosis-simple-eda__af36d67a73d3.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 44,
+   "n_cells_differing": 0,
+   "nb": "salmaneunus/student-s-performance-quantitative-visual-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/salmaneunus__student-s-performance-quantitative-visual-eda__533737cf9aa4.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 35,
+   "n_cells_differing": 0,
+   "nb": "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/charulatashelar__indian-startup-funding-exploratory-data-analysis__d20feb28e073.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 18,
+   "n_cells_differing": 0,
+   "nb": "taylorhickem/singapore-building-energy",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/taylorhickem__singapore-building-energy__75c86694d969.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 4,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 5,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 6,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 15,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 18,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 50,
+     "what": [
+      "out:__last__"
+     ]
+    }
+   ],
+   "engine": "dask",
+   "identical": false,
+   "n_cells": 88,
+   "n_cells_differing": 6,
+   "nb": "jirakst/book-recommendation",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/jirakst__book-recommendation__9ee2206e413c.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 27,
+   "n_cells_differing": 0,
+   "nb": "jyotsananegi/melbourne-housing-snapshot-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/jyotsananegi__melbourne-housing-snapshot-eda__91e4289e7e97.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 22,
+   "n_cells_differing": 0,
+   "nb": "arjoonn/scout-script-7",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/arjoonn__scout-script-7__4caa1250bf46.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 17,
+   "n_cells_differing": 0,
+   "nb": "mathewvondersaar/analysis-of-student-performance",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/mathewvondersaar__analysis-of-student-performance__e0aa48417d0f.json",
+   "replay_status": "completed",
+   "role": "control"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 15,
+   "n_cells_differing": 0,
+   "nb": "jackwatson99/pima-indians-diabetes-rf-81",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/jackwatson99__pima-indians-diabetes-rf-81__025fc27212e4.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 36,
+   "n_cells_differing": 0,
+   "nb": "santhoshrao1995/assi01-santhosh-19101036",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/santhoshrao1995__assi01-santhosh-19101036__50749a5570c3.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 11,
+   "n_cells_differing": 0,
+   "nb": "luckygemini/notebook5d5fc80c9f",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/luckygemini__notebook5d5fc80c9f__c8d7d15203b6.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 58,
+   "n_cells_differing": 0,
+   "nb": "kenjee/titanic-project-example",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/kenjee__titanic-project-example__b099e32cfa29.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 37,
+   "n_cells_differing": 0,
+   "nb": "ayushsingh5941/tweet-disaster-or-not",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/ayushsingh5941__tweet-disaster-or-not__ced393eda17e.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 11,
+   "n_cells_differing": 0,
+   "nb": "kwullum/when-do-traffic-related-deaths-occur",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/kwullum__when-do-traffic-related-deaths-occur__7c3e397c9c82.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 9,
+   "n_cells_differing": 0,
+   "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+   "orig_status": "nb_crash",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/shunjiangxu__blood-is-thicker-than-water-friendship-forever__6ac0b99c4cc2.json",
+   "replay_status": "nb_crash",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 11,
+   "n_cells_differing": 0,
+   "nb": "danielresende/game-of-thrones-battles",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/danielresende__game-of-thrones-battles__907ca7cca64c.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "fireducks",
+   "identical": true,
+   "n_cells": 11,
+   "n_cells_differing": 0,
+   "nb": "nihhaar/etltransform",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/nihhaar__etltransform__8d4cca4520fa.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 32,
+   "n_cells_differing": 0,
+   "nb": "saniaks/melbourne-house-price-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/saniaks__melbourne-house-price-eda__b8cd75829f5d.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 11,
+   "n_cells_differing": 0,
+   "nb": "nihhaar/etltransform",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/nihhaar__etltransform__63ed9b267989.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "bodo",
+   "identical": true,
+   "n_cells": 44,
+   "n_cells_differing": 0,
+   "nb": "grudd0/mass-shooting-analysis",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/grudd0__mass-shooting-analysis__ac4f8a7a67cf.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 37,
+   "n_cells_differing": 0,
+   "nb": "ersinsen/fraud-3-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/ersinsen__fraud-3-eda__f76e56838ac1.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "dask",
+   "identical": true,
+   "n_cells": 53,
+   "n_cells_differing": 0,
+   "nb": "sanket30/eda-of-application-train-home-credit-default",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/sanket30__eda-of-application-train-home-credit-default__1717930c6ae4.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 9,
+     "what": [
+      "out:__last__",
+      "out:worst_annot",
+      "out:worst_annot_df"
+     ]
+    },
+    {
+     "i": 10,
+     "what": [
+      "in:worst_annot"
+     ]
+    },
+    {
+     "i": 11,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 12,
+     "what": [
+      "out:out_df",
+      "out:out_df_list"
+     ]
+    },
+    {
+     "i": 15,
+     "what": [
+      "in:out_df"
+     ]
+    }
+   ],
+   "engine": "modin",
+   "identical": false,
+   "n_cells": 21,
+   "n_cells_differing": 5,
+   "nb": "kmader/analyzing-matches",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/kmader__analyzing-matches__91c7a7c29bd2.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "dask",
+   "identical": true,
+   "n_cells": 30,
+   "n_cells_differing": 0,
+   "nb": "yashjaiswal1097/911-emergency-calls-kernel",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/yashjaiswal1097__911-emergency-calls-kernel__1e6247386d73.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "dask",
+   "identical": true,
+   "n_cells": 18,
+   "n_cells_differing": 0,
+   "nb": "qingyuanwu/deep-neural-network",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/qingyuanwu__deep-neural-network__6f1820f2e2ab.json",
+   "replay_status": "completed",
+   "role": "control"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 63,
+   "n_cells_differing": 0,
+   "nb": "jagangupta/stop-the-s-toxic-comments-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/jagangupta__stop-the-s-toxic-comments-eda__55b4e01bd1de.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "dask",
+   "identical": true,
+   "n_cells": 38,
+   "n_cells_differing": 0,
+   "nb": "akshaypetkar/supermarket-sales-analysis",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/akshaypetkar__supermarket-sales-analysis__ec9aefa3fce4.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 5,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 7,
+     "what": [
+      "out:__last__"
+     ]
+    }
+   ],
+   "engine": "dask",
+   "identical": false,
+   "n_cells": 36,
+   "n_cells_differing": 2,
+   "nb": "roopahegde/cryptocurrency-price-correlation",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/roopahegde__cryptocurrency-price-correlation__02d4449674df.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 28,
+     "what": [
+      "out:sf_permits_Zip_na_fill_with_block"
+     ]
+    },
+    {
+     "i": 29,
+     "what": [
+      "in:sf_permits_Zip_na_fill_with_block"
+     ]
+    },
+    {
+     "i": 34,
+     "what": [
+      "out:__last__",
+      "in:sf_permits_Zip_na_fill_with_block"
+     ]
+    },
+    {
+     "i": 35,
+     "what": [
+      "out:mask",
+      "in:sf_permits_Zip_na_fill_with_block"
+     ]
+    },
+    {
+     "i": 36,
+     "what": [
+      "out:__last__",
+      "in:mask"
+     ]
+    },
+    {
+     "i": 39,
+     "what": [
+      "in:sf_permits_Zip_na_fill_with_block"
+     ]
+    },
+    {
+     "i": 40,
+     "what": [
+      "out:__last__",
+      "in:sf_permits_Zip_na_fill_with_block"
+     ]
+    }
+   ],
+   "engine": "modin",
+   "identical": false,
+   "n_cells": 42,
+   "n_cells_differing": 7,
+   "nb": "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/maxiaoyue__data-cleaning-challenge-handling-missing-values__42135be865ac.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "dask",
+   "identical": true,
+   "n_cells": 69,
+   "n_cells_differing": 0,
+   "nb": "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/pmr3508f20977e697__poverty-level-pmr3508-2018-f20977e697__de33258d624d.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 4,
+     "what": [
+      "out:__last__"
+     ]
+    }
+   ],
+   "engine": "dask",
+   "identical": false,
+   "n_cells": 21,
+   "n_cells_differing": 1,
+   "nb": "stefanjov/my-first-normalize-on-big-dataset",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/stefanjov__my-first-normalize-on-big-dataset__43353d1d39f8.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "dask",
+   "identical": true,
+   "n_cells": 18,
+   "n_cells_differing": 0,
+   "nb": "wyl4417/machine-learning-and-how-it-affects-you",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/wyl4417__machine-learning-and-how-it-affects-you__c59ed02178e2.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 6,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 11,
+     "what": [
+      "out:__last__"
+     ]
+    }
+   ],
+   "engine": "dask",
+   "identical": false,
+   "n_cells": 86,
+   "n_cells_differing": 2,
+   "nb": "brianmendieta/data-cleaning-plus-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/brianmendieta__data-cleaning-plus-eda__6cb4146f6e8e.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 63,
+   "n_cells_differing": 0,
+   "nb": "willkoehrsen/start-here-a-gentle-introduction",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/willkoehrsen__start-here-a-gentle-introduction__b736b6ce1329.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 7,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 18,
+     "what": [
+      "out:__last__"
+     ]
+    }
+   ],
+   "engine": "dask",
+   "identical": false,
+   "n_cells": 65,
+   "n_cells_differing": 2,
+   "nb": "gmanish/help-ngo-country-clustering",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/gmanish__help-ngo-country-clustering__c034c19b61d0.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 2,
+     "what": [
+      "out:__last__"
+     ]
+    }
+   ],
+   "engine": "dask",
+   "identical": false,
+   "n_cells": 85,
+   "n_cells_differing": 1,
+   "nb": "corazzon/how-to-use-pandas-filter-in-survey-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__747b5774b2e5.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 1,
+     "what": [
+      "out:data"
+     ]
+    },
+    {
+     "i": 2,
+     "what": [
+      "out:data",
+      "in:data"
+     ]
+    },
+    {
+     "i": 3,
+     "what": [
+      "in:data"
+     ]
+    },
+    {
+     "i": 8,
+     "what": [
+      "out:data",
+      "in:data"
+     ]
+    },
+    {
+     "i": 9,
+     "what": [
+      "out:data",
+      "in:data"
+     ]
+    },
+    {
+     "i": 10,
+     "what": [
+      "out:data",
+      "out:org_shape",
+      "in:data"
+     ]
+    },
+    {
+     "i": 11,
+     "what": [
+      "out:data",
+      "in:data"
+     ]
+    },
+    {
+     "i": 12,
+     "what": [
+      "out:data",
+      "in:data"
+     ]
+    },
+    {
+     "i": 13,
+     "what": [
+      "in:data"
+     ]
+    },
+    {
+     "i": 18,
+     "what": [
+      "out:data",
+      "in:data"
+     ]
+    },
+    {
+     "i": 19,
+     "what": [
+      "in:data"
+     ]
+    },
+    {
+     "i": 20,
+     "what": [
+      "in:data"
+     ]
+    }
+   ],
+   "engine": "dask",
+   "identical": false,
+   "n_cells": 27,
+   "n_cells_differing": 12,
+   "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/blaskowitz100__feature-engineering-based-on-the-suprise-me__8e3472214f6e.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 15,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 16,
+     "what": [
+      "out:__last__",
+      "out:math_passed"
+     ]
+    }
+   ],
+   "engine": "dask",
+   "identical": false,
+   "n_cells": 44,
+   "n_cells_differing": 2,
+   "nb": "salmaneunus/student-s-performance-quantitative-visual-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/salmaneunus__student-s-performance-quantitative-visual-eda__8b6089e656b6.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 2,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 4,
+     "what": [
+      "out:unique_val"
+     ]
+    }
+   ],
+   "engine": "dask",
+   "identical": false,
+   "n_cells": 27,
+   "n_cells_differing": 2,
+   "nb": "jyotsananegi/melbourne-housing-snapshot-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/jyotsananegi__melbourne-housing-snapshot-eda__db2c52d1d5be.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "dask",
+   "identical": true,
+   "n_cells": 52,
+   "n_cells_differing": 0,
+   "nb": "macespinoza/simple-eda-with-python-pandas-data-avocado-paltas",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/macespinoza__simple-eda-with-python-pandas-data-avocado-paltas__ba9522667fe2.json",
+   "replay_status": "completed",
+   "role": "control"
+  },
+  {
+   "diff_cells": [],
+   "engine": "dask",
+   "identical": true,
+   "n_cells": 34,
+   "n_cells_differing": 0,
+   "nb": "mustafatatarhan1/iris-kernel",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/mustafatatarhan1__iris-kernel__706a4b1b8213.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 2,
+     "what": [
+      "out:__last__"
+     ]
+    }
+   ],
+   "engine": "dask",
+   "identical": false,
+   "n_cells": 11,
+   "n_cells_differing": 1,
+   "nb": "nihhaar/etltransform",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/nihhaar__etltransform__bc16a391225b.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 3,
+     "what": [
+      "out:__last__"
+     ]
+    }
+   ],
+   "engine": "dask",
+   "identical": false,
+   "n_cells": 28,
+   "n_cells_differing": 1,
+   "nb": "madseth/customer-shopping-trends-dataset-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/madseth__customer-shopping-trends-dataset-eda__81dc8d1c58ad.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 6,
+     "what": [
+      "out:train_df"
+     ]
+    },
+    {
+     "i": 7,
+     "what": [
+      "in:train_df"
+     ]
+    },
+    {
+     "i": 10,
+     "what": [
+      "in:train_df"
+     ]
+    },
+    {
+     "i": 12,
+     "what": [
+      "in:train_df"
+     ]
+    }
+   ],
+   "engine": "dask",
+   "identical": false,
+   "n_cells": 15,
+   "n_cells_differing": 4,
+   "nb": "jackwatson99/pima-indians-diabetes-rf-81",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/jackwatson99__pima-indians-diabetes-rf-81__2d943e62befc.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 2,
+     "what": [
+      "out:__last__"
+     ]
+    }
+   ],
+   "engine": "dask",
+   "identical": false,
+   "n_cells": 17,
+   "n_cells_differing": 1,
+   "nb": "mathewvondersaar/analysis-of-student-performance",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/mathewvondersaar__analysis-of-student-performance__12c6a631d4ad.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 4,
+     "what": [
+      "out:_"
+     ]
+    },
+    {
+     "i": 7,
+     "what": [
+      "out:_"
+     ]
+    },
+    {
+     "i": 9,
+     "what": [
+      "out:_"
+     ]
+    }
+   ],
+   "engine": "dask",
+   "identical": false,
+   "n_cells": 11,
+   "n_cells_differing": 3,
+   "nb": "luckygemini/notebook5d5fc80c9f",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/luckygemini__notebook5d5fc80c9f__3a7753b461ac.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 3,
+     "what": [
+      "out:__last__"
+     ]
+    }
+   ],
+   "engine": "dask",
+   "identical": false,
+   "n_cells": 11,
+   "n_cells_differing": 1,
+   "nb": "gsilves/quiz-4-question-1",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/gsilves__quiz-4-question-1__ecf76ede4fcb.json",
+   "replay_status": "completed",
+   "role": "control"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 13,
+     "what": [
+      "out:temp"
+     ]
+    },
+    {
+     "i": 15,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 18,
+     "what": [
+      "out:counts",
+      "out:merge",
+      "out:proportion"
+     ]
+    },
+    {
+     "i": 19,
+     "what": [
+      "out:counts",
+      "out:merge",
+      "out:proportion"
+     ]
+    },
+    {
+     "i": 20,
+     "what": [
+      "out:counts",
+      "out:merge",
+      "out:proportion"
+     ]
+    },
+    {
+     "i": 21,
+     "what": [
+      "out:counts",
+      "out:merge",
+      "out:proportion"
+     ]
+    },
+    {
+     "i": 22,
+     "what": [
+      "out:proportion"
+     ]
+    }
+   ],
+   "engine": "modin",
+   "identical": false,
+   "n_cells": 37,
+   "n_cells_differing": 7,
+   "nb": "yuliagm/talkingdata-eda-plus-time-patterns",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/yuliagm__talkingdata-eda-plus-time-patterns__79dd98c79a0a.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 44,
+     "what": [
+      "out:outlets"
+     ]
+    },
+    {
+     "i": 45,
+     "what": [
+      "out:__last__",
+      "in:outlets"
+     ]
+    },
+    {
+     "i": 46,
+     "what": [
+      "out:chains",
+      "out:single",
+      "in:outlets"
+     ]
+    },
+    {
+     "i": 48,
+     "what": [
+      "out:__last__",
+      "in:chains"
+     ]
+    },
+    {
+     "i": 49,
+     "what": [
+      "in:single"
+     ]
+    },
+    {
+     "i": 50,
+     "what": [
+      "in:chains"
+     ]
+    },
+    {
+     "i": 55,
+     "what": [
+      "out:top10_chains2"
+     ]
+    },
+    {
+     "i": 56,
+     "what": [
+      "out:bars",
+      "in:top10_chains2"
+     ]
+    }
+   ],
+   "engine": "modin",
+   "identical": false,
+   "n_cells": 91,
+   "n_cells_differing": 8,
+   "nb": "shivavashishtha/zomato-eda-tutorial",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/shivavashishtha__zomato-eda-tutorial__392433810f14.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 11,
+   "n_cells_differing": 0,
+   "nb": "kwullum/when-do-traffic-related-deaths-occur",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/kwullum__when-do-traffic-related-deaths-occur__f1d8b59fd223.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 58,
+   "n_cells_differing": 0,
+   "nb": "kenjee/titanic-project-example",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/kenjee__titanic-project-example__da4801dc191e.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 97,
+   "n_cells_differing": 0,
+   "nb": "guyalmog/hr-analytics-predicting-employees-attrition",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/guyalmog__hr-analytics-predicting-employees-attrition__35beaadb5744.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 88,
+   "n_cells_differing": 0,
+   "nb": "kanncaa1/dataiteam-titanic-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/kanncaa1__dataiteam-titanic-eda__f18d87cef70c.json",
+   "replay_status": "completed",
+   "role": "control"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 11,
+     "what": [
+      "out:pilot_pivot"
+     ]
+    },
+    {
+     "i": 12,
+     "what": [
+      "in:pilot_pivot"
+     ]
+    },
+    {
+     "i": 17,
+     "what": [
+      "out:US_Flight_Route"
+     ]
+    },
+    {
+     "i": 23,
+     "what": [
+      "out:Visitors_per_nations"
+     ]
+    }
+   ],
+   "engine": "modin",
+   "identical": false,
+   "n_cells": 26,
+   "n_cells_differing": 4,
+   "nb": "sunnybiswas/eda-on-airline-dataset",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/sunnybiswas__eda-on-airline-dataset__857ae594e2d6.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 35,
+   "n_cells_differing": 0,
+   "nb": "chinstan/notebook249b4f3f5b",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/chinstan__notebook249b4f3f5b__00f8653caf53.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 3,
+     "what": [
+      "out:__last__",
+      "out:df"
+     ]
+    },
+    {
+     "i": 5,
+     "what": [
+      "in:df"
+     ]
+    },
+    {
+     "i": 7,
+     "what": [
+      "in:df"
+     ]
+    },
+    {
+     "i": 8,
+     "what": [
+      "in:df"
+     ]
+    },
+    {
+     "i": 9,
+     "what": [
+      "in:df"
+     ]
+    },
+    {
+     "i": 10,
+     "what": [
+      "in:df"
+     ]
+    },
+    {
+     "i": 11,
+     "what": [
+      "in:df"
+     ]
+    },
+    {
+     "i": 12,
+     "what": [
+      "in:df"
+     ]
+    },
+    {
+     "i": 13,
+     "what": [
+      "in:df"
+     ]
+    },
+    {
+     "i": 14,
+     "what": [
+      "in:df"
+     ]
+    },
+    {
+     "i": 15,
+     "what": [
+      "out:df",
+      "in:df"
+     ]
+    },
+    {
+     "i": 16,
+     "what": [
+      "in:df"
+     ]
+    },
+    {
+     "i": 17,
+     "what": [
+      "out:df_cor_rent",
+      "in:df"
+     ]
+    },
+    {
+     "i": 18,
+     "what": [
+      "out:df_cor_rent",
+      "in:df"
+     ]
+    },
+    {
+     "i": 19,
+     "what": [
+      "out:df_cor_rent",
+      "in:df"
+     ]
+    },
+    {
+     "i": 20,
+     "what": [
+      "out:df_cor_rent",
+      "in:df"
+     ]
+    },
+    {
+     "i": 21,
+     "what": [
+      "out:df_cor_rent",
+      "in:df"
+     ]
+    },
+    {
+     "i": 22,
+     "what": [
+      "out:df_cor_rent",
+      "in:df"
+     ]
+    },
+    {
+     "i": 23,
+     "what": [
+      "out:df_cor_rent",
+      "in:df"
+     ]
+    },
+    {
+     "i": 24,
+     "what": [
+      "out:__last__",
+      "out:animaldummies",
+      "out:animalfinal",
+      "out:animalsjoined",
+      "out:cityfinal",
+      "out:cityjoined",
+      "out:df_final",
+      "out:furnituredummies",
+      "out:furniturejoined",
+      "in:df"
+     ]
+    },
+    {
+     "i": 25,
+     "what": [
+      "out:df_final",
+      "in:df_final"
+     ]
+    },
+    {
+     "i": 27,
+     "what": [
+      "out:X",
+      "out:Y",
+      "in:df_final"
+     ]
+    },
+    {
+     "i": 31,
+     "what": [
+      "out:__last__",
+      "out:df_compare",
+      "in:Y"
+     ]
+    },
+    {
+     "i": 32,
+     "what": [
+      "out:X",
+      "out:Y",
+      "in:df_final"
+     ]
+    },
+    {
+     "i": 34,
+     "what": [
+      "out:__last__",
+      "out:df_compare",
+      "in:Y"
+     ]
+    }
+   ],
+   "engine": "modin",
+   "identical": false,
+   "n_cells": 36,
+   "n_cells_differing": 25,
+   "nb": "santhoshrao1995/assi01-santhosh-19101036",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/santhoshrao1995__assi01-santhosh-19101036__3b6905e712b6.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 61,
+   "n_cells_differing": 0,
+   "nb": "balajivenkat96/solar-plants",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/balajivenkat96__solar-plants__afa45c6717db.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 59,
+   "n_cells_differing": 0,
+   "nb": "dbatao/kernel2f80fc9d78",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/dbatao__kernel2f80fc9d78__619771cd3845.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 32,
+   "n_cells_differing": 0,
+   "nb": "saniaks/melbourne-house-price-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/saniaks__melbourne-house-price-eda__f166c2715018.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 73,
+   "n_cells_differing": 0,
+   "nb": "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/viviktpharale__house-price-prediction-eda-linear-ridge-lasso__bf20e81d42e2.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 38,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 39,
+     "what": [
+      "out:__last__"
+     ]
+    },
+    {
+     "i": 57,
+     "what": [
+      "out:__last__"
+     ]
+    }
+   ],
+   "engine": "modin",
+   "identical": false,
+   "n_cells": 86,
+   "n_cells_differing": 3,
+   "nb": "brianmendieta/data-cleaning-plus-eda",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/brianmendieta__data-cleaning-plus-eda__8f0c4c73be31.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 9,
+   "n_cells_differing": 0,
+   "nb": "qnqfbqfqo/electric-vehicle-landscape-in-washington-state",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/qnqfbqfqo__electric-vehicle-landscape-in-washington-state__711f7715c638.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 30,
+   "n_cells_differing": 0,
+   "nb": "thirumani/biggboss-hindi-telugu-tamil-kannada-marathi-bangla",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/thirumani__biggboss-hindi-telugu-tamil-kannada-marathi-bangla__44827d10153c.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 26,
+   "n_cells_differing": 0,
+   "nb": "sabya40/data-cleaning-and-pandas-for-beginners",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/sabya40__data-cleaning-and-pandas-for-beginners__2587f6b5fc26.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 31,
+     "what": [
+      "out:funding_total_company"
+     ]
+    },
+    {
+     "i": 32,
+     "what": [
+      "out:_",
+      "in:funding_total_company"
+     ]
+    }
+   ],
+   "engine": "modin",
+   "identical": false,
+   "n_cells": 35,
+   "n_cells_differing": 2,
+   "nb": "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/charulatashelar__indian-startup-funding-exploratory-data-analysis__3c40a8474c21.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 16,
+   "n_cells_differing": 0,
+   "nb": "xingobar/computer-science-data-visualization",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/xingobar__computer-science-data-visualization__e4060e4c311d.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 24,
+   "n_cells_differing": 0,
+   "nb": "galiph/titanic-explorary-data-analysis",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/galiph__titanic-explorary-data-analysis__3146c73bd528.json",
+   "replay_status": "completed",
+   "role": "control"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 15,
+   "n_cells_differing": 0,
+   "nb": "christophriley/intro-machine-learning",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/christophriley__intro-machine-learning__03d98cf2d8b1.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 21,
+     "what": [
+      "out:__last__",
+      "out:df_race_dem_reg_5"
+     ]
+    },
+    {
+     "i": 22,
+     "what": [
+      "in:df_race_dem_reg_5"
+     ]
+    }
+   ],
+   "engine": "modin",
+   "identical": false,
+   "n_cells": 44,
+   "n_cells_differing": 2,
+   "nb": "grudd0/mass-shooting-analysis",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/grudd0__mass-shooting-analysis__4d24c4883e47.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [
+    {
+     "i": 9,
+     "what": [
+      "out:__last__"
+     ]
+    }
+   ],
+   "engine": "modin",
+   "identical": false,
+   "n_cells": 23,
+   "n_cells_differing": 1,
+   "nb": "trinath003/data-manipulation-visualisation-on-kaggle-datasets",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__f293e3ade78a.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 13,
+   "n_cells_differing": 0,
+   "nb": "muhammadawaistayyab/used-cars-in-pakistan-stats",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/muhammadawaistayyab__used-cars-in-pakistan-stats__70706aff9a48.json",
+   "replay_status": "completed",
+   "role": "control"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 11,
+   "n_cells_differing": 0,
+   "nb": "nihhaar/etltransform",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/nihhaar__etltransform__0f796e73e715.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 11,
+   "n_cells_differing": 0,
+   "nb": "gsilves/quiz-4-question-1",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/gsilves__quiz-4-question-1__38d94363166b.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  },
+  {
+   "diff_cells": [],
+   "engine": "modin",
+   "identical": true,
+   "n_cells": 11,
+   "n_cells_differing": 0,
+   "nb": "danielresende/game-of-thrones-battles",
+   "orig_status": "completed",
+   "record": "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/danielresende__game-of-thrones-battles__ec9a05b2ddff.json",
+   "replay_status": "completed",
+   "role": "disputed"
+  }
+ ],
+ "tags": "d1b"
+}

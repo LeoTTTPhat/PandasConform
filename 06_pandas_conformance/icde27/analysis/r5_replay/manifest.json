@@ -1,0 +1,2465 @@
+{
+ "analysis_files": {
+  "icde27/analysis/r5_replay/RESULTS.md": {
+   "bytes": 66363,
+   "sha256": "55817123b407dd03215f68eb628724bb4795dcbc48d6d5409f4d2138166e3420"
+  },
+  "icde27/analysis/r5_replay/d1_analyze.py": {
+   "bytes": 16075,
+   "sha256": "7f5bb1b2955448a75e8a69e3d7533792c58a93098c25aac6109a7479f77c704d"
+  },
+  "icde27/analysis/r5_replay/d1_compare.py": {
+   "bytes": 7001,
+   "sha256": "9f631edb9f65b021864fab2d33f88a36b5edd08944eea2f8a582b7f526cb30d6"
+  },
+  "icde27/analysis/r5_replay/d1_hashcheck.json": {
+   "bytes": 103394,
+   "sha256": "30bfe1e16c65293b06b403da1342aa0e0cd2b23ae90205e6928e2d7222b2e958"
+  },
+  "icde27/analysis/r5_replay/d1_hashcheck.py": {
+   "bytes": 4211,
+   "sha256": "1397d875434db54425e628a5188b0ed92b9d4b18aa3e980d1d21e1648ae67764"
+  },
+  "icde27/analysis/r5_replay/d1_plan.json": {
+   "bytes": 271246,
+   "sha256": "4e2c471460329b06ae239e7129a5f91fad03d418871f48106ad9622509764444"
+  },
+  "icde27/analysis/r5_replay/d1_plan.py": {
+   "bytes": 5147,
+   "sha256": "df4f1e55781daca3ad85f0dab8c8ff32aa291986533303a30ce5f8666fcd6ac3"
+  },
+  "icde27/analysis/r5_replay/d1_results.json": {
+   "bytes": 205942,
+   "sha256": "617c0cc370cdf174dda220cfd7d441365e813c94daf2d6634aa6be5106583d97"
+  },
+  "icde27/analysis/r5_replay/d1_run.py": {
+   "bytes": 7507,
+   "sha256": "627d4d6af877d74c76e02fb43ee3a6ee13ded9aa334efa79bba43c4b6f6b8c8c"
+  },
+  "icde27/analysis/r5_replay/d1_run_d1.json": {
+   "bytes": 87616,
+   "sha256": "1e1b311d830b641dd881216ae34703a7f47d435d73a9d41c9be5c5205659e290"
+  },
+  "icde27/analysis/r5_replay/d1_run_d1b.json": {
+   "bytes": 128627,
+   "sha256": "94a45900e24d3d695ac5fdb5909a851b94f935a197d0b5957fe45c65ef5a898f"
+  },
+  "icde27/analysis/r5_replay/d1_selfdiff.json": {
+   "bytes": 30288,
+   "sha256": "af18ea95d6ba727d171478c98dcc2ce859817b8e8bc445ff50e990f90c60ec8e"
+  },
+  "icde27/analysis/r5_replay/d1_selfdiff.py": {
+   "bytes": 5333,
+   "sha256": "62063e4843ebc584fe18a68f1e414a5dcf052184a4b9f1165fd751faa99fe52f"
+  },
+  "icde27/analysis/r5_replay/d1_shortcut.json": {
+   "bytes": 14433,
+   "sha256": "dba0aabe32da1f0a73a5f2971062bf25c1fd0fc40934da2d66fb75f4ebb1bc69"
+  },
+  "icde27/analysis/r5_replay/d1_shortcut.py": {
+   "bytes": 4536,
+   "sha256": "c9eba52226b959be9e191b30af94f16e090d6c28fe3ea18938681a959e1636e5"
+  },
+  "icde27/analysis/r5_replay/d2_analyze.py": {
+   "bytes": 5690,
+   "sha256": "68398c49b1c559b10c8a6436d7246afdbf028060684e7558c986bea12bcd05de"
+  },
+  "icde27/analysis/r5_replay/d2_captured.json": {
+   "bytes": 12554,
+   "sha256": "c01da25f9b4b69a98e1d327592e75f1a3c73882768dabe495acdfcdeaf100f5a"
+  },
+  "icde27/analysis/r5_replay/d2_captured.py": {
+   "bytes": 3032,
+   "sha256": "5a104e2f5805109eb62d296d447a592b87594e3665b6719c28cf326430c68216"
+  },
+  "icde27/analysis/r5_replay/d2_cases.py": {
+   "bytes": 6513,
+   "sha256": "35add52686720310c2a35f25e2e10b3e46a8b92b7d85a9f6f2541343ca2f744c"
+  },
+  "icde27/analysis/r5_replay/d2_child.py": {
+   "bytes": 6521,
+   "sha256": "cbb335124a51e79544ebab4da268243e9e5850df41abf86ebc26937faa75b25c"
+  },
+  "icde27/analysis/r5_replay/d2_raw.json": {
+   "bytes": 52201,
+   "sha256": "9b8c168dbeda064ce72321ecb7e2c0ecc1f6de4483cba8d241e2e1f17f8f93e9"
+  },
+  "icde27/analysis/r5_replay/d2_raw_rerun.json": {
+   "bytes": 14648,
+   "sha256": "23e090436eeecf441338917d953d2043791c9eee8f2739e034d7d157da73fa40"
+  },
+  "icde27/analysis/r5_replay/d2_results.json": {
+   "bytes": 34827,
+   "sha256": "419cb9f26331fda7f2f8bfb01e71d696f4749f8575f7fcb4dae8e6980874d8ad"
+  },
+  "icde27/analysis/r5_replay/d2_run.py": {
+   "bytes": 6527,
+   "sha256": "8970fc65f71a32cae3d78b7bc90e4017da3540befde207f20e4e704a51445673"
+  },
+  "icde27/analysis/r5_replay/d3_analyze.py": {
+   "bytes": 12277,
+   "sha256": "9c3d93d779b07ebeb20a64d78d8dc848bd15ba30093225fd4ab145386910359a"
+  },
+  "icde27/analysis/r5_replay/d3_checks.json": {
+   "bytes": 17097,
+   "sha256": "3f4dfc32ecdde83d405bf62ee2f05ef7d13753236fee546190ed9a68d921e296"
+  },
+  "icde27/analysis/r5_replay/d3_checks.py": {
+   "bytes": 12405,
+   "sha256": "1934c19f69b9eeb8f926f981345fb0512dc71ed9d1ae754e2a6f15eccf199e98"
+  },
+  "icde27/analysis/r5_replay/d3_disagreements.md": {
+   "bytes": 9820,
+   "sha256": "e2415885380c66415942dd5d0b225a8962befb02849b8b89b736b7da26bd42a4"
+  },
+  "icde27/analysis/r5_replay/d3_ext_plan.json": {
+   "bytes": 6330,
+   "sha256": "b01836a69a5352ed6613888dfff91f3e6224b0679f068a49fb36c71ff2155efd"
+  },
+  "icde27/analysis/r5_replay/d3_plan.json": {
+   "bytes": 214233,
+   "sha256": "a2f3bed8bbafca1437fbda28629bf6f3d6f82dc2cc1ea914cccd32ba18e5fee0"
+  },
+  "icde27/analysis/r5_replay/d3_plan.py": {
+   "bytes": 9929,
+   "sha256": "a45ca6c8a5023dccf9291c0217582c7e484179c4b1cdb148450d46e552b062ca"
+  },
+  "icde27/analysis/r5_replay/d3_post.py": {
+   "bytes": 3770,
+   "sha256": "4cdad57dbbc91338a0979f6f16fc1b4065bf67fae80b666e4445e4c33e86079b"
+  },
+  "icde27/analysis/r5_replay/d3_results.json": {
+   "bytes": 234790,
+   "sha256": "7051304190bed7307a90ee4f6b56e8b164acc45f983bbefb98ada9dd3e51e05e"
+  },
+  "icde27/analysis/r5_replay/d3_run.py": {
+   "bytes": 9161,
+   "sha256": "32897266b319780cf0f8373d2de5668658b6fabc676a13a3a7655a8e477b5b7a"
+  },
+  "icde27/analysis/r5_replay/d3_run_d3n2.json": {
+   "bytes": 51337,
+   "sha256": "ad3b8fe7c5a32ccac1f361107ff9570feda8e5dc9097b600b8717762f9419a4f"
+  },
+  "icde27/analysis/r5_replay/d3_run_ext.json": {
+   "bytes": 12600,
+   "sha256": "97e96738984624275d4251f22e438da22e01b6afb59000d84881d25ed5743759"
+  },
+  "icde27/analysis/r5_replay/dedupe_store.py": {
+   "bytes": 1321,
+   "sha256": "c7d2ada2360528c615515f0c102ea10069b289318c9b23c2efaf4ad4dde2f960"
+  },
+  "icde27/analysis/r5_replay/manifest.py": {
+   "bytes": 1910,
+   "sha256": "f4ec46bf5b85e5b309e7bbc460366c65a732357345e92b7cf1301114e92faa83"
+  },
+  "icde27/analysis/r5_replay/paired.py": {
+   "bytes": 5479,
+   "sha256": "460e0748d7df1e1bb050939822de18a950343ddd6bc48ea3bcdd0e9181baeff4"
+  },
+  "icde27/analysis/r5_replay/r5common.py": {
+   "bytes": 4145,
+   "sha256": "62fd16cfb7148ef26828793db8648b92d44d22a4af0aeb18649d5dd78fd985ca"
+  },
+  "icde27/analysis/r5_replay/report_tables.py": {
+   "bytes": 6419,
+   "sha256": "da19951af4e4b2d9c80243857524b00ef1adb9356feef0ae34ed929afefd232f"
+  }
+ },
+ "note": "replay store blobs identical to released blobs were removed (dedupe_store.py); comparisons read the replay store first and else the released store",
+ "raw_files": {
+  "work/r5_replay/compare/self/bodo/akgauravin__gun-violence-data-exploration-and-plotting.json": {
+   "bytes": 7810,
+   "sha256": "8d58e47f111d30a124d7c8f2f67a7e580921a8f382a9797e103bae78ff8efe17"
+  },
+  "work/r5_replay/compare/self/bodo/akshaypetkar__supermarket-sales-analysis.json": {
+   "bytes": 7121,
+   "sha256": "8d5161b5917793e643ba7aa69182182b108671394fe6fe509aad5505a335fd09"
+  },
+  "work/r5_replay/compare/self/bodo/ayushsingh5941__tweet-disaster-or-not.json": {
+   "bytes": 6023,
+   "sha256": "98e29f2f90913913151b44b56f20aeaa2e97d7e82f9f59b8750252476e831b2c"
+  },
+  "work/r5_replay/compare/self/bodo/balajivenkat96__solar-plants.json": {
+   "bytes": 10820,
+   "sha256": "5078cfcdcdd040f19a34ea5b8cea2c9de0e60b359582b1bb489b3055410e6340"
+  },
+  "work/r5_replay/compare/self/bodo/bcannon__indexing-selecting-assigning.json": {
+   "bytes": 4032,
+   "sha256": "76c746fbf8306ff2e90f235f0e42ae55f8135f6ff93f3b3375caaa42285de57c"
+  },
+  "work/r5_replay/compare/self/bodo/beratozmen__clash-of-clans-exploratory-data-analysis.json": {
+   "bytes": 3727,
+   "sha256": "f99600748c84fd82686d3731d259a208891e870d30ebe19698608241ed102944"
+  },
+  "work/r5_replay/compare/self/bodo/blaskowitz100__feature-engineering-based-on-the-suprise-me.json": {
+   "bytes": 6550,
+   "sha256": "f66df71259989dbd1e743f84b20573b2b73b69004042eb981df35d4632a82332"
+  },
+  "work/r5_replay/compare/self/bodo/brianmendieta__data-cleaning-plus-eda.json": {
+   "bytes": 17712,
+   "sha256": "896b485b39ca6b9b1d5b3aa3a62cde93b26df8eb43ab2e2c98f804f58340af93"
+  },
+  "work/r5_replay/compare/self/bodo/carlmcbrideellis__simple-eda-of-kaggle-grandmasters-scheduled.json": {
+   "bytes": 5226,
+   "sha256": "add13acaafbbdafa022d6708541977afc18ee08b714bb376dafe62a855098f7f"
+  },
+  "work/r5_replay/compare/self/bodo/corazzon__how-to-use-pandas-filter-in-survey-eda.json": {
+   "bytes": 18680,
+   "sha256": "e3c9a16bd0205480e89a3b2ea40ffa813e53e5f18424819f61fd7e7e7e44931e"
+  },
+  "work/r5_replay/compare/self/bodo/deffro__eda-is-fun.json": {
+   "bytes": 9439,
+   "sha256": "4d774e8d95a3552608e219804f6f90fe3b584e1b1f5f46a2076dbbe6c4d67317"
+  },
+  "work/r5_replay/compare/self/bodo/ersinsen__fraud-3-eda.json": {
+   "bytes": 9062,
+   "sha256": "e13468ac929949e69b7b621b22687aaaec79513483c6b89b21cb6c1d5d8adbd5"
+  },
+  "work/r5_replay/compare/self/bodo/gmanish__help-ngo-country-clustering.json": {
+   "bytes": 10653,
+   "sha256": "2baa8937409c67c89197be489b2364f9ffd8ce73ca533a02da9ec14d740980d4"
+  },
+  "work/r5_replay/compare/self/bodo/grudd0__mass-shooting-analysis.json": {
+   "bytes": 9367,
+   "sha256": "ec9b926ed0429cac708a6b681df2ae7fad36bcb90f8a9eeb7f394beaf8f5be59"
+  },
+  "work/r5_replay/compare/self/bodo/guyalmog__hr-analytics-predicting-employees-attrition.json": {
+   "bytes": 14247,
+   "sha256": "22e2abf1aafea6dfe3b4bccddab34ab72f80ee2669f427ad53152edde539b34d"
+  },
+  "work/r5_replay/compare/self/bodo/jackwatson99__pima-indians-diabetes-rf-81.json": {
+   "bytes": 3421,
+   "sha256": "8a0aec0113b1e2fd613f154156877e5dc1f460407225e1759337013dd1ed0701"
+  },
+  "work/r5_replay/compare/self/bodo/jagangupta__stop-the-s-toxic-comments-eda.json": {
+   "bytes": 10581,
+   "sha256": "fc201df8fb150917ffa74c4870b5a96a7400e2e3af07d1df5e0d5b9536d9ef86"
+  },
+  "work/r5_replay/compare/self/bodo/julieberteaux__workshop-2.json": {
+   "bytes": 4951,
+   "sha256": "e73d7f3912e97ef1be0ee87038f3fd43abd08a8e7cdca18f7dbc923595f47021"
+  },
+  "work/r5_replay/compare/self/bodo/kanncaa1__dataiteam-titanic-eda.json": {
+   "bytes": 16242,
+   "sha256": "a5ce5c9371c006bfcf9843a27ba25fdab592b19ee29fb624dd8d56915b648e68"
+  },
+  "work/r5_replay/compare/self/bodo/kenjee__titanic-project-example.json": {
+   "bytes": 10241,
+   "sha256": "81ce3ae25c699d4962d81e52953a3cdd76ab6409ff80c260de0f05c33c4d81ee"
+  },
+  "work/r5_replay/compare/self/bodo/kwullum__when-do-traffic-related-deaths-occur.json": {
+   "bytes": 3158,
+   "sha256": "cc99f49990564a55460398d6c96619bfe7c61e0041b8b1e7541dce9d8cf02bd8"
+  },
+  "work/r5_replay/compare/self/bodo/luizep__movieslens20m.json": {
+   "bytes": 3671,
+   "sha256": "00a3f2cb0867aecf813219b116c1a8727d4c515d10cf0914dfa7a5605a9edbfa"
+  },
+  "work/r5_replay/compare/self/bodo/mathewvondersaar__analysis-of-student-performance.json": {
+   "bytes": 4241,
+   "sha256": "fe8e7c53f7047d993da3dc42c0af08f305cc7636aa140518cef191bb92133f26"
+  },
+  "work/r5_replay/compare/self/bodo/nihhaar__etltransform.json": {
+   "bytes": 2731,
+   "sha256": "05de7cbc017a2a76c7be2d49c5af744e3f46c944f7b5520257618c9ad4384d55"
+  },
+  "work/r5_replay/compare/self/bodo/paramarthasengupta__plotly-eda-top-movies-of-20th-century.json": {
+   "bytes": 6121,
+   "sha256": "7d498a3d056aa17fc2d6089cff076448d79973133332948aedd7fe15dfd27210"
+  },
+  "work/r5_replay/compare/self/bodo/qingyuanwu__deep-neural-network.json": {
+   "bytes": 3653,
+   "sha256": "cc08c8b969e24179b9d454cde0c8a4f59cb54d8b92437c464e183f1ab9bc7506"
+  },
+  "work/r5_replay/compare/self/bodo/sabya40__data-cleaning-and-pandas-for-beginners.json": {
+   "bytes": 5542,
+   "sha256": "81f270e41de3b0e36ce43ee107872d74168e8087c0b6e69f87eb9f12a477bcd8"
+  },
+  "work/r5_replay/compare/self/bodo/salmaneunus__student-s-performance-quantitative-visual-eda.json": {
+   "bytes": 8488,
+   "sha256": "9d604b720bf89fbdc52e334611118ff4075e50f71c1f3b378770f79f4c2bac87"
+  },
+  "work/r5_replay/compare/self/bodo/saniaks__melbourne-house-price-eda.json": {
+   "bytes": 6579,
+   "sha256": "e4481b3ac45daea1b85bfb41b788eda9d08577efc941de0dd36f9712536c2c65"
+  },
+  "work/r5_replay/compare/self/bodo/sanket30__eda-of-application-train-home-credit-default.json": {
+   "bytes": 8161,
+   "sha256": "1f80605c2027cc4f630acc96e5cbcaab359d9b32c930e251400567e69a860270"
+  },
+  "work/r5_replay/compare/self/bodo/santhoshrao1995__assi01-santhosh-19101036.json": {
+   "bytes": 7952,
+   "sha256": "e0040b11c630809235d5f48154cbbec5513d1ee432dde3ededdcac88933fd91e"
+  },
+  "work/r5_replay/compare/self/bodo/seriousran__eda-ing.json": {
+   "bytes": 2725,
+   "sha256": "3ba87d38717073b20b564b9338afe0eafbee0ed57e31571b929932bfb941f5f1"
+  },
+  "work/r5_replay/compare/self/bodo/shunjiangxu__blood-is-thicker-than-water-friendship-forever.json": {
+   "bytes": 2866,
+   "sha256": "0c65f3d1590f15d36f67e75174c37b81edee1578130bee528ce6359609e67087"
+  },
+  "work/r5_replay/compare/self/bodo/snanilim__video-games-sales-analysis-and-visualization.json": {
+   "bytes": 12030,
+   "sha256": "56cc2335effa8d14d0a45d7de2a0a135b9b18c3e097052dc3e1cb4f116bb9d79"
+  },
+  "work/r5_replay/compare/self/bodo/stefanjov__my-first-normalize-on-big-dataset.json": {
+   "bytes": 4425,
+   "sha256": "e42e48178516ed42b029a26c47cb42044e74009523501387f2dc1832cec32bdd"
+  },
+  "work/r5_replay/compare/self/bodo/sudheer259__house-price-prediction.json": {
+   "bytes": 25846,
+   "sha256": "cdc3ef0c7d66ff80a10f4c078a7b931d578e43f462fdeb6b0fd6ddb30db49131"
+  },
+  "work/r5_replay/compare/self/bodo/sunnybiswas__eda-on-airline-dataset.json": {
+   "bytes": 6135,
+   "sha256": "0a759fd552f36c54318bc50a8135135b1614c7c071a48c3dde6ce40222128df9"
+  },
+  "work/r5_replay/compare/self/bodo/tanulsingh077__twitter-sentiment-extaction-analysis-eda-and-model.json": {
+   "bytes": 13798,
+   "sha256": "71d4883296b9078a109ea62f77ab49fd5c84479c260f0de1cc83694cfc0f5d4a"
+  },
+  "work/r5_replay/compare/self/bodo/taylorhickem__singapore-building-energy.json": {
+   "bytes": 4714,
+   "sha256": "041d2abc2c88b178b5d724679ae93c95099247b328742d9cb4434992415a2128"
+  },
+  "work/r5_replay/compare/self/bodo/trinath003__data-manipulation-visualisation-on-kaggle-datasets.json": {
+   "bytes": 5808,
+   "sha256": "d28a92a16b26b52692cc1ac77725cb5cf5bfad3a168d31b6a87abf82804a6744"
+  },
+  "work/r5_replay/compare/self/bodo/tunguz__fathers-day-specials-just-the-features.json": {
+   "bytes": 8231,
+   "sha256": "55b4353b7009f2149329b7fb552c74f6812193a9277745926e4f4898eadfbbfc"
+  },
+  "work/r5_replay/compare/self/bodo/vinothsuku__osic-pulmonary-fibrosis-simple-eda.json": {
+   "bytes": 3497,
+   "sha256": "77567b7278455e9fe0b47862e22e8f155e1892d2cebf05d06e0f22a91d5330ec"
+  },
+  "work/r5_replay/compare/self/bodo/willkoehrsen__start-here-a-gentle-introduction.json": {
+   "bytes": 13443,
+   "sha256": "7c36eb10f5a8b3cc9572d50694ee74f82c73de3a04c15cced29eae3d11e82ec9"
+  },
+  "work/r5_replay/compare/self/bodo/wyl4417__machine-learning-and-how-it-affects-you.json": {
+   "bytes": 5252,
+   "sha256": "51592194cbc104cea66a22f1641a993114d9e2250040b51b6ed581b0f52a3c0c"
+  },
+  "work/r5_replay/compare/self/bodo/xokent__cyber-security-attack-eda.json": {
+   "bytes": 4580,
+   "sha256": "3fc6d3078608f1914d23198b83187a74376ce11a6ff92c9689685a27b0c65b21"
+  },
+  "work/r5_replay/compare/self/bodo/yashjaiswal1097__911-emergency-calls-kernel.json": {
+   "bytes": 5809,
+   "sha256": "0827647151cf4ce99b26edef9f7b13bc79ed7d7ede25e1bed83f2217114d0632"
+  },
+  "work/r5_replay/compare/self/bodo/yonelanuba__elo-merchant-by-yonela.json": {
+   "bytes": 28031,
+   "sha256": "3e950dcc7cf14979bf9919e4a0a8848047540bb4a7d82b74cba566b1fa5f43d5"
+  },
+  "work/r5_replay/compare/self/dask/akshaypetkar__supermarket-sales-analysis.json": {
+   "bytes": 6813,
+   "sha256": "e2fa98c3ab03ccbd73d48d33859263100c51738b20d7fac1e37af1ff09a1e1c0"
+  },
+  "work/r5_replay/compare/self/dask/blaskowitz100__feature-engineering-based-on-the-suprise-me.json": {
+   "bytes": 5772,
+   "sha256": "0ca66e24aa94f2907e7bfbd1e0b27a256e27454631c45977b1686507dbc333a7"
+  },
+  "work/r5_replay/compare/self/dask/brianmendieta__data-cleaning-plus-eda.json": {
+   "bytes": 11980,
+   "sha256": "45200cf2f316e089bd17f7f9399a843b97c3b52f1d3204f0c7f658bb0d76db5b"
+  },
+  "work/r5_replay/compare/self/dask/corazzon__how-to-use-pandas-filter-in-survey-eda.json": {
+   "bytes": 10987,
+   "sha256": "e46d4b2ad488b6da3a11ff4f8094ae80786ae102eb6dd1d69d6029a587c0666d"
+  },
+  "work/r5_replay/compare/self/dask/deffro__eda-is-fun.json": {
+   "bytes": 7721,
+   "sha256": "26f0ac5be0c92de3bc21a015fad6d3a3dbab00adc77432f0d256ef4e3229cb89"
+  },
+  "work/r5_replay/compare/self/dask/gmanish__help-ngo-country-clustering.json": {
+   "bytes": 10384,
+   "sha256": "5a3314c8c63d4680b0482042fc466add1d1e4a94bf80a1857302fde87e67fb8a"
+  },
+  "work/r5_replay/compare/self/dask/gsilves__quiz-4-question-1.json": {
+   "bytes": 3382,
+   "sha256": "7c5db9fffac73e004f8ea117f20dacbf838f2395d8fd649712892581e4b661d8"
+  },
+  "work/r5_replay/compare/self/dask/jackwatson99__pima-indians-diabetes-rf-81.json": {
+   "bytes": 3410,
+   "sha256": "e559e6091750d8a63667573eaa668dc5458aef45773b3836c2ecb200bccdf41a"
+  },
+  "work/r5_replay/compare/self/dask/jirakst__book-recommendation.json": {
+   "bytes": 20476,
+   "sha256": "99c53e8e3cefd1915749807b3232d1a94e29991733c7d39ac0640e644d35876d"
+  },
+  "work/r5_replay/compare/self/dask/jyotsananegi__melbourne-housing-snapshot-eda.json": {
+   "bytes": 5523,
+   "sha256": "b8cf4a2306ecc09322f9070cbb19b86a48c8cbec61b9f446ab47906993122cee"
+  },
+  "work/r5_replay/compare/self/dask/luckygemini__notebook5d5fc80c9f.json": {
+   "bytes": 2612,
+   "sha256": "0ca000c646f4929e4af1905a0acea8542828628576e53a7b831b5212e3ab13fc"
+  },
+  "work/r5_replay/compare/self/dask/macespinoza__simple-eda-with-python-pandas-data-avocado-paltas.json": {
+   "bytes": 7085,
+   "sha256": "733a53108be0b5337a945cd7efc8e79ac5e0c814c04ba83f3baf31bd83995a39"
+  },
+  "work/r5_replay/compare/self/dask/madseth__customer-shopping-trends-dataset-eda.json": {
+   "bytes": 5926,
+   "sha256": "9eae13f3116610017e1f4c210b1377a256d91ca3956a80e11a5a6f11a8eb14c1"
+  },
+  "work/r5_replay/compare/self/dask/mathewvondersaar__analysis-of-student-performance.json": {
+   "bytes": 3635,
+   "sha256": "15480d5c59ebc157761af262a4f14a97dae7e41423e0c2a4abf60007a55d8d48"
+  },
+  "work/r5_replay/compare/self/dask/mustafatatarhan1__iris-kernel.json": {
+   "bytes": 6190,
+   "sha256": "a294492b71470fe6f6c86e20baec7f800f3994d48dceba7930f64e7c561d42c7"
+  },
+  "work/r5_replay/compare/self/dask/nihhaar__etltransform.json": {
+   "bytes": 3037,
+   "sha256": "1df8a5f88feca131608d651fe534c75d5e972ede9f960a2389db4a42735f4a89"
+  },
+  "work/r5_replay/compare/self/dask/pmr3508f20977e697__poverty-level-pmr3508-2018-f20977e697.json": {
+   "bytes": 11548,
+   "sha256": "5340fceef38adc575b6f724c5cec03ecfea71b92c31764f1ee782a2a2ad7f19a"
+  },
+  "work/r5_replay/compare/self/dask/roopahegde__cryptocurrency-price-correlation.json": {
+   "bytes": 6277,
+   "sha256": "abe121d2f9d0254bc4fe552c1ceb3cccd8d3f7b18a7bf00bd8db3018adf7509c"
+  },
+  "work/r5_replay/compare/self/dask/salmaneunus__student-s-performance-quantitative-visual-eda.json": {
+   "bytes": 8835,
+   "sha256": "199151ad570c8c964eddde868a14e65fe8959a73eaf7bd6760f9501d34dc824c"
+  },
+  "work/r5_replay/compare/self/dask/sanket30__eda-of-application-train-home-credit-default.json": {
+   "bytes": 8107,
+   "sha256": "f51adaaee2aeff9284466e3b606dc6c6b2e9fef4be4a36177630456aad7b2506"
+  },
+  "work/r5_replay/compare/self/dask/stefanjov__my-first-normalize-on-big-dataset.json": {
+   "bytes": 3930,
+   "sha256": "fb49fdc0931a722856b43cc0be6d6100c0813faea1e1f6fab57ff57a6787c15b"
+  },
+  "work/r5_replay/compare/self/dask/willkoehrsen__start-here-a-gentle-introduction.json": {
+   "bytes": 13321,
+   "sha256": "cda21963310eff96fae1209b5472a42c1525a623155b00945d0f6f1a2c21bc6b"
+  },
+  "work/r5_replay/compare/self/dask/wyl4417__machine-learning-and-how-it-affects-you.json": {
+   "bytes": 3811,
+   "sha256": "9709d6be548b89a3c6254d97144a2adb69692beb131cbb8c0b026b639967c281"
+  },
+  "work/r5_replay/compare/self/dask/yashjaiswal1097__911-emergency-calls-kernel.json": {
+   "bytes": 5686,
+   "sha256": "e5b7396b6f225bb1c21afd35e51a264f4f9af1a1ccf4ae803638b5b1d72df64b"
+  },
+  "work/r5_replay/compare/self/dask/yonelanuba__elo-merchant-by-yonela.json": {
+   "bytes": 27779,
+   "sha256": "9df07cc2a16c612f6997a5607e9f2487c181266dc8b8893b39aaa6004ad81ae6"
+  },
+  "work/r5_replay/compare/self/fireducks/akshaypetkar__supermarket-sales-analysis.json": {
+   "bytes": 7141,
+   "sha256": "ac20350d94c0ca9349d0b8f722b4ac956ae7777a3823ad7095cccca233a751e9"
+  },
+  "work/r5_replay/compare/self/fireducks/arjoonn__scout-script-7.json": {
+   "bytes": 5811,
+   "sha256": "454eab4c1f548677cef6243b067bd14159d675684711d0d858a21bc7aea1f507"
+  },
+  "work/r5_replay/compare/self/fireducks/ashukr__first-step-ingestion-to-prediction.json": {
+   "bytes": 8092,
+   "sha256": "e38c6fff6e3660661d386e5f4888d925467d258b2dafc67f34e2cb63223c23c5"
+  },
+  "work/r5_replay/compare/self/fireducks/ayushsingh5941__tweet-disaster-or-not.json": {
+   "bytes": 5881,
+   "sha256": "7507bff3755d40b257d1f21799dd59a7b30cc42e9a0a5779c9f738552f00c9e1"
+  },
+  "work/r5_replay/compare/self/fireducks/beratozmen__clash-of-clans-exploratory-data-analysis.json": {
+   "bytes": 4497,
+   "sha256": "ee2c07016107da9dc8b40622a712d1e8621a5cfe97c6762b16c3584458ea3152"
+  },
+  "work/r5_replay/compare/self/fireducks/blaskowitz100__feature-engineering-based-on-the-suprise-me.json": {
+   "bytes": 11501,
+   "sha256": "d4f0f5f8adef8dfe3235fd320d44d8240261a57814f63771dd862b501ef41571"
+  },
+  "work/r5_replay/compare/self/fireducks/brianmendieta__data-cleaning-plus-eda.json": {
+   "bytes": 16868,
+   "sha256": "86fbcee46b031553d58ce64fc5867ed9d519e029d034f3a54bafa3c7bec5e591"
+  },
+  "work/r5_replay/compare/self/fireducks/charulatashelar__indian-startup-funding-exploratory-data-analysis.json": {
+   "bytes": 9505,
+   "sha256": "4b18e747d149ecc5bfc8170a2c06569728ce52bdb4111998a58bf731ced8556d"
+  },
+  "work/r5_replay/compare/self/fireducks/danielresende__game-of-thrones-battles.json": {
+   "bytes": 2856,
+   "sha256": "88f65b5ff293d40f84aecc9c90f01977f0e180ea84dad9d89c4b842d25b3e432"
+  },
+  "work/r5_replay/compare/self/fireducks/dbatao__kernel2f80fc9d78.json": {
+   "bytes": 11218,
+   "sha256": "22839c512bbdf7ccbad3e73b7a9c5ce063aa3463be8e364932e2371104822e1e"
+  },
+  "work/r5_replay/compare/self/fireducks/ersinsen__fraud-3-eda.json": {
+   "bytes": 9376,
+   "sha256": "302195726aadf77bd8afe6cfaf2f7abdfa246ff1338da9f7993e91fb15493ab8"
+  },
+  "work/r5_replay/compare/self/fireducks/grudd0__mass-shooting-analysis.json": {
+   "bytes": 12268,
+   "sha256": "60781a7f1cc777b67ca1dcf3c2c67986b1b972775c6717dc664f0b12a043d2c5"
+  },
+  "work/r5_replay/compare/self/fireducks/guyalmog__hr-analytics-predicting-employees-attrition.json": {
+   "bytes": 18574,
+   "sha256": "4c62c9eb781ccd455f4a8f4704ddd423abc0426bf471d36e0cdda1cfda3fc3f7"
+  },
+  "work/r5_replay/compare/self/fireducks/jagangupta__stop-the-s-toxic-comments-eda.json": {
+   "bytes": 13255,
+   "sha256": "e5d20f73dff6a15c9e73fe75818af01dad8038b917c3276e61ead0ff91672977"
+  },
+  "work/r5_replay/compare/self/fireducks/jaideepvalani__useful-eda-for-beginners-rsna-embolism.json": {
+   "bytes": 6791,
+   "sha256": "07d7dfd0780e97e37130f45235f838dec739d18287a1843e7bf281b24d48dafa"
+  },
+  "work/r5_replay/compare/self/fireducks/jyotsananegi__melbourne-housing-snapshot-eda.json": {
+   "bytes": 6252,
+   "sha256": "581ed2cb4008c34df76c54432bae38b4f67807143f1c6a9315d9de3ffd827361"
+  },
+  "work/r5_replay/compare/self/fireducks/kanncaa1__dataiteam-titanic-eda.json": {
+   "bytes": 16384,
+   "sha256": "6cec2871a037225e8f152ccc46207cdf3ec05192d9e3334a622d663a6c231358"
+  },
+  "work/r5_replay/compare/self/fireducks/kenjee__titanic-project-example.json": {
+   "bytes": 10835,
+   "sha256": "5df37ac868d47cf3f23d03baf0a760a6271571c561094d0fb3c3a5e6ff33fd60"
+  },
+  "work/r5_replay/compare/self/fireducks/kmader__analyzing-matches.json": {
+   "bytes": 6158,
+   "sha256": "ab6d60fd1fef78021ffb36906ae6a152e1c1e0006f41f05ab2aeb301a7eea7fd"
+  },
+  "work/r5_replay/compare/self/fireducks/koko1998__summer-products-and-sales-wish-com.json": {
+   "bytes": 24648,
+   "sha256": "243f4a96da0c3f86be290e6a92f16a5cddb9040365621f1f7fa9be9305657c6b"
+  },
+  "work/r5_replay/compare/self/fireducks/kwullum__when-do-traffic-related-deaths-occur.json": {
+   "bytes": 3080,
+   "sha256": "5a61d3a26df4bfe3a4a048c5b68127b47ac436178d520ec9a6c14b4ab31f36f1"
+  },
+  "work/r5_replay/compare/self/fireducks/loveall__favorita-analytics.json": {
+   "bytes": 7633,
+   "sha256": "f4a1bec59cd4d99f053336d8dcc3d0b0c75ad849cc631f1fbefe54f243461b05"
+  },
+  "work/r5_replay/compare/self/fireducks/luckygemini__notebook5d5fc80c9f.json": {
+   "bytes": 3222,
+   "sha256": "97f15b5b4fd16a9ea10ec519312990236b21b8b18b53dc16a06f868e0008b6fe"
+  },
+  "work/r5_replay/compare/self/fireducks/luizep__movieslens20m.json": {
+   "bytes": 7468,
+   "sha256": "8f9b2de03125ff532f85f0b40f9fdf3bbb1b2ba76b1d89031c286f175399d2e7"
+  },
+  "work/r5_replay/compare/self/fireducks/maxiaoyue__data-cleaning-challenge-handling-missing-values.json": {
+   "bytes": 8913,
+   "sha256": "fc30733326b1d4fa0ada5d395cbba9f5933e04768291d111ae5c12ae2a5c9b18"
+  },
+  "work/r5_replay/compare/self/fireducks/nadare__feature-engenieering-with-pivot-table.json": {
+   "bytes": 6591,
+   "sha256": "3ba93afdfd878eda68a54a120be9c99f818f3b7db161be2888fc91495d32dc2d"
+  },
+  "work/r5_replay/compare/self/fireducks/nandhuelan__ott-platforms.json": {
+   "bytes": 5390,
+   "sha256": "efc3dd9c1072196d80fd04d957f2f9f578d0a1aa7f9b93ec042e2eab92ad7f5a"
+  },
+  "work/r5_replay/compare/self/fireducks/nihhaar__etltransform.json": {
+   "bytes": 3362,
+   "sha256": "911564ba1ae21d58d59ed50dd8200643380542099c7a3682e1878de85e39025c"
+  },
+  "work/r5_replay/compare/self/fireducks/paramarthasengupta__plotly-eda-top-movies-of-20th-century.json": {
+   "bytes": 9595,
+   "sha256": "473feec3f5074f051e0a9d2e86c4c08b5349b7bfd9f1da21621b3dcd69a3427d"
+  },
+  "work/r5_replay/compare/self/fireducks/pradeepjeya__allstate-encoding-high-cardinality-features.json": {
+   "bytes": 6970,
+   "sha256": "85f9e78baf12fa25a808c0b06026138aab15701d1f410f8cb07b374252c8d71c"
+  },
+  "work/r5_replay/compare/self/fireducks/sal001__beginner-s-note-top-12-by-single-linear-model.json": {
+   "bytes": 10338,
+   "sha256": "c5ff2a5c46f2047b371d4285d04af33413e9d21a0a8bcb9960beae85043bc629"
+  },
+  "work/r5_replay/compare/self/fireducks/saniaks__melbourne-house-price-eda.json": {
+   "bytes": 7091,
+   "sha256": "3186d8a8bee57668a1bb466cb034e1d792d1c0b4fd3cd04543293691b7393f33"
+  },
+  "work/r5_replay/compare/self/fireducks/santhoshrao1995__assi01-santhosh-19101036.json": {
+   "bytes": 6801,
+   "sha256": "1db50c0750ed64932fcdab62d5667c779609f50f8f34985e0bcd55e658ea04ed"
+  },
+  "work/r5_replay/compare/self/fireducks/shubhammahalank__eda-hotel-booking-demand.json": {
+   "bytes": 4523,
+   "sha256": "6a53ba7d7d73d55abff2d73eb6529251adb99e5741b59b726b9907d3f517bc3b"
+  },
+  "work/r5_replay/compare/self/fireducks/shunjiangxu__blood-is-thicker-than-water-friendship-forever.json": {
+   "bytes": 3970,
+   "sha256": "bda389ff598ebbf78ab2c4535f15137da6d5433de67edc9831010f8f8261f04a"
+  },
+  "work/r5_replay/compare/self/fireducks/sudheer259__house-price-prediction.json": {
+   "bytes": 34576,
+   "sha256": "6b3892be37987363836ae386a0d313b8db8a122fdaa7cd7004b9e09b120a0cde"
+  },
+  "work/r5_replay/compare/self/fireducks/sunnybiswas__eda-on-airline-dataset.json": {
+   "bytes": 6642,
+   "sha256": "bfc3ef2c975170088c8f3a3bdcca858d08d6f714ee2822b9886d1d3b12f67b17"
+  },
+  "work/r5_replay/compare/self/fireducks/tanulsingh077__twitter-sentiment-extaction-analysis-eda-and-model.json": {
+   "bytes": 23037,
+   "sha256": "22da0679f8321bce1c35456085773a451ecf530d859dc249f6f2d46c2fa06152"
+  },
+  "work/r5_replay/compare/self/fireducks/taylorhickem__singapore-building-energy.json": {
+   "bytes": 5166,
+   "sha256": "a9fc26b79990bb0d099fbb37e1989fa1d2aac6afffdcd2d9ddf6872731a121c5"
+  },
+  "work/r5_replay/compare/self/fireducks/vbmokin__automatic-eda-with-pandas-profiling-2-9-09-2020.json": {
+   "bytes": 4338,
+   "sha256": "5236b068081db1020cae9202a32209a69713d9069bc6664b543bd2e0d2fbfcfc"
+  },
+  "work/r5_replay/compare/self/fireducks/willkoehrsen__start-here-a-gentle-introduction.json": {
+   "bytes": 15082,
+   "sha256": "64760440cf539af1c0e2d7865538258138032564e3a0d9c84b18507fff92cb50"
+  },
+  "work/r5_replay/compare/self/fireducks/wyl4417__machine-learning-and-how-it-affects-you.json": {
+   "bytes": 8739,
+   "sha256": "d7d0dd912267ad2d7aae00017c172e3596e8f1feb5753aaab0a33db1dd80a08c"
+  },
+  "work/r5_replay/compare/self/fireducks/xokent__cyber-security-attack-eda.json": {
+   "bytes": 4721,
+   "sha256": "17ac11f54629169a6f4b392a1ba4553e74a7ae5a4bb32bdbf2d4027ee9332341"
+  },
+  "work/r5_replay/compare/self/fireducks/yonelanuba__elo-merchant-by-yonela.json": {
+   "bytes": 32096,
+   "sha256": "2131a5b3727ff50b2d21154f7b1de528428fc963caaf32a592314d2fc45c38ff"
+  },
+  "work/r5_replay/compare/self/modin/artgor__eda-and-models.json": {
+   "bytes": 8697,
+   "sha256": "67bb84d79839d0996eec63d0183c9d9c2b1aaaacbe8c71398812ca496febdb98"
+  },
+  "work/r5_replay/compare/self/modin/balajivenkat96__solar-plants.json": {
+   "bytes": 11838,
+   "sha256": "cd60104eb62499928c1171318488b7eaaf7e3da6c6dd6ee1aac0b7a5e229be97"
+  },
+  "work/r5_replay/compare/self/modin/brianmendieta__data-cleaning-plus-eda.json": {
+   "bytes": 16422,
+   "sha256": "90b31ca55ce3e2d836699c8b4c264e94a99deb0b8747954d26d3a8b8a430fa7e"
+  },
+  "work/r5_replay/compare/self/modin/charulatashelar__indian-startup-funding-exploratory-data-analysis.json": {
+   "bytes": 8662,
+   "sha256": "d1ef02b47251a9b6274659c37f58ac3a1e5576bff30f01be7a9b18ebaae7c5f8"
+  },
+  "work/r5_replay/compare/self/modin/christophriley__intro-machine-learning.json": {
+   "bytes": 3406,
+   "sha256": "92da1cbaaef07dd192388b3c41cfd1ce1203e26fd97f494df9593735a92a2d60"
+  },
+  "work/r5_replay/compare/self/modin/danielresende__game-of-thrones-battles.json": {
+   "bytes": 2664,
+   "sha256": "57a49cd266e9f2f927b23c13228f3ab4fc88fdea88dc633dfe8070d1880bd23b"
+  },
+  "work/r5_replay/compare/self/modin/dbatao__kernel2f80fc9d78.json": {
+   "bytes": 10802,
+   "sha256": "6049f489ebdc8ce5ba1feda3f74129e470b51fe00315d3f23bc41e0ec33f5972"
+  },
+  "work/r5_replay/compare/self/modin/deffro__eda-is-fun.json": {
+   "bytes": 8230,
+   "sha256": "ad12dd212d5c75885515d306e972356d0681444655fe75f112af699f6f65f8d8"
+  },
+  "work/r5_replay/compare/self/modin/galiph__titanic-explorary-data-analysis.json": {
+   "bytes": 5096,
+   "sha256": "f8416416d61935574031b829bf8adab9e7274144877bdd0a25bac0e1854b087b"
+  },
+  "work/r5_replay/compare/self/modin/grudd0__mass-shooting-analysis.json": {
+   "bytes": 9860,
+   "sha256": "7284af3dd3c931456d562f7c75ce33fd253bc4df4cfb74f54ccb2fbe0911b1ad"
+  },
+  "work/r5_replay/compare/self/modin/gsilves__quiz-4-question-1.json": {
+   "bytes": 2871,
+   "sha256": "9a88d005ee34111eaf790fa5d4db2cdf619aa40b2ad195a33762706d4415c59d"
+  },
+  "work/r5_replay/compare/self/modin/guyalmog__hr-analytics-predicting-employees-attrition.json": {
+   "bytes": 17211,
+   "sha256": "d58ed6257c4acfcb4a9d4db7ba8f85b7dfafa4e3f1a46d7b950a4976010714d6"
+  },
+  "work/r5_replay/compare/self/modin/j0thu777__onlineretailanalysis.json": {
+   "bytes": 6373,
+   "sha256": "01f91e21d9d091e36f02eb4090bb1286b32462b79d190270403d7b459315f476"
+  },
+  "work/r5_replay/compare/self/modin/jagangupta__stop-the-s-toxic-comments-eda.json": {
+   "bytes": 13064,
+   "sha256": "a6c3bfd79b3cfb9da435782a04c7aa3421dbd1a8bbe767233dffd8ba52055f3a"
+  },
+  "work/r5_replay/compare/self/modin/jirakst__book-recommendation.json": {
+   "bytes": 16190,
+   "sha256": "47e5e2fdc3e0d06a940e3e12f9ef65fddf3ddf2602328f2e2da44fb492ca1312"
+  },
+  "work/r5_replay/compare/self/modin/kanncaa1__dataiteam-titanic-eda.json": {
+   "bytes": 16095,
+   "sha256": "cd31aba1164be4dff4458a6397c816094112b97d7754eb060ccde3768b5225f0"
+  },
+  "work/r5_replay/compare/self/modin/kenjee__titanic-project-example.json": {
+   "bytes": 10347,
+   "sha256": "2b0da5d6b1a83cfcafba9396d41a42362ac034bede00b747c006c2d033d06c2e"
+  },
+  "work/r5_replay/compare/self/modin/kmader__analyzing-matches.json": {
+   "bytes": 6065,
+   "sha256": "62121d8c15310ec94c5379c010041a270a9ac691c4e90ad2261d1d95682e5825"
+  },
+  "work/r5_replay/compare/self/modin/kwullum__when-do-traffic-related-deaths-occur.json": {
+   "bytes": 3049,
+   "sha256": "4493eadd525e4b130f426059e3fe9059ad55e123141738fd80c50053c73fba82"
+  },
+  "work/r5_replay/compare/self/modin/muhammadawaistayyab__used-cars-in-pakistan-stats.json": {
+   "bytes": 3089,
+   "sha256": "3e0185ef17b7073ddf6b3914735b5681e6641bd3905ba6fb9ea86ff35c56b7cf"
+  },
+  "work/r5_replay/compare/self/modin/nihhaar__etltransform.json": {
+   "bytes": 3014,
+   "sha256": "300d9dc65c712965058efef11c9a1c3092dcbf12181c87c497a545a7d8036a2b"
+  },
+  "work/r5_replay/compare/self/modin/qnqfbqfqo__electric-vehicle-landscape-in-washington-state.json": {
+   "bytes": 2630,
+   "sha256": "8242ec8219aa5e9025b9981d56a15612ef7d1b27b0af1d6780fab58cf2f806f9"
+  },
+  "work/r5_replay/compare/self/modin/sabya40__data-cleaning-and-pandas-for-beginners.json": {
+   "bytes": 5379,
+   "sha256": "7bda823bfb60a7d72ece48fa057977ab8b712bd69d9efd5f34bfe445e52c90ff"
+  },
+  "work/r5_replay/compare/self/modin/saniaks__melbourne-house-price-eda.json": {
+   "bytes": 6774,
+   "sha256": "f88812129285cc27782f806375635f311ed6222a22d0a4a7a3c7906b6e4c2046"
+  },
+  "work/r5_replay/compare/self/modin/santhoshrao1995__assi01-santhosh-19101036.json": {
+   "bytes": 13688,
+   "sha256": "9ec7b7b8001a18000343ba804c3c1dd9b721064fc8318c377fa4cd5b74f435a3"
+  },
+  "work/r5_replay/compare/self/modin/shivavashishtha__zomato-eda-tutorial.json": {
+   "bytes": 18266,
+   "sha256": "610709cf2107a5a918652883db166b17a905ffe57c6234c607b32cbb198a274c"
+  },
+  "work/r5_replay/compare/self/modin/sunnybiswas__eda-on-airline-dataset.json": {
+   "bytes": 6925,
+   "sha256": "888d1ed1486f6069fe0511bd2ee7bd63357eb0a20c88b1b59f5335b02232ed69"
+  },
+  "work/r5_replay/compare/self/modin/thirumani__biggboss-hindi-telugu-tamil-kannada-marathi-bangla.json": {
+   "bytes": 5993,
+   "sha256": "540218d0c58e11fb3fd17dcc6e6c94a96031330713229203728585a215ece230"
+  },
+  "work/r5_replay/compare/self/modin/trinath003__data-manipulation-visualisation-on-kaggle-datasets.json": {
+   "bytes": 5722,
+   "sha256": "58805f02f4ebe8dc5d57f7a28d69458fe6554858df869e65f81125fc7a37ebe0"
+  },
+  "work/r5_replay/compare/self/modin/viviktpharale__house-price-prediction-eda-linear-ridge-lasso.json": {
+   "bytes": 11773,
+   "sha256": "07dfa197e97b3d6dc000b4bdda82feb11838b10dfcaa17075b0d081efa0efe93"
+  },
+  "work/r5_replay/compare/self/modin/willkoehrsen__start-here-a-gentle-introduction.json": {
+   "bytes": 13492,
+   "sha256": "f35f7eb8ce1f7b8721ddcb73001c52b638762bffe17ff0c0c3c6ea80affcfe8b"
+  },
+  "work/r5_replay/compare/self/modin/wyl4417__machine-learning-and-how-it-affects-you.json": {
+   "bytes": 5583,
+   "sha256": "938d1cceda65ce69a89a597429f08ec88e0e2816ff80352b96c89c1e0f701f5a"
+  },
+  "work/r5_replay/compare/self/modin/xingobar__computer-science-data-visualization.json": {
+   "bytes": 3646,
+   "sha256": "83b694cf05ac074d98bb4aa7c9a1ec735af62946a52c69c4b8e7d96af86a49c6"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/akgauravin__gun-violence-data-exploration-and-plotting.json": {
+   "bytes": 7638,
+   "sha256": "d621f47336d8eb8ff56aed011fbb3dd5023bb308ed7e3a2ef78e1bafcc5880f6"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/akshaypetkar__supermarket-sales-analysis.json": {
+   "bytes": 7090,
+   "sha256": "82c03f48ea0db3cf75990063cba7c356cf91ff30f5a9c658f7ed102aa67c3930"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/bcannon__indexing-selecting-assigning.json": {
+   "bytes": 3890,
+   "sha256": "353c5e3020b6041364fb9226ffebc44a44992a084fd5de32bfca7b9a8829cb30"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/beratozmen__clash-of-clans-exploratory-data-analysis.json": {
+   "bytes": 4323,
+   "sha256": "7af47a1a458075d3370f3d890223939c55513e6fdc69c84c3570c62d33b27380"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/blaskowitz100__feature-engineering-based-on-the-suprise-me.json": {
+   "bytes": 6786,
+   "sha256": "cc36dc5e1c3dbfe541ae653764eec99e7b77e3448646f28368b74aec57496caa"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/carlmcbrideellis__simple-eda-of-kaggle-grandmasters-scheduled.json": {
+   "bytes": 5559,
+   "sha256": "3bef92b06635c6ecbe3a72adec2e04da67e0faea8ca1da8cba13fe232b7fc37b"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/chinstan__notebook249b4f3f5b.json": {
+   "bytes": 4112,
+   "sha256": "83abe907367f081db7f74c0f5ad15876c37d38362bf0d18e9a2e2113707482df"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/christophriley__intro-machine-learning.json": {
+   "bytes": 3311,
+   "sha256": "dd0d2a9494f50fd793028e0cd3d1001cd6f1fe16296b9426bcad323588873527"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/dbatao__kernel2f80fc9d78.json": {
+   "bytes": 10236,
+   "sha256": "a937f36e1cfe75a227545505af9637d3840cfd20fde8ee5876f07e7c996fe1ce"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/ersinsen__fraud-3-eda.json": {
+   "bytes": 9041,
+   "sha256": "4b77acf31f2f6a3d839d1c7914dfa1b706e89898b2d0b45e738c05872a0751ae"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/grudd0__mass-shooting-analysis.json": {
+   "bytes": 11389,
+   "sha256": "4925fd1d2e3ad3c29dc01523012e7141638abfb6858f4413757c35c0ffaf5382"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/jackwatson99__pima-indians-diabetes-rf-81.json": {
+   "bytes": 3292,
+   "sha256": "c1c446ece602efed4ba452347af784a6ef9df7d3f965140dabfa3e91ca30f544"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/jirakst__book-recommendation.json": {
+   "bytes": 16156,
+   "sha256": "becdcf74f8cfe91203b7f652fc7a4f072c03806fb890ddc0a032338c6989b5a7"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/kenjee__titanic-project-example.json": {
+   "bytes": 10260,
+   "sha256": "63bd9287e17a57af3db91f0ce3b6b1ca7b91885527cdda33c3f936d56a828101"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/kimtaehun__simple-preprocessing-for-time-series-prediction.json": {
+   "bytes": 4422,
+   "sha256": "0fe6733cc9d3ade7a06ddfcfc81c59d04d52feecd769065b19ea89bc89bccc23"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/kmader__analyzing-matches.json": {
+   "bytes": 5357,
+   "sha256": "a9efee82e77e4fce0513c182c23905abe4096f1a73f98892b586dafe865d2b3a"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/luizep__movieslens20m.json": {
+   "bytes": 7061,
+   "sha256": "815b614fa5da7eeb49ce3cf8c263ded789883b12138e01db41f8bab7f3c21a1d"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/maxiaoyue__data-cleaning-challenge-handling-missing-values.json": {
+   "bytes": 8698,
+   "sha256": "11c659c946db515ffd710294fbaccde42c85ade42df51603cf8c30a9e0725770"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/mikedelong__python-eda-with-kdes.json": {
+   "bytes": 2484,
+   "sha256": "f9a873250d35346371c266b87255ee48ebc9b03fe70b418e40c97ee20bf49b0c"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/nihhaar__etltransform.json": {
+   "bytes": 2970,
+   "sha256": "9eff647ff01244425e152ff92d5310295e1e877cefd8cd36440e62e8be89d6e7"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/paramarthasengupta__plotly-eda-top-movies-of-20th-century.json": {
+   "bytes": 8418,
+   "sha256": "b1cb2581d81469ed40292900da6b99b9a7f4c2e42934e88aca28820ae00a225a"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/penny8__my-sub1.json": {
+   "bytes": 6635,
+   "sha256": "2652f1d131b7814ec3b3ea89d50cbb3a065fa1d0ac1887b01c1be14438bb6bd2"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/pmr3508f20977e697__poverty-level-pmr3508-2018-f20977e697.json": {
+   "bytes": 14232,
+   "sha256": "12efcb3378204aa43a9cb5cf57c3f2868be6642e95136bdf5fac9b655f454107"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/pradeepjeya__allstate-encoding-high-cardinality-features.json": {
+   "bytes": 6555,
+   "sha256": "295a799032b42f198b02bb8229f4034175741be089be50e81bb782b0caba3138"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/sal001__beginner-s-note-top-12-by-single-linear-model.json": {
+   "bytes": 9582,
+   "sha256": "46273c674acf7ebcd3b4492f5af638052d80eedb9fdae819b7c042909b212c11"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/salmaneunus__student-s-performance-quantitative-visual-eda.json": {
+   "bytes": 8436,
+   "sha256": "5939d567714952b693bfd11862e9f89ec2831199ddbc42fcccb4240423e10f33"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/saniaks__melbourne-house-price-eda.json": {
+   "bytes": 6612,
+   "sha256": "96ff9073fda2a44d27dc0186fb68b4a85f9015f21fca4fd6088e5f3bc5511aa9"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/sanket30__eda-of-application-train-home-credit-default.json": {
+   "bytes": 8194,
+   "sha256": "73b49a0b2c895921354e2e1664072628e6256f82a85933d814bc7e07cf0a84bd"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/santhoshrao1995__assi01-santhosh-19101036.json": {
+   "bytes": 8294,
+   "sha256": "9b117eb52a757f0bee1b492ef29860e35e2cd176b22c2dc6ab60f9af32cda243"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/shivavashishtha__zomato-eda-tutorial.json": {
+   "bytes": 17384,
+   "sha256": "5f4edcdf95320396b7b1d7cc0a94cf8f03f3ecc32696b64534af52dcf92d6df3"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/shunjiangxu__blood-is-thicker-than-water-friendship-forever.json": {
+   "bytes": 5009,
+   "sha256": "384c5b377bc8d9afee82525461731b65706f19dc1c3e96b38dcada8317c023bc"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/sudheer259__house-price-prediction.json": {
+   "bytes": 35079,
+   "sha256": "94507063f6cef5be6b30daaf0f7f1393412c4c628cff57b13723f475214b2411"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/sunnybiswas__eda-on-airline-dataset.json": {
+   "bytes": 6307,
+   "sha256": "33673716f05a7ce2b15f2533e2cd694010f4a025df3d0e73e0290cb0cf875845"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/taylorhickem__singapore-building-energy.json": {
+   "bytes": 4992,
+   "sha256": "d7ebc6bfae71cdc3a769df7026d06dce67c02e83f188ce3afe4dab53e0de4401"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/tunguz__fathers-day-specials-just-the-features.json": {
+   "bytes": 13062,
+   "sha256": "2617a8f39f888d36361ef7cc3f9a263b639ba1567c1bbc21d037d8f56f03486b"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/vinothsuku__osic-pulmonary-fibrosis-simple-eda.json": {
+   "bytes": 3422,
+   "sha256": "53a62c2c2a3abc0e9b31679acadfc9a5d2e2a376743b0574f78480cdf10818b3"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/viviktpharale__house-price-prediction-eda-linear-ridge-lasso.json": {
+   "bytes": 11803,
+   "sha256": "230036af5a0bb45b4b98fcad771f099504578877d44c1bce9e060c67271bde66"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/willkoehrsen__start-here-a-gentle-introduction.json": {
+   "bytes": 13400,
+   "sha256": "1a4e96e91916ca97003ffaf0f641b8fc678dc9de6e3136156ddd155771002778"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/wyl4417__machine-learning-and-how-it-affects-you.json": {
+   "bytes": 7511,
+   "sha256": "10cb5e5c61f245128d28bf37ba63c5ed7b90ef2bb93b07242de7a3dd7704ce32"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/xingobar__computer-science-data-visualization.json": {
+   "bytes": 3636,
+   "sha256": "bf69b0aa1bf25a3f798aecab8a15391621d4b2562a1a090f1f8ad7ebcd225576"
+  },
+  "work/r5_replay/compare/self/pyarrow_backend/yonelanuba__elo-merchant-by-yonela.json": {
+   "bytes": 28293,
+   "sha256": "8a06483ee5c60d505a2eae104f193cc7fb935a73b5944c3fe9e609767cecf133"
+  },
+  "work/r5_replay/compare/serial/bodo_exactq/akshaypetkar__supermarket-sales-analysis.json": {
+   "bytes": 13941,
+   "sha256": "2a871dab48c131b3434d6a8c4b3c72bd1a7acd5b1ad6139f60ac96b8537a6156"
+  },
+  "work/r5_replay/compare/serial/bodo_exactq/carlmcbrideellis__simple-eda-of-kaggle-grandmasters-scheduled.json": {
+   "bytes": 11490,
+   "sha256": "8c33de6f936d5598e52eaadebc1d9acd47d283a7374fb45e94a9a91153483580"
+  },
+  "work/r5_replay/compare/serial/bodo_exactq/corazzon__how-to-use-pandas-filter-in-survey-eda.json": {
+   "bytes": 30011,
+   "sha256": "36fd58a8e784645f9b3f7225f1adce2f64f7c4568c579e6146b2a84a196703c6"
+  },
+  "work/r5_replay/compare/serial/bodo_exactq/deffro__eda-is-fun.json": {
+   "bytes": 17068,
+   "sha256": "d9c3771b6d46becf8f1a51886c544ac1c8319527652fbdf24598c86690b47fda"
+  },
+  "work/r5_replay/compare/serial/bodo_exactq/gmanish__help-ngo-country-clustering.json": {
+   "bytes": 18214,
+   "sha256": "35f9a68bca292dcb4f994f6767b634b3e0ee6f04151c09afb12029ba11bfcc56"
+  },
+  "work/r5_replay/compare/serial/bodo_exactq/kanncaa1__dataiteam-titanic-eda.json": {
+   "bytes": 32227,
+   "sha256": "223b8ff54a3becae44abae019f2f38de4b0573e3cbffa154f60149c5ed088927"
+  },
+  "work/r5_replay/compare/serial/bodo_exactq/mahtieu__nyc-taxi-fare-prediction-data-expl-xgboost.json": {
+   "bytes": 7971,
+   "sha256": "551c81867f9bd7ededeb04e4beded153c57e45fe66560205f4af6bc68b9d4520"
+  },
+  "work/r5_replay/compare/serial/bodo_exactq/paramarthasengupta__plotly-eda-top-movies-of-20th-century.json": {
+   "bytes": 13450,
+   "sha256": "cba4403a6834673d1709c40beda5d2cc11defb405c6253c26b929b2c6ad51085"
+  },
+  "work/r5_replay/compare/serial/bodo_exactq/yonelanuba__elo-merchant-by-yonela.json": {
+   "bytes": 60827,
+   "sha256": "f94b2a87e52b1b1101eb0825eaad94fcfd5d7f499f91a853c6074e083363cb72"
+  },
+  "work/r5_replay/compare/serial/dask_serial/blaskowitz100__feature-engineering-based-on-the-suprise-me.json": {
+   "bytes": 10804,
+   "sha256": "03012880d8e007ab1c0d42c1165877419fd2d3b0f1bc7fc9fc11513a2e4cf458"
+  },
+  "work/r5_replay/compare/serial/dask_serial/brianmendieta__data-cleaning-plus-eda.json": {
+   "bytes": 27428,
+   "sha256": "b066024463607e12b7f3c36cb4985447f9633eb95381e38ccb1feb7de653a481"
+  },
+  "work/r5_replay/compare/serial/dask_serial/corazzon__how-to-use-pandas-filter-in-survey-eda.json": {
+   "bytes": 30593,
+   "sha256": "883238316e6af36b04063f25962055dbee871cc14cf7be570ee28f5a4f63f3ee"
+  },
+  "work/r5_replay/compare/serial/dask_serial/deffro__eda-is-fun.json": {
+   "bytes": 12923,
+   "sha256": "5086eb940510f3093e068e1b92ce3b3305e62ecdf07617399255658e5dc5d60a"
+  },
+  "work/r5_replay/compare/serial/dask_serial/gmanish__help-ngo-country-clustering.json": {
+   "bytes": 16948,
+   "sha256": "1ff9396c68da978095daaf43038bdd877bd6ed8818d808d7988420c12f379fec"
+  },
+  "work/r5_replay/compare/serial/dask_serial/jackwatson99__pima-indians-diabetes-rf-81.json": {
+   "bytes": 4017,
+   "sha256": "b1ffdd041129cdaa5707711fdfc843754a7a6f4514aec1d02cc047a5eb3fe552"
+  },
+  "work/r5_replay/compare/serial/dask_serial/jirakst__book-recommendation.json": {
+   "bytes": 39733,
+   "sha256": "14e0b009baad0ca9d30899394c3c80c74fe9b9013b59f1bc1de2a19760340e57"
+  },
+  "work/r5_replay/compare/serial/dask_serial/jyotsananegi__melbourne-housing-snapshot-eda.json": {
+   "bytes": 10049,
+   "sha256": "9edeefce62779c8f9a3633eaf1473725ca85e1f604a79b0e21e177f17a4a6d9b"
+  },
+  "work/r5_replay/compare/serial/dask_serial/luckygemini__notebook5d5fc80c9f.json": {
+   "bytes": 3825,
+   "sha256": "e62041c57b9ad410e2df9d01dabb2af5a58f415b8d430ba2054e091ba77df9ac"
+  },
+  "work/r5_replay/compare/serial/dask_serial/madseth__customer-shopping-trends-dataset-eda.json": {
+   "bytes": 10085,
+   "sha256": "163d2d3eeec6a5e9db48248156e411ecabb08a09cf928e96a147e5f9d4f8a59b"
+  },
+  "work/r5_replay/compare/serial/dask_serial/mathewvondersaar__analysis-of-student-performance.json": {
+   "bytes": 6270,
+   "sha256": "579394a23377c91efd9d5035399e0b4f8eba751fe04ddbf3b0989bf4e6c17b25"
+  },
+  "work/r5_replay/compare/serial/dask_serial/nihhaar__etltransform.json": {
+   "bytes": 4813,
+   "sha256": "13d6c16f8ff107dcbebf8f52d08baa8e4e068ba9a50527892345bfeffb22b34b"
+  },
+  "work/r5_replay/compare/serial/dask_serial/roopahegde__cryptocurrency-price-correlation.json": {
+   "bytes": 13190,
+   "sha256": "0708b6add00d1e8fee8b0376a6b967d5aea2709257e0d0f2695be348a93161c8"
+  },
+  "work/r5_replay/compare/serial/dask_serial/salmaneunus__student-s-performance-quantitative-visual-eda.json": {
+   "bytes": 13593,
+   "sha256": "c88bbb80ba3548f9a950434f66d3fea3b9ee52ba8b87b55d4d5bd40253e05ad1"
+  },
+  "work/r5_replay/compare/serial/dask_serial/stefanjov__my-first-normalize-on-big-dataset.json": {
+   "bytes": 6477,
+   "sha256": "a717d6003750c6723744dc562e43590fc310a5674d63fcab332f3a9127f6a635"
+  },
+  "work/r5_replay/compare/serial/dask_serial/yashjaiswal1097__911-emergency-calls-kernel.json": {
+   "bytes": 10490,
+   "sha256": "45b705156c198377d2978f136493c7923ccf05324bff4cd8c7725225d30ce9ef"
+  },
+  "work/r5_replay/compare/serial/dask_serial/yonelanuba__elo-merchant-by-yonela.json": {
+   "bytes": 55374,
+   "sha256": "2810cb460c1dd805359c2d56b0c026f1fa10c94ec52382477dac4dfcabd63a6b"
+  },
+  "work/r5_replay/compare/serial/fireducks_1t/akshaypetkar__supermarket-sales-analysis.json": {
+   "bytes": 11078,
+   "sha256": "15d9b6fcb7c01de70b96b2845f4fde051879a411f3b453a801c0aa2000379717"
+  },
+  "work/r5_replay/compare/serial/fireducks_1t/blaskowitz100__feature-engineering-based-on-the-suprise-me.json": {
+   "bytes": 12340,
+   "sha256": "89cb8b384db70ec3c8ecfa145023a5d6a5e597faec03e609aed799b60da1277a"
+  },
+  "work/r5_replay/compare/serial/fireducks_1t/guyalmog__hr-analytics-predicting-employees-attrition.json": {
+   "bytes": 27355,
+   "sha256": "b4ea058a76ae42c7ffb15798a9369eae82aad27e93e0e93f0405413d15c463c2"
+  },
+  "work/r5_replay/compare/serial/fireducks_1t/loveall__favorita-analytics.json": {
+   "bytes": 11518,
+   "sha256": "48ee3e39735c9527e6f10ab76d5c6204d8424bc246d7e2f44dc60223108796d7"
+  },
+  "work/r5_replay/compare/serial/fireducks_1t/maxiaoyue__data-cleaning-challenge-handling-missing-values.json": {
+   "bytes": 16193,
+   "sha256": "fd06cab54c6627f71e62cfcc75f45397572aa8395e4a1ea6a1e1badb7586f284"
+  },
+  "work/r5_replay/compare/serial/fireducks_1t/nadare__feature-engenieering-with-pivot-table.json": {
+   "bytes": 9955,
+   "sha256": "dc8b508f09e9bfd494f55f46a7ffe8708605dfca14067304e4ccdf3af0499328"
+  },
+  "work/r5_replay/compare/serial/fireducks_1t/nihhaar__etltransform.json": {
+   "bytes": 3675,
+   "sha256": "4ceaa241bc71e6d4600221d773d461e2b272da3e92cfa812e42a6dfaa484366e"
+  },
+  "work/r5_replay/compare/serial/fireducks_1t/paramarthasengupta__plotly-eda-top-movies-of-20th-century.json": {
+   "bytes": 15719,
+   "sha256": "d4e0be51090726b545cf7512c5c43a975ffe2e46acc63424200ee5d6fe39e259"
+  },
+  "work/r5_replay/compare/serial/fireducks_1t/sunnybiswas__eda-on-airline-dataset.json": {
+   "bytes": 7963,
+   "sha256": "f0187ea61b8e70aeada4e03bae0af97ebcc4e65a1589ad857779c9dd90159ecd"
+  },
+  "work/r5_replay/compare/serial/fireducks_1t/yonelanuba__elo-merchant-by-yonela.json": {
+   "bytes": 51290,
+   "sha256": "e7ef4ad95cb789dbdcb490267a77503b94a757bdf404259138e84e2e7a792555"
+  },
+  "work/r5_replay/compare/serial/modin_serial/brianmendieta__data-cleaning-plus-eda.json": {
+   "bytes": 17564,
+   "sha256": "3f5ca4547ea565e951cf7bd2c2dca04126d8a127074dd908e7818ff7730148c7"
+  },
+  "work/r5_replay/compare/serial/modin_serial/charulatashelar__indian-startup-funding-exploratory-data-analysis.json": {
+   "bytes": 12009,
+   "sha256": "2305df9c782ca109e457da901e917b5208c78481ba3014154a44500d1e95f1af"
+  },
+  "work/r5_replay/compare/serial/modin_serial/chinstan__notebook249b4f3f5b.json": {
+   "bytes": 4225,
+   "sha256": "33fba7d647f483c0a0e43fd9e14739ccb54fddd87716f9b597a89b6386875ce8"
+  },
+  "work/r5_replay/compare/serial/modin_serial/christophriley__intro-machine-learning.json": {
+   "bytes": 3925,
+   "sha256": "57894ce43794ac4a4b3f46c33c59403100ef404e2b8d36ed04cc84680e5ba276"
+  },
+  "work/r5_replay/compare/serial/modin_serial/danielresende__game-of-thrones-battles.json": {
+   "bytes": 2906,
+   "sha256": "16c9a307d204867c6141325d01cb4555068dd67b2101aba58c820ecf00bf3aa5"
+  },
+  "work/r5_replay/compare/serial/modin_serial/dbatao__kernel2f80fc9d78.json": {
+   "bytes": 14882,
+   "sha256": "835420a44b567e3af0a5441cce6303ba8291eb7dc744f2099185cd798d537b56"
+  },
+  "work/r5_replay/compare/serial/modin_serial/deffro__eda-is-fun.json": {
+   "bytes": 8603,
+   "sha256": "6a2c5ecb40285c2c37b7f651eaa6232a22a3aa6399c9d17bca5596c1d0608d80"
+  },
+  "work/r5_replay/compare/serial/modin_serial/ersinsen__fraud-3-eda.json": {
+   "bytes": 9875,
+   "sha256": "113d42ee7b5cd42df6621b84047aef7439ff62a32444529101c23f9821514e4c"
+  },
+  "work/r5_replay/compare/serial/modin_serial/grudd0__mass-shooting-analysis.json": {
+   "bytes": 16802,
+   "sha256": "18c8a20e1da0e044d397eec70ec54ca7392c4080f4eccd009c46f50e142d300c"
+  },
+  "work/r5_replay/compare/serial/modin_serial/gsilves__quiz-4-question-1.json": {
+   "bytes": 3083,
+   "sha256": "cecc44dcf00aa915018e84a1ad73fa6dbe3c6cb9c0169f4959f0e9024217327f"
+  },
+  "work/r5_replay/compare/serial/modin_serial/guyalmog__hr-analytics-predicting-employees-attrition.json": {
+   "bytes": 22853,
+   "sha256": "78f796810c8c1d02be34ba35b86a9d3f44ddb2b79518f0a219efb6aed092cb8a"
+  },
+  "work/r5_replay/compare/serial/modin_serial/jagangupta__stop-the-s-toxic-comments-eda.json": {
+   "bytes": 14262,
+   "sha256": "c98eb73f5ed7337994dd33ed16d55c7e092873a4a4f15e6ee6f86c66320627da"
+  },
+  "work/r5_replay/compare/serial/modin_serial/jirakst__book-recommendation.json": {
+   "bytes": 21952,
+   "sha256": "560121029aca97b3c36b1f00a69720cf0a44a8f7bea3ed8cbf16fe19b6c8814a"
+  },
+  "work/r5_replay/compare/serial/modin_serial/kenjee__titanic-project-example.json": {
+   "bytes": 11037,
+   "sha256": "432a0de8a7043e4f500d42bafb27a6614aacd81fa3c6c2888a0436a1ce6fefe4"
+  },
+  "work/r5_replay/compare/serial/modin_serial/kmader__analyzing-matches.json": {
+   "bytes": 5783,
+   "sha256": "204f708f8dd1c0d741268d929dfa368f4dae463bc63a62e8982c6eaeee16246b"
+  },
+  "work/r5_replay/compare/serial/modin_serial/kwullum__when-do-traffic-related-deaths-occur.json": {
+   "bytes": 3868,
+   "sha256": "efcff18f34166fa39864fa469bf4ac1c974a4f07cdbca52e9ccb7d6d7ab45a1a"
+  },
+  "work/r5_replay/compare/serial/modin_serial/maxiaoyue__data-cleaning-challenge-handling-missing-values.json": {
+   "bytes": 9231,
+   "sha256": "8f7b6eda2e7ecce823917a9e96189edffcc586e9e55788ad3743bbb0241a3069"
+  },
+  "work/r5_replay/compare/serial/modin_serial/nihhaar__etltransform.json": {
+   "bytes": 3150,
+   "sha256": "3601b3558470fb507150d89d4e1fe5941196c4912260066302a11918b51f714b"
+  },
+  "work/r5_replay/compare/serial/modin_serial/qnqfbqfqo__electric-vehicle-landscape-in-washington-state.json": {
+   "bytes": 2961,
+   "sha256": "ff307f723a4da8615ca7ce5c1ed926be9aa6bcfa6fc9616544b01193edd32103"
+  },
+  "work/r5_replay/compare/serial/modin_serial/sabya40__data-cleaning-and-pandas-for-beginners.json": {
+   "bytes": 6375,
+   "sha256": "b3591b81d9fa89ede8c5b1f3507442ac44c68aecd93f5e1b9599fa9ced3fa0a3"
+  },
+  "work/r5_replay/compare/serial/modin_serial/saniaks__melbourne-house-price-eda.json": {
+   "bytes": 7595,
+   "sha256": "cfe2e404e3822aa566256970962ab5f404eafcc4d6cdcb398d6c21c137732260"
+  },
+  "work/r5_replay/compare/serial/modin_serial/santhoshrao1995__assi01-santhosh-19101036.json": {
+   "bytes": 9888,
+   "sha256": "ecb6cec54281bbebef63e770974fde89829518332ec8a1b88bdd4fabf30bdd7d"
+  },
+  "work/r5_replay/compare/serial/modin_serial/shivavashishtha__zomato-eda-tutorial.json": {
+   "bytes": 21314,
+   "sha256": "466d21c95002bf9fbed9ddcf316fd8688e9c2cb77f414d2f5a9949b6ae434741"
+  },
+  "work/r5_replay/compare/serial/modin_serial/sunnybiswas__eda-on-airline-dataset.json": {
+   "bytes": 7334,
+   "sha256": "79c05320b375c9c27e54c5721d54bafb4b67512e472434701c73c582526be000"
+  },
+  "work/r5_replay/compare/serial/modin_serial/thirumani__biggboss-hindi-telugu-tamil-kannada-marathi-bangla.json": {
+   "bytes": 6240,
+   "sha256": "5a82898dd025a5191f94f0a57a5f25fdeb2ed2d6e125e0447f09c1fbc17a830d"
+  },
+  "work/r5_replay/compare/serial/modin_serial/trinath003__data-manipulation-visualisation-on-kaggle-datasets.json": {
+   "bytes": 6931,
+   "sha256": "380ed0e6314ea929162ead6eeb2ebf7872bc9b14cc5f6eed3ccf1551c7d702b7"
+  },
+  "work/r5_replay/compare/serial/modin_serial/viviktpharale__house-price-prediction-eda-linear-ridge-lasso.json": {
+   "bytes": 12356,
+   "sha256": "93a6d54756e34e618c8107200bcfe044b01f994f25c9e9558ee749e014098735"
+  },
+  "work/r5_replay/compare/serial/modin_serial/willkoehrsen__start-here-a-gentle-introduction.json": {
+   "bytes": 14992,
+   "sha256": "9675ac93a54e8837c954db2b83e4c3a4576c8b0480b8f0b2514c0c5700c38a3c"
+  },
+  "work/r5_replay/compare/serial/modin_serial/wyl4417__machine-learning-and-how-it-affects-you.json": {
+   "bytes": 10567,
+   "sha256": "50a1f7fd7aba0d6b79ad1d8a3c9defe1135ee89d9e13b453004a00127d04be02"
+  },
+  "work/r5_replay/compare/serial/modin_serial/xingobar__computer-science-data-visualization.json": {
+   "bytes": 3766,
+   "sha256": "6b89fde4c80570a153a8175abd570214f819ea7ed830fdb4b3a35100c54ac15b"
+  },
+  "work/r5_replay/compare/serial/modin_serial/yonelanuba__elo-merchant-by-yonela.json": {
+   "bytes": 34284,
+   "sha256": "e0a36115a2cbe6c4572585f0f724ff97d45e322f420c78a19387e2e70abc5fc8"
+  },
+  "work/r5_replay/compare/serial/modin_serial/yuliagm__talkingdata-eda-plus-time-patterns.json": {
+   "bytes": 9694,
+   "sha256": "c589b8fa4195c81ce3b704000bc8c9ff14dfa499d9a1f2a08869bb8a672d4a9e"
+  },
+  "work/r5_replay/compare/serial/pyarrow_1t/carlmcbrideellis__simple-eda-of-kaggle-grandmasters-scheduled.json": {
+   "bytes": 12190,
+   "sha256": "669afc82688c436438f9563d250639823849c3b6a820f00cb746dc49359b5bc2"
+  },
+  "work/r5_replay/compare/serial/pyarrow_1t/maxiaoyue__data-cleaning-challenge-handling-missing-values.json": {
+   "bytes": 18016,
+   "sha256": "d8515beac7f952d383fda600d02dfe30e58d16befbf5f30a9a3bc33a7869c03d"
+  },
+  "work/r5_replay/compare/serial/pyarrow_1t/paramarthasengupta__plotly-eda-top-movies-of-20th-century.json": {
+   "bytes": 18606,
+   "sha256": "d1034ff781d2480743a3a783acecd82fdb48ec4c2fd99ffb100cf55393ce5827"
+  },
+  "work/r5_replay/compare/serial/pyarrow_1t/sunnybiswas__eda-on-airline-dataset.json": {
+   "bytes": 12696,
+   "sha256": "95ad6add979602d08c5bd0af69b6a0e3d4829754e697561c0ad4095d0cc923d8"
+  },
+  "work/r5_replay/compare/vsref/bodo/deffro__eda-is-fun.json": {
+   "bytes": 17084,
+   "sha256": "d5938c375b93d3263a220fb076617e0d7b9a04b7ec78e8e76d741242182031ac"
+  },
+  "work/r5_replay/compare/vsref/bodo/tunguz__fathers-day-specials-just-the-features.json": {
+   "bytes": 17575,
+   "sha256": "9e7a7cbc0f60ee6d6cdca7ae7b965469238b1632ccb229db43f24997b93c937f"
+  },
+  "work/r5_replay/compare/vsref/dask/blaskowitz100__feature-engineering-based-on-the-suprise-me.json": {
+   "bytes": 10793,
+   "sha256": "d864eda415cef6fc3e75c86f9a90547a7bfb8a61ab8288a305d68c8a33684d54"
+  },
+  "work/r5_replay/compare/vsref/dask/brianmendieta__data-cleaning-plus-eda.json": {
+   "bytes": 27418,
+   "sha256": "da0b42ad4d33afc6f28a4ca21cd666e85bd8205960646529b69b896286792dc9"
+  },
+  "work/r5_replay/compare/vsref/dask/corazzon__how-to-use-pandas-filter-in-survey-eda.json": {
+   "bytes": 30577,
+   "sha256": "b0b19553cdf7130e74afb03767b7fba621ca4bf6395466576e5af615526584b2"
+  },
+  "work/r5_replay/compare/vsref/dask/gmanish__help-ngo-country-clustering.json": {
+   "bytes": 16931,
+   "sha256": "ac8ac3c2c0b34edb2c3a0da58c43ab9f964745525069d1c0407670a2837c3e81"
+  },
+  "work/r5_replay/compare/vsref/dask/gsilves__quiz-4-question-1.json": {
+   "bytes": 7106,
+   "sha256": "9e0ba940cccab71b13b431f061bc3f8590de5fba8e649943c0b9b288a7a452e4"
+  },
+  "work/r5_replay/compare/vsref/dask/jackwatson99__pima-indians-diabetes-rf-81.json": {
+   "bytes": 3993,
+   "sha256": "8c5c8505fef1686ad13ee7ce57c3f789bfa15f9a484b24c63448446468777ac6"
+  },
+  "work/r5_replay/compare/vsref/dask/jirakst__book-recommendation.json": {
+   "bytes": 39722,
+   "sha256": "216bf1b35289c9527ec05f6e1b79c80e6a2be048b816da0662281e8bce38337b"
+  },
+  "work/r5_replay/compare/vsref/dask/jyotsananegi__melbourne-housing-snapshot-eda.json": {
+   "bytes": 10038,
+   "sha256": "04217e4bb5926a6b34cc66ea7cf5aef875690ccbe565fad18c6c828433f3d015"
+  },
+  "work/r5_replay/compare/vsref/dask/luckygemini__notebook5d5fc80c9f.json": {
+   "bytes": 3814,
+   "sha256": "266680cc998f5f058657a2f6dd528b18792787f09d41d1edaf70f5e26bd4bdef"
+  },
+  "work/r5_replay/compare/vsref/dask/madseth__customer-shopping-trends-dataset-eda.json": {
+   "bytes": 10075,
+   "sha256": "2265f14e9a0dd27720f61586b5c65a52c00b0f69c8c343a7f8b4e707ea5928ec"
+  },
+  "work/r5_replay/compare/vsref/dask/mathewvondersaar__analysis-of-student-performance.json": {
+   "bytes": 6260,
+   "sha256": "f316146af616a78fb4eb86a2c14e17e8e4d835063165265e59b1d7bc69d0a666"
+  },
+  "work/r5_replay/compare/vsref/dask/nihhaar__etltransform.json": {
+   "bytes": 4790,
+   "sha256": "41ad52300d9c6bb5a931c135d618e474059b17b1806dc842221f357617327015"
+  },
+  "work/r5_replay/compare/vsref/dask/roopahegde__cryptocurrency-price-correlation.json": {
+   "bytes": 13179,
+   "sha256": "7ce59ab236a663713f9d81939aad483da41ef679ecec5460ced82d02bf6e78ba"
+  },
+  "work/r5_replay/compare/vsref/dask/salmaneunus__student-s-performance-quantitative-visual-eda.json": {
+   "bytes": 13582,
+   "sha256": "93e9a117b4e0b5e399c7b2e073b5ce4b63b8a782104963812ae37c067b0fe2b8"
+  },
+  "work/r5_replay/compare/vsref/dask/stefanjov__my-first-normalize-on-big-dataset.json": {
+   "bytes": 6466,
+   "sha256": "767eee8e5cda98952bc355b89eb5b15ddfce424ca764d489fa4cc67badb49e84"
+  },
+  "work/r5_replay/compare/vsref/dask/willkoehrsen__start-here-a-gentle-introduction.json": {
+   "bytes": 26766,
+   "sha256": "46a7f0aa21216c602edf774bcf39861e8da999f5a53495fdc0111dfeb26d1987"
+  },
+  "work/r5_replay/compare/vsref/dask/yonelanuba__elo-merchant-by-yonela.json": {
+   "bytes": 56519,
+   "sha256": "752b758f581ac20668124af4f6650a8c6b4d25c6eb5026a2c1aeb6c910690ecb"
+  },
+  "work/r5_replay/compare/vsref/fireducks/blaskowitz100__feature-engineering-based-on-the-suprise-me.json": {
+   "bytes": 12973,
+   "sha256": "a198b3307227dde5535ce57bc1fc41461af5b26fab09a4bdcf57103d7c5a82ea"
+  },
+  "work/r5_replay/compare/vsref/fireducks/kmader__analyzing-matches.json": {
+   "bytes": 9065,
+   "sha256": "52022183682104fc07c1b47975562da80a3a1c83ec0d3ce588df21f8cb45cafa"
+  },
+  "work/r5_replay/compare/vsref/fireducks/loveall__favorita-analytics.json": {
+   "bytes": 11784,
+   "sha256": "732e7f386ac67472146a27d448cccb07ae7e39ea4e65652fba0e71f33ba56aea"
+  },
+  "work/r5_replay/compare/vsref/fireducks/nandhuelan__ott-platforms.json": {
+   "bytes": 7509,
+   "sha256": "2c8240918741652bc3cc3c5ed043f5f0f9e3b880b170d45e9098f1be290b2637"
+  },
+  "work/r5_replay/compare/vsref/fireducks/paramarthasengupta__plotly-eda-top-movies-of-20th-century.json": {
+   "bytes": 15716,
+   "sha256": "2c36277ec615b82761bad790e8ba0e054272fba9d669d563f49c3484a411a4d0"
+  },
+  "work/r5_replay/compare/vsref/fireducks/tanulsingh077__twitter-sentiment-extaction-analysis-eda-and-model.json": {
+   "bytes": 23191,
+   "sha256": "4e8d4b0de66752d525b550e8051efe18a5bfcb5c47f84e1cd21e06673f24286b"
+  },
+  "work/r5_replay/compare/vsref/fireducks/willkoehrsen__start-here-a-gentle-introduction.json": {
+   "bytes": 25552,
+   "sha256": "1383ed13b77316d4cd3f5f8fe61528645095e69d58f7ffe14bfc9b834e94abd4"
+  },
+  "work/r5_replay/compare/vsref/fireducks/yuliagm__talkingdata-eda-plus-time-patterns.json": {
+   "bytes": 13913,
+   "sha256": "bea9e11e3bf74ae8ab0b9105ce4cc3a552e6c119d27c3b31f548158729b7d1b1"
+  },
+  "work/r5_replay/compare/vsref/modin/artgor__eda-and-models.json": {
+   "bytes": 12303,
+   "sha256": "b3563cf867031ceafc0b68cac9e375a113160ad3b0f8dbe15e904d2ae197b2cf"
+  },
+  "work/r5_replay/compare/vsref/modin/brianmendieta__data-cleaning-plus-eda.json": {
+   "bytes": 17516,
+   "sha256": "12850aef24a24c6bf4412b664c205ab84ac1dd22a3f282f80cc62dadabc90743"
+  },
+  "work/r5_replay/compare/vsref/modin/charulatashelar__indian-startup-funding-exploratory-data-analysis.json": {
+   "bytes": 13078,
+   "sha256": "7e9c177fbfdc333dbc646d968a7fec3af2e07f0f135b87802cfc653304e232b8"
+  },
+  "work/r5_replay/compare/vsref/modin/deffro__eda-is-fun.json": {
+   "bytes": 9058,
+   "sha256": "e98378cd2da03122d494c079bd83a90e535eac837d02cef7f1ac7f1671f5c3c7"
+  },
+  "work/r5_replay/compare/vsref/modin/grudd0__mass-shooting-analysis.json": {
+   "bytes": 20967,
+   "sha256": "5cb29d0d653bc56e70e8dde467848241a7d118df153e87e776f4e80136b0315e"
+  },
+  "work/r5_replay/compare/vsref/modin/j0thu777__onlineretailanalysis.json": {
+   "bytes": 8258,
+   "sha256": "f63abe764a08b2096d18e5bf0191b6398a46e07a5a1c94405b28289cf793eff9"
+  },
+  "work/r5_replay/compare/vsref/modin/kmader__analyzing-matches.json": {
+   "bytes": 7257,
+   "sha256": "6cebbfbed5fa1a65145026974c72f5bb1156026f2988dcacbab721ee658cc651"
+  },
+  "work/r5_replay/compare/vsref/modin/santhoshrao1995__assi01-santhosh-19101036.json": {
+   "bytes": 14146,
+   "sha256": "d80b91581b08c5b43bb4917a6f7ffb7da0c95c5e770c43c1a44405f50daa3e0f"
+  },
+  "work/r5_replay/compare/vsref/modin/shivavashishtha__zomato-eda-tutorial.json": {
+   "bytes": 23183,
+   "sha256": "d136fa98fc3dc586dbbb9ee9b01e78c5c08c9612d181b217cd21c85658ef736e"
+  },
+  "work/r5_replay/compare/vsref/modin/sunnybiswas__eda-on-airline-dataset.json": {
+   "bytes": 7419,
+   "sha256": "ac47ad64a2d9475c94c3a3e1f68e5f2cfaf930e4d3b4ca1b7daaae48f02d031e"
+  },
+  "work/r5_replay/compare/vsref/modin/trinath003__data-manipulation-visualisation-on-kaggle-datasets.json": {
+   "bytes": 6995,
+   "sha256": "b075f64bd05fb37d6ad9305cb2e822d265bd32d87adec74303e49f728f98f920"
+  },
+  "work/r5_replay/compare/vsref/modin/wyl4417__machine-learning-and-how-it-affects-you.json": {
+   "bytes": 10109,
+   "sha256": "320059fdd49af9f59e61a45a8d5d977b617d8b236e032aeb9508d0187206a0c9"
+  },
+  "work/r5_replay/compare/vsref/pyarrow_backend/tunguz__fathers-day-specials-just-the-features.json": {
+   "bytes": 19812,
+   "sha256": "616887fd3b35f6f608473320a0808f50712029d091beef793111e69cdaac6393"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/akgauravin__gun-violence-data-exploration-and-plotting__667b8ce50e19.json": {
+   "bytes": 81903,
+   "sha256": "89644b72efba093b8de7f8f9efabf374f77b1292315ac9cd6b297bc608515703"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/akshaypetkar__supermarket-sales-analysis__4c36b27a41b9.json": {
+   "bytes": 64635,
+   "sha256": "93fc7125706c96786eafa45e496334dda5039c4701adea98cfc5fab0ae426961"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/ayushsingh5941__tweet-disaster-or-not__fbfae0b9fb2c.json": {
+   "bytes": 34268,
+   "sha256": "c694c08b788165483a38847839b2639361e67e68ba67b7bc0275ca71dfd1e1aa"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/balajivenkat96__solar-plants__ff07f81b6151.json": {
+   "bytes": 80270,
+   "sha256": "a1092799c73117cb94ecaa5a605e7164eec9c7373f1eade04556562920f437f3"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/bcannon__indexing-selecting-assigning__c06b8a816789.json": {
+   "bytes": 37486,
+   "sha256": "87a78ff6105776521bfb2568c1b6e199249a46baa419c95aa8efeced297cf138"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/beratozmen__clash-of-clans-exploratory-data-analysis__d077d84aa8ec.json": {
+   "bytes": 42050,
+   "sha256": "e3bd06be7265f6f032b435e0faf39b9e013bdf82ffe68654704cac520450922f"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/blaskowitz100__feature-engineering-based-on-the-suprise-me__38bb3fb7cd34.json": {
+   "bytes": 84627,
+   "sha256": "469204e884f831f09998b905b0480a9b1f7716739e98caa1112e042b89e0d646"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/brianmendieta__data-cleaning-plus-eda__a80a46954446.json": {
+   "bytes": 264170,
+   "sha256": "121b7dbacd374de46aa13fdaf9ef8687077d3b3572c5dab029f998b4d35088fd"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/carlmcbrideellis__simple-eda-of-kaggle-grandmasters-scheduled__fac6140b1d0e.json": {
+   "bytes": 94500,
+   "sha256": "9afbf62ee583e986cf33f5354720e52d673875866f49253d548fce6d89ba05a9"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__fdd737257202.json": {
+   "bytes": 469078,
+   "sha256": "56e6564efd515b0e728b9d72e3fc30e8534210be72c5f22fc1f65acaf0b62c48"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/deffro__eda-is-fun__2e5ef1e211d0.json": {
+   "bytes": 187338,
+   "sha256": "fdee7e05d09bd8a79b1d3c72d8d063b1ecfce27471a6c341f0d8c85fe4e7f0ab"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/ersinsen__fraud-3-eda__25ed6fc4b4f0.json": {
+   "bytes": 463122,
+   "sha256": "0ccdfba7d580ec22d76b0752f43d1f083972b7af77f8caea198d53253ea981dd"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/gmanish__help-ngo-country-clustering__c6b89a6e54a3.json": {
+   "bytes": 64964,
+   "sha256": "57d09d59e224e1e46d330ed108608791ebc6f2814ee4e81e7c2f301647cbe7fa"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/grudd0__mass-shooting-analysis__ac4f8a7a67cf.json": {
+   "bytes": 112860,
+   "sha256": "8390126eb04f2536bf0cdfab9978567d5cae651c709178f451c939da1a61e54b"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/guyalmog__hr-analytics-predicting-employees-attrition__9ca2003b362a.json": {
+   "bytes": 668287,
+   "sha256": "b10be268b0753865f9b9974f401e667abd96d490cdb9e5b05174ba78bdb0e021"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/jackwatson99__pima-indians-diabetes-rf-81__025fc27212e4.json": {
+   "bytes": 25367,
+   "sha256": "885002edca2afa8fbf95b286455dc63ad8f21e18e451703caa1bd040156c58bd"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/jagangupta__stop-the-s-toxic-comments-eda__b301389392e5.json": {
+   "bytes": 71467,
+   "sha256": "6ff69984fd797732014bc74a5afb4730cfa4f5d920fadf14775d53e4214a679c"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/julieberteaux__workshop-2__76460b4b1f98.json": {
+   "bytes": 83265,
+   "sha256": "550bababdc6019d3f0eb4a68c8bdb96d752ef7853748213bd9359d6daa17718b"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/kanncaa1__dataiteam-titanic-eda__b708737dc550.json": {
+   "bytes": 319287,
+   "sha256": "e9e85f3b25d487a0a666c96bad6b7e5b4c7bd301fc6d10d1defbdc8317b126b1"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/kenjee__titanic-project-example__b099e32cfa29.json": {
+   "bytes": 78320,
+   "sha256": "bcf684acc2cc4e8dc42e3e7ef10f5725fa5b87b9dc7dac286b1e63e369bc8122"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/kwullum__when-do-traffic-related-deaths-occur__4ffbbffc3264.json": {
+   "bytes": 41624,
+   "sha256": "fbb2de0d4fb996649ccdf57bd309bb58d896ef459c44cf0a4cbd018faac6bb3f"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/luizep__movieslens20m__194b83388267.json": {
+   "bytes": 27925,
+   "sha256": "c6fc0506062e8cdf8d1a18165ac9b489fc7afab6db15ad064427397b47554ef5"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/mahtieu__nyc-taxi-fare-prediction-data-expl-xgboost__c8c94f004d35.json": {
+   "bytes": 43701,
+   "sha256": "e13c50036a8fc41d806e4fdf8fa1f5aba784e2fcbb4611fd47b9f4a69a198de6"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/mathewvondersaar__analysis-of-student-performance__e0aa48417d0f.json": {
+   "bytes": 60797,
+   "sha256": "9cb995cbfeecb2c08063871c196df1cf4f515a1a2024fe0762fd40fa5dcccc33"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/nihhaar__etltransform__63ed9b267989.json": {
+   "bytes": 17453,
+   "sha256": "17aa81447c028f4b37432ee59fcd16c89c9b26be1a20a46007af35ead07cfdc8"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/paramarthasengupta__plotly-eda-top-movies-of-20th-century__ad0940fe0909.json": {
+   "bytes": 51778,
+   "sha256": "bf5f60512ee6f3e9f982a9f4ba1e912cb3f85a9c25e17d8e685d2a83ede3c74f"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/qingyuanwu__deep-neural-network__8471b5663552.json": {
+   "bytes": 26057,
+   "sha256": "2eecc0fee5817f420e43e99dc8d401e792eff2f0676cafc7a9f78f8137bc65cf"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/sabya40__data-cleaning-and-pandas-for-beginners__43fcbf42fdc7.json": {
+   "bytes": 49749,
+   "sha256": "7a9d471de23f0a0b37c8d8060ac34e769be02b5227550e32ea2263292ea85a8a"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/salmaneunus__student-s-performance-quantitative-visual-eda__533737cf9aa4.json": {
+   "bytes": 52007,
+   "sha256": "a7235c87294cb0c9175ba7336915a3b0686e1d44c7b0af52112ea86df7eb8e77"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/saniaks__melbourne-house-price-eda__b8cd75829f5d.json": {
+   "bytes": 85042,
+   "sha256": "6905fbd9059df5b710e442677070f4cf612966d425089ca1717ef1cd41d5575d"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/sanket30__eda-of-application-train-home-credit-default__13d456771bd5.json": {
+   "bytes": 176310,
+   "sha256": "d9bd46de5e981732ce169a3c7c5742690506f66e0fc26550dce4e435dbb31dfe"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/santhoshrao1995__assi01-santhosh-19101036__6ec669ac9b94.json": {
+   "bytes": 86947,
+   "sha256": "b19dfdfc86e3761c1720cd562c78a90d3d28804937d3c8217f3e3b3d03e8d0f3"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/seriousran__eda-ing__3c007ba91277.json": {
+   "bytes": 19929,
+   "sha256": "a15fa99f4705b15cfb7dc395b5a0f3237d5d1d0054b16c7da900a40077d6faa8"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/shunjiangxu__blood-is-thicker-than-water-friendship-forever__6ac0b99c4cc2.json": {
+   "bytes": 42777,
+   "sha256": "f2847d425e3182e53f5e4477528680b9a1952ad95a3fb7c7ab65fe661b3ef1d0"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/snanilim__video-games-sales-analysis-and-visualization__b00f2b5cde92.json": {
+   "bytes": 92773,
+   "sha256": "94d2fcd4b9a5fb96a8c38d874ee9677a8be987a6e45c2d8d0ffa76507c32fa4e"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/stefanjov__my-first-normalize-on-big-dataset__5c4c76da2269.json": {
+   "bytes": 38630,
+   "sha256": "280b472200b0f9fb563e851c014fa89fb54b2c68c0545c3a786c95eee04645e4"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/sudheer259__house-price-prediction__873d5f137d63.json": {
+   "bytes": 104209,
+   "sha256": "cda799d7535e62b52d689be350b2d673f947648be0a0cd35448a7ca6033e98b5"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/sunnybiswas__eda-on-airline-dataset__902608f94628.json": {
+   "bytes": 65363,
+   "sha256": "476b791b68ba6242bfdbaa5a4b55066ef9ee9e57292edbc0a818cd552e68c737"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/tanulsingh077__twitter-sentiment-extaction-analysis-eda-and-model__fd75197d2048.json": {
+   "bytes": 117478,
+   "sha256": "11eef5dfc710f071924df8370e5be257d603ddbe7db6e30faac58492572c5e26"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/taylorhickem__singapore-building-energy__d6a2b8154ed2.json": {
+   "bytes": 36422,
+   "sha256": "e6b3e05e8ed6159d1ae70f050d6da2b8dcca6d7be633e54028374bf5f423c222"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__38b4eb9239f9.json": {
+   "bytes": 48801,
+   "sha256": "6f0b4360deb86c2093a11429b15cc1bf4547fdda6f3c05d52a72224f1adeb5f8"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/tunguz__fathers-day-specials-just-the-features__4054805b1d50.json": {
+   "bytes": 84604,
+   "sha256": "6d4ebe191a8caa225e205b1f99254fb8920db3b2467af6e9110119222ca04eda"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/vinothsuku__osic-pulmonary-fibrosis-simple-eda__af36d67a73d3.json": {
+   "bytes": 23964,
+   "sha256": "a99a8cf5618d0ab9d91f902cc35da541fe795cf2c5a48b0e5b56b1369a2edcd4"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/willkoehrsen__start-here-a-gentle-introduction__33bca6e26ba5.json": {
+   "bytes": 951288,
+   "sha256": "3560750615fe8caa40e9ebcc9b1752a8fe5d7dc74087e648581465eb9ceb8d46"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/wyl4417__machine-learning-and-how-it-affects-you__87d49a0b0c4a.json": {
+   "bytes": 282641,
+   "sha256": "a62d9735a7dbbb77236b91553dd38ef215bfa5dcd5571e87f12b94693c83f0d1"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/xokent__cyber-security-attack-eda__9497516545e7.json": {
+   "bytes": 35652,
+   "sha256": "8208aa85a77f0f38e5a3a71cccb16a91855aa0418c8eab5e61df3300c143d4fc"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/yashjaiswal1097__911-emergency-calls-kernel__794bfc21f955.json": {
+   "bytes": 48757,
+   "sha256": "14939835ffaacad4a22a3c621259ec4279551f9c5ecc8b66c2d1b6714e5031d0"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/bodo/sf1/yonelanuba__elo-merchant-by-yonela__fec7d00554fe.json": {
+   "bytes": 359141,
+   "sha256": "60b21b8fdfcef00a2dded9cd3a833a1c8141f4d9c2ec15e6c3af9198ceffc48c"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/akshaypetkar__supermarket-sales-analysis__ec9aefa3fce4.json": {
+   "bytes": 61126,
+   "sha256": "eaf9034b625f76c20719e22ddbecfb9a1c4d0794ea728d66f77050e65d577b5f"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/blaskowitz100__feature-engineering-based-on-the-suprise-me__8e3472214f6e.json": {
+   "bytes": 34933,
+   "sha256": "a11ca73533c4f7906ddd00ea40c9f1cbb1b4231a24d98d2695c8989487c974eb"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/brianmendieta__data-cleaning-plus-eda__6cb4146f6e8e.json": {
+   "bytes": 72278,
+   "sha256": "b7ee071673590091c78f9c772a822005f5c863266ae76d134f7615873aa64f99"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__747b5774b2e5.json": {
+   "bytes": 174637,
+   "sha256": "24c9c9701513eed548053b695096a8a06fb181390007fd5a810a755340df71f2"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/deffro__eda-is-fun__190c148888e8.json": {
+   "bytes": 102423,
+   "sha256": "5caa0c25510a67bcc49b72767c6c95933259852382b2e76124398f310bef22d1"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/gmanish__help-ngo-country-clustering__c034c19b61d0.json": {
+   "bytes": 56909,
+   "sha256": "1532eb2af16876f0a609115709d8bf94519b4ac854195880805e77956b36206e"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/gsilves__quiz-4-question-1__ecf76ede4fcb.json": {
+   "bytes": 14418,
+   "sha256": "3f173dcea66e39149bc82dc6afaeabba7995161059f2d4c4aca1d7522b4d4b27"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/jackwatson99__pima-indians-diabetes-rf-81__2d943e62befc.json": {
+   "bytes": 19720,
+   "sha256": "36a807e36a527eb4c71ea887245ac3f193c695811f2c5661e60e527f806a6fe6"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/jirakst__book-recommendation__9ee2206e413c.json": {
+   "bytes": 95005,
+   "sha256": "eead7deff706899bfd765f3ac43e2ef834da38b37abce8fdc1e11b7af104b49b"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/jyotsananegi__melbourne-housing-snapshot-eda__db2c52d1d5be.json": {
+   "bytes": 57051,
+   "sha256": "61f4818da5dbc3cb8f2d8e4c699b92876273b5ea92d205d606811fb94c9822a7"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/luckygemini__notebook5d5fc80c9f__3a7753b461ac.json": {
+   "bytes": 15861,
+   "sha256": "8a3e58aa6ffcfdcb28401006fc1c8a3780c5ca1da25ddabfd96bfaa026fde564"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/luizep__movieslens20m__c111efdacab5.json": {
+   "bytes": 41334,
+   "sha256": "33d466005bbed378053c5ec6a15b3bd72be5dadc4c234c5acf14b9bb24ca0b3f"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/macespinoza__simple-eda-with-python-pandas-data-avocado-paltas__ba9522667fe2.json": {
+   "bytes": 29206,
+   "sha256": "ec26a6cbea06b287ac4f7ba09bff29634395738f7b4f17eb43a85b1b5a563148"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/madseth__customer-shopping-trends-dataset-eda__81dc8d1c58ad.json": {
+   "bytes": 44710,
+   "sha256": "7498e0e42ef3120228333123a229c38aeb2371477493ab86a53109359e084119"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/mathewvondersaar__analysis-of-student-performance__12c6a631d4ad.json": {
+   "bytes": 34358,
+   "sha256": "217df1245e91fcaf9ee355378108f7e990a56d983e9589c434053db1ba896e84"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/mustafatatarhan1__iris-kernel__706a4b1b8213.json": {
+   "bytes": 38649,
+   "sha256": "4c5bf03f8c0dc1f6c43696f7550d8f30c32ac03c69fbafebeb5085c9f01112ed"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/nihhaar__etltransform__bc16a391225b.json": {
+   "bytes": 22950,
+   "sha256": "7f291370b8bfe009220bdd699ff914439d7179981db9fe639f5f5040267e19a3"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/pmr3508f20977e697__poverty-level-pmr3508-2018-f20977e697__de33258d624d.json": {
+   "bytes": 378256,
+   "sha256": "99e6603727033ba48eed76ecaacca087e2ed6765ead0a567bd983443ee4496a8"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/qingyuanwu__deep-neural-network__6f1820f2e2ab.json": {
+   "bytes": 21243,
+   "sha256": "b2de206dcdb1e761722b69f0ae68e104b103e75903a3291aa76883cd669b94d3"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/roopahegde__cryptocurrency-price-correlation__02d4449674df.json": {
+   "bytes": 52666,
+   "sha256": "07ae3ae8776f64edca21b70014239ba1751ae4d9bc08f3ea895c5c9693349c5f"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/salmaneunus__student-s-performance-quantitative-visual-eda__8b6089e656b6.json": {
+   "bytes": 51688,
+   "sha256": "a0cb773baeee8d8d5208c02f79d8c428fe4850d7493999aec939949ca88fe292"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/sanket30__eda-of-application-train-home-credit-default__1717930c6ae4.json": {
+   "bytes": 153067,
+   "sha256": "96c373259ae93ffaa1e51ec291d1c77e0a95f3f66923d50ad5f9c8f0064af1a3"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/stefanjov__my-first-normalize-on-big-dataset__43353d1d39f8.json": {
+   "bytes": 29395,
+   "sha256": "ae69333af19b877615e3f9cef74a27c3951e16ae27af7a0ca9de4012b8cc276f"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/willkoehrsen__start-here-a-gentle-introduction__dff9357250e8.json": {
+   "bytes": 533196,
+   "sha256": "ca9fdb95c42c5693a1ff12adc93e1b5c4a237f3bef4aa0d5b5f4405b9304540a"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/wyl4417__machine-learning-and-how-it-affects-you__c59ed02178e2.json": {
+   "bytes": 153799,
+   "sha256": "689782737802a6b91f4d2b033ca40c1f20d6734c45d87b0c1846ca84af9f900b"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/yashjaiswal1097__911-emergency-calls-kernel__1e6247386d73.json": {
+   "bytes": 57500,
+   "sha256": "92eb0c5ce33ad4d2bb75a9b6335a1426d4572fead40ae97e0fbef75ce967fa05"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/dask/sf1/yonelanuba__elo-merchant-by-yonela__b7b78bdde778.json": {
+   "bytes": 281786,
+   "sha256": "359e7c012d6696f176beecc4b23c32a178a26e3939f144f03ca67fc1b45db6e7"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/akshaypetkar__supermarket-sales-analysis__598c8ed98014.json": {
+   "bytes": 63796,
+   "sha256": "394ba3e822bb37e8a723e2218ab51e08b21d87eec1b2b40949857d92b1e85da1"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/arjoonn__scout-script-7__4caa1250bf46.json": {
+   "bytes": 241347,
+   "sha256": "b20218eb898509b19106f7258f63c6fa32366c19e092ab15be238b93a4aae8ee"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/ashukr__first-step-ingestion-to-prediction__01a542d325f0.json": {
+   "bytes": 104474,
+   "sha256": "ba61eb36b6fa379bea74d5e0128d7ed625dde576d2ff93d6485ae358e950639e"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/ayushsingh5941__tweet-disaster-or-not__ced393eda17e.json": {
+   "bytes": 32391,
+   "sha256": "58841a3726362de05cf163eb8f0034e13c574373edec10455e67f45bc9fe508c"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/beratozmen__clash-of-clans-exploratory-data-analysis__5d6302def158.json": {
+   "bytes": 56683,
+   "sha256": "8cf9eda35c5df60136088fcbbf7bfd1be3758bd8a95da87d2642fe3421396328"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/blaskowitz100__feature-engineering-based-on-the-suprise-me__b1fa2014f8bf.json": {
+   "bytes": 115968,
+   "sha256": "0191ee57a9d74bf084490b535eb3d996922b32b0a4764c55abdb1e07126b0c33"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/brianmendieta__data-cleaning-plus-eda__dec5492b3a68.json": {
+   "bytes": 243383,
+   "sha256": "f2dfaf92983229b07ba59d6d15217e0e76ada4e07c2fc7212318b0ea6ba4a3a9"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/charulatashelar__indian-startup-funding-exploratory-data-analysis__d20feb28e073.json": {
+   "bytes": 81863,
+   "sha256": "ceabde102b671681ee83ff9e909c506154e975fc1bd257701d6889e6bb6a9d9e"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/danielresende__game-of-thrones-battles__907ca7cca64c.json": {
+   "bytes": 30537,
+   "sha256": "040b3e005704bef611f52ad7c64ae765c5f8652536f1b0adb1f67cf21ac99cd4"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/dbatao__kernel2f80fc9d78__8de2bf82486d.json": {
+   "bytes": 420858,
+   "sha256": "4b4869f40c9d23d2506c86b24673278944b08c6ec00882bb190c65cf73ba1e4d"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/ersinsen__fraud-3-eda__19ca64d7fd0d.json": {
+   "bytes": 430013,
+   "sha256": "8b175ab5e6d78f130329bf13bda83dfddac19f62ce21e986ee87f92ecfa9d7dd"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/grudd0__mass-shooting-analysis__0637c28f6a63.json": {
+   "bytes": 145211,
+   "sha256": "acd2ac77595fa965fed5ff3c6f8c782fe1ebbcf25bfd3b398236ce18ffef8317"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/guyalmog__hr-analytics-predicting-employees-attrition__984d3b37cd03.json": {
+   "bytes": 986728,
+   "sha256": "0e569d1ea452a62e153a13750b973981bd9f9870ce27a3d5953c462dfbc67525"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/jagangupta__stop-the-s-toxic-comments-eda__2ea8fbbda523.json": {
+   "bytes": 124886,
+   "sha256": "f176fe62f56d7389a7b1833d8b8079568623f5b7c2f4690b8f9923495a78a4d3"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/jaideepvalani__useful-eda-for-beginners-rsna-embolism__006398297f89.json": {
+   "bytes": 55100,
+   "sha256": "be37227660127a33207190b898299a8183c6b8efd0b05f343cc488797357ae9d"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/jyotsananegi__melbourne-housing-snapshot-eda__91e4289e7e97.json": {
+   "bytes": 67326,
+   "sha256": "fc7ee3d4d2c1750af431e4792f1727fb0bc6006d4d9775164901d9171aa9fac8"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/kanncaa1__dataiteam-titanic-eda__0f5e2414fa94.json": {
+   "bytes": 279494,
+   "sha256": "6f3fd494578cb555026f582d4688d31239ac7404838f4ebe3970b182c0020e44"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/kenjee__titanic-project-example__e9dc53c67cd2.json": {
+   "bytes": 72910,
+   "sha256": "553bc33fa230f0b6481e8f9c06a2368f4115a99b4f744c2d7b34d4d78f17441a"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/kmader__analyzing-matches__80f5330ed9df.json": {
+   "bytes": 56563,
+   "sha256": "59ad46beb91b78b8b2cff03e48a73b85fb4d9a5c49403ed22b6dc0af4450a561"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/koko1998__summer-products-and-sales-wish-com__573c04bfcb82.json": {
+   "bytes": 646629,
+   "sha256": "2d2ec96aa9f0b144a487862f83242b31f1f0c48178a6b0e22d48fecd082f47b3"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/kwullum__when-do-traffic-related-deaths-occur__7c3e397c9c82.json": {
+   "bytes": 38048,
+   "sha256": "59a9787b5576dc32fee32ec603785a490c8552bcd00c47ba5fcb0ee4a3a707d1"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/loveall__favorita-analytics__1ef73c976350.json": {
+   "bytes": 42421,
+   "sha256": "c9cd09031d330af9ec8db0c6f8786a3b7c1f14f04704341709785836134113eb"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/luckygemini__notebook5d5fc80c9f__c8d7d15203b6.json": {
+   "bytes": 18598,
+   "sha256": "d83c2b6908b210df9a899497ab87c75007b7e39e89bf5ec92887de286570a136"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/luizep__movieslens20m__da4aaf512e0c.json": {
+   "bytes": 74511,
+   "sha256": "c4081ab2e7ce11a0352e8eb08d6cc1c3aee16669885de90a328ea44ee448b6d1"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/maxiaoyue__data-cleaning-challenge-handling-missing-values__e76a4ba10ba1.json": {
+   "bytes": 166488,
+   "sha256": "213e566f0f33a9741f11ae317930f8d149dd993ba5997f84dda02c3171ab680a"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/nadare__feature-engenieering-with-pivot-table__cd8c3969c475.json": {
+   "bytes": 18604974,
+   "sha256": "6bf3c510e05080a8baed56112bf75054464b8424ed7e02c7ad0ae07b365295b9"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/nandhuelan__ott-platforms__a49110425ff1.json": {
+   "bytes": 43939,
+   "sha256": "813a162db277d904d2bb7d64e9747c68c6871f3d286c9e1398e8fb9a0ef29595"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/nihhaar__etltransform__8d4cca4520fa.json": {
+   "bytes": 19409,
+   "sha256": "d6074cb50b539e48977c80f7cd7b369d5814b3fd3a6d8cd0aa2a75cf2b4b32aa"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/paramarthasengupta__plotly-eda-top-movies-of-20th-century__b031ba3e72ea.json": {
+   "bytes": 128954,
+   "sha256": "bbbbb667a2a887add9207a5d44208ccc9f03786e40c47646eb964c1b2c1327cd"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/pradeepjeya__allstate-encoding-high-cardinality-features__4b9102dc2aaa.json": {
+   "bytes": 192352,
+   "sha256": "63c61b2454db052bbd81c38aa75f5568e9d794a6c04eb4e4e383ca8c0fc34ee7"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/sal001__beginner-s-note-top-12-by-single-linear-model__7a16588890de.json": {
+   "bytes": 428947,
+   "sha256": "17e8212363e7c18afbfa3b7bd9da2295c83955f99ca95b1cf29d82b96e075831"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/saniaks__melbourne-house-price-eda__d1d986c16d76.json": {
+   "bytes": 93373,
+   "sha256": "50a22771f6ac17e093607569315018c761bd764170cf489b0a098b30c4c54c25"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/santhoshrao1995__assi01-santhosh-19101036__50749a5570c3.json": {
+   "bytes": 51372,
+   "sha256": "b0f68a25496dbf31f9d12aea404f2df9b1a48d744441645cf1001fdc7323cc3e"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/shubhammahalank__eda-hotel-booking-demand__9e31f9c9f09a.json": {
+   "bytes": 86662,
+   "sha256": "79f500df151fb9ec7f4e242d5502871bcc1694767bd3f76277ac498472b12b56"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/shunjiangxu__blood-is-thicker-than-water-friendship-forever__b5d348dcae48.json": {
+   "bytes": 49065,
+   "sha256": "f21387b8a72564f7db82e4589b13710a910e1458a8552f0833ae178724119743"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/sudheer259__house-price-prediction__db5db93294ac.json": {
+   "bytes": 257669,
+   "sha256": "8bb48fcdacf2f1b52897fa498cf981b81859c6428278573a1fa4f6ce3cd2615b"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/sunnybiswas__eda-on-airline-dataset__860f1752f54b.json": {
+   "bytes": 77582,
+   "sha256": "a54595bb03e540d10ac132a9619708971b9a8f7f041e66df968a06eeaceb27bf"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/tanulsingh077__twitter-sentiment-extaction-analysis-eda-and-model__ed854d86bb42.json": {
+   "bytes": 128170,
+   "sha256": "0e62b5af99a92f5a91f25495a8a1a9ec40c037be76df6753089b680e65931f73"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/taylorhickem__singapore-building-energy__75c86694d969.json": {
+   "bytes": 42644,
+   "sha256": "f5805f7d84cc75a89aa64464a9c9a10abc2ab0216d8395f3d47212e40e9f9129"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/vbmokin__automatic-eda-with-pandas-profiling-2-9-09-2020__cb524722cff2.json": {
+   "bytes": 52932,
+   "sha256": "dc3cfd93ace6baf7efa5f307ca1bf3affdd5572f07b0d432a3d2cf8d4f9b3c22"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/willkoehrsen__start-here-a-gentle-introduction__f263d06d9933.json": {
+   "bytes": 858823,
+   "sha256": "e92209018fdeaae5347b08185cf4e9cdf2efca3d5746d9c8605ea59df3920331"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/wyl4417__machine-learning-and-how-it-affects-you__31a241ccfd36.json": {
+   "bytes": 641433,
+   "sha256": "3056008a6556dcfd7f7072a236ed3d98fed1b12781a2d96274b6b35c752bd3f4"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/xokent__cyber-security-attack-eda__c68ea2caae9b.json": {
+   "bytes": 39686,
+   "sha256": "65bd8e30494d2babf6a46c5cb6abb5d1dacac146c99bbc7b9d44f33b755848ed"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/yonelanuba__elo-merchant-by-yonela__e4e2fdb8f6aa.json": {
+   "bytes": 396591,
+   "sha256": "4bae38df0102f1ab3ce1c3d4adf32db3a9fabb0253fd6232bdf6897c11522f9b"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/fireducks/sf1/yuliagm__talkingdata-eda-plus-time-patterns__c2cd9f511176.json": {
+   "bytes": 111024,
+   "sha256": "0f941e842e1ce1942aad022a0e8ac2af547cc07d700c17a31319c2e46b9f0a98"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/artgor__eda-and-models__e8802bdf679d.json": {
+   "bytes": 1088734,
+   "sha256": "db9072b9a7d2f72276d235d91b321c04a2e9b8308683c710f0d4fb6e25cb3ec3"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/balajivenkat96__solar-plants__afa45c6717db.json": {
+   "bytes": 86869,
+   "sha256": "7b1deb544ffa810a4a92424da24dadeee1984d73a591362a08d1c4800876a192"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/brianmendieta__data-cleaning-plus-eda__8f0c4c73be31.json": {
+   "bytes": 236528,
+   "sha256": "bb6df1ecb73cd83303e31f74a7fadf71afb5d4d4ceff7fae2c046b48efe5de75"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/charulatashelar__indian-startup-funding-exploratory-data-analysis__3c40a8474c21.json": {
+   "bytes": 99623,
+   "sha256": "cb00d47b949a7b6fea7f9b52c44ffd0b9dd3c6cd572d15e4a3736e5e7dd3cb5c"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/chinstan__notebook249b4f3f5b__00f8653caf53.json": {
+   "bytes": 444296,
+   "sha256": "a23ecd63e88a1861d8342d50c5f23ea390465b0ebdec83cf0279e5d70a2c5ae1"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/christophriley__intro-machine-learning__03d98cf2d8b1.json": {
+   "bytes": 30798,
+   "sha256": "bd91b8f87c6f7167b84d308c171d109dbdb492170852e5b8c8bf2533e76d0fb6"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/danielresende__game-of-thrones-battles__ec9a05b2ddff.json": {
+   "bytes": 21656,
+   "sha256": "1ceb2a959f8d1f0fcd491d73e9d91e927e3a3faa41bd6e36cdc0de299ee2d9aa"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/dbatao__kernel2f80fc9d78__619771cd3845.json": {
+   "bytes": 398313,
+   "sha256": "097bee6e82c299b4874b2428f754f894eea87b842be3e8ae21ee780ab7b68090"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/deffro__eda-is-fun__7387be143d9f.json": {
+   "bytes": 176634,
+   "sha256": "1b8bf3dc0725e18e0eabf8c75bc29dbb225e2a065092d84a319667118904e8cc"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/ersinsen__fraud-3-eda__f76e56838ac1.json": {
+   "bytes": 423975,
+   "sha256": "cf089e43964150df6794ee9f9caaadd14c499a5d7ce526cf6e6cc57e92e25f9f"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/galiph__titanic-explorary-data-analysis__3146c73bd528.json": {
+   "bytes": 54862,
+   "sha256": "ac4942f83e16f159745dd53b68c198aa45892b773d1675328fee74c0ff0fb284"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/grudd0__mass-shooting-analysis__4d24c4883e47.json": {
+   "bytes": 102702,
+   "sha256": "5f5589332d4dc406fdcfbb0fd306ee895acb042fbdbedba5f0255f348cde081c"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/gsilves__quiz-4-question-1__38d94363166b.json": {
+   "bytes": 23501,
+   "sha256": "fc199a8b73899444f56b6cbab5a02230ed998e5d54940a22edcb6868f9ec276c"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/guyalmog__hr-analytics-predicting-employees-attrition__35beaadb5744.json": {
+   "bytes": 893733,
+   "sha256": "599f9155157ed01d6c027b9066e4f7c85d1750b0088a28ad577f4ffd24175a61"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/j0thu777__onlineretailanalysis__605fe71b7142.json": {
+   "bytes": 56975,
+   "sha256": "c53747f0322bb3d43793280e92cbe3b2f0c09009f93f9455b8685349b4c26e49"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/jagangupta__stop-the-s-toxic-comments-eda__55b4e01bd1de.json": {
+   "bytes": 125316,
+   "sha256": "7ea9c388b5ce86d722b1140aecaeb12808539ffd1eb28b47172b89cb1ce4dbf1"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/jirakst__book-recommendation__c95de70c10d2.json": {
+   "bytes": 1196455,
+   "sha256": "5868ec88da073c9eebbb237fb117e88a82bf4b7f03a8b301a277e14329b36170"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/kanncaa1__dataiteam-titanic-eda__f18d87cef70c.json": {
+   "bytes": 269838,
+   "sha256": "c23abfd2dce96a56816a3a4288817d4fc9d2a35a11a6fa60a94a6adb38f444b0"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/kenjee__titanic-project-example__da4801dc191e.json": {
+   "bytes": 105869,
+   "sha256": "1a884d21a2be9c9d5064ea3b4900ff225772c061bfaab1013926879a921b2d28"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/kmader__analyzing-matches__91c7a7c29bd2.json": {
+   "bytes": 45223,
+   "sha256": "eb6aa63b483008e01af8ef67054644f0630cee89ffdca1295a5850ff2deff0d7"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/kwullum__when-do-traffic-related-deaths-occur__f1d8b59fd223.json": {
+   "bytes": 37927,
+   "sha256": "5bd0c515100eb4056cd4d90d03849a17afb74d93f03ad205be9632abe16ed85d"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/maxiaoyue__data-cleaning-challenge-handling-missing-values__42135be865ac.json": {
+   "bytes": 162219,
+   "sha256": "e097373b466c1931cee26794c53815b06745f5ae41dd276924b780d17dfdd876"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/muhammadawaistayyab__used-cars-in-pakistan-stats__70706aff9a48.json": {
+   "bytes": 14501,
+   "sha256": "bc558e73ea09707a3cb150634055471c485e0d4446f8bf55dacd120c6e0add8e"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/nihhaar__etltransform__0f796e73e715.json": {
+   "bytes": 21278,
+   "sha256": "42a05b677d1689b07c921e2846f0af6c0acbc82a0a56df00df4a8a5e6ad6047b"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/qnqfbqfqo__electric-vehicle-landscape-in-washington-state__711f7715c638.json": {
+   "bytes": 21311,
+   "sha256": "80b585757988c82b890c4e508594b72dfbade43ffdc24e94a121a83d78fce2df"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/sabya40__data-cleaning-and-pandas-for-beginners__2587f6b5fc26.json": {
+   "bytes": 51117,
+   "sha256": "07b46e285b23639f966b05a58efd0e68228f278cf2576c0da0bf88b8110a7bdc"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/saniaks__melbourne-house-price-eda__f166c2715018.json": {
+   "bytes": 83519,
+   "sha256": "87c6953348bcbb80cefc3b934dedc3543965c75fdfe3f32bbe82ea42685d4608"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/santhoshrao1995__assi01-santhosh-19101036__3b6905e712b6.json": {
+   "bytes": 94362,
+   "sha256": "f9cf911ac6fabc0b80bf2a1ae0cd356b971793ebfa66866358bdc9173ec19912"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/shivavashishtha__zomato-eda-tutorial__392433810f14.json": {
+   "bytes": 178667,
+   "sha256": "680816d344431b9fd7d9fb9cadc85eea81279dc18b47b513f711393a9c6f7556"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/sunnybiswas__eda-on-airline-dataset__857ae594e2d6.json": {
+   "bytes": 74425,
+   "sha256": "f195c50e90b8cf7d37fee48fd3f6fc8f7162b732792f60bc57323c42195aa739"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/thirumani__biggboss-hindi-telugu-tamil-kannada-marathi-bangla__44827d10153c.json": {
+   "bytes": 69401,
+   "sha256": "681e21b7cae4f17038f512d0152804624e2bf977f1cf1958160b3ddce5bd4556"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__f293e3ade78a.json": {
+   "bytes": 46822,
+   "sha256": "8581eccd83bb21c6b0508c0a2c2726404ebc781d54473c1618dd076b8381d412"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/viviktpharale__house-price-prediction-eda-linear-ridge-lasso__bf20e81d42e2.json": {
+   "bytes": 66302,
+   "sha256": "7edf265a0cea8d279c9ea5e09accfd48029cf973dc4ae8cb1a02f6bbf8cab83b"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/willkoehrsen__start-here-a-gentle-introduction__b736b6ce1329.json": {
+   "bytes": 859913,
+   "sha256": "cff5cfd081fe860ad29d7dd966e4f2dc8d8e9697dccb56b722fbee70210e8c97"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/wyl4417__machine-learning-and-how-it-affects-you__7f18b9c629a7.json": {
+   "bytes": 871668,
+   "sha256": "c9718501b5e5818f2e56efa4b8c88ac27276e376d863742d4e00f369fb470f60"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/xingobar__computer-science-data-visualization__e4060e4c311d.json": {
+   "bytes": 46023,
+   "sha256": "85bac86c8f98100884f80c6b0cdd24224930d84ff23f85199621d91bc58cd0a2"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/yonelanuba__elo-merchant-by-yonela__94c51513a3d5.json": {
+   "bytes": 420898,
+   "sha256": "23fae24ef623e97d339ce931d5664ec585c0b9e877a080c0463098c9233816ca"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/modin/sf1/yuliagm__talkingdata-eda-plus-time-patterns__79dd98c79a0a.json": {
+   "bytes": 108161,
+   "sha256": "4a7fb685fedd1becfa5e62d4fb61076362eedf3e2dc23ed3e5872b7281944d67"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/akgauravin__gun-violence-data-exploration-and-plotting__d013c3a66686.json": {
+   "bytes": 79700,
+   "sha256": "0b895bae845d1fc0c84266680bf545a6797968b6ba8331066f122e32cda40617"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/akshaypetkar__supermarket-sales-analysis__72e8e53867ba.json": {
+   "bytes": 60783,
+   "sha256": "4ec261c12b64318221be79dec5b67c3b677516a5436bec086775166b96baf451"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/bcannon__indexing-selecting-assigning__88ee71622acb.json": {
+   "bytes": 35503,
+   "sha256": "e20197811c9416cba6b6ecbcd9c5e48fc3e8ec92759939f06baee12ca6449b67"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/beratozmen__clash-of-clans-exploratory-data-analysis__5b8fdf118a40.json": {
+   "bytes": 50486,
+   "sha256": "640d864096d20a823511e98465bbf51a7fe45d70eeabe1c405beb6d01a610849"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/blaskowitz100__feature-engineering-based-on-the-suprise-me__df1068d8b7d3.json": {
+   "bytes": 94752,
+   "sha256": "78ae4a592479a4175305aaa289b1b1e5bbaacd22ac108c3838865e3ed0e78749"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/carlmcbrideellis__simple-eda-of-kaggle-grandmasters-scheduled__d8189475ec6f.json": {
+   "bytes": 89107,
+   "sha256": "75561bd0e0596615f4f924f1105cb8434de7d0ac5a5401593312fadd36ca14e6"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/chinstan__notebook249b4f3f5b__70a0de5bc8b3.json": {
+   "bytes": 502143,
+   "sha256": "f66e2c56877db7e007067c3c40b3f2ba261a2479c65fba3523402b2b60bb155e"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/christophriley__intro-machine-learning__bbcfc26141f1.json": {
+   "bytes": 31737,
+   "sha256": "f47b41fa56d1f17fc252f078f0d09455400f6643370e6fad78565e5eaa6e3f7c"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/dbatao__kernel2f80fc9d78__d9dce185c2a5.json": {
+   "bytes": 297800,
+   "sha256": "e482a833dbdc46434be3aa0a3dfe824f53b82685704cb6bfd5e3765cc7811a5b"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/ersinsen__fraud-3-eda__98dba2042f45.json": {
+   "bytes": 461274,
+   "sha256": "c3a8c50f11babc88e00f2944c5bcfc917cbeaae5788963a89bfc55ac368dc627"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/grudd0__mass-shooting-analysis__09b51a0701fa.json": {
+   "bytes": 125256,
+   "sha256": "10c8759b168833046f18bf77906c373acad1b10d5fe5cf73d84f943863560cc8"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/jackwatson99__pima-indians-diabetes-rf-81__549f110a80a3.json": {
+   "bytes": 23860,
+   "sha256": "6ff354e5ac2c2587401d9ba2243ee07c5f428cbbeb78c8f47592739d4e1e56f1"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/jirakst__book-recommendation__cc601a710529.json": {
+   "bytes": 1197472,
+   "sha256": "8a0ce584727909de82bfff3856bfc4ea47af188de7bb609c42ed460646650b3a"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/kenjee__titanic-project-example__f594b23f5380.json": {
+   "bytes": 108274,
+   "sha256": "3dc846c81c738a816a9bf341ee88e64f4668e227da1ff1891265ee492981d20d"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__265f91add093.json": {
+   "bytes": 734386,
+   "sha256": "aa0f43032d3422eed4f82469095f9451ac4dafcbed76249b73f0fbbe23813e79"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/kmader__analyzing-matches__a677d66a8386.json": {
+   "bytes": 45795,
+   "sha256": "fc26caad5b7fc50fe2ec96919b3fb449ec2e569bec6c000f5ffa1c3a0371eaff"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/luizep__movieslens20m__61391a1ccd32.json": {
+   "bytes": 51923,
+   "sha256": "87660b8d713ee13583251494f2ecc248ec51b2fabac2243fd1b7de51315bcb3c"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/maxiaoyue__data-cleaning-challenge-handling-missing-values__7f7eea156c1c.json": {
+   "bytes": 162655,
+   "sha256": "40df1e7e8d0a6bfb8cda362d156250c4dc7c26d7f513575726fd25ef90f3ed06"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/mikedelong__python-eda-with-kdes__f2550aceab0b.json": {
+   "bytes": 16477,
+   "sha256": "1798c4c1e11958cdf12df313ba1f3b73567309b60370bfe98fdba04b83102e12"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/nihhaar__etltransform__f6265c9974f0.json": {
+   "bytes": 21488,
+   "sha256": "ff4d965155577d601f6dd98247c860ec416c5552102339f91fb9035c77c4e34b"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/paramarthasengupta__plotly-eda-top-movies-of-20th-century__8950703d9a7c.json": {
+   "bytes": 119552,
+   "sha256": "6dee49e9823d880e4ef5ec0085c398b7902e47218f23c16190490d089d48a1e3"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/penny8__my-sub1__854f34f7f859.json": {
+   "bytes": 105737,
+   "sha256": "d20168e759c402b323603fc3d8447c2ac4b8af014102c2bdf40923f0fe8640f7"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/pmr3508f20977e697__poverty-level-pmr3508-2018-f20977e697__2e830a58a336.json": {
+   "bytes": 615001,
+   "sha256": "7bfc0118513ac5a768feaaf40bd2376969bb322486defe5510efee4dcee56fef"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/pradeepjeya__allstate-encoding-high-cardinality-features__792529ca919e.json": {
+   "bytes": 79088,
+   "sha256": "0a0aac396d93a73b0118513f8dadc383e87e94a3aa21dff2bdc8beb82bcb5591"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/sal001__beginner-s-note-top-12-by-single-linear-model__9118b090a921.json": {
+   "bytes": 360936,
+   "sha256": "e8dfdfe248ed7efb0d46eb964c172fa298b0f3270e8a22d04664df22e07b78d3"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/salmaneunus__student-s-performance-quantitative-visual-eda__d953b2bb080b.json": {
+   "bytes": 49695,
+   "sha256": "52ddf08fc9ca87327db18f61f7c63b24bc00dbe3339ca01b320a7a23c3aa869d"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/saniaks__melbourne-house-price-eda__35bb05e41b18.json": {
+   "bytes": 84583,
+   "sha256": "5af735d37d654bae9618750b4d9ea7b2a1a66ccb44a877dfd5b48fb7ce499ee9"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/sanket30__eda-of-application-train-home-credit-default__3f49fe9baccc.json": {
+   "bytes": 175680,
+   "sha256": "b72b0d958bcaccc412197849b26cb1795ee6238c2708dd52913500f78b621778"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/santhoshrao1995__assi01-santhosh-19101036__4fb656c06f3f.json": {
+   "bytes": 100416,
+   "sha256": "d3c7b3092820c747b8267867dd38d09b4707b5cefb7ae625751564644f272072"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/shivavashishtha__zomato-eda-tutorial__85605d665093.json": {
+   "bytes": 187202,
+   "sha256": "e42d377465c5e124e8732e207f237f66917d8f5badba80e90696aaddc5a02513"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/shunjiangxu__blood-is-thicker-than-water-friendship-forever__6131ff158347.json": {
+   "bytes": 80989,
+   "sha256": "2eaed16dad7c59a4026bea9dce82cd879cbc8b315382edda1b234fbf713e9f2c"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/sudheer259__house-price-prediction__11843f97d64f.json": {
+   "bytes": 1059940,
+   "sha256": "791d289cf2519d2a5e0a1b5687ca364a974f2405a28c8710c55ba006b8b97327"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/sunnybiswas__eda-on-airline-dataset__27fa4b99f9b8.json": {
+   "bytes": 76753,
+   "sha256": "7014860af4ef749dedeb4742766350f288f61bb97098b6a8ffac00a3077947bb"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/taylorhickem__singapore-building-energy__681b8a50c39c.json": {
+   "bytes": 40567,
+   "sha256": "da43c9a8af230387b64199bdbccfb4f8b53be0e4d85d8bb8b58f8b0a1f8ed4f0"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/tunguz__fathers-day-specials-just-the-features__4410c23cfd7b.json": {
+   "bytes": 301694,
+   "sha256": "3c517e47f2027c9c7e453668a0f7ca2d2eb3a112618c010ee6165e43eba8dcec"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/vinothsuku__osic-pulmonary-fibrosis-simple-eda__056fbee90b49.json": {
+   "bytes": 22037,
+   "sha256": "2375b6be00f78f3bc63a9ec9763c0fad1a2891ccae4404522dc16af8af883827"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/viviktpharale__house-price-prediction-eda-linear-ridge-lasso__6c2b1e62ad8f.json": {
+   "bytes": 68150,
+   "sha256": "58fa0c63989f92dd86c63ac12fbb9274795a2b96f1b6c72830f3c7a0a91822eb"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/willkoehrsen__start-here-a-gentle-introduction__8736fa8194ac.json": {
+   "bytes": 944438,
+   "sha256": "3c67227449904340ebcbb9c643be62ac4acca8a604cf5e97aa4ea8605eddf7f8"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/wyl4417__machine-learning-and-how-it-affects-you__36e16cc2bf11.json": {
+   "bytes": 446978,
+   "sha256": "9ab2b593bc402cba60fd7fe1f32395ce39253c39e751d1d5e73d30ca6a9f5731"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/xingobar__computer-science-data-visualization__ca3f62d18af0.json": {
+   "bytes": 48820,
+   "sha256": "808309bbc51c3a5fd823596fc6518b9fbb372e3a06091318a01c8a48e3d215d9"
+  },
+  "work/r5_replay/results/r5_replay/raw/runs__hd1c421ecb5ee/pyarrow_backend/sf1/yonelanuba__elo-merchant-by-yonela__1c5091560119.json": {
+   "bytes": 326055,
+   "sha256": "eb6d62eb1be02b7f000184f74437c8ec98469bc2fc78b8b26a59e26a69d9616c"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/bodo_exactq/sf1/akshaypetkar__supermarket-sales-analysis__c1fdf9cdfb0b.json": {
+   "bytes": 64693,
+   "sha256": "1fbb705014500f04884b69861625bd453eb73ddbf4eeba4931c82dcfd8a09dc6"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/bodo_exactq/sf1/carlmcbrideellis__simple-eda-of-kaggle-grandmasters-scheduled__76fe1fb44616.json": {
+   "bytes": 94559,
+   "sha256": "a23bde72f302b3fd68101c7a4bb0a039661b65a9c8ac4c8054570f7a6f584ad8"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/bodo_exactq/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__22674e80c494.json": {
+   "bytes": 463447,
+   "sha256": "b6c39e044aa8e58fad6ed48f54add94f4433e3087f2c9f81bfe328fe95fd43e9"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/bodo_exactq/sf1/deffro__eda-is-fun__62221db965c1.json": {
+   "bytes": 187389,
+   "sha256": "3db0b8935f4a16ecbbe168edfa2a01efc241364008937ad34b0a89444befe8d8"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/bodo_exactq/sf1/gmanish__help-ngo-country-clustering__d56ac4fe6ce7.json": {
+   "bytes": 64850,
+   "sha256": "65189195c175cc0d86d4d7b392455319133e6e8a9aa02a8cdc58d488bb053b00"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/bodo_exactq/sf1/kanncaa1__dataiteam-titanic-eda__d7f4ad4454ac.json": {
+   "bytes": 319094,
+   "sha256": "f6257729e6b65ae06243f3b5dd389396549b03a876ca1025f942fb118764d9ac"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/bodo_exactq/sf1/mahtieu__nyc-taxi-fare-prediction-data-expl-xgboost__3651333cbcf0.json": {
+   "bytes": 43586,
+   "sha256": "b63fa8c116847dfdc459e39ccdd70fcd9988392ad3d8bc18b0d2ad41ce1aed03"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/bodo_exactq/sf1/paramarthasengupta__plotly-eda-top-movies-of-20th-century__4e1ced31d861.json": {
+   "bytes": 51834,
+   "sha256": "35364096ee6a3ff99ebdc2b9c82be7e562d84b004b2f29cd38033540085821cb"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/bodo_exactq/sf1/yonelanuba__elo-merchant-by-yonela__981a485701db.json": {
+   "bytes": 358372,
+   "sha256": "e96fc420c311b302e6f809f41a04527251f4de736107ff8f7c187aba48b048ec"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/dask_serial/sf1/blaskowitz100__feature-engineering-based-on-the-suprise-me__a2769c0eac50.json": {
+   "bytes": 34941,
+   "sha256": "ace16b292cea98449925864dcb0ccaefe3fcc957141bbb7da1af8bad98abb68d"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/dask_serial/sf1/brianmendieta__data-cleaning-plus-eda__5c1f538b6b96.json": {
+   "bytes": 72277,
+   "sha256": "a5c1f1afbf9a9c7fca3f84e293da77c5250d3a92dd0e8fff2c1ce9487db8eee1"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/dask_serial/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__acfe849bf423.json": {
+   "bytes": 174634,
+   "sha256": "cc825eff7623c13b38926df4ed60b1d0fcd34aa6ab135c73686ce7962b3ab8e4"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/dask_serial/sf1/deffro__eda-is-fun__890827e50674.json": {
+   "bytes": 146656,
+   "sha256": "229aa74099540b1af3a7fdc2fd47e6872f0ec11d18bbd658468880e4ff0b5130"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/dask_serial/sf1/gmanish__help-ngo-country-clustering__f1796f0128da.json": {
+   "bytes": 56925,
+   "sha256": "96b2054bad75228581065e1090f4182ee9c63c21956446e1762a0dd98f75878b"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/dask_serial/sf1/jackwatson99__pima-indians-diabetes-rf-81__7221ddb52b78.json": {
+   "bytes": 19742,
+   "sha256": "82505c668453de4a273c88a3ba7a287c3d6904ce6e391ffeb465d18cb1d1f141"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/dask_serial/sf1/jirakst__book-recommendation__6c4a9dfd41f7.json": {
+   "bytes": 95012,
+   "sha256": "552ec91b06d25bbe5b85ee57c1853d5f3543b74a70cabde0a5bcb4793cb4b343"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/dask_serial/sf1/jyotsananegi__melbourne-housing-snapshot-eda__20c007f51bd5.json": {
+   "bytes": 57049,
+   "sha256": "98a620c4e8c7c27fb30a567cb07269609a960330892e9487f55e6683bce1a8f0"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/dask_serial/sf1/luckygemini__notebook5d5fc80c9f__ffc8a19bbc3c.json": {
+   "bytes": 15877,
+   "sha256": "6c8566be817a7492f870c9b784418c4f391b2994e32f5149cee8d3e55bb30ae8"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/dask_serial/sf1/madseth__customer-shopping-trends-dataset-eda__11620e1ed8a1.json": {
+   "bytes": 44724,
+   "sha256": "8a572ea9035479277ceaa3597292cd98f5c4e1a98de8ab61782f03e53ccd1a6e"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/dask_serial/sf1/mathewvondersaar__analysis-of-student-performance__b6aa202c7b94.json": {
+   "bytes": 34364,
+   "sha256": "e4f5b962bf1fb330dd4573a651713b911b4cd99426162be3c774fc6cf87f5e62"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/dask_serial/sf1/nihhaar__etltransform__827f441cdc44.json": {
+   "bytes": 22965,
+   "sha256": "d2d36d9ed640477d5f4db27817f4dcda4e028247f91b7493daca72e6c9a816ef"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/dask_serial/sf1/roopahegde__cryptocurrency-price-correlation__d34838e61ab7.json": {
+   "bytes": 52654,
+   "sha256": "a8f527746d80a3ed4e86368a98d97c97967667b72f3d4ca0f67b7ca5c1be078d"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/dask_serial/sf1/salmaneunus__student-s-performance-quantitative-visual-eda__84a01054ba6a.json": {
+   "bytes": 51693,
+   "sha256": "2d51a4141fcf103fc0a501f37955ad809460d1397152bff139ea2ab28e88f981"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/dask_serial/sf1/stefanjov__my-first-normalize-on-big-dataset__272902a356a1.json": {
+   "bytes": 29407,
+   "sha256": "040fb0f4ead67d25bc229f938670ff252732c686525e7d38b8a2f22fec7e8b4a"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/dask_serial/sf1/yashjaiswal1097__911-emergency-calls-kernel__4a0cfa45cf7f.json": {
+   "bytes": 57493,
+   "sha256": "1ee04a36ef037bd157291f52acd06fecaa77a198a000bbb6340b4df6aec99b10"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/dask_serial/sf1/yonelanuba__elo-merchant-by-yonela__4919c2893314.json": {
+   "bytes": 281954,
+   "sha256": "dd7e1d4cab2ee0f98a2f6c8ec6a4178a7de4ad693142e8ca20a01649f4a2ee71"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/fireducks_1t/sf1/akshaypetkar__supermarket-sales-analysis__b1aad591bb13.json": {
+   "bytes": 63783,
+   "sha256": "146e4c8731a6b30eee25ea90ffe4071c29e0e98239a8dc224e4ccfb51af632df"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/fireducks_1t/sf1/blaskowitz100__feature-engineering-based-on-the-suprise-me__8bf6b64c1b6e.json": {
+   "bytes": 115972,
+   "sha256": "21155d572064fdf8466e8683f4005c1c74b8f6a2b1b0084a2ebc5234675d5305"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/fireducks_1t/sf1/guyalmog__hr-analytics-predicting-employees-attrition__fa15b8608e4f.json": {
+   "bytes": 982654,
+   "sha256": "6284f499c221bf339abc43e4f601ebf46c9e838bb3c030e656ce5a7fbd3f23d7"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/fireducks_1t/sf1/loveall__favorita-analytics__d8d4b8178d39.json": {
+   "bytes": 42412,
+   "sha256": "05c34252ab007ca27edc80892ae8ed927530266b58f30ff15385a099bbc226d5"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/fireducks_1t/sf1/maxiaoyue__data-cleaning-challenge-handling-missing-values__e780e7ec3500.json": {
+   "bytes": 166489,
+   "sha256": "b75fd1560e2b10d2b0a7956c6226ed12954857d9145305799c7926e911095d26"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/fireducks_1t/sf1/nadare__feature-engenieering-with-pivot-table__94ed021a5ae9.json": {
+   "bytes": 18604957,
+   "sha256": "8b7d9e6a787b7565cd828fd9d8c51736f7c65aab7e3c0516ce37a6608c1da376"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/fireducks_1t/sf1/nihhaar__etltransform__6856eaa5eff5.json": {
+   "bytes": 19412,
+   "sha256": "4681dbc1baae0aa048f459ef99c41b6afb6cd0f685a04aca6c7166b687c934d7"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/fireducks_1t/sf1/paramarthasengupta__plotly-eda-top-movies-of-20th-century__44b44c4decd9.json": {
+   "bytes": 128964,
+   "sha256": "c9532d6783f488d7ab02dd55f1c8a24d4fc621aa72fff0dc84cf92906ae760f3"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/fireducks_1t/sf1/sunnybiswas__eda-on-airline-dataset__5001f67b7cb2.json": {
+   "bytes": 77582,
+   "sha256": "3dc1896a681ee5a6062a245740d3f29594985a29ba1c83ac5115b2224688e4e5"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/fireducks_1t/sf1/yonelanuba__elo-merchant-by-yonela__0ae5a357d4a0.json": {
+   "bytes": 397190,
+   "sha256": "b1251156dafd975f3ccf8e02c619677ebd9680e12ac1195d6839650dc22600e1"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/brianmendieta__data-cleaning-plus-eda__cb7bd1754b04.json": {
+   "bytes": 236755,
+   "sha256": "e8d64647db399ea04f9936fe5926fd569cad56b2fe9fdffb48c10193c8fe00fb"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/charulatashelar__indian-startup-funding-exploratory-data-analysis__0c886ac38866.json": {
+   "bytes": 98842,
+   "sha256": "b7506b0360061e0a32b02b7e416d840f99848f9800079a20e5aad55802957edd"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/chinstan__notebook249b4f3f5b__d21d2e05dac6.json": {
+   "bytes": 444450,
+   "sha256": "58c9ee9ba1bfc9eae77be37d2cc4e5a4c734e37afe45c989220edb49a3a7e553"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/christophriley__intro-machine-learning__8cdd0cdaaaa2.json": {
+   "bytes": 31246,
+   "sha256": "02e352558e5eb11224ca1a6fc2c9689d98f1027c2a92776f1839b3a9662835c4"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/danielresende__game-of-thrones-battles__7a5628f22936.json": {
+   "bytes": 28044,
+   "sha256": "8bc417627b09945ddb277b8232239369dc511e892b1ce4c8c379a82cdef623e8"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/dbatao__kernel2f80fc9d78__8670c2364540.json": {
+   "bytes": 398494,
+   "sha256": "437f401afe7d67dee5b690f8c9a04b63c1746e2d0325001733c81c82828141f6"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/deffro__eda-is-fun__00ea4b6281d8.json": {
+   "bytes": 176793,
+   "sha256": "14ecabc4fda33410aa69b87af86968a908e12560a787b52e61477bc1a4e762d2"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/ersinsen__fraud-3-eda__036b94e64324.json": {
+   "bytes": 424117,
+   "sha256": "fd3a5dd79f221ce9d28261566aa5c046c1f7d61469c70674aca97a9f43ee3dd0"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/grudd0__mass-shooting-analysis__e2e2303a8293.json": {
+   "bytes": 96679,
+   "sha256": "7b86457b52e367d41540ee253b9bb86f79b690f25993694e08bab2551a9c4682"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/gsilves__quiz-4-question-1__d83262dcb355.json": {
+   "bytes": 23517,
+   "sha256": "5f0bc33a49385d1020965439ba40874704ba7d558d0f4fb5428ac8af73a51b7b"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/guyalmog__hr-analytics-predicting-employees-attrition__064ea747258c.json": {
+   "bytes": 893684,
+   "sha256": "aa5fad5b46dc5693a8f1da7b290bf122f09cba3c96f2200d8c44f6c6a7ab2bc1"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/jagangupta__stop-the-s-toxic-comments-eda__3aa4a5b616f2.json": {
+   "bytes": 125499,
+   "sha256": "95b24322226824632490b4a2039586ad4af25a4c44edebe7ddb746c2eae60c9d"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/jirakst__book-recommendation__73c7acbec375.json": {
+   "bytes": 1196783,
+   "sha256": "a0211345d46f93c4bba0b2d66e7e7d0a6e943fe881fafdcdad2b6d0974777c11"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/kenjee__titanic-project-example__9c9ac454a53c.json": {
+   "bytes": 105966,
+   "sha256": "672069200a20e119b7e6dc3514d635baead2e5a31ddb711213734e693dc3d606"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/kmader__analyzing-matches__45635c2886cc.json": {
+   "bytes": 45521,
+   "sha256": "9e7ac8bc7ee3abe2490ac61d60606becf6367be214772294e6f9afb11c57c96f"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/kwullum__when-do-traffic-related-deaths-occur__1c25938386c5.json": {
+   "bytes": 38128,
+   "sha256": "5f496975e839d90e7fc489a1177bf32de1ca6a394f15bc893b9d1b7dd0e14a8f"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/maxiaoyue__data-cleaning-challenge-handling-missing-values__9896b5a1dc27.json": {
+   "bytes": 162660,
+   "sha256": "3e524595d47223d8373b2f249de8089701341c274f8e8ed860e38f9972cb3bd8"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/nihhaar__etltransform__5cde4bc7eb43.json": {
+   "bytes": 21439,
+   "sha256": "ba6f698d412edbbe0fbd383e4c55c589f2134b9010bbe69f5fcbea1d53be98f2"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/qnqfbqfqo__electric-vehicle-landscape-in-washington-state__adfdaadb7672.json": {
+   "bytes": 21332,
+   "sha256": "54f5de76d21072bf78ed3faa0d2aae4e8c4837297faf458d4462cc40c2d5d9c1"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/sabya40__data-cleaning-and-pandas-for-beginners__4636f5c28c06.json": {
+   "bytes": 51585,
+   "sha256": "911e171ffa490da95562660244721bb22a24b1bf3641513f0d126b500b1ddcaf"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/saniaks__melbourne-house-price-eda__2598fdc5260a.json": {
+   "bytes": 83596,
+   "sha256": "b35d0d8d6ff740c342236bd3dbf585d8160ed2ffa32d61308c5af3722e5073f2"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/santhoshrao1995__assi01-santhosh-19101036__3a6c065e58d2.json": {
+   "bytes": 94338,
+   "sha256": "2b93d231a167cf90004812046c7398bb924976463db8f4dbe160610c3cc71e09"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/shivavashishtha__zomato-eda-tutorial__763bf2c047d1.json": {
+   "bytes": 179461,
+   "sha256": "f8bf04c7f845ed9bb03657661cc2c98c90d04b6b839f1f86346188be921bb0b5"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/sunnybiswas__eda-on-airline-dataset__9f8a1434eb4d.json": {
+   "bytes": 74583,
+   "sha256": "718e41a75d6445cc408afd67c0618e175db5a087bb8c682658d638ca74f3fa22"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/thirumani__biggboss-hindi-telugu-tamil-kannada-marathi-bangla__59047a56ee00.json": {
+   "bytes": 69317,
+   "sha256": "eb18381e03eb00cccfd4858a68c3993485ef53617bf0845b2a69cbec9797e2c0"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__ab1b3d403602.json": {
+   "bytes": 46974,
+   "sha256": "52c00c9ad3b7d109134b0e3c75f41ae1b47224e8ac4c0eaac4036d7b1c3447eb"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/viviktpharale__house-price-prediction-eda-linear-ridge-lasso__f67385a2e261.json": {
+   "bytes": 66508,
+   "sha256": "43da398d35181eee162df01abb9f46d5b285dd654cc3b414760308271f8e79e5"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/willkoehrsen__start-here-a-gentle-introduction__dbcdc89b9856.json": {
+   "bytes": 860154,
+   "sha256": "1c55f30acd08cc138e2b7dcaec9760cf2963175d6fae8d36acd7b7bf6c851238"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/wyl4417__machine-learning-and-how-it-affects-you__03b9d20ea830.json": {
+   "bytes": 935079,
+   "sha256": "ce53f4d9cb87fd59ca35f76dcaee786d2013a89a0c7b7560c7a0ae2189bfde5a"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/xingobar__computer-science-data-visualization__1343992b74b4.json": {
+   "bytes": 46186,
+   "sha256": "cb3d7d63ff98c2e716d38d95287b7cb1c6a5a18f064d72a164e403677eceb41c"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/yonelanuba__elo-merchant-by-yonela__085d31d22975.json": {
+   "bytes": 418312,
+   "sha256": "dc2a6a627f897b2509b5e1dec17bb138d22f94038bda3f088a8b77cd2a0f338e"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/yuliagm__talkingdata-eda-plus-time-patterns__a8a88a02bb8e.json": {
+   "bytes": 108741,
+   "sha256": "4eb2a22212d0edafcabe03cbe085e418686c5eebca5c2c0c9c4b8667704936fe"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/pyarrow_1t/sf1/carlmcbrideellis__simple-eda-of-kaggle-grandmasters-scheduled__569d601183f2.json": {
+   "bytes": 89109,
+   "sha256": "cfebc07b69f572d36ea12ccafd0a49ae8248970435f7836ddb8e6eaf0ed4768d"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/pyarrow_1t/sf1/maxiaoyue__data-cleaning-challenge-handling-missing-values__ec9286fd2883.json": {
+   "bytes": 162655,
+   "sha256": "4c9c47345665380a16e95531990bcb0b7dc5e7a4a517205476a7e0807a8dde8b"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/pyarrow_1t/sf1/paramarthasengupta__plotly-eda-top-movies-of-20th-century__f6fec4b91c0b.json": {
+   "bytes": 119547,
+   "sha256": "7588bfb32afa897086acb03666fc5cc2287c6400847ec5ac30bc79a2a42a4b22"
+  },
+  "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/pyarrow_1t/sf1/sunnybiswas__eda-on-airline-dataset__48088ebb5eee.json": {
+   "bytes": 76739,
+   "sha256": "7abac92bd9866e47645f3874328b1b53257a787f557dacb9144fc1fab653dfdd"
+  }
+ },
+ "replay_store_blobs": 1902,
+ "replay_store_bytes": 2342293332
+}

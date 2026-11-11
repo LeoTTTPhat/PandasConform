@@ -1,0 +1,46 @@
+{
+ "harness_sha": "d1c421ecb5eec2bda275e05aebacd0f0a8766869334d36f786f3f66a3a86a380",
+ "runs": {
+  "capture|ref|corazzon/how-to-use-pandas-filter-in-survey-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref/sf1/corazzon__how-to-use-pandas-filter-in-survey-eda__bf9d9c9ee5ee.json",
+   "status": "completed"
+  },
+  "capture|ref|deffro/eda-is-fun|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref/sf1/deffro__eda-is-fun__9b28e1185485.json",
+   "status": "completed"
+  },
+  "capture|ref|kanncaa1/dataiteam-titanic-eda|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref/sf1/kanncaa1__dataiteam-titanic-eda__653708775bd8.json",
+   "status": "completed"
+  },
+  "capture|ref|kimtaehun/simple-preprocessing-for-time-series-prediction|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref/sf1/kimtaehun__simple-preprocessing-for-time-series-prediction__725a0ba55afb.json",
+   "status": "completed"
+  },
+  "capture|ref|roopahegde/cryptocurrency-price-correlation|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref/sf1/roopahegde__cryptocurrency-price-correlation__2b119c330ad3.json",
+   "status": "completed"
+  },
+  "capture|ref|sabya40/data-cleaning-and-pandas-for-beginners|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref/sf1/sabya40__data-cleaning-and-pandas-for-beginners__625316214d83.json",
+   "status": "completed"
+  },
+  "capture|ref|shashi772/data-cleaning-challenge-parsing-dates|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref/sf1/shashi772__data-cleaning-challenge-parsing-dates__2e9ee3538fd3.json",
+   "status": "completed"
+  },
+  "capture|ref|trinath003/data-manipulation-visualisation-on-kaggle-datasets|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__07ff6ef28124.json",
+   "status": "completed"
+  },
+  "capture|ref|xingobar/computer-science-data-visualization|1.0|1": {
+   "record": "results/pilot/raw/runs__hd1c421ecb5ee/ref/sf1/xingobar__computer-science-data-visualization__0cbd2f7ed7c4.json",
+   "status": "completed"
+  },
+  "capture|ref|yonelanuba/elo-merchant-by-yonela|1.0|1": {
+   "record": null,
+   "status": "interrupted"
+  }
+ },
+ "updated": "2026-10-02T16:21:08"
+}

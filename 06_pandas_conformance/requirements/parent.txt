@@ -1,0 +1,11 @@
+# Parent/orchestrator side runs in the shared venv /Users/sonha/Documents/SonHa/SIGMOD27/.venv
+# (stdlib + numpy, pandas, pyarrow, psutil for process control; gdown for the data download).
+# Versions observed on 2026-10-02:
+gdown==6.4.1
+psutil==7.2.2
+pandas==3.0.6
+pyarrow==25.0.1
+numpy==2.5.3
+
+scipy==1.18.1
+matplotlib==3.11.2

@@ -1,0 +1,1748 @@
+{
+ "cases": [
+  {
+   "baseline_matches_capture": true,
+   "cell": 30,
+   "claim": "Modin corr(numeric_only=True) has diagonal entries 5.38 and 8.41 (out of range)",
+   "configs": {
+    "modin": {
+     "captured_conf_1x": {
+      "_": {
+       "diag": [
+        0.028835,
+        5.378365,
+        8.410515,
+        -0.478537,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        3.859109,
+        0.014364,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        8.400503,
+        -0.543131
+       ],
+       "n_outside": 108
+      }
+     },
+     "captured_d1_replay": {
+      "_": {
+       "diag": [
+        0.028835,
+        5.378365,
+        8.410515,
+        -0.478537,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        3.859109,
+        0.014364,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        8.400503,
+        -0.543131
+       ],
+       "n_outside": 108
+      }
+     },
+     "captured_pilot": null,
+     "rerun": false,
+     "uncaptured": [
+      {
+       "error": null,
+       "ok": true,
+       "rep": 1,
+       "value": {
+        "_": {
+         "diag": [
+          0.028835,
+          5.378365,
+          8.410515,
+          -0.478537,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          3.859109,
+          0.014364,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          8.400503,
+          -0.543131
+         ],
+         "n_outside": 108
+        }
+       },
+       "warnings": []
+      },
+      {
+       "error": null,
+       "ok": true,
+       "rep": 2,
+       "value": {
+        "_": {
+         "diag": [
+          0.028835,
+          5.378365,
+          8.410515,
+          -0.478537,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          3.859109,
+          0.014364,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          8.400503,
+          -0.543131
+         ],
+         "n_outside": 108
+        }
+       },
+       "warnings": []
+      }
+     ],
+     "verdict": "confirmed engine behaviour"
+    }
+   },
+   "group": "named",
+   "id": "corr_diag_deffro",
+   "nb": "deffro/eda-is-fun",
+   "pandas_uncaptured": {
+    "_": {
+     "diag": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "n_outside": 0
+    }
+   },
+   "pandas_uncaptured_error": null,
+   "pandas_warnings": [],
+   "ref_captured": {
+    "_": {
+     "diag": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "n_outside": 0
+    }
+   }
+  },
+  {
+   "baseline_matches_capture": true,
+   "cell": 8,
+   "claim": "Modin corr() returns entries outside [-1, 1] (second notebook of the same cause)",
+   "configs": {
+    "modin": {
+     "captured_conf_1x": {
+      "__last__": {
+       "diag": [
+        null,
+        0.028538,
+        null,
+        1.707047,
+        1.0,
+        0.999805,
+        1.0
+       ],
+       "n_outside": 6
+      }
+     },
+     "captured_d1_replay": {
+      "__last__": {
+       "diag": [
+        null,
+        0.028538,
+        null,
+        1.707047,
+        1.0,
+        0.999805,
+        1.0
+       ],
+       "n_outside": 6
+      }
+     },
+     "captured_pilot": null,
+     "rerun": false,
+     "uncaptured": [
+      {
+       "error": null,
+       "ok": true,
+       "rep": 1,
+       "value": {
+        "__last__": {
+         "diag": [
+          null,
+          0.028538,
+          null,
+          1.707047,
+          1.0,
+          0.999805,
+          1.0
+         ],
+         "n_outside": 6
+        }
+       },
+       "warnings": []
+      },
+      {
+       "error": null,
+       "ok": true,
+       "rep": 2,
+       "value": {
+        "__last__": {
+         "diag": [
+          null,
+          0.028538,
+          null,
+          1.707047,
+          1.0,
+          0.999805,
+          1.0
+         ],
+         "n_outside": 6
+        }
+       },
+       "warnings": []
+      }
+     ],
+     "verdict": "confirmed engine behaviour"
+    }
+   },
+   "group": "named",
+   "id": "corr_diag_ev",
+   "nb": "qnqfbqfqo/electric-vehicle-landscape-in-washington-state",
+   "pandas_uncaptured": {
+    "__last__": {
+     "diag": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "n_outside": 0
+    }
+   },
+   "pandas_uncaptured_error": null,
+   "pandas_warnings": [],
+   "ref_captured": {
+    "__last__": {
+     "diag": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "n_outside": 0
+    }
+   }
+  },
+  {
+   "baseline_matches_capture": true,
+   "cell": 0,
+   "claim": "Bodo at its default worker count reads 1,692 of 1,693 (and 1,507 of 1,508) rows; one worker reads all",
+   "configs": {
+    "bodo": {
+     "captured_conf_1x": {
+      "earthquakes": 23412,
+      "landslides": 1693,
+      "volcanos": 1508
+     },
+     "captured_d1_replay": null,
+     "captured_pilot": null,
+     "rerun": false,
+     "uncaptured": [
+      {
+       "error": null,
+       "ok": true,
+       "rep": 1,
+       "value": {
+        "earthquakes": 23412,
+        "landslides": 1693,
+        "volcanos": 1508
+       },
+       "warnings": []
+      },
+      {
+       "error": null,
+       "ok": true,
+       "rep": 2,
+       "value": {
+        "earthquakes": 23412,
+        "landslides": 1693,
+        "volcanos": 1508
+       },
+       "warnings": []
+      }
+     ],
+     "verdict": "no difference (captured run agrees with pandas too)"
+    },
+    "bodo_dw": {
+     "captured_conf_1x": {
+      "earthquakes": 23412,
+      "landslides": 1692,
+      "volcanos": 1507
+     },
+     "captured_d1_replay": null,
+     "captured_pilot": {
+      "earthquakes": 23412,
+      "landslides": 1692,
+      "volcanos": 1507
+     },
+     "rerun": false,
+     "uncaptured": [
+      {
+       "error": null,
+       "ok": true,
+       "rep": 1,
+       "value": {
+        "earthquakes": 23412,
+        "landslides": 1692,
+        "volcanos": 1507
+       },
+       "warnings": []
+      },
+      {
+       "error": null,
+       "ok": true,
+       "rep": 2,
+       "value": {
+        "earthquakes": 23412,
+        "landslides": 1692,
+        "volcanos": 1507
+       },
+       "warnings": []
+      }
+     ],
+     "verdict": "confirmed engine behaviour"
+    }
+   },
+   "group": "named",
+   "id": "read_rows_bodo_dw",
+   "nb": "shashi772/data-cleaning-challenge-parsing-dates",
+   "pandas_uncaptured": {
+    "earthquakes": 23412,
+    "landslides": 1693,
+    "volcanos": 1508
+   },
+   "pandas_uncaptured_error": null,
+   "pandas_warnings": [],
+   "ref_captured": {
+    "earthquakes": 23412,
+    "landslides": 1693,
+    "volcanos": 1508
+   }
+  },
+  {
+   "baseline_matches_capture": true,
+   "cell": 12,
+   "claim": "Bodo's approximate 0.99 quantile changes which rows a threshold filter keeps",
+   "configs": {
+    "bodo": {
+     "captured_conf_1x": {
+      "_": 4400164
+     },
+     "captured_d1_replay": {
+      "_": 4415729
+     },
+     "captured_pilot": null,
+     "rerun": false,
+     "uncaptured": [
+      {
+       "error": null,
+       "ok": true,
+       "rep": 1,
+       "value": {
+        "_": 4396024
+       },
+       "warnings": []
+      },
+      {
+       "error": null,
+       "ok": true,
+       "rep": 2,
+       "value": {
+        "_": 4389719
+       },
+       "warnings": []
+      }
+     ],
+     "verdict": "confirmed engine behaviour (uncaptured value differs from the captured one in 2 of 2 runs)"
+    }
+   },
+   "group": "silent",
+   "id": "approx_quantile_deffro",
+   "nb": "deffro/eda-is-fun",
+   "pandas_uncaptured": {
+    "_": 4402460
+   },
+   "pandas_uncaptured_error": null,
+   "pandas_warnings": [],
+   "ref_captured": {
+    "_": 4402460
+   }
+  },
+  {
+   "baseline_matches_capture": true,
+   "cell": 16,
+   "claim": "Bodo's approximate 0.05/0.95 quantiles differ and the outlier filter keeps another row count",
+   "configs": {
+    "bodo": {
+     "captured_conf_1x": {
+      "Q1": 459.0,
+      "Q3": 48700.0,
+      "__last__": 8
+     },
+     "captured_d1_replay": {
+      "Q1": 459.0,
+      "Q3": 48700.0,
+      "__last__": 8
+     },
+     "captured_pilot": null,
+     "rerun": false,
+     "uncaptured": [
+      {
+       "error": null,
+       "ok": true,
+       "rep": 1,
+       "value": {
+        "Q1": 459.0,
+        "Q3": 48700.0,
+        "__last__": 8
+       },
+       "warnings": []
+      },
+      {
+       "error": null,
+       "ok": true,
+       "rep": 2,
+       "value": {
+        "Q1": 459.0,
+        "Q3": 48700.0,
+        "__last__": 8
+       },
+       "warnings": []
+      }
+     ],
+     "verdict": "confirmed engine behaviour"
+    }
+   },
+   "group": "silent",
+   "id": "approx_quantile_gmanish",
+   "nb": "gmanish/help-ngo-country-clustering",
+   "pandas_uncaptured": {
+    "Q1": 465.9,
+    "Q3": 48610.0,
+    "__last__": 9
+   },
+   "pandas_uncaptured_error": null,
+   "pandas_warnings": [],
+   "ref_captured": {
+    "Q1": 465.9,
+    "Q3": 48610.0,
+    "__last__": 9
+   }
+  },
+  {
+   "baseline_matches_capture": true,
+   "cell": 9,
+   "claim": "FireDucks' chained fillna(inplace=True) does not write through, without pandas' warning",
+   "configs": {
+    "fireducks": {
+     "captured_conf_1x": {
+      "tweet_train_df": {
+       "id": 0,
+       "keyword": 61,
+       "location": 2533,
+       "target": 0,
+       "text": 0
+      }
+     },
+     "captured_d1_replay": {
+      "tweet_train_df": {
+       "id": 0,
+       "keyword": 61,
+       "location": 2533,
+       "target": 0,
+       "text": 0
+      }
+     },
+     "captured_pilot": null,
+     "rerun": true,
+     "uncaptured": [
+      {
+       "error": null,
+       "ok": true,
+       "rep": 1,
+       "value": {
+        "tweet_train_df": {
+         "id": 0,
+         "keyword": 61,
+         "location": 2533,
+         "target": 0,
+         "text": 0
+        }
+       },
+       "warnings": []
+      },
+      {
+       "error": null,
+       "ok": true,
+       "rep": 2,
+       "value": {
+        "tweet_train_df": {
+         "id": 0,
+         "keyword": 61,
+         "location": 2533,
+         "target": 0,
+         "text": 0
+        }
+       },
+       "warnings": []
+      }
+     ],
+     "verdict": "confirmed engine behaviour"
+    }
+   },
+   "group": "silent",
+   "id": "chained_assignment_tweet",
+   "nb": "ayushsingh5941/tweet-disaster-or-not",
+   "pandas_uncaptured": {
+    "tweet_train_df": {
+     "id": 0,
+     "keyword": 0,
+     "location": 0,
+     "target": 0,
+     "text": 0
+    }
+   },
+   "pandas_uncaptured_error": null,
+   "pandas_warnings": [
+    [
+     "FutureWarning",
+     "A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\nThe behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are s"
+    ]
+   ],
+   "ref_captured": {
+    "tweet_train_df": {
+     "id": 0,
+     "keyword": 0,
+     "location": 0,
+     "target": 0,
+     "text": 0
+    }
+   }
+  },
+  {
+   "baseline_matches_capture": true,
+   "cell": 9,
+   "claim": "FireDucks chained assignment (cell attributed to cow_chained_assignment)",
+   "configs": {
+    "fireducks": {
+     "captured_conf_1x": {
+      "df": {
+       "ncol": 124,
+       "self_employed_na": 18,
+       "state_cols": [
+        "state_IL",
+        "state_IN",
+        "state_TX",
+        "state_TN",
+        "state_MI",
+        "state_OH"
+       ]
+      },
+      "st": "None"
+     },
+     "captured_d1_replay": {
+      "df": {
+       "ncol": 124,
+       "self_employed_na": 18,
+       "state_cols": [
+        "state_IL",
+        "state_IN",
+        "state_TX",
+        "state_TN",
+        "state_MI",
+        "state_OH"
+       ]
+      },
+      "st": "None"
+     },
+     "captured_pilot": null,
+     "rerun": true,
+     "uncaptured": [
+      {
+       "error": null,
+       "ok": true,
+       "rep": 1,
+       "value": {
+        "df": {
+         "ncol": 124,
+         "self_employed_na": 18,
+         "state_cols": [
+          "state_IL",
+          "state_IN",
+          "state_TX",
+          "state_TN",
+          "state_MI",
+          "state_OH"
+         ]
+        },
+        "st": "None"
+       },
+       "warnings": [
+        [
+         "FallbackWarning",
+         "Series.__eq__ 0.001280 sec getobj 0.001083 getattr 0.000004 args 0.000008 call 0.000040 unknown op: 'eq' on 'Series' and 'NoneType'"
+        ],
+        [
+         "FallbackWarning",
+         "Series.mode 0.001706 sec getobj 0.000913 getattr 0.000006 args 0.000008 call 0.000590 Series.__getattr__ for mode is called"
+        ],
+        [
+         "FallbackWarning",
+         "DataFrame.select_dtypes 0.002668 sec getobj 0.002346 getattr 0.000005 args 0.000007 call 0.000166 DataFrame.__getattr__ for select_dtypes is called"
+        ]
+       ]
+      },
+      {
+       "error": null,
+       "ok": true,
+       "rep": 2,
+       "value": {
+        "df": {
+         "ncol": 124,
+         "self_employed_na": 18,
+         "state_cols": [
+          "state_IL",
+          "state_IN",
+          "state_TX",
+          "state_TN",
+          "state_MI",
+          "state_OH"
+         ]
+        },
+        "st": "None"
+       },
+       "warnings": [
+        [
+         "FallbackWarning",
+         "Series.__eq__ 0.001095 sec getobj 0.000901 getattr 0.000004 args 0.000008 call 0.000037 unknown op: 'eq' on 'Series' and 'NoneType'"
+        ],
+        [
+         "FallbackWarning",
+         "Series.mode 0.001069 sec getobj 0.000811 getattr 0.000005 args 0.000006 call 0.000093 Series.__getattr__ for mode is called"
+        ],
+        [
+         "FallbackWarning",
+         "DataFrame.select_dtypes 0.002455 sec getobj 0.002133 getattr 0.000005 args 0.000007 call 0.000157 DataFrame.__getattr__ for select_dtypes is called"
+        ]
+       ]
+      }
+     ],
+     "verdict": "confirmed engine behaviour"
+    }
+   },
+   "group": "silent",
+   "id": "chained_assignment_scout",
+   "nb": "arjoonn/scout-script-7",
+   "pandas_uncaptured": {
+    "df": {
+     "ncol": 124,
+     "self_employed_na": 0,
+     "state_cols": [
+      "state_IL",
+      "state_IN",
+      "state_nan",
+      "state_TX",
+      "state_TN",
+      "state_MI"
+     ]
+    },
+    "st": "ME"
+   },
+   "pandas_uncaptured_error": null,
+   "pandas_warnings": [
+    [
+     "PerformanceWarning",
+     "DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe"
+    ],
+    [
+     "FutureWarning",
+     "A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\nThe behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are s"
+    ]
+   ],
+   "ref_captured": {
+    "df": {
+     "ncol": 124,
+     "self_employed_na": 0,
+     "state_cols": [
+      "state_IL",
+      "state_IN",
+      "state_nan",
+      "state_TX",
+      "state_TN",
+      "state_MI"
+     ]
+    },
+    "st": "ME"
+   }
+  },
+  {
+   "baseline_matches_capture": true,
+   "cell": 11,
+   "claim": "Modin's value_counts of a cut result drops the empty bin",
+   "configs": {
+    "modin": {
+     "captured_conf_1x": {
+      "__last__": {
+       "len": 7,
+       "zeros": 0
+      }
+     },
+     "captured_d1_replay": {
+      "__last__": {
+       "len": 7,
+       "zeros": 0
+      }
+     },
+     "captured_pilot": null,
+     "rerun": false,
+     "uncaptured": [
+      {
+       "error": null,
+       "ok": true,
+       "rep": 1,
+       "value": {
+        "__last__": {
+         "len": 7,
+         "zeros": 0
+        }
+       },
+       "warnings": [
+        [
+         "UserWarning",
+         "squeeze_and_cut is not currently supported by PandasOnRay, defaulting to pandas implementation.\nPlease refer to https://modin.readthedocs.io/en/stable/supported_apis/defaulting_to_pandas.html for explanation."
+        ],
+        [
+         "FutureWarning",
+         "pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead."
+        ],
+        [
+         "UserWarning",
+         "`df.groupby(categorical_by, sort=False)` implementation has mismatches with pandas:\nthe groupby keys will be sorted anyway, although the 'sort=False' was passed. See the following issue for more details: https://github.com/modin-project/mod"
+        ]
+       ]
+      },
+      {
+       "error": null,
+       "ok": true,
+       "rep": 2,
+       "value": {
+        "__last__": {
+         "len": 7,
+         "zeros": 0
+        }
+       },
+       "warnings": [
+        [
+         "UserWarning",
+         "squeeze_and_cut is not currently supported by PandasOnRay, defaulting to pandas implementation.\nPlease refer to https://modin.readthedocs.io/en/stable/supported_apis/defaulting_to_pandas.html for explanation."
+        ],
+        [
+         "FutureWarning",
+         "pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead."
+        ],
+        [
+         "UserWarning",
+         "`df.groupby(categorical_by, sort=False)` implementation has mismatches with pandas:\nthe groupby keys will be sorted anyway, although the 'sort=False' was passed. See the following issue for more details: https://github.com/modin-project/mod"
+        ]
+       ]
+      }
+     ],
+     "verdict": "confirmed engine behaviour"
+    }
+   },
+   "group": "silent",
+   "id": "value_counts_cut_modin",
+   "nb": "trinath003/data-manipulation-visualisation-on-kaggle-datasets",
+   "pandas_uncaptured": {
+    "__last__": {
+     "len": 8,
+     "zeros": 1
+    }
+   },
+   "pandas_uncaptured_error": null,
+   "pandas_warnings": [
+    [
+     "FutureWarning",
+     "pandas.value_counts is deprecated and will be removed in a future version. Use pd.Series(obj).value_counts() instead."
+    ]
+   ],
+   "ref_captured": {
+    "__last__": {
+     "len": 8,
+     "zeros": 1
+    }
+   }
+  },
+  {
+   "baseline_matches_capture": true,
+   "cell": 22,
+   "claim": "Modin's pivot_table(aggfunc='size') returns a DataFrame instead of a Series",
+   "configs": {
+    "modin": {
+     "captured_conf_1x": {
+      "dups_category": {
+       "ndim": 2,
+       "shape": [
+        261,
+        5
+       ],
+       "type": "DataFrame"
+      }
+     },
+     "captured_d1_replay": {
+      "dups_category": {
+       "ndim": 2,
+       "shape": [
+        261,
+        5
+       ],
+       "type": "DataFrame"
+      }
+     },
+     "captured_pilot": null,
+     "rerun": false,
+     "uncaptured": [
+      {
+       "error": null,
+       "ok": true,
+       "rep": 1,
+       "value": {
+        "dups_category": {
+         "ndim": 2,
+         "shape": [
+          261,
+          5
+         ],
+         "type": "DataFrame"
+        }
+       },
+       "warnings": [
+        [
+         "UserWarning",
+         "`pivot_table` implementation has mismatches with pandas:\nOrder of columns could be different from pandas."
+        ]
+       ]
+      },
+      {
+       "error": null,
+       "ok": true,
+       "rep": 2,
+       "value": {
+        "dups_category": {
+         "ndim": 2,
+         "shape": [
+          261,
+          5
+         ],
+         "type": "DataFrame"
+        }
+       },
+       "warnings": [
+        [
+         "UserWarning",
+         "`pivot_table` implementation has mismatches with pandas:\nOrder of columns could be different from pandas."
+        ]
+       ]
+      }
+     ],
+     "verdict": "confirmed engine behaviour"
+    }
+   },
+   "group": "silent",
+   "id": "pivot_table_size_modin",
+   "nb": "sabya40/data-cleaning-and-pandas-for-beginners",
+   "pandas_uncaptured": {
+    "dups_category": {
+     "ndim": 1,
+     "shape": [
+      261
+     ],
+     "type": "Series"
+    }
+   },
+   "pandas_uncaptured_error": null,
+   "pandas_warnings": [],
+   "ref_captured": {
+    "dups_category": {
+     "ndim": 1,
+     "shape": [
+      261
+     ],
+     "type": "Series"
+    }
+   }
+  },
+  {
+   "baseline_matches_capture": true,
+   "cell": 2,
+   "claim": "Modin loses an axis name (index name after df.index = df.Date)",
+   "configs": {
+    "modin": {
+     "captured_conf_1x": {
+      "df": {
+       "index_name": null
+      }
+     },
+     "captured_d1_replay": {
+      "df": {
+       "index_name": null
+      }
+     },
+     "captured_pilot": null,
+     "rerun": false,
+     "uncaptured": [
+      {
+       "error": null,
+       "ok": true,
+       "rep": 1,
+       "value": {
+        "df": {
+         "index_name": null
+        }
+       },
+       "warnings": [
+        [
+         "UserWarning",
+         "`read_*` implementation has mismatches with pandas:\nData types of partitions are different! Please refer to the troubleshooting section of the Modin documentation to fix this issue."
+        ]
+       ]
+      },
+      {
+       "error": null,
+       "ok": true,
+       "rep": 2,
+       "value": {
+        "df": {
+         "index_name": null
+        }
+       },
+       "warnings": [
+        [
+         "UserWarning",
+         "`read_*` implementation has mismatches with pandas:\nData types of partitions are different! Please refer to the troubleshooting section of the Modin documentation to fix this issue."
+        ]
+       ]
+      }
+     ],
+     "verdict": "confirmed engine behaviour"
+    }
+   },
+   "group": "silent",
+   "id": "index_name_modin",
+   "nb": "grudd0/mass-shooting-analysis",
+   "pandas_uncaptured": {
+    "df": {
+     "index_name": "Date"
+    }
+   },
+   "pandas_uncaptured_error": null,
+   "pandas_warnings": [],
+   "ref_captured": {
+    "df": {
+     "index_name": "Date"
+    }
+   }
+  },
+  {
+   "baseline_matches_capture": true,
+   "cell": 33,
+   "claim": "Modin loses the side effects of a function passed to apply (a list extended inside apply)",
+   "configs": {
+    "modin": {
+     "captured_conf_1x": {
+      "cuisines": 5
+     },
+     "captured_d1_replay": {
+      "cuisines": 5
+     },
+     "captured_pilot": null,
+     "rerun": false,
+     "uncaptured": [
+      {
+       "error": null,
+       "ok": true,
+       "rep": 1,
+       "value": {
+        "cuisines": 5
+       },
+       "warnings": []
+      },
+      {
+       "error": null,
+       "ok": true,
+       "rep": 2,
+       "value": {
+        "cuisines": 5
+       },
+       "warnings": []
+      }
+     ],
+     "verdict": "confirmed engine behaviour"
+    }
+   },
+   "group": "rater",
+   "id": "apply_side_effects_modin",
+   "nb": "shivavashishtha/zomato-eda-tutorial",
+   "pandas_uncaptured": {
+    "cuisines": 124234
+   },
+   "pandas_uncaptured_error": null,
+   "pandas_warnings": [],
+   "ref_captured": {
+    "cuisines": 124234
+   }
+  },
+  {
+   "baseline_matches_capture": true,
+   "cell": 4,
+   "claim": "Bodo's head() shows data from before a column update",
+   "configs": {
+    "bodo": {
+     "captured_conf_1x": {
+      "__last__": [
+       "18:45",
+       "07:50",
+       "18:08",
+       "07:40",
+       "07:30"
+      ]
+     },
+     "captured_d1_replay": {
+      "__last__": [
+       "18:45",
+       "07:50",
+       "18:08",
+       "07:40",
+       "07:30"
+      ]
+     },
+     "captured_pilot": null,
+     "rerun": false,
+     "uncaptured": [
+      {
+       "error": null,
+       "ok": true,
+       "rep": 1,
+       "value": {
+        "__last__": [
+         "18:45",
+         "07:50",
+         "18:08",
+         "07:40",
+         "07:30"
+        ]
+       },
+       "warnings": [
+        [
+         "BodoLibFallbackWarning",
+         "DataFrame.__setitem__ is not implemented in Bodo DataFrames for the specified arguments yet. Falling back to Pandas (may be slow or run out of memory).\nException: Only setting a column with a Series created from the same dataframe is suppor"
+        ]
+       ]
+      },
+      {
+       "error": null,
+       "ok": true,
+       "rep": 2,
+       "value": {
+        "__last__": [
+         "18:45",
+         "07:50",
+         "18:08",
+         "07:40",
+         "07:30"
+        ]
+       },
+       "warnings": [
+        [
+         "BodoLibFallbackWarning",
+         "DataFrame.__setitem__ is not implemented in Bodo DataFrames for the specified arguments yet. Falling back to Pandas (may be slow or run out of memory).\nException: Only setting a column with a Series created from the same dataframe is suppor"
+        ]
+       ]
+      }
+     ],
+     "verdict": "confirmed engine behaviour"
+    }
+   },
+   "group": "rater",
+   "id": "stale_head_bodo",
+   "nb": "kwullum/when-do-traffic-related-deaths-occur",
+   "pandas_uncaptured": {
+    "__last__": [
+     "18",
+     "07",
+     "18",
+     "07",
+     "07"
+    ]
+   },
+   "pandas_uncaptured_error": null,
+   "pandas_warnings": [],
+   "ref_captured": {
+    "__last__": [
+     "18",
+     "07",
+     "18",
+     "07",
+     "07"
+    ]
+   }
+  },
+  {
+   "baseline_matches_capture": true,
+   "cell": 5,
+   "claim": "FireDucks' group-by after .at assignments uses the data from before them",
+   "configs": {
+    "fireducks": {
+     "captured_conf_1x": {
+      "__last__": {
+       "index": [
+        "Balon/Euron Greyjoy",
+        "Joffrey/Tommen Baratheon",
+        "Robb Stark",
+        "Stannis Baratheon"
+       ],
+       "shape": [
+        4,
+        2
+       ]
+      }
+     },
+     "captured_d1_replay": {
+      "__last__": {
+       "index": [
+        "Balon/Euron Greyjoy",
+        "Joffrey/Tommen Baratheon",
+        "Robb Stark",
+        "Stannis Baratheon"
+       ],
+       "shape": [
+        4,
+        2
+       ]
+      }
+     },
+     "captured_pilot": null,
+     "rerun": false,
+     "uncaptured": [
+      {
+       "error": null,
+       "ok": true,
+       "rep": 1,
+       "value": {
+        "__last__": {
+         "index": [
+          "Balon/Euron Greyjoy",
+          "Joffrey/Tommen Baratheon",
+          "Robb Stark",
+          "Stannis Baratheon"
+         ],
+         "shape": [
+          4,
+          2
+         ]
+        }
+       },
+       "warnings": [
+        [
+         "FallbackWarning",
+         "Series.unstack 0.013154 sec getobj 0.010561 getattr 0.000004 args 0.000005 call 0.002440 Series.__getattr__ for unstack is called"
+        ]
+       ]
+      },
+      {
+       "error": null,
+       "ok": true,
+       "rep": 2,
+       "value": {
+        "__last__": {
+         "index": [
+          "Balon/Euron Greyjoy",
+          "Joffrey/Tommen Baratheon",
+          "Robb Stark",
+          "Stannis Baratheon"
+         ],
+         "shape": [
+          4,
+          2
+         ]
+        }
+       },
+       "warnings": [
+        [
+         "FallbackWarning",
+         "Series.unstack 0.004100 sec getobj 0.003079 getattr 0.000006 args 0.000005 call 0.000836 Series.__getattr__ for unstack is called"
+        ]
+       ]
+      }
+     ],
+     "verdict": "confirmed engine behaviour"
+    }
+   },
+   "group": "rater",
+   "id": "stale_groupby_fireducks",
+   "nb": "danielresende/game-of-thrones-battles",
+   "pandas_uncaptured": {
+    "__last__": {
+     "index": [
+      "Balon/Euron Greyjoy",
+      "Joffrey/Tommen Baratheon",
+      "Mance Rayder",
+      "Robb Stark",
+      "Stannis Baratheon"
+     ],
+     "shape": [
+      5,
+      2
+     ]
+    }
+   },
+   "pandas_uncaptured_error": null,
+   "pandas_warnings": [],
+   "ref_captured": {
+    "__last__": {
+     "index": [
+      "Balon/Euron Greyjoy",
+      "Joffrey/Tommen Baratheon",
+      "Mance Rayder",
+      "Robb Stark",
+      "Stannis Baratheon"
+     ],
+     "shape": [
+      5,
+      2
+     ]
+    }
+   }
+  },
+  {
+   "baseline_matches_capture": true,
+   "cell": 2,
+   "claim": "Bodo's filtered index holds positions, so drop() removes other rows",
+   "configs": {
+    "bodo": {
+     "captured_conf_1x": {
+      "data": {
+       "index_head": [
+        348,
+        349,
+        350
+       ],
+       "rows": 16250
+      },
+      "drop_row_index": [
+       0,
+       1,
+       2
+      ]
+     },
+     "captured_d1_replay": {
+      "data": {
+       "index_head": [
+        348,
+        349,
+        350
+       ],
+       "rows": 16250
+      },
+      "drop_row_index": [
+       0,
+       1,
+       2
+      ]
+     },
+     "captured_pilot": null,
+     "rerun": false,
+     "uncaptured": [
+      {
+       "error": null,
+       "ok": true,
+       "rep": 1,
+       "value": {
+        "data": {
+         "index_head": [
+          348,
+          349,
+          350
+         ],
+         "rows": 16250
+        },
+        "drop_row_index": [
+         0,
+         1,
+         2
+        ]
+       },
+       "warnings": [
+        [
+         "BodoLibFallbackWarning",
+         "DataFrame.drop is not implemented in Bodo DataFrames for the specified arguments yet. Falling back to Pandas (may be slow or run out of memory)."
+        ]
+       ]
+      },
+      {
+       "error": null,
+       "ok": true,
+       "rep": 2,
+       "value": {
+        "data": {
+         "index_head": [
+          348,
+          349,
+          350
+         ],
+         "rows": 16250
+        },
+        "drop_row_index": [
+         0,
+         1,
+         2
+        ]
+       },
+       "warnings": [
+        [
+         "BodoLibFallbackWarning",
+         "DataFrame.drop is not implemented in Bodo DataFrames for the specified arguments yet. Falling back to Pandas (may be slow or run out of memory)."
+        ]
+       ]
+      }
+     ],
+     "verdict": "confirmed engine behaviour"
+    }
+   },
+   "group": "rater",
+   "id": "positions_labels_bodo",
+   "nb": "snanilim/video-games-sales-analysis-and-visualization",
+   "pandas_uncaptured": {
+    "data": {
+     "index_head": [
+      0,
+      1,
+      2
+     ],
+     "rows": 16250
+    },
+    "drop_row_index": [
+     221,
+     271,
+     351
+    ]
+   },
+   "pandas_uncaptured_error": null,
+   "pandas_warnings": [],
+   "ref_captured": {
+    "data": {
+     "index_head": [
+      0,
+      1,
+      2
+     ],
+     "rows": 16250
+    },
+    "drop_row_index": [
+     221,
+     271,
+     351
+    ]
+   }
+  },
+  {
+   "baseline_matches_capture": true,
+   "cell": 4,
+   "claim": "FireDucks' nunique() counts missing values",
+   "configs": {
+    "fireducks": {
+     "captured_conf_1x": {
+      "__last__": [
+       314,
+       13378,
+       9,
+       3,
+       2204,
+       5,
+       268,
+       58,
+       202,
+       198,
+       12,
+       9,
+       12,
+       1448,
+       603,
+       145,
+       34,
+       6503,
+       7063,
+       8,
+       311
+      ]
+     },
+     "captured_d1_replay": {
+      "__last__": [
+       314,
+       13378,
+       9,
+       3,
+       2204,
+       5,
+       268,
+       58,
+       202,
+       198,
+       12,
+       9,
+       12,
+       1448,
+       603,
+       145,
+       34,
+       6503,
+       7063,
+       8,
+       311
+      ]
+     },
+     "captured_pilot": null,
+     "rerun": true,
+     "uncaptured": [
+      {
+       "error": null,
+       "ok": true,
+       "rep": 1,
+       "value": {
+        "__last__": [
+         314,
+         13378,
+         9,
+         3,
+         2204,
+         5,
+         268,
+         58,
+         202,
+         198,
+         12,
+         9,
+         12,
+         1448,
+         603,
+         145,
+         34,
+         6503,
+         7063,
+         8,
+         311
+        ]
+       },
+       "warnings": []
+      },
+      {
+       "error": null,
+       "ok": true,
+       "rep": 2,
+       "value": {
+        "__last__": [
+         314,
+         13378,
+         9,
+         3,
+         2204,
+         5,
+         268,
+         58,
+         202,
+         198,
+         12,
+         9,
+         12,
+         1448,
+         603,
+         145,
+         34,
+         6503,
+         7063,
+         8,
+         311
+        ]
+       },
+       "warnings": []
+      }
+     ],
+     "verdict": "confirmed engine behaviour"
+    }
+   },
+   "group": "rater",
+   "id": "nunique_fireducks",
+   "nb": "jyotsananegi/melbourne-housing-snapshot-eda",
+   "pandas_uncaptured": {
+    "__last__": [
+     314,
+     13378,
+     9,
+     3,
+     2204,
+     5,
+     268,
+     58,
+     202,
+     198,
+     12,
+     9,
+     11,
+     1448,
+     602,
+     144,
+     33,
+     6503,
+     7063,
+     8,
+     311
+    ]
+   },
+   "pandas_uncaptured_error": null,
+   "pandas_warnings": [],
+   "ref_captured": {
+    "__last__": [
+     314,
+     13378,
+     9,
+     3,
+     2204,
+     5,
+     268,
+     58,
+     202,
+     198,
+     12,
+     9,
+     11,
+     1448,
+     602,
+     144,
+     33,
+     6503,
+     7063,
+     8,
+     311
+    ]
+   }
+  },
+  {
+   "baseline_matches_capture": true,
+   "cell": 2,
+   "claim": "FireDucks returns int64 where pandas has float64 (unconfirmed by probes)",
+   "configs": {
+    "fireducks": {
+     "captured_conf_1x": {
+      "__last__": [
+       "object",
+       "int64",
+       "int64"
+      ],
+      "df": {
+       "col0_98304": "2015440079707",
+       "dtype1": "float64"
+      }
+     },
+     "captured_d1_replay": {
+      "__last__": [
+       "object",
+       "int64",
+       "int64"
+      ],
+      "df": {
+       "col0_98304": "2015440079707",
+       "dtype1": "float64"
+      }
+     },
+     "captured_pilot": null,
+     "rerun": true,
+     "uncaptured": [
+      {
+       "error": null,
+       "ok": true,
+       "rep": 1,
+       "value": {
+        "__last__": [
+         "object",
+         "int64",
+         "int64"
+        ],
+        "df": {
+         "col0_98304": "2015440079707",
+         "dtype1": "float64"
+        }
+       },
+       "warnings": []
+      },
+      {
+       "error": null,
+       "ok": true,
+       "rep": 2,
+       "value": {
+        "__last__": [
+         "object",
+         "int64",
+         "int64"
+        ],
+        "df": {
+         "col0_98304": "2015440079707",
+         "dtype1": "float64"
+        }
+       },
+       "warnings": []
+      }
+     ],
+     "verdict": "confirmed engine behaviour"
+    }
+   },
+   "group": "named",
+   "id": "int_float_slice_fireducks",
+   "nb": "kwullum/when-do-traffic-related-deaths-occur",
+   "pandas_uncaptured": {
+    "__last__": [
+     "object",
+     "float64",
+     "float64"
+    ],
+    "df": {
+     "col0_98304": "2015440079707",
+     "dtype1": "float64"
+    }
+   },
+   "pandas_uncaptured_error": null,
+   "pandas_warnings": [
+    [
+     "DtypeWarning",
+     "Columns (0) have mixed types. Specify dtype option on import or set low_memory=False."
+    ]
+   ],
+   "ref_captured": {
+    "__last__": [
+     "object",
+     "float64",
+     "float64"
+    ],
+    "df": {
+     "col0_98304": "2015440079707",
+     "dtype1": "float64"
+    }
+   }
+  }
+ ],
+ "item": "D2"
+}

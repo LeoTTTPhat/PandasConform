@@ -1,0 +1,2538 @@
+{
+ "_meta": {
+  "compare_root": "results/pilot/raw/compare__hd1c421ecb5ee__d92c8db54d45b",
+  "outputs_superseded": [],
+  "outputs_used": 170
+ },
+ "bodo": {
+  "by_class": {
+   "DIFF": 78,
+   "E0": 120,
+   "E1": 1,
+   "E2": 73,
+   "E3": 32,
+   "E4": 27,
+   "ERR": 72,
+   "NOOUT": 82,
+   "UNCOMPARABLE": 1
+  },
+  "clean_at": {
+   "E0": {
+    "E0": 8,
+    "E2": 4,
+    "E3": 7,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   },
+   "E1": {
+    "E0": 8,
+    "E2": 4,
+    "E3": 7,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   },
+   "E2": {
+    "DIFF": 7,
+    "E0": 32,
+    "E2": 54,
+    "E3": 7,
+    "E4": 5,
+    "ERR": 7,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   },
+   "E3": {
+    "DIFF": 18,
+    "E0": 101,
+    "E2": 69,
+    "E3": 31,
+    "E4": 15,
+    "ERR": 16,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 1
+   },
+   "E4": {
+    "DIFF": 20,
+    "E0": 102,
+    "E2": 69,
+    "E3": 31,
+    "E4": 23,
+    "ERR": 19,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 1
+   }
+  },
+  "clean_by_class": {
+   "E0": 8,
+   "E2": 4,
+   "E3": 7,
+   "NOOUT": 81,
+   "UNCOMPARABLE": 1
+  },
+  "clean_cells": 101,
+  "clean_cells_at": {
+   "E0": 101,
+   "E1": 101,
+   "E2": 194,
+   "E3": 333,
+   "E4": 347
+  },
+  "eng_status": {
+   "completed": 10
+  },
+  "fallback_cells": 210,
+  "first_divergent": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 8,
+    "E4": 33
+   },
+   "deffro/eda-is-fun": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 6,
+    "E4": 6
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 13,
+    "E4": 16
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 8,
+    "E4": 8
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 11,
+    "E3": 11,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 7,
+    "E3": 7,
+    "E4": 7
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0,
+    "E3": 6,
+    "E4": 6
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 9,
+    "E3": 9,
+    "E4": 10
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 7,
+    "E4": 7
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "hidden_global_cells": 51,
+  "nondet_cells": 0,
+  "notebooks": 10,
+  "notebooks_without_ref2": 0
+ },
+ "bodo#2": {
+  "by_class": {
+   "DIFF": 78,
+   "E0": 120,
+   "E1": 1,
+   "E2": 73,
+   "E3": 32,
+   "E4": 27,
+   "ERR": 72,
+   "NOOUT": 82,
+   "UNCOMPARABLE": 1
+  },
+  "clean_at": {
+   "E0": {
+    "E0": 8,
+    "E2": 4,
+    "E3": 7,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   },
+   "E1": {
+    "E0": 8,
+    "E2": 4,
+    "E3": 7,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   },
+   "E2": {
+    "DIFF": 7,
+    "E0": 32,
+    "E2": 54,
+    "E3": 7,
+    "E4": 5,
+    "ERR": 7,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   },
+   "E3": {
+    "DIFF": 18,
+    "E0": 101,
+    "E2": 69,
+    "E3": 31,
+    "E4": 15,
+    "ERR": 16,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 1
+   },
+   "E4": {
+    "DIFF": 20,
+    "E0": 102,
+    "E2": 69,
+    "E3": 31,
+    "E4": 23,
+    "ERR": 19,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 1
+   }
+  },
+  "clean_by_class": {
+   "E0": 8,
+   "E2": 4,
+   "E3": 7,
+   "NOOUT": 81,
+   "UNCOMPARABLE": 1
+  },
+  "clean_cells": 101,
+  "clean_cells_at": {
+   "E0": 101,
+   "E1": 101,
+   "E2": 194,
+   "E3": 333,
+   "E4": 347
+  },
+  "eng_status": {
+   "completed": 10
+  },
+  "fallback_cells": 210,
+  "first_divergent": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 8,
+    "E4": 33
+   },
+   "deffro/eda-is-fun": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 6,
+    "E4": 6
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 13,
+    "E4": 16
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 8,
+    "E4": 8
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 11,
+    "E3": 11,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 7,
+    "E3": 7,
+    "E4": 7
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0,
+    "E3": 6,
+    "E4": 6
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 9,
+    "E3": 9,
+    "E4": 10
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 7,
+    "E4": 7
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "hidden_global_cells": 51,
+  "nondet_cells": 0,
+  "notebooks": 10,
+  "notebooks_without_ref2": 0
+ },
+ "bodo#2~vs~bodo": {
+  "by_class": {
+   "DIFF": 3,
+   "E0": 328,
+   "NOOUT": 83,
+   "REF_ERR": 72
+  },
+  "clean_at": {
+   "E0": {
+    "DIFF": 3,
+    "E0": 326,
+    "NOOUT": 83
+   },
+   "E1": {
+    "DIFF": 3,
+    "E0": 326,
+    "NOOUT": 83
+   },
+   "E2": {
+    "DIFF": 3,
+    "E0": 326,
+    "NOOUT": 83
+   },
+   "E3": {
+    "DIFF": 3,
+    "E0": 326,
+    "NOOUT": 83
+   },
+   "E4": {
+    "DIFF": 3,
+    "E0": 326,
+    "NOOUT": 83
+   }
+  },
+  "clean_by_class": {
+   "DIFF": 3,
+   "E0": 326,
+   "NOOUT": 83
+  },
+  "clean_cells": 412,
+  "clean_cells_at": {
+   "E0": 412,
+   "E1": 412,
+   "E2": 412,
+   "E3": 412,
+   "E4": 412
+  },
+  "eng_status": {
+   "completed": 10
+  },
+  "fallback_cells": 179,
+  "first_divergent": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "deffro/eda-is-fun": {
+    "E0": 12,
+    "E1": 12,
+    "E2": 12,
+    "E3": 12,
+    "E4": 12
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   }
+  },
+  "hidden_global_cells": 50,
+  "nondet_cells": 0,
+  "notebooks": 10,
+  "notebooks_without_ref2": 10
+ },
+ "bodo_dw": {
+  "by_class": {
+   "DIFF": 83,
+   "E0": 120,
+   "E1": 1,
+   "E2": 69,
+   "E3": 29,
+   "E4": 27,
+   "ERR": 74,
+   "NOOUT": 82,
+   "UNCOMPARABLE": 1
+  },
+  "clean_at": {
+   "E0": {
+    "DIFF": 1,
+    "E0": 8,
+    "E2": 4,
+    "E3": 6,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   },
+   "E1": {
+    "DIFF": 1,
+    "E0": 8,
+    "E2": 4,
+    "E3": 6,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   },
+   "E2": {
+    "DIFF": 8,
+    "E0": 32,
+    "E2": 52,
+    "E3": 6,
+    "E4": 7,
+    "ERR": 4,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   },
+   "E3": {
+    "DIFF": 19,
+    "E0": 100,
+    "E2": 64,
+    "E3": 29,
+    "E4": 15,
+    "ERR": 14,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   },
+   "E4": {
+    "DIFF": 21,
+    "E0": 101,
+    "E2": 64,
+    "E3": 29,
+    "E4": 23,
+    "ERR": 20,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   }
+  },
+  "clean_by_class": {
+   "DIFF": 1,
+   "E0": 8,
+   "E2": 4,
+   "E3": 6,
+   "NOOUT": 81,
+   "UNCOMPARABLE": 1
+  },
+  "clean_cells": 101,
+  "clean_cells_at": {
+   "E0": 101,
+   "E1": 101,
+   "E2": 191,
+   "E3": 323,
+   "E4": 340
+  },
+  "eng_status": {
+   "completed": 10
+  },
+  "fallback_cells": 210,
+  "first_divergent": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 8,
+    "E4": 8
+   },
+   "deffro/eda-is-fun": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 6,
+    "E4": 6
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 13,
+    "E4": 16
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 6,
+    "E4": 8
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 11,
+    "E3": 11,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 7,
+    "E3": 7,
+    "E4": 7
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0,
+    "E3": 0,
+    "E4": 0
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 4,
+    "E3": 4,
+    "E4": 10
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 7,
+    "E4": 7
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "hidden_global_cells": 51,
+  "nondet_cells": 0,
+  "notebooks": 10,
+  "notebooks_without_ref2": 0
+ },
+ "dask": {
+  "by_class": {
+   "DIFF": 49,
+   "E0": 66,
+   "E1": 2,
+   "E2": 33,
+   "E3": 5,
+   "E4": 11,
+   "ERR": 238,
+   "NOOUT": 82
+  },
+  "clean_at": {
+   "E0": {
+    "DIFF": 1,
+    "E0": 8,
+    "E2": 3,
+    "E3": 1,
+    "E4": 1,
+    "ERR": 6,
+    "NOOUT": 81
+   },
+   "E1": {
+    "DIFF": 1,
+    "E0": 8,
+    "E2": 3,
+    "E3": 1,
+    "E4": 1,
+    "ERR": 6,
+    "NOOUT": 81
+   },
+   "E2": {
+    "DIFF": 9,
+    "E0": 27,
+    "E1": 2,
+    "E2": 19,
+    "E3": 1,
+    "E4": 1,
+    "ERR": 18,
+    "NOOUT": 81
+   },
+   "E3": {
+    "DIFF": 9,
+    "E0": 35,
+    "E1": 2,
+    "E2": 21,
+    "E3": 4,
+    "E4": 1,
+    "ERR": 27,
+    "NOOUT": 81
+   },
+   "E4": {
+    "DIFF": 15,
+    "E0": 42,
+    "E1": 2,
+    "E2": 25,
+    "E3": 4,
+    "E4": 11,
+    "ERR": 42,
+    "NOOUT": 81
+   }
+  },
+  "clean_by_class": {
+   "DIFF": 1,
+   "E0": 8,
+   "E2": 3,
+   "E3": 1,
+   "E4": 1,
+   "ERR": 6,
+   "NOOUT": 81
+  },
+  "clean_cells": 101,
+  "clean_cells_at": {
+   "E0": 101,
+   "E1": 101,
+   "E2": 158,
+   "E3": 180,
+   "E4": 222
+  },
+  "eng_status": {
+   "completed": 10
+  },
+  "fallback_cells": 0,
+  "first_divergent": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "deffro/eda-is-fun": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 5
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 1,
+    "E4": 1
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 5,
+    "E3": 5,
+    "E4": 5
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 4,
+    "E3": 4,
+    "E4": 4
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0,
+    "E3": 0,
+    "E4": 0
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 6,
+    "E3": 6,
+    "E4": 6
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "hidden_global_cells": 51,
+  "nondet_cells": 0,
+  "notebooks": 10,
+  "notebooks_without_ref2": 0
+ },
+ "dask#2": {
+  "by_class": {
+   "DIFF": 49,
+   "E0": 66,
+   "E1": 2,
+   "E2": 33,
+   "E3": 5,
+   "E4": 11,
+   "ERR": 238,
+   "NOOUT": 82
+  },
+  "clean_at": {
+   "E0": {
+    "DIFF": 1,
+    "E0": 8,
+    "E2": 3,
+    "E3": 1,
+    "E4": 1,
+    "ERR": 6,
+    "NOOUT": 81
+   },
+   "E1": {
+    "DIFF": 1,
+    "E0": 8,
+    "E2": 3,
+    "E3": 1,
+    "E4": 1,
+    "ERR": 6,
+    "NOOUT": 81
+   },
+   "E2": {
+    "DIFF": 9,
+    "E0": 27,
+    "E1": 2,
+    "E2": 19,
+    "E3": 1,
+    "E4": 1,
+    "ERR": 18,
+    "NOOUT": 81
+   },
+   "E3": {
+    "DIFF": 9,
+    "E0": 35,
+    "E1": 2,
+    "E2": 21,
+    "E3": 4,
+    "E4": 1,
+    "ERR": 27,
+    "NOOUT": 81
+   },
+   "E4": {
+    "DIFF": 15,
+    "E0": 42,
+    "E1": 2,
+    "E2": 25,
+    "E3": 4,
+    "E4": 11,
+    "ERR": 42,
+    "NOOUT": 81
+   }
+  },
+  "clean_by_class": {
+   "DIFF": 1,
+   "E0": 8,
+   "E2": 3,
+   "E3": 1,
+   "E4": 1,
+   "ERR": 6,
+   "NOOUT": 81
+  },
+  "clean_cells": 101,
+  "clean_cells_at": {
+   "E0": 101,
+   "E1": 101,
+   "E2": 158,
+   "E3": 180,
+   "E4": 222
+  },
+  "eng_status": {
+   "completed": 10
+  },
+  "fallback_cells": 0,
+  "first_divergent": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "deffro/eda-is-fun": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 5
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 1,
+    "E4": 1
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 5,
+    "E3": 5,
+    "E4": 5
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 4,
+    "E3": 4,
+    "E4": 4
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0,
+    "E3": 0,
+    "E4": 0
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 6,
+    "E3": 6,
+    "E4": 6
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "hidden_global_cells": 51,
+  "nondet_cells": 0,
+  "notebooks": 10,
+  "notebooks_without_ref2": 0
+ },
+ "dask#2~vs~dask": {
+  "by_class": {
+   "DIFF": 6,
+   "E0": 159,
+   "NOOUT": 83,
+   "REF_ERR": 209,
+   "UNCOMPARABLE": 29
+  },
+  "clean_at": {
+   "E0": {
+    "DIFF": 6,
+    "E0": 150,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 5
+   },
+   "E1": {
+    "DIFF": 6,
+    "E0": 150,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 5
+   },
+   "E2": {
+    "DIFF": 6,
+    "E0": 150,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 5
+   },
+   "E3": {
+    "DIFF": 6,
+    "E0": 150,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 5
+   },
+   "E4": {
+    "DIFF": 6,
+    "E0": 150,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 5
+   }
+  },
+  "clean_by_class": {
+   "DIFF": 6,
+   "E0": 150,
+   "NOOUT": 82,
+   "UNCOMPARABLE": 5
+  },
+  "clean_cells": 243,
+  "clean_cells_at": {
+   "E0": 243,
+   "E1": 243,
+   "E2": 243,
+   "E3": 243,
+   "E4": 243
+  },
+  "eng_status": {
+   "completed": 10
+  },
+  "fallback_cells": 0,
+  "first_divergent": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "deffro/eda-is-fun": {
+    "E0": 33,
+    "E1": 33,
+    "E2": 33,
+    "E3": 33,
+    "E4": 33
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 1,
+    "E4": 1
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 5,
+    "E1": 5,
+    "E2": 5,
+    "E3": 5,
+    "E4": 5
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 12,
+    "E1": 12,
+    "E2": 12,
+    "E3": 12,
+    "E4": 12
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0,
+    "E3": 0,
+    "E4": 0
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 66,
+    "E1": 66,
+    "E2": 66,
+    "E3": 66,
+    "E4": 66
+   }
+  },
+  "hidden_global_cells": 2,
+  "nondet_cells": 0,
+  "notebooks": 10,
+  "notebooks_without_ref2": 10
+ },
+ "fireducks": {
+  "by_class": {
+   "DIFF": 37,
+   "E0": 254,
+   "E1": 2,
+   "E2": 30,
+   "E3": 36,
+   "E4": 9,
+   "ERR": 35,
+   "NOOUT": 82,
+   "UNCOMPARABLE": 1
+  },
+  "clean_at": {
+   "E0": {
+    "E0": 140,
+    "E1": 2,
+    "E2": 15,
+    "E3": 9,
+    "E4": 1,
+    "ERR": 2,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   },
+   "E1": {
+    "E0": 140,
+    "E1": 2,
+    "E2": 15,
+    "E3": 9,
+    "E4": 1,
+    "ERR": 2,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   },
+   "E2": {
+    "E0": 144,
+    "E1": 2,
+    "E2": 23,
+    "E3": 9,
+    "E4": 1,
+    "ERR": 3,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   },
+   "E3": {
+    "DIFF": 2,
+    "E0": 221,
+    "E1": 2,
+    "E2": 28,
+    "E3": 32,
+    "E4": 5,
+    "ERR": 3,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 1
+   },
+   "E4": {
+    "DIFF": 5,
+    "E0": 224,
+    "E1": 2,
+    "E2": 29,
+    "E3": 32,
+    "E4": 9,
+    "ERR": 4,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 1
+   }
+  },
+  "clean_by_class": {
+   "E0": 140,
+   "E1": 2,
+   "E2": 15,
+   "E3": 9,
+   "E4": 1,
+   "ERR": 2,
+   "NOOUT": 81,
+   "UNCOMPARABLE": 1
+  },
+  "clean_cells": 251,
+  "clean_cells_at": {
+   "E0": 251,
+   "E1": 251,
+   "E2": 264,
+   "E3": 376,
+   "E4": 388
+  },
+  "eng_status": {
+   "completed": 10
+  },
+  "fallback_cells": 158,
+  "first_divergent": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 3,
+    "E1": 3,
+    "E2": 3,
+    "E3": 56,
+    "E4": 56
+   },
+   "deffro/eda-is-fun": {
+    "E0": 6,
+    "E1": 6,
+    "E2": 6,
+    "E3": 6,
+    "E4": 6
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 11,
+    "E4": 42
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 6,
+    "E4": 8
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 33,
+    "E1": 33,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 13,
+    "E1": 13,
+    "E2": 16,
+    "E3": 16,
+    "E4": 16
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0,
+    "E3": null,
+    "E4": null
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 9,
+    "E1": 12,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 4,
+    "E1": 4,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "hidden_global_cells": 51,
+  "nondet_cells": 0,
+  "notebooks": 10,
+  "notebooks_without_ref2": 0
+ },
+ "fireducks#2": {
+  "by_class": {
+   "DIFF": 37,
+   "E0": 254,
+   "E1": 2,
+   "E2": 30,
+   "E3": 36,
+   "E4": 9,
+   "ERR": 35,
+   "NOOUT": 82,
+   "UNCOMPARABLE": 1
+  },
+  "clean_at": {
+   "E0": {
+    "E0": 140,
+    "E1": 2,
+    "E2": 15,
+    "E3": 9,
+    "E4": 1,
+    "ERR": 2,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   },
+   "E1": {
+    "E0": 140,
+    "E1": 2,
+    "E2": 15,
+    "E3": 9,
+    "E4": 1,
+    "ERR": 2,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   },
+   "E2": {
+    "E0": 144,
+    "E1": 2,
+    "E2": 23,
+    "E3": 9,
+    "E4": 1,
+    "ERR": 3,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   },
+   "E3": {
+    "DIFF": 2,
+    "E0": 221,
+    "E1": 2,
+    "E2": 28,
+    "E3": 32,
+    "E4": 5,
+    "ERR": 3,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 1
+   },
+   "E4": {
+    "DIFF": 5,
+    "E0": 224,
+    "E1": 2,
+    "E2": 29,
+    "E3": 32,
+    "E4": 9,
+    "ERR": 4,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 1
+   }
+  },
+  "clean_by_class": {
+   "E0": 140,
+   "E1": 2,
+   "E2": 15,
+   "E3": 9,
+   "E4": 1,
+   "ERR": 2,
+   "NOOUT": 81,
+   "UNCOMPARABLE": 1
+  },
+  "clean_cells": 251,
+  "clean_cells_at": {
+   "E0": 251,
+   "E1": 251,
+   "E2": 264,
+   "E3": 376,
+   "E4": 388
+  },
+  "eng_status": {
+   "completed": 10
+  },
+  "fallback_cells": 158,
+  "first_divergent": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 3,
+    "E1": 3,
+    "E2": 3,
+    "E3": 56,
+    "E4": 56
+   },
+   "deffro/eda-is-fun": {
+    "E0": 6,
+    "E1": 6,
+    "E2": 6,
+    "E3": 6,
+    "E4": 6
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 11,
+    "E4": 42
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 6,
+    "E4": 8
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 33,
+    "E1": 33,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 13,
+    "E1": 13,
+    "E2": 16,
+    "E3": 16,
+    "E4": 16
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0,
+    "E3": null,
+    "E4": null
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 9,
+    "E1": 12,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 4,
+    "E1": 4,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "hidden_global_cells": 51,
+  "nondet_cells": 0,
+  "notebooks": 10,
+  "notebooks_without_ref2": 0
+ },
+ "fireducks#2~vs~fireducks": {
+  "by_class": {
+   "E0": 368,
+   "E4": 1,
+   "NOOUT": 82,
+   "REF_ERR": 25,
+   "UNCOMPARABLE": 10
+  },
+  "clean_at": {
+   "E0": {
+    "E0": 366,
+    "E4": 1,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 3
+   },
+   "E1": {
+    "E0": 366,
+    "E4": 1,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 3
+   },
+   "E2": {
+    "E0": 366,
+    "E4": 1,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 3
+   },
+   "E3": {
+    "E0": 366,
+    "E4": 1,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 3
+   },
+   "E4": {
+    "E0": 368,
+    "E4": 1,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 4
+   }
+  },
+  "clean_by_class": {
+   "E0": 366,
+   "E4": 1,
+   "NOOUT": 82,
+   "UNCOMPARABLE": 3
+  },
+  "clean_cells": 452,
+  "clean_cells_at": {
+   "E0": 452,
+   "E1": 452,
+   "E2": 452,
+   "E3": 452,
+   "E4": 455
+  },
+  "eng_status": {
+   "completed": 10
+  },
+  "fallback_cells": 156,
+  "first_divergent": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 56,
+    "E1": 56,
+    "E2": 56,
+    "E3": 56,
+    "E4": 56
+   },
+   "deffro/eda-is-fun": {
+    "E0": 6,
+    "E1": 6,
+    "E2": 6,
+    "E3": 6,
+    "E4": 6
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 6,
+    "E1": 6,
+    "E2": 6,
+    "E3": 6,
+    "E4": 8
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 16,
+    "E1": 16,
+    "E2": 16,
+    "E3": 16,
+    "E4": 16
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 113,
+    "E1": 113,
+    "E2": 113,
+    "E3": 113,
+    "E4": 113
+   }
+  },
+  "hidden_global_cells": 51,
+  "nondet_cells": 0,
+  "notebooks": 10,
+  "notebooks_without_ref2": 10
+ },
+ "modin": {
+  "by_class": {
+   "DIFF": 29,
+   "E0": 300,
+   "E1": 4,
+   "E2": 28,
+   "E4": 5,
+   "ERR": 16,
+   "MEMORY": 1,
+   "NOOUT": 67,
+   "NOTRUN": 36
+  },
+  "clean_at": {
+   "E0": {
+    "DIFF": 9,
+    "E0": 237,
+    "E1": 4,
+    "E2": 24,
+    "E4": 3,
+    "ERR": 4,
+    "NOOUT": 67
+   },
+   "E1": {
+    "DIFF": 9,
+    "E0": 237,
+    "E1": 4,
+    "E2": 24,
+    "E4": 3,
+    "ERR": 4,
+    "NOOUT": 67
+   },
+   "E2": {
+    "DIFF": 9,
+    "E0": 287,
+    "E1": 4,
+    "E2": 27,
+    "E4": 3,
+    "ERR": 7,
+    "MEMORY": 1,
+    "NOOUT": 67
+   },
+   "E3": {
+    "DIFF": 9,
+    "E0": 287,
+    "E1": 4,
+    "E2": 27,
+    "E4": 3,
+    "ERR": 7,
+    "MEMORY": 1,
+    "NOOUT": 67
+   },
+   "E4": {
+    "DIFF": 9,
+    "E0": 287,
+    "E1": 4,
+    "E2": 27,
+    "E4": 5,
+    "ERR": 7,
+    "MEMORY": 1,
+    "NOOUT": 67
+   }
+  },
+  "clean_by_class": {
+   "DIFF": 9,
+   "E0": 237,
+   "E1": 4,
+   "E2": 24,
+   "E4": 3,
+   "ERR": 4,
+   "NOOUT": 67
+  },
+  "clean_cells": 348,
+  "clean_cells_at": {
+   "E0": 348,
+   "E1": 348,
+   "E2": 405,
+   "E3": 405,
+   "E4": 407
+  },
+  "eng_status": {
+   "completed": 9,
+   "nb_memory": 1
+  },
+  "fallback_cells": 13,
+  "first_divergent": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 4,
+    "E1": 4,
+    "E2": 11,
+    "E3": 11,
+    "E4": 21
+   },
+   "deffro/eda-is-fun": {
+    "E0": 6,
+    "E1": 30,
+    "E2": 30,
+    "E3": 30,
+    "E4": 30
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 19,
+    "E1": 19,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 8,
+    "E1": 8,
+    "E2": 18,
+    "E3": 18,
+    "E4": null
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 33,
+    "E1": 33,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 22,
+    "E1": 22,
+    "E2": 22,
+    "E3": 22,
+    "E4": 22
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 9,
+    "E1": 11,
+    "E2": 11,
+    "E3": 11,
+    "E4": 11
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "hidden_global_cells": 51,
+  "nondet_cells": 0,
+  "notebooks": 10,
+  "notebooks_without_ref2": 0
+ },
+ "modin#2": {
+  "by_class": {
+   "DIFF": 28,
+   "E0": 300,
+   "E1": 5,
+   "E2": 28,
+   "E4": 5,
+   "ERR": 16,
+   "MEMORY": 1,
+   "NOOUT": 67,
+   "NOTRUN": 36
+  },
+  "clean_at": {
+   "E0": {
+    "DIFF": 8,
+    "E0": 237,
+    "E1": 5,
+    "E2": 24,
+    "E4": 3,
+    "ERR": 4,
+    "NOOUT": 67
+   },
+   "E1": {
+    "DIFF": 8,
+    "E0": 237,
+    "E1": 5,
+    "E2": 24,
+    "E4": 3,
+    "ERR": 4,
+    "NOOUT": 67
+   },
+   "E2": {
+    "DIFF": 8,
+    "E0": 287,
+    "E1": 5,
+    "E2": 27,
+    "E4": 3,
+    "ERR": 7,
+    "MEMORY": 1,
+    "NOOUT": 67
+   },
+   "E3": {
+    "DIFF": 8,
+    "E0": 287,
+    "E1": 5,
+    "E2": 27,
+    "E4": 3,
+    "ERR": 7,
+    "MEMORY": 1,
+    "NOOUT": 67
+   },
+   "E4": {
+    "DIFF": 8,
+    "E0": 287,
+    "E1": 5,
+    "E2": 27,
+    "E4": 5,
+    "ERR": 7,
+    "MEMORY": 1,
+    "NOOUT": 67
+   }
+  },
+  "clean_by_class": {
+   "DIFF": 8,
+   "E0": 237,
+   "E1": 5,
+   "E2": 24,
+   "E4": 3,
+   "ERR": 4,
+   "NOOUT": 67
+  },
+  "clean_cells": 348,
+  "clean_cells_at": {
+   "E0": 348,
+   "E1": 348,
+   "E2": 405,
+   "E3": 405,
+   "E4": 407
+  },
+  "eng_status": {
+   "completed": 9,
+   "nb_memory": 1
+  },
+  "fallback_cells": 13,
+  "first_divergent": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 4,
+    "E1": 4,
+    "E2": 11,
+    "E3": 11,
+    "E4": 21
+   },
+   "deffro/eda-is-fun": {
+    "E0": 6,
+    "E1": 30,
+    "E2": 30,
+    "E3": 30,
+    "E4": 30
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 19,
+    "E1": 19,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 8,
+    "E1": 8,
+    "E2": 18,
+    "E3": 18,
+    "E4": null
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 33,
+    "E1": 33,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 22,
+    "E1": 22,
+    "E2": 22,
+    "E3": 22,
+    "E4": 22
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 9,
+    "E1": 11,
+    "E2": 11,
+    "E3": 11,
+    "E4": 11
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "hidden_global_cells": 51,
+  "nondet_cells": 0,
+  "notebooks": 10,
+  "notebooks_without_ref2": 0
+ },
+ "modin#2~vs~modin": {
+  "by_class": {
+   "DIFF": 1,
+   "E0": 360,
+   "E1": 3,
+   "E2": 2,
+   "NOOUT": 67,
+   "REF_ERR": 16
+  },
+  "clean_at": {
+   "E0": {
+    "DIFF": 1,
+    "E0": 360,
+    "E1": 3,
+    "E2": 2,
+    "NOOUT": 67
+   },
+   "E1": {
+    "DIFF": 1,
+    "E0": 360,
+    "E1": 3,
+    "E2": 2,
+    "NOOUT": 67
+   },
+   "E2": {
+    "DIFF": 1,
+    "E0": 360,
+    "E1": 3,
+    "E2": 2,
+    "NOOUT": 67
+   },
+   "E3": {
+    "DIFF": 1,
+    "E0": 360,
+    "E1": 3,
+    "E2": 2,
+    "NOOUT": 67
+   },
+   "E4": {
+    "DIFF": 1,
+    "E0": 360,
+    "E1": 3,
+    "E2": 2,
+    "NOOUT": 67
+   }
+  },
+  "clean_by_class": {
+   "DIFF": 1,
+   "E0": 360,
+   "E1": 3,
+   "E2": 2,
+   "NOOUT": 67
+  },
+  "clean_cells": 433,
+  "clean_cells_at": {
+   "E0": 433,
+   "E1": 433,
+   "E2": 433,
+   "E3": 433,
+   "E4": 433
+  },
+  "eng_status": {
+   "completed": 9,
+   "nb_memory": 1
+  },
+  "fallback_cells": 13,
+  "first_divergent": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 8,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "deffro/eda-is-fun": {
+    "E0": 6,
+    "E1": 38,
+    "E2": 38,
+    "E3": 38,
+    "E4": 38
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 33,
+    "E1": 33,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   }
+  },
+  "hidden_global_cells": 50,
+  "nondet_cells": 0,
+  "notebooks": 10,
+  "notebooks_without_ref2": 10
+ },
+ "p15": {
+  "by_class": {
+   "DIFF": 58,
+   "E0": 300,
+   "E2": 20,
+   "E4": 26,
+   "NOOUT": 82
+  },
+  "clean_at": {
+   "E0": {
+    "DIFF": 2,
+    "E0": 222,
+    "E2": 14,
+    "E4": 6,
+    "NOOUT": 82
+   },
+   "E1": {
+    "DIFF": 2,
+    "E0": 222,
+    "E2": 14,
+    "E4": 6,
+    "NOOUT": 82
+   },
+   "E2": {
+    "DIFF": 3,
+    "E0": 224,
+    "E2": 19,
+    "E4": 6,
+    "NOOUT": 82
+   },
+   "E3": {
+    "DIFF": 3,
+    "E0": 224,
+    "E2": 19,
+    "E4": 6,
+    "NOOUT": 82
+   },
+   "E4": {
+    "DIFF": 12,
+    "E0": 241,
+    "E2": 19,
+    "E4": 25,
+    "NOOUT": 82
+   }
+  },
+  "clean_by_class": {
+   "DIFF": 2,
+   "E0": 222,
+   "E2": 14,
+   "E4": 6,
+   "NOOUT": 82
+  },
+  "clean_cells": 326,
+  "clean_cells_at": {
+   "E0": 326,
+   "E1": 326,
+   "E2": 334,
+   "E3": 334,
+   "E4": 379
+  },
+  "eng_status": {
+   "completed": 10
+  },
+  "fallback_cells": 0,
+  "first_divergent": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "deffro/eda-is-fun": {
+    "E0": 30,
+    "E1": 30,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 28,
+    "E1": 28,
+    "E2": 53,
+    "E3": 53,
+    "E4": 53
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 4,
+    "E1": 4,
+    "E2": 4,
+    "E3": 4,
+    "E4": null
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 33,
+    "E1": 33,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 15,
+    "E1": 15,
+    "E2": 16,
+    "E3": 16,
+    "E4": 16
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 11,
+    "E1": 11,
+    "E2": 11,
+    "E3": 11,
+    "E4": null
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 13,
+    "E1": 13,
+    "E2": 65,
+    "E3": 65,
+    "E4": 67
+   }
+  },
+  "hidden_global_cells": 51,
+  "nondet_cells": 0,
+  "notebooks": 10,
+  "notebooks_without_ref2": 0
+ },
+ "p30": {
+  "by_class": {
+   "DIFF": 33,
+   "E0": 141,
+   "E2": 217,
+   "E3": 1,
+   "ERR": 11,
+   "NOOUT": 82,
+   "UNCOMPARABLE": 1
+  },
+  "clean_at": {
+   "E0": {
+    "E0": 18,
+    "E2": 11,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   },
+   "E1": {
+    "E0": 18,
+    "E2": 11,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   },
+   "E2": {
+    "DIFF": 10,
+    "E0": 130,
+    "E2": 202,
+    "E3": 1,
+    "ERR": 9,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 1
+   },
+   "E3": {
+    "DIFF": 10,
+    "E0": 131,
+    "E2": 202,
+    "E3": 1,
+    "ERR": 9,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 1
+   },
+   "E4": {
+    "DIFF": 10,
+    "E0": 131,
+    "E2": 202,
+    "E3": 1,
+    "ERR": 9,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 1
+   }
+  },
+  "clean_by_class": {
+   "E0": 18,
+   "E2": 11,
+   "NOOUT": 81,
+   "UNCOMPARABLE": 1
+  },
+  "clean_cells": 111,
+  "clean_cells_at": {
+   "E0": 111,
+   "E1": 111,
+   "E2": 435,
+   "E3": 436,
+   "E4": 436
+  },
+  "eng_status": {
+   "completed": 10
+  },
+  "fallback_cells": 0,
+  "first_divergent": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 21,
+    "E3": 21,
+    "E4": 21
+   },
+   "deffro/eda-is-fun": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 6,
+    "E3": 6,
+    "E4": 6
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 42,
+    "E3": 42,
+    "E4": 42
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 8,
+    "E3": 8,
+    "E4": 8
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 27,
+    "E3": 27,
+    "E4": 27
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 2,
+    "E1": 2,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 6,
+    "E3": 6,
+    "E4": 6
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 11,
+    "E3": 11,
+    "E4": 11
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 2,
+    "E1": 2,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "hidden_global_cells": 51,
+  "nondet_cells": 0,
+  "notebooks": 10,
+  "notebooks_without_ref2": 0
+ },
+ "pyarrow_backend": {
+  "by_class": {
+   "DIFF": 43,
+   "E0": 159,
+   "E2": 98,
+   "E3": 67,
+   "ERR": 36,
+   "NOOUT": 82,
+   "UNCOMPARABLE": 1
+  },
+  "clean_at": {
+   "E0": {
+    "E0": 12,
+    "E2": 4,
+    "E3": 7,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   },
+   "E1": {
+    "E0": 12,
+    "E2": 4,
+    "E3": 7,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   },
+   "E2": {
+    "DIFF": 3,
+    "E0": 52,
+    "E2": 68,
+    "E3": 10,
+    "NOOUT": 81,
+    "UNCOMPARABLE": 1
+   },
+   "E3": {
+    "DIFF": 7,
+    "E0": 134,
+    "E2": 88,
+    "E3": 62,
+    "ERR": 5,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 1
+   },
+   "E4": {
+    "DIFF": 7,
+    "E0": 134,
+    "E2": 88,
+    "E3": 62,
+    "ERR": 5,
+    "NOOUT": 82,
+    "UNCOMPARABLE": 1
+   }
+  },
+  "clean_by_class": {
+   "E0": 12,
+   "E2": 4,
+   "E3": 7,
+   "NOOUT": 81,
+   "UNCOMPARABLE": 1
+  },
+  "clean_cells": 105,
+  "clean_cells_at": {
+   "E0": 105,
+   "E1": 105,
+   "E2": 215,
+   "E3": 379,
+   "E4": 379
+  },
+  "eng_status": {
+   "completed": 10
+  },
+  "fallback_cells": 0,
+  "first_divergent": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": null,
+    "E4": null
+   },
+   "deffro/eda-is-fun": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 6,
+    "E4": 6
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 42,
+    "E4": 42
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 8,
+    "E4": 8
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 2,
+    "E1": 2,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": 2,
+    "E1": 2,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0,
+    "E3": null,
+    "E4": null
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": 2,
+    "E1": 2,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 9,
+    "E4": 9
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 2,
+    "E4": 2
+   }
+  },
+  "hidden_global_cells": 51,
+  "nondet_cells": 0,
+  "notebooks": 10,
+  "notebooks_without_ref2": 0
+ },
+ "ref#2": {
+  "by_class": {
+   "E0": 404,
+   "NOOUT": 82
+  },
+  "clean_at": {
+   "E0": {
+    "E0": 404,
+    "NOOUT": 82
+   },
+   "E1": {
+    "E0": 404,
+    "NOOUT": 82
+   },
+   "E2": {
+    "E0": 404,
+    "NOOUT": 82
+   },
+   "E3": {
+    "E0": 404,
+    "NOOUT": 82
+   },
+   "E4": {
+    "E0": 404,
+    "NOOUT": 82
+   }
+  },
+  "clean_by_class": {
+   "E0": 404,
+   "NOOUT": 82
+  },
+  "clean_cells": 486,
+  "clean_cells_at": {
+   "E0": 486,
+   "E1": 486,
+   "E2": 486,
+   "E3": 486,
+   "E4": 486
+  },
+  "eng_status": {
+   "completed": 10
+  },
+  "fallback_cells": 0,
+  "first_divergent": {
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "deffro/eda-is-fun": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "kanncaa1/dataiteam-titanic-eda": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sabya40/data-cleaning-and-pandas-for-beginners": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "shashi772/data-cleaning-challenge-parsing-dates": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "xingobar/computer-science-data-visualization": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "yonelanuba/elo-merchant-by-yonela": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   }
+  },
+  "hidden_global_cells": 51,
+  "nondet_cells": 0,
+  "notebooks": 10,
+  "notebooks_without_ref2": 0
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "name": "icde27_remaining",
+ "note": "2026-10-26 ICDE 2027 revision: the steps that experiment_main never finished (its queue stopped on 2026-10-07), plus the Bodo cpus-8 timing rerun, in priority order for RQ4 first. Launch ONLY with OMPI_MCA_btl_tcp_if_include=lo0 in front of tools/launch_detached.py (Bodo rc-14 fix, see plan.md PC-B). Each run step resumes from its campaign's existing records. timing_bodo_r2 never uses --reuse-from timing (that would adopt the 90 Bodo crash records). bodo_dw stays last because default-worker Bodo can hang until the 3,600 s notebook timeout.",
+ "steps": [
+  {"name": "timing_default", "args": ["run", "--campaign", "timing", "--set", "timing30", "--engines", "ref,modin,fireducks,bodo", "--mode", "timing", "--reps", "1", "--cpus", "default", "--max-concurrency", "1", "--cell-timeout", "1200"]},
+  {"name": "timing_bodo_r2_cpu8", "args": ["run", "--campaign", "timing_bodo_r2", "--set", "timing30", "--engines", "ref,bodo", "--mode", "timing", "--reps", "3", "--cpus", "8", "--max-concurrency", "1", "--cell-timeout", "1200"]},
+  {"name": "conf5x_run", "args": ["run", "--campaign", "conf_5x", "--set", "conf5x", "--scale", "5", "--engines", "ref,ref#2,modin,fireducks,bodo"]},
+  {"name": "conf5x_compare", "args": ["compare", "--campaign", "conf_5x", "--set", "conf5x", "--scale", "5", "--engines", "ref#2,modin,fireducks,bodo", "--ref2", "ref#2"]},
+  {"name": "conf1x_bodo_dw", "args": ["run", "--campaign", "conf_1x", "--set", "all", "--engines", "bodo_dw", "--reuse-from", "pilot"]},
+  {"name": "conf1x_compare_bodo_dw", "args": ["compare", "--campaign", "conf_1x", "--set", "all", "--engines", "bodo_dw", "--ref2", "ref#2"]}
+ ]
+}

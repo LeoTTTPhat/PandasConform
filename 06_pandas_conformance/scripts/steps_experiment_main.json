@@ -1,0 +1,248 @@
+{
+ "name": "experiment_main",
+ "note": "2026-10-03 Experiment stage: remaining campaigns in priority order (plan Section 6; cut dask and conf_5x first); 2026-10-03 09:15: pilot_compare added and pilot_rep markers reset (comparator speed-up changed the compare tag; all comparisons are recomputed under one tag); 2026-10-03 10:15: pilot_rep_* recomputed WITHOUT --ref2 (engine vs its own replicate); 2026-10-03 19:25: bodo_dw (pilot addition, not in the plan matrix) moved to the end, after conf_5x, because default-worker Bodo hangs until the 3,600 s notebook timeout on notebooks that reach Bodo's legacy JIT path",
+ "steps": [
+  {
+   "name": "pilot_compare",
+   "args": [
+    "compare",
+    "--campaign",
+    "pilot",
+    "--set",
+    "pilot",
+    "--engines",
+    "ref#2,pyarrow_backend,p15,p30,fireducks,bodo,bodo_dw,modin,dask,modin#2,fireducks#2,bodo#2,dask#2",
+    "--ref2",
+    "ref#2"
+   ]
+  },
+  {
+   "name": "pilot_rep_modin",
+   "args": [
+    "compare",
+    "--campaign",
+    "pilot",
+    "--set",
+    "pilot",
+    "--ref",
+    "modin",
+    "--engines",
+    "modin#2"
+   ]
+  },
+  {
+   "name": "pilot_rep_fireducks",
+   "args": [
+    "compare",
+    "--campaign",
+    "pilot",
+    "--set",
+    "pilot",
+    "--ref",
+    "fireducks",
+    "--engines",
+    "fireducks#2"
+   ]
+  },
+  {
+   "name": "pilot_rep_bodo",
+   "args": [
+    "compare",
+    "--campaign",
+    "pilot",
+    "--set",
+    "pilot",
+    "--ref",
+    "bodo",
+    "--engines",
+    "bodo#2"
+   ]
+  },
+  {
+   "name": "pilot_rep_dask",
+   "args": [
+    "compare",
+    "--campaign",
+    "pilot",
+    "--set",
+    "pilot",
+    "--ref",
+    "dask",
+    "--engines",
+    "dask#2"
+   ]
+  },
+  {
+   "name": "conf1x_single",
+   "args": [
+    "run",
+    "--campaign",
+    "conf_1x",
+    "--set",
+    "all",
+    "--engines",
+    "ref,ref#2,pyarrow_backend",
+    "--reuse-from",
+    "pilot"
+   ]
+  },
+  {
+   "name": "drift_run",
+   "args": [
+    "run",
+    "--campaign",
+    "drift",
+    "--set",
+    "all",
+    "--engines",
+    "ref,ref#2,p15,p30",
+    "--reuse-from",
+    "conf_1x,pilot"
+   ]
+  },
+  {
+   "name": "drift_compare",
+   "args": [
+    "compare",
+    "--campaign",
+    "drift",
+    "--set",
+    "all",
+    "--engines",
+    "ref#2,p15,p30",
+    "--ref2",
+    "ref#2"
+   ]
+  },
+  {
+   "name": "conf1x_parallel",
+   "args": [
+    "run",
+    "--campaign",
+    "conf_1x",
+    "--set",
+    "all",
+    "--engines",
+    "fireducks,bodo,modin,dask",
+    "--reuse-from",
+    "pilot"
+   ]
+  },
+  {
+   "name": "conf1x_compare",
+   "args": [
+    "compare",
+    "--campaign",
+    "conf_1x",
+    "--set",
+    "all",
+    "--engines",
+    "ref#2,pyarrow_backend,fireducks,bodo,modin,dask",
+    "--ref2",
+    "ref#2"
+   ]
+  },
+  {
+   "name": "timing_cpu8",
+   "args": [
+    "run",
+    "--campaign",
+    "timing",
+    "--set",
+    "timing30",
+    "--engines",
+    "ref,modin,fireducks,bodo",
+    "--mode",
+    "timing",
+    "--reps",
+    "3",
+    "--cpus",
+    "8",
+    "--max-concurrency",
+    "1",
+    "--cell-timeout",
+    "1200"
+   ]
+  },
+  {
+   "name": "timing_default",
+   "args": [
+    "run",
+    "--campaign",
+    "timing",
+    "--set",
+    "timing30",
+    "--engines",
+    "ref,modin,fireducks,bodo",
+    "--mode",
+    "timing",
+    "--reps",
+    "1",
+    "--cpus",
+    "default",
+    "--max-concurrency",
+    "1",
+    "--cell-timeout",
+    "1200"
+   ]
+  },
+  {
+   "name": "conf5x_run",
+   "args": [
+    "run",
+    "--campaign",
+    "conf_5x",
+    "--set",
+    "conf5x",
+    "--scale",
+    "5",
+    "--engines",
+    "ref,ref#2,modin,fireducks,bodo"
+   ]
+  },
+  {
+   "name": "conf5x_compare",
+   "args": [
+    "compare",
+    "--campaign",
+    "conf_5x",
+    "--set",
+    "conf5x",
+    "--scale",
+    "5",
+    "--engines",
+    "ref#2,modin,fireducks,bodo",
+    "--ref2",
+    "ref#2"
+   ]
+  },
+  {
+   "name": "conf1x_bodo_dw",
+   "args": [
+    "run",
+    "--campaign",
+    "conf_1x",
+    "--set",
+    "all",
+    "--engines",
+    "bodo_dw",
+    "--reuse-from",
+    "pilot"
+   ]
+  },
+  {
+   "name": "conf1x_compare_bodo_dw",
+   "args": [
+    "compare",
+    "--campaign",
+    "conf_1x",
+    "--set",
+    "all",
+    "--engines",
+    "bodo_dw",
+    "--ref2",
+    "ref#2"
+   ]
+  }
+ ]
+}

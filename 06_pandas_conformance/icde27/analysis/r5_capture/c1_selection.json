@@ -1,0 +1,6539 @@
+{
+ "by_label": {
+  "bodo": {
+   "not_run": {
+    "nadare/feature-engenieering-with-pivot-table": {
+     "budget": true,
+     "cost_s": 1043.6,
+     "tier1_cells": [
+      2
+     ]
+    },
+    "wyl4417/machine-learning-and-how-it-affects-you": {
+     "cost_s": 164.45,
+     "tier2_cells": [
+      4,
+      8,
+      15
+     ]
+    }
+   },
+   "notebooks": {
+    "akgauravin/gun-violence-data-exploration-and-plotting": {
+     "cost_s": 11.38,
+     "ref_cost_s": 9.26,
+     "stop": 12,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      5,
+      12
+     ],
+     "tier2_uncovered": []
+    },
+    "artgor/eda-and-models": {
+     "cost_s": 1535.56,
+     "ref_cost_s": 110.77,
+     "stop": 35,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      33,
+      35
+     ],
+     "tier2_covered": [
+      32
+     ],
+     "tier2_uncovered": []
+    },
+    "balajivenkat96/solar-plants": {
+     "cost_s": 6.0,
+     "ref_cost_s": 2.07,
+     "stop": 32,
+     "tier1_can_enter": [
+      20,
+      21,
+      32
+     ],
+     "tier1_cells": [
+      18,
+      20,
+      21,
+      32
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "beratozmen/clash-of-clans-exploratory-data-analysis": {
+     "cost_s": 74.63,
+     "ref_cost_s": 31.29,
+     "stop": 7,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      7
+     ],
+     "tier2_uncovered": []
+    },
+    "blaskowitz100/feature-engineering-based-on-the-suprise-me": {
+     "cost_s": 32.69,
+     "ref_cost_s": 4.11,
+     "stop": 20,
+     "tier1_can_enter": [
+      2,
+      3,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      18,
+      19,
+      20
+     ],
+     "tier1_cells": [
+      1,
+      2,
+      3,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      18,
+      19,
+      20
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "gravix/gradient-in-a-box": {
+     "cost_s": 5.74,
+     "ref_cost_s": 53.99,
+     "stop": 18,
+     "tier1_can_enter": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      18
+     ],
+     "tier1_cells": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      18
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "grudd0/mass-shooting-analysis": {
+     "cost_s": 1.49,
+     "ref_cost_s": 0.56,
+     "stop": 43,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      1
+     ],
+     "tier2_covered": [
+      43
+     ],
+     "tier2_uncovered": []
+    },
+    "j0thu777/onlineretailanalysis": {
+     "cost_s": 154.67,
+     "ref_cost_s": 194.54,
+     "stop": 24,
+     "tier1_can_enter": [
+      21,
+      22
+     ],
+     "tier1_cells": [
+      21,
+      22,
+      23,
+      24
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "jagangupta/stop-the-s-toxic-comments-eda": {
+     "cost_s": 9.31,
+     "ref_cost_s": 31.45,
+     "stop": 39,
+     "tier1_can_enter": [
+      32,
+      34,
+      35,
+      36,
+      37,
+      39
+     ],
+     "tier1_cells": [
+      12,
+      32,
+      34,
+      35,
+      36,
+      37,
+      39
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "jirakst/book-recommendation": {
+     "cost_s": 1.65,
+     "ref_cost_s": 202.82,
+     "stop": 85,
+     "tier1_can_enter": [
+      85
+     ],
+     "tier1_cells": [
+      85
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "kmader/analyzing-matches": {
+     "cost_s": 3.45,
+     "ref_cost_s": 0.37,
+     "stop": 19,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      19
+     ],
+     "tier2_uncovered": []
+    },
+    "koko1998/summer-products-and-sales-wish-com": {
+     "cost_s": 12.68,
+     "ref_cost_s": 2.15,
+     "stop": 109,
+     "tier1_can_enter": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      108,
+      109
+     ],
+     "tier1_cells": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      108,
+      109
+     ],
+     "tier2_covered": [
+      8
+     ],
+     "tier2_uncovered": []
+    },
+    "luckygemini/notebook5d5fc80c9f": {
+     "cost_s": 4.31,
+     "ref_cost_s": 0.4,
+     "stop": 8,
+     "tier1_can_enter": [
+      8
+     ],
+     "tier1_cells": [
+      8
+     ],
+     "tier2_covered": [
+      6
+     ],
+     "tier2_uncovered": []
+    },
+    "luizep/movieslens20m": {
+     "cost_s": 29.59,
+     "ref_cost_s": 29.09,
+     "stop": 7,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      7
+     ],
+     "tier2_covered": [
+      6
+     ],
+     "tier2_uncovered": []
+    },
+    "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost": {
+     "cost_s": 36.18,
+     "ref_cost_s": 27.79,
+     "stop": 13,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      9
+     ],
+     "tier2_covered": [
+      13
+     ],
+     "tier2_uncovered": []
+    },
+    "nandhuelan/ott-platforms": {
+     "cost_s": 613.21,
+     "ref_cost_s": 0.94,
+     "stop": 18,
+     "tier1_can_enter": [
+      14,
+      17
+     ],
+     "tier1_cells": [
+      14,
+      17
+     ],
+     "tier2_covered": [
+      11,
+      18
+     ],
+     "tier2_uncovered": []
+    },
+    "nihhaar/etltransform": {
+     "cost_s": 0.89,
+     "ref_cost_s": 0.17,
+     "stop": 3,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      3
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "paramarthasengupta/plotly-eda-top-movies-of-20th-century": {
+     "cost_s": 0.78,
+     "ref_cost_s": 0.16,
+     "stop": 4,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      4
+     ],
+     "tier2_uncovered": []
+    },
+    "salmaneunus/student-s-performance-quantitative-visual-eda": {
+     "cost_s": 3.03,
+     "ref_cost_s": 0.13,
+     "stop": 16,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      11,
+      16
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "sanket30/eda-of-application-train-home-credit-default": {
+     "cost_s": 12.99,
+     "ref_cost_s": 8.68,
+     "stop": 11,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      11
+     ],
+     "tier2_uncovered": []
+    },
+    "shivavashishtha/zomato-eda-tutorial": {
+     "cost_s": 3.76,
+     "ref_cost_s": 34.42,
+     "stop": 90,
+     "tier1_can_enter": [
+      75,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      88,
+      90
+     ],
+     "tier1_cells": [
+      75,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      88,
+      90
+     ],
+     "tier2_covered": [
+      70,
+      76,
+      77
+     ],
+     "tier2_uncovered": []
+    },
+    "shunjiangxu/blood-is-thicker-than-water-friendship-forever": {
+     "cost_s": 1.57,
+     "ref_cost_s": 0.31,
+     "stop": 14,
+     "tier1_can_enter": [
+      10,
+      11,
+      14
+     ],
+     "tier1_cells": [
+      1,
+      10,
+      11,
+      14
+     ],
+     "tier2_covered": [
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "tier2_uncovered": []
+    },
+    "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model": {
+     "cost_s": 66.96,
+     "ref_cost_s": 46.04,
+     "stop": 67,
+     "tier1_can_enter": [
+      32,
+      33,
+      35,
+      36,
+      38,
+      39,
+      41,
+      43,
+      46,
+      56,
+      57,
+      58
+     ],
+     "tier1_cells": [
+      14,
+      15,
+      32,
+      33,
+      35,
+      36,
+      38,
+      39,
+      41,
+      43,
+      46,
+      56,
+      57,
+      58
+     ],
+     "tier2_covered": [
+      18,
+      30,
+      48,
+      51,
+      53,
+      66,
+      67
+     ],
+     "tier2_uncovered": []
+    },
+    "taylorhickem/singapore-building-energy": {
+     "cost_s": 3.97,
+     "ref_cost_s": 0.13,
+     "stop": 9,
+     "tier1_can_enter": [
+      9
+     ],
+     "tier1_cells": [
+      3,
+      9
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "vinothsuku/osic-pulmonary-fibrosis-simple-eda": {
+     "cost_s": 3.36,
+     "ref_cost_s": 0.13,
+     "stop": 9,
+     "tier1_can_enter": [
+      8,
+      9
+     ],
+     "tier1_cells": [
+      7,
+      8,
+      9
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "willkoehrsen/start-here-a-gentle-introduction": {
+     "cost_s": 14.91,
+     "ref_cost_s": 6.12,
+     "stop": 9,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      9
+     ],
+     "tier2_uncovered": []
+    },
+    "yonelanuba/elo-merchant-by-yonela": {
+     "cost_s": 337.53,
+     "ref_cost_s": 193.53,
+     "stop": 117,
+     "tier1_can_enter": [
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      90,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117
+     ],
+     "tier1_cells": [
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      90,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    }
+   }
+  },
+  "dask": {
+   "not_run": {
+    "ersinsen/fraud-3-eda": {
+     "cost_s": 345.02,
+     "tier2_cells": [
+      31
+     ]
+    }
+   },
+   "notebooks": {
+    "akgauravin/gun-violence-data-exploration-and-plotting": {
+     "cost_s": 37.88,
+     "ref_cost_s": 15.81,
+     "stop": 17,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      5,
+      8,
+      12,
+      15,
+      17
+     ],
+     "tier2_uncovered": []
+    },
+    "artgor/eda-and-models": {
+     "cost_s": 632.63,
+     "ref_cost_s": 110.77,
+     "stop": 35,
+     "tier1_can_enter": [
+      33,
+      35
+     ],
+     "tier1_cells": [
+      33,
+      35
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "ashukr/first-step-ingestion-to-prediction": {
+     "cost_s": 0.11,
+     "ref_cost_s": 0.36,
+     "stop": 4,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      4
+     ],
+     "tier2_uncovered": []
+    },
+    "ayushsingh5941/tweet-disaster-or-not": {
+     "cost_s": 0.34,
+     "ref_cost_s": 0.59,
+     "stop": 25,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      7,
+      25
+     ],
+     "tier2_uncovered": []
+    },
+    "balajivenkat96/solar-plants": {
+     "cost_s": 0.01,
+     "ref_cost_s": 2.07,
+     "stop": 32,
+     "tier1_can_enter": [
+      20,
+      21
+     ],
+     "tier1_cells": [
+      20,
+      21
+     ],
+     "tier2_covered": [
+      32
+     ],
+     "tier2_uncovered": []
+    },
+    "blaskowitz100/feature-engineering-based-on-the-suprise-me": {
+     "cost_s": 1.82,
+     "ref_cost_s": 4.11,
+     "stop": 20,
+     "tier1_can_enter": [
+      2,
+      3,
+      8,
+      9,
+      10,
+      11,
+      12,
+      18,
+      19,
+      20
+     ],
+     "tier1_cells": [
+      1,
+      2,
+      3,
+      8,
+      9,
+      10,
+      11,
+      12,
+      18,
+      19,
+      20
+     ],
+     "tier2_covered": [
+      13
+     ],
+     "tier2_uncovered": []
+    },
+    "brianmendieta/data-cleaning-plus-eda": {
+     "cost_s": 0.37,
+     "ref_cost_s": 0.23,
+     "stop": 11,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      6
+     ],
+     "tier2_covered": [
+      11
+     ],
+     "tier2_uncovered": []
+    },
+    "charulatashelar/indian-startup-funding-exploratory-data-analysis": {
+     "cost_s": 0.04,
+     "ref_cost_s": 0.17,
+     "stop": 2,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      2
+     ],
+     "tier2_uncovered": []
+    },
+    "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+     "cost_s": 1.19,
+     "ref_cost_s": 3.63,
+     "stop": 2,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      2
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "dbatao/kernel2f80fc9d78": {
+     "cost_s": 2.35,
+     "ref_cost_s": 1.21,
+     "stop": 43,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      43
+     ],
+     "tier2_uncovered": []
+    },
+    "gmanish/help-ngo-country-clustering": {
+     "cost_s": 0.24,
+     "ref_cost_s": 0.19,
+     "stop": 18,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      7
+     ],
+     "tier2_covered": [
+      18
+     ],
+     "tier2_uncovered": []
+    },
+    "gravix/gradient-in-a-box": {
+     "cost_s": 11.31,
+     "ref_cost_s": 53.96,
+     "stop": 13,
+     "tier1_can_enter": [
+      7,
+      9,
+      10,
+      11,
+      13
+     ],
+     "tier1_cells": [
+      7,
+      9,
+      10,
+      11,
+      13
+     ],
+     "tier2_covered": [
+      8,
+      12
+     ],
+     "tier2_uncovered": []
+    },
+    "grudd0/mass-shooting-analysis": {
+     "cost_s": 1.25,
+     "ref_cost_s": 0.56,
+     "stop": 43,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      43
+     ],
+     "tier2_uncovered": []
+    },
+    "gsilves/quiz-4-question-1": {
+     "cost_s": 0.03,
+     "ref_cost_s": 0.07,
+     "stop": 3,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      3
+     ],
+     "tier2_uncovered": []
+    },
+    "j0thu777/onlineretailanalysis": {
+     "cost_s": 4.83,
+     "ref_cost_s": 194.54,
+     "stop": 24,
+     "tier1_can_enter": [
+      21,
+      22,
+      23,
+      24
+     ],
+     "tier1_cells": [
+      21,
+      22,
+      23,
+      24
+     ],
+     "tier2_covered": [
+      5
+     ],
+     "tier2_uncovered": []
+    },
+    "jackwatson99/pima-indians-diabetes-rf-81": {
+     "cost_s": 0.4,
+     "ref_cost_s": 0.16,
+     "stop": 12,
+     "tier1_can_enter": [
+      7,
+      10,
+      12
+     ],
+     "tier1_cells": [
+      6,
+      7,
+      10,
+      12
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "jagangupta/stop-the-s-toxic-comments-eda": {
+     "cost_s": 160.3,
+     "ref_cost_s": 31.45,
+     "stop": 39,
+     "tier1_can_enter": [
+      32,
+      34,
+      35,
+      36,
+      37,
+      39
+     ],
+     "tier1_cells": [
+      32,
+      34,
+      35,
+      36,
+      37,
+      39
+     ],
+     "tier2_covered": [
+      31
+     ],
+     "tier2_uncovered": []
+    },
+    "jirakst/book-recommendation": {
+     "cost_s": 98.11,
+     "ref_cost_s": 202.82,
+     "stop": 85,
+     "tier1_can_enter": [
+      85
+     ],
+     "tier1_cells": [
+      4,
+      6,
+      85
+     ],
+     "tier2_covered": [
+      5,
+      15,
+      18,
+      50
+     ],
+     "tier2_uncovered": []
+    },
+    "jyotsananegi/melbourne-housing-snapshot-eda": {
+     "cost_s": 0.12,
+     "ref_cost_s": 0.15,
+     "stop": 2,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      2
+     ],
+     "tier2_uncovered": []
+    },
+    "kmader/analyzing-matches": {
+     "cost_s": 0.02,
+     "ref_cost_s": 0.37,
+     "stop": 19,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      19
+     ],
+     "tier2_uncovered": []
+    },
+    "koko1998/summer-products-and-sales-wish-com": {
+     "cost_s": 11.84,
+     "ref_cost_s": 1.95,
+     "stop": 104,
+     "tier1_can_enter": [
+      9
+     ],
+     "tier1_cells": [
+      9
+     ],
+     "tier2_covered": [
+      8,
+      97,
+      99,
+      104
+     ],
+     "tier2_uncovered": []
+    },
+    "luckygemini/notebook5d5fc80c9f": {
+     "cost_s": 0.19,
+     "ref_cost_s": 0.4,
+     "stop": 8,
+     "tier1_can_enter": [
+      8
+     ],
+     "tier1_cells": [
+      8
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "luizep/movieslens20m": {
+     "cost_s": 29.11,
+     "ref_cost_s": 29.09,
+     "stop": 7,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      7
+     ],
+     "tier2_covered": [
+      6
+     ],
+     "tier2_uncovered": []
+    },
+    "madseth/customer-shopping-trends-dataset-eda": {
+     "cost_s": 0.08,
+     "ref_cost_s": 0.08,
+     "stop": 3,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      3
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost": {
+     "cost_s": 0.0,
+     "ref_cost_s": 27.79,
+     "stop": 13,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      13
+     ],
+     "tier2_uncovered": []
+    },
+    "mathewvondersaar/analysis-of-student-performance": {
+     "cost_s": 0.04,
+     "ref_cost_s": 0.09,
+     "stop": 2,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      2
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "maxiaoyue/data-cleaning-challenge-handling-missing-values": {
+     "cost_s": 52.64,
+     "ref_cost_s": 49.53,
+     "stop": 25,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      11,
+      25
+     ],
+     "tier2_uncovered": []
+    },
+    "nandhuelan/ott-platforms": {
+     "cost_s": 1.53,
+     "ref_cost_s": 0.94,
+     "stop": 18,
+     "tier1_can_enter": [
+      14,
+      17,
+      18
+     ],
+     "tier1_cells": [
+      14,
+      17,
+      18
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "narasimhach/ashrae-data-preprocessing": {
+     "cost_s": 38.42,
+     "ref_cost_s": 32.93,
+     "stop": 13,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      13
+     ],
+     "tier2_uncovered": []
+    },
+    "nihhaar/etltransform": {
+     "cost_s": 0.15,
+     "ref_cost_s": 0.17,
+     "stop": 3,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      2,
+      3
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "paramarthasengupta/plotly-eda-top-movies-of-20th-century": {
+     "cost_s": 0.04,
+     "ref_cost_s": 0.16,
+     "stop": 4,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      4
+     ],
+     "tier2_uncovered": []
+    },
+    "penny8/my-sub1": {
+     "cost_s": 45.43,
+     "ref_cost_s": 56.69,
+     "stop": 20,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      19,
+      20
+     ],
+     "tier2_uncovered": []
+    },
+    "roopahegde/cryptocurrency-price-correlation": {
+     "cost_s": 3.36,
+     "ref_cost_s": 1.56,
+     "stop": 7,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      5,
+      7
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "roydatascience/malware-detection-stacking-2-0": {
+     "cost_s": 51.78,
+     "ref_cost_s": 110.26,
+     "stop": 7,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      7
+     ],
+     "tier2_uncovered": []
+    },
+    "salmaneunus/student-s-performance-quantitative-visual-eda": {
+     "cost_s": 0.23,
+     "ref_cost_s": 0.13,
+     "stop": 16,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      11,
+      15,
+      16
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "sanket30/eda-of-application-train-home-credit-default": {
+     "cost_s": 18.87,
+     "ref_cost_s": 8.68,
+     "stop": 11,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      11
+     ],
+     "tier2_uncovered": []
+    },
+    "shivavashishtha/zomato-eda-tutorial": {
+     "cost_s": 88.12,
+     "ref_cost_s": 34.42,
+     "stop": 90,
+     "tier1_can_enter": [
+      75,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      88,
+      90
+     ],
+     "tier1_cells": [
+      75,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      88,
+      90
+     ],
+     "tier2_covered": [
+      10,
+      47,
+      70,
+      76,
+      77
+     ],
+     "tier2_uncovered": []
+    },
+    "shubhammahalank/eda-hotel-booking-demand": {
+     "cost_s": 0.23,
+     "ref_cost_s": 0.42,
+     "stop": 3,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      3
+     ],
+     "tier2_uncovered": []
+    },
+    "shunjiangxu/blood-is-thicker-than-water-friendship-forever": {
+     "cost_s": 0.58,
+     "ref_cost_s": 0.31,
+     "stop": 14,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      1
+     ],
+     "tier2_covered": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      14
+     ],
+     "tier2_uncovered": []
+    },
+    "snanilim/video-games-sales-analysis-and-visualization": {
+     "cost_s": 0.09,
+     "ref_cost_s": 0.21,
+     "stop": 3,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      3
+     ],
+     "tier2_uncovered": []
+    },
+    "stefanjov/my-first-normalize-on-big-dataset": {
+     "cost_s": 1.07,
+     "ref_cost_s": 0.62,
+     "stop": 4,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      4
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model": {
+     "cost_s": 66.47,
+     "ref_cost_s": 46.04,
+     "stop": 67,
+     "tier1_can_enter": [
+      32,
+      33,
+      35,
+      36,
+      38,
+      39,
+      41,
+      43,
+      46,
+      48,
+      51,
+      53,
+      56,
+      57,
+      58
+     ],
+     "tier1_cells": [
+      32,
+      33,
+      35,
+      36,
+      38,
+      39,
+      41,
+      43,
+      46,
+      48,
+      51,
+      53,
+      56,
+      57,
+      58,
+      66,
+      67
+     ],
+     "tier2_covered": [
+      15,
+      18
+     ],
+     "tier2_uncovered": []
+    },
+    "taylorhickem/singapore-building-energy": {
+     "cost_s": 0.02,
+     "ref_cost_s": 0.13,
+     "stop": 9,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      9
+     ],
+     "tier2_uncovered": []
+    },
+    "vinothsuku/osic-pulmonary-fibrosis-simple-eda": {
+     "cost_s": 0.24,
+     "ref_cost_s": 0.13,
+     "stop": 9,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      7,
+      8,
+      9
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "viviktpharale/house-price-prediction-eda-linear-ridge-lasso": {
+     "cost_s": 0.05,
+     "ref_cost_s": 0.03,
+     "stop": 3,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      3
+     ],
+     "tier2_uncovered": []
+    },
+    "willkoehrsen/start-here-a-gentle-introduction": {
+     "cost_s": 17.71,
+     "ref_cost_s": 6.12,
+     "stop": 9,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      9
+     ],
+     "tier2_uncovered": []
+    },
+    "wyl4417/machine-learning-and-how-it-affects-you": {
+     "cost_s": 21.28,
+     "ref_cost_s": 65.71,
+     "stop": 15,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      8,
+      15
+     ],
+     "tier2_uncovered": []
+    },
+    "yonelanuba/elo-merchant-by-yonela": {
+     "cost_s": 252.88,
+     "ref_cost_s": 194.5,
+     "stop": 149,
+     "tier1_can_enter": [
+      76,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      90,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111
+     ],
+     "tier1_cells": [
+      76,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      90,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      149
+     ],
+     "tier2_covered": [
+      66,
+      79
+     ],
+     "tier2_uncovered": []
+    }
+   }
+  },
+  "fireducks": {
+   "not_run": {
+    "jirakst/book-recommendation": {
+     "cost_s": 610.57,
+     "tier2_cells": [
+      85
+     ]
+    },
+    "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost": {
+     "cost_s": 834.03,
+     "tier2_cells": [
+      13
+     ]
+    }
+   },
+   "notebooks": {
+    "akgauravin/gun-violence-data-exploration-and-plotting": {
+     "cost_s": 14.92,
+     "ref_cost_s": 14.4,
+     "stop": 15,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      5,
+      12,
+      15
+     ],
+     "tier2_uncovered": []
+    },
+    "artgor/eda-and-models": {
+     "cost_s": 80.25,
+     "ref_cost_s": 110.77,
+     "stop": 35,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      33,
+      35
+     ],
+     "tier2_covered": [
+      32
+     ],
+     "tier2_uncovered": []
+    },
+    "balajivenkat96/solar-plants": {
+     "cost_s": 2.19,
+     "ref_cost_s": 2.07,
+     "stop": 32,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      18,
+      20,
+      21,
+      32
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "beratozmen/clash-of-clans-exploratory-data-analysis": {
+     "cost_s": 32.71,
+     "ref_cost_s": 31.29,
+     "stop": 7,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      7
+     ],
+     "tier2_uncovered": []
+    },
+    "blaskowitz100/feature-engineering-based-on-the-suprise-me": {
+     "cost_s": 24.19,
+     "ref_cost_s": 4.11,
+     "stop": 20,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      1,
+      2,
+      3,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      18,
+      19,
+      20
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "dbatao/kernel2f80fc9d78": {
+     "cost_s": 0.99,
+     "ref_cost_s": 1.21,
+     "stop": 43,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      43
+     ],
+     "tier2_covered": [
+      28
+     ],
+     "tier2_uncovered": []
+    },
+    "gravix/gradient-in-a-box": {
+     "cost_s": 1.23,
+     "ref_cost_s": 53.96,
+     "stop": 13,
+     "tier1_can_enter": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      13
+     ],
+     "tier1_cells": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      13
+     ],
+     "tier2_covered": [
+      12
+     ],
+     "tier2_uncovered": []
+    },
+    "grudd0/mass-shooting-analysis": {
+     "cost_s": 0.42,
+     "ref_cost_s": 0.56,
+     "stop": 43,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      1
+     ],
+     "tier2_covered": [
+      43
+     ],
+     "tier2_uncovered": []
+    },
+    "guyalmog/hr-analytics-predicting-employees-attrition": {
+     "cost_s": 5.75,
+     "ref_cost_s": 9.34,
+     "stop": 75,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      75
+     ],
+     "tier2_uncovered": []
+    },
+    "j0thu777/onlineretailanalysis": {
+     "cost_s": 29.83,
+     "ref_cost_s": 194.54,
+     "stop": 24,
+     "tier1_can_enter": [
+      21,
+      22,
+      23,
+      24
+     ],
+     "tier1_cells": [
+      20,
+      21,
+      22,
+      23,
+      24
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "jagangupta/stop-the-s-toxic-comments-eda": {
+     "cost_s": 72.05,
+     "ref_cost_s": 31.45,
+     "stop": 39,
+     "tier1_can_enter": [
+      32,
+      34,
+      35,
+      36,
+      37,
+      39
+     ],
+     "tier1_cells": [
+      12,
+      31,
+      32,
+      34,
+      35,
+      36,
+      37,
+      39
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+     "cost_s": 1.36,
+     "ref_cost_s": 1.81,
+     "stop": 8,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      8
+     ],
+     "tier2_uncovered": []
+    },
+    "kmader/analyzing-matches": {
+     "cost_s": 1.53,
+     "ref_cost_s": 0.37,
+     "stop": 19,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      12,
+      15,
+      18,
+      19
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "koko1998/summer-products-and-sales-wish-com": {
+     "cost_s": 1.08,
+     "ref_cost_s": 1.86,
+     "stop": 99,
+     "tier1_can_enter": [
+      9
+     ],
+     "tier1_cells": [
+      9
+     ],
+     "tier2_covered": [
+      8,
+      97,
+      99
+     ],
+     "tier2_uncovered": []
+    },
+    "luckygemini/notebook5d5fc80c9f": {
+     "cost_s": 0.55,
+     "ref_cost_s": 0.4,
+     "stop": 8,
+     "tier1_can_enter": [
+      8
+     ],
+     "tier1_cells": [
+      8
+     ],
+     "tier2_covered": [
+      6
+     ],
+     "tier2_uncovered": []
+    },
+    "luizep/movieslens20m": {
+     "cost_s": 31.06,
+     "ref_cost_s": 56.22,
+     "stop": 35,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      7
+     ],
+     "tier2_covered": [
+      6,
+      35
+     ],
+     "tier2_uncovered": []
+    },
+    "nadare/feature-engenieering-with-pivot-table": {
+     "cost_s": 386.76,
+     "ref_cost_s": 244.32,
+     "stop": 16,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      2,
+      16
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "nandhuelan/ott-platforms": {
+     "cost_s": 3.59,
+     "ref_cost_s": 0.94,
+     "stop": 18,
+     "tier1_can_enter": [
+      14,
+      17,
+      18
+     ],
+     "tier1_cells": [
+      14,
+      17,
+      18
+     ],
+     "tier2_covered": [
+      11
+     ],
+     "tier2_uncovered": []
+    },
+    "nihhaar/etltransform": {
+     "cost_s": 0.05,
+     "ref_cost_s": 0.17,
+     "stop": 3,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      3
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "paramarthasengupta/plotly-eda-top-movies-of-20th-century": {
+     "cost_s": 0.03,
+     "ref_cost_s": 0.16,
+     "stop": 4,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      4
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "salmaneunus/student-s-performance-quantitative-visual-eda": {
+     "cost_s": 0.05,
+     "ref_cost_s": 0.13,
+     "stop": 16,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      11,
+      16
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "sanket30/eda-of-application-train-home-credit-default": {
+     "cost_s": 7.84,
+     "ref_cost_s": 13.17,
+     "stop": 42,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      11,
+      24,
+      42
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "shivavashishtha/zomato-eda-tutorial": {
+     "cost_s": 608.65,
+     "ref_cost_s": 13.46,
+     "stop": 70,
+     "tier1_can_enter": [
+      70
+     ],
+     "tier1_cells": [
+      70
+     ],
+     "tier2_covered": [
+      69
+     ],
+     "tier2_uncovered": [
+      75,
+      76,
+      77,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      88,
+      90
+     ]
+    },
+    "shunjiangxu/blood-is-thicker-than-water-friendship-forever": {
+     "cost_s": 0.32,
+     "ref_cost_s": 0.31,
+     "stop": 14,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      1
+     ],
+     "tier2_covered": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      14
+     ],
+     "tier2_uncovered": []
+    },
+    "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model": {
+     "cost_s": 52.69,
+     "ref_cost_s": 46.04,
+     "stop": 67,
+     "tier1_can_enter": [
+      32,
+      33,
+      35,
+      36,
+      38,
+      39,
+      41,
+      43,
+      46,
+      48,
+      51,
+      53,
+      56,
+      57,
+      58
+     ],
+     "tier1_cells": [
+      14,
+      15,
+      32,
+      33,
+      35,
+      36,
+      38,
+      39,
+      41,
+      43,
+      46,
+      48,
+      51,
+      53,
+      56,
+      57,
+      58,
+      66,
+      67
+     ],
+     "tier2_covered": [
+      18,
+      30
+     ],
+     "tier2_uncovered": []
+    },
+    "taylorhickem/singapore-building-energy": {
+     "cost_s": 0.19,
+     "ref_cost_s": 0.13,
+     "stop": 9,
+     "tier1_can_enter": [
+      9
+     ],
+     "tier1_cells": [
+      3,
+      9
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "vinothsuku/osic-pulmonary-fibrosis-simple-eda": {
+     "cost_s": 0.04,
+     "ref_cost_s": 0.13,
+     "stop": 9,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      7,
+      8,
+      9
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "viviktpharale/house-price-prediction-eda-linear-ridge-lasso": {
+     "cost_s": 0.13,
+     "ref_cost_s": 0.1,
+     "stop": 9,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      9
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "willkoehrsen/start-here-a-gentle-introduction": {
+     "cost_s": 3.01,
+     "ref_cost_s": 6.12,
+     "stop": 9,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      9
+     ],
+     "tier2_uncovered": []
+    },
+    "wyl4417/machine-learning-and-how-it-affects-you": {
+     "cost_s": 36.85,
+     "ref_cost_s": 65.71,
+     "stop": 15,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      4,
+      8,
+      15
+     ],
+     "tier2_uncovered": []
+    },
+    "yonelanuba/elo-merchant-by-yonela": {
+     "cost_s": 107.88,
+     "ref_cost_s": 191.73,
+     "stop": 111,
+     "tier1_can_enter": [
+      76,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      90,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111
+     ],
+     "tier1_cells": [
+      76,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      90,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111
+     ],
+     "tier2_covered": [
+      79
+     ],
+     "tier2_uncovered": []
+    }
+   }
+  },
+  "modin": {
+   "not_run": {
+    "penny8/my-sub1": {
+     "cost_s": 1223.92,
+     "tier2_cells": [
+      19,
+      20
+     ]
+    },
+    "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697": {
+     "budget": true,
+     "cost_s": 1323.8,
+     "tier1_cells": [
+      63
+     ]
+    }
+   },
+   "notebooks": {
+    "akgauravin/gun-violence-data-exploration-and-plotting": {
+     "cost_s": 21.38,
+     "ref_cost_s": 14.4,
+     "stop": 15,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      5,
+      12,
+      15
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "balajivenkat96/solar-plants": {
+     "cost_s": 6.9,
+     "ref_cost_s": 2.07,
+     "stop": 32,
+     "tier1_can_enter": [
+      32
+     ],
+     "tier1_cells": [
+      18,
+      20,
+      21,
+      32
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "beratozmen/clash-of-clans-exploratory-data-analysis": {
+     "cost_s": 29.6,
+     "ref_cost_s": 31.29,
+     "stop": 7,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      7
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "blaskowitz100/feature-engineering-based-on-the-suprise-me": {
+     "cost_s": 5.73,
+     "ref_cost_s": 4.11,
+     "stop": 20,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      1,
+      2,
+      3,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      18,
+      19,
+      20
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "dbatao/kernel2f80fc9d78": {
+     "cost_s": 5.61,
+     "ref_cost_s": 1.21,
+     "stop": 43,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      28,
+      43
+     ],
+     "tier2_uncovered": []
+    },
+    "gravix/gradient-in-a-box": {
+     "cost_s": 51.61,
+     "ref_cost_s": 53.96,
+     "stop": 13,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "grudd0/mass-shooting-analysis": {
+     "cost_s": 2.97,
+     "ref_cost_s": 0.56,
+     "stop": 43,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      1
+     ],
+     "tier2_covered": [
+      40,
+      43
+     ],
+     "tier2_uncovered": []
+    },
+    "j0thu777/onlineretailanalysis": {
+     "cost_s": 185.53,
+     "ref_cost_s": 194.54,
+     "stop": 24,
+     "tier1_can_enter": [
+      21,
+      22,
+      23,
+      24
+     ],
+     "tier1_cells": [
+      20,
+      21,
+      22,
+      23,
+      24
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "jagangupta/stop-the-s-toxic-comments-eda": {
+     "cost_s": 41.44,
+     "ref_cost_s": 31.45,
+     "stop": 39,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      12,
+      31,
+      32,
+      34,
+      35,
+      36,
+      37,
+      39
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "jirakst/book-recommendation": {
+     "cost_s": 304.93,
+     "ref_cost_s": 202.82,
+     "stop": 85,
+     "tier1_can_enter": [
+      85
+     ],
+     "tier1_cells": [
+      85
+     ],
+     "tier2_covered": [
+      76,
+      77,
+      83
+     ],
+     "tier2_uncovered": []
+    },
+    "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+     "cost_s": 4.14,
+     "ref_cost_s": 1.81,
+     "stop": 8,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      8
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "kmader/analyzing-matches": {
+     "cost_s": 61.95,
+     "ref_cost_s": 0.37,
+     "stop": 19,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      12,
+      15,
+      18,
+      19
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "koko1998/summer-products-and-sales-wish-com": {
+     "cost_s": 19.05,
+     "ref_cost_s": 1.86,
+     "stop": 99,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      8,
+      9,
+      97,
+      99
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "luckygemini/notebook5d5fc80c9f": {
+     "cost_s": 5.11,
+     "ref_cost_s": 0.4,
+     "stop": 8,
+     "tier1_can_enter": [
+      8
+     ],
+     "tier1_cells": [
+      6,
+      8
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "luizep/movieslens20m": {
+     "cost_s": 25.32,
+     "ref_cost_s": 29.09,
+     "stop": 7,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      7
+     ],
+     "tier2_covered": [
+      6
+     ],
+     "tier2_uncovered": []
+    },
+    "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost": {
+     "cost_s": 7.58,
+     "ref_cost_s": 27.79,
+     "stop": 13,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      9,
+      13
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "nadare/feature-engenieering-with-pivot-table": {
+     "cost_s": 61.69,
+     "ref_cost_s": 240.32,
+     "stop": 2,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      2
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "nandhuelan/ott-platforms": {
+     "cost_s": 3.13,
+     "ref_cost_s": 0.94,
+     "stop": 18,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      11,
+      14,
+      17,
+      18
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "nihhaar/etltransform": {
+     "cost_s": 2.05,
+     "ref_cost_s": 0.17,
+     "stop": 3,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      3
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "paramarthasengupta/plotly-eda-top-movies-of-20th-century": {
+     "cost_s": 1.92,
+     "ref_cost_s": 0.16,
+     "stop": 4,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      4
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "salmaneunus/student-s-performance-quantitative-visual-eda": {
+     "cost_s": 2.67,
+     "ref_cost_s": 0.13,
+     "stop": 16,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      11,
+      16
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "sanket30/eda-of-application-train-home-credit-default": {
+     "cost_s": 24.0,
+     "ref_cost_s": 13.17,
+     "stop": 42,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      11,
+      24,
+      42
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "shivavashishtha/zomato-eda-tutorial": {
+     "cost_s": 25.17,
+     "ref_cost_s": 34.42,
+     "stop": 90,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      75,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      88,
+      90
+     ],
+     "tier2_covered": [
+      69,
+      70,
+      76,
+      77
+     ],
+     "tier2_uncovered": []
+    },
+    "shunjiangxu/blood-is-thicker-than-water-friendship-forever": {
+     "cost_s": 5.02,
+     "ref_cost_s": 0.31,
+     "stop": 14,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      1,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "tier2_covered": [
+      10,
+      11,
+      14
+     ],
+     "tier2_uncovered": []
+    },
+    "sudheer259/house-price-prediction": {
+     "cost_s": 29.32,
+     "ref_cost_s": 5.03,
+     "stop": 187,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      187
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model": {
+     "cost_s": 1407.15,
+     "ref_cost_s": 46.04,
+     "stop": 67,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      14,
+      15,
+      18,
+      30,
+      32,
+      33,
+      35,
+      36,
+      38,
+      39,
+      41,
+      43,
+      46,
+      56,
+      57,
+      58,
+      66,
+      67
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "taylorhickem/singapore-building-energy": {
+     "cost_s": 2.53,
+     "ref_cost_s": 0.13,
+     "stop": 9,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      3
+     ],
+     "tier2_covered": [
+      9
+     ],
+     "tier2_uncovered": []
+    },
+    "vinothsuku/osic-pulmonary-fibrosis-simple-eda": {
+     "cost_s": 3.35,
+     "ref_cost_s": 0.13,
+     "stop": 9,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      7,
+      8,
+      9
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "viviktpharale/house-price-prediction-eda-linear-ridge-lasso": {
+     "cost_s": 3.91,
+     "ref_cost_s": 0.1,
+     "stop": 9,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      9
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "willkoehrsen/start-here-a-gentle-introduction": {
+     "cost_s": 6.94,
+     "ref_cost_s": 6.12,
+     "stop": 9,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      9
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "wyl4417/machine-learning-and-how-it-affects-you": {
+     "cost_s": 68.0,
+     "ref_cost_s": 65.71,
+     "stop": 15,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      4,
+      8,
+      15
+     ],
+     "tier2_uncovered": []
+    },
+    "yonelanuba/elo-merchant-by-yonela": {
+     "cost_s": 171.84,
+     "ref_cost_s": 191.73,
+     "stop": 111,
+     "tier1_can_enter": [
+      76,
+      79,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      90,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111
+     ],
+     "tier1_cells": [
+      75,
+      76,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      90,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    }
+   }
+  },
+  "p15": {
+   "not_run": {
+    "tunguz/fathers-day-specials-just-the-features": {
+     "cost_s": 216.26,
+     "tier2_cells": [
+      26,
+      27
+     ]
+    }
+   },
+   "notebooks": {
+    "akgauravin/gun-violence-data-exploration-and-plotting": {
+     "cost_s": 12.89,
+     "ref_cost_s": 14.4,
+     "stop": 15,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      5,
+      12,
+      15
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "artgor/eda-and-models": {
+     "cost_s": 97.37,
+     "ref_cost_s": 110.77,
+     "stop": 35,
+     "tier1_can_enter": [
+      33,
+      35
+     ],
+     "tier1_cells": [
+      33,
+      35
+     ],
+     "tier2_covered": [
+      32
+     ],
+     "tier2_uncovered": []
+    },
+    "balajivenkat96/solar-plants": {
+     "cost_s": 0.09,
+     "ref_cost_s": 2.07,
+     "stop": 32,
+     "tier1_can_enter": [
+      20,
+      21,
+      32
+     ],
+     "tier1_cells": [
+      20,
+      21,
+      32
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "beratozmen/clash-of-clans-exploratory-data-analysis": {
+     "cost_s": 26.59,
+     "ref_cost_s": 31.29,
+     "stop": 7,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      7
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "blaskowitz100/feature-engineering-based-on-the-suprise-me": {
+     "cost_s": 2.91,
+     "ref_cost_s": 4.11,
+     "stop": 20,
+     "tier1_can_enter": [
+      3,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      18,
+      19,
+      20
+     ],
+     "tier1_cells": [
+      1,
+      2,
+      3,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      18,
+      19,
+      20
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "dbatao/kernel2f80fc9d78": {
+     "cost_s": 0.57,
+     "ref_cost_s": 1.21,
+     "stop": 43,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      43
+     ],
+     "tier2_covered": [
+      28
+     ],
+     "tier2_uncovered": []
+    },
+    "gravix/gradient-in-a-box": {
+     "cost_s": 44.14,
+     "ref_cost_s": 53.96,
+     "stop": 13,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "grudd0/mass-shooting-analysis": {
+     "cost_s": 0.17,
+     "ref_cost_s": 0.56,
+     "stop": 43,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      1,
+      40,
+      43
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "j0thu777/onlineretailanalysis": {
+     "cost_s": 183.67,
+     "ref_cost_s": 194.54,
+     "stop": 24,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      20,
+      21,
+      22,
+      23,
+      24
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "jagangupta/stop-the-s-toxic-comments-eda": {
+     "cost_s": 24.49,
+     "ref_cost_s": 31.45,
+     "stop": 39,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      12,
+      31,
+      32,
+      34,
+      35,
+      36,
+      37,
+      39
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "jirakst/book-recommendation": {
+     "cost_s": 62.57,
+     "ref_cost_s": 202.82,
+     "stop": 85,
+     "tier1_can_enter": [
+      85
+     ],
+     "tier1_cells": [
+      85
+     ],
+     "tier2_covered": [
+      76,
+      77,
+      83
+     ],
+     "tier2_uncovered": []
+    },
+    "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+     "cost_s": 2.04,
+     "ref_cost_s": 1.81,
+     "stop": 8,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      8
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "kmader/analyzing-matches": {
+     "cost_s": 0.19,
+     "ref_cost_s": 0.37,
+     "stop": 19,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      12,
+      15,
+      18,
+      19
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "koko1998/summer-products-and-sales-wish-com": {
+     "cost_s": 0.76,
+     "ref_cost_s": 1.86,
+     "stop": 99,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      8,
+      9
+     ],
+     "tier2_covered": [
+      97,
+      99
+     ],
+     "tier2_uncovered": []
+    },
+    "luckygemini/notebook5d5fc80c9f": {
+     "cost_s": 0.25,
+     "ref_cost_s": 0.4,
+     "stop": 8,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      6,
+      8
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "luizep/movieslens20m": {
+     "cost_s": 45.55,
+     "ref_cost_s": 56.22,
+     "stop": 35,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      6,
+      7,
+      35
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost": {
+     "cost_s": 36.45,
+     "ref_cost_s": 27.79,
+     "stop": 13,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      9,
+      13
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "nadare/feature-engenieering-with-pivot-table": {
+     "cost_s": 27.03,
+     "ref_cost_s": 244.32,
+     "stop": 16,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      2,
+      16
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "nandhuelan/ott-platforms": {
+     "cost_s": 0.48,
+     "ref_cost_s": 0.94,
+     "stop": 18,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      11,
+      14,
+      17,
+      18
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "nihhaar/etltransform": {
+     "cost_s": 0.04,
+     "ref_cost_s": 0.17,
+     "stop": 3,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      3
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "paramarthasengupta/plotly-eda-top-movies-of-20th-century": {
+     "cost_s": 0.01,
+     "ref_cost_s": 0.16,
+     "stop": 4,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      4
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "penny8/my-sub1": {
+     "cost_s": 43.33,
+     "ref_cost_s": 56.69,
+     "stop": 20,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      19,
+      20
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697": {
+     "cost_s": 1.89,
+     "ref_cost_s": 4.4,
+     "stop": 63,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      63
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "salmaneunus/student-s-performance-quantitative-visual-eda": {
+     "cost_s": 0.04,
+     "ref_cost_s": 0.13,
+     "stop": 16,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      11,
+      16
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "sanket30/eda-of-application-train-home-credit-default": {
+     "cost_s": 9.25,
+     "ref_cost_s": 13.17,
+     "stop": 42,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      11,
+      24,
+      42
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "shivavashishtha/zomato-eda-tutorial": {
+     "cost_s": 28.51,
+     "ref_cost_s": 34.42,
+     "stop": 90,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      69,
+      70,
+      75,
+      76,
+      77,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      88,
+      90
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "shunjiangxu/blood-is-thicker-than-water-friendship-forever": {
+     "cost_s": 0.16,
+     "ref_cost_s": 0.31,
+     "stop": 14,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      1,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      14
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "sudheer259/house-price-prediction": {
+     "cost_s": 2.47,
+     "ref_cost_s": 5.03,
+     "stop": 187,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      32,
+      187
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model": {
+     "cost_s": 42.81,
+     "ref_cost_s": 46.04,
+     "stop": 67,
+     "tier1_can_enter": [
+      32,
+      33,
+      35,
+      36,
+      38,
+      39,
+      41,
+      43,
+      46,
+      48,
+      51,
+      53,
+      56,
+      57,
+      58
+     ],
+     "tier1_cells": [
+      14,
+      15,
+      32,
+      33,
+      35,
+      36,
+      38,
+      39,
+      41,
+      43,
+      46,
+      48,
+      51,
+      53,
+      56,
+      57,
+      58,
+      66,
+      67
+     ],
+     "tier2_covered": [
+      18,
+      30
+     ],
+     "tier2_uncovered": []
+    },
+    "taylorhickem/singapore-building-energy": {
+     "cost_s": 0.04,
+     "ref_cost_s": 0.13,
+     "stop": 9,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      3,
+      9
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "vinothsuku/osic-pulmonary-fibrosis-simple-eda": {
+     "cost_s": 0.04,
+     "ref_cost_s": 0.13,
+     "stop": 9,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      7,
+      8,
+      9
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "viviktpharale/house-price-prediction-eda-linear-ridge-lasso": {
+     "cost_s": 0.08,
+     "ref_cost_s": 0.1,
+     "stop": 9,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      9
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "willkoehrsen/start-here-a-gentle-introduction": {
+     "cost_s": 5.06,
+     "ref_cost_s": 6.12,
+     "stop": 9,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      9
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "wyl4417/machine-learning-and-how-it-affects-you": {
+     "cost_s": 45.37,
+     "ref_cost_s": 65.71,
+     "stop": 15,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      4,
+      8,
+      15
+     ],
+     "tier2_uncovered": []
+    },
+    "yonelanuba/elo-merchant-by-yonela": {
+     "cost_s": 176.36,
+     "ref_cost_s": 194.49,
+     "stop": 143,
+     "tier1_can_enter": [
+      76,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      90,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111
+     ],
+     "tier1_cells": [
+      76,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      90,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111
+     ],
+     "tier2_covered": [
+      75,
+      79,
+      80,
+      135,
+      143
+     ],
+     "tier2_uncovered": []
+    }
+   }
+  },
+  "p30": {
+   "not_run": {},
+   "notebooks": {
+    "akgauravin/gun-violence-data-exploration-and-plotting": {
+     "cost_s": 9.93,
+     "ref_cost_s": 14.4,
+     "stop": 15,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      5,
+      12,
+      15
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "artgor/eda-and-models": {
+     "cost_s": 63.32,
+     "ref_cost_s": 110.77,
+     "stop": 35,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      33,
+      35
+     ],
+     "tier2_covered": [
+      32
+     ],
+     "tier2_uncovered": []
+    },
+    "balajivenkat96/solar-plants": {
+     "cost_s": 1.72,
+     "ref_cost_s": 2.07,
+     "stop": 32,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      18,
+      20,
+      21,
+      32
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "beratozmen/clash-of-clans-exploratory-data-analysis": {
+     "cost_s": 25.2,
+     "ref_cost_s": 31.29,
+     "stop": 7,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      7
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "blaskowitz100/feature-engineering-based-on-the-suprise-me": {
+     "cost_s": 3.78,
+     "ref_cost_s": 4.11,
+     "stop": 20,
+     "tier1_can_enter": [
+      12,
+      13,
+      18,
+      19,
+      20
+     ],
+     "tier1_cells": [
+      1,
+      2,
+      3,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      18,
+      19,
+      20
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "dbatao/kernel2f80fc9d78": {
+     "cost_s": 0.7,
+     "ref_cost_s": 1.21,
+     "stop": 43,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      43
+     ],
+     "tier2_uncovered": []
+    },
+    "gravix/gradient-in-a-box": {
+     "cost_s": 49.73,
+     "ref_cost_s": 53.96,
+     "stop": 13,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "grudd0/mass-shooting-analysis": {
+     "cost_s": 0.16,
+     "ref_cost_s": 0.56,
+     "stop": 43,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      1,
+      40,
+      43
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "j0thu777/onlineretailanalysis": {
+     "cost_s": 180.41,
+     "ref_cost_s": 194.54,
+     "stop": 24,
+     "tier1_can_enter": [
+      21,
+      22,
+      23,
+      24
+     ],
+     "tier1_cells": [
+      20,
+      21,
+      22,
+      23,
+      24
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "jagangupta/stop-the-s-toxic-comments-eda": {
+     "cost_s": 29.47,
+     "ref_cost_s": 31.45,
+     "stop": 39,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      12,
+      31,
+      32,
+      34,
+      35,
+      36,
+      37,
+      39
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "jirakst/book-recommendation": {
+     "cost_s": 167.8,
+     "ref_cost_s": 202.82,
+     "stop": 85,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      77,
+      85
+     ],
+     "tier2_covered": [
+      76,
+      83
+     ],
+     "tier2_uncovered": []
+    },
+    "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+     "cost_s": 1.78,
+     "ref_cost_s": 1.81,
+     "stop": 8,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      8
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "kmader/analyzing-matches": {
+     "cost_s": 0.28,
+     "ref_cost_s": 0.37,
+     "stop": 19,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      12,
+      15,
+      18,
+      19
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "koko1998/summer-products-and-sales-wish-com": {
+     "cost_s": 1.33,
+     "ref_cost_s": 1.86,
+     "stop": 99,
+     "tier1_can_enter": [
+      9
+     ],
+     "tier1_cells": [
+      9
+     ],
+     "tier2_covered": [
+      8,
+      97,
+      99
+     ],
+     "tier2_uncovered": []
+    },
+    "luckygemini/notebook5d5fc80c9f": {
+     "cost_s": 0.27,
+     "ref_cost_s": 0.4,
+     "stop": 8,
+     "tier1_can_enter": [
+      8
+     ],
+     "tier1_cells": [
+      6,
+      8
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "luizep/movieslens20m": {
+     "cost_s": 14.49,
+     "ref_cost_s": 29.09,
+     "stop": 7,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      6,
+      7
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost": {
+     "cost_s": 32.46,
+     "ref_cost_s": 27.79,
+     "stop": 13,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      9,
+      13
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "nadare/feature-engenieering-with-pivot-table": {
+     "cost_s": 34.67,
+     "ref_cost_s": 244.32,
+     "stop": 16,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      2,
+      16
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "nandhuelan/ott-platforms": {
+     "cost_s": 0.54,
+     "ref_cost_s": 0.94,
+     "stop": 18,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      11,
+      14,
+      17,
+      18
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "nihhaar/etltransform": {
+     "cost_s": 0.05,
+     "ref_cost_s": 0.17,
+     "stop": 3,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      3
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "paramarthasengupta/plotly-eda-top-movies-of-20th-century": {
+     "cost_s": 0.02,
+     "ref_cost_s": 0.16,
+     "stop": 4,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      4
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "penny8/my-sub1": {
+     "cost_s": 96.89,
+     "ref_cost_s": 56.69,
+     "stop": 20,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      19,
+      20
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697": {
+     "cost_s": 2.12,
+     "ref_cost_s": 4.4,
+     "stop": 63,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      63
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "salmaneunus/student-s-performance-quantitative-visual-eda": {
+     "cost_s": 0.06,
+     "ref_cost_s": 0.13,
+     "stop": 16,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      11,
+      16
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "sanket30/eda-of-application-train-home-credit-default": {
+     "cost_s": 8.41,
+     "ref_cost_s": 13.17,
+     "stop": 42,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      11,
+      24,
+      42
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "shivavashishtha/zomato-eda-tutorial": {
+     "cost_s": 32.24,
+     "ref_cost_s": 34.42,
+     "stop": 90,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      69,
+      70,
+      75,
+      76,
+      77,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      88,
+      90
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "shunjiangxu/blood-is-thicker-than-water-friendship-forever": {
+     "cost_s": 0.15,
+     "ref_cost_s": 0.31,
+     "stop": 14,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      1,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "tier2_covered": [
+      10,
+      11,
+      14
+     ],
+     "tier2_uncovered": []
+    },
+    "sudheer259/house-price-prediction": {
+     "cost_s": 1.75,
+     "ref_cost_s": 5.03,
+     "stop": 187,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      32,
+      187
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model": {
+     "cost_s": 41.98,
+     "ref_cost_s": 46.04,
+     "stop": 67,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      14,
+      15,
+      18,
+      30,
+      32,
+      33,
+      35,
+      36,
+      38,
+      39,
+      41,
+      43,
+      46,
+      48,
+      51,
+      53,
+      56,
+      57,
+      58,
+      66,
+      67
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "taylorhickem/singapore-building-energy": {
+     "cost_s": 0.04,
+     "ref_cost_s": 0.13,
+     "stop": 9,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      3,
+      9
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "vinothsuku/osic-pulmonary-fibrosis-simple-eda": {
+     "cost_s": 0.05,
+     "ref_cost_s": 0.13,
+     "stop": 9,
+     "tier1_can_enter": [
+      8,
+      9
+     ],
+     "tier1_cells": [
+      7,
+      8,
+      9
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "viviktpharale/house-price-prediction-eda-linear-ridge-lasso": {
+     "cost_s": 0.09,
+     "ref_cost_s": 0.1,
+     "stop": 9,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      9
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "willkoehrsen/start-here-a-gentle-introduction": {
+     "cost_s": 4.33,
+     "ref_cost_s": 6.12,
+     "stop": 9,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      9
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "wyl4417/machine-learning-and-how-it-affects-you": {
+     "cost_s": 20.18,
+     "ref_cost_s": 65.71,
+     "stop": 15,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      4,
+      15
+     ],
+     "tier2_covered": [
+      8
+     ],
+     "tier2_uncovered": []
+    },
+    "yonelanuba/elo-merchant-by-yonela": {
+     "cost_s": 154.97,
+     "ref_cost_s": 194.49,
+     "stop": 143,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      75,
+      76,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      90,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      135
+     ],
+     "tier2_covered": [
+      143
+     ],
+     "tier2_uncovered": []
+    }
+   }
+  },
+  "pyarrow_backend": {
+   "not_run": {
+    "tunguz/fathers-day-specials-just-the-features": {
+     "cost_s": 159.28,
+     "tier2_cells": [
+      26,
+      27
+     ]
+    }
+   },
+   "notebooks": {
+    "akgauravin/gun-violence-data-exploration-and-plotting": {
+     "cost_s": 13.43,
+     "ref_cost_s": 14.4,
+     "stop": 15,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      5,
+      12,
+      15
+     ],
+     "tier2_uncovered": []
+    },
+    "artgor/eda-and-models": {
+     "cost_s": 121.21,
+     "ref_cost_s": 110.77,
+     "stop": 35,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      33,
+      35
+     ],
+     "tier2_covered": [
+      32
+     ],
+     "tier2_uncovered": []
+    },
+    "balajivenkat96/solar-plants": {
+     "cost_s": 0.09,
+     "ref_cost_s": 2.07,
+     "stop": 32,
+     "tier1_can_enter": [
+      20,
+      21
+     ],
+     "tier1_cells": [
+      20,
+      21
+     ],
+     "tier2_covered": [
+      32
+     ],
+     "tier2_uncovered": []
+    },
+    "beratozmen/clash-of-clans-exploratory-data-analysis": {
+     "cost_s": 31.15,
+     "ref_cost_s": 31.29,
+     "stop": 7,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      7
+     ],
+     "tier2_uncovered": []
+    },
+    "blaskowitz100/feature-engineering-based-on-the-suprise-me": {
+     "cost_s": 6.46,
+     "ref_cost_s": 4.11,
+     "stop": 20,
+     "tier1_can_enter": [
+      2,
+      3,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      18,
+      19,
+      20
+     ],
+     "tier1_cells": [
+      1,
+      2,
+      3,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      18,
+      19,
+      20
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "dbatao/kernel2f80fc9d78": {
+     "cost_s": 2.48,
+     "ref_cost_s": 1.21,
+     "stop": 43,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      43
+     ],
+     "tier2_uncovered": []
+    },
+    "gravix/gradient-in-a-box": {
+     "cost_s": 58.24,
+     "ref_cost_s": 53.96,
+     "stop": 13,
+     "tier1_can_enter": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+     ],
+     "tier1_cells": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+     ],
+     "tier2_covered": [
+      6
+     ],
+     "tier2_uncovered": []
+    },
+    "grudd0/mass-shooting-analysis": {
+     "cost_s": 0.62,
+     "ref_cost_s": 0.56,
+     "stop": 43,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      1
+     ],
+     "tier2_covered": [
+      43
+     ],
+     "tier2_uncovered": []
+    },
+    "j0thu777/onlineretailanalysis": {
+     "cost_s": 203.58,
+     "ref_cost_s": 194.54,
+     "stop": 24,
+     "tier1_can_enter": [
+      21,
+      22
+     ],
+     "tier1_cells": [
+      21,
+      22,
+      23,
+      24
+     ],
+     "tier2_covered": [
+      20
+     ],
+     "tier2_uncovered": []
+    },
+    "jagangupta/stop-the-s-toxic-comments-eda": {
+     "cost_s": 35.86,
+     "ref_cost_s": 31.45,
+     "stop": 39,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      12,
+      31,
+      32,
+      34,
+      35,
+      36,
+      37,
+      39
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "jirakst/book-recommendation": {
+     "cost_s": 170.66,
+     "ref_cost_s": 202.82,
+     "stop": 85,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      85
+     ],
+     "tier2_covered": [
+      76,
+      77,
+      83
+     ],
+     "tier2_uncovered": []
+    },
+    "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+     "cost_s": 1.97,
+     "ref_cost_s": 1.81,
+     "stop": 8,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      8
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "kmader/analyzing-matches": {
+     "cost_s": 0.67,
+     "ref_cost_s": 0.37,
+     "stop": 19,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      12,
+      15,
+      18,
+      19
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "koko1998/summer-products-and-sales-wish-com": {
+     "cost_s": 2.71,
+     "ref_cost_s": 2.15,
+     "stop": 109,
+     "tier1_can_enter": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      108,
+      109
+     ],
+     "tier1_cells": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      108,
+      109
+     ],
+     "tier2_covered": [
+      8
+     ],
+     "tier2_uncovered": []
+    },
+    "luckygemini/notebook5d5fc80c9f": {
+     "cost_s": 0.41,
+     "ref_cost_s": 0.4,
+     "stop": 8,
+     "tier1_can_enter": [
+      8
+     ],
+     "tier1_cells": [
+      8
+     ],
+     "tier2_covered": [
+      6
+     ],
+     "tier2_uncovered": []
+    },
+    "luizep/movieslens20m": {
+     "cost_s": 31.13,
+     "ref_cost_s": 56.22,
+     "stop": 35,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      7
+     ],
+     "tier2_covered": [
+      6,
+      35
+     ],
+     "tier2_uncovered": []
+    },
+    "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost": {
+     "cost_s": 169.07,
+     "ref_cost_s": 27.79,
+     "stop": 13,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      9,
+      13
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "nadare/feature-engenieering-with-pivot-table": {
+     "cost_s": 76.73,
+     "ref_cost_s": 244.32,
+     "stop": 16,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      2,
+      16
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "nandhuelan/ott-platforms": {
+     "cost_s": 0.8,
+     "ref_cost_s": 0.94,
+     "stop": 18,
+     "tier1_can_enter": [
+      14,
+      17,
+      18
+     ],
+     "tier1_cells": [
+      14,
+      17,
+      18
+     ],
+     "tier2_covered": [
+      11
+     ],
+     "tier2_uncovered": []
+    },
+    "nihhaar/etltransform": {
+     "cost_s": 0.24,
+     "ref_cost_s": 0.17,
+     "stop": 3,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      3
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "paramarthasengupta/plotly-eda-top-movies-of-20th-century": {
+     "cost_s": 0.09,
+     "ref_cost_s": 0.16,
+     "stop": 4,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      4
+     ],
+     "tier2_uncovered": []
+    },
+    "penny8/my-sub1": {
+     "cost_s": 66.85,
+     "ref_cost_s": 56.69,
+     "stop": 20,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      19,
+      20
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697": {
+     "cost_s": 7.05,
+     "ref_cost_s": 4.4,
+     "stop": 63,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      63
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "salmaneunus/student-s-performance-quantitative-visual-eda": {
+     "cost_s": 0.16,
+     "ref_cost_s": 0.13,
+     "stop": 16,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      11,
+      16
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "sanket30/eda-of-application-train-home-credit-default": {
+     "cost_s": 8.41,
+     "ref_cost_s": 8.68,
+     "stop": 11,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      11
+     ],
+     "tier2_uncovered": []
+    },
+    "shivavashishtha/zomato-eda-tutorial": {
+     "cost_s": 36.44,
+     "ref_cost_s": 34.42,
+     "stop": 90,
+     "tier1_can_enter": [
+      70,
+      75,
+      76,
+      77,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      88,
+      90
+     ],
+     "tier1_cells": [
+      70,
+      75,
+      76,
+      77,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      88,
+      90
+     ],
+     "tier2_covered": [
+      69
+     ],
+     "tier2_uncovered": []
+    },
+    "shunjiangxu/blood-is-thicker-than-water-friendship-forever": {
+     "cost_s": 0.36,
+     "ref_cost_s": 0.31,
+     "stop": 14,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      1
+     ],
+     "tier2_covered": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      14
+     ],
+     "tier2_uncovered": []
+    },
+    "sudheer259/house-price-prediction": {
+     "cost_s": 5.07,
+     "ref_cost_s": 5.03,
+     "stop": 187,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      32,
+      187
+     ],
+     "tier2_uncovered": []
+    },
+    "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model": {
+     "cost_s": 46.89,
+     "ref_cost_s": 46.04,
+     "stop": 67,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      14,
+      15,
+      18,
+      30,
+      32,
+      33,
+      35,
+      36,
+      38,
+      39,
+      41,
+      43,
+      46,
+      48,
+      51,
+      53,
+      56,
+      57,
+      58,
+      66,
+      67
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "taylorhickem/singapore-building-energy": {
+     "cost_s": 0.09,
+     "ref_cost_s": 0.13,
+     "stop": 9,
+     "tier1_can_enter": [
+      9
+     ],
+     "tier1_cells": [
+      3,
+      9
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "vinothsuku/osic-pulmonary-fibrosis-simple-eda": {
+     "cost_s": 0.15,
+     "ref_cost_s": 0.13,
+     "stop": 9,
+     "tier1_can_enter": [
+      8,
+      9
+     ],
+     "tier1_cells": [
+      7,
+      8,
+      9
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "viviktpharale/house-price-prediction-eda-linear-ridge-lasso": {
+     "cost_s": 0.16,
+     "ref_cost_s": 0.1,
+     "stop": 9,
+     "tier1_can_enter": [],
+     "tier1_cells": [
+      9
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    },
+    "willkoehrsen/start-here-a-gentle-introduction": {
+     "cost_s": 6.14,
+     "ref_cost_s": 6.12,
+     "stop": 9,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      9
+     ],
+     "tier2_uncovered": []
+    },
+    "wyl4417/machine-learning-and-how-it-affects-you": {
+     "cost_s": 17.13,
+     "ref_cost_s": 65.71,
+     "stop": 15,
+     "tier1_can_enter": [],
+     "tier1_cells": [],
+     "tier2_covered": [
+      4,
+      8,
+      15
+     ],
+     "tier2_uncovered": []
+    },
+    "yonelanuba/elo-merchant-by-yonela": {
+     "cost_s": 128.48,
+     "ref_cost_s": 193.53,
+     "stop": 117,
+     "tier1_can_enter": [
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      90,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117
+     ],
+     "tier1_cells": [
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      87,
+      90,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117
+     ],
+     "tier2_covered": [],
+     "tier2_uncovered": []
+    }
+   }
+  }
+ },
+ "rule": {
+  "EXTEND_S": 120.0,
+  "HEAVY_S": 1000.0
+ },
+ "streams": {
+  "job1_bodo": {
+   "engine": "bodo",
+   "max_notebook_s": 613.2,
+   "notebooks": 26,
+   "order": [
+    [
+     "nandhuelan/ott-platforms",
+     18,
+     613.2,
+     2
+    ],
+    [
+     "yonelanuba/elo-merchant-by-yonela",
+     117,
+     337.5,
+     40
+    ],
+    [
+     "j0thu777/onlineretailanalysis",
+     24,
+     154.7,
+     4
+    ],
+    [
+     "beratozmen/clash-of-clans-exploratory-data-analysis",
+     7,
+     74.6,
+     0
+    ],
+    [
+     "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+     67,
+     67.0,
+     14
+    ],
+    [
+     "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost",
+     13,
+     36.2,
+     1
+    ],
+    [
+     "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+     20,
+     32.7,
+     12
+    ],
+    [
+     "luizep/movieslens20m",
+     7,
+     29.6,
+     1
+    ],
+    [
+     "willkoehrsen/start-here-a-gentle-introduction",
+     9,
+     14.9,
+     0
+    ],
+    [
+     "sanket30/eda-of-application-train-home-credit-default",
+     11,
+     13.0,
+     0
+    ],
+    [
+     "koko1998/summer-products-and-sales-wish-com",
+     109,
+     12.7,
+     97
+    ],
+    [
+     "akgauravin/gun-violence-data-exploration-and-plotting",
+     12,
+     11.4,
+     0
+    ],
+    [
+     "jagangupta/stop-the-s-toxic-comments-eda",
+     39,
+     9.3,
+     7
+    ],
+    [
+     "balajivenkat96/solar-plants",
+     32,
+     6.0,
+     4
+    ],
+    [
+     "gravix/gradient-in-a-box",
+     18,
+     5.7,
+     9
+    ],
+    [
+     "luckygemini/notebook5d5fc80c9f",
+     8,
+     4.3,
+     1
+    ],
+    [
+     "taylorhickem/singapore-building-energy",
+     9,
+     4.0,
+     2
+    ],
+    [
+     "shivavashishtha/zomato-eda-tutorial",
+     90,
+     3.8,
+     9
+    ],
+    [
+     "kmader/analyzing-matches",
+     19,
+     3.5,
+     0
+    ],
+    [
+     "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+     9,
+     3.4,
+     3
+    ],
+    [
+     "salmaneunus/student-s-performance-quantitative-visual-eda",
+     16,
+     3.0,
+     2
+    ],
+    [
+     "jirakst/book-recommendation",
+     85,
+     1.6,
+     1
+    ],
+    [
+     "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+     14,
+     1.6,
+     4
+    ],
+    [
+     "grudd0/mass-shooting-analysis",
+     43,
+     1.5,
+     1
+    ],
+    [
+     "nihhaar/etltransform",
+     3,
+     0.9,
+     1
+    ],
+    [
+     "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+     4,
+     0.8,
+     0
+    ]
+   ],
+   "recorded_cost_s": 1446.7,
+   "tier1_cells": 215
+  },
+  "job1_dask": {
+   "engine": "dask",
+   "max_notebook_s": 632.6,
+   "notebooks": 48,
+   "order": [
+    [
+     "yonelanuba/elo-merchant-by-yonela",
+     149,
+     252.9,
+     28
+    ],
+    [
+     "jagangupta/stop-the-s-toxic-comments-eda",
+     39,
+     160.3,
+     6
+    ],
+    [
+     "jirakst/book-recommendation",
+     85,
+     98.1,
+     3
+    ],
+    [
+     "shivavashishtha/zomato-eda-tutorial",
+     90,
+     88.1,
+     9
+    ],
+    [
+     "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+     67,
+     66.5,
+     17
+    ],
+    [
+     "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+     25,
+     52.6,
+     0
+    ],
+    [
+     "roydatascience/malware-detection-stacking-2-0",
+     7,
+     51.8,
+     0
+    ],
+    [
+     "penny8/my-sub1",
+     20,
+     45.4,
+     0
+    ],
+    [
+     "narasimhach/ashrae-data-preprocessing",
+     13,
+     38.4,
+     0
+    ],
+    [
+     "akgauravin/gun-violence-data-exploration-and-plotting",
+     17,
+     37.9,
+     0
+    ],
+    [
+     "luizep/movieslens20m",
+     7,
+     29.1,
+     1
+    ],
+    [
+     "wyl4417/machine-learning-and-how-it-affects-you",
+     15,
+     21.3,
+     0
+    ],
+    [
+     "sanket30/eda-of-application-train-home-credit-default",
+     11,
+     18.9,
+     0
+    ],
+    [
+     "willkoehrsen/start-here-a-gentle-introduction",
+     9,
+     17.7,
+     0
+    ],
+    [
+     "koko1998/summer-products-and-sales-wish-com",
+     104,
+     11.8,
+     1
+    ],
+    [
+     "gravix/gradient-in-a-box",
+     13,
+     11.3,
+     5
+    ],
+    [
+     "j0thu777/onlineretailanalysis",
+     24,
+     4.8,
+     4
+    ],
+    [
+     "roopahegde/cryptocurrency-price-correlation",
+     7,
+     3.4,
+     2
+    ],
+    [
+     "dbatao/kernel2f80fc9d78",
+     43,
+     2.4,
+     0
+    ],
+    [
+     "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+     20,
+     1.8,
+     11
+    ],
+    [
+     "nandhuelan/ott-platforms",
+     18,
+     1.5,
+     3
+    ],
+    [
+     "grudd0/mass-shooting-analysis",
+     43,
+     1.2,
+     0
+    ],
+    [
+     "corazzon/how-to-use-pandas-filter-in-survey-eda",
+     2,
+     1.2,
+     1
+    ],
+    [
+     "stefanjov/my-first-normalize-on-big-dataset",
+     4,
+     1.1,
+     1
+    ],
+    [
+     "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+     14,
+     0.6,
+     1
+    ],
+    [
+     "jackwatson99/pima-indians-diabetes-rf-81",
+     12,
+     0.4,
+     4
+    ],
+    [
+     "brianmendieta/data-cleaning-plus-eda",
+     11,
+     0.4,
+     1
+    ],
+    [
+     "ayushsingh5941/tweet-disaster-or-not",
+     25,
+     0.3,
+     0
+    ],
+    [
+     "gmanish/help-ngo-country-clustering",
+     18,
+     0.2,
+     1
+    ],
+    [
+     "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+     9,
+     0.2,
+     3
+    ],
+    [
+     "salmaneunus/student-s-performance-quantitative-visual-eda",
+     16,
+     0.2,
+     3
+    ],
+    [
+     "shubhammahalank/eda-hotel-booking-demand",
+     3,
+     0.2,
+     0
+    ],
+    [
+     "luckygemini/notebook5d5fc80c9f",
+     8,
+     0.2,
+     1
+    ],
+    [
+     "nihhaar/etltransform",
+     3,
+     0.1,
+     2
+    ],
+    [
+     "jyotsananegi/melbourne-housing-snapshot-eda",
+     2,
+     0.1,
+     0
+    ],
+    [
+     "ashukr/first-step-ingestion-to-prediction",
+     4,
+     0.1,
+     0
+    ],
+    [
+     "snanilim/video-games-sales-analysis-and-visualization",
+     3,
+     0.1,
+     0
+    ],
+    [
+     "madseth/customer-shopping-trends-dataset-eda",
+     3,
+     0.1,
+     1
+    ],
+    [
+     "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+     3,
+     0.1,
+     0
+    ],
+    [
+     "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+     2,
+     0.0,
+     0
+    ],
+    [
+     "mathewvondersaar/analysis-of-student-performance",
+     2,
+     0.0,
+     1
+    ],
+    [
+     "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+     4,
+     0.0,
+     0
+    ],
+    [
+     "gsilves/quiz-4-question-1",
+     3,
+     0.0,
+     0
+    ],
+    [
+     "kmader/analyzing-matches",
+     19,
+     0.0,
+     0
+    ],
+    [
+     "taylorhickem/singapore-building-energy",
+     9,
+     0.0,
+     0
+    ],
+    [
+     "balajivenkat96/solar-plants",
+     32,
+     0.0,
+     2
+    ],
+    [
+     "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost",
+     13,
+     0.0,
+     0
+    ],
+    [
+     "artgor/eda-and-models",
+     35,
+     632.6,
+     2
+    ]
+   ],
+   "recorded_cost_s": 1655.8,
+   "tier1_cells": 114
+  },
+  "job1_fireducks": {
+   "engine": "fireducks",
+   "max_notebook_s": 608.6,
+   "notebooks": 31,
+   "order": [
+    [
+     "shivavashishtha/zomato-eda-tutorial",
+     70,
+     608.6,
+     1
+    ],
+    [
+     "nadare/feature-engenieering-with-pivot-table",
+     16,
+     386.8,
+     2
+    ],
+    [
+     "yonelanuba/elo-merchant-by-yonela",
+     111,
+     107.9,
+     27
+    ],
+    [
+     "artgor/eda-and-models",
+     35,
+     80.2,
+     2
+    ],
+    [
+     "jagangupta/stop-the-s-toxic-comments-eda",
+     39,
+     72.0,
+     8
+    ],
+    [
+     "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+     67,
+     52.7,
+     19
+    ],
+    [
+     "wyl4417/machine-learning-and-how-it-affects-you",
+     15,
+     36.9,
+     0
+    ],
+    [
+     "beratozmen/clash-of-clans-exploratory-data-analysis",
+     7,
+     32.7,
+     0
+    ],
+    [
+     "luizep/movieslens20m",
+     35,
+     31.1,
+     1
+    ],
+    [
+     "j0thu777/onlineretailanalysis",
+     24,
+     29.8,
+     5
+    ],
+    [
+     "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+     20,
+     24.2,
+     12
+    ],
+    [
+     "akgauravin/gun-violence-data-exploration-and-plotting",
+     15,
+     14.9,
+     0
+    ],
+    [
+     "sanket30/eda-of-application-train-home-credit-default",
+     42,
+     7.8,
+     3
+    ],
+    [
+     "guyalmog/hr-analytics-predicting-employees-attrition",
+     75,
+     5.8,
+     0
+    ],
+    [
+     "nandhuelan/ott-platforms",
+     18,
+     3.6,
+     3
+    ],
+    [
+     "willkoehrsen/start-here-a-gentle-introduction",
+     9,
+     3.0,
+     0
+    ],
+    [
+     "balajivenkat96/solar-plants",
+     32,
+     2.2,
+     4
+    ],
+    [
+     "kmader/analyzing-matches",
+     19,
+     1.5,
+     4
+    ],
+    [
+     "kimtaehun/simple-preprocessing-for-time-series-prediction",
+     8,
+     1.4,
+     0
+    ],
+    [
+     "gravix/gradient-in-a-box",
+     13,
+     1.2,
+     6
+    ],
+    [
+     "koko1998/summer-products-and-sales-wish-com",
+     99,
+     1.1,
+     1
+    ],
+    [
+     "dbatao/kernel2f80fc9d78",
+     43,
+     1.0,
+     1
+    ],
+    [
+     "luckygemini/notebook5d5fc80c9f",
+     8,
+     0.6,
+     1
+    ],
+    [
+     "grudd0/mass-shooting-analysis",
+     43,
+     0.4,
+     1
+    ],
+    [
+     "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+     14,
+     0.3,
+     1
+    ],
+    [
+     "taylorhickem/singapore-building-energy",
+     9,
+     0.2,
+     2
+    ],
+    [
+     "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+     9,
+     0.1,
+     1
+    ],
+    [
+     "nihhaar/etltransform",
+     3,
+     0.1,
+     1
+    ],
+    [
+     "salmaneunus/student-s-performance-quantitative-visual-eda",
+     16,
+     0.1,
+     2
+    ],
+    [
+     "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+     9,
+     0.0,
+     3
+    ],
+    [
+     "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+     4,
+     0.0,
+     1
+    ]
+   ],
+   "recorded_cost_s": 1508.2,
+   "tier1_cells": 112
+  },
+  "job1_modin": {
+   "engine": "modin",
+   "max_notebook_s": 304.9,
+   "notebooks": 31,
+   "order": [
+    [
+     "yonelanuba/elo-merchant-by-yonela",
+     111,
+     171.8,
+     30
+    ],
+    [
+     "luizep/movieslens20m",
+     7,
+     25.3,
+     1
+    ],
+    [
+     "jirakst/book-recommendation",
+     85,
+     304.9,
+     1
+    ],
+    [
+     "j0thu777/onlineretailanalysis",
+     24,
+     185.5,
+     5
+    ],
+    [
+     "wyl4417/machine-learning-and-how-it-affects-you",
+     15,
+     68.0,
+     0
+    ],
+    [
+     "kmader/analyzing-matches",
+     19,
+     62.0,
+     4
+    ],
+    [
+     "nadare/feature-engenieering-with-pivot-table",
+     2,
+     61.7,
+     1
+    ],
+    [
+     "gravix/gradient-in-a-box",
+     13,
+     51.6,
+     8
+    ],
+    [
+     "jagangupta/stop-the-s-toxic-comments-eda",
+     39,
+     41.4,
+     8
+    ],
+    [
+     "beratozmen/clash-of-clans-exploratory-data-analysis",
+     7,
+     29.6,
+     1
+    ],
+    [
+     "sudheer259/house-price-prediction",
+     187,
+     29.3,
+     1
+    ],
+    [
+     "shivavashishtha/zomato-eda-tutorial",
+     90,
+     25.2,
+     9
+    ],
+    [
+     "sanket30/eda-of-application-train-home-credit-default",
+     42,
+     24.0,
+     3
+    ],
+    [
+     "akgauravin/gun-violence-data-exploration-and-plotting",
+     15,
+     21.4,
+     3
+    ],
+    [
+     "koko1998/summer-products-and-sales-wish-com",
+     99,
+     19.1,
+     4
+    ],
+    [
+     "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost",
+     13,
+     7.6,
+     2
+    ],
+    [
+     "willkoehrsen/start-here-a-gentle-introduction",
+     9,
+     6.9,
+     1
+    ],
+    [
+     "balajivenkat96/solar-plants",
+     32,
+     6.9,
+     4
+    ],
+    [
+     "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+     20,
+     5.7,
+     12
+    ],
+    [
+     "dbatao/kernel2f80fc9d78",
+     43,
+     5.6,
+     0
+    ],
+    [
+     "luckygemini/notebook5d5fc80c9f",
+     8,
+     5.1,
+     2
+    ],
+    [
+     "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+     14,
+     5.0,
+     6
+    ],
+    [
+     "kimtaehun/simple-preprocessing-for-time-series-prediction",
+     8,
+     4.1,
+     1
+    ],
+    [
+     "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+     9,
+     3.9,
+     1
+    ],
+    [
+     "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+     9,
+     3.4,
+     3
+    ],
+    [
+     "nandhuelan/ott-platforms",
+     18,
+     3.1,
+     4
+    ],
+    [
+     "grudd0/mass-shooting-analysis",
+     43,
+     3.0,
+     1
+    ],
+    [
+     "salmaneunus/student-s-performance-quantitative-visual-eda",
+     16,
+     2.7,
+     2
+    ],
+    [
+     "taylorhickem/singapore-building-energy",
+     9,
+     2.5,
+     1
+    ],
+    [
+     "nihhaar/etltransform",
+     3,
+     2.0,
+     1
+    ],
+    [
+     "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+     4,
+     1.9,
+     1
+    ]
+   ],
+   "recorded_cost_s": 1190.4,
+   "tier1_cells": 121
+  },
+  "job1_p15": {
+   "engine": "p15",
+   "max_notebook_s": 183.7,
+   "notebooks": 35,
+   "order": [
+    [
+     "j0thu777/onlineretailanalysis",
+     24,
+     183.7,
+     5
+    ],
+    [
+     "yonelanuba/elo-merchant-by-yonela",
+     143,
+     176.4,
+     27
+    ],
+    [
+     "artgor/eda-and-models",
+     35,
+     97.4,
+     2
+    ],
+    [
+     "jirakst/book-recommendation",
+     85,
+     62.6,
+     1
+    ],
+    [
+     "luizep/movieslens20m",
+     35,
+     45.5,
+     3
+    ],
+    [
+     "wyl4417/machine-learning-and-how-it-affects-you",
+     15,
+     45.4,
+     0
+    ],
+    [
+     "gravix/gradient-in-a-box",
+     13,
+     44.1,
+     8
+    ],
+    [
+     "penny8/my-sub1",
+     20,
+     43.3,
+     2
+    ],
+    [
+     "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+     67,
+     42.8,
+     19
+    ],
+    [
+     "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost",
+     13,
+     36.5,
+     2
+    ],
+    [
+     "shivavashishtha/zomato-eda-tutorial",
+     90,
+     28.5,
+     13
+    ],
+    [
+     "nadare/feature-engenieering-with-pivot-table",
+     16,
+     27.0,
+     2
+    ],
+    [
+     "beratozmen/clash-of-clans-exploratory-data-analysis",
+     7,
+     26.6,
+     1
+    ],
+    [
+     "jagangupta/stop-the-s-toxic-comments-eda",
+     39,
+     24.5,
+     8
+    ],
+    [
+     "akgauravin/gun-violence-data-exploration-and-plotting",
+     15,
+     12.9,
+     3
+    ],
+    [
+     "sanket30/eda-of-application-train-home-credit-default",
+     42,
+     9.2,
+     3
+    ],
+    [
+     "willkoehrsen/start-here-a-gentle-introduction",
+     9,
+     5.1,
+     1
+    ],
+    [
+     "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+     20,
+     2.9,
+     12
+    ],
+    [
+     "sudheer259/house-price-prediction",
+     187,
+     2.5,
+     2
+    ],
+    [
+     "kimtaehun/simple-preprocessing-for-time-series-prediction",
+     8,
+     2.0,
+     1
+    ],
+    [
+     "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697",
+     63,
+     1.9,
+     1
+    ],
+    [
+     "koko1998/summer-products-and-sales-wish-com",
+     99,
+     0.8,
+     2
+    ],
+    [
+     "dbatao/kernel2f80fc9d78",
+     43,
+     0.6,
+     1
+    ],
+    [
+     "nandhuelan/ott-platforms",
+     18,
+     0.5,
+     4
+    ],
+    [
+     "luckygemini/notebook5d5fc80c9f",
+     8,
+     0.2,
+     2
+    ],
+    [
+     "kmader/analyzing-matches",
+     19,
+     0.2,
+     4
+    ],
+    [
+     "grudd0/mass-shooting-analysis",
+     43,
+     0.2,
+     3
+    ],
+    [
+     "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+     14,
+     0.2,
+     9
+    ],
+    [
+     "balajivenkat96/solar-plants",
+     32,
+     0.1,
+     3
+    ],
+    [
+     "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+     9,
+     0.1,
+     1
+    ],
+    [
+     "nihhaar/etltransform",
+     3,
+     0.0,
+     1
+    ],
+    [
+     "salmaneunus/student-s-performance-quantitative-visual-eda",
+     16,
+     0.0,
+     2
+    ],
+    [
+     "taylorhickem/singapore-building-energy",
+     9,
+     0.0,
+     2
+    ],
+    [
+     "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+     9,
+     0.0,
+     3
+    ],
+    [
+     "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+     4,
+     0.0,
+     1
+    ]
+   ],
+   "recorded_cost_s": 923.7,
+   "tier1_cells": 154
+  },
+  "job1_p30": {
+   "engine": "p30",
+   "max_notebook_s": 180.4,
+   "notebooks": 35,
+   "order": [
+    [
+     "j0thu777/onlineretailanalysis",
+     24,
+     180.4,
+     5
+    ],
+    [
+     "jirakst/book-recommendation",
+     85,
+     167.8,
+     2
+    ],
+    [
+     "yonelanuba/elo-merchant-by-yonela",
+     143,
+     155.0,
+     31
+    ],
+    [
+     "penny8/my-sub1",
+     20,
+     96.9,
+     2
+    ],
+    [
+     "artgor/eda-and-models",
+     35,
+     63.3,
+     2
+    ],
+    [
+     "gravix/gradient-in-a-box",
+     13,
+     49.7,
+     8
+    ],
+    [
+     "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+     67,
+     42.0,
+     21
+    ],
+    [
+     "nadare/feature-engenieering-with-pivot-table",
+     16,
+     34.7,
+     2
+    ],
+    [
+     "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost",
+     13,
+     32.5,
+     2
+    ],
+    [
+     "shivavashishtha/zomato-eda-tutorial",
+     90,
+     32.2,
+     13
+    ],
+    [
+     "jagangupta/stop-the-s-toxic-comments-eda",
+     39,
+     29.5,
+     8
+    ],
+    [
+     "beratozmen/clash-of-clans-exploratory-data-analysis",
+     7,
+     25.2,
+     1
+    ],
+    [
+     "wyl4417/machine-learning-and-how-it-affects-you",
+     15,
+     20.2,
+     2
+    ],
+    [
+     "luizep/movieslens20m",
+     7,
+     14.5,
+     2
+    ],
+    [
+     "akgauravin/gun-violence-data-exploration-and-plotting",
+     15,
+     9.9,
+     3
+    ],
+    [
+     "sanket30/eda-of-application-train-home-credit-default",
+     42,
+     8.4,
+     3
+    ],
+    [
+     "willkoehrsen/start-here-a-gentle-introduction",
+     9,
+     4.3,
+     1
+    ],
+    [
+     "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+     20,
+     3.8,
+     12
+    ],
+    [
+     "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697",
+     63,
+     2.1,
+     1
+    ],
+    [
+     "kimtaehun/simple-preprocessing-for-time-series-prediction",
+     8,
+     1.8,
+     1
+    ],
+    [
+     "sudheer259/house-price-prediction",
+     187,
+     1.8,
+     2
+    ],
+    [
+     "balajivenkat96/solar-plants",
+     32,
+     1.7,
+     4
+    ],
+    [
+     "koko1998/summer-products-and-sales-wish-com",
+     99,
+     1.3,
+     1
+    ],
+    [
+     "dbatao/kernel2f80fc9d78",
+     43,
+     0.7,
+     0
+    ],
+    [
+     "nandhuelan/ott-platforms",
+     18,
+     0.5,
+     4
+    ],
+    [
+     "kmader/analyzing-matches",
+     19,
+     0.3,
+     4
+    ],
+    [
+     "luckygemini/notebook5d5fc80c9f",
+     8,
+     0.3,
+     2
+    ],
+    [
+     "grudd0/mass-shooting-analysis",
+     43,
+     0.2,
+     3
+    ],
+    [
+     "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+     14,
+     0.1,
+     6
+    ],
+    [
+     "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+     9,
+     0.1,
+     1
+    ],
+    [
+     "salmaneunus/student-s-performance-quantitative-visual-eda",
+     16,
+     0.1,
+     2
+    ],
+    [
+     "nihhaar/etltransform",
+     3,
+     0.1,
+     1
+    ],
+    [
+     "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+     9,
+     0.1,
+     3
+    ],
+    [
+     "taylorhickem/singapore-building-energy",
+     9,
+     0.0,
+     2
+    ],
+    [
+     "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+     4,
+     0.0,
+     1
+    ]
+   ],
+   "recorded_cost_s": 981.4,
+   "tier1_cells": 158
+  },
+  "job1_pyarrow_backend": {
+   "engine": "pyarrow_backend",
+   "max_notebook_s": 203.6,
+   "notebooks": 35,
+   "order": [
+    [
+     "j0thu777/onlineretailanalysis",
+     24,
+     203.6,
+     4
+    ],
+    [
+     "jirakst/book-recommendation",
+     85,
+     170.7,
+     1
+    ],
+    [
+     "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost",
+     13,
+     169.1,
+     2
+    ],
+    [
+     "yonelanuba/elo-merchant-by-yonela",
+     117,
+     128.5,
+     40
+    ],
+    [
+     "artgor/eda-and-models",
+     35,
+     121.2,
+     2
+    ],
+    [
+     "nadare/feature-engenieering-with-pivot-table",
+     16,
+     76.7,
+     2
+    ],
+    [
+     "penny8/my-sub1",
+     20,
+     66.8,
+     2
+    ],
+    [
+     "gravix/gradient-in-a-box",
+     13,
+     58.2,
+     7
+    ],
+    [
+     "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+     67,
+     46.9,
+     21
+    ],
+    [
+     "shivavashishtha/zomato-eda-tutorial",
+     90,
+     36.4,
+     12
+    ],
+    [
+     "jagangupta/stop-the-s-toxic-comments-eda",
+     39,
+     35.9,
+     8
+    ],
+    [
+     "beratozmen/clash-of-clans-exploratory-data-analysis",
+     7,
+     31.1,
+     0
+    ],
+    [
+     "luizep/movieslens20m",
+     35,
+     31.1,
+     1
+    ],
+    [
+     "wyl4417/machine-learning-and-how-it-affects-you",
+     15,
+     17.1,
+     0
+    ],
+    [
+     "akgauravin/gun-violence-data-exploration-and-plotting",
+     15,
+     13.4,
+     0
+    ],
+    [
+     "sanket30/eda-of-application-train-home-credit-default",
+     11,
+     8.4,
+     0
+    ],
+    [
+     "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697",
+     63,
+     7.0,
+     1
+    ],
+    [
+     "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+     20,
+     6.5,
+     12
+    ],
+    [
+     "willkoehrsen/start-here-a-gentle-introduction",
+     9,
+     6.1,
+     0
+    ],
+    [
+     "sudheer259/house-price-prediction",
+     187,
+     5.1,
+     0
+    ],
+    [
+     "koko1998/summer-products-and-sales-wish-com",
+     109,
+     2.7,
+     97
+    ],
+    [
+     "dbatao/kernel2f80fc9d78",
+     43,
+     2.5,
+     0
+    ],
+    [
+     "kimtaehun/simple-preprocessing-for-time-series-prediction",
+     8,
+     2.0,
+     1
+    ],
+    [
+     "nandhuelan/ott-platforms",
+     18,
+     0.8,
+     3
+    ],
+    [
+     "kmader/analyzing-matches",
+     19,
+     0.7,
+     4
+    ],
+    [
+     "grudd0/mass-shooting-analysis",
+     43,
+     0.6,
+     1
+    ],
+    [
+     "luckygemini/notebook5d5fc80c9f",
+     8,
+     0.4,
+     1
+    ],
+    [
+     "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+     14,
+     0.4,
+     1
+    ],
+    [
+     "nihhaar/etltransform",
+     3,
+     0.2,
+     1
+    ],
+    [
+     "salmaneunus/student-s-performance-quantitative-visual-eda",
+     16,
+     0.2,
+     2
+    ],
+    [
+     "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+     9,
+     0.2,
+     1
+    ],
+    [
+     "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+     9,
+     0.1,
+     3
+    ],
+    [
+     "balajivenkat96/solar-plants",
+     32,
+     0.1,
+     2
+    ],
+    [
+     "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+     4,
+     0.1,
+     0
+    ],
+    [
+     "taylorhickem/singapore-building-energy",
+     9,
+     0.1,
+     2
+    ]
+   ],
+   "recorded_cost_s": 1251.0,
+   "tier1_cells": 234
+  },
+  "job1_ref": {
+   "engine": "ref",
+   "max_notebook_s": 244.3,
+   "notebooks": 54,
+   "order": [
+    [
+     "nadare/feature-engenieering-with-pivot-table",
+     16,
+     244.3,
+     0
+    ],
+    [
+     "jirakst/book-recommendation",
+     85,
+     202.8,
+     0
+    ],
+    [
+     "j0thu777/onlineretailanalysis",
+     24,
+     194.5,
+     0
+    ],
+    [
+     "yonelanuba/elo-merchant-by-yonela",
+     149,
+     194.5,
+     0
+    ],
+    [
+     "artgor/eda-and-models",
+     35,
+     110.8,
+     0
+    ],
+    [
+     "roydatascience/malware-detection-stacking-2-0",
+     7,
+     110.3,
+     0
+    ],
+    [
+     "wyl4417/machine-learning-and-how-it-affects-you",
+     15,
+     65.7,
+     0
+    ],
+    [
+     "penny8/my-sub1",
+     20,
+     56.7,
+     0
+    ],
+    [
+     "luizep/movieslens20m",
+     35,
+     56.2,
+     0
+    ],
+    [
+     "gravix/gradient-in-a-box",
+     18,
+     54.0,
+     0
+    ],
+    [
+     "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+     25,
+     49.5,
+     0
+    ],
+    [
+     "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+     67,
+     46.0,
+     0
+    ],
+    [
+     "shivavashishtha/zomato-eda-tutorial",
+     90,
+     34.4,
+     0
+    ],
+    [
+     "narasimhach/ashrae-data-preprocessing",
+     13,
+     32.9,
+     0
+    ],
+    [
+     "jagangupta/stop-the-s-toxic-comments-eda",
+     39,
+     31.4,
+     0
+    ],
+    [
+     "beratozmen/clash-of-clans-exploratory-data-analysis",
+     7,
+     31.3,
+     0
+    ],
+    [
+     "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost",
+     13,
+     27.8,
+     0
+    ],
+    [
+     "akgauravin/gun-violence-data-exploration-and-plotting",
+     17,
+     15.8,
+     0
+    ],
+    [
+     "sanket30/eda-of-application-train-home-credit-default",
+     42,
+     13.2,
+     0
+    ],
+    [
+     "guyalmog/hr-analytics-predicting-employees-attrition",
+     75,
+     9.3,
+     0
+    ],
+    [
+     "willkoehrsen/start-here-a-gentle-introduction",
+     9,
+     6.1,
+     0
+    ],
+    [
+     "sudheer259/house-price-prediction",
+     187,
+     5.0,
+     0
+    ],
+    [
+     "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697",
+     63,
+     4.4,
+     0
+    ],
+    [
+     "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+     20,
+     4.1,
+     0
+    ],
+    [
+     "corazzon/how-to-use-pandas-filter-in-survey-eda",
+     2,
+     3.6,
+     0
+    ],
+    [
+     "koko1998/summer-products-and-sales-wish-com",
+     109,
+     2.1,
+     0
+    ],
+    [
+     "balajivenkat96/solar-plants",
+     32,
+     2.1,
+     0
+    ],
+    [
+     "kimtaehun/simple-preprocessing-for-time-series-prediction",
+     8,
+     1.8,
+     0
+    ],
+    [
+     "roopahegde/cryptocurrency-price-correlation",
+     7,
+     1.6,
+     0
+    ],
+    [
+     "dbatao/kernel2f80fc9d78",
+     43,
+     1.2,
+     0
+    ],
+    [
+     "nandhuelan/ott-platforms",
+     18,
+     0.9,
+     0
+    ],
+    [
+     "stefanjov/my-first-normalize-on-big-dataset",
+     4,
+     0.6,
+     0
+    ],
+    [
+     "ayushsingh5941/tweet-disaster-or-not",
+     25,
+     0.6,
+     0
+    ],
+    [
+     "grudd0/mass-shooting-analysis",
+     43,
+     0.6,
+     0
+    ],
+    [
+     "shubhammahalank/eda-hotel-booking-demand",
+     3,
+     0.4,
+     0
+    ],
+    [
+     "luckygemini/notebook5d5fc80c9f",
+     8,
+     0.4,
+     0
+    ],
+    [
+     "kmader/analyzing-matches",
+     19,
+     0.4,
+     0
+    ],
+    [
+     "ashukr/first-step-ingestion-to-prediction",
+     4,
+     0.4,
+     0
+    ],
+    [
+     "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+     14,
+     0.3,
+     0
+    ],
+    [
+     "brianmendieta/data-cleaning-plus-eda",
+     11,
+     0.2,
+     0
+    ],
+    [
+     "snanilim/video-games-sales-analysis-and-visualization",
+     3,
+     0.2,
+     0
+    ],
+    [
+     "gmanish/help-ngo-country-clustering",
+     18,
+     0.2,
+     0
+    ],
+    [
+     "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+     2,
+     0.2,
+     0
+    ],
+    [
+     "nihhaar/etltransform",
+     3,
+     0.2,
+     0
+    ],
+    [
+     "jackwatson99/pima-indians-diabetes-rf-81",
+     12,
+     0.2,
+     0
+    ],
+    [
+     "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+     4,
+     0.2,
+     0
+    ],
+    [
+     "jyotsananegi/melbourne-housing-snapshot-eda",
+     2,
+     0.1,
+     0
+    ],
+    [
+     "salmaneunus/student-s-performance-quantitative-visual-eda",
+     16,
+     0.1,
+     0
+    ],
+    [
+     "taylorhickem/singapore-building-energy",
+     9,
+     0.1,
+     0
+    ],
+    [
+     "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+     9,
+     0.1,
+     0
+    ],
+    [
+     "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+     9,
+     0.1,
+     0
+    ],
+    [
+     "mathewvondersaar/analysis-of-student-performance",
+     2,
+     0.1,
+     0
+    ],
+    [
+     "madseth/customer-shopping-trends-dataset-eda",
+     3,
+     0.1,
+     0
+    ],
+    [
+     "gsilves/quiz-4-question-1",
+     3,
+     0.1,
+     0
+    ]
+   ],
+   "recorded_cost_s": 1620.4,
+   "tier1_cells": 0
+  },
+  "job2_bodo": {
+   "engine": "bodo",
+   "max_notebook_s": 1535.6,
+   "notebooks": 1,
+   "order": [
+    [
+     "artgor/eda-and-models",
+     35,
+     1535.6,
+     2
+    ]
+   ],
+   "recorded_cost_s": 1535.6,
+   "tier1_cells": 2
+  },
+  "job2_modin": {
+   "engine": "modin",
+   "max_notebook_s": 1407.2,
+   "notebooks": 1,
+   "order": [
+    [
+     "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+     67,
+     1407.2,
+     18
+    ]
+   ],
+   "recorded_cost_s": 1407.2,
+   "tier1_cells": 18
+  }
+ },
+ "totals": {
+  "tier1": 1128,
+  "tier1_not_run_budget": 2,
+  "tier2_covered": 210,
+  "tier2_uncovered": 23
+ }
+}

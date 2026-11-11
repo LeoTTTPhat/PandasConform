@@ -1,0 +1,112 @@
+{
+ "definition": ", configuration) entry of the taxonomy with introduced cells gets one evidence class:\n  documented incompatibility   a statement in the configuration's own documentation covers the difference (the\n                               cause's doc_refs: pandas documentation for pandas 1.5.3, 3.0.6 and the pyarrow\n                               backend, the engine's documentation for an engine) and the taxonomy rates the cause\n                               documented (\"yes\");\n  partly documented            such a statement exists but covers only some of the cause's operations (rated\n                               \"partial\", for example Modin documents the precision of corr but not of sums);\n  contradicts a compatibility claim  no such statement was found, and the configuration is a drop-in engine (Modin,\n                               FireDucks, Bodo), whose documentation claims pandas compatibility after a one-line\n                               import change: the observation conflicts with that stated claim, not with an\n                               API-specific promise;\n  no applicable promise found  neither (Dask, which is not a drop-in API, and pandas configurations without a\n                               covering statement).",
+ "by_configuration_cells": {
+  "p15": {
+   "documented incompatibility": 186,
+   "partly documented": 0,
+   "contradicts a compatibility claim": 0,
+   "no applicable promise found": 79,
+   "unattributed_rules": 1,
+   "exception_cells_pure": 15,
+   "with_cause": 265
+  },
+  "p30": {
+   "documented incompatibility": 241,
+   "partly documented": 4,
+   "contradicts a compatibility claim": 0,
+   "no applicable promise found": 7,
+   "unattributed_rules": 0,
+   "exception_cells_pure": 2,
+   "with_cause": 252
+  },
+  "pyarrow_backend": {
+   "documented incompatibility": 23,
+   "partly documented": 176,
+   "contradicts a compatibility claim": 0,
+   "no applicable promise found": 7,
+   "unattributed_rules": 23,
+   "exception_cells_pure": 5,
+   "with_cause": 206
+  },
+  "modin": {
+   "documented incompatibility": 0,
+   "partly documented": 154,
+   "contradicts a compatibility claim": 139,
+   "no applicable promise found": 0,
+   "unattributed_rules": 18,
+   "exception_cells_pure": 6,
+   "with_cause": 293
+  },
+  "fireducks": {
+   "documented incompatibility": 0,
+   "partly documented": 36,
+   "contradicts a compatibility claim": 201,
+   "no applicable promise found": 0,
+   "unattributed_rules": 39,
+   "exception_cells_pure": 13,
+   "with_cause": 237
+  },
+  "bodo": {
+   "documented incompatibility": 0,
+   "partly documented": 0,
+   "contradicts a compatibility claim": 394,
+   "no applicable promise found": 0,
+   "unattributed_rules": 26,
+   "exception_cells_pure": 14,
+   "with_cause": 394
+  },
+  "dask": {
+   "documented incompatibility": 38,
+   "partly documented": 175,
+   "contradicts a compatibility claim": 0,
+   "no applicable promise found": 105,
+   "unattributed_rules": 10,
+   "exception_cells_pure": 3,
+   "with_cause": 318
+  },
+  "bodo_dw": {
+   "documented incompatibility": 0,
+   "partly documented": 0,
+   "contradicts a compatibility claim": 65,
+   "no applicable promise found": 0,
+   "unattributed_rules": 0,
+   "exception_cells_pure": 1,
+   "with_cause": 65
+  }
+ },
+ "drop_in_engines_cells": {
+  "documented incompatibility": 0,
+  "partly documented": 190,
+  "contradicts a compatibility claim": 734,
+  "no applicable promise found": 0,
+  "with_cause": 924
+ },
+ "entries": 95,
+ "entries_by_class": {
+  "documented incompatibility": 22,
+  "contradicts a compatibility claim": 48,
+  "partly documented": 13,
+  "no applicable promise found": 12
+ },
+ "entries_by_drop_in_and_class": {
+  "False|documented incompatibility": 22,
+  "False|no applicable promise found": 12,
+  "False|partly documented": 9,
+  "True|contradicts a compatibility claim": 48,
+  "True|partly documented": 4
+ },
+ "claim_map": "icde27/analysis/r5_claim_map.csv",
+ "taxonomy_pure": {
+  "non_e0_cells": 12220,
+  "introduced": 2206,
+  "inherited": 7789,
+  "cascade": 2075,
+  "harness": 120,
+  "nondet": 30,
+  "unattributed": 176,
+  "engine_introduced": 1671,
+  "engine_symptom_or_unattributed": 618,
+  "unattributed_share": 0.0798,
+  "engine_symptom_or_unattributed_share": 0.3698
+ }
+}

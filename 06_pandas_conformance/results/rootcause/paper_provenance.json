@@ -1,0 +1,505 @@
+{
+ "checks": {
+  "conf_1x": {
+   "match_limit": {
+    "bodo": 0,
+    "bodo_dw": 0,
+    "dask": 0,
+    "fireducks": 0,
+    "modin": 0,
+    "pyarrow_backend": 1
+   },
+   "store": {
+    "missing": 0,
+    "referenced_blobs": 360139,
+    "sample_hash_mismatch": 0,
+    "sample_verified": 300
+   }
+  },
+  "drift": {
+   "hidden_global_cells": 83,
+   "match_limit": {
+    "p15": 0,
+    "p30": 0
+   },
+   "store": {
+    "missing": 0,
+    "referenced_blobs": 153938,
+    "sample_hash_mismatch": 0,
+    "sample_verified": 300
+   }
+  }
+ },
+ "comparator_constants": {
+  "capture_max_cells": 200000000,
+  "engine_env_versions": {
+   "bodo": {
+    "bodo": "2026.8",
+    "numba": "0.65.1",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "pyarrow": "25.0.1",
+    "python": "3.12.12"
+   },
+   "dask": {
+    "dask": "2026.8.0",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "pyarrow": "25.0.1",
+    "python": "3.12.12"
+   },
+   "fireducks": {
+    "fireducks": "1.4.4",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "pyarrow": "21.0.0",
+    "python": "3.12.12"
+   },
+   "modin": {
+    "modin": "0.37.1",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "pyarrow": "25.0.1",
+    "python": "3.12.12",
+    "ray": "2.58.0"
+   },
+   "p15": {
+    "numpy": "1.26.4",
+    "pandas": "1.5.3",
+    "pyarrow": "17.0.0",
+    "python": "3.11.15"
+   },
+   "p30": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "pyarrow": "25.0.1",
+    "python": "3.12.12"
+   },
+   "ref": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "pyarrow": "25.0.1",
+    "python": "3.12.12"
+   }
+  },
+  "engine_settings": {
+   "bodo": {
+    "doc": "Bodo DataFrames 2026.8 over pandas 2.3.3, single MPI worker (plan: MPI single process)",
+    "env_vars": {
+     "BODO_NUM_WORKERS": "1"
+    }
+   },
+   "bodo_dw": {
+    "doc": "Bodo DataFrames 2026.8 at its DEFAULT worker count (pilot variant, ledger item 2g: results on battles.csv differ between 1 worker and the default)",
+    "env_vars": {}
+   },
+   "dask": {
+    "doc": "dask.dataframe over pandas 2.3.3 (coverage row only; not a drop-in API)",
+    "env_vars": {}
+   },
+   "fireducks": {
+    "doc": "FireDucks 1.4 over pandas 2.3.3; -Wfallback only makes fallbacks visible as warnings",
+    "env_vars": {
+     "FIREDUCKS_FLAGS": "-Wfallback"
+    }
+   },
+   "modin": {
+    "doc": "Modin 0.37 on Ray (local, num_cpus=8, object store 16 GB) over pandas 2.3.3",
+    "env_vars": {
+     "MODIN_ENGINE": "ray",
+     "RAY_DEDUP_LOGS": "0",
+     "RAY_ENABLE_MAC_LARGE_OBJECT_STORE": "1",
+     "RAY_USAGE_STATS_ENABLED": "0"
+    }
+   },
+   "p15": {
+    "doc": "pandas 1.5.3 (Python 3.11, numpy<2)",
+    "env_vars": {}
+   },
+   "p30": {
+    "doc": "pandas 3.0.x latest",
+    "env_vars": {}
+   },
+   "pyarrow_backend": {
+    "doc": "pandas 2.3.3 with readers forced to dtype_backend='pyarrow'",
+    "env_vars": {}
+   },
+   "ref": {
+    "doc": "reference pandas 2.3.3",
+    "env_vars": {}
+   }
+  },
+  "float_rtol": 1e-09,
+  "guard": {
+   "limit_gb": 120,
+   "note": "every run/compare invocation went through the guard (state files runs/06_pandas_conformance_*.json)",
+   "tool": "tools/memory_guard.py",
+   "wait_lock_s": 14400
+  },
+  "host": {
+   "cpu_brand": "Apple M3 Ultra",
+   "eff_cores": "8",
+   "machine": "arm64",
+   "mem_bytes": "549755813888",
+   "ncpu": "32",
+   "os": "26.5.2",
+   "perf_cores": "24",
+   "platform": "macOS-26.5.2-arm64-arm-64bit"
+  },
+  "input_capture_max_gb": 1.0,
+  "match_budget_pairs": 20000000,
+  "match_group_rows": 2000,
+  "max_exact_int": 9007199254740992,
+  "nb_mem_limit_gb": 96.0,
+  "object_element_tags": 19,
+  "round_sig_digits": 7,
+  "run_cfg_timeouts": [
+   [
+    600,
+    3600
+   ]
+  ],
+  "source": "results/drift/environment.json dfeq + src/pconf constants (read-only import)"
+ },
+ "comparator_validation": {
+  "by_pandas": {
+   "2.3.3": 5000,
+   "3.0.6": 5000
+  },
+  "compare_tag": "d92c8db54d45b",
+  "generated": "2026-10-04T08:47:47",
+  "mismatches_total": 0,
+  "oracle_levels_total": {
+   "DIFF": 1742,
+   "E0": 3269,
+   "E1": 745,
+   "E2": 930,
+   "E3": 396,
+   "E4": 2918
+  },
+  "runs_ok": 8,
+  "runs_total": 8,
+  "trials_total": 10000
+ },
+ "compare_tag": "d92c8db54d45b",
+ "corpus": {
+  "cells_per_config_p15": {
+   "empty": 111,
+   "executed": 3608,
+   "setup": 68,
+   "source": "results/drift/metrics__runs__hd1c421ecb5ee.json per_engine.p15"
+  },
+  "conf5x": {
+   "max_mb": 359.2,
+   "min_mb": 25.4,
+   "n": 30,
+   "total_gb": 3.78
+  },
+  "data": {
+   "archive_bytes": 11969398844,
+   "archive_gb": 11.97,
+   "archive_sha256": "85e8c77f5a748bb92b942bd8a87f93c56a9f458acca67882ca6fce170bc69c1f",
+   "archive_tool": "gdown",
+   "code_license": "Apache-2.0 (repository LICENSE file); notebooks are Kaggle kernels, check licenses per notebook",
+   "commit": "ae70611671b0200c325581cb717e84249763fce6",
+   "data_license": "datasets are the original Kaggle inputs of each notebook; per-dataset Kaggle licenses apply",
+   "extracted_files": 770,
+   "extracted_gb": 59.31,
+   "mirror_tried": "https://uofi.box.com/shared/static/tipejtwr4khhyzl207uhcwjh2i7k9u8l (HTTP 404 on 2026-10-02)",
+   "notebook_input_gb_1x": 53.9,
+   "pandasbench_reported_cells": 3721,
+   "pandasbench_reported_cells_source": "PandasBench paper (arXiv:2506.02345), verified on the web 2026-10-04",
+   "source": "data/provenance.json + data/notebook_sets/sizes.json"
+  },
+  "drift_ref_time_outside_cells_and_capture_s": 1547,
+  "drift_ref_time_s": {
+   "capture_in_s": 587,
+   "capture_out_s": 1171,
+   "cell_s": 1088,
+   "wall_s": 4393
+  },
+  "input_over_capture_cap": {
+   "drift_ref_records_capture_inputs_false": 10,
+   "n": 10,
+   "notebooks": [
+    "artgor/eda-and-models",
+    "carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled",
+    "ersinsen/fraud-3-eda",
+    "loveall/favorita-analytics",
+    "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost",
+    "narasimhach/ashrae-data-preprocessing",
+    "roydatascience/malware-detection-stacking-2-0",
+    "tunguz/fathers-day-specials-just-the-features",
+    "yonelanuba/elo-merchant-by-yonela",
+    "yuliagm/talkingdata-eda-plus-time-patterns"
+   ],
+   "same_set": true
+  },
+  "notebooks": 102,
+  "scale_cell_origin": {
+   "old:0": 34,
+   "run:0": 68
+  }
+ },
+ "engine_stops": {
+  "by_run_status": {
+   "nb_crash": 132,
+   "nb_memory": 139,
+   "nb_timeout": 5
+  },
+  "detail": {
+   "conf_1x:bodo:nb_crash:NOTRUN": 122,
+   "conf_1x:bodo:nb_memory:MEMORY": 1,
+   "conf_1x:bodo:nb_memory:NOTRUN": 29,
+   "conf_1x:bodo:nb_timeout:NOTRUN": 5,
+   "conf_1x:fireducks:nb_crash:NOTRUN": 10,
+   "conf_1x:modin:nb_memory:MEMORY": 7,
+   "conf_1x:modin:nb_memory:NOTRUN": 102
+  },
+  "modin_nb_memory": [
+   {
+    "nb": "artgor/eda-and-models",
+    "peak_tree_rss_gb": 96.921,
+    "runner_max_rss_after_gb": 93.3
+   },
+   {
+    "nb": "drainvers/instacart-sandbox-lmf",
+    "peak_tree_rss_gb": 99.637,
+    "runner_max_rss_after_gb": 82.6
+   },
+   {
+    "nb": "luizep/movieslens20m",
+    "peak_tree_rss_gb": 97.618,
+    "runner_max_rss_after_gb": 60.2
+   },
+   {
+    "nb": "narasimhach/ashrae-data-preprocessing",
+    "peak_tree_rss_gb": 98.167,
+    "runner_max_rss_after_gb": 47.6
+   },
+   {
+    "nb": "qingyuanwu/deep-neural-network",
+    "peak_tree_rss_gb": 96.567,
+    "runner_max_rss_after_gb": 1.5
+   },
+   {
+    "nb": "roydatascience/malware-detection-stacking-2-0",
+    "peak_tree_rss_gb": 97.741,
+    "runner_max_rss_after_gb": 9.3
+   },
+   {
+    "nb": "tunguz/fathers-day-specials-just-the-features",
+    "peak_tree_rss_gb": 96.064,
+    "runner_max_rss_after_gb": 85.6
+   },
+   {
+    "nb": "yonelanuba/elo-merchant-by-yonela",
+    "peak_tree_rss_gb": 103.349,
+    "runner_max_rss_after_gb": 62.0
+   }
+  ],
+  "note": "orchestrate tree RSS sums psutil RSS over the process tree (shared pages count once per process)",
+  "resource_memory_cap_cells": 276
+ },
+ "first_e4_divergent_class": {
+  "conf_1x:bodo": {
+   "by_cls": {
+    "DIFF": 35,
+    "ERR": 53,
+    "MEMORY": 1,
+    "TIMEOUT": 1,
+    "UNCOMPARABLE": 4
+   },
+   "notebooks": 94
+  },
+  "conf_1x:bodo_dw": {
+   "by_cls": {
+    "CRASH": 1,
+    "DIFF": 34,
+    "ERR": 48,
+    "MEMORY": 1,
+    "TIMEOUT": 6,
+    "UNCOMPARABLE": 4
+   },
+   "notebooks": 94
+  },
+  "conf_1x:dask": {
+   "by_cls": {
+    "DIFF": 16,
+    "ERR": 83,
+    "UNCOMPARABLE": 1
+   },
+   "notebooks": 100
+  },
+  "conf_1x:fireducks": {
+   "by_cls": {
+    "CRASH": 1,
+    "DIFF": 39,
+    "ERR": 14,
+    "TIMEOUT": 2,
+    "UNCOMPARABLE": 11
+   },
+   "notebooks": 67
+  },
+  "conf_1x:modin": {
+   "by_cls": {
+    "DIFF": 33,
+    "ERR": 19,
+    "MEMORY": 4,
+    "TIMEOUT": 1
+   },
+   "notebooks": 57
+  },
+  "conf_1x:pyarrow_backend": {
+   "by_cls": {
+    "DIFF": 33,
+    "ERR": 20,
+    "UNCOMPARABLE": 7
+   },
+   "notebooks": 60
+  },
+  "drift:p15": {
+   "by_cls": {
+    "DIFF": 38,
+    "ERR": 1,
+    "UNCOMPARABLE": 4
+   },
+   "notebooks": 43
+  },
+  "drift:p30": {
+   "by_cls": {
+    "DIFF": 29,
+    "ERR": 17,
+    "UNCOMPARABLE": 7
+   },
+   "notebooks": 53
+  }
+ },
+ "generated": "2026-10-28T16:30:10",
+ "harness_tag": "hd1c421ecb5ee",
+ "reclassification_vs_da915cb28b4c6": {
+  "drift": {
+   "cells": 10824,
+   "cells_differing": 0,
+   "files_matched": 306,
+   "files_without_old_counterpart": 0
+  },
+  "pilot": {
+   "cells": 6318,
+   "cells_differing": 0,
+   "files_matched": 130,
+   "files_without_old_counterpart": 40
+  },
+  "total_cells": 17142
+ },
+ "runtime_s": 6.1,
+ "script": "scripts/paper_provenance.py",
+ "taxonomy": {
+  "categorical_ordering_causes": [],
+  "causes_mentioning_categorical": [
+   "str_dtype_errors"
+  ],
+  "curated_cells": 21,
+  "dask_cascade_cells": 778,
+  "dask_top_introduced": [
+   [
+    84,
+    "engine_bug_error"
+   ],
+   [
+    76,
+    "engine_unsupported_api"
+   ],
+   [
+    53,
+    "arrow_backed_dtypes"
+   ],
+   [
+    41,
+    "partitioned_type_inference"
+   ],
+   [
+    38,
+    "lazy_partition_model"
+   ]
+  ],
+  "engine_introduced_by_label": {
+   "conf_1x:bodo": 420,
+   "conf_1x:dask": 328,
+   "conf_1x:fireducks": 276,
+   "conf_1x:modin": 311,
+   "conf_1x:pyarrow_backend": 229,
+   "pilot:bodo_dw": 65
+  },
+  "engine_introduced_cells": 1629,
+  "engine_symptom_level_cells": {
+   "dtype_inference_differs": 14,
+   "engine_bug_error": 287,
+   "engine_bug_silent": 32,
+   "engine_crash_timeout": 11,
+   "engine_unsupported_api": 116
+  },
+  "engine_symptom_or_unattributed": 576,
+  "engine_symptom_or_unattributed_share": 0.3536,
+  "engine_unattributed_cells": 116,
+  "float_rounding": {
+   "by_class": {
+    "DIFF": 3,
+    "E2": 223
+   },
+   "diff_cells": [
+    [
+     "drift",
+     "p15",
+     "luizep/movieslens20m",
+     35,
+     "DIFF"
+    ],
+    [
+     "drift",
+     "p15",
+     "penny8/my-sub1",
+     22,
+     "DIFF"
+    ],
+    [
+     "drift",
+     "p15",
+     "penny8/my-sub1",
+     23,
+     "DIFF"
+    ]
+   ]
+  },
+  "pilot_label_cells": {
+   "introduced": 65,
+   "introduced_bodo_dw": 65,
+   "non_e0": 339
+  },
+  "reproducer_coverage": {
+   "engine_confirmed": 15,
+   "engine_probe_not_reproduced_only": [
+    "engine_corr_wrong_values",
+    "int_float_nullable_repr"
+   ],
+   "no_reproducer": [
+    "chunked_csv_type_inference",
+    "cr_only_line_endings",
+    "dtype_inference_differs",
+    "engine_crash_timeout",
+    "na_comparison_masks",
+    "scalar_type_numpy"
+   ],
+   "overlap": 6,
+   "pandas_reproducer": 27,
+   "reproduced": 36
+  },
+  "root_causes": 44,
+  "rules": {
+   "appended": 8,
+   "conf1x": 47,
+   "drift_only_taxonomy": 39,
+   "prefix_unchanged": true
+  }
+ }
+}

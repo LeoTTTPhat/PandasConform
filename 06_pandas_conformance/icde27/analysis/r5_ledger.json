@@ -1,0 +1,62 @@
+{
+ "files": {
+  "r5_cell_ledger.csv": {
+   "rows": 25256,
+   "sha256": "699950638200bea02d9fb80492ca02553fe6610300e58c8f1ec8f3b1456b7454"
+  },
+  "r5_relaxations.csv": {
+   "rows": 11392,
+   "sha256": "6129b6947e549922cfda9c5434e7fe9c1600e9d7d1a8c387e984d42802d0faf4"
+  },
+  "r5_run_manifest.csv": {
+   "rows": 2169,
+   "sha256": "280be267fd818ecbefe72c3096a70ffced40b2de8087dc87f6614238b9478eba"
+  }
+ },
+ "consistency_checks": {
+  "n": 5,
+  "mismatches": 0
+ },
+ "ledger": {
+  "cells": 25256,
+  "scored": 19736,
+  "kind_pure": {
+   "introduced": 2140,
+   "inherited": 7599,
+   "cascade": 2048,
+   "harness": 80
+  },
+  "serialization_flagged": 1386
+ },
+ "relaxations": {
+  "outputs": 11392,
+  "by_level": {
+   "E3": 1087,
+   "DIFF": 2915,
+   "E2": 5671,
+   "E4": 662,
+   "UNCOMPARABLE": 118,
+   "ERR": 695,
+   "E1": 244
+  },
+  "needed": {
+   "row_order": 690,
+   "widening": 5821,
+   "tolerance": 758,
+   "sentinel": 1086,
+   "index": 662
+  }
+ },
+ "runs": {
+  "records": 2169,
+  "by_campaign": {
+   "drift": 408,
+   "conf_1x": 816,
+   "conf_5x": 145,
+   "pilot": 140,
+   "timing": 480,
+   "timing_bodo_r2": 180
+  },
+  "referenced_by_paper_compare": 1122
+ }
+}

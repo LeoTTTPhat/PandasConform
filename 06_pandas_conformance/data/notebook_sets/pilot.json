@@ -1,0 +1,27 @@
+{
+ "input_bytes": {
+  "corazzon/how-to-use-pandas-filter-in-survey-eda": 25431748,
+  "deffro/eda-is-fun": 659540495,
+  "kanncaa1/dataiteam-titanic-eda": 93081,
+  "kimtaehun/simple-preprocessing-for-time-series-prediction": 59109426,
+  "roopahegde/cryptocurrency-price-correlation": 140249962,
+  "sabya40/data-cleaning-and-pandas-for-beginners": 1625158,
+  "shashi772/data-cleaning-challenge-parsing-dates": 3098577,
+  "trinath003/data-manipulation-visualisation-on-kaggle-datasets": 679236,
+  "xingobar/computer-science-data-visualization": 22949,
+  "yonelanuba/elo-merchant-by-yonela": 3098317596
+ },
+ "notebooks": [
+  "xingobar/computer-science-data-visualization",
+  "kanncaa1/dataiteam-titanic-eda",
+  "trinath003/data-manipulation-visualisation-on-kaggle-datasets",
+  "sabya40/data-cleaning-and-pandas-for-beginners",
+  "shashi772/data-cleaning-challenge-parsing-dates",
+  "corazzon/how-to-use-pandas-filter-in-survey-eda",
+  "kimtaehun/simple-preprocessing-for-time-series-prediction",
+  "roopahegde/cryptocurrency-price-correlation",
+  "deffro/eda-is-fun",
+  "yonelanuba/elo-merchant-by-yonela"
+ ],
+ "rule": "10 notebooks at the input-size deciles of the 102 PandasBench notebooks: sorted by input bytes, index int((k+0.5)*102/10), k=0..9 (chosen 2026-10-02 before any pilot run)"
+}

@@ -1,0 +1,4158 @@
+{
+ "campaign": "drift",
+ "harness_tag": "hd1c421ecb5ee",
+ "per_engine": {
+  "p15": {
+   "bytes_written_gb": 0.962,
+   "capped_columns": 6509.0,
+   "capture_in_s": 472.782,
+   "capture_out_s": 673.916,
+   "cell_s": 1107.466,
+   "cellstatus:empty": 111.0,
+   "cellstatus:error": 29.0,
+   "cellstatus:ok": 3577.0,
+   "cellstatus:setup": 68.0,
+   "cellstatus:syntax_error": 2.0,
+   "peak_maxrss_self_gb": 28.658,
+   "peak_rss_gb": 28.658,
+   "records": 102.0,
+   "reused": 10.0,
+   "status:completed": 102.0,
+   "wall_s": 2469.321
+  },
+  "p30": {
+   "bytes_written_gb": 3.384,
+   "capped_columns": 6280.0,
+   "capture_in_s": 460.005,
+   "capture_out_s": 575.859,
+   "cell_s": 1062.576,
+   "cellstatus:empty": 111.0,
+   "cellstatus:error": 174.0,
+   "cellstatus:ok": 3432.0,
+   "cellstatus:setup": 68.0,
+   "cellstatus:syntax_error": 2.0,
+   "peak_maxrss_self_gb": 18.316,
+   "peak_rss_gb": 18.201,
+   "records": 102.0,
+   "reused": 10.0,
+   "status:completed": 102.0,
+   "wall_s": 2290.727
+  },
+  "ref": {
+   "bytes_written_gb": 5.069,
+   "capped_columns": 6509.0,
+   "capture_in_s": 586.641,
+   "capture_out_s": 1171.461,
+   "cell_s": 1087.572,
+   "cellstatus:empty": 111.0,
+   "cellstatus:ok": 3606.0,
+   "cellstatus:setup": 68.0,
+   "cellstatus:syntax_error": 2.0,
+   "peak_maxrss_self_gb": 29.085,
+   "peak_rss_gb": 29.085,
+   "records": 102.0,
+   "reused": 102.0,
+   "status:completed": 102.0,
+   "wall_s": 4392.512
+  },
+  "ref#2": {
+   "bytes_written_gb": 0.004,
+   "capped_columns": 6509.0,
+   "capture_in_s": 605.244,
+   "capture_out_s": 824.542,
+   "cell_s": 1134.452,
+   "cellstatus:empty": 111.0,
+   "cellstatus:ok": 3606.0,
+   "cellstatus:setup": 68.0,
+   "cellstatus:syntax_error": 2.0,
+   "peak_maxrss_self_gb": 29.058,
+   "peak_rss_gb": 29.058,
+   "records": 102.0,
+   "reused": 102.0,
+   "status:completed": 102.0,
+   "wall_s": 4303.262
+  }
+ },
+ "per_notebook": {
+  "p15|akgauravin/gun-violence-data-exploration-and-plotting": {
+   "capped_columns": 0,
+   "capture_s": 16.38,
+   "cell_s": 2.18,
+   "n_cells": 43,
+   "peak_rss_gb": 0.65,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 22.723
+  },
+  "p15|akshaypetkar/supermarket-sales-analysis": {
+   "capped_columns": 0,
+   "capture_s": 7.61,
+   "cell_s": 1.32,
+   "n_cells": 38,
+   "peak_rss_gb": 0.75,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 13.13
+  },
+  "p15|arimishabirin/globalsalary-simple-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.03,
+   "cell_s": 0.02,
+   "n_cells": 13,
+   "peak_rss_gb": 0.12,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 2.605
+  },
+  "p15|arjoonn/scout-script-7": {
+   "capped_columns": 0,
+   "capture_s": 0.42,
+   "cell_s": 0.06,
+   "n_cells": 22,
+   "peak_rss_gb": 0.14,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 4.159
+  },
+  "p15|artgor/eda-and-models": {
+   "capped_columns": 4556,
+   "capture_s": 61.17,
+   "cell_s": 36.2,
+   "n_cells": 39,
+   "peak_rss_gb": 12.23,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 98.666
+  },
+  "p15|ashukr/first-step-ingestion-to-prediction": {
+   "capped_columns": 0,
+   "capture_s": 0.22,
+   "cell_s": 0.02,
+   "n_cells": 38,
+   "peak_rss_gb": 0.14,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 5.937
+  },
+  "p15|atultaur/house-sales-in-king-county": {
+   "capped_columns": 0,
+   "capture_s": 0.16,
+   "cell_s": 0.09,
+   "n_cells": 65,
+   "peak_rss_gb": 0.16,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 7.504
+  },
+  "p15|ayushsingh5941/tweet-disaster-or-not": {
+   "capped_columns": 0,
+   "capture_s": 0.07,
+   "cell_s": 0.33,
+   "n_cells": 37,
+   "peak_rss_gb": 0.12,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 4.022
+  },
+  "p15|balajivenkat96/solar-plants": {
+   "capped_columns": 0,
+   "capture_s": 0.79,
+   "cell_s": 14.21,
+   "n_cells": 61,
+   "peak_rss_gb": 1.31,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 21.218
+  },
+  "p15|bcannon/indexing-selecting-assigning": {
+   "capped_columns": 0,
+   "capture_s": 2.57,
+   "cell_s": 0.91,
+   "n_cells": 18,
+   "peak_rss_gb": 0.43,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 4.919
+  },
+  "p15|beratozmen/clash-of-clans-exploratory-data-analysis": {
+   "capped_columns": 0,
+   "capture_s": 43.91,
+   "cell_s": 12.29,
+   "n_cells": 20,
+   "peak_rss_gb": 5.16,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 57.03
+  },
+  "p15|blaskowitz100/feature-engineering-based-on-the-suprise-me": {
+   "capped_columns": 0,
+   "capture_s": 4.08,
+   "cell_s": 2.54,
+   "n_cells": 27,
+   "peak_rss_gb": 0.71,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 8.594
+  },
+  "p15|brianmendieta/data-cleaning-plus-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.42,
+   "cell_s": 0.43,
+   "n_cells": 86,
+   "peak_rss_gb": 0.16,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 4.846
+  },
+  "p15|carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled": {
+   "capped_columns": 0,
+   "capture_s": 3.06,
+   "cell_s": 27.7,
+   "n_cells": 12,
+   "peak_rss_gb": 28.66,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 31.914
+  },
+  "p15|charulatashelar/indian-startup-funding-exploratory-data-analysis": {
+   "capped_columns": 0,
+   "capture_s": 0.17,
+   "cell_s": 0.06,
+   "n_cells": 35,
+   "peak_rss_gb": 0.14,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 2.066
+  },
+  "p15|chinstan/notebook249b4f3f5b": {
+   "capped_columns": 0,
+   "capture_s": 8.36,
+   "cell_s": 2.84,
+   "n_cells": 35,
+   "peak_rss_gb": 1.75,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 12.495
+  },
+  "p15|christophriley/intro-machine-learning": {
+   "capped_columns": 0,
+   "capture_s": 0.04,
+   "cell_s": 0.02,
+   "n_cells": 15,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.074
+  },
+  "p15|corazzon/how-to-use-pandas-filter-in-survey-eda": {
+   "capped_columns": 0,
+   "capture_s": 36.62,
+   "cell_s": 0.88,
+   "n_cells": 85,
+   "peak_rss_gb": 0.67,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 40.746
+  },
+  "p15|danielresende/game-of-thrones-battles": {
+   "capped_columns": 0,
+   "capture_s": 0.04,
+   "cell_s": 0.01,
+   "n_cells": 11,
+   "peak_rss_gb": 0.12,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 0.96
+  },
+  "p15|dbatao/kernel2f80fc9d78": {
+   "capped_columns": 0,
+   "capture_s": 1.34,
+   "cell_s": 0.15,
+   "n_cells": 59,
+   "peak_rss_gb": 0.16,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 5.511
+  },
+  "p15|deffro/eda-is-fun": {
+   "capped_columns": 0,
+   "capture_s": 122.45,
+   "cell_s": 27.66,
+   "n_cells": 41,
+   "peak_rss_gb": 13.39,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 151.406
+  },
+  "p15|drainvers/instacart-sandbox-lmf": {
+   "capped_columns": 8,
+   "capture_s": 8.18,
+   "cell_s": 42.48,
+   "n_cells": 21,
+   "peak_rss_gb": 12.54,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 51.532
+  },
+  "p15|ersinsen/fraud-3-eda": {
+   "capped_columns": 790,
+   "capture_s": 22.09,
+   "cell_s": 30.11,
+   "n_cells": 37,
+   "peak_rss_gb": 12.89,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 53.484
+  },
+  "p15|galiph/titanic-explorary-data-analysis": {
+   "capped_columns": 0,
+   "capture_s": 0.04,
+   "cell_s": 0.03,
+   "n_cells": 24,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.611
+  },
+  "p15|gautamsihag/notebook32c1acdb76": {
+   "capped_columns": 0,
+   "capture_s": 0.68,
+   "cell_s": 0.16,
+   "n_cells": 13,
+   "peak_rss_gb": 0.25,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 2.509
+  },
+  "p15|gmanish/help-ngo-country-clustering": {
+   "capped_columns": 0,
+   "capture_s": 0.06,
+   "cell_s": 0.02,
+   "n_cells": 65,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 3.865
+  },
+  "p15|gravix/gradient-in-a-box": {
+   "capped_columns": 0,
+   "capture_s": 36.95,
+   "cell_s": 7.21,
+   "n_cells": 23,
+   "peak_rss_gb": 0.77,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 45.536
+  },
+  "p15|grudd0/mass-shooting-analysis": {
+   "capped_columns": 0,
+   "capture_s": 0.14,
+   "cell_s": 0.04,
+   "n_cells": 44,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 2.183
+  },
+  "p15|gsilves/quiz-4-question-1": {
+   "capped_columns": 0,
+   "capture_s": 0.03,
+   "cell_s": 0.01,
+   "n_cells": 11,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.127
+  },
+  "p15|guyalmog/hr-analytics-predicting-employees-attrition": {
+   "capped_columns": 0,
+   "capture_s": 1.75,
+   "cell_s": 1.77,
+   "n_cells": 97,
+   "peak_rss_gb": 0.4,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 7.914
+  },
+  "p15|j0thu777/onlineretailanalysis": {
+   "capped_columns": 0,
+   "capture_s": 157.19,
+   "cell_s": 27.09,
+   "n_cells": 28,
+   "peak_rss_gb": 1.03,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 185.719
+  },
+  "p15|jackwatson99/pima-indians-diabetes-rf-81": {
+   "capped_columns": 0,
+   "capture_s": 0.02,
+   "cell_s": 0.01,
+   "n_cells": 15,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 0.95
+  },
+  "p15|jagangupta/stop-the-s-toxic-comments-eda": {
+   "capped_columns": 0,
+   "capture_s": 14.7,
+   "cell_s": 11.88,
+   "n_cells": 63,
+   "peak_rss_gb": 0.89,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 30.022
+  },
+  "p15|jaideepvalani/useful-eda-for-beginners-rsna-embolism": {
+   "capped_columns": 0,
+   "capture_s": 6.37,
+   "cell_s": 1.73,
+   "n_cells": 31,
+   "peak_rss_gb": 1.89,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 9.733
+  },
+  "p15|jirakst/book-recommendation": {
+   "capped_columns": 0,
+   "capture_s": 53.9,
+   "cell_s": 8.67,
+   "n_cells": 88,
+   "peak_rss_gb": 2.42,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 66.146
+  },
+  "p15|julieberteaux/workshop-2": {
+   "capped_columns": 0,
+   "capture_s": 4.83,
+   "cell_s": 1.29,
+   "n_cells": 21,
+   "peak_rss_gb": 0.39,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 6.973
+  },
+  "p15|jyotsananegi/melbourne-housing-snapshot-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.35,
+   "cell_s": 0.1,
+   "n_cells": 27,
+   "peak_rss_gb": 0.16,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.673
+  },
+  "p15|kanncaa1/dataiteam-titanic-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.3,
+   "cell_s": 0.15,
+   "n_cells": 88,
+   "peak_rss_gb": 0.13,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 5.054
+  },
+  "p15|kenjee/titanic-project-example": {
+   "capped_columns": 0,
+   "capture_s": 0.13,
+   "cell_s": 0.05,
+   "n_cells": 58,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 2.745
+  },
+  "p15|kimtaehun/simple-preprocessing-for-time-series-prediction": {
+   "capped_columns": 0,
+   "capture_s": 1.89,
+   "cell_s": 1.43,
+   "n_cells": 21,
+   "peak_rss_gb": 0.61,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 4.128
+  },
+  "p15|kmader/analyzing-matches": {
+   "capped_columns": 0,
+   "capture_s": 0.08,
+   "cell_s": 0.11,
+   "n_cells": 21,
+   "peak_rss_gb": 0.15,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.483
+  },
+  "p15|koko1998/summer-products-and-sales-wish-com": {
+   "capped_columns": 0,
+   "capture_s": 0.72,
+   "cell_s": 0.14,
+   "n_cells": 131,
+   "peak_rss_gb": 0.15,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 6.108
+  },
+  "p15|kwullum/when-do-traffic-related-deaths-occur": {
+   "capped_columns": 0,
+   "capture_s": 0.23,
+   "cell_s": 0.28,
+   "n_cells": 11,
+   "peak_rss_gb": 0.33,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.338
+  },
+  "p15|loveall/favorita-analytics": {
+   "capped_columns": 25,
+   "capture_s": 69.44,
+   "cell_s": 13.36,
+   "n_cells": 24,
+   "peak_rss_gb": 12.56,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 83.929
+  },
+  "p15|luckygemini/notebook5d5fc80c9f": {
+   "capped_columns": 0,
+   "capture_s": 0.28,
+   "cell_s": 0.03,
+   "n_cells": 11,
+   "peak_rss_gb": 0.18,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.172
+  },
+  "p15|luizep/movieslens20m": {
+   "capped_columns": 0,
+   "capture_s": 28.65,
+   "cell_s": 16.9,
+   "n_cells": 37,
+   "peak_rss_gb": 4.45,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 46.735
+  },
+  "p15|macespinoza/simple-eda-with-python-pandas-data-avocado-paltas": {
+   "capped_columns": 0,
+   "capture_s": 0.26,
+   "cell_s": 0.06,
+   "n_cells": 52,
+   "peak_rss_gb": 0.15,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 2.974
+  },
+  "p15|madseth/customer-shopping-trends-dataset-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.1,
+   "cell_s": 0.02,
+   "n_cells": 28,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.656
+  },
+  "p15|mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost": {
+   "capped_columns": 0,
+   "capture_s": 0.46,
+   "cell_s": 36.0,
+   "n_cells": 17,
+   "peak_rss_gb": 0.68,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 37.204
+  },
+  "p15|mathewvondersaar/analysis-of-student-performance": {
+   "capped_columns": 0,
+   "capture_s": 0.08,
+   "cell_s": 0.01,
+   "n_cells": 17,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.35
+  },
+  "p15|maxiaoyue/data-cleaning-challenge-handling-missing-values": {
+   "capped_columns": 0,
+   "capture_s": 40.22,
+   "cell_s": 7.75,
+   "n_cells": 42,
+   "peak_rss_gb": 1.49,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 49.558
+  },
+  "p15|mikedelong/python-eda-with-kdes": {
+   "capped_columns": 0,
+   "capture_s": 0.34,
+   "cell_s": 0.29,
+   "n_cells": 9,
+   "peak_rss_gb": 0.24,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.285
+  },
+  "p15|muhammadawaistayyab/used-cars-in-pakistan-stats": {
+   "capped_columns": 0,
+   "capture_s": 0.15,
+   "cell_s": 0.04,
+   "n_cells": 13,
+   "peak_rss_gb": 0.17,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 0.964
+  },
+  "p15|mustafatatarhan1/iris-kernel": {
+   "capped_columns": 0,
+   "capture_s": 0.03,
+   "cell_s": 0.01,
+   "n_cells": 34,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.387
+  },
+  "p15|nadare/feature-engenieering-with-pivot-table": {
+   "capped_columns": 0,
+   "capture_s": 43.42,
+   "cell_s": 32.0,
+   "n_cells": 19,
+   "peak_rss_gb": 2.09,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 76.515
+  },
+  "p15|nandhuelan/ott-platforms": {
+   "capped_columns": 0,
+   "capture_s": 0.33,
+   "cell_s": 0.14,
+   "n_cells": 22,
+   "peak_rss_gb": 0.16,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.465
+  },
+  "p15|narasimhach/ashrae-data-preprocessing": {
+   "capped_columns": 119,
+   "capture_s": 16.66,
+   "cell_s": 21.16,
+   "n_cells": 20,
+   "peak_rss_gb": 23.33,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 38.753
+  },
+  "p15|nihhaar/etltransform": {
+   "capped_columns": 0,
+   "capture_s": 0.05,
+   "cell_s": 0.03,
+   "n_cells": 11,
+   "peak_rss_gb": 0.12,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 0.629
+  },
+  "p15|paramarthasengupta/plotly-eda-top-movies-of-20th-century": {
+   "capped_columns": 0,
+   "capture_s": 0.08,
+   "cell_s": 0.26,
+   "n_cells": 26,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.471
+  },
+  "p15|penny8/my-sub1": {
+   "capped_columns": 0,
+   "capture_s": 7.87,
+   "cell_s": 64.93,
+   "n_cells": 31,
+   "peak_rss_gb": 2.16,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 74.4
+  },
+  "p15|pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697": {
+   "capped_columns": 0,
+   "capture_s": 1.04,
+   "cell_s": 0.86,
+   "n_cells": 69,
+   "peak_rss_gb": 0.46,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 4.367
+  },
+  "p15|poiss0nriot/classifying-client-type-using-client-names": {
+   "capped_columns": 0,
+   "capture_s": 0.53,
+   "cell_s": 28.05,
+   "n_cells": 17,
+   "peak_rss_gb": 0.4,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 29.337
+  },
+  "p15|pradeepjeya/allstate-encoding-high-cardinality-features": {
+   "capped_columns": 0,
+   "capture_s": 9.45,
+   "cell_s": 3.23,
+   "n_cells": 30,
+   "peak_rss_gb": 1.72,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 14.361
+  },
+  "p15|qingyuanwu/deep-neural-network": {
+   "capped_columns": 680,
+   "capture_s": 7.38,
+   "cell_s": 132.76,
+   "n_cells": 18,
+   "peak_rss_gb": 20.12,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 142.383
+  },
+  "p15|qnqfbqfqo/electric-vehicle-landscape-in-washington-state": {
+   "capped_columns": 0,
+   "capture_s": 0.49,
+   "cell_s": 0.29,
+   "n_cells": 9,
+   "peak_rss_gb": 0.27,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.442
+  },
+  "p15|robikscube/big-data-bowl-comprehensive-eda-with-pandas": {
+   "capped_columns": 0,
+   "capture_s": 23.51,
+   "cell_s": 8.35,
+   "n_cells": 27,
+   "peak_rss_gb": 2.08,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 33.541
+  },
+  "p15|robinfaber/monsters-a-simple-logistic-regression-approach": {
+   "capped_columns": 0,
+   "capture_s": 0.03,
+   "cell_s": 0.01,
+   "n_cells": 15,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 0.868
+  },
+  "p15|roopahegde/cryptocurrency-price-correlation": {
+   "capped_columns": 0,
+   "capture_s": 3.37,
+   "cell_s": 3.03,
+   "n_cells": 36,
+   "peak_rss_gb": 0.59,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 7.629
+  },
+  "p15|roydatascience/malware-detection-stacking-2-0": {
+   "capped_columns": 225,
+   "capture_s": 5.31,
+   "cell_s": 97.08,
+   "n_cells": 11,
+   "peak_rss_gb": 16.26,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 103.195
+  },
+  "p15|sabya40/data-cleaning-and-pandas-for-beginners": {
+   "capped_columns": 0,
+   "capture_s": 0.09,
+   "cell_s": 0.07,
+   "n_cells": 26,
+   "peak_rss_gb": 0.15,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 3.345
+  },
+  "p15|sal001/beginner-s-note-top-12-by-single-linear-model": {
+   "capped_columns": 0,
+   "capture_s": 0.97,
+   "cell_s": 0.09,
+   "n_cells": 43,
+   "peak_rss_gb": 0.16,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 2.784
+  },
+  "p15|salmaneunus/student-s-performance-quantitative-visual-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.06,
+   "cell_s": 0.02,
+   "n_cells": 44,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.949
+  },
+  "p15|saniaks/melbourne-house-price-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.31,
+   "cell_s": 0.09,
+   "n_cells": 32,
+   "peak_rss_gb": 0.16,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.834
+  },
+  "p15|sanket30/eda-of-application-train-home-credit-default": {
+   "capped_columns": 0,
+   "capture_s": 9.56,
+   "cell_s": 2.16,
+   "n_cells": 53,
+   "peak_rss_gb": 2.07,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 14.004
+  },
+  "p15|santhoshrao1995/assi01-santhosh-19101036": {
+   "capped_columns": 0,
+   "capture_s": 0.16,
+   "cell_s": 0.09,
+   "n_cells": 36,
+   "peak_rss_gb": 0.15,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.696
+  },
+  "p15|seriousran/eda-ing": {
+   "capped_columns": 0,
+   "capture_s": 0.86,
+   "cell_s": 0.87,
+   "n_cells": 12,
+   "peak_rss_gb": 0.6,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 2.557
+  },
+  "p15|shashi772/data-cleaning-challenge-parsing-dates": {
+   "capped_columns": 0,
+   "capture_s": 0.13,
+   "cell_s": 0.1,
+   "n_cells": 13,
+   "peak_rss_gb": 0.16,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 2.873
+  },
+  "p15|shivavashishtha/zomato-eda-tutorial": {
+   "capped_columns": 0,
+   "capture_s": 11.15,
+   "cell_s": 17.36,
+   "n_cells": 91,
+   "peak_rss_gb": 0.61,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 32.982
+  },
+  "p15|shubhammahalank/eda-hotel-booking-demand": {
+   "capped_columns": 0,
+   "capture_s": 0.82,
+   "cell_s": 1.03,
+   "n_cells": 19,
+   "peak_rss_gb": 0.38,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 3.119
+  },
+  "p15|shunjiangxu/blood-is-thicker-than-water-friendship-forever": {
+   "capped_columns": 0,
+   "capture_s": 0.12,
+   "cell_s": 0.04,
+   "n_cells": 18,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 0.929
+  },
+  "p15|snanilim/video-games-sales-analysis-and-visualization": {
+   "capped_columns": 0,
+   "capture_s": 0.24,
+   "cell_s": 0.05,
+   "n_cells": 66,
+   "peak_rss_gb": 0.15,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 3.258
+  },
+  "p15|stefanjov/my-first-normalize-on-big-dataset": {
+   "capped_columns": 0,
+   "capture_s": 7.81,
+   "cell_s": 2.18,
+   "n_cells": 21,
+   "peak_rss_gb": 0.86,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 11.742
+  },
+  "p15|sudheer259/house-price-prediction": {
+   "capped_columns": 0,
+   "capture_s": 2.29,
+   "cell_s": 0.19,
+   "n_cells": 213,
+   "peak_rss_gb": 0.15,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 12.274
+  },
+  "p15|sunnybiswas/eda-on-airline-dataset": {
+   "capped_columns": 0,
+   "capture_s": 1.51,
+   "cell_s": 0.3,
+   "n_cells": 26,
+   "peak_rss_gb": 0.26,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 4.48
+  },
+  "p15|tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model": {
+   "capped_columns": 0,
+   "capture_s": 2.73,
+   "cell_s": 40.09,
+   "n_cells": 72,
+   "peak_rss_gb": 0.25,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 47.514
+  },
+  "p15|taylorhickem/singapore-building-energy": {
+   "capped_columns": 0,
+   "capture_s": 0.04,
+   "cell_s": 0.01,
+   "n_cells": 18,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.811
+  },
+  "p15|teemingyi/pubg-data-exploration-example-matches": {
+   "capped_columns": 0,
+   "capture_s": 4.57,
+   "cell_s": 5.99,
+   "n_cells": 13,
+   "peak_rss_gb": 5.99,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 11.296
+  },
+  "p15|thirumani/biggboss-hindi-telugu-tamil-kannada-marathi-bangla": {
+   "capped_columns": 0,
+   "capture_s": 0.17,
+   "cell_s": 0.03,
+   "n_cells": 30,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 2.784
+  },
+  "p15|trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+   "capped_columns": 0,
+   "capture_s": 0.08,
+   "cell_s": 0.05,
+   "n_cells": 23,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 3.227
+  },
+  "p15|tunguz/fathers-day-specials-just-the-features": {
+   "capped_columns": 91,
+   "capture_s": 77.08,
+   "cell_s": 147.24,
+   "n_cells": 38,
+   "peak_rss_gb": 18.69,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 225.687
+  },
+  "p15|ukveteran/sarima-time-series-eda-predict-jma-sao-paulo": {
+   "capped_columns": 0,
+   "capture_s": 0.03,
+   "cell_s": 0.01,
+   "n_cells": 11,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.32
+  },
+  "p15|vatsalmavani/music-recommendation-system-using-spotify-dataset": {
+   "capped_columns": 0,
+   "capture_s": 0.23,
+   "cell_s": 0.31,
+   "n_cells": 19,
+   "peak_rss_gb": 0.31,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 2.298
+  },
+  "p15|vbmokin/automatic-eda-with-pandas-profiling-2-9-09-2020": {
+   "capped_columns": 0,
+   "capture_s": 0.07,
+   "cell_s": 0.19,
+   "n_cells": 19,
+   "peak_rss_gb": 0.1,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.708
+  },
+  "p15|vinothsuku/osic-pulmonary-fibrosis-simple-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.03,
+   "cell_s": 0.02,
+   "n_cells": 18,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.593
+  },
+  "p15|viviktpharale/house-price-prediction-eda-linear-ridge-lasso": {
+   "capped_columns": 0,
+   "capture_s": 0.11,
+   "cell_s": 0.06,
+   "n_cells": 73,
+   "peak_rss_gb": 0.17,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 2.73
+  },
+  "p15|willkoehrsen/start-here-a-gentle-introduction": {
+   "capped_columns": 0,
+   "capture_s": 12.84,
+   "cell_s": 32.56,
+   "n_cells": 63,
+   "peak_rss_gb": 6.67,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 47.601
+  },
+  "p15|wyl4417/machine-learning-and-how-it-affects-you": {
+   "capped_columns": 0,
+   "capture_s": 46.85,
+   "cell_s": 1.84,
+   "n_cells": 18,
+   "peak_rss_gb": 0.86,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 49.61
+  },
+  "p15|xingobar/computer-science-data-visualization": {
+   "capped_columns": 0,
+   "capture_s": 0.04,
+   "cell_s": 0.03,
+   "n_cells": 16,
+   "peak_rss_gb": 0.12,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 2.81
+  },
+  "p15|xokent/cyber-security-attack-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.26,
+   "cell_s": 0.73,
+   "n_cells": 22,
+   "peak_rss_gb": 0.26,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.987
+  },
+  "p15|yashjaiswal1097/911-emergency-calls-kernel": {
+   "capped_columns": 0,
+   "capture_s": 5.14,
+   "cell_s": 2.41,
+   "n_cells": 30,
+   "peak_rss_gb": 0.46,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 8.663
+  },
+  "p15|yonelanuba/elo-merchant-by-yonela": {
+   "capped_columns": 15,
+   "capture_s": 68.07,
+   "cell_s": 108.59,
+   "n_cells": 171,
+   "peak_rss_gb": 18.62,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 179.975
+  },
+  "p15|yuliagm/talkingdata-eda-plus-time-patterns": {
+   "capped_columns": 0,
+   "capture_s": 12.24,
+   "cell_s": 11.34,
+   "n_cells": 37,
+   "peak_rss_gb": 6.92,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 24.953
+  },
+  "p30|akgauravin/gun-violence-data-exploration-and-plotting": {
+   "capped_columns": 0,
+   "capture_s": 13.01,
+   "cell_s": 1.89,
+   "n_cells": 43,
+   "peak_rss_gb": 0.7,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 18.763
+  },
+  "p30|akshaypetkar/supermarket-sales-analysis": {
+   "capped_columns": 0,
+   "capture_s": 6.13,
+   "cell_s": 0.63,
+   "n_cells": 38,
+   "peak_rss_gb": 0.58,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 10.514
+  },
+  "p30|arimishabirin/globalsalary-simple-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.03,
+   "cell_s": 0.02,
+   "n_cells": 13,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 2.162
+  },
+  "p30|arjoonn/scout-script-7": {
+   "capped_columns": 0,
+   "capture_s": 0.37,
+   "cell_s": 0.09,
+   "n_cells": 22,
+   "peak_rss_gb": 0.15,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 3.648
+  },
+  "p30|artgor/eda-and-models": {
+   "capped_columns": 4556,
+   "capture_s": 27.0,
+   "cell_s": 36.33,
+   "n_cells": 39,
+   "peak_rss_gb": 7.87,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 64.815
+  },
+  "p30|ashukr/first-step-ingestion-to-prediction": {
+   "capped_columns": 0,
+   "capture_s": 0.3,
+   "cell_s": 0.03,
+   "n_cells": 38,
+   "peak_rss_gb": 0.14,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 4.934
+  },
+  "p30|atultaur/house-sales-in-king-county": {
+   "capped_columns": 0,
+   "capture_s": 0.18,
+   "cell_s": 0.08,
+   "n_cells": 65,
+   "peak_rss_gb": 0.17,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 5.79
+  },
+  "p30|ayushsingh5941/tweet-disaster-or-not": {
+   "capped_columns": 0,
+   "capture_s": 0.07,
+   "cell_s": 0.03,
+   "n_cells": 37,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 3.085
+  },
+  "p30|balajivenkat96/solar-plants": {
+   "capped_columns": 0,
+   "capture_s": 2.49,
+   "cell_s": 0.45,
+   "n_cells": 61,
+   "peak_rss_gb": 0.22,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 6.666
+  },
+  "p30|bcannon/indexing-selecting-assigning": {
+   "capped_columns": 0,
+   "capture_s": 2.4,
+   "cell_s": 1.02,
+   "n_cells": 18,
+   "peak_rss_gb": 0.55,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 4.942
+  },
+  "p30|beratozmen/clash-of-clans-exploratory-data-analysis": {
+   "capped_columns": 0,
+   "capture_s": 39.3,
+   "cell_s": 12.12,
+   "n_cells": 20,
+   "peak_rss_gb": 5.47,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 52.366
+  },
+  "p30|blaskowitz100/feature-engineering-based-on-the-suprise-me": {
+   "capped_columns": 0,
+   "capture_s": 4.74,
+   "cell_s": 3.3,
+   "n_cells": 27,
+   "peak_rss_gb": 0.85,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 10.386
+  },
+  "p30|brianmendieta/data-cleaning-plus-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.68,
+   "cell_s": 0.45,
+   "n_cells": 86,
+   "peak_rss_gb": 0.21,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 5.865
+  },
+  "p30|carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled": {
+   "capped_columns": 0,
+   "capture_s": 4.22,
+   "cell_s": 33.8,
+   "n_cells": 12,
+   "peak_rss_gb": 18.2,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 38.8
+  },
+  "p30|charulatashelar/indian-startup-funding-exploratory-data-analysis": {
+   "capped_columns": 0,
+   "capture_s": 0.11,
+   "cell_s": 0.04,
+   "n_cells": 35,
+   "peak_rss_gb": 0.15,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 2.191
+  },
+  "p30|chinstan/notebook249b4f3f5b": {
+   "capped_columns": 0,
+   "capture_s": 15.68,
+   "cell_s": 3.39,
+   "n_cells": 35,
+   "peak_rss_gb": 2.83,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 20.064
+  },
+  "p30|christophriley/intro-machine-learning": {
+   "capped_columns": 0,
+   "capture_s": 0.04,
+   "cell_s": 0.02,
+   "n_cells": 15,
+   "peak_rss_gb": 0.14,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.297
+  },
+  "p30|corazzon/how-to-use-pandas-filter-in-survey-eda": {
+   "capped_columns": 0,
+   "capture_s": 6.73,
+   "cell_s": 0.95,
+   "n_cells": 85,
+   "peak_rss_gb": 0.76,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 11.035
+  },
+  "p30|danielresende/game-of-thrones-battles": {
+   "capped_columns": 0,
+   "capture_s": 0.04,
+   "cell_s": 0.02,
+   "n_cells": 11,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 0.847
+  },
+  "p30|dbatao/kernel2f80fc9d78": {
+   "capped_columns": 0,
+   "capture_s": 0.73,
+   "cell_s": 0.08,
+   "n_cells": 59,
+   "peak_rss_gb": 0.16,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 4.139
+  },
+  "p30|deffro/eda-is-fun": {
+   "capped_columns": 0,
+   "capture_s": 79.79,
+   "cell_s": 23.47,
+   "n_cells": 41,
+   "peak_rss_gb": 11.77,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 104.715
+  },
+  "p30|drainvers/instacart-sandbox-lmf": {
+   "capped_columns": 8,
+   "capture_s": 8.67,
+   "cell_s": 38.86,
+   "n_cells": 21,
+   "peak_rss_gb": 11.9,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 48.457
+  },
+  "p30|ersinsen/fraud-3-eda": {
+   "capped_columns": 790,
+   "capture_s": 12.43,
+   "cell_s": 22.95,
+   "n_cells": 37,
+   "peak_rss_gb": 11.06,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 36.654
+  },
+  "p30|galiph/titanic-explorary-data-analysis": {
+   "capped_columns": 0,
+   "capture_s": 0.04,
+   "cell_s": 0.03,
+   "n_cells": 24,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.762
+  },
+  "p30|gautamsihag/notebook32c1acdb76": {
+   "capped_columns": 0,
+   "capture_s": 0.44,
+   "cell_s": 0.16,
+   "n_cells": 13,
+   "peak_rss_gb": 0.24,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.541
+  },
+  "p30|gmanish/help-ngo-country-clustering": {
+   "capped_columns": 0,
+   "capture_s": 0.07,
+   "cell_s": 0.02,
+   "n_cells": 65,
+   "peak_rss_gb": 0.14,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 3.564
+  },
+  "p30|gravix/gradient-in-a-box": {
+   "capped_columns": 0,
+   "capture_s": 41.96,
+   "cell_s": 7.79,
+   "n_cells": 23,
+   "peak_rss_gb": 0.83,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 51.105
+  },
+  "p30|grudd0/mass-shooting-analysis": {
+   "capped_columns": 0,
+   "capture_s": 0.12,
+   "cell_s": 0.03,
+   "n_cells": 44,
+   "peak_rss_gb": 0.15,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 2.446
+  },
+  "p30|gsilves/quiz-4-question-1": {
+   "capped_columns": 0,
+   "capture_s": 0.05,
+   "cell_s": 0.01,
+   "n_cells": 11,
+   "peak_rss_gb": 0.14,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.363
+  },
+  "p30|guyalmog/hr-analytics-predicting-employees-attrition": {
+   "capped_columns": 0,
+   "capture_s": 3.15,
+   "cell_s": 1.11,
+   "n_cells": 97,
+   "peak_rss_gb": 0.35,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 7.539
+  },
+  "p30|j0thu777/onlineretailanalysis": {
+   "capped_columns": 0,
+   "capture_s": 155.88,
+   "cell_s": 24.94,
+   "n_cells": 28,
+   "peak_rss_gb": 2.31,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 182.147
+  },
+  "p30|jackwatson99/pima-indians-diabetes-rf-81": {
+   "capped_columns": 0,
+   "capture_s": 0.02,
+   "cell_s": 0.02,
+   "n_cells": 15,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 0.898
+  },
+  "p30|jagangupta/stop-the-s-toxic-comments-eda": {
+   "capped_columns": 0,
+   "capture_s": 18.85,
+   "cell_s": 12.84,
+   "n_cells": 63,
+   "peak_rss_gb": 1.15,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 34.369
+  },
+  "p30|jaideepvalani/useful-eda-for-beginners-rsna-embolism": {
+   "capped_columns": 0,
+   "capture_s": 6.54,
+   "cell_s": 2.01,
+   "n_cells": 31,
+   "peak_rss_gb": 1.58,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 9.952
+  },
+  "p30|jirakst/book-recommendation": {
+   "capped_columns": 0,
+   "capture_s": 154.72,
+   "cell_s": 13.09,
+   "n_cells": 88,
+   "peak_rss_gb": 1.94,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 171.531
+  },
+  "p30|julieberteaux/workshop-2": {
+   "capped_columns": 0,
+   "capture_s": 4.52,
+   "cell_s": 1.25,
+   "n_cells": 21,
+   "peak_rss_gb": 0.38,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 6.955
+  },
+  "p30|jyotsananegi/melbourne-housing-snapshot-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.34,
+   "cell_s": 0.09,
+   "n_cells": 27,
+   "peak_rss_gb": 0.17,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.85
+  },
+  "p30|kanncaa1/dataiteam-titanic-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.25,
+   "cell_s": 0.14,
+   "n_cells": 88,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 4.84
+  },
+  "p30|kenjee/titanic-project-example": {
+   "capped_columns": 0,
+   "capture_s": 0.13,
+   "cell_s": 0.05,
+   "n_cells": 58,
+   "peak_rss_gb": 0.14,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 2.879
+  },
+  "p30|kimtaehun/simple-preprocessing-for-time-series-prediction": {
+   "capped_columns": 0,
+   "capture_s": 2.24,
+   "cell_s": 0.85,
+   "n_cells": 21,
+   "peak_rss_gb": 0.62,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 3.932
+  },
+  "p30|kmader/analyzing-matches": {
+   "capped_columns": 0,
+   "capture_s": 0.11,
+   "cell_s": 0.16,
+   "n_cells": 21,
+   "peak_rss_gb": 0.17,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.278
+  },
+  "p30|koko1998/summer-products-and-sales-wish-com": {
+   "capped_columns": 0,
+   "capture_s": 1.5,
+   "cell_s": 0.17,
+   "n_cells": 131,
+   "peak_rss_gb": 0.16,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 7.229
+  },
+  "p30|kwullum/when-do-traffic-related-deaths-occur": {
+   "capped_columns": 0,
+   "capture_s": 0.25,
+   "cell_s": 0.29,
+   "n_cells": 11,
+   "peak_rss_gb": 0.27,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.59
+  },
+  "p30|loveall/favorita-analytics": {
+   "capped_columns": 25,
+   "capture_s": 63.23,
+   "cell_s": 10.81,
+   "n_cells": 24,
+   "peak_rss_gb": 7.78,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 75.008
+  },
+  "p30|luckygemini/notebook5d5fc80c9f": {
+   "capped_columns": 0,
+   "capture_s": 0.3,
+   "cell_s": 0.04,
+   "n_cells": 11,
+   "peak_rss_gb": 0.19,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.546
+  },
+  "p30|luizep/movieslens20m": {
+   "capped_columns": 0,
+   "capture_s": 30.22,
+   "cell_s": 52.1,
+   "n_cells": 37,
+   "peak_rss_gb": 6.48,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 83.53
+  },
+  "p30|macespinoza/simple-eda-with-python-pandas-data-avocado-paltas": {
+   "capped_columns": 0,
+   "capture_s": 0.31,
+   "cell_s": 0.05,
+   "n_cells": 52,
+   "peak_rss_gb": 0.17,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 3.131
+  },
+  "p30|madseth/customer-shopping-trends-dataset-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.14,
+   "cell_s": 0.02,
+   "n_cells": 28,
+   "peak_rss_gb": 0.14,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.655
+  },
+  "p30|mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost": {
+   "capped_columns": 0,
+   "capture_s": 0.24,
+   "cell_s": 32.23,
+   "n_cells": 17,
+   "peak_rss_gb": 0.54,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 33.413
+  },
+  "p30|mathewvondersaar/analysis-of-student-performance": {
+   "capped_columns": 0,
+   "capture_s": 0.06,
+   "cell_s": 0.02,
+   "n_cells": 17,
+   "peak_rss_gb": 0.14,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.332
+  },
+  "p30|maxiaoyue/data-cleaning-challenge-handling-missing-values": {
+   "capped_columns": 0,
+   "capture_s": 12.55,
+   "cell_s": 3.92,
+   "n_cells": 42,
+   "peak_rss_gb": 1.48,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 18.003
+  },
+  "p30|mikedelong/python-eda-with-kdes": {
+   "capped_columns": 0,
+   "capture_s": 0.46,
+   "cell_s": 0.22,
+   "n_cells": 9,
+   "peak_rss_gb": 0.27,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.343
+  },
+  "p30|muhammadawaistayyab/used-cars-in-pakistan-stats": {
+   "capped_columns": 0,
+   "capture_s": 0.18,
+   "cell_s": 0.05,
+   "n_cells": 13,
+   "peak_rss_gb": 0.19,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 0.997
+  },
+  "p30|mustafatatarhan1/iris-kernel": {
+   "capped_columns": 0,
+   "capture_s": 0.04,
+   "cell_s": 0.01,
+   "n_cells": 34,
+   "peak_rss_gb": 0.14,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.355
+  },
+  "p30|nadare/feature-engenieering-with-pivot-table": {
+   "capped_columns": 0,
+   "capture_s": 58.2,
+   "cell_s": 30.94,
+   "n_cells": 19,
+   "peak_rss_gb": 1.2,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 90.32
+  },
+  "p30|nandhuelan/ott-platforms": {
+   "capped_columns": 0,
+   "capture_s": 0.4,
+   "cell_s": 0.14,
+   "n_cells": 22,
+   "peak_rss_gb": 0.18,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.535
+  },
+  "p30|narasimhach/ashrae-data-preprocessing": {
+   "capped_columns": 119,
+   "capture_s": 17.5,
+   "cell_s": 22.6,
+   "n_cells": 20,
+   "peak_rss_gb": 16.11,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 40.864
+  },
+  "p30|nihhaar/etltransform": {
+   "capped_columns": 0,
+   "capture_s": 0.07,
+   "cell_s": 0.04,
+   "n_cells": 11,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 0.663
+  },
+  "p30|paramarthasengupta/plotly-eda-top-movies-of-20th-century": {
+   "capped_columns": 0,
+   "capture_s": 0.18,
+   "cell_s": 0.54,
+   "n_cells": 26,
+   "peak_rss_gb": 0.15,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.882
+  },
+  "p30|penny8/my-sub1": {
+   "capped_columns": 0,
+   "capture_s": 8.06,
+   "cell_s": 166.45,
+   "n_cells": 31,
+   "peak_rss_gb": 1.34,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 176.064
+  },
+  "p30|pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697": {
+   "capped_columns": 0,
+   "capture_s": 1.2,
+   "cell_s": 0.93,
+   "n_cells": 69,
+   "peak_rss_gb": 0.33,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 4.384
+  },
+  "p30|poiss0nriot/classifying-client-type-using-client-names": {
+   "capped_columns": 0,
+   "capture_s": 0.64,
+   "cell_s": 29.79,
+   "n_cells": 17,
+   "peak_rss_gb": 0.4,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 31.197
+  },
+  "p30|pradeepjeya/allstate-encoding-high-cardinality-features": {
+   "capped_columns": 0,
+   "capture_s": 6.86,
+   "cell_s": 4.2,
+   "n_cells": 30,
+   "peak_rss_gb": 1.03,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 12.248
+  },
+  "p30|qingyuanwu/deep-neural-network": {
+   "capped_columns": 680,
+   "capture_s": 7.37,
+   "cell_s": 111.34,
+   "n_cells": 18,
+   "peak_rss_gb": 9.23,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 119.553
+  },
+  "p30|qnqfbqfqo/electric-vehicle-landscape-in-washington-state": {
+   "capped_columns": 0,
+   "capture_s": 0.6,
+   "cell_s": 0.25,
+   "n_cells": 9,
+   "peak_rss_gb": 0.35,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.64
+  },
+  "p30|robikscube/big-data-bowl-comprehensive-eda-with-pandas": {
+   "capped_columns": 0,
+   "capture_s": 22.25,
+   "cell_s": 10.3,
+   "n_cells": 27,
+   "peak_rss_gb": 2.66,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 33.8
+  },
+  "p30|robinfaber/monsters-a-simple-logistic-regression-approach": {
+   "capped_columns": 0,
+   "capture_s": 0.07,
+   "cell_s": 0.01,
+   "n_cells": 15,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.055
+  },
+  "p30|roopahegde/cryptocurrency-price-correlation": {
+   "capped_columns": 0,
+   "capture_s": 3.73,
+   "cell_s": 2.89,
+   "n_cells": 36,
+   "peak_rss_gb": 0.56,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 8.085
+  },
+  "p30|roydatascience/malware-detection-stacking-2-0": {
+   "capped_columns": 0,
+   "capture_s": 1.25,
+   "cell_s": 59.26,
+   "n_cells": 11,
+   "peak_rss_gb": 5.93,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 61.142
+  },
+  "p30|sabya40/data-cleaning-and-pandas-for-beginners": {
+   "capped_columns": 0,
+   "capture_s": 0.13,
+   "cell_s": 0.1,
+   "n_cells": 26,
+   "peak_rss_gb": 0.17,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 3.271
+  },
+  "p30|sal001/beginner-s-note-top-12-by-single-linear-model": {
+   "capped_columns": 0,
+   "capture_s": 1.52,
+   "cell_s": 0.08,
+   "n_cells": 43,
+   "peak_rss_gb": 0.16,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 3.585
+  },
+  "p30|salmaneunus/student-s-performance-quantitative-visual-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.1,
+   "cell_s": 0.02,
+   "n_cells": 44,
+   "peak_rss_gb": 0.14,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.939
+  },
+  "p30|saniaks/melbourne-house-price-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.32,
+   "cell_s": 0.06,
+   "n_cells": 32,
+   "peak_rss_gb": 0.17,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.712
+  },
+  "p30|sanket30/eda-of-application-train-home-credit-default": {
+   "capped_columns": 0,
+   "capture_s": 7.81,
+   "cell_s": 2.09,
+   "n_cells": 53,
+   "peak_rss_gb": 1.97,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 11.755
+  },
+  "p30|santhoshrao1995/assi01-santhosh-19101036": {
+   "capped_columns": 0,
+   "capture_s": 0.28,
+   "cell_s": 0.1,
+   "n_cells": 36,
+   "peak_rss_gb": 0.15,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.876
+  },
+  "p30|seriousran/eda-ing": {
+   "capped_columns": 0,
+   "capture_s": 0.96,
+   "cell_s": 0.9,
+   "n_cells": 12,
+   "peak_rss_gb": 0.57,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 2.806
+  },
+  "p30|shashi772/data-cleaning-challenge-parsing-dates": {
+   "capped_columns": 0,
+   "capture_s": 0.14,
+   "cell_s": 0.06,
+   "n_cells": 13,
+   "peak_rss_gb": 0.17,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 2.721
+  },
+  "p30|shivavashishtha/zomato-eda-tutorial": {
+   "capped_columns": 0,
+   "capture_s": 11.94,
+   "cell_s": 20.3,
+   "n_cells": 91,
+   "peak_rss_gb": 0.92,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 37.19
+  },
+  "p30|shubhammahalank/eda-hotel-booking-demand": {
+   "capped_columns": 0,
+   "capture_s": 0.91,
+   "cell_s": 0.81,
+   "n_cells": 19,
+   "peak_rss_gb": 0.37,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 3.002
+  },
+  "p30|shunjiangxu/blood-is-thicker-than-water-friendship-forever": {
+   "capped_columns": 0,
+   "capture_s": 0.12,
+   "cell_s": 0.04,
+   "n_cells": 18,
+   "peak_rss_gb": 0.14,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.132
+  },
+  "p30|snanilim/video-games-sales-analysis-and-visualization": {
+   "capped_columns": 0,
+   "capture_s": 0.31,
+   "cell_s": 0.06,
+   "n_cells": 66,
+   "peak_rss_gb": 0.16,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 2.912
+  },
+  "p30|stefanjov/my-first-normalize-on-big-dataset": {
+   "capped_columns": 0,
+   "capture_s": 3.0,
+   "cell_s": 1.48,
+   "n_cells": 21,
+   "peak_rss_gb": 0.7,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 5.271
+  },
+  "p30|sudheer259/house-price-prediction": {
+   "capped_columns": 0,
+   "capture_s": 1.58,
+   "cell_s": 0.17,
+   "n_cells": 213,
+   "peak_rss_gb": 0.16,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 7.246
+  },
+  "p30|sunnybiswas/eda-on-airline-dataset": {
+   "capped_columns": 0,
+   "capture_s": 1.64,
+   "cell_s": 0.23,
+   "n_cells": 26,
+   "peak_rss_gb": 0.29,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 2.994
+  },
+  "p30|tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model": {
+   "capped_columns": 0,
+   "capture_s": 3.06,
+   "cell_s": 38.94,
+   "n_cells": 72,
+   "peak_rss_gb": 0.29,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 44.499
+  },
+  "p30|taylorhickem/singapore-building-energy": {
+   "capped_columns": 0,
+   "capture_s": 0.05,
+   "cell_s": 0.02,
+   "n_cells": 18,
+   "peak_rss_gb": 0.14,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 0.923
+  },
+  "p30|teemingyi/pubg-data-exploration-example-matches": {
+   "capped_columns": 0,
+   "capture_s": 4.91,
+   "cell_s": 6.49,
+   "n_cells": 13,
+   "peak_rss_gb": 3.21,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 11.963
+  },
+  "p30|thirumani/biggboss-hindi-telugu-tamil-kannada-marathi-bangla": {
+   "capped_columns": 0,
+   "capture_s": 0.2,
+   "cell_s": 0.03,
+   "n_cells": 30,
+   "peak_rss_gb": 0.14,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.519
+  },
+  "p30|trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+   "capped_columns": 0,
+   "capture_s": 0.11,
+   "cell_s": 0.05,
+   "n_cells": 23,
+   "peak_rss_gb": 0.15,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 3.141
+  },
+  "p30|tunguz/fathers-day-specials-just-the-features": {
+   "capped_columns": 87,
+   "capture_s": 21.99,
+   "cell_s": 81.36,
+   "n_cells": 38,
+   "peak_rss_gb": 14.45,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 104.91
+  },
+  "p30|ukveteran/sarima-time-series-eda-predict-jma-sao-paulo": {
+   "capped_columns": 0,
+   "capture_s": 0.02,
+   "cell_s": 0.01,
+   "n_cells": 11,
+   "peak_rss_gb": 0.13,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 0.789
+  },
+  "p30|vatsalmavani/music-recommendation-system-using-spotify-dataset": {
+   "capped_columns": 0,
+   "capture_s": 0.28,
+   "cell_s": 0.3,
+   "n_cells": 19,
+   "peak_rss_gb": 0.29,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.514
+  },
+  "p30|vbmokin/automatic-eda-with-pandas-profiling-2-9-09-2020": {
+   "capped_columns": 0,
+   "capture_s": 0.08,
+   "cell_s": 0.25,
+   "n_cells": 19,
+   "peak_rss_gb": 0.11,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 1.052
+  },
+  "p30|vinothsuku/osic-pulmonary-fibrosis-simple-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.04,
+   "cell_s": 0.02,
+   "n_cells": 18,
+   "peak_rss_gb": 0.14,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 0.921
+  },
+  "p30|viviktpharale/house-price-prediction-eda-linear-ridge-lasso": {
+   "capped_columns": 0,
+   "capture_s": 0.11,
+   "cell_s": 0.06,
+   "n_cells": 73,
+   "peak_rss_gb": 0.17,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 2.552
+  },
+  "p30|willkoehrsen/start-here-a-gentle-introduction": {
+   "capped_columns": 0,
+   "capture_s": 13.57,
+   "cell_s": 25.33,
+   "n_cells": 63,
+   "peak_rss_gb": 4.58,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 40.922
+  },
+  "p30|wyl4417/machine-learning-and-how-it-affects-you": {
+   "capped_columns": 0,
+   "capture_s": 19.02,
+   "cell_s": 2.65,
+   "n_cells": 18,
+   "peak_rss_gb": 0.97,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 22.969
+  },
+  "p30|xingobar/computer-science-data-visualization": {
+   "capped_columns": 0,
+   "capture_s": 0.05,
+   "cell_s": 0.03,
+   "n_cells": 16,
+   "peak_rss_gb": 0.13,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 2.671
+  },
+  "p30|xokent/cyber-security-attack-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.37,
+   "cell_s": 0.64,
+   "n_cells": 22,
+   "peak_rss_gb": 0.26,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 2.298
+  },
+  "p30|yashjaiswal1097/911-emergency-calls-kernel": {
+   "capped_columns": 0,
+   "capture_s": 6.11,
+   "cell_s": 1.69,
+   "n_cells": 30,
+   "peak_rss_gb": 0.54,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 9.603
+  },
+  "p30|yonelanuba/elo-merchant-by-yonela": {
+   "capped_columns": 15,
+   "capture_s": 74.97,
+   "cell_s": 80.31,
+   "n_cells": 171,
+   "peak_rss_gb": 14.32,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 159.466
+  },
+  "p30|yuliagm/talkingdata-eda-plus-time-patterns": {
+   "capped_columns": 0,
+   "capture_s": 7.75,
+   "cell_s": 13.7,
+   "n_cells": 37,
+   "peak_rss_gb": 6.98,
+   "reused": false,
+   "status": "completed",
+   "wall_s": 22.953
+  },
+  "ref#2|akgauravin/gun-violence-data-exploration-and-plotting": {
+   "capped_columns": 0,
+   "capture_s": 18.64,
+   "cell_s": 2.1,
+   "n_cells": 43,
+   "peak_rss_gb": 0.69,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 51.185
+  },
+  "ref#2|akshaypetkar/supermarket-sales-analysis": {
+   "capped_columns": 0,
+   "capture_s": 8.92,
+   "cell_s": 1.13,
+   "n_cells": 38,
+   "peak_rss_gb": 0.72,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 41.08
+  },
+  "ref#2|arimishabirin/globalsalary-simple-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.05,
+   "cell_s": 0.03,
+   "n_cells": 13,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 15.743
+  },
+  "ref#2|arjoonn/scout-script-7": {
+   "capped_columns": 0,
+   "capture_s": 0.38,
+   "cell_s": 0.09,
+   "n_cells": 22,
+   "peak_rss_gb": 0.15,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 19.064
+  },
+  "ref#2|artgor/eda-and-models": {
+   "capped_columns": 4556,
+   "capture_s": 69.8,
+   "cell_s": 35.07,
+   "n_cells": 39,
+   "peak_rss_gb": 10.7,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 107.634
+  },
+  "ref#2|ashukr/first-step-ingestion-to-prediction": {
+   "capped_columns": 0,
+   "capture_s": 0.24,
+   "cell_s": 0.03,
+   "n_cells": 38,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 23.368
+  },
+  "ref#2|atultaur/house-sales-in-king-county": {
+   "capped_columns": 0,
+   "capture_s": 0.24,
+   "cell_s": 0.09,
+   "n_cells": 65,
+   "peak_rss_gb": 0.18,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 41.084
+  },
+  "ref#2|ayushsingh5941/tweet-disaster-or-not": {
+   "capped_columns": 0,
+   "capture_s": 0.11,
+   "cell_s": 0.37,
+   "n_cells": 37,
+   "peak_rss_gb": 0.13,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 22.624
+  },
+  "ref#2|balajivenkat96/solar-plants": {
+   "capped_columns": 0,
+   "capture_s": 2.89,
+   "cell_s": 0.62,
+   "n_cells": 61,
+   "peak_rss_gb": 0.2,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 42.937
+  },
+  "ref#2|bcannon/indexing-selecting-assigning": {
+   "capped_columns": 0,
+   "capture_s": 2.93,
+   "cell_s": 0.99,
+   "n_cells": 18,
+   "peak_rss_gb": 0.47,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 16.394
+  },
+  "ref#2|beratozmen/clash-of-clans-exploratory-data-analysis": {
+   "capped_columns": 0,
+   "capture_s": 48.16,
+   "cell_s": 12.9,
+   "n_cells": 20,
+   "peak_rss_gb": 6.05,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 62.253
+  },
+  "ref#2|blaskowitz100/feature-engineering-based-on-the-suprise-me": {
+   "capped_columns": 0,
+   "capture_s": 5.09,
+   "cell_s": 3.63,
+   "n_cells": 27,
+   "peak_rss_gb": 0.79,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 24.245
+  },
+  "ref#2|brianmendieta/data-cleaning-plus-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.6,
+   "cell_s": 0.6,
+   "n_cells": 86,
+   "peak_rss_gb": 0.17,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 62.76
+  },
+  "ref#2|carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled": {
+   "capped_columns": 0,
+   "capture_s": 2.7,
+   "cell_s": 29.96,
+   "n_cells": 12,
+   "peak_rss_gb": 29.06,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 34.021
+  },
+  "ref#2|charulatashelar/indian-startup-funding-exploratory-data-analysis": {
+   "capped_columns": 0,
+   "capture_s": 0.32,
+   "cell_s": 0.05,
+   "n_cells": 35,
+   "peak_rss_gb": 0.15,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 22.174
+  },
+  "ref#2|chinstan/notebook249b4f3f5b": {
+   "capped_columns": 0,
+   "capture_s": 9.93,
+   "cell_s": 3.16,
+   "n_cells": 35,
+   "peak_rss_gb": 1.92,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 24.198
+  },
+  "ref#2|christophriley/intro-machine-learning": {
+   "capped_columns": 0,
+   "capture_s": 0.07,
+   "cell_s": 0.04,
+   "n_cells": 15,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 9.859
+  },
+  "ref#2|corazzon/how-to-use-pandas-filter-in-survey-eda": {
+   "capped_columns": 0,
+   "capture_s": 40.91,
+   "cell_s": 1.21,
+   "n_cells": 85,
+   "peak_rss_gb": 0.63,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 45.861
+  },
+  "ref#2|danielresende/game-of-thrones-battles": {
+   "capped_columns": 0,
+   "capture_s": 0.05,
+   "cell_s": 0.01,
+   "n_cells": 11,
+   "peak_rss_gb": 0.13,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 14.191
+  },
+  "ref#2|dbatao/kernel2f80fc9d78": {
+   "capped_columns": 0,
+   "capture_s": 0.93,
+   "cell_s": 0.12,
+   "n_cells": 59,
+   "peak_rss_gb": 0.16,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 41.676
+  },
+  "ref#2|deffro/eda-is-fun": {
+   "capped_columns": 0,
+   "capture_s": 125.49,
+   "cell_s": 26.91,
+   "n_cells": 41,
+   "peak_rss_gb": 12.15,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 154.487
+  },
+  "ref#2|drainvers/instacart-sandbox-lmf": {
+   "capped_columns": 8,
+   "capture_s": 9.37,
+   "cell_s": 46.98,
+   "n_cells": 21,
+   "peak_rss_gb": 13.94,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 59.116
+  },
+  "ref#2|ersinsen/fraud-3-eda": {
+   "capped_columns": 790,
+   "capture_s": 27.46,
+   "cell_s": 33.1,
+   "n_cells": 37,
+   "peak_rss_gb": 12.49,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 64.03
+  },
+  "ref#2|galiph/titanic-explorary-data-analysis": {
+   "capped_columns": 0,
+   "capture_s": 0.07,
+   "cell_s": 0.04,
+   "n_cells": 24,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 18.956
+  },
+  "ref#2|gautamsihag/notebook32c1acdb76": {
+   "capped_columns": 0,
+   "capture_s": 0.74,
+   "cell_s": 0.15,
+   "n_cells": 13,
+   "peak_rss_gb": 0.25,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 16.738
+  },
+  "ref#2|gmanish/help-ngo-country-clustering": {
+   "capped_columns": 0,
+   "capture_s": 0.1,
+   "cell_s": 0.02,
+   "n_cells": 65,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 41.269
+  },
+  "ref#2|gravix/gradient-in-a-box": {
+   "capped_columns": 0,
+   "capture_s": 46.59,
+   "cell_s": 8.22,
+   "n_cells": 23,
+   "peak_rss_gb": 0.92,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 68.426
+  },
+  "ref#2|grudd0/mass-shooting-analysis": {
+   "capped_columns": 0,
+   "capture_s": 0.19,
+   "cell_s": 0.05,
+   "n_cells": 44,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 24.977
+  },
+  "ref#2|gsilves/quiz-4-question-1": {
+   "capped_columns": 0,
+   "capture_s": 0.05,
+   "cell_s": 0.01,
+   "n_cells": 11,
+   "peak_rss_gb": 0.13,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 15.681
+  },
+  "ref#2|guyalmog/hr-analytics-predicting-employees-attrition": {
+   "capped_columns": 0,
+   "capture_s": 2.38,
+   "cell_s": 2.05,
+   "n_cells": 97,
+   "peak_rss_gb": 0.46,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 45.612
+  },
+  "ref#2|j0thu777/onlineretailanalysis": {
+   "capped_columns": 0,
+   "capture_s": 177.89,
+   "cell_s": 28.52,
+   "n_cells": 28,
+   "peak_rss_gb": 2.2,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 224.097
+  },
+  "ref#2|jackwatson99/pima-indians-diabetes-rf-81": {
+   "capped_columns": 0,
+   "capture_s": 0.05,
+   "cell_s": 0.02,
+   "n_cells": 15,
+   "peak_rss_gb": 0.13,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 12.688
+  },
+  "ref#2|jagangupta/stop-the-s-toxic-comments-eda": {
+   "capped_columns": 0,
+   "capture_s": 19.05,
+   "cell_s": 14.0,
+   "n_cells": 63,
+   "peak_rss_gb": 1.02,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 68.804
+  },
+  "ref#2|jaideepvalani/useful-eda-for-beginners-rsna-embolism": {
+   "capped_columns": 0,
+   "capture_s": 7.22,
+   "cell_s": 1.85,
+   "n_cells": 31,
+   "peak_rss_gb": 1.7,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 26.64
+  },
+  "ref#2|jirakst/book-recommendation": {
+   "capped_columns": 0,
+   "capture_s": 161.09,
+   "cell_s": 10.23,
+   "n_cells": 88,
+   "peak_rss_gb": 1.67,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 209.298
+  },
+  "ref#2|julieberteaux/workshop-2": {
+   "capped_columns": 0,
+   "capture_s": 5.84,
+   "cell_s": 1.56,
+   "n_cells": 21,
+   "peak_rss_gb": 0.35,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 19.736
+  },
+  "ref#2|jyotsananegi/melbourne-housing-snapshot-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.46,
+   "cell_s": 0.1,
+   "n_cells": 27,
+   "peak_rss_gb": 0.17,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 15.8
+  },
+  "ref#2|kanncaa1/dataiteam-titanic-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.25,
+   "cell_s": 0.12,
+   "n_cells": 88,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 4.684
+  },
+  "ref#2|kenjee/titanic-project-example": {
+   "capped_columns": 0,
+   "capture_s": 0.15,
+   "cell_s": 0.06,
+   "n_cells": 58,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 26.797
+  },
+  "ref#2|kimtaehun/simple-preprocessing-for-time-series-prediction": {
+   "capped_columns": 0,
+   "capture_s": 1.9,
+   "cell_s": 1.07,
+   "n_cells": 21,
+   "peak_rss_gb": 0.53,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 3.913
+  },
+  "ref#2|kmader/analyzing-matches": {
+   "capped_columns": 0,
+   "capture_s": 0.11,
+   "cell_s": 0.13,
+   "n_cells": 21,
+   "peak_rss_gb": 0.16,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 13.749
+  },
+  "ref#2|koko1998/summer-products-and-sales-wish-com": {
+   "capped_columns": 0,
+   "capture_s": 1.08,
+   "cell_s": 0.15,
+   "n_cells": 131,
+   "peak_rss_gb": 0.15,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 58.012
+  },
+  "ref#2|kwullum/when-do-traffic-related-deaths-occur": {
+   "capped_columns": 0,
+   "capture_s": 0.29,
+   "cell_s": 0.34,
+   "n_cells": 11,
+   "peak_rss_gb": 0.33,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 9.981
+  },
+  "ref#2|loveall/favorita-analytics": {
+   "capped_columns": 25,
+   "capture_s": 69.71,
+   "cell_s": 12.66,
+   "n_cells": 24,
+   "peak_rss_gb": 8.84,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 85.914
+  },
+  "ref#2|luckygemini/notebook5d5fc80c9f": {
+   "capped_columns": 0,
+   "capture_s": 0.35,
+   "cell_s": 0.04,
+   "n_cells": 11,
+   "peak_rss_gb": 0.19,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 6.412
+  },
+  "ref#2|luizep/movieslens20m": {
+   "capped_columns": 0,
+   "capture_s": 38.01,
+   "cell_s": 20.09,
+   "n_cells": 37,
+   "peak_rss_gb": 5.06,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 62.89
+  },
+  "ref#2|macespinoza/simple-eda-with-python-pandas-data-avocado-paltas": {
+   "capped_columns": 0,
+   "capture_s": 0.35,
+   "cell_s": 0.05,
+   "n_cells": 52,
+   "peak_rss_gb": 0.17,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 27.876
+  },
+  "ref#2|madseth/customer-shopping-trends-dataset-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.15,
+   "cell_s": 0.02,
+   "n_cells": 28,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 19.068
+  },
+  "ref#2|mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost": {
+   "capped_columns": 0,
+   "capture_s": 0.29,
+   "cell_s": 27.22,
+   "n_cells": 17,
+   "peak_rss_gb": 0.66,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 29.597
+  },
+  "ref#2|mathewvondersaar/analysis-of-student-performance": {
+   "capped_columns": 0,
+   "capture_s": 0.08,
+   "cell_s": 0.02,
+   "n_cells": 17,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 16.527
+  },
+  "ref#2|maxiaoyue/data-cleaning-challenge-handling-missing-values": {
+   "capped_columns": 0,
+   "capture_s": 52.12,
+   "cell_s": 6.46,
+   "n_cells": 42,
+   "peak_rss_gb": 1.56,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 71.483
+  },
+  "ref#2|mikedelong/python-eda-with-kdes": {
+   "capped_columns": 0,
+   "capture_s": 0.46,
+   "cell_s": 0.29,
+   "n_cells": 9,
+   "peak_rss_gb": 0.25,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 8.897
+  },
+  "ref#2|muhammadawaistayyab/used-cars-in-pakistan-stats": {
+   "capped_columns": 0,
+   "capture_s": 0.23,
+   "cell_s": 0.05,
+   "n_cells": 13,
+   "peak_rss_gb": 0.18,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 8.988
+  },
+  "ref#2|mustafatatarhan1/iris-kernel": {
+   "capped_columns": 0,
+   "capture_s": 0.04,
+   "cell_s": 0.01,
+   "n_cells": 34,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 12.529
+  },
+  "ref#2|nadare/feature-engenieering-with-pivot-table": {
+   "capped_columns": 0,
+   "capture_s": 70.82,
+   "cell_s": 33.33,
+   "n_cells": 19,
+   "peak_rss_gb": 1.98,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 113.112
+  },
+  "ref#2|nandhuelan/ott-platforms": {
+   "capped_columns": 0,
+   "capture_s": 0.51,
+   "cell_s": 0.16,
+   "n_cells": 22,
+   "peak_rss_gb": 0.17,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 9.008
+  },
+  "ref#2|narasimhach/ashrae-data-preprocessing": {
+   "capped_columns": 119,
+   "capture_s": 18.78,
+   "cell_s": 24.37,
+   "n_cells": 20,
+   "peak_rss_gb": 27.09,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 44.989
+  },
+  "ref#2|nihhaar/etltransform": {
+   "capped_columns": 0,
+   "capture_s": 0.08,
+   "cell_s": 0.05,
+   "n_cells": 11,
+   "peak_rss_gb": 0.12,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 2.51
+  },
+  "ref#2|paramarthasengupta/plotly-eda-top-movies-of-20th-century": {
+   "capped_columns": 0,
+   "capture_s": 0.14,
+   "cell_s": 0.34,
+   "n_cells": 26,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 7.168
+  },
+  "ref#2|penny8/my-sub1": {
+   "capped_columns": 0,
+   "capture_s": 9.25,
+   "cell_s": 83.46,
+   "n_cells": 31,
+   "peak_rss_gb": 1.78,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 106.483
+  },
+  "ref#2|pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697": {
+   "capped_columns": 0,
+   "capture_s": 1.44,
+   "cell_s": 1.19,
+   "n_cells": 69,
+   "peak_rss_gb": 0.4,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 17.211
+  },
+  "ref#2|poiss0nriot/classifying-client-type-using-client-names": {
+   "capped_columns": 0,
+   "capture_s": 0.59,
+   "cell_s": 36.12,
+   "n_cells": 17,
+   "peak_rss_gb": 0.39,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 42.346
+  },
+  "ref#2|pradeepjeya/allstate-encoding-high-cardinality-features": {
+   "capped_columns": 0,
+   "capture_s": 12.19,
+   "cell_s": 3.04,
+   "n_cells": 30,
+   "peak_rss_gb": 2.25,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 24.148
+  },
+  "ref#2|qingyuanwu/deep-neural-network": {
+   "capped_columns": 680,
+   "capture_s": 7.78,
+   "cell_s": 136.73,
+   "n_cells": 18,
+   "peak_rss_gb": 26.48,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 147.237
+  },
+  "ref#2|qnqfbqfqo/electric-vehicle-landscape-in-washington-state": {
+   "capped_columns": 0,
+   "capture_s": 0.58,
+   "cell_s": 0.28,
+   "n_cells": 9,
+   "peak_rss_gb": 0.29,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 2.958
+  },
+  "ref#2|robikscube/big-data-bowl-comprehensive-eda-with-pandas": {
+   "capped_columns": 0,
+   "capture_s": 25.77,
+   "cell_s": 8.74,
+   "n_cells": 27,
+   "peak_rss_gb": 1.66,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 50.996
+  },
+  "ref#2|robinfaber/monsters-a-simple-logistic-regression-approach": {
+   "capped_columns": 0,
+   "capture_s": 0.03,
+   "cell_s": 0.02,
+   "n_cells": 15,
+   "peak_rss_gb": 0.13,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 4.058
+  },
+  "ref#2|roopahegde/cryptocurrency-price-correlation": {
+   "capped_columns": 0,
+   "capture_s": 3.54,
+   "cell_s": 2.8,
+   "n_cells": 36,
+   "peak_rss_gb": 0.62,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 7.949
+  },
+  "ref#2|roydatascience/malware-detection-stacking-2-0": {
+   "capped_columns": 225,
+   "capture_s": 5.13,
+   "cell_s": 137.01,
+   "n_cells": 11,
+   "peak_rss_gb": 12.45,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 143.853
+  },
+  "ref#2|sabya40/data-cleaning-and-pandas-for-beginners": {
+   "capped_columns": 0,
+   "capture_s": 0.11,
+   "cell_s": 0.11,
+   "n_cells": 26,
+   "peak_rss_gb": 0.15,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 2.946
+  },
+  "ref#2|sal001/beginner-s-note-top-12-by-single-linear-model": {
+   "capped_columns": 0,
+   "capture_s": 0.86,
+   "cell_s": 0.1,
+   "n_cells": 43,
+   "peak_rss_gb": 0.16,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 14.894
+  },
+  "ref#2|salmaneunus/student-s-performance-quantitative-visual-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.09,
+   "cell_s": 0.03,
+   "n_cells": 44,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 26.633
+  },
+  "ref#2|saniaks/melbourne-house-price-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.42,
+   "cell_s": 0.09,
+   "n_cells": 32,
+   "peak_rss_gb": 0.16,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 19.309
+  },
+  "ref#2|sanket30/eda-of-application-train-home-credit-default": {
+   "capped_columns": 0,
+   "capture_s": 10.53,
+   "cell_s": 2.29,
+   "n_cells": 53,
+   "peak_rss_gb": 1.93,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 44.494
+  },
+  "ref#2|santhoshrao1995/assi01-santhosh-19101036": {
+   "capped_columns": 0,
+   "capture_s": 0.26,
+   "cell_s": 0.12,
+   "n_cells": 36,
+   "peak_rss_gb": 0.16,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 18.587
+  },
+  "ref#2|seriousran/eda-ing": {
+   "capped_columns": 0,
+   "capture_s": 0.84,
+   "cell_s": 0.96,
+   "n_cells": 12,
+   "peak_rss_gb": 0.67,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 8.82
+  },
+  "ref#2|shashi772/data-cleaning-challenge-parsing-dates": {
+   "capped_columns": 0,
+   "capture_s": 0.12,
+   "cell_s": 0.08,
+   "n_cells": 13,
+   "peak_rss_gb": 0.17,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 2.482
+  },
+  "ref#2|shivavashishtha/zomato-eda-tutorial": {
+   "capped_columns": 0,
+   "capture_s": 12.93,
+   "cell_s": 20.4,
+   "n_cells": 91,
+   "peak_rss_gb": 0.85,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 100.238
+  },
+  "ref#2|shubhammahalank/eda-hotel-booking-demand": {
+   "capped_columns": 0,
+   "capture_s": 0.89,
+   "cell_s": 0.86,
+   "n_cells": 19,
+   "peak_rss_gb": 0.42,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 18.696
+  },
+  "ref#2|shunjiangxu/blood-is-thicker-than-water-friendship-forever": {
+   "capped_columns": 0,
+   "capture_s": 0.14,
+   "cell_s": 0.05,
+   "n_cells": 18,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 12.294
+  },
+  "ref#2|snanilim/video-games-sales-analysis-and-visualization": {
+   "capped_columns": 0,
+   "capture_s": 0.28,
+   "cell_s": 0.06,
+   "n_cells": 66,
+   "peak_rss_gb": 0.16,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 47.294
+  },
+  "ref#2|stefanjov/my-first-normalize-on-big-dataset": {
+   "capped_columns": 0,
+   "capture_s": 7.92,
+   "cell_s": 1.39,
+   "n_cells": 21,
+   "peak_rss_gb": 0.84,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 26.513
+  },
+  "ref#2|sudheer259/house-price-prediction": {
+   "capped_columns": 0,
+   "capture_s": 1.82,
+   "cell_s": 0.18,
+   "n_cells": 213,
+   "peak_rss_gb": 0.16,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 110.454
+  },
+  "ref#2|sunnybiswas/eda-on-airline-dataset": {
+   "capped_columns": 0,
+   "capture_s": 1.72,
+   "cell_s": 0.27,
+   "n_cells": 26,
+   "peak_rss_gb": 0.27,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 28.543
+  },
+  "ref#2|tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model": {
+   "capped_columns": 0,
+   "capture_s": 3.41,
+   "cell_s": 42.76,
+   "n_cells": 72,
+   "peak_rss_gb": 0.26,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 94.898
+  },
+  "ref#2|taylorhickem/singapore-building-energy": {
+   "capped_columns": 0,
+   "capture_s": 0.04,
+   "cell_s": 0.02,
+   "n_cells": 18,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 15.942
+  },
+  "ref#2|teemingyi/pubg-data-exploration-example-matches": {
+   "capped_columns": 0,
+   "capture_s": 5.28,
+   "cell_s": 8.3,
+   "n_cells": 13,
+   "peak_rss_gb": 6.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 15.571
+  },
+  "ref#2|thirumani/biggboss-hindi-telugu-tamil-kannada-marathi-bangla": {
+   "capped_columns": 0,
+   "capture_s": 0.25,
+   "cell_s": 0.03,
+   "n_cells": 30,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 19.13
+  },
+  "ref#2|trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+   "capped_columns": 0,
+   "capture_s": 0.09,
+   "cell_s": 0.04,
+   "n_cells": 23,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 2.833
+  },
+  "ref#2|tunguz/fathers-day-specials-just-the-features": {
+   "capped_columns": 91,
+   "capture_s": 94.25,
+   "cell_s": 102.0,
+   "n_cells": 38,
+   "peak_rss_gb": 20.1,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 199.992
+  },
+  "ref#2|ukveteran/sarima-time-series-eda-predict-jma-sao-paulo": {
+   "capped_columns": 0,
+   "capture_s": 0.02,
+   "cell_s": 0.02,
+   "n_cells": 11,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 15.42
+  },
+  "ref#2|vatsalmavani/music-recommendation-system-using-spotify-dataset": {
+   "capped_columns": 0,
+   "capture_s": 0.23,
+   "cell_s": 0.32,
+   "n_cells": 19,
+   "peak_rss_gb": 0.32,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 17.612
+  },
+  "ref#2|vbmokin/automatic-eda-with-pandas-profiling-2-9-09-2020": {
+   "capped_columns": 0,
+   "capture_s": 0.08,
+   "cell_s": 0.21,
+   "n_cells": 19,
+   "peak_rss_gb": 0.11,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 14.709
+  },
+  "ref#2|vinothsuku/osic-pulmonary-fibrosis-simple-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.03,
+   "cell_s": 0.02,
+   "n_cells": 18,
+   "peak_rss_gb": 0.13,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 15.417
+  },
+  "ref#2|viviktpharale/house-price-prediction-eda-linear-ridge-lasso": {
+   "capped_columns": 0,
+   "capture_s": 0.11,
+   "cell_s": 0.06,
+   "n_cells": 73,
+   "peak_rss_gb": 0.17,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 34.427
+  },
+  "ref#2|willkoehrsen/start-here-a-gentle-introduction": {
+   "capped_columns": 0,
+   "capture_s": 15.18,
+   "cell_s": 27.62,
+   "n_cells": 63,
+   "peak_rss_gb": 6.95,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 56.436
+  },
+  "ref#2|wyl4417/machine-learning-and-how-it-affects-you": {
+   "capped_columns": 0,
+   "capture_s": 55.03,
+   "cell_s": 2.11,
+   "n_cells": 18,
+   "peak_rss_gb": 0.77,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 63.407
+  },
+  "ref#2|xingobar/computer-science-data-visualization": {
+   "capped_columns": 0,
+   "capture_s": 0.05,
+   "cell_s": 0.02,
+   "n_cells": 16,
+   "peak_rss_gb": 0.13,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 2.489
+  },
+  "ref#2|xokent/cyber-security-attack-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.33,
+   "cell_s": 0.81,
+   "n_cells": 22,
+   "peak_rss_gb": 0.26,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 14.571
+  },
+  "ref#2|yashjaiswal1097/911-emergency-calls-kernel": {
+   "capped_columns": 0,
+   "capture_s": 6.48,
+   "cell_s": 1.9,
+   "n_cells": 30,
+   "peak_rss_gb": 0.51,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 19.626
+  },
+  "ref#2|yonelanuba/elo-merchant-by-yonela": {
+   "capped_columns": 15,
+   "capture_s": 76.42,
+   "cell_s": 105.7,
+   "n_cells": 171,
+   "peak_rss_gb": 20.0,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 186.577
+  },
+  "ref#2|yuliagm/talkingdata-eda-plus-time-patterns": {
+   "capped_columns": 0,
+   "capture_s": 14.37,
+   "cell_s": 13.06,
+   "n_cells": 37,
+   "peak_rss_gb": 6.98,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 31.959
+  },
+  "ref|akgauravin/gun-violence-data-exploration-and-plotting": {
+   "capped_columns": 0,
+   "capture_s": 18.58,
+   "cell_s": 2.02,
+   "n_cells": 43,
+   "peak_rss_gb": 0.72,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 49.464
+  },
+  "ref|akshaypetkar/supermarket-sales-analysis": {
+   "capped_columns": 0,
+   "capture_s": 8.97,
+   "cell_s": 1.08,
+   "n_cells": 38,
+   "peak_rss_gb": 0.74,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 38.286
+  },
+  "ref|arimishabirin/globalsalary-simple-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.03,
+   "cell_s": 0.03,
+   "n_cells": 13,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 15.655
+  },
+  "ref|arjoonn/scout-script-7": {
+   "capped_columns": 0,
+   "capture_s": 0.95,
+   "cell_s": 0.07,
+   "n_cells": 22,
+   "peak_rss_gb": 0.15,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 18.827
+  },
+  "ref|artgor/eda-and-models": {
+   "capped_columns": 4556,
+   "capture_s": 75.06,
+   "cell_s": 35.71,
+   "n_cells": 39,
+   "peak_rss_gb": 10.7,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 113.895
+  },
+  "ref|ashukr/first-step-ingestion-to-prediction": {
+   "capped_columns": 0,
+   "capture_s": 0.74,
+   "cell_s": 0.02,
+   "n_cells": 38,
+   "peak_rss_gb": 0.15,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 28.872
+  },
+  "ref|atultaur/house-sales-in-king-county": {
+   "capped_columns": 0,
+   "capture_s": 0.47,
+   "cell_s": 0.08,
+   "n_cells": 65,
+   "peak_rss_gb": 0.18,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 38.293
+  },
+  "ref|ayushsingh5941/tweet-disaster-or-not": {
+   "capped_columns": 0,
+   "capture_s": 0.27,
+   "cell_s": 0.35,
+   "n_cells": 37,
+   "peak_rss_gb": 0.13,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 19.648
+  },
+  "ref|balajivenkat96/solar-plants": {
+   "capped_columns": 0,
+   "capture_s": 2.92,
+   "cell_s": 0.59,
+   "n_cells": 61,
+   "peak_rss_gb": 0.22,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 41.592
+  },
+  "ref|bcannon/indexing-selecting-assigning": {
+   "capped_columns": 0,
+   "capture_s": 3.16,
+   "cell_s": 0.95,
+   "n_cells": 18,
+   "peak_rss_gb": 0.51,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 16.829
+  },
+  "ref|beratozmen/clash-of-clans-exploratory-data-analysis": {
+   "capped_columns": 0,
+   "capture_s": 52.26,
+   "cell_s": 13.28,
+   "n_cells": 20,
+   "peak_rss_gb": 6.05,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 67.231
+  },
+  "ref|blaskowitz100/feature-engineering-based-on-the-suprise-me": {
+   "capped_columns": 0,
+   "capture_s": 5.58,
+   "cell_s": 3.36,
+   "n_cells": 27,
+   "peak_rss_gb": 0.81,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 24.86
+  },
+  "ref|brianmendieta/data-cleaning-plus-eda": {
+   "capped_columns": 0,
+   "capture_s": 1.16,
+   "cell_s": 0.58,
+   "n_cells": 86,
+   "peak_rss_gb": 0.18,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 55.589
+  },
+  "ref|carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled": {
+   "capped_columns": 0,
+   "capture_s": 5.01,
+   "cell_s": 30.71,
+   "n_cells": 12,
+   "peak_rss_gb": 29.09,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 37.158
+  },
+  "ref|charulatashelar/indian-startup-funding-exploratory-data-analysis": {
+   "capped_columns": 0,
+   "capture_s": 0.55,
+   "cell_s": 0.05,
+   "n_cells": 35,
+   "peak_rss_gb": 0.15,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 22.737
+  },
+  "ref|chinstan/notebook249b4f3f5b": {
+   "capped_columns": 0,
+   "capture_s": 13.84,
+   "cell_s": 3.01,
+   "n_cells": 35,
+   "peak_rss_gb": 1.95,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 29.646
+  },
+  "ref|christophriley/intro-machine-learning": {
+   "capped_columns": 0,
+   "capture_s": 0.1,
+   "cell_s": 0.02,
+   "n_cells": 15,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 9.941
+  },
+  "ref|corazzon/how-to-use-pandas-filter-in-survey-eda": {
+   "capped_columns": 0,
+   "capture_s": 45.47,
+   "cell_s": 1.01,
+   "n_cells": 85,
+   "peak_rss_gb": 0.64,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 50.564
+  },
+  "ref|danielresende/game-of-thrones-battles": {
+   "capped_columns": 0,
+   "capture_s": 0.04,
+   "cell_s": 0.02,
+   "n_cells": 11,
+   "peak_rss_gb": 0.13,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 15.422
+  },
+  "ref|dbatao/kernel2f80fc9d78": {
+   "capped_columns": 0,
+   "capture_s": 2.93,
+   "cell_s": 0.11,
+   "n_cells": 59,
+   "peak_rss_gb": 0.16,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 39.934
+  },
+  "ref|deffro/eda-is-fun": {
+   "capped_columns": 0,
+   "capture_s": 131.81,
+   "cell_s": 29.11,
+   "n_cells": 41,
+   "peak_rss_gb": 12.15,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 163.004
+  },
+  "ref|drainvers/instacart-sandbox-lmf": {
+   "capped_columns": 8,
+   "capture_s": 15.62,
+   "cell_s": 45.65,
+   "n_cells": 21,
+   "peak_rss_gb": 13.74,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 63.549
+  },
+  "ref|ersinsen/fraud-3-eda": {
+   "capped_columns": 790,
+   "capture_s": 27.01,
+   "cell_s": 30.14,
+   "n_cells": 37,
+   "peak_rss_gb": 12.75,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 59.656
+  },
+  "ref|galiph/titanic-explorary-data-analysis": {
+   "capped_columns": 0,
+   "capture_s": 0.05,
+   "cell_s": 0.03,
+   "n_cells": 24,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 15.258
+  },
+  "ref|gautamsihag/notebook32c1acdb76": {
+   "capped_columns": 0,
+   "capture_s": 0.88,
+   "cell_s": 0.16,
+   "n_cells": 13,
+   "peak_rss_gb": 0.26,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 15.19
+  },
+  "ref|gmanish/help-ngo-country-clustering": {
+   "capped_columns": 0,
+   "capture_s": 0.24,
+   "cell_s": 0.02,
+   "n_cells": 65,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 33.878
+  },
+  "ref|gravix/gradient-in-a-box": {
+   "capped_columns": 0,
+   "capture_s": 45.78,
+   "cell_s": 8.21,
+   "n_cells": 23,
+   "peak_rss_gb": 0.94,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 65.285
+  },
+  "ref|grudd0/mass-shooting-analysis": {
+   "capped_columns": 0,
+   "capture_s": 0.5,
+   "cell_s": 0.06,
+   "n_cells": 44,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 29.542
+  },
+  "ref|gsilves/quiz-4-question-1": {
+   "capped_columns": 0,
+   "capture_s": 0.14,
+   "cell_s": 0.01,
+   "n_cells": 11,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 13.084
+  },
+  "ref|guyalmog/hr-analytics-predicting-employees-attrition": {
+   "capped_columns": 0,
+   "capture_s": 7.36,
+   "cell_s": 2.05,
+   "n_cells": 97,
+   "peak_rss_gb": 0.46,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 48.086
+  },
+  "ref|j0thu777/onlineretailanalysis": {
+   "capped_columns": 0,
+   "capture_s": 167.91,
+   "cell_s": 27.19,
+   "n_cells": 28,
+   "peak_rss_gb": 2.32,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 209.219
+  },
+  "ref|jackwatson99/pima-indians-diabetes-rf-81": {
+   "capped_columns": 0,
+   "capture_s": 0.14,
+   "cell_s": 0.02,
+   "n_cells": 15,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 7.328
+  },
+  "ref|jagangupta/stop-the-s-toxic-comments-eda": {
+   "capped_columns": 0,
+   "capture_s": 20.14,
+   "cell_s": 13.52,
+   "n_cells": 63,
+   "peak_rss_gb": 1.16,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 64.138
+  },
+  "ref|jaideepvalani/useful-eda-for-beginners-rsna-embolism": {
+   "capped_columns": 0,
+   "capture_s": 7.9,
+   "cell_s": 1.83,
+   "n_cells": 31,
+   "peak_rss_gb": 1.74,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 27.229
+  },
+  "ref|jirakst/book-recommendation": {
+   "capped_columns": 0,
+   "capture_s": 192.72,
+   "cell_s": 10.1,
+   "n_cells": 88,
+   "peak_rss_gb": 1.66,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 258.285
+  },
+  "ref|julieberteaux/workshop-2": {
+   "capped_columns": 0,
+   "capture_s": 6.47,
+   "cell_s": 1.46,
+   "n_cells": 21,
+   "peak_rss_gb": 0.37,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 21.918
+  },
+  "ref|jyotsananegi/melbourne-housing-snapshot-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.74,
+   "cell_s": 0.09,
+   "n_cells": 27,
+   "peak_rss_gb": 0.17,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 17.919
+  },
+  "ref|kanncaa1/dataiteam-titanic-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.54,
+   "cell_s": 0.13,
+   "n_cells": 88,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 7.437
+  },
+  "ref|kenjee/titanic-project-example": {
+   "capped_columns": 0,
+   "capture_s": 0.43,
+   "cell_s": 0.06,
+   "n_cells": 58,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 23.357
+  },
+  "ref|kimtaehun/simple-preprocessing-for-time-series-prediction": {
+   "capped_columns": 0,
+   "capture_s": 1.96,
+   "cell_s": 1.14,
+   "n_cells": 21,
+   "peak_rss_gb": 0.55,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 4.62
+  },
+  "ref|kmader/analyzing-matches": {
+   "capped_columns": 0,
+   "capture_s": 0.25,
+   "cell_s": 0.12,
+   "n_cells": 21,
+   "peak_rss_gb": 0.16,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 10.35
+  },
+  "ref|koko1998/summer-products-and-sales-wish-com": {
+   "capped_columns": 0,
+   "capture_s": 1.99,
+   "cell_s": 0.17,
+   "n_cells": 131,
+   "peak_rss_gb": 0.15,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 56.178
+  },
+  "ref|kwullum/when-do-traffic-related-deaths-occur": {
+   "capped_columns": 0,
+   "capture_s": 0.67,
+   "cell_s": 0.3,
+   "n_cells": 11,
+   "peak_rss_gb": 0.34,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 10.343
+  },
+  "ref|loveall/favorita-analytics": {
+   "capped_columns": 25,
+   "capture_s": 75.72,
+   "cell_s": 11.99,
+   "n_cells": 24,
+   "peak_rss_gb": 8.96,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 89.672
+  },
+  "ref|luckygemini/notebook5d5fc80c9f": {
+   "capped_columns": 0,
+   "capture_s": 0.44,
+   "cell_s": 0.05,
+   "n_cells": 11,
+   "peak_rss_gb": 0.19,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 11.784
+  },
+  "ref|luizep/movieslens20m": {
+   "capped_columns": 0,
+   "capture_s": 37.35,
+   "cell_s": 18.87,
+   "n_cells": 37,
+   "peak_rss_gb": 5.03,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 59.105
+  },
+  "ref|macespinoza/simple-eda-with-python-pandas-data-avocado-paltas": {
+   "capped_columns": 0,
+   "capture_s": 0.81,
+   "cell_s": 0.05,
+   "n_cells": 52,
+   "peak_rss_gb": 0.17,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 30.359
+  },
+  "ref|madseth/customer-shopping-trends-dataset-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.37,
+   "cell_s": 0.03,
+   "n_cells": 28,
+   "peak_rss_gb": 0.15,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 17.813
+  },
+  "ref|mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost": {
+   "capped_columns": 0,
+   "capture_s": 0.75,
+   "cell_s": 27.05,
+   "n_cells": 17,
+   "peak_rss_gb": 0.7,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 29.123
+  },
+  "ref|mathewvondersaar/analysis-of-student-performance": {
+   "capped_columns": 0,
+   "capture_s": 0.29,
+   "cell_s": 0.01,
+   "n_cells": 17,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 14.041
+  },
+  "ref|maxiaoyue/data-cleaning-challenge-handling-missing-values": {
+   "capped_columns": 0,
+   "capture_s": 50.11,
+   "cell_s": 5.79,
+   "n_cells": 42,
+   "peak_rss_gb": 1.62,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 67.995
+  },
+  "ref|mikedelong/python-eda-with-kdes": {
+   "capped_columns": 0,
+   "capture_s": 0.56,
+   "cell_s": 0.26,
+   "n_cells": 9,
+   "peak_rss_gb": 0.26,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 8.356
+  },
+  "ref|muhammadawaistayyab/used-cars-in-pakistan-stats": {
+   "capped_columns": 0,
+   "capture_s": 0.29,
+   "cell_s": 0.05,
+   "n_cells": 13,
+   "peak_rss_gb": 0.19,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 5.567
+  },
+  "ref|mustafatatarhan1/iris-kernel": {
+   "capped_columns": 0,
+   "capture_s": 0.13,
+   "cell_s": 0.01,
+   "n_cells": 34,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 9.598
+  },
+  "ref|nadare/feature-engenieering-with-pivot-table": {
+   "capped_columns": 0,
+   "capture_s": 267.85,
+   "cell_s": 30.24,
+   "n_cells": 19,
+   "peak_rss_gb": 2.04,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 307.053
+  },
+  "ref|nandhuelan/ott-platforms": {
+   "capped_columns": 0,
+   "capture_s": 0.81,
+   "cell_s": 0.13,
+   "n_cells": 22,
+   "peak_rss_gb": 0.18,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 8.32
+  },
+  "ref|narasimhach/ashrae-data-preprocessing": {
+   "capped_columns": 119,
+   "capture_s": 21.86,
+   "cell_s": 21.86,
+   "n_cells": 20,
+   "peak_rss_gb": 26.97,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 45.341
+  },
+  "ref|nihhaar/etltransform": {
+   "capped_columns": 0,
+   "capture_s": 0.22,
+   "cell_s": 0.04,
+   "n_cells": 11,
+   "peak_rss_gb": 0.12,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 4.69
+  },
+  "ref|paramarthasengupta/plotly-eda-top-movies-of-20th-century": {
+   "capped_columns": 0,
+   "capture_s": 1.06,
+   "cell_s": 0.31,
+   "n_cells": 26,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 7.333
+  },
+  "ref|penny8/my-sub1": {
+   "capped_columns": 0,
+   "capture_s": 10.02,
+   "cell_s": 76.49,
+   "n_cells": 31,
+   "peak_rss_gb": 1.81,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 93.624
+  },
+  "ref|pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697": {
+   "capped_columns": 0,
+   "capture_s": 3.39,
+   "cell_s": 1.02,
+   "n_cells": 69,
+   "peak_rss_gb": 0.42,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 19.039
+  },
+  "ref|poiss0nriot/classifying-client-type-using-client-names": {
+   "capped_columns": 0,
+   "capture_s": 0.8,
+   "cell_s": 34.36,
+   "n_cells": 17,
+   "peak_rss_gb": 0.39,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 38.75
+  },
+  "ref|pradeepjeya/allstate-encoding-high-cardinality-features": {
+   "capped_columns": 0,
+   "capture_s": 14.7,
+   "cell_s": 2.77,
+   "n_cells": 30,
+   "peak_rss_gb": 2.35,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 23.411
+  },
+  "ref|qingyuanwu/deep-neural-network": {
+   "capped_columns": 680,
+   "capture_s": 9.35,
+   "cell_s": 135.55,
+   "n_cells": 18,
+   "peak_rss_gb": 26.51,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 146.993
+  },
+  "ref|qnqfbqfqo/electric-vehicle-landscape-in-washington-state": {
+   "capped_columns": 0,
+   "capture_s": 0.8,
+   "cell_s": 0.29,
+   "n_cells": 9,
+   "peak_rss_gb": 0.31,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 4.024
+  },
+  "ref|robikscube/big-data-bowl-comprehensive-eda-with-pandas": {
+   "capped_columns": 0,
+   "capture_s": 29.07,
+   "cell_s": 9.15,
+   "n_cells": 27,
+   "peak_rss_gb": 1.7,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 48.663
+  },
+  "ref|robinfaber/monsters-a-simple-logistic-regression-approach": {
+   "capped_columns": 0,
+   "capture_s": 0.18,
+   "cell_s": 0.03,
+   "n_cells": 15,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 4.029
+  },
+  "ref|roopahegde/cryptocurrency-price-correlation": {
+   "capped_columns": 0,
+   "capture_s": 3.63,
+   "cell_s": 2.82,
+   "n_cells": 36,
+   "peak_rss_gb": 0.6,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 8.017
+  },
+  "ref|roydatascience/malware-detection-stacking-2-0": {
+   "capped_columns": 225,
+   "capture_s": 6.08,
+   "cell_s": 114.45,
+   "n_cells": 11,
+   "peak_rss_gb": 12.63,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 121.927
+  },
+  "ref|sabya40/data-cleaning-and-pandas-for-beginners": {
+   "capped_columns": 0,
+   "capture_s": 0.13,
+   "cell_s": 0.1,
+   "n_cells": 26,
+   "peak_rss_gb": 0.16,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 5.216
+  },
+  "ref|sal001/beginner-s-note-top-12-by-single-linear-model": {
+   "capped_columns": 0,
+   "capture_s": 2.99,
+   "cell_s": 0.09,
+   "n_cells": 43,
+   "peak_rss_gb": 0.17,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 15.95
+  },
+  "ref|salmaneunus/student-s-performance-quantitative-visual-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.33,
+   "cell_s": 0.03,
+   "n_cells": 44,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 12.17
+  },
+  "ref|saniaks/melbourne-house-price-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.65,
+   "cell_s": 0.1,
+   "n_cells": 32,
+   "peak_rss_gb": 0.17,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 8.788
+  },
+  "ref|sanket30/eda-of-application-train-home-credit-default": {
+   "capped_columns": 0,
+   "capture_s": 13.45,
+   "cell_s": 2.43,
+   "n_cells": 53,
+   "peak_rss_gb": 1.97,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 36.372
+  },
+  "ref|santhoshrao1995/assi01-santhosh-19101036": {
+   "capped_columns": 0,
+   "capture_s": 0.73,
+   "cell_s": 0.11,
+   "n_cells": 36,
+   "peak_rss_gb": 0.16,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 14.169
+  },
+  "ref|seriousran/eda-ing": {
+   "capped_columns": 0,
+   "capture_s": 1.15,
+   "cell_s": 0.99,
+   "n_cells": 12,
+   "peak_rss_gb": 0.69,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 11.017
+  },
+  "ref|shashi772/data-cleaning-challenge-parsing-dates": {
+   "capped_columns": 0,
+   "capture_s": 0.27,
+   "cell_s": 0.11,
+   "n_cells": 13,
+   "peak_rss_gb": 0.18,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 4.394
+  },
+  "ref|shivavashishtha/zomato-eda-tutorial": {
+   "capped_columns": 0,
+   "capture_s": 14.49,
+   "cell_s": 19.94,
+   "n_cells": 91,
+   "peak_rss_gb": 0.89,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 86.33
+  },
+  "ref|shubhammahalank/eda-hotel-booking-demand": {
+   "capped_columns": 0,
+   "capture_s": 1.57,
+   "cell_s": 0.89,
+   "n_cells": 19,
+   "peak_rss_gb": 0.43,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 10.977
+  },
+  "ref|shunjiangxu/blood-is-thicker-than-water-friendship-forever": {
+   "capped_columns": 0,
+   "capture_s": 0.27,
+   "cell_s": 0.05,
+   "n_cells": 18,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 8.679
+  },
+  "ref|snanilim/video-games-sales-analysis-and-visualization": {
+   "capped_columns": 0,
+   "capture_s": 0.7,
+   "cell_s": 0.06,
+   "n_cells": 66,
+   "peak_rss_gb": 0.16,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 41.975
+  },
+  "ref|stefanjov/my-first-normalize-on-big-dataset": {
+   "capped_columns": 0,
+   "capture_s": 8.59,
+   "cell_s": 1.39,
+   "n_cells": 21,
+   "peak_rss_gb": 0.91,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 26.616
+  },
+  "ref|sudheer259/house-price-prediction": {
+   "capped_columns": 0,
+   "capture_s": 4.86,
+   "cell_s": 0.18,
+   "n_cells": 213,
+   "peak_rss_gb": 0.16,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 105.945
+  },
+  "ref|sunnybiswas/eda-on-airline-dataset": {
+   "capped_columns": 0,
+   "capture_s": 1.89,
+   "cell_s": 0.28,
+   "n_cells": 26,
+   "peak_rss_gb": 0.29,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 22.814
+  },
+  "ref|tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model": {
+   "capped_columns": 0,
+   "capture_s": 4.03,
+   "cell_s": 42.03,
+   "n_cells": 72,
+   "peak_rss_gb": 0.28,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 80.796
+  },
+  "ref|taylorhickem/singapore-building-energy": {
+   "capped_columns": 0,
+   "capture_s": 0.19,
+   "cell_s": 0.02,
+   "n_cells": 18,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 16.323
+  },
+  "ref|teemingyi/pubg-data-exploration-example-matches": {
+   "capped_columns": 0,
+   "capture_s": 5.57,
+   "cell_s": 7.6,
+   "n_cells": 13,
+   "peak_rss_gb": 6.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 13.967
+  },
+  "ref|thirumani/biggboss-hindi-telugu-tamil-kannada-marathi-bangla": {
+   "capped_columns": 0,
+   "capture_s": 0.59,
+   "cell_s": 0.03,
+   "n_cells": 30,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 16.133
+  },
+  "ref|trinath003/data-manipulation-visualisation-on-kaggle-datasets": {
+   "capped_columns": 0,
+   "capture_s": 0.11,
+   "cell_s": 0.05,
+   "n_cells": 23,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 5.183
+  },
+  "ref|tunguz/fathers-day-specials-just-the-features": {
+   "capped_columns": 91,
+   "capture_s": 92.06,
+   "cell_s": 94.22,
+   "n_cells": 38,
+   "peak_rss_gb": 20.11,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 188.95
+  },
+  "ref|ukveteran/sarima-time-series-eda-predict-jma-sao-paulo": {
+   "capped_columns": 0,
+   "capture_s": 0.08,
+   "cell_s": 0.02,
+   "n_cells": 11,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 5.539
+  },
+  "ref|vatsalmavani/music-recommendation-system-using-spotify-dataset": {
+   "capped_columns": 0,
+   "capture_s": 0.61,
+   "cell_s": 0.32,
+   "n_cells": 19,
+   "peak_rss_gb": 0.32,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 8.441
+  },
+  "ref|vbmokin/automatic-eda-with-pandas-profiling-2-9-09-2020": {
+   "capped_columns": 0,
+   "capture_s": 0.36,
+   "cell_s": 0.25,
+   "n_cells": 19,
+   "peak_rss_gb": 0.11,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 12.789
+  },
+  "ref|vinothsuku/osic-pulmonary-fibrosis-simple-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.11,
+   "cell_s": 0.03,
+   "n_cells": 18,
+   "peak_rss_gb": 0.14,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 11.13
+  },
+  "ref|viviktpharale/house-price-prediction-eda-linear-ridge-lasso": {
+   "capped_columns": 0,
+   "capture_s": 0.27,
+   "cell_s": 0.05,
+   "n_cells": 73,
+   "peak_rss_gb": 0.17,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 33.144
+  },
+  "ref|willkoehrsen/start-here-a-gentle-introduction": {
+   "capped_columns": 0,
+   "capture_s": 18.09,
+   "cell_s": 28.11,
+   "n_cells": 63,
+   "peak_rss_gb": 6.98,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 63.027
+  },
+  "ref|wyl4417/machine-learning-and-how-it-affects-you": {
+   "capped_columns": 0,
+   "capture_s": 67.96,
+   "cell_s": 2.0,
+   "n_cells": 18,
+   "peak_rss_gb": 0.79,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 75.177
+  },
+  "ref|xingobar/computer-science-data-visualization": {
+   "capped_columns": 0,
+   "capture_s": 0.07,
+   "cell_s": 0.03,
+   "n_cells": 16,
+   "peak_rss_gb": 0.13,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 3.718
+  },
+  "ref|xokent/cyber-security-attack-eda": {
+   "capped_columns": 0,
+   "capture_s": 0.65,
+   "cell_s": 0.86,
+   "n_cells": 22,
+   "peak_rss_gb": 0.28,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 9.407
+  },
+  "ref|yashjaiswal1097/911-emergency-calls-kernel": {
+   "capped_columns": 0,
+   "capture_s": 7.01,
+   "cell_s": 1.88,
+   "n_cells": 30,
+   "peak_rss_gb": 0.56,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 16.629
+  },
+  "ref|yonelanuba/elo-merchant-by-yonela": {
+   "capped_columns": 15,
+   "capture_s": 82.42,
+   "cell_s": 112.42,
+   "n_cells": 171,
+   "peak_rss_gb": 20.0,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 201.283
+  },
+  "ref|yuliagm/talkingdata-eda-plus-time-patterns": {
+   "capped_columns": 0,
+   "capture_s": 19.91,
+   "cell_s": 12.64,
+   "n_cells": 37,
+   "peak_rss_gb": 7.42,
+   "reused": true,
+   "status": "completed",
+   "wall_s": 35.541
+  }
+ }
+}

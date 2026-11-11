@@ -1,0 +1,6531 @@
+{
+ "by_case": [
+  {
+   "case": "nested_hidden_row",
+   "category": "nested containers",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 3,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "frames",
+   "truth": "DIFF",
+   "verdict": "understated"
+  },
+  {
+   "case": "nested_hidden_row",
+   "category": "nested containers",
+   "engine": "fireducks",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "E2",
+   "show_cell": 3,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "frames",
+   "truth": "DIFF",
+   "verdict": "understated"
+  },
+  {
+   "case": "nested_float_digits",
+   "category": "nested containers",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 4,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "stats",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_float_digits",
+   "category": "nested containers",
+   "engine": "fireducks",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 4,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "stats",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_dtype_only",
+   "category": "nested containers",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 5,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "parts",
+   "truth": "E2",
+   "verdict": "understated"
+  },
+  {
+   "case": "nested_dtype_only",
+   "category": "nested containers",
+   "engine": "fireducks",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E2",
+   "show_cell": 5,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "parts",
+   "truth": "E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_depth_cut",
+   "category": "nested containers",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 6,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "deep",
+   "truth": "DIFF",
+   "verdict": "understated"
+  },
+  {
+   "case": "nested_depth_cut",
+   "category": "nested containers",
+   "engine": "fireducks",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 6,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "deep",
+   "truth": "DIFF",
+   "verdict": "understated"
+  },
+  {
+   "case": "nested_delimiter_collision",
+   "category": "nested containers",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 7,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "tok",
+   "truth": "DIFF",
+   "verdict": "understated"
+  },
+  {
+   "case": "nested_delimiter_collision",
+   "category": "nested containers",
+   "engine": "fireducks",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 7,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "tok",
+   "truth": "DIFF",
+   "verdict": "understated"
+  },
+  {
+   "case": "nested_control_equal",
+   "category": "nested containers (control)",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 8,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "same",
+   "truth": "E2",
+   "verdict": "understated"
+  },
+  {
+   "case": "nested_control_equal",
+   "category": "nested containers (control)",
+   "engine": "fireducks",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "coarser"
+   },
+   "prediction_held": true,
+   "reported": "E2",
+   "show_cell": 8,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "same",
+   "truth": "E0",
+   "verdict": "overstated"
+  },
+  {
+   "case": "nested_natural_str_dtype",
+   "category": "nested containers (natural pandas 3 change)",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 10,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "snest",
+   "truth": "E2",
+   "verdict": "understated"
+  },
+  {
+   "case": "nested_natural_str_dtype",
+   "category": "nested containers (natural pandas 3 change)",
+   "engine": "fireducks",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "coarser"
+   },
+   "prediction_held": true,
+   "reported": "E2",
+   "show_cell": 10,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "snest",
+   "truth": "E0",
+   "verdict": "overstated"
+  },
+  {
+   "case": "nested_object_address",
+   "category": "printed-form-only objects",
+   "engine": "p30",
+   "flag": [
+    "NONDET",
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 11,
+   "show_cls": "NONDET",
+   "show_cls_raw": "DIFF",
+   "show_name": "objs",
+   "truth": "NA",
+   "verdict": "n/a"
+  },
+  {
+   "case": "nested_object_address",
+   "category": "printed-form-only objects",
+   "engine": "fireducks",
+   "flag": [
+    "NONDET",
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 11,
+   "show_cls": "NONDET",
+   "show_cls_raw": "DIFF",
+   "show_name": "objs",
+   "truth": "NA",
+   "verdict": "n/a"
+  },
+  {
+   "case": "alias_visible",
+   "category": "mutable aliases",
+   "engine": "p30",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 4,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "db",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "alias_visible",
+   "category": "mutable aliases",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 4,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "db",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "alias_function",
+   "category": "mutable aliases",
+   "engine": "p30",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 9,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "dc": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 8,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "alias_function",
+   "category": "mutable aliases",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 9,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "dc": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 8,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "alias_function_no_reader",
+   "category": "mutable aliases",
+   "engine": "p30",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "unscored"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 11,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "unscored",
+   "verdict": "unscored"
+  },
+  {
+   "case": "alias_function_no_reader",
+   "category": "mutable aliases",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "unscored"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 11,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "unscored",
+   "verdict": "unscored"
+  },
+  {
+   "case": "attribute_side_effect",
+   "category": "in-place side effects",
+   "engine": "p30",
+   "flag": [
+    "uncapturable_input"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "uncapturable_input",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 15,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "acc": "uncapturable:other/other"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 14,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "attribute_side_effect",
+   "category": "in-place side effects",
+   "engine": "fireducks",
+   "flag": [
+    "uncapturable_input"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "uncapturable_input",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 15,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "acc": "uncapturable:other/other"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 14,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "apply_append",
+   "category": "in-place side effects",
+   "engine": "p30",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 18,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "log": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 17,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "apply_append",
+   "category": "in-place side effects",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 18,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "log": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 17,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "hidden_global_traced",
+   "category": "hidden globals",
+   "engine": "p30",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reader_cell": 4,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "THRESH": "differs:DIFF",
+    "df": "E2"
+   },
+   "reader_kind": "inherited",
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "THRESH",
+   "truth": "origin+reader",
+   "verdict": "correct"
+  },
+  {
+   "case": "hidden_global_traced",
+   "category": "hidden globals",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reader_cell": 4,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "THRESH": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "THRESH",
+   "truth": "origin+reader",
+   "verdict": "correct"
+  },
+  {
+   "case": "hidden_global_closure",
+   "category": "hidden globals",
+   "engine": "p30",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reader_cell": 7,
+   "reader_clean": "E2",
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "df": "E2"
+   },
+   "reader_kind": "introduced",
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "THRESH",
+   "truth": "origin+reader",
+   "verdict": "misattributed"
+  },
+  {
+   "case": "hidden_global_closure",
+   "category": "hidden globals",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reader_cell": 7,
+   "reader_clean": "E0",
+   "reader_cls": "DIFF",
+   "reader_inputs": {},
+   "reader_kind": "introduced",
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "THRESH",
+   "truth": "origin+reader",
+   "verdict": "misattributed"
+  },
+  {
+   "case": "global_statement",
+   "category": "hidden globals",
+   "engine": "p30",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 11,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "counter": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 10,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "global_statement",
+   "category": "hidden globals",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 11,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "counter": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 10,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "dynamic_globals_store",
+   "category": "dynamic accesses",
+   "engine": "p30",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 13,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "dyn": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "NOOUT",
+   "show_cell": 12,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "dynamic_globals_store",
+   "category": "dynamic accesses",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 13,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "dyn": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "NOOUT",
+   "show_cell": 12,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "dynamic_exec_store",
+   "category": "dynamic accesses",
+   "engine": "p30",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 15,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "ex": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 14,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "dynamic_exec_store",
+   "category": "dynamic accesses",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 15,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "ex": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 14,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "dynamic_globals_read",
+   "category": "dynamic accesses",
+   "engine": "p30",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reader_cell": 16,
+   "reader_clean": "E2",
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "df": "E2"
+   },
+   "reader_kind": "introduced",
+   "reported": "NOOUT",
+   "show_cell": 12,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "origin+reader",
+   "verdict": "misattributed"
+  },
+  {
+   "case": "dynamic_globals_read",
+   "category": "dynamic accesses",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reader_cell": 16,
+   "reader_clean": "E0",
+   "reader_cls": "DIFF",
+   "reader_inputs": {},
+   "reader_kind": "introduced",
+   "reported": "NOOUT",
+   "show_cell": 12,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "origin+reader",
+   "verdict": "misattributed"
+  },
+  {
+   "case": "lazy_assigned_scalar",
+   "category": "lazy values",
+   "engine": "p30",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "m",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "lazy_assigned_scalar",
+   "category": "lazy values",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "m",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "lazy_assigned_series",
+   "category": "lazy values",
+   "engine": "p30",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 3,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "s2",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "lazy_assigned_series",
+   "category": "lazy values",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 3,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "s2",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "inplace_sort",
+   "category": "in-place side effects",
+   "engine": "p30",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E2",
+   "show_cell": 5,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "ds",
+   "truth": "E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "inplace_sort",
+   "category": "in-place side effects",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E1",
+   "show_cell": 5,
+   "show_cls": "E1",
+   "show_cls_raw": null,
+   "show_name": "ds",
+   "truth": "E1",
+   "verdict": "correct"
+  },
+  {
+   "case": "groupby_object",
+   "category": "objects without an encoding",
+   "engine": "p30",
+   "flag": [
+    "uncapturable_input"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "uncapturable_input",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 7,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "g": "uncapturable:other/other"
+   },
+   "reader_kind": "inherited",
+   "reported": "missing",
+   "show_cell": 6,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": "g",
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "groupby_object",
+   "category": "objects without an encoding",
+   "engine": "fireducks",
+   "flag": [
+    "uncapturable_input"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "uncapturable_input",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 7,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "g": "uncapturable:other/other"
+   },
+   "reader_kind": "inherited",
+   "reported": "missing",
+   "show_cell": 6,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": "g",
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "repr_hides_state",
+   "category": "printed-form-only objects",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 3,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "boxes",
+   "truth": "DIFF",
+   "verdict": "understated"
+  },
+  {
+   "case": "repr_hides_state",
+   "category": "printed-form-only objects",
+   "engine": "fireducks",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 3,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "boxes",
+   "truth": "DIFF",
+   "verdict": "understated"
+  },
+  {
+   "case": "bound_method",
+   "category": "printed-form-only objects",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 4,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "meth",
+   "truth": "E2",
+   "verdict": "understated"
+  },
+  {
+   "case": "bound_method",
+   "category": "printed-form-only objects",
+   "engine": "fireducks",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 4,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "meth",
+   "truth": "E0",
+   "verdict": "correct"
+  },
+  {
+   "case": "dtype_objects",
+   "category": "printed-form-only objects (control)",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E2",
+   "show_cell": 5,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "dt",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dtype_objects",
+   "category": "printed-form-only objects (control)",
+   "engine": "fireducks",
+   "flag": [
+    "printed",
+    "UNCOMPARABLE"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "UNCOMPARABLE",
+   "show_cell": 5,
+   "show_cls": "UNCOMPARABLE",
+   "show_cls_raw": null,
+   "show_name": "dt",
+   "truth": "E0",
+   "verdict": "n/a"
+  },
+  {
+   "case": "range_in_list",
+   "category": "printed-form-only objects",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "rl",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "range_in_list",
+   "category": "printed-form-only objects",
+   "engine": "fireducks",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "rl",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "lambda_in_list",
+   "category": "printed-form-only objects",
+   "engine": "p30",
+   "flag": [
+    "NONDET",
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 7,
+   "show_cls": "NONDET",
+   "show_cls_raw": "DIFF",
+   "show_name": "fl",
+   "truth": "NA",
+   "verdict": "n/a"
+  },
+  {
+   "case": "lambda_in_list",
+   "category": "printed-form-only objects",
+   "engine": "fireducks",
+   "flag": [
+    "NONDET",
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 7,
+   "show_cls": "NONDET",
+   "show_cls_raw": "DIFF",
+   "show_name": "fl",
+   "truth": "NA",
+   "verdict": "n/a"
+  },
+  {
+   "case": "dask_lazy_scalar",
+   "category": "lazy values",
+   "engine": "p30",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 2,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "mean_b",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_scalar",
+   "category": "lazy values",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 2,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "mean_b",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_scalar",
+   "category": "lazy values",
+   "engine": "dask",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 2,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "mean_b",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 3,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "summ",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 3,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "summ",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "dask",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 3,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "summ",
+   "truth": "E0|E2",
+   "verdict": "overstated"
+  },
+  {
+   "case": "dask_lazy_in_list",
+   "category": "lazy values inside containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 4,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "pair",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_list",
+   "category": "lazy values inside containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 4,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "pair",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_list",
+   "category": "lazy values inside containers",
+   "engine": "dask",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 4,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "pair",
+   "truth": "E0|E2",
+   "verdict": "overstated"
+  },
+  {
+   "case": "dask_lazy_series_in_list",
+   "category": "lazy values inside containers",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 5,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "ser",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_series_in_list",
+   "category": "lazy values inside containers",
+   "engine": "fireducks",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "coarser"
+   },
+   "prediction_held": false,
+   "reported": "E2",
+   "show_cell": 5,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "ser",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_series_in_list",
+   "category": "lazy values inside containers",
+   "engine": "dask",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 5,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "ser",
+   "truth": "E0|E2",
+   "verdict": "overstated"
+  },
+  {
+   "case": "dask_planted_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "pl",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_planted_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "orig",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "pl",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_planted_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "dask",
+   "flag": [
+    "printed"
+   ],
+   "harness": "orig",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "pl",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_hidden_row",
+   "category": "nested containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 3,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "frames",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_hidden_row",
+   "category": "nested containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 3,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "frames",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_float_digits",
+   "category": "nested containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 4,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "stats",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_float_digits",
+   "category": "nested containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 4,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "stats",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_dtype_only",
+   "category": "nested containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "overstated",
+   "predicted": {
+    "flag": "none",
+    "verdict": "coarser"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 5,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "parts",
+   "truth": "E2",
+   "verdict": "overstated"
+  },
+  {
+   "case": "nested_dtype_only",
+   "category": "nested containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "overstated",
+   "predicted": {
+    "flag": "none",
+    "verdict": "coarser"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 5,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "parts",
+   "truth": "E2",
+   "verdict": "overstated"
+  },
+  {
+   "case": "nested_depth_cut",
+   "category": "nested containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "deep",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_depth_cut",
+   "category": "nested containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "deep",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_delimiter_collision",
+   "category": "nested containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 7,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "tok",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_delimiter_collision",
+   "category": "nested containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 7,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "tok",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_control_equal",
+   "category": "nested containers (control)",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "overstated",
+   "predicted": {
+    "flag": "none",
+    "verdict": "coarser"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 8,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "same",
+   "truth": "E2",
+   "verdict": "overstated"
+  },
+  {
+   "case": "nested_control_equal",
+   "category": "nested containers (control)",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 8,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "same",
+   "truth": "E0",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_natural_str_dtype",
+   "category": "nested containers (natural pandas 3 change)",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "overstated",
+   "predicted": {
+    "flag": "none",
+    "verdict": "coarser"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 10,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "snest",
+   "truth": "E2",
+   "verdict": "overstated"
+  },
+  {
+   "case": "nested_natural_str_dtype",
+   "category": "nested containers (natural pandas 3 change)",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 10,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "snest",
+   "truth": "E0",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_object_address",
+   "category": "printed-form-only objects",
+   "engine": "p30",
+   "flag": [
+    "NONDET",
+    "printed",
+    "inexact"
+   ],
+   "harness": "exact",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "inexact",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 11,
+   "show_cls": "NONDET",
+   "show_cls_raw": "DIFF",
+   "show_name": "objs",
+   "truth": "NA",
+   "verdict": "n/a"
+  },
+  {
+   "case": "nested_object_address",
+   "category": "printed-form-only objects",
+   "engine": "fireducks",
+   "flag": [
+    "NONDET",
+    "printed",
+    "inexact"
+   ],
+   "harness": "exact",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "inexact",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 11,
+   "show_cls": "NONDET",
+   "show_cls_raw": "DIFF",
+   "show_name": "objs",
+   "truth": "NA",
+   "verdict": "n/a"
+  },
+  {
+   "case": "alias_visible",
+   "category": "mutable aliases",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 4,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "db",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "alias_visible",
+   "category": "mutable aliases",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 4,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "db",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "alias_function",
+   "category": "mutable aliases",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 9,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "dc": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 8,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "alias_function",
+   "category": "mutable aliases",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 9,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "dc": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 8,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "alias_function_no_reader",
+   "category": "mutable aliases",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "unscored"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 11,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "unscored",
+   "verdict": "unscored"
+  },
+  {
+   "case": "alias_function_no_reader",
+   "category": "mutable aliases",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "unscored"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 11,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "unscored",
+   "verdict": "unscored"
+  },
+  {
+   "case": "attribute_side_effect",
+   "category": "in-place side effects",
+   "engine": "p30",
+   "flag": [
+    "uncapturable_input"
+   ],
+   "harness": "exact",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "uncapturable_input",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 15,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "acc": "uncapturable:other/other"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 14,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "attribute_side_effect",
+   "category": "in-place side effects",
+   "engine": "fireducks",
+   "flag": [
+    "uncapturable_input"
+   ],
+   "harness": "exact",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "uncapturable_input",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 15,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "acc": "uncapturable:other/other"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 14,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "apply_append",
+   "category": "in-place side effects",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 18,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "log": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 17,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "apply_append",
+   "category": "in-place side effects",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 18,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "log": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 17,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "hidden_global_traced",
+   "category": "hidden globals",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reader_cell": 4,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "THRESH": "differs:DIFF",
+    "df": "E2"
+   },
+   "reader_kind": "inherited",
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "THRESH",
+   "truth": "origin+reader",
+   "verdict": "correct"
+  },
+  {
+   "case": "hidden_global_traced",
+   "category": "hidden globals",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reader_cell": 4,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "THRESH": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "THRESH",
+   "truth": "origin+reader",
+   "verdict": "correct"
+  },
+  {
+   "case": "hidden_global_closure",
+   "category": "hidden globals",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reader_cell": 7,
+   "reader_clean": "E2",
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "df": "E2"
+   },
+   "reader_kind": "introduced",
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "THRESH",
+   "truth": "origin+reader",
+   "verdict": "misattributed"
+  },
+  {
+   "case": "hidden_global_closure",
+   "category": "hidden globals",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reader_cell": 7,
+   "reader_clean": "E0",
+   "reader_cls": "DIFF",
+   "reader_inputs": {},
+   "reader_kind": "introduced",
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "THRESH",
+   "truth": "origin+reader",
+   "verdict": "misattributed"
+  },
+  {
+   "case": "global_statement",
+   "category": "hidden globals",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 11,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "counter": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 10,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "global_statement",
+   "category": "hidden globals",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 11,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "counter": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 10,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "dynamic_globals_store",
+   "category": "dynamic accesses",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 13,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "dyn": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "NOOUT",
+   "show_cell": 12,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "dynamic_globals_store",
+   "category": "dynamic accesses",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 13,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "dyn": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "NOOUT",
+   "show_cell": 12,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "dynamic_exec_store",
+   "category": "dynamic accesses",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 15,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "ex": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 14,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "dynamic_exec_store",
+   "category": "dynamic accesses",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 15,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "ex": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 14,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "dynamic_globals_read",
+   "category": "dynamic accesses",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reader_cell": 16,
+   "reader_clean": "E2",
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "df": "E2"
+   },
+   "reader_kind": "introduced",
+   "reported": "NOOUT",
+   "show_cell": 12,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "origin+reader",
+   "verdict": "misattributed"
+  },
+  {
+   "case": "dynamic_globals_read",
+   "category": "dynamic accesses",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reader_cell": 16,
+   "reader_clean": "E0",
+   "reader_cls": "DIFF",
+   "reader_inputs": {},
+   "reader_kind": "introduced",
+   "reported": "NOOUT",
+   "show_cell": 12,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "origin+reader",
+   "verdict": "misattributed"
+  },
+  {
+   "case": "lazy_assigned_scalar",
+   "category": "lazy values",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "m",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "lazy_assigned_scalar",
+   "category": "lazy values",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "m",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "lazy_assigned_series",
+   "category": "lazy values",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 3,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "s2",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "lazy_assigned_series",
+   "category": "lazy values",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 3,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "s2",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "inplace_sort",
+   "category": "in-place side effects",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E2",
+   "show_cell": 5,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "ds",
+   "truth": "E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "inplace_sort",
+   "category": "in-place side effects",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E1",
+   "show_cell": 5,
+   "show_cls": "E1",
+   "show_cls_raw": null,
+   "show_name": "ds",
+   "truth": "E1",
+   "verdict": "correct"
+  },
+  {
+   "case": "groupby_object",
+   "category": "objects without an encoding",
+   "engine": "p30",
+   "flag": [
+    "uncapturable_input"
+   ],
+   "harness": "exact",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "uncapturable_input",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 7,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "g": "uncapturable:other/other"
+   },
+   "reader_kind": "inherited",
+   "reported": "missing",
+   "show_cell": 6,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": "g",
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "groupby_object",
+   "category": "objects without an encoding",
+   "engine": "fireducks",
+   "flag": [
+    "uncapturable_input"
+   ],
+   "harness": "exact",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "uncapturable_input",
+    "verdict": "late"
+   },
+   "prediction_held": true,
+   "reader_cell": 7,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "g": "uncapturable:other/other"
+   },
+   "reader_kind": "inherited",
+   "reported": "missing",
+   "show_cell": 6,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": "g",
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "repr_hides_state",
+   "category": "printed-form-only objects",
+   "engine": "p30",
+   "flag": [
+    "printed",
+    "inexact"
+   ],
+   "harness": "exact",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "inexact",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 3,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "boxes",
+   "truth": "DIFF",
+   "verdict": "understated"
+  },
+  {
+   "case": "repr_hides_state",
+   "category": "printed-form-only objects",
+   "engine": "fireducks",
+   "flag": [
+    "printed",
+    "inexact"
+   ],
+   "harness": "exact",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "inexact",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 3,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "boxes",
+   "truth": "DIFF",
+   "verdict": "understated"
+  },
+  {
+   "case": "bound_method",
+   "category": "printed-form-only objects",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "overstated",
+   "predicted": {
+    "flag": "none",
+    "verdict": "coarser"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 4,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "meth",
+   "truth": "E2",
+   "verdict": "overstated"
+  },
+  {
+   "case": "bound_method",
+   "category": "printed-form-only objects",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 4,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "meth",
+   "truth": "E0",
+   "verdict": "correct"
+  },
+  {
+   "case": "dtype_objects",
+   "category": "printed-form-only objects (control)",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E2",
+   "show_cell": 5,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "dt",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dtype_objects",
+   "category": "printed-form-only objects (control)",
+   "engine": "fireducks",
+   "flag": [
+    "UNCOMPARABLE"
+   ],
+   "harness": "exact",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "UNCOMPARABLE",
+   "show_cell": 5,
+   "show_cls": "UNCOMPARABLE",
+   "show_cls_raw": null,
+   "show_name": "dt",
+   "truth": "E0",
+   "verdict": "n/a"
+  },
+  {
+   "case": "range_in_list",
+   "category": "printed-form-only objects",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "rl",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "range_in_list",
+   "category": "printed-form-only objects",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "rl",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "lambda_in_list",
+   "category": "printed-form-only objects",
+   "engine": "p30",
+   "flag": [
+    "NONDET",
+    "printed",
+    "inexact"
+   ],
+   "harness": "exact",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "inexact",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 7,
+   "show_cls": "NONDET",
+   "show_cls_raw": "DIFF",
+   "show_name": "fl",
+   "truth": "NA",
+   "verdict": "n/a"
+  },
+  {
+   "case": "lambda_in_list",
+   "category": "printed-form-only objects",
+   "engine": "fireducks",
+   "flag": [
+    "NONDET",
+    "printed",
+    "inexact"
+   ],
+   "harness": "exact",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "inexact",
+    "verdict": "wrong"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 7,
+   "show_cls": "NONDET",
+   "show_cls_raw": "DIFF",
+   "show_name": "fl",
+   "truth": "NA",
+   "verdict": "n/a"
+  },
+  {
+   "case": "dask_lazy_scalar",
+   "category": "lazy values",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 2,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "mean_b",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_scalar",
+   "category": "lazy values",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 2,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "mean_b",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_scalar",
+   "category": "lazy values",
+   "engine": "dask",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 2,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "mean_b",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 3,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "summ",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 3,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "summ",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "dask",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 3,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "summ",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_list",
+   "category": "lazy values inside containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 4,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "pair",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_list",
+   "category": "lazy values inside containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 4,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "pair",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_list",
+   "category": "lazy values inside containers",
+   "engine": "dask",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 4,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "pair",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_series_in_list",
+   "category": "lazy values inside containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 5,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "ser",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_series_in_list",
+   "category": "lazy values inside containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 5,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "ser",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_series_in_list",
+   "category": "lazy values inside containers",
+   "engine": "dask",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "E0",
+   "show_cell": 5,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "ser",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_planted_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "pl",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_planted_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "pl",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_planted_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "dask",
+   "flag": [],
+   "harness": "exact",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": true,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "pl",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_hidden_row",
+   "category": "nested containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 3,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "frames",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_hidden_row",
+   "category": "nested containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 3,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "frames",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_float_digits",
+   "category": "nested containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 4,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "stats",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_float_digits",
+   "category": "nested containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 4,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "stats",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_dtype_only",
+   "category": "nested containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "coarser"
+   },
+   "prediction_held": false,
+   "reported": "E2",
+   "show_cell": 5,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "parts",
+   "truth": "E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_dtype_only",
+   "category": "nested containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "coarser"
+   },
+   "prediction_held": false,
+   "reported": "E2",
+   "show_cell": 5,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "parts",
+   "truth": "E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_depth_cut",
+   "category": "nested containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "deep",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_depth_cut",
+   "category": "nested containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "deep",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_delimiter_collision",
+   "category": "nested containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 7,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "tok",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_delimiter_collision",
+   "category": "nested containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 7,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "tok",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_control_equal",
+   "category": "nested containers (control)",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "coarser"
+   },
+   "prediction_held": false,
+   "reported": "E2",
+   "show_cell": 8,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "same",
+   "truth": "E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_control_equal",
+   "category": "nested containers (control)",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 8,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "same",
+   "truth": "E0",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_natural_str_dtype",
+   "category": "nested containers (natural pandas 3 change)",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "coarser"
+   },
+   "prediction_held": false,
+   "reported": "E2",
+   "show_cell": 10,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "snest",
+   "truth": "E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_natural_str_dtype",
+   "category": "nested containers (natural pandas 3 change)",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 10,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "snest",
+   "truth": "E0",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_object_address",
+   "category": "printed-form-only objects",
+   "engine": "p30",
+   "flag": [
+    "NONDET",
+    "printed",
+    "inexact"
+   ],
+   "harness": "exact_graded",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "inexact",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 11,
+   "show_cls": "NONDET",
+   "show_cls_raw": "DIFF",
+   "show_name": "objs",
+   "truth": "NA",
+   "verdict": "n/a"
+  },
+  {
+   "case": "nested_object_address",
+   "category": "printed-form-only objects",
+   "engine": "fireducks",
+   "flag": [
+    "NONDET",
+    "printed",
+    "inexact"
+   ],
+   "harness": "exact_graded",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "inexact",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 11,
+   "show_cls": "NONDET",
+   "show_cls_raw": "DIFF",
+   "show_name": "objs",
+   "truth": "NA",
+   "verdict": "n/a"
+  },
+  {
+   "case": "alias_visible",
+   "category": "mutable aliases",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 4,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "db",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "alias_visible",
+   "category": "mutable aliases",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 4,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "db",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "alias_function",
+   "category": "mutable aliases",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 9,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "dc": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 8,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "alias_function",
+   "category": "mutable aliases",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 9,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "dc": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 8,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "alias_function_no_reader",
+   "category": "mutable aliases",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "unscored"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 11,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "unscored",
+   "verdict": "unscored"
+  },
+  {
+   "case": "alias_function_no_reader",
+   "category": "mutable aliases",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "unscored"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 11,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "unscored",
+   "verdict": "unscored"
+  },
+  {
+   "case": "attribute_side_effect",
+   "category": "in-place side effects",
+   "engine": "p30",
+   "flag": [
+    "uncapturable_input"
+   ],
+   "harness": "exact_graded",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "uncapturable_input",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 15,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "acc": "uncapturable:other/other"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 14,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "attribute_side_effect",
+   "category": "in-place side effects",
+   "engine": "fireducks",
+   "flag": [
+    "uncapturable_input"
+   ],
+   "harness": "exact_graded",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "uncapturable_input",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 15,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "acc": "uncapturable:other/other"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 14,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "apply_append",
+   "category": "in-place side effects",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 18,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "log": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 17,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "apply_append",
+   "category": "in-place side effects",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 18,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "log": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 17,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "hidden_global_traced",
+   "category": "hidden globals",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reader_cell": 4,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "THRESH": "differs:DIFF",
+    "df": "E2"
+   },
+   "reader_kind": "inherited",
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "THRESH",
+   "truth": "origin+reader",
+   "verdict": "correct"
+  },
+  {
+   "case": "hidden_global_traced",
+   "category": "hidden globals",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reader_cell": 4,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "THRESH": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "THRESH",
+   "truth": "origin+reader",
+   "verdict": "correct"
+  },
+  {
+   "case": "hidden_global_closure",
+   "category": "hidden globals",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reader_cell": 7,
+   "reader_clean": "E2",
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "df": "E2"
+   },
+   "reader_kind": "introduced",
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "THRESH",
+   "truth": "origin+reader",
+   "verdict": "misattributed"
+  },
+  {
+   "case": "hidden_global_closure",
+   "category": "hidden globals",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reader_cell": 7,
+   "reader_clean": "E0",
+   "reader_cls": "DIFF",
+   "reader_inputs": {},
+   "reader_kind": "introduced",
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "THRESH",
+   "truth": "origin+reader",
+   "verdict": "misattributed"
+  },
+  {
+   "case": "global_statement",
+   "category": "hidden globals",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 11,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "counter": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 10,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "global_statement",
+   "category": "hidden globals",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 11,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "counter": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 10,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "dynamic_globals_store",
+   "category": "dynamic accesses",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 13,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "dyn": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "NOOUT",
+   "show_cell": 12,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "dynamic_globals_store",
+   "category": "dynamic accesses",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 13,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "dyn": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "NOOUT",
+   "show_cell": 12,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "dynamic_exec_store",
+   "category": "dynamic accesses",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 15,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "ex": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 14,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "dynamic_exec_store",
+   "category": "dynamic accesses",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 15,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "ex": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 14,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "dynamic_globals_read",
+   "category": "dynamic accesses",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reader_cell": 16,
+   "reader_clean": "E2",
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "df": "E2"
+   },
+   "reader_kind": "introduced",
+   "reported": "NOOUT",
+   "show_cell": 12,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "origin+reader",
+   "verdict": "misattributed"
+  },
+  {
+   "case": "dynamic_globals_read",
+   "category": "dynamic accesses",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reader_cell": 16,
+   "reader_clean": "E0",
+   "reader_cls": "DIFF",
+   "reader_inputs": {},
+   "reader_kind": "introduced",
+   "reported": "NOOUT",
+   "show_cell": 12,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "origin+reader",
+   "verdict": "misattributed"
+  },
+  {
+   "case": "lazy_assigned_scalar",
+   "category": "lazy values",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "m",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "lazy_assigned_scalar",
+   "category": "lazy values",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "m",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "lazy_assigned_series",
+   "category": "lazy values",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 3,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "s2",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "lazy_assigned_series",
+   "category": "lazy values",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 3,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "s2",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "inplace_sort",
+   "category": "in-place side effects",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E2",
+   "show_cell": 5,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "ds",
+   "truth": "E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "inplace_sort",
+   "category": "in-place side effects",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E1",
+   "show_cell": 5,
+   "show_cls": "E1",
+   "show_cls_raw": null,
+   "show_name": "ds",
+   "truth": "E1",
+   "verdict": "correct"
+  },
+  {
+   "case": "groupby_object",
+   "category": "objects without an encoding",
+   "engine": "p30",
+   "flag": [
+    "uncapturable_input"
+   ],
+   "harness": "exact_graded",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "uncapturable_input",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 7,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "g": "uncapturable:other/other"
+   },
+   "reader_kind": "inherited",
+   "reported": "missing",
+   "show_cell": 6,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": "g",
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "groupby_object",
+   "category": "objects without an encoding",
+   "engine": "fireducks",
+   "flag": [
+    "uncapturable_input"
+   ],
+   "harness": "exact_graded",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "uncapturable_input",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 7,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "g": "uncapturable:other/other"
+   },
+   "reader_kind": "inherited",
+   "reported": "missing",
+   "show_cell": 6,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": "g",
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "repr_hides_state",
+   "category": "printed-form-only objects",
+   "engine": "p30",
+   "flag": [
+    "printed",
+    "inexact"
+   ],
+   "harness": "exact_graded",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "inexact",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 3,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "boxes",
+   "truth": "DIFF",
+   "verdict": "understated"
+  },
+  {
+   "case": "repr_hides_state",
+   "category": "printed-form-only objects",
+   "engine": "fireducks",
+   "flag": [
+    "printed",
+    "inexact"
+   ],
+   "harness": "exact_graded",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "inexact",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 3,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "boxes",
+   "truth": "DIFF",
+   "verdict": "understated"
+  },
+  {
+   "case": "bound_method",
+   "category": "printed-form-only objects",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "overstated",
+   "predicted": {
+    "flag": "none",
+    "verdict": "coarser"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 4,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "meth",
+   "truth": "E2",
+   "verdict": "overstated"
+  },
+  {
+   "case": "bound_method",
+   "category": "printed-form-only objects",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 4,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "meth",
+   "truth": "E0",
+   "verdict": "correct"
+  },
+  {
+   "case": "dtype_objects",
+   "category": "printed-form-only objects (control)",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E2",
+   "show_cell": 5,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "dt",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dtype_objects",
+   "category": "printed-form-only objects (control)",
+   "engine": "fireducks",
+   "flag": [
+    "UNCOMPARABLE"
+   ],
+   "harness": "exact_graded",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "UNCOMPARABLE",
+   "show_cell": 5,
+   "show_cls": "UNCOMPARABLE",
+   "show_cls_raw": null,
+   "show_name": "dt",
+   "truth": "E0",
+   "verdict": "n/a"
+  },
+  {
+   "case": "range_in_list",
+   "category": "printed-form-only objects",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "rl",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "range_in_list",
+   "category": "printed-form-only objects",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "rl",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "lambda_in_list",
+   "category": "printed-form-only objects",
+   "engine": "p30",
+   "flag": [
+    "NONDET",
+    "printed",
+    "inexact"
+   ],
+   "harness": "exact_graded",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "inexact",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 7,
+   "show_cls": "NONDET",
+   "show_cls_raw": "DIFF",
+   "show_name": "fl",
+   "truth": "NA",
+   "verdict": "n/a"
+  },
+  {
+   "case": "lambda_in_list",
+   "category": "printed-form-only objects",
+   "engine": "fireducks",
+   "flag": [
+    "NONDET",
+    "printed",
+    "inexact"
+   ],
+   "harness": "exact_graded",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "inexact",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 7,
+   "show_cls": "NONDET",
+   "show_cls_raw": "DIFF",
+   "show_name": "fl",
+   "truth": "NA",
+   "verdict": "n/a"
+  },
+  {
+   "case": "dask_lazy_scalar",
+   "category": "lazy values",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 2,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "mean_b",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_scalar",
+   "category": "lazy values",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 2,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "mean_b",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_scalar",
+   "category": "lazy values",
+   "engine": "dask",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 2,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "mean_b",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 3,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "summ",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 3,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "summ",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "dask",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 3,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "summ",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_list",
+   "category": "lazy values inside containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 4,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "pair",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_list",
+   "category": "lazy values inside containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 4,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "pair",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_list",
+   "category": "lazy values inside containers",
+   "engine": "dask",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 4,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "pair",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_series_in_list",
+   "category": "lazy values inside containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 5,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "ser",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_series_in_list",
+   "category": "lazy values inside containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 5,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "ser",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_series_in_list",
+   "category": "lazy values inside containers",
+   "engine": "dask",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 5,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "ser",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_planted_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "pl",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_planted_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "pl",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_planted_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "dask",
+   "flag": [],
+   "harness": "exact_graded",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "pl",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_hidden_row",
+   "category": "nested containers",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 3,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "frames",
+   "truth": "DIFF",
+   "verdict": "understated"
+  },
+  {
+   "case": "nested_hidden_row",
+   "category": "nested containers",
+   "engine": "fireducks",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "E2",
+   "show_cell": 3,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "frames",
+   "truth": "DIFF",
+   "verdict": "understated"
+  },
+  {
+   "case": "nested_float_digits",
+   "category": "nested containers",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 4,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "stats",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_float_digits",
+   "category": "nested containers",
+   "engine": "fireducks",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 4,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "stats",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_dtype_only",
+   "category": "nested containers",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 5,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "parts",
+   "truth": "E2",
+   "verdict": "understated"
+  },
+  {
+   "case": "nested_dtype_only",
+   "category": "nested containers",
+   "engine": "fireducks",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E2",
+   "show_cell": 5,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "parts",
+   "truth": "E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "nested_depth_cut",
+   "category": "nested containers",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 6,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "deep",
+   "truth": "DIFF",
+   "verdict": "understated"
+  },
+  {
+   "case": "nested_depth_cut",
+   "category": "nested containers",
+   "engine": "fireducks",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 6,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "deep",
+   "truth": "DIFF",
+   "verdict": "understated"
+  },
+  {
+   "case": "nested_delimiter_collision",
+   "category": "nested containers",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 7,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "tok",
+   "truth": "DIFF",
+   "verdict": "understated"
+  },
+  {
+   "case": "nested_delimiter_collision",
+   "category": "nested containers",
+   "engine": "fireducks",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 7,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "tok",
+   "truth": "DIFF",
+   "verdict": "understated"
+  },
+  {
+   "case": "nested_control_equal",
+   "category": "nested containers (control)",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 8,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "same",
+   "truth": "E2",
+   "verdict": "understated"
+  },
+  {
+   "case": "nested_control_equal",
+   "category": "nested containers (control)",
+   "engine": "fireducks",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "coarser"
+   },
+   "prediction_held": false,
+   "reported": "E2",
+   "show_cell": 8,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "same",
+   "truth": "E0",
+   "verdict": "overstated"
+  },
+  {
+   "case": "nested_natural_str_dtype",
+   "category": "nested containers (natural pandas 3 change)",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 10,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "snest",
+   "truth": "E2",
+   "verdict": "understated"
+  },
+  {
+   "case": "nested_natural_str_dtype",
+   "category": "nested containers (natural pandas 3 change)",
+   "engine": "fireducks",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "coarser"
+   },
+   "prediction_held": false,
+   "reported": "E2",
+   "show_cell": 10,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "snest",
+   "truth": "E0",
+   "verdict": "overstated"
+  },
+  {
+   "case": "nested_object_address",
+   "category": "printed-form-only objects",
+   "engine": "p30",
+   "flag": [
+    "NONDET",
+    "printed",
+    "inexact"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 11,
+   "show_cls": "NONDET",
+   "show_cls_raw": "DIFF",
+   "show_name": "objs",
+   "truth": "NA",
+   "verdict": "n/a"
+  },
+  {
+   "case": "nested_object_address",
+   "category": "printed-form-only objects",
+   "engine": "fireducks",
+   "flag": [
+    "NONDET",
+    "printed",
+    "inexact"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 11,
+   "show_cls": "NONDET",
+   "show_cls_raw": "DIFF",
+   "show_name": "objs",
+   "truth": "NA",
+   "verdict": "n/a"
+  },
+  {
+   "case": "alias_visible",
+   "category": "mutable aliases",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 4,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "db",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "alias_visible",
+   "category": "mutable aliases",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 4,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "db",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "alias_function",
+   "category": "mutable aliases",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 9,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "dc": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 8,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "alias_function",
+   "category": "mutable aliases",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 9,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "dc": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 8,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "alias_function_no_reader",
+   "category": "mutable aliases",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "unscored"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 11,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "unscored",
+   "verdict": "unscored"
+  },
+  {
+   "case": "alias_function_no_reader",
+   "category": "mutable aliases",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "unscored"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 11,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "unscored",
+   "verdict": "unscored"
+  },
+  {
+   "case": "attribute_side_effect",
+   "category": "in-place side effects",
+   "engine": "p30",
+   "flag": [
+    "uncapturable_input"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "uncapturable_input",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 15,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "acc": "uncapturable:other/other"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 14,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "attribute_side_effect",
+   "category": "in-place side effects",
+   "engine": "fireducks",
+   "flag": [
+    "uncapturable_input"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "uncapturable_input",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 15,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "acc": "uncapturable:other/other"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 14,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "apply_append",
+   "category": "in-place side effects",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 18,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "log": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 17,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "apply_append",
+   "category": "in-place side effects",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 18,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "log": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 17,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "hidden_global_traced",
+   "category": "hidden globals",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reader_cell": 4,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "THRESH": "differs:DIFF",
+    "df": "E2"
+   },
+   "reader_kind": "inherited",
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "THRESH",
+   "truth": "origin+reader",
+   "verdict": "correct"
+  },
+  {
+   "case": "hidden_global_traced",
+   "category": "hidden globals",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reader_cell": 4,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "THRESH": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "THRESH",
+   "truth": "origin+reader",
+   "verdict": "correct"
+  },
+  {
+   "case": "hidden_global_closure",
+   "category": "hidden globals",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reader_cell": 7,
+   "reader_clean": "E2",
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "df": "E2"
+   },
+   "reader_kind": "introduced",
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "THRESH",
+   "truth": "origin+reader",
+   "verdict": "misattributed"
+  },
+  {
+   "case": "hidden_global_closure",
+   "category": "hidden globals",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reader_cell": 7,
+   "reader_clean": "E0",
+   "reader_cls": "DIFF",
+   "reader_inputs": {},
+   "reader_kind": "introduced",
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "THRESH",
+   "truth": "origin+reader",
+   "verdict": "misattributed"
+  },
+  {
+   "case": "global_statement",
+   "category": "hidden globals",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 11,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "counter": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 10,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "global_statement",
+   "category": "hidden globals",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 11,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "counter": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 10,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "dynamic_globals_store",
+   "category": "dynamic accesses",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 13,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "dyn": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "NOOUT",
+   "show_cell": 12,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "dynamic_globals_store",
+   "category": "dynamic accesses",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 13,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "dyn": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "NOOUT",
+   "show_cell": 12,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "dynamic_exec_store",
+   "category": "dynamic accesses",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 15,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "ex": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 14,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "dynamic_exec_store",
+   "category": "dynamic accesses",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "late",
+   "predicted": {
+    "flag": "none",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 15,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "ex": "differs:DIFF"
+   },
+   "reader_kind": "inherited",
+   "reported": "E0",
+   "show_cell": 14,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "dynamic_globals_read",
+   "category": "dynamic accesses",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reader_cell": 16,
+   "reader_clean": "E2",
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "df": "E2"
+   },
+   "reader_kind": "introduced",
+   "reported": "NOOUT",
+   "show_cell": 12,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "origin+reader",
+   "verdict": "misattributed"
+  },
+  {
+   "case": "dynamic_globals_read",
+   "category": "dynamic accesses",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "missed",
+   "predicted": {
+    "flag": "none",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reader_cell": 16,
+   "reader_clean": "E0",
+   "reader_cls": "DIFF",
+   "reader_inputs": {},
+   "reader_kind": "introduced",
+   "reported": "NOOUT",
+   "show_cell": 12,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": null,
+   "truth": "origin+reader",
+   "verdict": "misattributed"
+  },
+  {
+   "case": "lazy_assigned_scalar",
+   "category": "lazy values",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "m",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "lazy_assigned_scalar",
+   "category": "lazy values",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 2,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "m",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "lazy_assigned_series",
+   "category": "lazy values",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 3,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "s2",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "lazy_assigned_series",
+   "category": "lazy values",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 3,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "s2",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "inplace_sort",
+   "category": "in-place side effects",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E2",
+   "show_cell": 5,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "ds",
+   "truth": "E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "inplace_sort",
+   "category": "in-place side effects",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E1",
+   "show_cell": 5,
+   "show_cls": "E1",
+   "show_cls_raw": null,
+   "show_name": "ds",
+   "truth": "E1",
+   "verdict": "correct"
+  },
+  {
+   "case": "groupby_object",
+   "category": "objects without an encoding",
+   "engine": "p30",
+   "flag": [
+    "uncapturable_input"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "uncapturable_input",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 7,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "g": "uncapturable:other/other"
+   },
+   "reader_kind": "inherited",
+   "reported": "missing",
+   "show_cell": 6,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": "g",
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "groupby_object",
+   "category": "objects without an encoding",
+   "engine": "fireducks",
+   "flag": [
+    "uncapturable_input"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "uncapturable_input",
+    "verdict": "late"
+   },
+   "prediction_held": false,
+   "reader_cell": 7,
+   "reader_clean": null,
+   "reader_cls": "DIFF",
+   "reader_inputs": {
+    "g": "uncapturable:other/other"
+   },
+   "reader_kind": "inherited",
+   "reported": "missing",
+   "show_cell": 6,
+   "show_cls": "NOOUT",
+   "show_cls_raw": null,
+   "show_name": "g",
+   "truth": "reader",
+   "verdict": "late"
+  },
+  {
+   "case": "repr_hides_state",
+   "category": "printed-form-only objects",
+   "engine": "p30",
+   "flag": [
+    "printed",
+    "inexact"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 3,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "boxes",
+   "truth": "DIFF",
+   "verdict": "understated"
+  },
+  {
+   "case": "repr_hides_state",
+   "category": "printed-form-only objects",
+   "engine": "fireducks",
+   "flag": [
+    "printed",
+    "inexact"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 3,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "boxes",
+   "truth": "DIFF",
+   "verdict": "understated"
+  },
+  {
+   "case": "bound_method",
+   "category": "printed-form-only objects",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 4,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "meth",
+   "truth": "E2",
+   "verdict": "understated"
+  },
+  {
+   "case": "bound_method",
+   "category": "printed-form-only objects",
+   "engine": "fireducks",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 4,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "meth",
+   "truth": "E0",
+   "verdict": "correct"
+  },
+  {
+   "case": "dtype_objects",
+   "category": "printed-form-only objects (control)",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E2",
+   "show_cell": 5,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "dt",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dtype_objects",
+   "category": "printed-form-only objects (control)",
+   "engine": "fireducks",
+   "flag": [
+    "printed",
+    "UNCOMPARABLE"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "UNCOMPARABLE",
+   "show_cell": 5,
+   "show_cls": "UNCOMPARABLE",
+   "show_cls_raw": null,
+   "show_name": "dt",
+   "truth": "E0",
+   "verdict": "n/a"
+  },
+  {
+   "case": "range_in_list",
+   "category": "printed-form-only objects",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "rl",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "range_in_list",
+   "category": "printed-form-only objects",
+   "engine": "fireducks",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "rl",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "lambda_in_list",
+   "category": "printed-form-only objects",
+   "engine": "p30",
+   "flag": [
+    "NONDET",
+    "printed",
+    "inexact"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 7,
+   "show_cls": "NONDET",
+   "show_cls_raw": "DIFF",
+   "show_name": "fl",
+   "truth": "NA",
+   "verdict": "n/a"
+  },
+  {
+   "case": "lambda_in_list",
+   "category": "printed-form-only objects",
+   "engine": "fireducks",
+   "flag": [
+    "NONDET",
+    "printed",
+    "inexact"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 7,
+   "show_cls": "NONDET",
+   "show_cls_raw": "DIFF",
+   "show_name": "fl",
+   "truth": "NA",
+   "verdict": "n/a"
+  },
+  {
+   "case": "dask_lazy_scalar",
+   "category": "lazy values",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 2,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "mean_b",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_scalar",
+   "category": "lazy values",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 2,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "mean_b",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_scalar",
+   "category": "lazy values",
+   "engine": "dask",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 2,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "mean_b",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 3,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "summ",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 3,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "summ",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "dask",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 3,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "summ",
+   "truth": "E0|E2",
+   "verdict": "overstated"
+  },
+  {
+   "case": "dask_lazy_in_list",
+   "category": "lazy values inside containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 4,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "pair",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_list",
+   "category": "lazy values inside containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 4,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "pair",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_in_list",
+   "category": "lazy values inside containers",
+   "engine": "dask",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 4,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "pair",
+   "truth": "E0|E2",
+   "verdict": "overstated"
+  },
+  {
+   "case": "dask_lazy_series_in_list",
+   "category": "lazy values inside containers",
+   "engine": "p30",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "E0",
+   "show_cell": 5,
+   "show_cls": "E0",
+   "show_cls_raw": null,
+   "show_name": "ser",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_series_in_list",
+   "category": "lazy values inside containers",
+   "engine": "fireducks",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "coarser"
+   },
+   "prediction_held": false,
+   "reported": "E2",
+   "show_cell": 5,
+   "show_cls": "E2",
+   "show_cls_raw": null,
+   "show_name": "ser",
+   "truth": "E0|E2",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_lazy_series_in_list",
+   "category": "lazy values inside containers",
+   "engine": "dask",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "wrong"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 5,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "ser",
+   "truth": "E0|E2",
+   "verdict": "overstated"
+  },
+  {
+   "case": "dask_planted_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "p30",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "pl",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_planted_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "fireducks",
+   "flag": [],
+   "harness": "exact_origenc",
+   "outcome": "captured exactly",
+   "predicted": {
+    "flag": "none",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "pl",
+   "truth": "DIFF",
+   "verdict": "correct"
+  },
+  {
+   "case": "dask_planted_in_dict",
+   "category": "lazy values inside containers",
+   "engine": "dask",
+   "flag": [
+    "printed"
+   ],
+   "harness": "exact_origenc",
+   "outcome": "flagged",
+   "predicted": {
+    "flag": "printed",
+    "verdict": "correct"
+   },
+   "prediction_held": false,
+   "reported": "DIFF",
+   "show_cell": 6,
+   "show_cls": "DIFF",
+   "show_cls_raw": null,
+   "show_name": "pl",
+   "truth": "DIFF",
+   "verdict": "correct"
+  }
+ ],
+ "dual_capture_check": {
+  "differ": [],
+  "rows": 71,
+  "same_result": 71
+ },
+ "predictions_held": 137,
+ "rows": 284,
+ "rows_predicted": 142,
+ "summary": {
+  "exact:dask": {
+   "captured exactly": 5
+  },
+  "exact:fireducks": {
+   "captured exactly": 18,
+   "flagged": 6,
+   "late": 5,
+   "missed": 3,
+   "overstated": 1
+  },
+  "exact:p30": {
+   "captured exactly": 16,
+   "flagged": 5,
+   "late": 5,
+   "missed": 3,
+   "overstated": 4
+  },
+  "exact_graded:dask": {
+   "captured exactly": 5
+  },
+  "exact_graded:fireducks": {
+   "captured exactly": 19,
+   "flagged": 6,
+   "late": 5,
+   "missed": 3
+  },
+  "exact_graded:p30": {
+   "captured exactly": 19,
+   "flagged": 5,
+   "late": 5,
+   "missed": 3,
+   "overstated": 1
+  },
+  "exact_origenc:dask": {
+   "captured exactly": 1,
+   "flagged": 4
+  },
+  "exact_origenc:fireducks": {
+   "captured exactly": 9,
+   "flagged": 16,
+   "late": 5,
+   "missed": 3
+  },
+  "exact_origenc:p30": {
+   "captured exactly": 9,
+   "flagged": 16,
+   "late": 5,
+   "missed": 3
+  },
+  "orig:dask": {
+   "captured exactly": 1,
+   "flagged": 4
+  },
+  "orig:fireducks": {
+   "captured exactly": 9,
+   "flagged": 16,
+   "late": 5,
+   "missed": 3
+  },
+  "orig:p30": {
+   "captured exactly": 9,
+   "flagged": 16,
+   "late": 5,
+   "missed": 3
+  }
+ }
+}

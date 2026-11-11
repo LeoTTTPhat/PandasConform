@@ -1,0 +1,126 @@
+{
+ "harness_sha": "d1c421ecb5eec2bda275e05aebacd0f0a8766869334d36f786f3f66a3a86a380",
+ "runs": {
+  "capture|bodo_dw|arimishabirin/globalsalary-simple-eda|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/bodo_dw/sf1/arimishabirin__globalsalary-simple-eda__4ccfc4ccfbcc.json",
+   "status": "skipped"
+  },
+  "capture|bodo_dw|danielresende/game-of-thrones-battles|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/bodo_dw/sf1/danielresende__game-of-thrones-battles__87b93d4b03eb.json",
+   "status": "skipped"
+  },
+  "capture|bodo_dw|galiph/titanic-explorary-data-analysis|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/bodo_dw/sf1/galiph__titanic-explorary-data-analysis__c2fa6d48fb63.json",
+   "status": "skipped"
+  },
+  "capture|bodo|arimishabirin/globalsalary-simple-eda|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/bodo/sf1/arimishabirin__globalsalary-simple-eda__75db3789b6f3.json",
+   "status": "skipped"
+  },
+  "capture|bodo|danielresende/game-of-thrones-battles|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/bodo/sf1/danielresende__game-of-thrones-battles__59d5eecee63d.json",
+   "status": "skipped"
+  },
+  "capture|bodo|galiph/titanic-explorary-data-analysis|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/bodo/sf1/galiph__titanic-explorary-data-analysis__73ec8231b118.json",
+   "status": "skipped"
+  },
+  "capture|dask|arimishabirin/globalsalary-simple-eda|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/dask/sf1/arimishabirin__globalsalary-simple-eda__48b1db5f536e.json",
+   "status": "skipped"
+  },
+  "capture|dask|danielresende/game-of-thrones-battles|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/dask/sf1/danielresende__game-of-thrones-battles__67643c98340b.json",
+   "status": "skipped"
+  },
+  "capture|dask|galiph/titanic-explorary-data-analysis|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/dask/sf1/galiph__titanic-explorary-data-analysis__6f4fef03d68f.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|arimishabirin/globalsalary-simple-eda|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/fireducks/sf1/arimishabirin__globalsalary-simple-eda__2e9e62bf8206.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|danielresende/game-of-thrones-battles|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/fireducks/sf1/danielresende__game-of-thrones-battles__b127493dc826.json",
+   "status": "skipped"
+  },
+  "capture|fireducks|galiph/titanic-explorary-data-analysis|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/fireducks/sf1/galiph__titanic-explorary-data-analysis__896df519008e.json",
+   "status": "skipped"
+  },
+  "capture|modin|arimishabirin/globalsalary-simple-eda|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/modin/sf1/arimishabirin__globalsalary-simple-eda__2c2376c7347d.json",
+   "status": "skipped"
+  },
+  "capture|modin|danielresende/game-of-thrones-battles|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/modin/sf1/danielresende__game-of-thrones-battles__c389000ae8bb.json",
+   "status": "skipped"
+  },
+  "capture|modin|galiph/titanic-explorary-data-analysis|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/modin/sf1/galiph__titanic-explorary-data-analysis__352689669ba9.json",
+   "status": "skipped"
+  },
+  "capture|p15|arimishabirin/globalsalary-simple-eda|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/p15/sf1/arimishabirin__globalsalary-simple-eda__c9ff89ff33cb.json",
+   "status": "skipped"
+  },
+  "capture|p15|danielresende/game-of-thrones-battles|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/p15/sf1/danielresende__game-of-thrones-battles__e4223ad505a2.json",
+   "status": "skipped"
+  },
+  "capture|p15|galiph/titanic-explorary-data-analysis|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/p15/sf1/galiph__titanic-explorary-data-analysis__304d0760aacc.json",
+   "status": "skipped"
+  },
+  "capture|p30|arimishabirin/globalsalary-simple-eda|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/p30/sf1/arimishabirin__globalsalary-simple-eda__e79ce45309f0.json",
+   "status": "skipped"
+  },
+  "capture|p30|danielresende/game-of-thrones-battles|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/p30/sf1/danielresende__game-of-thrones-battles__d22ec45daae1.json",
+   "status": "skipped"
+  },
+  "capture|p30|galiph/titanic-explorary-data-analysis|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/p30/sf1/galiph__titanic-explorary-data-analysis__9dfba0418175.json",
+   "status": "skipped"
+  },
+  "capture|pyarrow_backend|arimishabirin/globalsalary-simple-eda|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/pyarrow_backend/sf1/arimishabirin__globalsalary-simple-eda__f8711f29cc08.json",
+   "status": "skipped"
+  },
+  "capture|pyarrow_backend|danielresende/game-of-thrones-battles|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/pyarrow_backend/sf1/danielresende__game-of-thrones-battles__fa068e4cd546.json",
+   "status": "skipped"
+  },
+  "capture|pyarrow_backend|galiph/titanic-explorary-data-analysis|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/pyarrow_backend/sf1/galiph__titanic-explorary-data-analysis__5f88fafb602c.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|arimishabirin/globalsalary-simple-eda|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/ref_r2/sf1/arimishabirin__globalsalary-simple-eda__7983ad4d44c3.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|danielresende/game-of-thrones-battles|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/ref_r2/sf1/danielresende__game-of-thrones-battles__1eab9b65266a.json",
+   "status": "skipped"
+  },
+  "capture|ref#2|galiph/titanic-explorary-data-analysis|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/ref_r2/sf1/galiph__titanic-explorary-data-analysis__48a68221a14e.json",
+   "status": "skipped"
+  },
+  "capture|ref|arimishabirin/globalsalary-simple-eda|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/ref/sf1/arimishabirin__globalsalary-simple-eda__248007e13d18.json",
+   "status": "skipped"
+  },
+  "capture|ref|danielresende/game-of-thrones-battles|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/ref/sf1/danielresende__game-of-thrones-battles__169482de1195.json",
+   "status": "skipped"
+  },
+  "capture|ref|galiph/titanic-explorary-data-analysis|1.0|1": {
+   "record": "results/smoke/runs__hd1c421ecb5ee/ref/sf1/galiph__titanic-explorary-data-analysis__94590e86a6e8.json",
+   "status": "skipped"
+  }
+ },
+ "updated": "2026-10-02T15:30:31"
+}

@@ -1,0 +1,850 @@
+{
+ "cases": {
+  "apply_side_effects_modin": {
+   "modin_conf_1x": {
+    "cell_status": "ok",
+    "cuisines": {
+     "ok": true,
+     "value": 5
+    }
+   },
+   "modin_d1_replay": {
+    "cell_status": "ok",
+    "cuisines": {
+     "ok": true,
+     "value": 5
+    }
+   },
+   "ref_conf_1x": {
+    "cell_status": "ok",
+    "cuisines": {
+     "ok": true,
+     "value": 124234
+    }
+   }
+  },
+  "approx_quantile_deffro": {
+   "bodo_conf_1x": {
+    "_": {
+     "ok": true,
+     "value": 4400164
+    },
+    "cell_status": "ok"
+   },
+   "bodo_d1_replay": {
+    "_": {
+     "ok": true,
+     "value": 4415729
+    },
+    "cell_status": "ok"
+   },
+   "ref_conf_1x": {
+    "_": {
+     "ok": true,
+     "value": 4402460
+    },
+    "cell_status": "ok"
+   }
+  },
+  "approx_quantile_gmanish": {
+   "bodo_conf_1x": {
+    "Q1": {
+     "ok": true,
+     "value": 459.0
+    },
+    "Q3": {
+     "ok": true,
+     "value": 48700.0
+    },
+    "__last__": {
+     "ok": true,
+     "value": 8
+    },
+    "cell_status": "ok"
+   },
+   "bodo_d1_replay": {
+    "Q1": {
+     "ok": true,
+     "value": 459.0
+    },
+    "Q3": {
+     "ok": true,
+     "value": 48700.0
+    },
+    "__last__": {
+     "ok": true,
+     "value": 8
+    },
+    "cell_status": "ok"
+   },
+   "ref_conf_1x": {
+    "Q1": {
+     "ok": true,
+     "value": 465.9
+    },
+    "Q3": {
+     "ok": true,
+     "value": 48610.0
+    },
+    "__last__": {
+     "ok": true,
+     "value": 9
+    },
+    "cell_status": "ok"
+   }
+  },
+  "chained_assignment_scout": {
+   "fireducks_conf_1x": {
+    "cell_status": "ok",
+    "df": {
+     "ok": true,
+     "value": {
+      "ncol": 124,
+      "self_employed_na": 18,
+      "state_cols": [
+       "state_IL",
+       "state_IN",
+       "state_TX",
+       "state_TN",
+       "state_MI",
+       "state_OH"
+      ]
+     }
+    },
+    "st": {
+     "ok": true,
+     "value": "None"
+    }
+   },
+   "fireducks_d1_replay": {
+    "cell_status": "ok",
+    "df": {
+     "ok": true,
+     "value": {
+      "ncol": 124,
+      "self_employed_na": 18,
+      "state_cols": [
+       "state_IL",
+       "state_IN",
+       "state_TX",
+       "state_TN",
+       "state_MI",
+       "state_OH"
+      ]
+     }
+    },
+    "st": {
+     "ok": true,
+     "value": "None"
+    }
+   },
+   "ref_conf_1x": {
+    "cell_status": "ok",
+    "df": {
+     "ok": true,
+     "value": {
+      "ncol": 124,
+      "self_employed_na": 0,
+      "state_cols": [
+       "state_IL",
+       "state_IN",
+       "state_nan",
+       "state_TX",
+       "state_TN",
+       "state_MI"
+      ]
+     }
+    },
+    "st": {
+     "ok": true,
+     "value": "ME"
+    }
+   }
+  },
+  "chained_assignment_tweet": {
+   "fireducks_conf_1x": {
+    "cell_status": "ok",
+    "tweet_train_df": {
+     "ok": true,
+     "value": {
+      "id": 0,
+      "keyword": 61,
+      "location": 2533,
+      "target": 0,
+      "text": 0
+     }
+    }
+   },
+   "fireducks_d1_replay": {
+    "cell_status": "ok",
+    "tweet_train_df": {
+     "ok": true,
+     "value": {
+      "id": 0,
+      "keyword": 61,
+      "location": 2533,
+      "target": 0,
+      "text": 0
+     }
+    }
+   },
+   "ref_conf_1x": {
+    "cell_status": "ok",
+    "tweet_train_df": {
+     "ok": true,
+     "value": {
+      "id": 0,
+      "keyword": 0,
+      "location": 0,
+      "target": 0,
+      "text": 0
+     }
+    }
+   }
+  },
+  "corr_diag_deffro": {
+   "modin_conf_1x": {
+    "_": {
+     "ok": true,
+     "value": {
+      "diag": [
+       0.028835,
+       5.378365,
+       8.410515,
+       -0.478537,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       3.859109,
+       0.014364,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       8.400503,
+       -0.543131
+      ],
+      "n_outside": 108
+     }
+    },
+    "cell_status": "ok"
+   },
+   "modin_d1_replay": {
+    "_": {
+     "ok": true,
+     "value": {
+      "diag": [
+       0.028835,
+       5.378365,
+       8.410515,
+       -0.478537,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       3.859109,
+       0.014364,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       8.400503,
+       -0.543131
+      ],
+      "n_outside": 108
+     }
+    },
+    "cell_status": "ok"
+   },
+   "ref_conf_1x": {
+    "_": {
+     "ok": true,
+     "value": {
+      "diag": [
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "n_outside": 0
+     }
+    },
+    "cell_status": "ok"
+   }
+  },
+  "corr_diag_ev": {
+   "modin_conf_1x": {
+    "__last__": {
+     "ok": true,
+     "value": {
+      "diag": [
+       null,
+       0.028538,
+       null,
+       1.707047,
+       1.0,
+       0.999805,
+       1.0
+      ],
+      "n_outside": 6
+     }
+    },
+    "cell_status": "ok"
+   },
+   "modin_d1_replay": {
+    "__last__": {
+     "ok": true,
+     "value": {
+      "diag": [
+       null,
+       0.028538,
+       null,
+       1.707047,
+       1.0,
+       0.999805,
+       1.0
+      ],
+      "n_outside": 6
+     }
+    },
+    "cell_status": "ok"
+   },
+   "ref_conf_1x": {
+    "__last__": {
+     "ok": true,
+     "value": {
+      "diag": [
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ],
+      "n_outside": 0
+     }
+    },
+    "cell_status": "ok"
+   }
+  },
+  "index_name_modin": {
+   "modin_conf_1x": {
+    "cell_status": "ok",
+    "df": {
+     "ok": true,
+     "value": {
+      "index_name": null
+     }
+    }
+   },
+   "modin_d1_replay": {
+    "cell_status": "ok",
+    "df": {
+     "ok": true,
+     "value": {
+      "index_name": null
+     }
+    }
+   },
+   "ref_conf_1x": {
+    "cell_status": "ok",
+    "df": {
+     "ok": true,
+     "value": {
+      "index_name": "Date"
+     }
+    }
+   }
+  },
+  "int_float_slice_fireducks": {
+   "fireducks_conf_1x": {
+    "__last__": {
+     "ok": true,
+     "value": [
+      "object",
+      "int64",
+      "int64"
+     ]
+    },
+    "cell_status": "ok",
+    "df": {
+     "ok": true,
+     "value": {
+      "col0_98304": "2015440079707",
+      "dtype1": "float64"
+     }
+    }
+   },
+   "fireducks_d1_replay": {
+    "__last__": {
+     "ok": true,
+     "value": [
+      "object",
+      "int64",
+      "int64"
+     ]
+    },
+    "cell_status": "ok",
+    "df": {
+     "ok": true,
+     "value": {
+      "col0_98304": "2015440079707",
+      "dtype1": "float64"
+     }
+    }
+   },
+   "ref_conf_1x": {
+    "__last__": {
+     "ok": true,
+     "value": [
+      "object",
+      "float64",
+      "float64"
+     ]
+    },
+    "cell_status": "ok",
+    "df": {
+     "ok": true,
+     "value": {
+      "col0_98304": "2015440079707",
+      "dtype1": "float64"
+     }
+    }
+   }
+  },
+  "nunique_fireducks": {
+   "fireducks_conf_1x": {
+    "__last__": {
+     "ok": true,
+     "value": [
+      314,
+      13378,
+      9,
+      3,
+      2204,
+      5,
+      268,
+      58,
+      202,
+      198,
+      12,
+      9,
+      12,
+      1448,
+      603,
+      145,
+      34,
+      6503,
+      7063,
+      8,
+      311
+     ]
+    },
+    "cell_status": "ok"
+   },
+   "fireducks_d1_replay": {
+    "__last__": {
+     "ok": true,
+     "value": [
+      314,
+      13378,
+      9,
+      3,
+      2204,
+      5,
+      268,
+      58,
+      202,
+      198,
+      12,
+      9,
+      12,
+      1448,
+      603,
+      145,
+      34,
+      6503,
+      7063,
+      8,
+      311
+     ]
+    },
+    "cell_status": "ok"
+   },
+   "ref_conf_1x": {
+    "__last__": {
+     "ok": true,
+     "value": [
+      314,
+      13378,
+      9,
+      3,
+      2204,
+      5,
+      268,
+      58,
+      202,
+      198,
+      12,
+      9,
+      11,
+      1448,
+      602,
+      144,
+      33,
+      6503,
+      7063,
+      8,
+      311
+     ]
+    },
+    "cell_status": "ok"
+   }
+  },
+  "pivot_table_size_modin": {
+   "modin_conf_1x": {
+    "cell_status": "ok",
+    "dups_category": {
+     "ok": true,
+     "value": {
+      "ndim": 2,
+      "shape": [
+       261,
+       5
+      ],
+      "type": "DataFrame"
+     }
+    }
+   },
+   "modin_d1_replay": {
+    "cell_status": "ok",
+    "dups_category": {
+     "ok": true,
+     "value": {
+      "ndim": 2,
+      "shape": [
+       261,
+       5
+      ],
+      "type": "DataFrame"
+     }
+    }
+   },
+   "ref_conf_1x": {
+    "cell_status": "ok",
+    "dups_category": {
+     "ok": true,
+     "value": {
+      "ndim": 1,
+      "shape": [
+       261
+      ],
+      "type": "Series"
+     }
+    }
+   }
+  },
+  "positions_labels_bodo": {
+   "bodo_conf_1x": {
+    "cell_status": "ok",
+    "data": {
+     "ok": true,
+     "value": {
+      "index_head": [
+       348,
+       349,
+       350
+      ],
+      "rows": 16250
+     }
+    },
+    "drop_row_index": {
+     "ok": true,
+     "value": [
+      0,
+      1,
+      2
+     ]
+    }
+   },
+   "bodo_d1_replay": {
+    "cell_status": "ok",
+    "data": {
+     "ok": true,
+     "value": {
+      "index_head": [
+       348,
+       349,
+       350
+      ],
+      "rows": 16250
+     }
+    },
+    "drop_row_index": {
+     "ok": true,
+     "value": [
+      0,
+      1,
+      2
+     ]
+    }
+   },
+   "ref_conf_1x": {
+    "cell_status": "ok",
+    "data": {
+     "ok": true,
+     "value": {
+      "index_head": [
+       0,
+       1,
+       2
+      ],
+      "rows": 16250
+     }
+    },
+    "drop_row_index": {
+     "ok": true,
+     "value": [
+      221,
+      271,
+      351
+     ]
+    }
+   }
+  },
+  "read_rows_bodo_dw": {
+   "bodo_conf_1x": {
+    "cell_status": "ok",
+    "earthquakes": {
+     "ok": true,
+     "value": 23412
+    },
+    "landslides": {
+     "ok": true,
+     "value": 1693
+    },
+    "volcanos": {
+     "ok": true,
+     "value": 1508
+    }
+   },
+   "bodo_dw_conf_1x": {
+    "cell_status": "ok",
+    "earthquakes": {
+     "ok": true,
+     "value": 23412
+    },
+    "landslides": {
+     "ok": true,
+     "value": 1692
+    },
+    "volcanos": {
+     "ok": true,
+     "value": 1507
+    }
+   },
+   "bodo_dw_pilot": {
+    "cell_status": "ok",
+    "earthquakes": {
+     "ok": true,
+     "value": 23412
+    },
+    "landslides": {
+     "ok": true,
+     "value": 1692
+    },
+    "volcanos": {
+     "ok": true,
+     "value": 1507
+    }
+   },
+   "ref_conf_1x": {
+    "cell_status": "ok",
+    "earthquakes": {
+     "ok": true,
+     "value": 23412
+    },
+    "landslides": {
+     "ok": true,
+     "value": 1693
+    },
+    "volcanos": {
+     "ok": true,
+     "value": 1508
+    }
+   }
+  },
+  "stale_groupby_fireducks": {
+   "fireducks_conf_1x": {
+    "__last__": {
+     "ok": true,
+     "value": {
+      "index": [
+       "Balon/Euron Greyjoy",
+       "Joffrey/Tommen Baratheon",
+       "Robb Stark",
+       "Stannis Baratheon"
+      ],
+      "shape": [
+       4,
+       2
+      ]
+     }
+    },
+    "cell_status": "ok"
+   },
+   "fireducks_d1_replay": {
+    "__last__": {
+     "ok": true,
+     "value": {
+      "index": [
+       "Balon/Euron Greyjoy",
+       "Joffrey/Tommen Baratheon",
+       "Robb Stark",
+       "Stannis Baratheon"
+      ],
+      "shape": [
+       4,
+       2
+      ]
+     }
+    },
+    "cell_status": "ok"
+   },
+   "ref_conf_1x": {
+    "__last__": {
+     "ok": true,
+     "value": {
+      "index": [
+       "Balon/Euron Greyjoy",
+       "Joffrey/Tommen Baratheon",
+       "Mance Rayder",
+       "Robb Stark",
+       "Stannis Baratheon"
+      ],
+      "shape": [
+       5,
+       2
+      ]
+     }
+    },
+    "cell_status": "ok"
+   }
+  },
+  "stale_head_bodo": {
+   "bodo_conf_1x": {
+    "__last__": {
+     "ok": true,
+     "value": [
+      "18:45",
+      "07:50",
+      "18:08",
+      "07:40",
+      "07:30"
+     ]
+    },
+    "cell_status": "ok"
+   },
+   "bodo_d1_replay": {
+    "__last__": {
+     "ok": true,
+     "value": [
+      "18:45",
+      "07:50",
+      "18:08",
+      "07:40",
+      "07:30"
+     ]
+    },
+    "cell_status": "ok"
+   },
+   "ref_conf_1x": {
+    "__last__": {
+     "ok": true,
+     "value": [
+      "18",
+      "07",
+      "18",
+      "07",
+      "07"
+     ]
+    },
+    "cell_status": "ok"
+   }
+  },
+  "value_counts_cut_modin": {
+   "modin_conf_1x": {
+    "__last__": {
+     "ok": true,
+     "value": {
+      "len": 7,
+      "zeros": 0
+     }
+    },
+    "cell_status": "ok"
+   },
+   "modin_d1_replay": {
+    "__last__": {
+     "ok": true,
+     "value": {
+      "len": 7,
+      "zeros": 0
+     }
+    },
+    "cell_status": "ok"
+   },
+   "ref_conf_1x": {
+    "__last__": {
+     "ok": true,
+     "value": {
+      "len": 8,
+      "zeros": 1
+     }
+    },
+    "cell_status": "ok"
+   }
+  }
+ },
+ "item": "D2"
+}

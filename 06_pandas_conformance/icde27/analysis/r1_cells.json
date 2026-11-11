@@ -1,0 +1,1877 @@
+{
+ "generated_from": {
+  "summary_generated_utc": "2026-10-26T16:24:01Z",
+  "taxonomy_generated": "2026-10-04T08:52:24",
+  "compare_tag": "d92c8db54d45b",
+  "harness_tag": "hd1c421ecb5ee",
+  "bootstrap": {
+   "resamples": 10000,
+   "seed": 20261026,
+   "unit": "notebook",
+   "interval": "percentile"
+  }
+ },
+ "consistency_checks": {
+  "n": 56,
+  "mismatches": []
+ },
+ "pairwise_vs_pandas_clean_E2": {
+  "pyarrow_backend-p15": {
+   "cells": 997,
+   "notebooks": 102,
+   "engine_DIFF_pct": 2.808,
+   "pandas_DIFF_pct": 3.109,
+   "diff_pp": -0.301,
+   "ci95_pp": [
+    -1.954,
+    1.434
+   ],
+   "ci90_pp": [
+    -1.68,
+    1.146
+   ],
+   "equivalent_within_1pp": false,
+   "equivalent_within_2pp": true,
+   "reading": "not distinguishable",
+   "notebooks_excluded_ref_mismatch": 0
+  },
+  "pyarrow_backend-p30": {
+   "cells": 1010,
+   "notebooks": 102,
+   "engine_DIFF_pct": 2.673,
+   "pandas_DIFF_pct": 2.079,
+   "diff_pp": 0.594,
+   "ci95_pp": [
+    -0.749,
+    1.874
+   ],
+   "ci90_pp": [
+    -0.503,
+    1.672
+   ],
+   "equivalent_within_1pp": false,
+   "equivalent_within_2pp": true,
+   "reading": "not distinguishable",
+   "notebooks_excluded_ref_mismatch": 0
+  },
+  "modin-p15": {
+   "cells": 1833,
+   "notebooks": 102,
+   "engine_DIFF_pct": 2.182,
+   "pandas_DIFF_pct": 2.291,
+   "diff_pp": -0.109,
+   "ci95_pp": [
+    -1.165,
+    0.977
+   ],
+   "ci90_pp": [
+    -1.003,
+    0.798
+   ],
+   "equivalent_within_1pp": false,
+   "equivalent_within_2pp": true,
+   "reading": "not distinguishable",
+   "notebooks_excluded_ref_mismatch": 0
+  },
+  "modin-p30": {
+   "cells": 1938,
+   "notebooks": 102,
+   "engine_DIFF_pct": 2.116,
+   "pandas_DIFF_pct": 2.374,
+   "diff_pp": -0.258,
+   "ci95_pp": [
+    -1.266,
+    0.699
+   ],
+   "ci90_pp": [
+    -1.094,
+    0.554
+   ],
+   "equivalent_within_1pp": false,
+   "equivalent_within_2pp": true,
+   "reading": "not distinguishable",
+   "notebooks_excluded_ref_mismatch": 0
+  },
+  "fireducks-p15": {
+   "cells": 1137,
+   "notebooks": 102,
+   "engine_DIFF_pct": 2.551,
+   "pandas_DIFF_pct": 2.726,
+   "diff_pp": -0.176,
+   "ci95_pp": [
+    -1.402,
+    1.103
+   ],
+   "ci90_pp": [
+    -1.204,
+    0.889
+   ],
+   "equivalent_within_1pp": false,
+   "equivalent_within_2pp": true,
+   "reading": "not distinguishable",
+   "notebooks_excluded_ref_mismatch": 0
+  },
+  "fireducks-p30": {
+   "cells": 1206,
+   "notebooks": 102,
+   "engine_DIFF_pct": 2.653,
+   "pandas_DIFF_pct": 2.073,
+   "diff_pp": 0.58,
+   "ci95_pp": [
+    -0.792,
+    1.994
+   ],
+   "ci90_pp": [
+    -0.583,
+    1.777
+   ],
+   "equivalent_within_1pp": false,
+   "equivalent_within_2pp": true,
+   "reading": "not distinguishable",
+   "notebooks_excluded_ref_mismatch": 0
+  },
+  "bodo-p15": {
+   "cells": 715,
+   "notebooks": 102,
+   "engine_DIFF_pct": 5.874,
+   "pandas_DIFF_pct": 3.077,
+   "diff_pp": 2.797,
+   "ci95_pp": [
+    0.395,
+    5.468
+   ],
+   "ci90_pp": [
+    0.766,
+    5.034
+   ],
+   "equivalent_within_1pp": false,
+   "equivalent_within_2pp": false,
+   "reading": "more often",
+   "notebooks_excluded_ref_mismatch": 0
+  },
+  "bodo-p30": {
+   "cells": 749,
+   "notebooks": 102,
+   "engine_DIFF_pct": 6.008,
+   "pandas_DIFF_pct": 1.869,
+   "diff_pp": 4.139,
+   "ci95_pp": [
+    2.182,
+    6.442
+   ],
+   "ci90_pp": [
+    2.469,
+    6.036
+   ],
+   "equivalent_within_1pp": false,
+   "equivalent_within_2pp": false,
+   "reading": "more often",
+   "notebooks_excluded_ref_mismatch": 0
+  },
+  "dask-p15": {
+   "cells": 541,
+   "notebooks": 102,
+   "engine_DIFF_pct": 6.285,
+   "pandas_DIFF_pct": 3.512,
+   "diff_pp": 2.773,
+   "ci95_pp": [
+    -0.615,
+    5.854
+   ],
+   "ci90_pp": [
+    0.0,
+    5.339
+   ],
+   "equivalent_within_1pp": false,
+   "equivalent_within_2pp": false,
+   "reading": "not distinguishable",
+   "notebooks_excluded_ref_mismatch": 0
+  },
+  "dask-p30": {
+   "cells": 539,
+   "notebooks": 102,
+   "engine_DIFF_pct": 6.308,
+   "pandas_DIFF_pct": 2.412,
+   "diff_pp": 3.896,
+   "ci95_pp": [
+    1.635,
+    6.139
+   ],
+   "ci90_pp": [
+    1.975,
+    5.79
+   ],
+   "equivalent_within_1pp": false,
+   "equivalent_within_2pp": false,
+   "reading": "more often",
+   "notebooks_excluded_ref_mismatch": 0
+  }
+ },
+ "warnings_silent_causes": {
+  "approximate_quantile": {
+   "conf_1x:bodo": {
+    "cells": 7,
+    "engine_warned": 3,
+    "reference_warned": 0,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "engine_category:BodoLibFallbackWarning": 3
+   },
+   "conf_1x:dask": {
+    "cells": 5,
+    "engine_warned": 0,
+    "reference_warned": 1,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "reference_category:RuntimeWarning": 1
+   }
+  },
+  "chunked_csv_type_inference": {
+   "conf_1x:bodo": {
+    "cells": 2,
+    "engine_warned": 0,
+    "reference_warned": 2,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "reference_category:DtypeWarning": 2
+   },
+   "conf_1x:dask": {
+    "cells": 1,
+    "engine_warned": 0,
+    "reference_warned": 1,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "reference_category:DtypeWarning": 1
+   },
+   "conf_1x:fireducks": {
+    "cells": 1,
+    "engine_warned": 0,
+    "reference_warned": 1,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "reference_category:DtypeWarning": 1
+   }
+  },
+  "cow_chained_assignment": {
+   "drift:p30": {
+    "cells": 19,
+    "engine_warned": 19,
+    "reference_warned": 19,
+    "engine_chained_assignment_warning": 19,
+    "reference_chained_assignment_warning": 19,
+    "engine_category:ChainedAssignmentError": 19,
+    "engine_category:Pandas4Warning": 1,
+    "reference_category:PerformanceWarning": 1,
+    "reference_category:FutureWarning": 20,
+    "reference_category:SettingWithCopyWarning": 3,
+    "reference_category:RuntimeWarning": 1,
+    "engine_category:PerformanceWarning": 2
+   },
+   "conf_1x:fireducks": {
+    "cells": 13,
+    "engine_warned": 8,
+    "reference_warned": 12,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 12,
+    "engine_category:FallbackWarning": 29,
+    "reference_category:PerformanceWarning": 1,
+    "reference_category:FutureWarning": 12,
+    "reference_category:SettingWithCopyWarning": 2,
+    "reference_category:RuntimeWarning": 1
+   }
+  },
+  "cr_only_line_endings": {
+   "conf_1x:modin": {
+    "cells": 1,
+    "engine_warned": 1,
+    "reference_warned": 0,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "engine_category:UserWarning": 1
+   }
+  },
+  "datetime_resolution_inference": {
+   "drift:p30": {
+    "cells": 8,
+    "engine_warned": 0,
+    "reference_warned": 0,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0
+   }
+  },
+  "describe_datetime_numeric": {
+   "drift:p15": {
+    "cells": 4,
+    "engine_warned": 3,
+    "reference_warned": 0,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "engine_category:FutureWarning": 3
+   }
+  },
+  "engine_bug_silent": {
+   "conf_1x:bodo": {
+    "cells": 15,
+    "engine_warned": 5,
+    "reference_warned": 0,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "engine_category:BodoLibFallbackWarning": 7
+   },
+   "conf_1x:modin": {
+    "cells": 10,
+    "engine_warned": 5,
+    "reference_warned": 3,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 1,
+    "reference_category:FutureWarning": 2,
+    "engine_category:UserWarning": 6,
+    "reference_category:SettingWithCopyWarning": 1,
+    "engine_category:FutureWarning": 1
+   }
+  },
+  "engine_corr_wrong_values": {
+   "conf_1x:modin": {
+    "cells": 12,
+    "engine_warned": 1,
+    "reference_warned": 0,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "engine_category:UserWarning": 1
+   }
+  },
+  "float_rounding_within_tolerance": {
+   "drift:p15": {
+    "cells": 79,
+    "engine_warned": 9,
+    "reference_warned": 1,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "engine_category:DeprecationWarning": 9,
+    "reference_category:RuntimeWarning": 1
+   },
+   "conf_1x:dask": {
+    "cells": 2,
+    "engine_warned": 0,
+    "reference_warned": 0,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0
+   },
+   "conf_1x:fireducks": {
+    "cells": 67,
+    "engine_warned": 15,
+    "reference_warned": 2,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "engine_category:FallbackWarning": 48,
+    "reference_category:FutureWarning": 1,
+    "reference_category:RuntimeWarning": 1
+   },
+   "conf_1x:modin": {
+    "cells": 78,
+    "engine_warned": 2,
+    "reference_warned": 3,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "engine_category:UserWarning": 2,
+    "reference_category:FutureWarning": 3
+   }
+  },
+  "merge_row_order": {
+   "drift:p15": {
+    "cells": 9,
+    "engine_warned": 0,
+    "reference_warned": 1,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "reference_category:FutureWarning": 1
+   }
+  },
+  "na_comparison_masks": {
+   "conf_1x:bodo": {
+    "cells": 2,
+    "engine_warned": 2,
+    "reference_warned": 1,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "engine_category:BodoLibFallbackWarning": 4,
+    "engine_category:FutureWarning": 1,
+    "reference_category:FutureWarning": 1
+   },
+   "conf_1x:pyarrow_backend": {
+    "cells": 4,
+    "engine_warned": 1,
+    "reference_warned": 1,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "engine_category:FutureWarning": 1,
+    "reference_category:FutureWarning": 1
+   }
+  },
+  "numeric_only_default": {
+   "drift:p15": {
+    "cells": 1,
+    "engine_warned": 1,
+    "reference_warned": 0,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "engine_category:FutureWarning": 1
+   }
+  },
+  "read_csv_big_int_python_ints": {
+   "drift:p30": {
+    "cells": 1,
+    "engine_warned": 1,
+    "reference_warned": 1,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "engine_category:DtypeWarning": 1,
+    "reference_category:DtypeWarning": 1
+   }
+  },
+  "read_csv_none_as_na": {
+   "drift:p15": {
+    "cells": 10,
+    "engine_warned": 4,
+    "reference_warned": 3,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "engine_category:DeprecationWarning": 4,
+    "engine_category:DtypeWarning": 4,
+    "reference_category:DtypeWarning": 4
+   }
+  },
+  "row_order_ties": {
+   "drift:p30": {
+    "cells": 6,
+    "engine_warned": 0,
+    "reference_warned": 1,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 1,
+    "reference_category:SettingWithCopyWarning": 1
+   },
+   "conf_1x:bodo": {
+    "cells": 4,
+    "engine_warned": 3,
+    "reference_warned": 0,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "engine_category:BodoCompilationFailedWarning": 1,
+    "engine_category:UserWarning": 1,
+    "engine_category:BodoLibFallbackWarning": 2
+   },
+   "conf_1x:dask": {
+    "cells": 3,
+    "engine_warned": 0,
+    "reference_warned": 0,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0
+   },
+   "conf_1x:fireducks": {
+    "cells": 27,
+    "engine_warned": 9,
+    "reference_warned": 2,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 1,
+    "engine_category:FallbackWarning": 31,
+    "reference_category:FutureWarning": 2,
+    "engine_category:FutureWarning": 1
+   },
+   "conf_1x:modin": {
+    "cells": 76,
+    "engine_warned": 14,
+    "reference_warned": 10,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 1,
+    "engine_category:UserWarning": 14,
+    "reference_category:FutureWarning": 11,
+    "engine_category:FutureWarning": 2
+   },
+   "conf_1x:pyarrow_backend": {
+    "cells": 1,
+    "engine_warned": 0,
+    "reference_warned": 0,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0
+   }
+  },
+  "str_dtype_na_semantics": {
+   "drift:p30": {
+    "cells": 3,
+    "engine_warned": 0,
+    "reference_warned": 0,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0
+   }
+  },
+  "str_dtype_object_checks": {
+   "drift:p30": {
+    "cells": 12,
+    "engine_warned": 1,
+    "reference_warned": 0,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "engine_category:Pandas4Warning": 1
+   },
+   "conf_1x:bodo": {
+    "cells": 14,
+    "engine_warned": 5,
+    "reference_warned": 0,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "engine_category:BodoLibFallbackWarning": 6
+   },
+   "conf_1x:dask": {
+    "cells": 9,
+    "engine_warned": 0,
+    "reference_warned": 0,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0
+   },
+   "conf_1x:pyarrow_backend": {
+    "cells": 23,
+    "engine_warned": 0,
+    "reference_warned": 0,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0
+   }
+  },
+  "str_replace_regex_default": {
+   "drift:p15": {
+    "cells": 1,
+    "engine_warned": 1,
+    "reference_warned": 0,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "engine_category:FutureWarning": 1
+   }
+  },
+  "to_datetime_consistent_format": {
+   "drift:p15": {
+    "cells": 1,
+    "engine_warned": 1,
+    "reference_warned": 0,
+    "engine_chained_assignment_warning": 0,
+    "reference_chained_assignment_warning": 0,
+    "engine_category:UserWarning": 1
+   }
+  }
+ },
+ "by_label": {
+  "bodo": {
+   "campaign": "conf_1x",
+   "views": {
+    "clean_E2": {
+     "DIFF": {
+      "share": 0.059761,
+      "num": 45,
+      "den": 753,
+      "notebooks": 102,
+      "ci95": [
+       0.03846,
+       0.085578
+      ]
+     },
+     "ERR": {
+      "share": 0.10757,
+      "num": 81,
+      "den": 753,
+      "notebooks": 102,
+      "ci95": [
+       0.069348,
+       0.154146
+      ]
+     },
+     "le_E2": {
+      "share": 0.719788,
+      "num": 542,
+      "den": 753,
+      "notebooks": 102,
+      "ci95": [
+       0.669421,
+       0.763315
+      ]
+     }
+    },
+    "clean_E3": {
+     "DIFF": {
+      "share": 0.06326,
+      "num": 78,
+      "den": 1233,
+      "notebooks": 102,
+      "ci95": [
+       0.045493,
+       0.083896
+      ]
+     },
+     "ERR": {
+      "share": 0.126521,
+      "num": 156,
+      "den": 1233,
+      "notebooks": 102,
+      "ci95": [
+       0.092165,
+       0.165822
+      ]
+     },
+     "le_E2": {
+      "share": 0.629359,
+      "num": 776,
+      "den": 1233,
+      "notebooks": 102,
+      "ci95": [
+       0.570351,
+       0.684176
+      ]
+     }
+    },
+    "clean_E3_only": {
+     "DIFF": {
+      "share": 0.06875,
+      "num": 33,
+      "den": 480,
+      "notebooks": 50,
+      "ci95": [
+       0.042078,
+       0.100395
+      ]
+     },
+     "ERR": {
+      "share": 0.15625,
+      "num": 75,
+      "den": 480,
+      "notebooks": 50,
+      "ci95": [
+       0.094085,
+       0.236641
+      ]
+     },
+     "le_E2": {
+      "share": 0.4875,
+      "num": 234,
+      "den": 480,
+      "notebooks": 50,
+      "ci95": [
+       0.385246,
+       0.594267
+      ]
+     }
+    }
+   },
+   "err_decomposition_all": {
+    "err_cells": 979,
+    "introduced": 179,
+    "name_error_cascade": 617,
+    "on_inputs_that_differed": 183,
+    "other": 0,
+    "comparable_cells": 2837
+   },
+   "e4_split": {
+    "all": {
+     "index_values": 112,
+     "names": 13
+    },
+    "clean_E2": {
+     "index_values": 23,
+     "names": 3
+    }
+   },
+   "diff_split": {
+    "all": {
+     "value": 193,
+     "structure": 171,
+     "dtype family": 12,
+     "other:missing_mask": 31,
+     "missing output": 1
+    },
+    "clean_E2": {
+     "value": 28,
+     "structure": 16,
+     "dtype family": 1
+    }
+   },
+   "notebooks": {
+    "introduced_DIFF": {
+     "share": 0.441176,
+     "num": 45,
+     "den": 102,
+     "notebooks": 102,
+     "ci95": [
+      0.343137,
+      0.539216
+     ]
+    },
+    "introduced_ERR": {
+     "share": 0.696078,
+     "num": 71,
+     "den": 102,
+     "notebooks": 102,
+     "ci95": [
+      0.607843,
+      0.784314
+     ]
+    },
+    "no_engine_failure": {
+     "share": 0.156863,
+     "num": 16,
+     "den": 102,
+     "notebooks": 102,
+     "ci95": [
+      0.088235,
+      0.235294
+     ]
+    }
+   },
+   "clean_E2_DIFF_robustness": {
+    "pooled": 0.059761,
+    "macro_mean_over_notebooks": 0.066873,
+    "notebooks": 102,
+    "leave_one_notebook_out_min_max": [
+     0.05472,
+     0.062327
+    ]
+   },
+   "introduced_by_mechanism": {
+    "representation choice": 185,
+    "missing or erroneous support": 198,
+    "parallel or lazy execution": 11,
+    "unattributed": 26
+   },
+   "introduced_DIFF_by_mechanism": {
+    "representation choice": 33,
+    "parallel or lazy execution": 11,
+    "unattributed": 26,
+    "missing or erroneous support": 15
+   },
+   "introduced_DIFF_by_mechanism_with_hand": {
+    "representation choice": 47,
+    "parallel or lazy execution": 12,
+    "missing or erroneous support": 20,
+    "harness artefact": 5,
+    "undetermined": 1
+   }
+  },
+  "dask": {
+   "campaign": "conf_1x",
+   "views": {
+    "clean_E2": {
+     "DIFF": {
+      "share": 0.062385,
+      "num": 34,
+      "den": 545,
+      "notebooks": 102,
+      "ci95": [
+       0.038277,
+       0.089495
+      ]
+     },
+     "ERR": {
+      "share": 0.282569,
+      "num": 154,
+      "den": 545,
+      "notebooks": 102,
+      "ci95": [
+       0.22303,
+       0.354839
+      ]
+     },
+     "le_E2": {
+      "share": 0.616514,
+      "num": 336,
+      "den": 545,
+      "notebooks": 102,
+      "ci95": [
+       0.542055,
+       0.678142
+      ]
+     }
+    },
+    "clean_E3": {
+     "DIFF": {
+      "share": 0.05873,
+      "num": 37,
+      "den": 630,
+      "notebooks": 102,
+      "ci95": [
+       0.036163,
+       0.08284
+      ]
+     },
+     "ERR": {
+      "share": 0.304762,
+      "num": 192,
+      "den": 630,
+      "notebooks": 102,
+      "ci95": [
+       0.245809,
+       0.375439
+      ]
+     },
+     "le_E2": {
+      "share": 0.58254,
+      "num": 367,
+      "den": 630,
+      "notebooks": 102,
+      "ci95": [
+       0.509835,
+       0.646211
+      ]
+     }
+    },
+    "clean_E3_only": {
+     "DIFF": {
+      "share": 0.035294,
+      "num": 3,
+      "den": 85,
+      "notebooks": 15,
+      "ci95": [
+       0.0,
+       0.104482
+      ]
+     },
+     "ERR": {
+      "share": 0.447059,
+      "num": 38,
+      "den": 85,
+      "notebooks": 15,
+      "ci95": [
+       0.290698,
+       0.580004
+      ]
+     },
+     "le_E2": {
+      "share": 0.364706,
+      "num": 31,
+      "den": 85,
+      "notebooks": 15,
+      "ci95": [
+       0.266667,
+       0.466667
+      ]
+     }
+    }
+   },
+   "err_decomposition_all": {
+    "err_cells": 2018,
+    "introduced": 224,
+    "name_error_cascade": 778,
+    "on_inputs_that_differed": 1016,
+    "other": 0,
+    "comparable_cells": 2819
+   },
+   "e4_split": {
+    "all": {
+     "index_values": 37
+    },
+    "clean_E2": {
+     "index_values": 11
+    }
+   },
+   "diff_split": {
+    "all": {
+     "value": 101,
+     "structure": 122,
+     "missing output": 2,
+     "other:missing_mask": 4,
+     "dtype family": 1
+    },
+    "clean_E2": {
+     "structure": 10,
+     "value": 23,
+     "other:missing_mask": 1
+    }
+   },
+   "notebooks": {
+    "introduced_DIFF": {
+     "share": 0.235294,
+     "num": 24,
+     "den": 102,
+     "notebooks": 102,
+     "ci95": [
+      0.156863,
+      0.323529
+     ]
+    },
+    "introduced_ERR": {
+     "share": 0.95098,
+     "num": 97,
+     "den": 102,
+     "notebooks": 102,
+     "ci95": [
+      0.901961,
+      0.990196
+     ]
+    },
+    "no_engine_failure": {
+     "share": 0.019608,
+     "num": 2,
+     "den": 102,
+     "notebooks": 102,
+     "ci95": [
+      0.0,
+      0.04902
+     ]
+    }
+   },
+   "clean_E2_DIFF_robustness": {
+    "pooled": 0.062385,
+    "macro_mean_over_notebooks": 0.04028,
+    "notebooks": 102,
+    "leave_one_notebook_out_min_max": [
+     0.05364,
+     0.065259
+    ]
+   },
+   "introduced_by_mechanism": {
+    "parallel or lazy execution": 89,
+    "representation choice": 69,
+    "missing or erroneous support": 160,
+    "unattributed": 10
+   },
+   "introduced_DIFF_by_mechanism": {
+    "unattributed": 10,
+    "representation choice": 16,
+    "parallel or lazy execution": 20
+   },
+   "introduced_DIFF_by_mechanism_with_hand": {
+    "missing or erroneous support": 3,
+    "representation choice": 16,
+    "parallel or lazy execution": 27
+   }
+  },
+  "fireducks": {
+   "campaign": "conf_1x",
+   "views": {
+    "clean_E2": {
+     "DIFF": {
+      "share": 0.027244,
+      "num": 34,
+      "den": 1248,
+      "notebooks": 102,
+      "ci95": [
+       0.016606,
+       0.039612
+      ]
+     },
+     "ERR": {
+      "share": 0.009615,
+      "num": 12,
+      "den": 1248,
+      "notebooks": 102,
+      "ci95": [
+       0.004487,
+       0.015768
+      ]
+     },
+     "le_E2": {
+      "share": 0.886218,
+      "num": 1106,
+      "den": 1248,
+      "notebooks": 102,
+      "ci95": [
+       0.850664,
+       0.914125
+      ]
+     }
+    },
+    "clean_E3": {
+     "DIFF": {
+      "share": 0.033937,
+      "num": 60,
+      "den": 1768,
+      "notebooks": 102,
+      "ci95": [
+       0.023643,
+       0.045878
+      ]
+     },
+     "ERR": {
+      "share": 0.010181,
+      "num": 18,
+      "den": 1768,
+      "notebooks": 102,
+      "ci95": [
+       0.005841,
+       0.015385
+      ]
+     },
+     "le_E2": {
+      "share": 0.829751,
+      "num": 1467,
+      "den": 1768,
+      "notebooks": 102,
+      "ci95": [
+       0.793121,
+       0.863554
+      ]
+     }
+    },
+    "clean_E3_only": {
+     "DIFF": {
+      "share": 0.05,
+      "num": 26,
+      "den": 520,
+      "notebooks": 46,
+      "ci95": [
+       0.030303,
+       0.078126
+      ]
+     },
+     "ERR": {
+      "share": 0.011538,
+      "num": 6,
+      "den": 520,
+      "notebooks": 46,
+      "ci95": [
+       0.003546,
+       0.023981
+      ]
+     },
+     "le_E2": {
+      "share": 0.694231,
+      "num": 361,
+      "den": 520,
+      "notebooks": 46,
+      "ci95": [
+       0.62138,
+       0.748823
+      ]
+     }
+    }
+   },
+   "err_decomposition_all": {
+    "err_cells": 402,
+    "introduced": 20,
+    "name_error_cascade": 100,
+    "on_inputs_that_differed": 282,
+    "other": 0,
+    "comparable_cells": 2811
+   },
+   "e4_split": {
+    "all": {
+     "index_values": 61
+    },
+    "clean_E2": {
+     "index_values": 13
+    }
+   },
+   "diff_split": {
+    "all": {
+     "value": 168,
+     "structure": 56,
+     "other:missing_mask": 104,
+     "dtype family": 9
+    },
+    "clean_E2": {
+     "value": 22,
+     "other:missing_mask": 9,
+     "structure": 2,
+     "dtype family": 1
+    }
+   },
+   "notebooks": {
+    "introduced_DIFF": {
+     "share": 0.392157,
+     "num": 40,
+     "den": 102,
+     "notebooks": 102,
+     "ci95": [
+      0.303922,
+      0.490196
+     ]
+    },
+    "introduced_ERR": {
+     "share": 0.186275,
+     "num": 19,
+     "den": 102,
+     "notebooks": 102,
+     "ci95": [
+      0.117647,
+      0.264706
+     ]
+    },
+    "no_engine_failure": {
+     "share": 0.647059,
+     "num": 66,
+     "den": 102,
+     "notebooks": 102,
+     "ci95": [
+      0.558824,
+      0.735294
+     ]
+    }
+   },
+   "clean_E2_DIFF_robustness": {
+    "pooled": 0.027244,
+    "macro_mean_over_notebooks": 0.040009,
+    "notebooks": 102,
+    "leave_one_notebook_out_min_max": [
+     0.02449,
+     0.028452
+    ]
+   },
+   "introduced_by_mechanism": {
+    "representation choice": 118,
+    "parallel or lazy execution": 94,
+    "unattributed": 39,
+    "missing or erroneous support": 25
+   },
+   "introduced_DIFF_by_mechanism": {
+    "parallel or lazy execution": 6,
+    "representation choice": 16,
+    "unattributed": 38
+   },
+   "introduced_DIFF_by_mechanism_with_hand": {
+    "parallel or lazy execution": 14,
+    "representation choice": 25,
+    "missing or erroneous support": 19,
+    "harness artefact": 2
+   }
+  },
+  "modin": {
+   "campaign": "conf_1x",
+   "views": {
+    "clean_E2": {
+     "DIFF": {
+      "share": 0.020154,
+      "num": 47,
+      "den": 2332,
+      "notebooks": 102,
+      "ci95": [
+       0.013879,
+       0.027553
+      ]
+     },
+     "ERR": {
+      "share": 0.018439,
+      "num": 43,
+      "den": 2332,
+      "notebooks": 102,
+      "ci95": [
+       0.009989,
+       0.029193
+      ]
+     },
+     "le_E2": {
+      "share": 0.944683,
+      "num": 2203,
+      "den": 2332,
+      "notebooks": 102,
+      "ci95": [
+       0.927667,
+       0.958784
+      ]
+     }
+    },
+    "clean_E3": {
+     "DIFF": {
+      "share": 0.020146,
+      "num": 47,
+      "den": 2333,
+      "notebooks": 102,
+      "ci95": [
+       0.013834,
+       0.027712
+      ]
+     },
+     "ERR": {
+      "share": 0.018431,
+      "num": 43,
+      "den": 2333,
+      "notebooks": 102,
+      "ci95": [
+       0.010067,
+       0.029007
+      ]
+     },
+     "le_E2": {
+      "share": 0.944278,
+      "num": 2203,
+      "den": 2333,
+      "notebooks": 102,
+      "ci95": [
+       0.926971,
+       0.958091
+      ]
+     }
+    },
+    "clean_E3_only": {
+     "DIFF": {
+      "share": 0.0,
+      "num": 0,
+      "den": 1,
+      "notebooks": 1,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "ERR": {
+      "share": 0.0,
+      "num": 0,
+      "den": 1,
+      "notebooks": 1,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "le_E2": {
+      "share": 0.0,
+      "num": 0,
+      "den": 1,
+      "notebooks": 1,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     }
+    }
+   },
+   "err_decomposition_all": {
+    "err_cells": 127,
+    "introduced": 43,
+    "name_error_cascade": 40,
+    "on_inputs_that_differed": 44,
+    "other": 0,
+    "comparable_cells": 2840
+   },
+   "e4_split": {
+    "all": {
+     "index_values": 25,
+     "names": 18
+    },
+    "clean_E2": {
+     "index_values": 19,
+     "names": 13
+    }
+   },
+   "diff_split": {
+    "all": {
+     "value": 102,
+     "structure": 65,
+     "dtype family": 10,
+     "other:missing_mask": 17,
+     "missing output": 1
+    },
+    "clean_E2": {
+     "value": 32,
+     "structure": 12,
+     "dtype family": 1,
+     "other:missing_mask": 2
+    }
+   },
+   "notebooks": {
+    "introduced_DIFF": {
+     "share": 0.352941,
+     "num": 36,
+     "den": 102,
+     "notebooks": 102,
+     "ci95": [
+      0.264706,
+      0.45098
+     ]
+    },
+    "introduced_ERR": {
+     "share": 0.205882,
+     "num": 21,
+     "den": 102,
+     "notebooks": 102,
+     "ci95": [
+      0.127451,
+      0.284314
+     ]
+    },
+    "no_engine_failure": {
+     "share": 0.676471,
+     "num": 69,
+     "den": 102,
+     "notebooks": 102,
+     "ci95": [
+      0.578431,
+      0.764706
+     ]
+    }
+   },
+   "clean_E2_DIFF_robustness": {
+    "pooled": 0.020154,
+    "macro_mean_over_notebooks": 0.051082,
+    "notebooks": 102,
+    "leave_one_notebook_out_min_max": [
+     0.019072,
+     0.021325
+    ]
+   },
+   "introduced_by_mechanism": {
+    "parallel or lazy execution": 159,
+    "missing or erroneous support": 68,
+    "representation choice": 66,
+    "unattributed": 18
+   },
+   "introduced_DIFF_by_mechanism": {
+    "missing or erroneous support": 23,
+    "unattributed": 15,
+    "parallel or lazy execution": 10,
+    "representation choice": 3
+   },
+   "introduced_DIFF_by_mechanism_with_hand": {
+    "missing or erroneous support": 27,
+    "harness artefact": 2,
+    "parallel or lazy execution": 18,
+    "representation choice": 3,
+    "undetermined": 1
+   }
+  },
+  "pyarrow_backend": {
+   "campaign": "conf_1x",
+   "views": {
+    "clean_E2": {
+     "DIFF": {
+      "share": 0.025665,
+      "num": 28,
+      "den": 1091,
+      "notebooks": 102,
+      "ci95": [
+       0.015504,
+       0.037772
+      ]
+     },
+     "ERR": {
+      "share": 0.009166,
+      "num": 10,
+      "den": 1091,
+      "notebooks": 102,
+      "ci95": [
+       0.002591,
+       0.019076
+      ]
+     },
+     "le_E2": {
+      "share": 0.882676,
+      "num": 963,
+      "den": 1091,
+      "notebooks": 102,
+      "ci95": [
+       0.851155,
+       0.90716
+      ]
+     }
+    },
+    "clean_E3": {
+     "DIFF": {
+      "share": 0.029858,
+      "num": 59,
+      "den": 1976,
+      "notebooks": 102,
+      "ci95": [
+       0.02064,
+       0.040138
+      ]
+     },
+     "ERR": {
+      "share": 0.018219,
+      "num": 36,
+      "den": 1976,
+      "notebooks": 102,
+      "ci95": [
+       0.011299,
+       0.02668
+      ]
+     },
+     "le_E2": {
+      "share": 0.754049,
+      "num": 1490,
+      "den": 1976,
+      "notebooks": 102,
+      "ci95": [
+       0.711035,
+       0.794049
+      ]
+     }
+    },
+    "clean_E3_only": {
+     "DIFF": {
+      "share": 0.035028,
+      "num": 31,
+      "den": 885,
+      "notebooks": 64,
+      "ci95": [
+       0.021396,
+       0.051173
+      ]
+     },
+     "ERR": {
+      "share": 0.029379,
+      "num": 26,
+      "den": 885,
+      "notebooks": 64,
+      "ci95": [
+       0.017635,
+       0.043656
+      ]
+     },
+     "le_E2": {
+      "share": 0.59548,
+      "num": 527,
+      "den": 885,
+      "notebooks": 64,
+      "ci95": [
+       0.535937,
+       0.651139
+      ]
+     }
+    }
+   },
+   "err_decomposition_all": {
+    "err_cells": 184,
+    "introduced": 36,
+    "name_error_cascade": 110,
+    "on_inputs_that_differed": 38,
+    "other": 0,
+    "comparable_cells": 2809
+   },
+   "e4_split": {
+    "all": {
+     "index_values": 24
+    },
+    "clean_E2": {
+     "index_values": 4
+    }
+   },
+   "diff_split": {
+    "all": {
+     "value": 211,
+     "structure": 137,
+     "missing output": 2,
+     "dtype family": 26,
+     "other:missing_mask": 47
+    },
+    "clean_E2": {
+     "structure": 5,
+     "value": 23
+    }
+   },
+   "notebooks": {
+    "introduced_DIFF": {
+     "share": 0.352941,
+     "num": 36,
+     "den": 102,
+     "notebooks": 102,
+     "ci95": [
+      0.264706,
+      0.45098
+     ]
+    },
+    "introduced_ERR": {
+     "share": 0.245098,
+     "num": 25,
+     "den": 102,
+     "notebooks": 102,
+     "ci95": [
+      0.166667,
+      0.333333
+     ]
+    },
+    "no_engine_failure": {
+     "share": 0.715686,
+     "num": 73,
+     "den": 102,
+     "notebooks": 102,
+     "ci95": [
+      0.627451,
+      0.803922
+     ]
+    }
+   },
+   "clean_E2_DIFF_robustness": {
+    "pooled": 0.025665,
+    "macro_mean_over_notebooks": 0.031975,
+    "notebooks": 102,
+    "leave_one_notebook_out_min_max": [
+     0.023607,
+     0.026743
+    ]
+   },
+   "introduced_by_mechanism": {
+    "representation choice": 173,
+    "missing or erroneous support": 32,
+    "unattributed": 23,
+    "parallel or lazy execution": 1
+   },
+   "introduced_DIFF_by_mechanism": {
+    "representation choice": 36,
+    "unattributed": 21,
+    "parallel or lazy execution": 1
+   },
+   "introduced_DIFF_by_mechanism_with_hand": {
+    "representation choice": 45,
+    "harness artefact": 7,
+    "parallel or lazy execution": 4,
+    "missing or erroneous support": 2
+   }
+  },
+  "p15": {
+   "campaign": "drift",
+   "views": {
+    "clean_E2": {
+     "DIFF": {
+      "share": 0.023016,
+      "num": 49,
+      "den": 2129,
+      "notebooks": 102,
+      "ci95": [
+       0.015812,
+       0.031218
+      ]
+     },
+     "ERR": {
+      "share": 0.00047,
+      "num": 1,
+      "den": 2129,
+      "notebooks": 102,
+      "ci95": [
+       0.0,
+       0.001505
+      ]
+     },
+     "le_E2": {
+      "share": 0.916862,
+      "num": 1952,
+      "den": 2129,
+      "notebooks": 102,
+      "ci95": [
+       0.894392,
+       0.937531
+      ]
+     }
+    },
+    "clean_E3": {
+     "DIFF": {
+      "share": 0.023016,
+      "num": 49,
+      "den": 2129,
+      "notebooks": 102,
+      "ci95": [
+       0.015787,
+       0.03119
+      ]
+     },
+     "ERR": {
+      "share": 0.00047,
+      "num": 1,
+      "den": 2129,
+      "notebooks": 102,
+      "ci95": [
+       0.0,
+       0.001516
+      ]
+     },
+     "le_E2": {
+      "share": 0.916862,
+      "num": 1952,
+      "den": 2129,
+      "notebooks": 102,
+      "ci95": [
+       0.894482,
+       0.937561
+      ]
+     }
+    },
+    "clean_E3_only": {
+     "DIFF": null,
+     "ERR": null,
+     "le_E2": null
+    }
+   },
+   "err_decomposition_all": {
+    "err_cells": 29,
+    "introduced": 1,
+    "name_error_cascade": 24,
+    "on_inputs_that_differed": 4,
+    "other": 0,
+    "comparable_cells": 2809
+   },
+   "e4_split": {
+    "all": {
+     "names": 156,
+     "index_values": 46
+    },
+    "clean_E2": {
+     "names": 120,
+     "index_values": 3
+    }
+   },
+   "diff_split": {
+    "all": {
+     "structure": 32,
+     "value": 149,
+     "other:missing_mask": 45,
+     "dtype family": 87
+    },
+    "clean_E2": {
+     "structure": 12,
+     "other:missing_mask": 10,
+     "value": 10,
+     "dtype family": 17
+    }
+   },
+   "notebooks": {
+    "introduced_DIFF": {
+     "share": 0.333333,
+     "num": 34,
+     "den": 102,
+     "notebooks": 102,
+     "ci95": [
+      0.245098,
+      0.431373
+     ]
+    },
+    "introduced_ERR": {
+     "share": 0.009804,
+     "num": 1,
+     "den": 102,
+     "notebooks": 102,
+     "ci95": [
+      0.0,
+      0.029412
+     ]
+    },
+    "no_engine_failure": {
+     "share": 0.980392,
+     "num": 100,
+     "den": 102,
+     "notebooks": 102,
+     "ci95": [
+      0.95098,
+      1.0
+     ]
+    }
+   },
+   "clean_E2_DIFF_robustness": {
+    "pooled": 0.023016,
+    "macro_mean_over_notebooks": 0.033084,
+    "notebooks": 102,
+    "leave_one_notebook_out_min_max": [
+     0.021562,
+     0.023868
+    ]
+   },
+   "introduced_by_mechanism": {
+    "pandas evolution": 266
+   },
+   "introduced_DIFF_by_mechanism": {
+    "pandas evolution": 49
+   },
+   "introduced_DIFF_by_mechanism_with_hand": {
+    "pandas evolution": 49
+   }
+  },
+  "p30": {
+   "campaign": "drift",
+   "views": {
+    "clean_E2": {
+     "DIFF": {
+      "share": 0.025282,
+      "num": 56,
+      "den": 2215,
+      "notebooks": 102,
+      "ci95": [
+       0.016326,
+       0.0353
+      ]
+     },
+     "ERR": {
+      "share": 0.021219,
+      "num": 47,
+      "den": 2215,
+      "notebooks": 102,
+      "ci95": [
+       0.010141,
+       0.037276
+      ]
+     },
+     "le_E2": {
+      "share": 0.946727,
+      "num": 2097,
+      "den": 2215,
+      "notebooks": 102,
+      "ci95": [
+       0.926696,
+       0.963239
+      ]
+     }
+    },
+    "clean_E3": {
+     "DIFF": {
+      "share": 0.025271,
+      "num": 56,
+      "den": 2216,
+      "notebooks": 102,
+      "ci95": [
+       0.016401,
+       0.03567
+      ]
+     },
+     "ERR": {
+      "share": 0.021209,
+      "num": 47,
+      "den": 2216,
+      "notebooks": 102,
+      "ci95": [
+       0.010228,
+       0.037247
+      ]
+     },
+     "le_E2": {
+      "share": 0.946751,
+      "num": 2098,
+      "den": 2216,
+      "notebooks": 102,
+      "ci95": [
+       0.926255,
+       0.963043
+      ]
+     }
+    },
+    "clean_E3_only": {
+     "DIFF": {
+      "share": 0.0,
+      "num": 0,
+      "den": 1,
+      "notebooks": 1,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "ERR": {
+      "share": 0.0,
+      "num": 0,
+      "den": 1,
+      "notebooks": 1,
+      "ci95": [
+       0.0,
+       0.0
+      ]
+     },
+     "le_E2": {
+      "share": 1.0,
+      "num": 1,
+      "den": 1,
+      "notebooks": 1,
+      "ci95": [
+       1.0,
+       1.0
+      ]
+     }
+    }
+   },
+   "err_decomposition_all": {
+    "err_cells": 172,
+    "introduced": 47,
+    "name_error_cascade": 103,
+    "on_inputs_that_differed": 22,
+    "other": 0,
+    "comparable_cells": 2811
+   },
+   "e4_split": {
+    "all": {
+     "index_values": 15
+    },
+    "clean_E2": {
+     "index_values": 6
+    }
+   },
+   "diff_split": {
+    "all": {
+     "value": 146,
+     "dtype family": 11,
+     "structure": 52,
+     "other:missing_mask": 79,
+     "missing output": 1
+    },
+    "clean_E2": {
+     "value": 35,
+     "dtype family": 1,
+     "other:missing_mask": 8,
+     "structure": 12
+    }
+   },
+   "notebooks": {
+    "introduced_DIFF": {
+     "share": 0.323529,
+     "num": 33,
+     "den": 102,
+     "notebooks": 102,
+     "ci95": [
+      0.235294,
+      0.421569
+     ]
+    },
+    "introduced_ERR": {
+     "share": 0.215686,
+     "num": 22,
+     "den": 102,
+     "notebooks": 102,
+     "ci95": [
+      0.137255,
+      0.303922
+     ]
+    },
+    "no_engine_failure": {
+     "share": 0.72549,
+     "num": 74,
+     "den": 102,
+     "notebooks": 102,
+     "ci95": [
+      0.637255,
+      0.803922
+     ]
+    }
+   },
+   "clean_E2_DIFF_robustness": {
+    "pooled": 0.025282,
+    "macro_mean_over_notebooks": 0.043335,
+    "notebooks": 102,
+    "leave_one_notebook_out_min_max": [
+     0.02276,
+     0.026988
+    ]
+   },
+   "introduced_by_mechanism": {
+    "pandas evolution": 252
+   },
+   "introduced_DIFF_by_mechanism": {
+    "pandas evolution": 54
+   },
+   "introduced_DIFF_by_mechanism_with_hand": {
+    "pandas evolution": 54
+   }
+  }
+ },
+ "mechanism_classification": {
+  "approximate_quantile": "parallel or lazy execution",
+  "float_rounding_within_tolerance": "parallel or lazy execution",
+  "row_order_ties": "parallel or lazy execution",
+  "partitioned_type_inference": "parallel or lazy execution",
+  "lazy_partition_model": "parallel or lazy execution",
+  "arrow_backed_dtypes": "representation choice",
+  "missing_sentinel_repr": "representation choice",
+  "index_not_preserved": "representation choice",
+  "int_float_nullable_repr": "representation choice",
+  "scalar_type_numpy": "representation choice",
+  "axis_names_lost": "representation choice",
+  "dtype_inference_differs": "representation choice",
+  "na_comparison_masks": "representation choice",
+  "str_dtype_object_checks": "representation choice",
+  "cow_chained_assignment": "representation choice",
+  "chunked_csv_type_inference": "representation choice",
+  "engine_bug_error": "missing or erroneous support",
+  "engine_unsupported_api": "missing or erroneous support",
+  "arrow_dtype_errors": "missing or erroneous support",
+  "engine_crash_timeout": "missing or erroneous support",
+  "engine_bug_silent": "missing or erroneous support",
+  "engine_corr_wrong_values": "missing or erroneous support",
+  "cr_only_line_endings": "missing or erroneous support"
+ }
+}

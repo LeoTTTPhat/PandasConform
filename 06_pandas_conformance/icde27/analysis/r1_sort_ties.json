@@ -1,0 +1,1517 @@
+{
+ "population": "outputs at E1 in E1 cells of the sort family (conf_1x engines, drift pandas versions)",
+ "outputs": 58,
+ "by_label_verdict": {
+  "fireducks|only tied keys reordered": 22,
+  "fireducks|only tied keys reordered (key inferred: a monotonic column is identical)": 4,
+  "fireducks|only tied keys reordered (manual)": 1,
+  "modin|not a sort reordering (manual)": 1,
+  "modin|only tied keys reordered": 24,
+  "modin|only tied keys reordered (key inferred: a monotonic column is identical)": 3,
+  "modin|only tied keys reordered (manual)": 2,
+  "p15|not a sort reordering (manual)": 1
+ },
+ "rows": [
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "arimishabirin/globalsalary-simple-eda",
+   "cell": 8,
+   "output": "__last__",
+   "calls": [
+    [
+     "sort_values",
+     "continent_name",
+     false
+    ]
+   ],
+   "rows": 221,
+   "identical_columns": [
+    "continent_name"
+   ],
+   "keys": [
+    [
+     "continent_name"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "ashukr/first-step-ingestion-to-prediction",
+   "cell": 15,
+   "output": "__last__",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ],
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 20,
+   "identical_columns": [
+    "Percent",
+    "Total"
+   ],
+   "monotonic_identical": [
+    "Total",
+    "Percent"
+   ],
+   "verdict": "only tied keys reordered (key inferred: a monotonic column is identical)"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "ashukr/first-step-ingestion-to-prediction",
+   "cell": 15,
+   "output": "missing_data",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ],
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 21,
+   "identical_columns": [
+    "Percent",
+    "Total"
+   ],
+   "monotonic_identical": [
+    "Total",
+    "Percent"
+   ],
+   "verdict": "only tied keys reordered (key inferred: a monotonic column is identical)"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "ashukr/first-step-ingestion-to-prediction",
+   "cell": 15,
+   "output": "percent",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ],
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 21,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ],
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "ashukr/first-step-ingestion-to-prediction",
+   "cell": 15,
+   "output": "total",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ],
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 21,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ],
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "atultaur/house-sales-in-king-county",
+   "cell": 12,
+   "output": "__last__",
+   "calls": [
+    [
+     "sort_values",
+     "price",
+     false
+    ]
+   ],
+   "rows": 20,
+   "identical_columns": [
+    "grade",
+    "price",
+    "waterfront",
+    "yr_renovated"
+   ],
+   "keys": [
+    [
+     "price"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "atultaur/house-sales-in-king-county",
+   "cell": 14,
+   "output": "non_top_1_perc",
+   "calls": [
+    [
+     "sort_values",
+     "price",
+     false
+    ]
+   ],
+   "rows": 21397,
+   "identical_columns": [
+    "price"
+   ],
+   "keys": [
+    [
+     "price"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "deffro/eda-is-fun",
+   "cell": 38,
+   "output": "__last__",
+   "calls": [
+    [
+     "sort_values",
+     "killsPerWalkDistance",
+     false
+    ]
+   ],
+   "rows": 10,
+   "identical_columns": [
+    "kills",
+    "killsPerWalkDistance",
+    "rideDistance",
+    "walkDistance"
+   ],
+   "keys": [
+    [
+     "killsPerWalkDistance"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "gmanish/help-ngo-country-clustering",
+   "cell": 21,
+   "output": "child_mort_top10",
+   "calls": [
+    [
+     "sort_values",
+     "child_mort",
+     false
+    ]
+   ],
+   "rows": 10,
+   "identical_columns": [
+    "child_mort"
+   ],
+   "keys": [
+    [
+     "child_mort"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "kmader/analyzing-matches",
+   "cell": 11,
+   "output": "__last__",
+   "calls": [
+    [
+     "sort_values",
+     "annotator_x",
+     false
+    ]
+   ],
+   "rows": 443,
+   "identical_columns": [
+    "__values__"
+   ],
+   "monotonic_identical": [
+    "__values__"
+   ],
+   "verdict": "only tied keys reordered (key inferred: a monotonic column is identical)"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "loveall/favorita-analytics",
+   "cell": 6,
+   "output": "df_lowest",
+   "calls": [
+    [
+     "nsmallest",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 10,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "madseth/customer-shopping-trends-dataset-eda",
+   "cell": 14,
+   "output": "sold_items",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 25,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "madseth/customer-shopping-trends-dataset-eda",
+   "cell": 15,
+   "output": "sorted_var",
+   "calls": [
+    [
+     "sort_values",
+     "Item Purchased",
+     false
+    ]
+   ],
+   "rows": 50,
+   "identical_columns": [
+    "Item Purchased"
+   ],
+   "keys": [
+    [
+     "Item Purchased"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+   "cell": 24,
+   "output": "__last__",
+   "calls": [
+    [
+     "sort_values",
+     "Block",
+     false
+    ]
+   ],
+   "rows": 105,
+   "identical_columns": [
+    "Block"
+   ],
+   "keys": [
+    [
+     "Block"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "nandhuelan/ott-platforms",
+   "cell": 6,
+   "output": "df1",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ],
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 502,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ],
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "nandhuelan/ott-platforms",
+   "cell": 6,
+   "output": "df2",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ],
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 1005,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ],
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   "cell": 15,
+   "output": "act_cnt",
+   "calls": [
+    [
+     "sort_values",
+     "Movie Counts",
+     false
+    ]
+   ],
+   "rows": 1207,
+   "identical_columns": [
+    "Movie Counts"
+   ],
+   "keys": [
+    [
+     "Movie Counts"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "sal001/beginner-s-note-top-12-by-single-linear-model",
+   "cell": 13,
+   "output": "__last__",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 11,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "sal001/beginner-s-note-top-12-by-single-linear-model",
+   "cell": 13,
+   "output": "missing_num",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 36,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "snanilim/video-games-sales-analysis-and-visualization",
+   "cell": 36,
+   "output": "_",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "verdict": "only tied keys reordered (manual)",
+   "automatic_verdict": "not a frame or series (Index)",
+   "manual_evidence": "Index of the top-20 publishers sorted by count; positions 18-19 swapped ('505 Games', 'Microsoft Game Studios'), both with count 185 recomputed from the reference input `data`; the count sequences are identical"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "sudheer259/house-price-prediction",
+   "cell": 129,
+   "output": "__last__",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 27,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "sudheer259/house-price-prediction",
+   "cell": 129,
+   "output": "nulls1",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 27,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "sunnybiswas/eda-on-airline-dataset",
+   "cell": 11,
+   "output": "pilot_pivot",
+   "calls": [
+    [
+     "sort_values",
+     "Pilot Count",
+     false
+    ]
+   ],
+   "rows": 235,
+   "identical_columns": [
+    "Pilot Count"
+   ],
+   "keys": [
+    [
+     "Pilot Count"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "sunnybiswas/eda-on-airline-dataset",
+   "cell": 23,
+   "output": "Visitors_per_nations",
+   "calls": [
+    [
+     "sort_values",
+     "Nationality",
+     false
+    ]
+   ],
+   "rows": 240,
+   "identical_columns": [
+    "__values__"
+   ],
+   "monotonic_identical": [
+    "__values__"
+   ],
+   "verdict": "only tied keys reordered (key inferred: a monotonic column is identical)"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "teemingyi/pubg-data-exploration-example-matches",
+   "cell": 6,
+   "output": "data_duo_example",
+   "calls": [
+    [
+     "sort_values",
+     "winPlacePerc",
+     false
+    ]
+   ],
+   "rows": 98,
+   "identical_columns": [
+    "groupId",
+    "killPoints",
+    "matchDuration",
+    "matchId",
+    "matchType",
+    "maxPlace",
+    "numGroups",
+    "roadKills",
+    "teamKills",
+    "vehicleDestroys",
+    "winPlacePerc",
+    "winPoints"
+   ],
+   "keys": [
+    [
+     "winPlacePerc"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "teemingyi/pubg-data-exploration-example-matches",
+   "cell": 9,
+   "output": "data_squad_example",
+   "calls": [
+    [
+     "sort_values",
+     "winPlacePerc",
+     false
+    ]
+   ],
+   "rows": 97,
+   "identical_columns": [
+    "groupId",
+    "killPoints",
+    "matchDuration",
+    "matchId",
+    "matchType",
+    "maxPlace",
+    "numGroups",
+    "roadKills",
+    "winPlacePerc",
+    "winPoints"
+   ],
+   "keys": [
+    [
+     "winPlacePerc"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "trinath003/data-manipulation-visualisation-on-kaggle-datasets",
+   "cell": 9,
+   "output": "__last__",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 1960,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "arimishabirin/globalsalary-simple-eda",
+   "cell": 8,
+   "output": "__last__",
+   "calls": [
+    [
+     "sort_values",
+     "continent_name",
+     false
+    ]
+   ],
+   "rows": 221,
+   "identical_columns": [
+    "continent_name"
+   ],
+   "keys": [
+    [
+     "continent_name"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "atultaur/house-sales-in-king-county",
+   "cell": 12,
+   "output": "__last__",
+   "calls": [
+    [
+     "sort_values",
+     "price",
+     false
+    ]
+   ],
+   "rows": 20,
+   "identical_columns": [
+    "price",
+    "yr_renovated"
+   ],
+   "keys": [
+    [
+     "price"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "atultaur/house-sales-in-king-county",
+   "cell": 14,
+   "output": "non_top_1_perc",
+   "calls": [
+    [
+     "sort_values",
+     "price",
+     false
+    ]
+   ],
+   "rows": 21397,
+   "identical_columns": [
+    "price"
+   ],
+   "keys": [
+    [
+     "price"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+   "cell": 31,
+   "output": "funding_total_company",
+   "calls": [
+    [
+     "sort_values",
+     "NewAmountUSD",
+     false
+    ]
+   ],
+   "rows": 15,
+   "identical_columns": [
+    "Total amount Raised by Startup (USD-Bn)"
+   ],
+   "monotonic_identical": [
+    "Total amount Raised by Startup (USD-Bn)"
+   ],
+   "verdict": "only tied keys reordered (key inferred: a monotonic column is identical)"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "corazzon/how-to-use-pandas-filter-in-survey-eda",
+   "cell": 8,
+   "output": "_",
+   "calls": [
+    [
+     "sort_index",
+     null,
+     true
+    ],
+    [
+     "sort_values",
+     "Q1",
+     false
+    ]
+   ],
+   "rows": 20036,
+   "identical_columns": [
+    "Q1",
+    "Q10_Part_13",
+    "Q12_Part_3",
+    "Q14_Part_11",
+    "Q16_Part_15",
+    "Q17_Part_11",
+    "Q18_Part_6",
+    "Q19_Part_5",
+    "Q26_A_Part_11",
+    "Q26_B_Part_11",
+    "Q27_B_Part_11",
+    "Q28_B_Part_10",
+    "Q29_A_Part_17",
+    "Q29_B_Part_17",
+    "Q31_A_Part_14",
+    "Q31_B_Part_14",
+    "Q33_B_Part_7",
+    "Q34_B_Part_11",
+    "Q35_B_Part_10",
+    "Q37_Part_11"
+   ],
+   "keys": [
+    [
+     "__index0__"
+    ],
+    [
+     "Q1"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "corazzon/how-to-use-pandas-filter-in-survey-eda",
+   "cell": 13,
+   "output": "_",
+   "calls": [
+    [
+     "sort_values",
+     "Q1",
+     false
+    ]
+   ],
+   "rows": 20036,
+   "identical_columns": [
+    "Q1",
+    "Q10_Part_13",
+    "Q12_Part_3",
+    "Q14_Part_11",
+    "Q16_Part_15",
+    "Q17_Part_11",
+    "Q18_Part_6",
+    "Q19_Part_5",
+    "Q26_A_Part_11",
+    "Q26_B_Part_11",
+    "Q27_B_Part_11",
+    "Q28_B_Part_10",
+    "Q29_A_Part_17",
+    "Q29_B_Part_17",
+    "Q31_A_Part_14",
+    "Q31_B_Part_14",
+    "Q33_B_Part_7",
+    "Q34_B_Part_11",
+    "Q35_B_Part_10",
+    "Q37_Part_11"
+   ],
+   "keys": [
+    [
+     "Q1"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "dbatao/kernel2f80fc9d78",
+   "cell": 24,
+   "output": "__last__",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 35,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "dbatao/kernel2f80fc9d78",
+   "cell": 24,
+   "output": "all_data_na",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 35,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "dbatao/kernel2f80fc9d78",
+   "cell": 28,
+   "output": "__last__",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 35,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "dbatao/kernel2f80fc9d78",
+   "cell": 28,
+   "output": "na_col_list",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "verdict": "not a sort reordering (manual)",
+   "automatic_verdict": "not a frame or series (list)",
+   "manual_evidence": "list of columns with missing values in the column order of `all_data`, whose inputs already differed (clean level None, so the cell is in no clean view); the sort in the cell applies to another expression"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "deffro/eda-is-fun",
+   "cell": 6,
+   "output": "_",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 4446966,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "kmader/analyzing-matches",
+   "cell": 9,
+   "output": "__last__",
+   "calls": [
+    [
+     "sort_values",
+     "iou",
+     false
+    ]
+   ],
+   "rows": 25,
+   "identical_columns": [
+    "iou"
+   ],
+   "keys": [
+    [
+     "iou"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "kmader/analyzing-matches",
+   "cell": 9,
+   "output": "worst_annot",
+   "calls": [
+    [
+     "sort_values",
+     "iou",
+     false
+    ]
+   ],
+   "verdict": "only tied keys reordered (manual)",
+   "automatic_verdict": "not a frame or series (ndarray)",
+   "manual_evidence": "array taken from worst_annot_df, which the automatic check verifies as sorted on the same tied 'iou' keys"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "kmader/analyzing-matches",
+   "cell": 9,
+   "output": "worst_annot_df",
+   "calls": [
+    [
+     "sort_values",
+     "iou",
+     false
+    ]
+   ],
+   "rows": 25,
+   "identical_columns": [
+    "iou"
+   ],
+   "keys": [
+    [
+     "iou"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "kmader/analyzing-matches",
+   "cell": 11,
+   "output": "__last__",
+   "calls": [
+    [
+     "sort_values",
+     "annotator_x",
+     false
+    ]
+   ],
+   "rows": 443,
+   "identical_columns": [
+    "__values__"
+   ],
+   "monotonic_identical": [
+    "__values__"
+   ],
+   "verdict": "only tied keys reordered (key inferred: a monotonic column is identical)"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "loveall/favorita-analytics",
+   "cell": 6,
+   "output": "df_lowest",
+   "calls": [
+    [
+     "nsmallest",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 10,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "madseth/customer-shopping-trends-dataset-eda",
+   "cell": 14,
+   "output": "sold_items",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 25,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "madseth/customer-shopping-trends-dataset-eda",
+   "cell": 15,
+   "output": "sorted_var",
+   "calls": [
+    [
+     "sort_values",
+     "Item Purchased",
+     false
+    ]
+   ],
+   "rows": 50,
+   "identical_columns": [
+    "Item Purchased"
+   ],
+   "keys": [
+    [
+     "Item Purchased"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+   "cell": 24,
+   "output": "__last__",
+   "calls": [
+    [
+     "sort_values",
+     "Block",
+     false
+    ]
+   ],
+   "rows": 105,
+   "identical_columns": [
+    "Block"
+   ],
+   "keys": [
+    [
+     "Block"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "nandhuelan/ott-platforms",
+   "cell": 6,
+   "output": "df1",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ],
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 502,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ],
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "nandhuelan/ott-platforms",
+   "cell": 6,
+   "output": "df2",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ],
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 1005,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ],
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   "cell": 12,
+   "output": "actor_cnt",
+   "calls": [
+    [
+     "sort_values",
+     "Movie Counts",
+     false
+    ]
+   ],
+   "rows": 759,
+   "identical_columns": [
+    "Movie Counts"
+   ],
+   "keys": [
+    [
+     "Movie Counts"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "sal001/beginner-s-note-top-12-by-single-linear-model",
+   "cell": 8,
+   "output": "__last__",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 23,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "sal001/beginner-s-note-top-12-by-single-linear-model",
+   "cell": 8,
+   "output": "missing_str",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 43,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "snanilim/video-games-sales-analysis-and-visualization",
+   "cell": 10,
+   "output": "_",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "verdict": "only tied keys reordered (manual)",
+   "automatic_verdict": "not a frame or series (Index)",
+   "manual_evidence": "Index of years sorted by count; positions 28-29 swapped (1989, 1983), both with count 17 recomputed from the reference input `data`; the count sequences are identical"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "sunnybiswas/eda-on-airline-dataset",
+   "cell": 11,
+   "output": "pilot_pivot",
+   "calls": [
+    [
+     "sort_values",
+     "Pilot Count",
+     false
+    ]
+   ],
+   "rows": 235,
+   "identical_columns": [
+    "Pilot Count"
+   ],
+   "keys": [
+    [
+     "Pilot Count"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "sunnybiswas/eda-on-airline-dataset",
+   "cell": 23,
+   "output": "Visitors_per_nations",
+   "calls": [
+    [
+     "sort_values",
+     "Nationality",
+     false
+    ]
+   ],
+   "rows": 240,
+   "identical_columns": [
+    "__values__"
+   ],
+   "monotonic_identical": [
+    "__values__"
+   ],
+   "verdict": "only tied keys reordered (key inferred: a monotonic column is identical)"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "teemingyi/pubg-data-exploration-example-matches",
+   "cell": 6,
+   "output": "data_duo_example",
+   "calls": [
+    [
+     "sort_values",
+     "winPlacePerc",
+     false
+    ]
+   ],
+   "rows": 98,
+   "identical_columns": [
+    "groupId",
+    "killPoints",
+    "matchDuration",
+    "matchId",
+    "matchType",
+    "maxPlace",
+    "numGroups",
+    "roadKills",
+    "teamKills",
+    "vehicleDestroys",
+    "winPlacePerc",
+    "winPoints"
+   ],
+   "keys": [
+    [
+     "winPlacePerc"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "teemingyi/pubg-data-exploration-example-matches",
+   "cell": 9,
+   "output": "data_squad_example",
+   "calls": [
+    [
+     "sort_values",
+     "winPlacePerc",
+     false
+    ]
+   ],
+   "rows": 97,
+   "identical_columns": [
+    "groupId",
+    "killPoints",
+    "matchDuration",
+    "matchId",
+    "matchType",
+    "maxPlace",
+    "numGroups",
+    "roadKills",
+    "winPlacePerc",
+    "winPoints"
+   ],
+   "keys": [
+    [
+     "winPlacePerc"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "trinath003/data-manipulation-visualisation-on-kaggle-datasets",
+   "cell": 9,
+   "output": "__last__",
+   "calls": [
+    [
+     "sort_values",
+     "__values__",
+     false
+    ]
+   ],
+   "rows": 1960,
+   "identical_columns": [
+    "__values__"
+   ],
+   "keys": [
+    [
+     "__values__"
+    ]
+   ],
+   "verdict": "only tied keys reordered"
+  },
+  {
+   "campaign": "drift",
+   "label": "p15",
+   "nb": "taylorhickem/singapore-building-energy",
+   "cell": 16,
+   "output": "usg",
+   "calls": [
+    [
+     "sort_values",
+     "W/ca",
+     false
+    ]
+   ],
+   "rows": 10,
+   "identical_columns": [],
+   "monotonic_identical": [],
+   "verdict": "not a sort reordering (manual)",
+   "automatic_verdict": "keys not determined",
+   "manual_evidence": "pandas 1.5.3 DataFrame built from a dict has another row order; the sort in the cell applies to `df` (E0)"
+  }
+ ]
+}

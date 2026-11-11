@@ -1,0 +1,261 @@
+{
+ "cells": [
+  {
+   "assigned_by": "rule",
+   "cause": "engine_bug_silent",
+   "cell": 85,
+   "clean_level": "E0",
+   "nb": "brianmendieta/data-cleaning-plus-eda"
+  },
+  {
+   "assigned_by": "none",
+   "cause": "unattributed",
+   "cell": 9,
+   "clean_level": "E0",
+   "nb": "charulatashelar/indian-startup-funding-exploratory-data-analysis"
+  },
+  {
+   "assigned_by": "rule",
+   "cause": "engine_bug_silent",
+   "cell": 26,
+   "clean_level": "E0",
+   "nb": "charulatashelar/indian-startup-funding-exploratory-data-analysis"
+  },
+  {
+   "assigned_by": "rule",
+   "cause": "engine_bug_silent",
+   "cell": 30,
+   "clean_level": "E0",
+   "nb": "charulatashelar/indian-startup-funding-exploratory-data-analysis"
+  },
+  {
+   "assigned_by": "curated",
+   "cause": "engine_bug_silent",
+   "cell": 7,
+   "clean_level": "E0",
+   "nb": "christophriley/intro-machine-learning"
+  },
+  {
+   "assigned_by": "curated",
+   "cause": "engine_bug_silent",
+   "cell": 8,
+   "clean_level": "E0",
+   "nb": "christophriley/intro-machine-learning"
+  },
+  {
+   "assigned_by": "curated",
+   "cause": "cr_only_line_endings",
+   "cell": 2,
+   "clean_level": "E0",
+   "nb": "danielresende/game-of-thrones-battles"
+  },
+  {
+   "assigned_by": "none",
+   "cause": "unattributed",
+   "cell": 22,
+   "clean_level": "E0",
+   "nb": "dbatao/kernel2f80fc9d78"
+  },
+  {
+   "assigned_by": "rule",
+   "cause": "engine_corr_wrong_values",
+   "cell": 12,
+   "clean_level": "E0",
+   "nb": "ersinsen/fraud-3-eda"
+  },
+  {
+   "assigned_by": "rule",
+   "cause": "axis_names_lost",
+   "cell": 2,
+   "clean_level": "E0",
+   "nb": "grudd0/mass-shooting-analysis"
+  },
+  {
+   "assigned_by": "rule",
+   "cause": "axis_names_lost",
+   "cell": 12,
+   "clean_level": "E0",
+   "nb": "jagangupta/stop-the-s-toxic-comments-eda"
+  },
+  {
+   "assigned_by": "rule",
+   "cause": "engine_bug_silent",
+   "cell": 9,
+   "clean_level": "E0",
+   "nb": "kenjee/titanic-project-example"
+  },
+  {
+   "assigned_by": "rule",
+   "cause": "engine_corr_wrong_values",
+   "cell": 8,
+   "clean_level": "E0",
+   "nb": "qnqfbqfqo/electric-vehicle-landscape-in-washington-state"
+  },
+  {
+   "assigned_by": "rule",
+   "cause": "engine_bug_silent",
+   "cell": 22,
+   "clean_level": "E0",
+   "nb": "sabya40/data-cleaning-and-pandas-for-beginners"
+  },
+  {
+   "assigned_by": "rule",
+   "cause": "engine_corr_wrong_values",
+   "cell": 31,
+   "clean_level": "E0",
+   "nb": "saniaks/melbourne-house-price-eda"
+  },
+  {
+   "assigned_by": "rule",
+   "cause": "engine_corr_wrong_values",
+   "cell": 17,
+   "clean_level": "E4",
+   "nb": "santhoshrao1995/assi01-santhosh-19101036"
+  },
+  {
+   "assigned_by": "rule",
+   "cause": "engine_corr_wrong_values",
+   "cell": 18,
+   "clean_level": "E4",
+   "nb": "santhoshrao1995/assi01-santhosh-19101036"
+  },
+  {
+   "assigned_by": "rule",
+   "cause": "engine_corr_wrong_values",
+   "cell": 19,
+   "clean_level": "E4",
+   "nb": "santhoshrao1995/assi01-santhosh-19101036"
+  },
+  {
+   "assigned_by": "rule",
+   "cause": "engine_corr_wrong_values",
+   "cell": 20,
+   "clean_level": "E4",
+   "nb": "santhoshrao1995/assi01-santhosh-19101036"
+  },
+  {
+   "assigned_by": "rule",
+   "cause": "engine_corr_wrong_values",
+   "cell": 21,
+   "clean_level": "E4",
+   "nb": "santhoshrao1995/assi01-santhosh-19101036"
+  },
+  {
+   "assigned_by": "rule",
+   "cause": "engine_corr_wrong_values",
+   "cell": 22,
+   "clean_level": "E4",
+   "nb": "santhoshrao1995/assi01-santhosh-19101036"
+  },
+  {
+   "assigned_by": "rule",
+   "cause": "engine_bug_silent",
+   "cell": 17,
+   "clean_level": "E0",
+   "nb": "sunnybiswas/eda-on-airline-dataset"
+  },
+  {
+   "assigned_by": "rule",
+   "cause": "engine_bug_silent",
+   "cell": 11,
+   "clean_level": "E0",
+   "nb": "trinath003/data-manipulation-visualisation-on-kaggle-datasets"
+  },
+  {
+   "assigned_by": "rule",
+   "cause": "engine_corr_wrong_values",
+   "cell": 21,
+   "clean_level": "E0",
+   "nb": "willkoehrsen/start-here-a-gentle-introduction"
+  }
+ ],
+ "created": "2026-11-10T23:50:50",
+ "excluded_notebooks": {
+  "artgor/eda-and-models": "original Modin run stopped at the 96 GB cap",
+  "luizep/movieslens20m": "original Modin run stopped at the 96 GB cap after 2,022 s"
+ },
+ "item": "D3 extension (exploratory, decided after the N2 results)",
+ "n2_runs": [
+  {
+   "engine": "modin",
+   "nb": "brianmendieta/data-cleaning-plus-eda",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "nb": "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "nb": "christophriley/intro-machine-learning",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "nb": "danielresende/game-of-thrones-battles",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "nb": "dbatao/kernel2f80fc9d78",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "nb": "ersinsen/fraud-3-eda",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "nb": "grudd0/mass-shooting-analysis",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "nb": "jagangupta/stop-the-s-toxic-comments-eda",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "nb": "kenjee/titanic-project-example",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "nb": "qnqfbqfqo/electric-vehicle-landscape-in-washington-state",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "nb": "sabya40/data-cleaning-and-pandas-for-beginners",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "nb": "saniaks/melbourne-house-price-eda",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "nb": "santhoshrao1995/assi01-santhosh-19101036",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "nb": "sunnybiswas/eda-on-airline-dataset",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "nb": "trinath003/data-manipulation-visualisation-on-kaggle-datasets",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "nb": "willkoehrsen/start-here-a-gentle-introduction",
+   "variant": "modin_serial"
+  }
+ ],
+ "reason": "4 of the 5 Q cells of Modin vanished under serial execution, so the pre-declared upper bound (P and Q only) may understate Modin's partitioned-execution share; this tests the other Modin introduced DIFF cells (exception on, no printed forms) with the same modin_serial variant"
+}

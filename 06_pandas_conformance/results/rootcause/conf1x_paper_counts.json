@@ -1,0 +1,345 @@
+{
+ "fallback_split": {
+  "fireducks": {
+   "fallback_cells": 856,
+   "other_cells": 1955,
+   "fallback_counts": {
+    "DIFF": 131,
+    "E0": 517,
+    "E1": 20,
+    "E2": 74,
+    "E3": 62,
+    "E4": 18,
+    "ERR": 22,
+    "TIMEOUT": 4,
+    "UNCOMPARABLE": 8
+   },
+   "other_counts": {
+    "CRASH": 1,
+    "DIFF": 206,
+    "E0": 953,
+    "E1": 36,
+    "E2": 175,
+    "E3": 135,
+    "E4": 43,
+    "ERR": 380,
+    "NOTRUN": 10,
+    "TIMEOUT": 3,
+    "UNCOMPARABLE": 13
+   },
+   "fallback_share": {
+    "DIFF": 0.153,
+    "E0": 0.604,
+    "E1": 0.0234,
+    "E2": 0.0864,
+    "E3": 0.0724,
+    "E4": 0.021,
+    "ERR": 0.0257,
+    "TIMEOUT": 0.0047,
+    "UNCOMPARABLE": 0.0093
+   },
+   "other_share": {
+    "E0": 0.4875,
+    "E1": 0.0184,
+    "E2": 0.0895,
+    "E3": 0.0691,
+    "E4": 0.022,
+    "DIFF": 0.1054,
+    "UNCOMPARABLE": 0.0066,
+    "ERR": 0.1944,
+    "TIMEOUT": 0.0015,
+    "CRASH": 0.0005,
+    "NOTRUN": 0.0051
+   }
+  },
+  "bodo": {
+   "fallback_cells": 1010,
+   "other_cells": 1827,
+   "fallback_counts": {
+    "DIFF": 226,
+    "E0": 158,
+    "E1": 1,
+    "E2": 322,
+    "E3": 89,
+    "E4": 54,
+    "ERR": 153,
+    "TIMEOUT": 1,
+    "UNCOMPARABLE": 6
+   },
+   "other_counts": {
+    "CRASH": 6,
+    "DIFF": 182,
+    "E0": 250,
+    "E1": 1,
+    "E2": 240,
+    "E3": 89,
+    "E4": 71,
+    "ERR": 826,
+    "MEMORY": 1,
+    "NOTRUN": 156,
+    "TIMEOUT": 2,
+    "UNCOMPARABLE": 3
+   },
+   "fallback_share": {
+    "DIFF": 0.2238,
+    "E0": 0.1564,
+    "E1": 0.001,
+    "E2": 0.3188,
+    "E3": 0.0881,
+    "E4": 0.0535,
+    "ERR": 0.1515,
+    "TIMEOUT": 0.001,
+    "UNCOMPARABLE": 0.0059
+   },
+   "other_share": {
+    "E0": 0.1368,
+    "E1": 0.0005,
+    "E2": 0.1314,
+    "E3": 0.0487,
+    "E4": 0.0389,
+    "DIFF": 0.0996,
+    "UNCOMPARABLE": 0.0016,
+    "ERR": 0.4521,
+    "TIMEOUT": 0.0011,
+    "CRASH": 0.0033,
+    "MEMORY": 0.0005,
+    "NOTRUN": 0.0854
+   }
+  },
+  "modin": {
+   "fallback_cells": 138,
+   "other_cells": 2702,
+   "fallback_counts": {
+    "DIFF": 17,
+    "E0": 89,
+    "E1": 2,
+    "E2": 6,
+    "E3": 2,
+    "E4": 10,
+    "ERR": 11,
+    "UNCOMPARABLE": 1
+   },
+   "other_counts": {
+    "DIFF": 178,
+    "E0": 2036,
+    "E1": 73,
+    "E2": 152,
+    "E4": 33,
+    "ERR": 116,
+    "MEMORY": 7,
+    "NOTRUN": 102,
+    "TIMEOUT": 4,
+    "UNCOMPARABLE": 1
+   },
+   "fallback_share": {
+    "DIFF": 0.1232,
+    "E0": 0.6449,
+    "E1": 0.0145,
+    "E2": 0.0435,
+    "E3": 0.0145,
+    "E4": 0.0725,
+    "ERR": 0.0797,
+    "UNCOMPARABLE": 0.0072
+   },
+   "other_share": {
+    "E0": 0.7535,
+    "E1": 0.027,
+    "E2": 0.0563,
+    "E4": 0.0122,
+    "DIFF": 0.0659,
+    "UNCOMPARABLE": 0.0004,
+    "ERR": 0.0429,
+    "TIMEOUT": 0.0015,
+    "MEMORY": 0.0026,
+    "NOTRUN": 0.0377
+   }
+  }
+ },
+ "fallback_split_clean_E2": {
+  "fireducks": {
+   "fallback_cells": 394,
+   "other_cells": 854,
+   "fallback_counts": {
+    "DIFF": 18,
+    "E0": 278,
+    "E1": 10,
+    "E2": 52,
+    "E3": 18,
+    "E4": 5,
+    "ERR": 6,
+    "TIMEOUT": 2,
+    "UNCOMPARABLE": 5
+   },
+   "other_counts": {
+    "CRASH": 1,
+    "DIFF": 16,
+    "E0": 621,
+    "E1": 21,
+    "E2": 124,
+    "E3": 47,
+    "E4": 8,
+    "ERR": 6,
+    "TIMEOUT": 1,
+    "UNCOMPARABLE": 9
+   },
+   "fallback_share": {
+    "DIFF": 0.0457,
+    "E0": 0.7056,
+    "E1": 0.0254,
+    "E2": 0.132,
+    "E3": 0.0457,
+    "E4": 0.0127,
+    "ERR": 0.0152,
+    "TIMEOUT": 0.0051,
+    "UNCOMPARABLE": 0.0127
+   },
+   "other_share": {
+    "E0": 0.7272,
+    "E1": 0.0246,
+    "E2": 0.1452,
+    "E3": 0.055,
+    "E4": 0.0094,
+    "DIFF": 0.0187,
+    "UNCOMPARABLE": 0.0105,
+    "ERR": 0.007,
+    "TIMEOUT": 0.0012,
+    "CRASH": 0.0012
+   }
+  },
+  "bodo": {
+   "fallback_cells": 301,
+   "other_cells": 452,
+   "fallback_counts": {
+    "DIFF": 22,
+    "E0": 47,
+    "E2": 179,
+    "E3": 21,
+    "E4": 7,
+    "ERR": 23,
+    "UNCOMPARABLE": 2
+   },
+   "other_counts": {
+    "CRASH": 2,
+    "DIFF": 23,
+    "E0": 165,
+    "E2": 151,
+    "E3": 30,
+    "E4": 19,
+    "ERR": 58,
+    "TIMEOUT": 1,
+    "UNCOMPARABLE": 3
+   },
+   "fallback_share": {
+    "DIFF": 0.0731,
+    "E0": 0.1561,
+    "E2": 0.5947,
+    "E3": 0.0698,
+    "E4": 0.0233,
+    "ERR": 0.0764,
+    "UNCOMPARABLE": 0.0066
+   },
+   "other_share": {
+    "E0": 0.365,
+    "E2": 0.3341,
+    "E3": 0.0664,
+    "E4": 0.042,
+    "DIFF": 0.0509,
+    "UNCOMPARABLE": 0.0066,
+    "ERR": 0.1283,
+    "TIMEOUT": 0.0022,
+    "CRASH": 0.0044
+   }
+  },
+  "modin": {
+   "fallback_cells": 120,
+   "other_cells": 2212,
+   "fallback_counts": {
+    "DIFF": 8,
+    "E0": 87,
+    "E1": 2,
+    "E2": 6,
+    "E3": 1,
+    "E4": 9,
+    "ERR": 6,
+    "UNCOMPARABLE": 1
+   },
+   "other_counts": {
+    "DIFF": 39,
+    "E0": 1895,
+    "E1": 64,
+    "E2": 149,
+    "E4": 23,
+    "ERR": 37,
+    "MEMORY": 4,
+    "TIMEOUT": 1
+   },
+   "fallback_share": {
+    "DIFF": 0.0667,
+    "E0": 0.725,
+    "E1": 0.0167,
+    "E2": 0.05,
+    "E3": 0.0083,
+    "E4": 0.075,
+    "ERR": 0.05,
+    "UNCOMPARABLE": 0.0083
+   },
+   "other_share": {
+    "E0": 0.8567,
+    "E1": 0.0289,
+    "E2": 0.0674,
+    "E4": 0.0104,
+    "DIFF": 0.0176,
+    "ERR": 0.0167,
+    "TIMEOUT": 0.0005,
+    "MEMORY": 0.0018
+   }
+  }
+ },
+ "attribution_kinds": {
+  "pyarrow_backend": {
+   "non_e0_cells": 2030,
+   "cascade": 110,
+   "harness": 16,
+   "introduced": 229,
+   "propagated": 1675,
+   "introduced_share": 0.1128
+  },
+  "fireducks": {
+   "non_e0_cells": 1341,
+   "cascade": 110,
+   "harness": 21,
+   "introduced": 276,
+   "propagated": 934,
+   "introduced_share": 0.2058
+  },
+  "bodo": {
+   "non_e0_cells": 2429,
+   "cascade": 774,
+   "harness": 9,
+   "introduced": 420,
+   "propagated": 1226,
+   "introduced_share": 0.1729
+  },
+  "modin": {
+   "non_e0_cells": 715,
+   "cascade": 149,
+   "harness": 2,
+   "introduced": 311,
+   "propagated": 253,
+   "introduced_share": 0.435
+  },
+  "dask": {
+   "non_e0_cells": 2490,
+   "cascade": 778,
+   "harness": 2,
+   "introduced": 328,
+   "propagated": 1382,
+   "introduced_share": 0.1317
+  }
+ },
+ "str_extract_unnamed_groups": {
+  "engine": "pyarrow_backend",
+  "cells": 6,
+  "notebooks": 4
+ }
+}

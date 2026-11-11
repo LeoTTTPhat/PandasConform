@@ -1,0 +1,274 @@
+{
+ "generated": "2026-10-04T08:52:24",
+ "why_not_run": "engine reproducers start worker pools (Ray, MPI, thread pools); per the task they run only in a later guarded probes campaign",
+ "guarded_command": "cd /Users/sonha/Documents/SonHa/SIGMOD27 && python3 tools/memory_guard.py --limit-gb 120 --wait-lock 14400 --state runs/06_pandas_conformance_rootcause_probes.json -- bash /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/run_engine_probes.sh",
+ "note": "run_engine_probes.sh is to be written by the probes stage from the 'command' fields (one line each, outputs appended to results/rootcause/engine_probe_runs.log); engine_corr_wrong_values builds a 4.4M x 25 frame (several GB)",
+ "probes": [
+  {
+   "cause": "approximate_quantile",
+   "engine": "bodo",
+   "script": "results/rootcause/repro/approximate_quantile.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=bodo BODO_NUM_WORKERS=1 /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/bodo/bin/python approximate_quantile.py",
+   "status": "pending"
+  },
+  {
+   "cause": "approximate_quantile",
+   "engine": "bodo_dw",
+   "script": "results/rootcause/repro/approximate_quantile.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=bodo  /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/bodo/bin/python approximate_quantile.py",
+   "status": "pending"
+  },
+  {
+   "cause": "approximate_quantile",
+   "engine": "dask",
+   "script": "results/rootcause/repro/approximate_quantile.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=dask  /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/dask/bin/python approximate_quantile.py",
+   "status": "pending"
+  },
+  {
+   "cause": "arrow_backed_dtypes",
+   "engine": "bodo",
+   "script": "results/rootcause/repro/arrow_backed_dtypes.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=bodo BODO_NUM_WORKERS=1 /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/bodo/bin/python arrow_backed_dtypes.py",
+   "status": "pending"
+  },
+  {
+   "cause": "arrow_backed_dtypes",
+   "engine": "dask",
+   "script": "results/rootcause/repro/arrow_backed_dtypes.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=dask  /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/dask/bin/python arrow_backed_dtypes.py",
+   "status": "pending"
+  },
+  {
+   "cause": "arrow_dtype_errors",
+   "engine": "bodo",
+   "script": "results/rootcause/repro/arrow_dtype_errors.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=bodo BODO_NUM_WORKERS=1 /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/bodo/bin/python arrow_dtype_errors.py",
+   "status": "pending"
+  },
+  {
+   "cause": "arrow_dtype_errors",
+   "engine": "fireducks",
+   "script": "results/rootcause/repro/arrow_dtype_errors.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=fireducks FIREDUCKS_FLAGS=-Wfallback /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/fireducks/bin/python arrow_dtype_errors.py",
+   "status": "pending"
+  },
+  {
+   "cause": "axis_names_lost",
+   "engine": "modin",
+   "script": "results/rootcause/repro/axis_names_lost.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=modin RAY_ENABLE_MAC_LARGE_OBJECT_STORE=1 RAY_USAGE_STATS_ENABLED=0 /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/modin/bin/python axis_names_lost.py",
+   "status": "pending"
+  },
+  {
+   "cause": "axis_names_lost",
+   "engine": "bodo",
+   "script": "results/rootcause/repro/axis_names_lost.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=bodo BODO_NUM_WORKERS=1 /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/bodo/bin/python axis_names_lost.py",
+   "status": "pending"
+  },
+  {
+   "cause": "cow_chained_assignment",
+   "engine": "fireducks",
+   "script": "results/rootcause/repro/cow_chained_assignment.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=fireducks FIREDUCKS_FLAGS=-Wfallback /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/fireducks/bin/python cow_chained_assignment.py",
+   "status": "pending"
+  },
+  {
+   "cause": "engine_bug_error",
+   "engine": "bodo",
+   "script": "results/rootcause/repro/engine_bug_error.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=bodo BODO_NUM_WORKERS=1 /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/bodo/bin/python engine_bug_error.py",
+   "status": "pending"
+  },
+  {
+   "cause": "engine_bug_error",
+   "engine": "bodo_dw",
+   "script": "results/rootcause/repro/engine_bug_error.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=bodo  /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/bodo/bin/python engine_bug_error.py",
+   "status": "pending"
+  },
+  {
+   "cause": "engine_bug_error",
+   "engine": "modin",
+   "script": "results/rootcause/repro/engine_bug_error.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=modin RAY_ENABLE_MAC_LARGE_OBJECT_STORE=1 RAY_USAGE_STATS_ENABLED=0 /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/modin/bin/python engine_bug_error.py",
+   "status": "pending"
+  },
+  {
+   "cause": "engine_bug_error",
+   "engine": "fireducks",
+   "script": "results/rootcause/repro/engine_bug_error.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=fireducks FIREDUCKS_FLAGS=-Wfallback /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/fireducks/bin/python engine_bug_error.py",
+   "status": "pending"
+  },
+  {
+   "cause": "engine_bug_silent",
+   "engine": "modin",
+   "script": "results/rootcause/repro/engine_bug_silent.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=modin RAY_ENABLE_MAC_LARGE_OBJECT_STORE=1 RAY_USAGE_STATS_ENABLED=0 /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/modin/bin/python engine_bug_silent.py",
+   "status": "pending"
+  },
+  {
+   "cause": "engine_bug_silent",
+   "engine": "bodo",
+   "script": "results/rootcause/repro/engine_bug_silent.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=bodo BODO_NUM_WORKERS=1 /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/bodo/bin/python engine_bug_silent.py",
+   "status": "pending"
+  },
+  {
+   "cause": "engine_bug_silent",
+   "engine": "bodo_dw",
+   "script": "results/rootcause/repro/engine_bug_silent.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=bodo  /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/bodo/bin/python engine_bug_silent.py",
+   "status": "pending"
+  },
+  {
+   "cause": "engine_corr_wrong_values",
+   "engine": "modin",
+   "script": "results/rootcause/repro/engine_corr_wrong_values.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=modin RAY_ENABLE_MAC_LARGE_OBJECT_STORE=1 RAY_USAGE_STATS_ENABLED=0 /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/modin/bin/python engine_corr_wrong_values.py",
+   "status": "pending"
+  },
+  {
+   "cause": "engine_unsupported_api",
+   "engine": "dask",
+   "script": "results/rootcause/repro/engine_unsupported_api.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=dask  /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/dask/bin/python engine_unsupported_api.py",
+   "status": "pending"
+  },
+  {
+   "cause": "engine_unsupported_api",
+   "engine": "bodo",
+   "script": "results/rootcause/repro/engine_unsupported_api.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=bodo BODO_NUM_WORKERS=1 /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/bodo/bin/python engine_unsupported_api.py",
+   "status": "pending"
+  },
+  {
+   "cause": "engine_unsupported_api",
+   "engine": "fireducks",
+   "script": "results/rootcause/repro/engine_unsupported_api.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=fireducks FIREDUCKS_FLAGS=-Wfallback /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/fireducks/bin/python engine_unsupported_api.py",
+   "status": "pending"
+  },
+  {
+   "cause": "float_rounding_within_tolerance",
+   "engine": "modin",
+   "script": "results/rootcause/repro/float_rounding_within_tolerance.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=modin RAY_ENABLE_MAC_LARGE_OBJECT_STORE=1 RAY_USAGE_STATS_ENABLED=0 /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/modin/bin/python float_rounding_within_tolerance.py",
+   "status": "pending"
+  },
+  {
+   "cause": "float_rounding_within_tolerance",
+   "engine": "fireducks",
+   "script": "results/rootcause/repro/float_rounding_within_tolerance.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=fireducks FIREDUCKS_FLAGS=-Wfallback /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/fireducks/bin/python float_rounding_within_tolerance.py",
+   "status": "pending"
+  },
+  {
+   "cause": "index_not_preserved",
+   "engine": "bodo",
+   "script": "results/rootcause/repro/index_not_preserved.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=bodo BODO_NUM_WORKERS=1 /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/bodo/bin/python index_not_preserved.py",
+   "status": "pending"
+  },
+  {
+   "cause": "index_not_preserved",
+   "engine": "bodo_dw",
+   "script": "results/rootcause/repro/index_not_preserved.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=bodo  /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/bodo/bin/python index_not_preserved.py",
+   "status": "pending"
+  },
+  {
+   "cause": "index_not_preserved",
+   "engine": "fireducks",
+   "script": "results/rootcause/repro/index_not_preserved.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=fireducks FIREDUCKS_FLAGS=-Wfallback /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/fireducks/bin/python index_not_preserved.py",
+   "status": "pending"
+  },
+  {
+   "cause": "index_not_preserved",
+   "engine": "dask",
+   "script": "results/rootcause/repro/index_not_preserved.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=dask  /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/dask/bin/python index_not_preserved.py",
+   "status": "pending"
+  },
+  {
+   "cause": "int_float_nullable_repr",
+   "engine": "modin",
+   "script": "results/rootcause/repro/int_float_nullable_repr.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=modin RAY_ENABLE_MAC_LARGE_OBJECT_STORE=1 RAY_USAGE_STATS_ENABLED=0 /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/modin/bin/python int_float_nullable_repr.py",
+   "status": "pending"
+  },
+  {
+   "cause": "int_float_nullable_repr",
+   "engine": "fireducks",
+   "script": "results/rootcause/repro/int_float_nullable_repr.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=fireducks FIREDUCKS_FLAGS=-Wfallback /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/fireducks/bin/python int_float_nullable_repr.py",
+   "status": "pending"
+  },
+  {
+   "cause": "lazy_partition_model",
+   "engine": "dask",
+   "script": "results/rootcause/repro/lazy_partition_model.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=dask  /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/dask/bin/python lazy_partition_model.py",
+   "status": "pending"
+  },
+  {
+   "cause": "missing_sentinel_repr",
+   "engine": "fireducks",
+   "script": "results/rootcause/repro/missing_sentinel_repr.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=fireducks FIREDUCKS_FLAGS=-Wfallback /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/fireducks/bin/python missing_sentinel_repr.py",
+   "status": "pending"
+  },
+  {
+   "cause": "partitioned_type_inference",
+   "engine": "dask",
+   "script": "results/rootcause/repro/partitioned_type_inference.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=dask  /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/dask/bin/python partitioned_type_inference.py",
+   "status": "pending"
+  },
+  {
+   "cause": "partitioned_type_inference",
+   "engine": "modin",
+   "script": "results/rootcause/repro/partitioned_type_inference.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=modin RAY_ENABLE_MAC_LARGE_OBJECT_STORE=1 RAY_USAGE_STATS_ENABLED=0 /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/modin/bin/python partitioned_type_inference.py",
+   "status": "pending"
+  },
+  {
+   "cause": "row_order_ties",
+   "engine": "modin",
+   "script": "results/rootcause/repro/row_order_ties.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=modin RAY_ENABLE_MAC_LARGE_OBJECT_STORE=1 RAY_USAGE_STATS_ENABLED=0 /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/modin/bin/python row_order_ties.py",
+   "status": "pending"
+  },
+  {
+   "cause": "row_order_ties",
+   "engine": "fireducks",
+   "script": "results/rootcause/repro/row_order_ties.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=fireducks FIREDUCKS_FLAGS=-Wfallback /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/fireducks/bin/python row_order_ties.py",
+   "status": "pending"
+  },
+  {
+   "cause": "row_order_ties",
+   "engine": "bodo",
+   "script": "results/rootcause/repro/row_order_ties.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=bodo BODO_NUM_WORKERS=1 /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/bodo/bin/python row_order_ties.py",
+   "status": "pending"
+  },
+  {
+   "cause": "str_dtype_object_checks",
+   "engine": "bodo",
+   "script": "results/rootcause/repro/str_dtype_object_checks.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=bodo BODO_NUM_WORKERS=1 /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/bodo/bin/python str_dtype_object_checks.py",
+   "status": "pending"
+  },
+  {
+   "cause": "str_dtype_object_checks",
+   "engine": "dask",
+   "script": "results/rootcause/repro/str_dtype_object_checks.py",
+   "command": "cd /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/results/rootcause/repro && env PCONF_REPRO_MODE=dask  /Users/sonha/Documents/SonHa/SIGMOD27/06_pandas_conformance/envs/dask/bin/python str_dtype_object_checks.py",
+   "status": "pending"
+  }
+ ]
+}

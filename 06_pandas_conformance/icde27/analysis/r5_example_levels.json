@@ -1,0 +1,99 @@
+{
+ "pandas": "3.0.6",
+ "numpy": "2.5.3",
+ "all_as_expected": true,
+ "cases": [
+  {
+   "case": "identical copy",
+   "level": "E0",
+   "expected": "E0",
+   "match": "",
+   "first_failing_check": {}
+  },
+  {
+   "case": "rows permuted (index carried)",
+   "level": "E1",
+   "expected": "E1",
+   "match": "sort",
+   "first_failing_check": {
+    "E0": "index:values:index0:row=0"
+   }
+  },
+  {
+   "case": "int64 column widened to float64",
+   "level": "E2",
+   "expected": "E2",
+   "match": "identity",
+   "first_failing_check": {
+    "E0": "dtype:col0:int64/float64",
+    "E1": "dtype:col0:int64/float64"
+   }
+  },
+  {
+   "case": "float values within 1e-9 relative",
+   "level": "E2",
+   "expected": "E2",
+   "match": "identity",
+   "first_failing_check": {
+    "E0": "values:col1:row=0",
+    "E1": "values:col1:row=0"
+   }
+  },
+  {
+   "case": "None replaced by NaN in a mixed object column",
+   "level": "E3",
+   "expected": "E3",
+   "match": "identity",
+   "first_failing_check": {
+    "E0": "values:col3:row=1",
+    "E1": "values:col3:row=1",
+    "E2": "sentinel:col3:row=1:1/2"
+   }
+  },
+  {
+   "case": "index labels dropped",
+   "level": "E4",
+   "expected": "E4",
+   "match": "identity",
+   "first_failing_check": {
+    "E0": "names:index_names",
+    "E1": "names:index_names",
+    "E2": "names:index_names",
+    "E3": "names:index_names"
+   }
+  },
+  {
+   "case": "one value changed",
+   "level": "DIFF",
+   "expected": "DIFF",
+   "match": "",
+   "first_failing_check": {
+    "E0": "values:col1:row=1",
+    "E1": "values:col1:row=1",
+    "E2": "values:col1:row=1",
+    "E3": "values:col1:row=1",
+    "E4": "values:col1:row=1"
+   }
+  },
+  {
+   "case": "list holding a 200-row frame, middle row changed (printed form)",
+   "level": "E0",
+   "expected": "E0",
+   "match": "",
+   "first_failing_check": {}
+  },
+  {
+   "case": "the same two frames compared directly",
+   "level": "DIFF",
+   "expected": "DIFF",
+   "match": "",
+   "first_failing_check": {
+    "E0": "values:col0:row=100",
+    "E1": "values:col0:row=100",
+    "E2": "values:col0:row=100",
+    "E3": "values:col0:row=100",
+    "E4": "values:col0:row=100"
+   }
+  }
+ ]
+}

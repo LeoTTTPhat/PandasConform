@@ -1,0 +1,1696 @@
+{
+ "method": "The cells are those of results/rootcause/taxonomy_conf1x.json causes.unattributed (117: 111 DIFF, 4 E2,\n2 ERR). For each cell, icde27/analysis/r1_unattributed_dump.py printed an evidence sheet (the cell code with called\nuser functions, every output's level and failing checks, the first differing rows of both values decoded from the\nstore, and the engine's warnings); targeted follow-ups decoded single columns, column labels or cell inputs and\nread neighbouring cells (scratch tool, values shown on screen only). One rater, the AI agent that prepared the\nICDE revision (see the paper's AI-content acknowledgement), assigned one cause per cell, reusing a Table II cause\nwhen it fits, and recorded the evidence without data values. Confidence: `verified` = the\nevidence shows the mechanism (for example the frame equals the reference while its head() differs, or the column\nlabels change type); `likely` = the symptom matches a verified sibling cell or a documented behaviour but this cell\nwas not checked separately; `undetermined` = symptom only. This is a single-rater attribution that no\nsecond rater has checked.",
+ "cells": 117,
+ "by_class": {
+  "DIFF": 111,
+  "E2": 4,
+  "ERR": 2
+ },
+ "by_confidence": {
+  "verified": 94,
+  "likely": 21,
+  "undetermined": 2
+ },
+ "by_mechanism": {
+  "missing or erroneous support": 35,
+  "representation choice": 32,
+  "parallel or lazy execution": 31,
+  "harness artefact": 16,
+  "undetermined": 2,
+  "pandas evolution": 1
+ },
+ "by_cause": {
+  "printed_form_comparison": 16,
+  "row_order_ties": 10,
+  "str_of_missing_sentinel": 8,
+  "stale_after_inplace_update": 6,
+  "integer_labels_as_strings": 6,
+  "read_csv_none_as_na": 6,
+  "cow_chained_assignment": 4,
+  "arrow_int_keeps_type": 4,
+  "biased_skew": 4,
+  "lazy_partition_model": 4,
+  "unique_nunique_missing": 4,
+  "float_rounding_amplified": 4,
+  "float_rounding_within_tolerance": 4,
+  "nested_list_as_array": 4,
+  "apply_side_effects_lost": 4,
+  "dask_value_counts_order": 3,
+  "undetermined": 2,
+  "dask_api_semantics": 2,
+  "groupby_median_other_value": 2,
+  "loc_setitem_inplace": 2,
+  "partitioned_type_inference": 2,
+  "arrow_dtype_errors": 2,
+  "tz_dropped_at_parse": 1,
+  "index_not_preserved": 1,
+  "unstack_labels_as_lists": 1,
+  "fill_value_coerced": 1,
+  "float32_promoted": 1,
+  "corr_infinite_values": 1,
+  "describe_datetime_numeric": 1,
+  "concat_sort_ignored": 1,
+  "get_dummies_sep_ignored": 1,
+  "concat_unnamed_labels": 1,
+  "melt_category_dtype": 1,
+  "arrow_backed_dtypes": 1,
+  "str_dtype_object_checks": 1,
+  "arrow_nan_not_null": 1
+ },
+ "DIFF_by_mechanism": {
+  "missing or erroneous support": 33,
+  "representation choice": 32,
+  "parallel or lazy execution": 27,
+  "harness artefact": 16,
+  "undetermined": 2,
+  "pandas evolution": 1
+ },
+ "by_label_mechanism": {
+  "bodo": {
+   "missing or erroneous support": 5,
+   "representation choice": 14,
+   "harness artefact": 5,
+   "undetermined": 1,
+   "parallel or lazy execution": 1
+  },
+  "dask": {
+   "missing or erroneous support": 3,
+   "parallel or lazy execution": 7
+  },
+  "fireducks": {
+   "missing or erroneous support": 19,
+   "representation choice": 9,
+   "parallel or lazy execution": 9,
+   "harness artefact": 2
+  },
+  "modin": {
+   "harness artefact": 2,
+   "missing or erroneous support": 4,
+   "parallel or lazy execution": 11,
+   "undetermined": 1
+  },
+  "p15": {
+   "pandas evolution": 1
+  },
+  "pyarrow_backend": {
+   "harness artefact": 7,
+   "representation choice": 9,
+   "missing or erroneous support": 4,
+   "parallel or lazy execution": 3
+  }
+ },
+ "causes": {
+  "stale_after_inplace_update": {
+   "title": "results computed from data as it was before an in-place update",
+   "mechanism": "missing or erroneous support",
+   "cells": 6,
+   "labels": {
+    "bodo": 3,
+    "fireducks": 3
+   }
+  },
+  "cow_chained_assignment": {
+   "title": "in-place method on a column selection does not write through",
+   "mechanism": "representation choice",
+   "cells": 4,
+   "labels": {
+    "bodo": 4
+   }
+  },
+  "printed_form_comparison": {
+   "title": "container or object value compared by its printed form",
+   "mechanism": "harness artefact",
+   "cells": 16,
+   "labels": {
+    "bodo": 5,
+    "fireducks": 2,
+    "modin": 2,
+    "pyarrow_backend": 7
+   }
+  },
+  "str_of_missing_sentinel": {
+   "title": "str() of a missing value gives 'nan', 'None' or '<NA>'",
+   "mechanism": "representation choice",
+   "cells": 8,
+   "labels": {
+    "bodo": 2,
+    "fireducks": 3,
+    "pyarrow_backend": 3
+   }
+  },
+  "arrow_int_keeps_type": {
+   "title": "Arrow integer column keeps its type when filled with a float (truncation)",
+   "mechanism": "representation choice",
+   "cells": 4,
+   "labels": {
+    "bodo": 1,
+    "pyarrow_backend": 3
+   }
+  },
+  "arrow_nan_not_null": {
+   "title": "Arrow float column keeps NaN distinct from null (fillna leaves NaN)",
+   "mechanism": "representation choice",
+   "cells": 1,
+   "labels": {
+    "pyarrow_backend": 1
+   }
+  },
+  "row_order_ties": {
+   "title": "order of tied sort or count keys exposed by head() or slicing",
+   "mechanism": "parallel or lazy execution",
+   "cells": 10,
+   "labels": {
+    "bodo": 1,
+    "fireducks": 6,
+    "pyarrow_backend": 3
+   }
+  },
+  "dask_value_counts_order": {
+   "title": "value_counts not ordered by count",
+   "mechanism": "parallel or lazy execution",
+   "cells": 3,
+   "labels": {
+    "dask": 3
+   }
+  },
+  "biased_skew": {
+   "title": "skewness without the sample-size correction",
+   "mechanism": "missing or erroneous support",
+   "cells": 4,
+   "labels": {
+    "bodo": 1,
+    "dask": 1,
+    "pyarrow_backend": 2
+   }
+  },
+  "integer_labels_as_strings": {
+   "title": "integer column labels become strings",
+   "mechanism": "representation choice",
+   "cells": 6,
+   "labels": {
+    "bodo": 6
+   }
+  },
+  "tz_dropped_at_parse": {
+   "title": "time zone dropped when parsing dates",
+   "mechanism": "missing or erroneous support",
+   "cells": 1,
+   "labels": {
+    "bodo": 1
+   }
+  },
+  "index_not_preserved": {
+   "title": "filter result carries positions instead of index labels",
+   "mechanism": "representation choice",
+   "cells": 1,
+   "labels": {
+    "bodo": 1
+   }
+  },
+  "lazy_partition_model": {
+   "title": "lazy value used where a computed value is expected",
+   "mechanism": "parallel or lazy execution",
+   "cells": 4,
+   "labels": {
+    "dask": 4
+   }
+  },
+  "dask_api_semantics": {
+   "title": "constructor returns a Series for DataFrame(Series)",
+   "mechanism": "missing or erroneous support",
+   "cells": 2,
+   "labels": {
+    "dask": 2
+   }
+  },
+  "read_csv_none_as_na": {
+   "title": "the string 'None' is kept as text where pandas reads it as missing",
+   "mechanism": "missing or erroneous support",
+   "cells": 6,
+   "labels": {
+    "fireducks": 6
+   }
+  },
+  "unique_nunique_missing": {
+   "title": "unique() drops or nunique() counts missing values",
+   "mechanism": "missing or erroneous support",
+   "cells": 4,
+   "labels": {
+    "fireducks": 4
+   }
+  },
+  "groupby_median_other_value": {
+   "title": "group-by median returns another value",
+   "mechanism": "missing or erroneous support",
+   "cells": 2,
+   "labels": {
+    "fireducks": 2
+   }
+  },
+  "loc_setitem_inplace": {
+   "title": "loc[:, col] = replaces the column instead of setting values in place",
+   "mechanism": "missing or erroneous support",
+   "cells": 2,
+   "labels": {
+    "fireducks": 1,
+    "modin": 1
+   }
+  },
+  "unstack_labels_as_lists": {
+   "title": "unstack produces one-element list labels",
+   "mechanism": "missing or erroneous support",
+   "cells": 1,
+   "labels": {
+    "fireducks": 1
+   }
+  },
+  "float_rounding_amplified": {
+   "title": "float summation differences amplified by round()",
+   "mechanism": "parallel or lazy execution",
+   "cells": 4,
+   "labels": {
+    "fireducks": 2,
+    "modin": 2
+   }
+  },
+  "float_rounding_within_tolerance": {
+   "title": "float rounding within the tolerance",
+   "mechanism": "parallel or lazy execution",
+   "cells": 4,
+   "labels": {
+    "fireducks": 1,
+    "modin": 3
+   }
+  },
+  "nested_list_as_array": {
+   "title": "list values returned as NumPy arrays",
+   "mechanism": "representation choice",
+   "cells": 4,
+   "labels": {
+    "fireducks": 4
+   }
+  },
+  "fill_value_coerced": {
+   "title": "fill value coerced to the column's string type",
+   "mechanism": "representation choice",
+   "cells": 1,
+   "labels": {
+    "fireducks": 1
+   }
+  },
+  "float32_promoted": {
+   "title": "float32 arithmetic carried out in float64",
+   "mechanism": "representation choice",
+   "cells": 1,
+   "labels": {
+    "fireducks": 1
+   }
+  },
+  "corr_infinite_values": {
+   "title": "corr returns NaN where pandas skips infinite values",
+   "mechanism": "missing or erroneous support",
+   "cells": 1,
+   "labels": {
+    "fireducks": 1
+   }
+  },
+  "describe_datetime_numeric": {
+   "title": "describe() leaves out datetime columns",
+   "mechanism": "missing or erroneous support",
+   "cells": 1,
+   "labels": {
+    "fireducks": 1
+   }
+  },
+  "partitioned_type_inference": {
+   "title": "mixed-type column inferred per partition",
+   "mechanism": "parallel or lazy execution",
+   "cells": 2,
+   "labels": {
+    "modin": 2
+   }
+  },
+  "concat_sort_ignored": {
+   "title": "concat(sort=True) does not sort the columns",
+   "mechanism": "missing or erroneous support",
+   "cells": 1,
+   "labels": {
+    "modin": 1
+   }
+  },
+  "apply_side_effects_lost": {
+   "title": "side effects of functions passed to apply are lost",
+   "mechanism": "parallel or lazy execution",
+   "cells": 4,
+   "labels": {
+    "modin": 4
+   }
+  },
+  "get_dummies_sep_ignored": {
+   "title": "str.get_dummies ignores the separator",
+   "mechanism": "missing or erroneous support",
+   "cells": 1,
+   "labels": {
+    "modin": 1
+   }
+  },
+  "concat_unnamed_labels": {
+   "title": "concat of unnamed Series gives other column labels",
+   "mechanism": "missing or erroneous support",
+   "cells": 1,
+   "labels": {
+    "modin": 1
+   }
+  },
+  "melt_category_dtype": {
+   "title": "melt keeps a categorical variable column (pandas 1.5.3)",
+   "mechanism": "pandas evolution",
+   "cells": 1,
+   "labels": {
+    "p15": 1
+   }
+  },
+  "str_dtype_object_checks": {
+   "title": "dtype-name check selects other columns",
+   "mechanism": "representation choice",
+   "cells": 1,
+   "labels": {
+    "pyarrow_backend": 1
+   }
+  },
+  "arrow_backed_dtypes": {
+   "title": "Arrow-typed columns change which columns describe() covers",
+   "mechanism": "representation choice",
+   "cells": 1,
+   "labels": {
+    "pyarrow_backend": 1
+   }
+  },
+  "arrow_dtype_errors": {
+   "title": "error on Arrow-backed data",
+   "mechanism": "missing or erroneous support",
+   "cells": 2,
+   "labels": {
+    "pyarrow_backend": 2
+   }
+  },
+  "undetermined": {
+   "title": "mechanism not determined",
+   "mechanism": "undetermined",
+   "cells": 2,
+   "labels": {
+    "bodo": 1,
+    "modin": 1
+   }
+  }
+ },
+ "rows": [
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "artgor/eda-and-models",
+   "cell": 34,
+   "cls": "DIFF",
+   "cause": "stale_after_inplace_update",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "the frame equals the reference (clean input); its head() shows values from before the column assignment of the previous cell"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "ayushsingh5941/tweet-disaster-or-not",
+   "cell": 9,
+   "cls": "DIFF",
+   "cause": "cow_chained_assignment",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "fillna(inplace=True) on a column selection inside a user function; missing values remain"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "ayushsingh5941/tweet-disaster-or-not",
+   "cell": 10,
+   "cls": "DIFF",
+   "cause": "cow_chained_assignment",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "same function on the test frame; missing values remain"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "balajivenkat96/solar-plants",
+   "cell": 18,
+   "cls": "DIFF",
+   "cause": "printed_form_comparison",
+   "mechanism": "harness artefact",
+   "confidence": "verified",
+   "evidence": "dict of frames compared as text; dates render with a time part"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   "cell": 1,
+   "cls": "DIFF",
+   "cause": "printed_form_comparison",
+   "mechanism": "harness artefact",
+   "confidence": "verified",
+   "evidence": "dict of frames compared as text"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "brianmendieta/data-cleaning-plus-eda",
+   "cell": 15,
+   "cls": "DIFF",
+   "cause": "undetermined",
+   "mechanism": "undetermined",
+   "confidence": "undetermined",
+   "evidence": "str.extract result differs after a str.replace in the previous cell; not resolved"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "ersinsen/fraud-3-eda",
+   "cell": 17,
+   "cls": "DIFF",
+   "cause": "str_of_missing_sentinel",
+   "mechanism": "representation choice",
+   "confidence": "likely",
+   "evidence": "suffix column built from str(x) of missing values (verified for FireDucks and the pyarrow backend on the same column)"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "gmanish/help-ngo-country-clustering",
+   "cell": 9,
+   "cls": "DIFF",
+   "cause": "stale_after_inplace_update",
+   "mechanism": "missing or erroneous support",
+   "confidence": "likely",
+   "evidence": "the frame equals the reference; head() shows the untransformed column values"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "jackwatson99/pima-indians-diabetes-rf-81",
+   "cell": 6,
+   "cls": "DIFF",
+   "cause": "arrow_int_keeps_type",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "replace(0, mean) keeps int64[pyarrow] and truncates the mean"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "jagangupta/stop-the-s-toxic-comments-eda",
+   "cell": 12,
+   "cls": "DIFF",
+   "cause": "integer_labels_as_strings",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "crosstab column labels 0/1 become the strings '0'/'1'; the list of crosstabs differs in print"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "jagangupta/stop-the-s-toxic-comments-eda",
+   "cell": 14,
+   "cls": "DIFF",
+   "cause": "integer_labels_as_strings",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "crosstab column labels become strings"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "julieberteaux/workshop-2",
+   "cell": 10,
+   "cls": "DIFF",
+   "cause": "cow_chained_assignment",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "fillna(-1, inplace=True) on a column selection; missing values remain"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "kenjee/titanic-project-example",
+   "cell": 13,
+   "cls": "DIFF",
+   "cause": "integer_labels_as_strings",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "pivot_table column labels become strings"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "kenjee/titanic-project-example",
+   "cell": 14,
+   "cls": "DIFF",
+   "cause": "str_of_missing_sentinel",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "str(x)[0] of a missing value gives '<' instead of 'n'"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "kwullum/when-do-traffic-related-deaths-occur",
+   "cell": 4,
+   "cls": "DIFF",
+   "cause": "stale_after_inplace_update",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "the assigned frame equals the reference (E2); its head() shows the column before map()"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "luizep/movieslens20m",
+   "cell": 10,
+   "cls": "DIFF",
+   "cause": "biased_skew",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "ratio to the pandas value is 1 + 1.5/n for n rows, the sample-size correction"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "mahtieu/nyc-taxi-fare-prediction-data-expl-xgboost",
+   "cell": 2,
+   "cls": "DIFF",
+   "cause": "tz_dropped_at_parse",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "parse_dates gives naive timestamps where pandas keeps UTC"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "nadare/feature-engenieering-with-pivot-table",
+   "cell": 3,
+   "cls": "DIFF",
+   "cause": "integer_labels_as_strings",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "pivot_table column labels become strings"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "nadare/feature-engenieering-with-pivot-table",
+   "cell": 12,
+   "cls": "DIFF",
+   "cause": "integer_labels_as_strings",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "pivot_table column labels become strings"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   "cell": 10,
+   "cls": "DIFF",
+   "cause": "row_order_ties",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "sort on a key with ties, then the first 20 rows"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "salmaneunus/student-s-performance-quantitative-visual-eda",
+   "cell": 16,
+   "cls": "DIFF",
+   "cause": "printed_form_comparison",
+   "mechanism": "harness artefact",
+   "confidence": "verified",
+   "evidence": "list holding a Series compared as text; dtype names differ"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "santhoshrao1995/assi01-santhosh-19101036",
+   "cell": 2,
+   "cls": "DIFF",
+   "cause": "cow_chained_assignment",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "replace(inplace=True) on a column selection; values not replaced"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+   "cell": 1,
+   "cls": "DIFF",
+   "cause": "printed_form_comparison",
+   "mechanism": "harness artefact",
+   "confidence": "verified",
+   "evidence": "list of frames compared as text; sentinel and float formatting differ"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "snanilim/video-games-sales-analysis-and-visualization",
+   "cell": 2,
+   "cls": "DIFF",
+   "cause": "index_not_preserved",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "filter result's index holds positions, so drop() removes other rows"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "sudheer259/house-price-prediction",
+   "cell": 82,
+   "cls": "DIFF",
+   "cause": "integer_labels_as_strings",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "DataFrame(Series) column label 0 becomes '0'"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "bodo",
+   "nb": "taylorhickem/singapore-building-energy",
+   "cell": 3,
+   "cls": "DIFF",
+   "cause": "printed_form_comparison",
+   "mechanism": "harness artefact",
+   "confidence": "verified",
+   "evidence": "dict holding frames compared as text; the printed type name differs"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "dask",
+   "nb": "akshaypetkar/supermarket-sales-analysis",
+   "cell": 18,
+   "cls": "DIFF",
+   "cause": "dask_api_semantics",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "DataFrame(Series) returns a Series"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "dask",
+   "nb": "akshaypetkar/supermarket-sales-analysis",
+   "cell": 19,
+   "cls": "DIFF",
+   "cause": "dask_api_semantics",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "DataFrame(Series) returns a Series"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "dask",
+   "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   "cell": 1,
+   "cls": "DIFF",
+   "cause": "lazy_partition_model",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "dict holds lazy frames that are never computed"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "dask",
+   "nb": "jackwatson99/pima-indians-diabetes-rf-81",
+   "cell": 6,
+   "cls": "DIFF",
+   "cause": "lazy_partition_model",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "replace() inserts the lazy mean expression as a value"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "dask",
+   "nb": "luckygemini/notebook5d5fc80c9f",
+   "cell": 4,
+   "cls": "DIFF",
+   "cause": "lazy_partition_model",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "str() of a lazy scalar"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "dask",
+   "nb": "luizep/movieslens20m",
+   "cell": 10,
+   "cls": "DIFF",
+   "cause": "biased_skew",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "same value as Bodo and the pyarrow backend; ratio 1 + 1.5/n"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "dask",
+   "nb": "madseth/customer-shopping-trends-dataset-eda",
+   "cell": 19,
+   "cls": "DIFF",
+   "cause": "dask_value_counts_order",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "value_counts ordered by label, so head(10) keeps other labels"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "dask",
+   "nb": "salmaneunus/student-s-performance-quantitative-visual-eda",
+   "cell": 16,
+   "cls": "DIFF",
+   "cause": "lazy_partition_model",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "list holds a lazy Series"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "dask",
+   "nb": "yashjaiswal1097/911-emergency-calls-kernel",
+   "cell": 3,
+   "cls": "DIFF",
+   "cause": "dask_value_counts_order",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "value_counts ordered by label"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "dask",
+   "nb": "yashjaiswal1097/911-emergency-calls-kernel",
+   "cell": 4,
+   "cls": "DIFF",
+   "cause": "dask_value_counts_order",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "value_counts ordered by label"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "ashukr/first-step-ingestion-to-prediction",
+   "cell": 1,
+   "cls": "DIFF",
+   "cause": "read_csv_none_as_na",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "the text 'None' stays a string in a column where pandas reads it as missing"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "beratozmen/clash-of-clans-exploratory-data-analysis",
+   "cell": 7,
+   "cls": "DIFF",
+   "cause": "unique_nunique_missing",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "unique() leaves out the missing value"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   "cell": 13,
+   "cls": "DIFF",
+   "cause": "groupby_median_other_value",
+   "mechanism": "missing or erroneous support",
+   "confidence": "likely",
+   "evidence": "the merged group-by median column differs; min, mean, max and count agree"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+   "cell": 9,
+   "cls": "DIFF",
+   "cause": "loc_setitem_inplace",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "loc[:, col] = to_datetime(...) gives datetime64 where pandas keeps object"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "danielresende/game-of-thrones-battles",
+   "cell": 5,
+   "cls": "DIFF",
+   "cause": "stale_after_inplace_update",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "two .at assignments in an earlier cell are visible in the captured frame but not in this group-by"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "danielresende/game-of-thrones-battles",
+   "cell": 7,
+   "cls": "DIFF",
+   "cause": "stale_after_inplace_update",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "same frame, another group-by"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "danielresende/game-of-thrones-battles",
+   "cell": 8,
+   "cls": "DIFF",
+   "cause": "stale_after_inplace_update",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "boolean filter returns the row as before the .at assignments"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "dbatao/kernel2f80fc9d78",
+   "cell": 3,
+   "cls": "DIFF",
+   "cause": "read_csv_none_as_na",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "the text 'None' stays a string"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "ersinsen/fraud-3-eda",
+   "cell": 17,
+   "cls": "DIFF",
+   "cause": "str_of_missing_sentinel",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "str(x) of a missing value gives 'None' instead of 'nan'"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "grudd0/mass-shooting-analysis",
+   "cell": 22,
+   "cls": "DIFF",
+   "cause": "unstack_labels_as_lists",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "unstack produces one-element list column labels"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "grudd0/mass-shooting-analysis",
+   "cell": 43,
+   "cls": "DIFF",
+   "cause": "str_of_missing_sentinel",
+   "mechanism": "representation choice",
+   "confidence": "likely",
+   "evidence": "astype(str) of missing values in a concatenated text column"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "guyalmog/hr-analytics-predicting-employees-attrition",
+   "cell": 6,
+   "cls": "DIFF",
+   "cause": "float_rounding_amplified",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "likely",
+   "evidence": "round(mean(axis=1), 2) differs in the last digit"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "j0thu777/onlineretailanalysis",
+   "cell": 27,
+   "cls": "E2",
+   "cause": "float_rounding_within_tolerance",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "group means differ in the last digits"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "jagangupta/stop-the-s-toxic-comments-eda",
+   "cell": 31,
+   "cls": "DIFF",
+   "cause": "nested_list_as_array",
+   "mechanism": "representation choice",
+   "confidence": "likely",
+   "evidence": "list-valued column from re.findall (arrays verified in a sibling cell)"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "jyotsananegi/melbourne-housing-snapshot-eda",
+   "cell": 4,
+   "cls": "DIFF",
+   "cause": "unique_nunique_missing",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "nunique() is one higher for every column with missing values"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "kenjee/titanic-project-example",
+   "cell": 14,
+   "cls": "DIFF",
+   "cause": "str_of_missing_sentinel",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "str(x)[0] of a missing value gives 'N' instead of 'n'"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "kmader/analyzing-matches",
+   "cell": 12,
+   "cls": "DIFF",
+   "cause": "printed_form_comparison",
+   "mechanism": "harness artefact",
+   "confidence": "verified",
+   "evidence": "list of frames compared as text; the frames are E2"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "luckygemini/notebook5d5fc80c9f",
+   "cell": 6,
+   "cls": "DIFF",
+   "cause": "nested_list_as_array",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "str.split returns arrays instead of lists"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+   "cell": 0,
+   "cls": "DIFF",
+   "cause": "read_csv_none_as_na",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "the text 'None' stays a string"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+   "cell": 22,
+   "cls": "DIFF",
+   "cause": "fill_value_coerced",
+   "mechanism": "representation choice",
+   "confidence": "likely",
+   "evidence": "fillna(0) on a string column stores the fill value with another encoding"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+   "cell": 28,
+   "cls": "DIFF",
+   "cause": "row_order_ties",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "likely",
+   "evidence": "sort on a key with ties, then order-dependent bfill/ffill"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "nadare/feature-engenieering-with-pivot-table",
+   "cell": 16,
+   "cls": "DIFF",
+   "cause": "float32_promoted",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "float32 computation returned as float64"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "nandhuelan/ott-platforms",
+   "cell": 11,
+   "cls": "DIFF",
+   "cause": "nested_list_as_array",
+   "mechanism": "representation choice",
+   "confidence": "likely",
+   "evidence": "list-valued columns from str.split"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "nihhaar/etltransform",
+   "cell": 4,
+   "cls": "DIFF",
+   "cause": "float_rounding_amplified",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "round(mean, 3) differs by one in the last digit"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   "cell": 10,
+   "cls": "DIFF",
+   "cause": "row_order_ties",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "sort on a key with ties, then the first 20 rows"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   "cell": 13,
+   "cls": "DIFF",
+   "cause": "row_order_ties",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "sort on tied counts, then the first 10 rows"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   "cell": 18,
+   "cls": "DIFF",
+   "cause": "unique_nunique_missing",
+   "mechanism": "missing or erroneous support",
+   "confidence": "likely",
+   "evidence": "a per-group nunique differs (plus tied order in the top rows)"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   "cell": 20,
+   "cls": "DIFF",
+   "cause": "row_order_ties",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "tied counts decide which 10 directors are kept"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   "cell": 24,
+   "cls": "DIFF",
+   "cause": "row_order_ties",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "sort on tied counts, then the first 10 rows"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "sal001/beginner-s-note-top-12-by-single-linear-model",
+   "cell": 1,
+   "cls": "DIFF",
+   "cause": "read_csv_none_as_na",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "the text 'None' stays a string"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "saniaks/melbourne-house-price-eda",
+   "cell": 31,
+   "cls": "DIFF",
+   "cause": "corr_infinite_values",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "a column with infinite values gives a NaN row where pandas returns finite correlations"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "shivavashishtha/zomato-eda-tutorial",
+   "cell": 69,
+   "cls": "DIFF",
+   "cause": "nested_list_as_array",
+   "mechanism": "representation choice",
+   "confidence": "likely",
+   "evidence": "list-valued column from str.split"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+   "cell": 1,
+   "cls": "DIFF",
+   "cause": "printed_form_comparison",
+   "mechanism": "harness artefact",
+   "confidence": "verified",
+   "evidence": "list of frames compared as text"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "sudheer259/house-price-prediction",
+   "cell": 2,
+   "cls": "DIFF",
+   "cause": "read_csv_none_as_na",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "the text 'None' stays a string"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "sudheer259/house-price-prediction",
+   "cell": 127,
+   "cls": "DIFF",
+   "cause": "read_csv_none_as_na",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "the text 'None' stays a string"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "sunnybiswas/eda-on-airline-dataset",
+   "cell": 17,
+   "cls": "DIFF",
+   "cause": "row_order_ties",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "value_counts with tied counts, then head(20)"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "vbmokin/automatic-eda-with-pandas-profiling-2-9-09-2020",
+   "cell": 7,
+   "cls": "DIFF",
+   "cause": "groupby_median_other_value",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "group median differs from both the median and the mean of the group recomputed from the reference input"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "willkoehrsen/start-here-a-gentle-introduction",
+   "cell": 10,
+   "cls": "DIFF",
+   "cause": "unique_nunique_missing",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "nunique() is one higher for columns with missing values"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "fireducks",
+   "nb": "xokent/cyber-security-attack-eda",
+   "cell": 5,
+   "cls": "DIFF",
+   "cause": "describe_datetime_numeric",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "describe() leaves out the datetime column"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "balajivenkat96/solar-plants",
+   "cell": 21,
+   "cls": "DIFF",
+   "cause": "printed_form_comparison",
+   "mechanism": "harness artefact",
+   "confidence": "likely",
+   "evidence": "dict of Series compared as text"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+   "cell": 9,
+   "cls": "DIFF",
+   "cause": "loc_setitem_inplace",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "loc[:, col] = to_datetime(...) gives datetime64 where pandas keeps object"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "chinstan/notebook249b4f3f5b",
+   "cell": 2,
+   "cls": "DIFF",
+   "cause": "partitioned_type_inference",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "likely",
+   "evidence": "mixed-type object column parsed differently"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "dbatao/kernel2f80fc9d78",
+   "cell": 22,
+   "cls": "DIFF",
+   "cause": "concat_sort_ignored",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "concat(sort=True) keeps the original column order"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "guyalmog/hr-analytics-predicting-employees-attrition",
+   "cell": 6,
+   "cls": "DIFF",
+   "cause": "float_rounding_amplified",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "likely",
+   "evidence": "round(mean(axis=1), 2) differs in the last digit"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "j0thu777/onlineretailanalysis",
+   "cell": 20,
+   "cls": "DIFF",
+   "cause": "printed_form_comparison",
+   "mechanism": "harness artefact",
+   "confidence": "verified",
+   "evidence": "a bound method (not called) stored as values, compared as text"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "j0thu777/onlineretailanalysis",
+   "cell": 27,
+   "cls": "E2",
+   "cause": "float_rounding_within_tolerance",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "group means differ in the last digits"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "jirakst/book-recommendation",
+   "cell": 2,
+   "cls": "DIFF",
+   "cause": "partitioned_type_inference",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "likely",
+   "evidence": "mixed-type object column parsed differently"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "loveall/favorita-analytics",
+   "cell": 5,
+   "cls": "E2",
+   "cause": "float_rounding_within_tolerance",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "group sums differ in the last digits"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "loveall/favorita-analytics",
+   "cell": 10,
+   "cls": "E2",
+   "cause": "float_rounding_within_tolerance",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "group sums differ in the last digits"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "luizep/movieslens20m",
+   "cell": 13,
+   "cls": "DIFF",
+   "cause": "get_dummies_sep_ignored",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "str.get_dummies yields one column per distinct string instead of per separated token"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "nihhaar/etltransform",
+   "cell": 4,
+   "cls": "DIFF",
+   "cause": "float_rounding_amplified",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "round(mean, 3) differs by one in the last digit"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "nihhaar/etltransform",
+   "cell": 7,
+   "cls": "DIFF",
+   "cause": "undetermined",
+   "mechanism": "undetermined",
+   "confidence": "undetermined",
+   "evidence": "group-by on pd.cut bins returns smaller sums; not resolved"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "shivavashishtha/zomato-eda-tutorial",
+   "cell": 33,
+   "cls": "DIFF",
+   "cause": "apply_side_effects_lost",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "apply() extends a global list in workers; the driver's list keeps 5 of the reference's elements"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "shivavashishtha/zomato-eda-tutorial",
+   "cell": 39,
+   "cls": "DIFF",
+   "cause": "apply_side_effects_lost",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "same pattern; 8 elements remain"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "yonelanuba/elo-merchant-by-yonela",
+   "cell": 25,
+   "cls": "DIFF",
+   "cause": "concat_unnamed_labels",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "concat of two unnamed Series yields duplicate labels after rename"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "yonelanuba/elo-merchant-by-yonela",
+   "cell": 75,
+   "cls": "DIFF",
+   "cause": "apply_side_effects_lost",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "a function passed to apply mutates list elements; the mutation is lost"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "modin",
+   "nb": "yonelanuba/elo-merchant-by-yonela",
+   "cell": 80,
+   "cls": "DIFF",
+   "cause": "apply_side_effects_lost",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "same function on the test frame"
+  },
+  {
+   "campaign": "drift",
+   "label": "p15",
+   "nb": "xokent/cyber-security-attack-eda",
+   "cell": 7,
+   "cls": "DIFF",
+   "cause": "melt_category_dtype",
+   "mechanism": "pandas evolution",
+   "confidence": "verified",
+   "evidence": "melt keeps a categorical variable column under pandas 1.5.3"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   "cell": 1,
+   "cls": "DIFF",
+   "cause": "printed_form_comparison",
+   "mechanism": "harness artefact",
+   "confidence": "verified",
+   "evidence": "dict of frames compared as text"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "chinstan/notebook249b4f3f5b",
+   "cell": 7,
+   "cls": "DIFF",
+   "cause": "arrow_backed_dtypes",
+   "mechanism": "representation choice",
+   "confidence": "likely",
+   "evidence": "describe() covers fewer columns: all-missing columns get a non-numeric Arrow type"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "ersinsen/fraud-3-eda",
+   "cell": 17,
+   "cls": "DIFF",
+   "cause": "str_of_missing_sentinel",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "str(x) of a missing value gives '<NA>' instead of 'nan'"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "grudd0/mass-shooting-analysis",
+   "cell": 43,
+   "cls": "DIFF",
+   "cause": "str_of_missing_sentinel",
+   "mechanism": "representation choice",
+   "confidence": "likely",
+   "evidence": "astype(str) of missing values in a concatenated text column"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "jackwatson99/pima-indians-diabetes-rf-81",
+   "cell": 6,
+   "cls": "DIFF",
+   "cause": "arrow_int_keeps_type",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "replace(0, mean) keeps int64[pyarrow] and truncates the mean"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "kenjee/titanic-project-example",
+   "cell": 14,
+   "cls": "DIFF",
+   "cause": "str_of_missing_sentinel",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "str(x)[0] of a missing value gives '<' instead of 'n'"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "kmader/analyzing-matches",
+   "cell": 12,
+   "cls": "DIFF",
+   "cause": "printed_form_comparison",
+   "mechanism": "harness artefact",
+   "confidence": "verified",
+   "evidence": "list of frames compared as text; the frames are E2"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "luizep/movieslens20m",
+   "cell": 10,
+   "cls": "DIFF",
+   "cause": "biased_skew",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "same value as Bodo and Dask; ratio 1 + 1.5/n"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+   "cell": 28,
+   "cls": "DIFF",
+   "cause": "row_order_ties",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "likely",
+   "evidence": "sort on a key with ties, then order-dependent bfill/ffill"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   "cell": 10,
+   "cls": "DIFF",
+   "cause": "row_order_ties",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "sort on a key with ties, then the first 20 rows"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "penny8/my-sub1",
+   "cell": 19,
+   "cls": "DIFF",
+   "cause": "printed_form_comparison",
+   "mechanism": "harness artefact",
+   "confidence": "verified",
+   "evidence": "list of Series compared as text; float formatting and dtype names differ"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "penny8/my-sub1",
+   "cell": 20,
+   "cls": "DIFF",
+   "cause": "printed_form_comparison",
+   "mechanism": "harness artefact",
+   "confidence": "verified",
+   "evidence": "list of Series compared as text"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697",
+   "cell": 4,
+   "cls": "DIFF",
+   "cause": "str_dtype_object_checks",
+   "mechanism": "representation choice",
+   "confidence": "likely",
+   "evidence": "select_dtypes('float') finds fewer columns because integral columns with missing values stay integer-typed"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "salmaneunus/student-s-performance-quantitative-visual-eda",
+   "cell": 16,
+   "cls": "DIFF",
+   "cause": "printed_form_comparison",
+   "mechanism": "harness artefact",
+   "confidence": "verified",
+   "evidence": "list holding a Series compared as text; dtype names differ"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "salmaneunus/student-s-performance-quantitative-visual-eda",
+   "cell": 30,
+   "cls": "DIFF",
+   "cause": "biased_skew",
+   "mechanism": "missing or erroneous support",
+   "confidence": "verified",
+   "evidence": "agg 'skew' ratio 1 + 1.5/n"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+   "cell": 1,
+   "cls": "DIFF",
+   "cause": "printed_form_comparison",
+   "mechanism": "harness artefact",
+   "confidence": "verified",
+   "evidence": "list of frames compared as text"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "sudheer259/house-price-prediction",
+   "cell": 9,
+   "cls": "DIFF",
+   "cause": "arrow_int_keeps_type",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "fillna(mean) on an integer-typed Arrow column truncates the mean"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "sudheer259/house-price-prediction",
+   "cell": 130,
+   "cls": "DIFF",
+   "cause": "arrow_int_keeps_type",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "fillna(mean) on integer-typed Arrow columns truncates the means"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "sunnybiswas/eda-on-airline-dataset",
+   "cell": 17,
+   "cls": "DIFF",
+   "cause": "row_order_ties",
+   "mechanism": "parallel or lazy execution",
+   "confidence": "verified",
+   "evidence": "value_counts with tied counts, then head(20)"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "taylorhickem/singapore-building-energy",
+   "cell": 3,
+   "cls": "DIFF",
+   "cause": "printed_form_comparison",
+   "mechanism": "harness artefact",
+   "confidence": "verified",
+   "evidence": "dict holding frames compared as text"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "wyl4417/machine-learning-and-how-it-affects-you",
+   "cell": 6,
+   "cls": "ERR",
+   "cause": "arrow_dtype_errors",
+   "mechanism": "missing or erroneous support",
+   "confidence": "likely",
+   "evidence": "pivot_table with a lambda aggregate raises KeyError on Arrow-typed data"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "wyl4417/machine-learning-and-how-it-affects-you",
+   "cell": 14,
+   "cls": "ERR",
+   "cause": "arrow_dtype_errors",
+   "mechanism": "missing or erroneous support",
+   "confidence": "likely",
+   "evidence": "same pattern"
+  },
+  {
+   "campaign": "conf_1x",
+   "label": "pyarrow_backend",
+   "nb": "xingobar/computer-science-data-visualization",
+   "cell": 9,
+   "cls": "DIFF",
+   "cause": "arrow_nan_not_null",
+   "mechanism": "representation choice",
+   "confidence": "verified",
+   "evidence": "to_numeric(errors='coerce') leaves NaN that fillna(0) does not fill"
+  }
+ ]
+}

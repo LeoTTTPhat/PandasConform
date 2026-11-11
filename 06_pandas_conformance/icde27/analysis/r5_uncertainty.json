@@ -1,0 +1,3346 @@
+{
+ "generated_from": {
+  "summary_generated_utc": "2026-10-28T09:31:26Z",
+  "compare_tag": "d92c8db54d45b",
+  "harness_tag": "hd1c421ecb5ee",
+  "bootstrap": {
+   "resamples": 10000,
+   "seed": 20261026,
+   "unit": "notebook",
+   "interval": "percentile"
+  },
+  "capture_store": "captures/cols",
+  "obj_columns_read": 7842,
+  "obj_columns_missing": 1
+ },
+ "definition": "uncertain output is DIFF), in_match (an uncertain input agreed at E0-E4), in_diff (an uncertain input differed).",
+ "consistency_checks": {
+  "n": 66,
+  "mismatches": 0
+ },
+ "totals": {
+  "scored_cells": 19736,
+  "uncertain_scored_cells": 1379,
+  "printed_form_output_cells": 688,
+  "out_match": 332,
+  "readers_only": 691,
+  "in_match": 395,
+  "clean_E2_cells": 10313,
+  "clean_E2_removed": 497
+ },
+ "by_label": {
+  "bodo": {
+   "base": {
+    "scored": 2837,
+    "scored_le_E2": 972,
+    "scored_E0": 408,
+    "clean_E2": {
+     "num": 45,
+     "den": 753,
+     "share": 0.059761,
+     "ci95": [
+      0.03846,
+      0.085578
+     ]
+    },
+    "notebooks_introduced_DIFF_pure": {
+     "num": 47,
+     "ci95": [
+      0.362745,
+      0.558824
+     ]
+    },
+    "notebooks_with_clean_E2_cells": 102,
+    "scored_le_E2_share": 0.342615,
+    "scored_E0_share": 0.143814
+   },
+   "certain": {
+    "scored": 2591,
+    "scored_le_E2": 915,
+    "scored_E0": 385,
+    "clean_E2": {
+     "num": 35,
+     "den": 734,
+     "share": 0.047684,
+     "ci95": [
+      0.02736,
+      0.073306
+     ]
+    },
+    "notebooks_introduced_DIFF_pure": {
+     "num": 41,
+     "ci95": [
+      0.303922,
+      0.5
+     ]
+    },
+    "notebooks_with_clean_E2_cells": 101,
+    "scored_le_E2_share": 0.353146,
+    "scored_E0_share": 0.148591
+   },
+   "certain_kind": {
+    "scored": 2591,
+    "scored_le_E2": 915,
+    "scored_E0": 385,
+    "clean_E2": {
+     "num": 35,
+     "den": 734,
+     "share": 0.047684,
+     "ci95": [
+      0.02736,
+      0.073306
+     ]
+    },
+    "notebooks_introduced_DIFF_pure": {
+     "num": 41,
+     "ci95": [
+      0.303922,
+      0.5
+     ]
+    },
+    "notebooks_with_clean_E2_cells": 101,
+    "scored_le_E2_share": 0.353146,
+    "scored_E0_share": 0.148591
+   },
+   "clean_E2_DIFF_uncertain": [
+    {
+     "nb": "balajivenkat96/solar-plants",
+     "cell": 18,
+     "clean": "E2",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "split_by_inverters",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.DataFrame"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": true
+    },
+    {
+     "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+     "cell": 1,
+     "clean": "E0",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "data",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.DataFrame"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": true
+    },
+    {
+     "nb": "jagangupta/stop-the-s-toxic-comments-eda",
+     "cell": 12,
+     "clean": "E2",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "corr_mats",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.DataFrame"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "luizep/movieslens20m",
+     "cell": 7,
+     "clean": "E2",
+     "cause": "arrow_backed_dtypes",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.Int64DType",
+        "numpy.ObjectDType"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "nihhaar/etltransform",
+     "cell": 3,
+     "clean": "E2",
+     "cause": "arrow_backed_dtypes",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.Float64DType",
+        "numpy.Int64DType",
+        "numpy.ObjectDType"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "salmaneunus/student-s-performance-quantitative-visual-eda",
+     "cell": 11,
+     "clean": "E2",
+     "cause": "arrow_backed_dtypes",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.Int64DType",
+        "numpy.ObjectDType"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "salmaneunus/student-s-performance-quantitative-visual-eda",
+     "cell": 16,
+     "clean": "E2",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ],
+      [
+       "math_passed",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.Series"
+       ],
+       []
+      ],
+      [
+       [
+        "pandas.Series"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": true
+    },
+    {
+     "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+     "cell": 1,
+     "clean": "E0",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "full_data",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.DataFrame"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": true
+    },
+    {
+     "nb": "taylorhickem/singapore-building-energy",
+     "cell": 3,
+     "clean": "E0",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "tables",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "dict"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": true
+    },
+    {
+     "nb": "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+     "cell": 7,
+     "clean": "E2",
+     "cause": "arrow_backed_dtypes",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "df_tmp",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.ndarray"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    }
+   ],
+   "clean_E2_DIFF_uncertain_engine_object": 0,
+   "clean_E2_DIFF_uncertain_engine_object_shape": 0,
+   "uncertain_cells": {
+    "scored": 246,
+    "out_match": 15,
+    "out_diff": 80,
+    "in_match": 25,
+    "in_diff": 190,
+    "readers_only": 151,
+    "clean_E2_removed": 19,
+    "clean_E2_DIFF_removed": 10
+   },
+   "bounds_clean_E2_DIFF": {
+    "observed": 0.059761,
+    "lower": 0.059761,
+    "upper": 0.065508,
+    "cells_may_turn_DIFF": 4,
+    "readers_may_leave_nonDIFF": 5,
+    "readers_may_leave_DIFF": 0,
+    "den": 753
+   },
+   "bounds_notebooks_introduced_DIFF_pure": {
+    "observed": 47,
+    "lower": 47,
+    "upper": 49
+   }
+  },
+  "dask": {
+   "base": {
+    "scored": 2819,
+    "scored_le_E2": 508,
+    "scored_E0": 329,
+    "clean_E2": {
+     "num": 34,
+     "den": 545,
+     "share": 0.062385,
+     "ci95": [
+      0.038277,
+      0.089495
+     ]
+    },
+    "notebooks_introduced_DIFF_pure": {
+     "num": 24,
+     "ci95": [
+      0.156863,
+      0.323529
+     ]
+    },
+    "notebooks_with_clean_E2_cells": 102,
+    "scored_le_E2_share": 0.180206,
+    "scored_E0_share": 0.116708
+   },
+   "certain": {
+    "scored": 2637,
+    "scored_le_E2": 489,
+    "scored_E0": 314,
+    "clean_E2": {
+     "num": 15,
+     "den": 520,
+     "share": 0.028846,
+     "ci95": [
+      0.009728,
+      0.052347
+     ]
+    },
+    "notebooks_introduced_DIFF_pure": {
+     "num": 12,
+     "ci95": [
+      0.058824,
+      0.186275
+     ]
+    },
+    "notebooks_with_clean_E2_cells": 101,
+    "scored_le_E2_share": 0.185438,
+    "scored_E0_share": 0.119075
+   },
+   "certain_kind": {
+    "scored": 2678,
+    "scored_le_E2": 489,
+    "scored_E0": 314,
+    "clean_E2": {
+     "num": 29,
+     "den": 534,
+     "share": 0.054307,
+     "ci95": [
+      0.031423,
+      0.080925
+     ]
+    },
+    "notebooks_introduced_DIFF_pure": {
+     "num": 23,
+     "ci95": [
+      0.147059,
+      0.303922
+     ]
+    },
+    "notebooks_with_clean_E2_cells": 101,
+    "scored_le_E2_share": 0.182599,
+    "scored_E0_share": 0.117252
+   },
+   "clean_E2_DIFF_uncertain": [
+    {
+     "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+     "cell": 1,
+     "clean": "E0",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "data",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.DataFrame"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "brianmendieta/data-cleaning-plus-eda",
+     "cell": 6,
+     "clean": "E2",
+     "cause": "lazy_partition_model",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [],
+       [
+        "dask.Scalar"
+       ]
+      ]
+     ],
+     "engine_object_in_place_of_value": true,
+     "code_reads_shape": true,
+     "printed16": false
+    },
+    {
+     "nb": "corazzon/how-to-use-pandas-filter-in-survey-eda",
+     "cell": 2,
+     "clean": "E0",
+     "cause": "lazy_partition_model",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [],
+       [
+        "dask.Scalar"
+       ]
+      ]
+     ],
+     "engine_object_in_place_of_value": true,
+     "code_reads_shape": true,
+     "printed16": false
+    },
+    {
+     "nb": "gmanish/help-ngo-country-clustering",
+     "cell": 7,
+     "clean": "E2",
+     "cause": "lazy_partition_model",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [],
+       [
+        "dask.Scalar"
+       ]
+      ]
+     ],
+     "engine_object_in_place_of_value": true,
+     "code_reads_shape": true,
+     "printed16": false
+    },
+    {
+     "nb": "jackwatson99/pima-indians-diabetes-rf-81",
+     "cell": 6,
+     "clean": "E0",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "train_df",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [],
+       [
+        "dask.MeanAggregate"
+       ]
+      ]
+     ],
+     "engine_object_in_place_of_value": true,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "jirakst/book-recommendation",
+     "cell": 4,
+     "clean": "E2",
+     "cause": "lazy_partition_model",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [],
+       [
+        "dask.Scalar"
+       ]
+      ]
+     ],
+     "engine_object_in_place_of_value": true,
+     "code_reads_shape": true,
+     "printed16": false
+    },
+    {
+     "nb": "jirakst/book-recommendation",
+     "cell": 6,
+     "clean": "E2",
+     "cause": "lazy_partition_model",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [],
+       [
+        "dask.Scalar"
+       ]
+      ]
+     ],
+     "engine_object_in_place_of_value": true,
+     "code_reads_shape": true,
+     "printed16": false
+    },
+    {
+     "nb": "luizep/movieslens20m",
+     "cell": 7,
+     "clean": "E2",
+     "cause": "arrow_backed_dtypes",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.Int64DType",
+        "numpy.ObjectDType"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "madseth/customer-shopping-trends-dataset-eda",
+     "cell": 3,
+     "clean": "E2",
+     "cause": "lazy_partition_model",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [],
+       [
+        "dask.Scalar"
+       ]
+      ]
+     ],
+     "engine_object_in_place_of_value": true,
+     "code_reads_shape": true,
+     "printed16": false
+    },
+    {
+     "nb": "mathewvondersaar/analysis-of-student-performance",
+     "cell": 2,
+     "clean": "E2",
+     "cause": "lazy_partition_model",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [],
+       [
+        "dask.Scalar"
+       ]
+      ]
+     ],
+     "engine_object_in_place_of_value": true,
+     "code_reads_shape": true,
+     "printed16": false
+    },
+    {
+     "nb": "nihhaar/etltransform",
+     "cell": 2,
+     "clean": "E2",
+     "cause": "lazy_partition_model",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [],
+       [
+        "dask.Scalar"
+       ]
+      ]
+     ],
+     "engine_object_in_place_of_value": true,
+     "code_reads_shape": true,
+     "printed16": false
+    },
+    {
+     "nb": "nihhaar/etltransform",
+     "cell": 3,
+     "clean": "E2",
+     "cause": "arrow_backed_dtypes",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.Float64DType",
+        "numpy.Int64DType",
+        "numpy.ObjectDType"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "roopahegde/cryptocurrency-price-correlation",
+     "cell": 5,
+     "clean": "E2",
+     "cause": "lazy_partition_model",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [],
+       [
+        "dask.Scalar"
+       ]
+      ]
+     ],
+     "engine_object_in_place_of_value": true,
+     "code_reads_shape": true,
+     "printed16": false
+    },
+    {
+     "nb": "roopahegde/cryptocurrency-price-correlation",
+     "cell": 7,
+     "clean": "E2",
+     "cause": "lazy_partition_model",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [],
+       [
+        "dask.Scalar"
+       ]
+      ]
+     ],
+     "engine_object_in_place_of_value": true,
+     "code_reads_shape": true,
+     "printed16": false
+    },
+    {
+     "nb": "salmaneunus/student-s-performance-quantitative-visual-eda",
+     "cell": 11,
+     "clean": "E2",
+     "cause": "arrow_backed_dtypes",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.Int64DType",
+        "numpy.ObjectDType"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "salmaneunus/student-s-performance-quantitative-visual-eda",
+     "cell": 15,
+     "clean": "E2",
+     "cause": "lazy_partition_model",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [],
+       [
+        "dask.Scalar"
+       ]
+      ]
+     ],
+     "engine_object_in_place_of_value": true,
+     "code_reads_shape": true,
+     "printed16": false
+    },
+    {
+     "nb": "salmaneunus/student-s-performance-quantitative-visual-eda",
+     "cell": 16,
+     "clean": "E2",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ],
+      [
+       "math_passed",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.Series"
+       ],
+       []
+      ],
+      [
+       [
+        "pandas.Series"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "stefanjov/my-first-normalize-on-big-dataset",
+     "cell": 4,
+     "clean": "E2",
+     "cause": "lazy_partition_model",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [],
+       [
+        "dask.Scalar"
+       ]
+      ]
+     ],
+     "engine_object_in_place_of_value": true,
+     "code_reads_shape": true,
+     "printed16": false
+    },
+    {
+     "nb": "yonelanuba/elo-merchant-by-yonela",
+     "cell": 149,
+     "clean": "E2",
+     "cause": "lazy_partition_model",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [],
+       [
+        "dask.Scalar"
+       ]
+      ]
+     ],
+     "engine_object_in_place_of_value": true,
+     "code_reads_shape": true,
+     "printed16": false
+    }
+   ],
+   "clean_E2_DIFF_uncertain_engine_object": 14,
+   "clean_E2_DIFF_uncertain_engine_object_shape": 13,
+   "uncertain_cells": {
+    "scored": 182,
+    "out_match": 6,
+    "out_diff": 74,
+    "in_match": 11,
+    "in_diff": 105,
+    "readers_only": 102,
+    "clean_E2_removed": 25,
+    "clean_E2_DIFF_removed": 19
+   },
+   "bounds_clean_E2_DIFF": {
+    "observed": 0.062385,
+    "lower": 0.062385,
+    "upper": 0.069853,
+    "cells_may_turn_DIFF": 4,
+    "readers_may_leave_nonDIFF": 1,
+    "readers_may_leave_DIFF": 0,
+    "den": 545
+   },
+   "bounds_notebooks_introduced_DIFF_pure": {
+    "observed": 24,
+    "lower": 24,
+    "upper": 27
+   }
+  },
+  "fireducks": {
+   "base": {
+    "scored": 2811,
+    "scored_le_E2": 1775,
+    "scored_E0": 1470,
+    "clean_E2": {
+     "num": 34,
+     "den": 1248,
+     "share": 0.027244,
+     "ci95": [
+      0.016606,
+      0.039612
+     ]
+    },
+    "notebooks_introduced_DIFF_pure": {
+     "num": 43,
+     "ci95": [
+      0.323529,
+      0.519608
+     ]
+    },
+    "notebooks_with_clean_E2_cells": 102,
+    "scored_le_E2_share": 0.631448,
+    "scored_E0_share": 0.522946
+   },
+   "certain": {
+    "scored": 2650,
+    "scored_le_E2": 1709,
+    "scored_E0": 1425,
+    "clean_E2": {
+     "num": 28,
+     "den": 1201,
+     "share": 0.023314,
+     "ci95": [
+      0.013688,
+      0.034966
+     ]
+    },
+    "notebooks_introduced_DIFF_pure": {
+     "num": 37,
+     "ci95": [
+      0.274265,
+      0.460784
+     ]
+    },
+    "notebooks_with_clean_E2_cells": 101,
+    "scored_le_E2_share": 0.644906,
+    "scored_E0_share": 0.537736
+   },
+   "certain_kind": {
+    "scored": 2650,
+    "scored_le_E2": 1709,
+    "scored_E0": 1425,
+    "clean_E2": {
+     "num": 28,
+     "den": 1201,
+     "share": 0.023314,
+     "ci95": [
+      0.013688,
+      0.034966
+     ]
+    },
+    "notebooks_introduced_DIFF_pure": {
+     "num": 37,
+     "ci95": [
+      0.274265,
+      0.460784
+     ]
+    },
+    "notebooks_with_clean_E2_cells": 101,
+    "scored_le_E2_share": 0.644906,
+    "scored_E0_share": 0.537736
+   },
+   "clean_E2_DIFF_uncertain": [
+    {
+     "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+     "cell": 13,
+     "clean": "E2",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [],
+     "pf_inputs": [
+      [
+       "data",
+       "E2"
+      ]
+     ],
+     "printed_types_ref_eng": [],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "jagangupta/stop-the-s-toxic-comments-eda",
+     "cell": 31,
+     "clean": "E0",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "df",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "list"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "kmader/analyzing-matches",
+     "cell": 12,
+     "clean": "E2",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "out_df_list",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.DataFrame"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": true
+    },
+    {
+     "nb": "nadare/feature-engenieering-with-pivot-table",
+     "cell": 16,
+     "clean": "E0",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "bands",
+       "E2"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.Series"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+     "cell": 1,
+     "clean": "E0",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "full_data",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.DataFrame"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": true
+    },
+    {
+     "nb": "taylorhickem/singapore-building-energy",
+     "cell": 3,
+     "clean": "E0",
+     "cause": "cow_chained_assignment",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "tables",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "dict"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    }
+   ],
+   "clean_E2_DIFF_uncertain_engine_object": 0,
+   "clean_E2_DIFF_uncertain_engine_object_shape": 0,
+   "uncertain_cells": {
+    "scored": 161,
+    "out_match": 31,
+    "out_diff": 51,
+    "in_match": 28,
+    "in_diff": 85,
+    "readers_only": 80,
+    "clean_E2_removed": 47,
+    "clean_E2_DIFF_removed": 6
+   },
+   "bounds_clean_E2_DIFF": {
+    "observed": 0.027244,
+    "lower": 0.026464,
+    "upper": 0.046042,
+    "cells_may_turn_DIFF": 23,
+    "readers_may_leave_nonDIFF": 10,
+    "readers_may_leave_DIFF": 1,
+    "den": 1248
+   },
+   "bounds_notebooks_introduced_DIFF_pure": {
+    "observed": 43,
+    "lower": 43,
+    "upper": 47
+   }
+  },
+  "modin": {
+   "base": {
+    "scored": 2840,
+    "scored_le_E2": 2358,
+    "scored_E0": 2125,
+    "clean_E2": {
+     "num": 47,
+     "den": 2332,
+     "share": 0.020154,
+     "ci95": [
+      0.013879,
+      0.027553
+     ]
+    },
+    "notebooks_introduced_DIFF_pure": {
+     "num": 36,
+     "ci95": [
+      0.264706,
+      0.45098
+     ]
+    },
+    "notebooks_with_clean_E2_cells": 102,
+    "scored_le_E2_share": 0.830282,
+    "scored_E0_share": 0.748239
+   },
+   "certain": {
+    "scored": 2673,
+    "scored_le_E2": 2254,
+    "scored_E0": 2043,
+    "clean_E2": {
+     "num": 39,
+     "den": 2224,
+     "share": 0.017536,
+     "ci95": [
+      0.011499,
+      0.024906
+     ]
+    },
+    "notebooks_introduced_DIFF_pure": {
+     "num": 31,
+     "ci95": [
+      0.215686,
+      0.392157
+     ]
+    },
+    "notebooks_with_clean_E2_cells": 102,
+    "scored_le_E2_share": 0.843247,
+    "scored_E0_share": 0.76431
+   },
+   "certain_kind": {
+    "scored": 2673,
+    "scored_le_E2": 2254,
+    "scored_E0": 2043,
+    "clean_E2": {
+     "num": 39,
+     "den": 2224,
+     "share": 0.017536,
+     "ci95": [
+      0.011499,
+      0.024906
+     ]
+    },
+    "notebooks_introduced_DIFF_pure": {
+     "num": 31,
+     "ci95": [
+      0.215686,
+      0.392157
+     ]
+    },
+    "notebooks_with_clean_E2_cells": 102,
+    "scored_le_E2_share": 0.843247,
+    "scored_E0_share": 0.76431
+   },
+   "clean_E2_DIFF_uncertain": [
+    {
+     "nb": "balajivenkat96/solar-plants",
+     "cell": 21,
+     "clean": "E2",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "inverter_daily_power",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [
+      [
+       "split_by_inverters",
+       "E2"
+      ]
+     ],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.Series"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": true
+    },
+    {
+     "nb": "j0thu777/onlineretailanalysis",
+     "cell": 20,
+     "clean": "E0",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "new_df",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "method"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": true
+    },
+    {
+     "nb": "jagangupta/stop-the-s-toxic-comments-eda",
+     "cell": 12,
+     "clean": "E0",
+     "cause": "axis_names_lost",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "corr_mats",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.DataFrame"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "kmader/analyzing-matches",
+     "cell": 12,
+     "clean": "E0",
+     "cause": "row_order_ties",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "out_df_list",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.DataFrame"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "kmader/analyzing-matches",
+     "cell": 15,
+     "clean": "E2",
+     "cause": "int_float_nullable_repr",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "all_df_out",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.DataFrame"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": true,
+     "printed16": false
+    },
+    {
+     "nb": "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+     "cell": 9,
+     "clean": "E0",
+     "cause": "row_order_ties",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "E0"
+      ],
+      [
+       "distinct_counts",
+       "DIFF"
+      ],
+      [
+       "distinct_counts_df",
+       "E0"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.ndarray"
+       ],
+       [
+        "numpy.ndarray"
+       ]
+      ],
+      [
+       [
+        "dict"
+       ],
+       []
+      ],
+      [
+       [
+        "numpy.ndarray"
+       ],
+       [
+        "numpy.ndarray"
+       ]
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "yonelanuba/elo-merchant-by-yonela",
+     "cell": 75,
+     "clean": "E0",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "data",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "list"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "yonelanuba/elo-merchant-by-yonela",
+     "cell": 80,
+     "clean": "E0",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "test_data",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "list"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    }
+   ],
+   "clean_E2_DIFF_uncertain_engine_object": 0,
+   "clean_E2_DIFF_uncertain_engine_object_shape": 0,
+   "uncertain_cells": {
+    "scored": 167,
+    "out_match": 68,
+    "out_diff": 29,
+    "in_match": 73,
+    "in_diff": 38,
+    "readers_only": 71,
+    "clean_E2_removed": 108,
+    "clean_E2_DIFF_removed": 8
+   },
+   "bounds_clean_E2_DIFF": {
+    "observed": 0.020154,
+    "lower": 0.019734,
+    "upper": 0.046248,
+    "cells_may_turn_DIFF": 59,
+    "readers_may_leave_nonDIFF": 40,
+    "readers_may_leave_DIFF": 1,
+    "den": 2332
+   },
+   "bounds_notebooks_introduced_DIFF_pure": {
+    "observed": 36,
+    "lower": 35,
+    "upper": 54
+   }
+  },
+  "pyarrow_backend": {
+   "base": {
+    "scored": 2809,
+    "scored_le_E2": 1761,
+    "scored_E0": 779,
+    "clean_E2": {
+     "num": 28,
+     "den": 1091,
+     "share": 0.025665,
+     "ci95": [
+      0.015504,
+      0.037772
+     ]
+    },
+    "notebooks_introduced_DIFF_pure": {
+     "num": 38,
+     "ci95": [
+      0.284314,
+      0.470588
+     ]
+    },
+    "notebooks_with_clean_E2_cells": 102,
+    "scored_le_E2_share": 0.626913,
+    "scored_E0_share": 0.277323
+   },
+   "certain": {
+    "scored": 2535,
+    "scored_le_E2": 1638,
+    "scored_E0": 714,
+    "clean_E2": {
+     "num": 14,
+     "den": 1035,
+     "share": 0.013527,
+     "ci95": [
+      0.006218,
+      0.022472
+     ]
+    },
+    "notebooks_introduced_DIFF_pure": {
+     "num": 27,
+     "ci95": [
+      0.186275,
+      0.352941
+     ]
+    },
+    "notebooks_with_clean_E2_cells": 102,
+    "scored_le_E2_share": 0.646154,
+    "scored_E0_share": 0.281657
+   },
+   "certain_kind": {
+    "scored": 2535,
+    "scored_le_E2": 1638,
+    "scored_E0": 714,
+    "clean_E2": {
+     "num": 14,
+     "den": 1035,
+     "share": 0.013527,
+     "ci95": [
+      0.006218,
+      0.022472
+     ]
+    },
+    "notebooks_introduced_DIFF_pure": {
+     "num": 27,
+     "ci95": [
+      0.186275,
+      0.352941
+     ]
+    },
+    "notebooks_with_clean_E2_cells": 102,
+    "scored_le_E2_share": 0.646154,
+    "scored_E0_share": 0.281657
+   },
+   "clean_E2_DIFF_uncertain": [
+    {
+     "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+     "cell": 1,
+     "clean": "E0",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "data",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.DataFrame"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": true
+    },
+    {
+     "nb": "kimtaehun/simple-preprocessing-for-time-series-prediction",
+     "cell": 8,
+     "clean": "E2",
+     "cause": "str_dtype_object_checks",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.Float64DType",
+        "numpy.Int64DType",
+        "numpy.ObjectDType"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": true,
+     "printed16": false
+    },
+    {
+     "nb": "kmader/analyzing-matches",
+     "cell": 12,
+     "clean": "E2",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "out_df_list",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.DataFrame"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": true
+    },
+    {
+     "nb": "luizep/movieslens20m",
+     "cell": 7,
+     "clean": "E2",
+     "cause": "arrow_backed_dtypes",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.Int64DType",
+        "numpy.ObjectDType"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "nihhaar/etltransform",
+     "cell": 3,
+     "clean": "E2",
+     "cause": "arrow_backed_dtypes",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.Float64DType",
+        "numpy.Int64DType",
+        "numpy.ObjectDType"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "penny8/my-sub1",
+     "cell": 19,
+     "clean": "E2",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "frames_d_train",
+       "DIFF"
+      ],
+      [
+       "frames_p_train",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.Series"
+       ],
+       []
+      ],
+      [
+       [
+        "pandas.Series"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": true
+    },
+    {
+     "nb": "penny8/my-sub1",
+     "cell": 20,
+     "clean": "E2",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "frames_d_test",
+       "DIFF"
+      ],
+      [
+       "frames_p_test",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.Series"
+       ],
+       []
+      ],
+      [
+       [
+        "pandas.Series"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": true
+    },
+    {
+     "nb": "pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697",
+     "cell": 63,
+     "clean": "E2",
+     "cause": "arrow_backed_dtypes",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.Float64DType",
+        "numpy.Int64DType"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "salmaneunus/student-s-performance-quantitative-visual-eda",
+     "cell": 11,
+     "clean": "E2",
+     "cause": "arrow_backed_dtypes",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.Int64DType",
+        "numpy.ObjectDType"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "salmaneunus/student-s-performance-quantitative-visual-eda",
+     "cell": 16,
+     "clean": "E2",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ],
+      [
+       "math_passed",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.Series"
+       ],
+       []
+      ],
+      [
+       [
+        "pandas.Series"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": true
+    },
+    {
+     "nb": "shunjiangxu/blood-is-thicker-than-water-friendship-forever",
+     "cell": 1,
+     "clean": "E0",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "full_data",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.DataFrame"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": true
+    },
+    {
+     "nb": "taylorhickem/singapore-building-energy",
+     "cell": 3,
+     "clean": "E0",
+     "cause": "unattributed",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "tables",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "dict"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": true
+    },
+    {
+     "nb": "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+     "cell": 7,
+     "clean": "E2",
+     "cause": "arrow_backed_dtypes",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "df_tmp",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.ndarray"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+     "cell": 9,
+     "clean": "E2",
+     "cause": "arrow_backed_dtypes",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ],
+      [
+       "distinct_counts",
+       "DIFF"
+      ],
+      [
+       "distinct_counts_df",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.ndarray"
+       ],
+       []
+      ],
+      [
+       [
+        "dict"
+       ],
+       []
+      ],
+      [
+       [
+        "numpy.ndarray"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    }
+   ],
+   "clean_E2_DIFF_uncertain_engine_object": 0,
+   "clean_E2_DIFF_uncertain_engine_object_shape": 0,
+   "uncertain_cells": {
+    "scored": 274,
+    "out_match": 47,
+    "out_diff": 85,
+    "in_match": 64,
+    "in_diff": 157,
+    "readers_only": 142,
+    "clean_E2_removed": 56,
+    "clean_E2_DIFF_removed": 14
+   },
+   "bounds_clean_E2_DIFF": {
+    "observed": 0.025665,
+    "lower": 0.025665,
+    "upper": 0.044902,
+    "cells_may_turn_DIFF": 20,
+    "readers_may_leave_nonDIFF": 22,
+    "readers_may_leave_DIFF": 0,
+    "den": 1091
+   },
+   "bounds_notebooks_introduced_DIFF_pure": {
+    "observed": 38,
+    "lower": 37,
+    "upper": 47
+   }
+  },
+  "p15": {
+   "base": {
+    "scored": 2809,
+    "scored_le_E2": 2250,
+    "scored_E0": 1967,
+    "clean_E2": {
+     "num": 49,
+     "den": 2129,
+     "share": 0.023016,
+     "ci95": [
+      0.015812,
+      0.031218
+     ]
+    },
+    "notebooks_introduced_DIFF_pure": {
+     "num": 36,
+     "ci95": [
+      0.264706,
+      0.45098
+     ]
+    },
+    "notebooks_with_clean_E2_cells": 102,
+    "scored_le_E2_share": 0.800997,
+    "scored_E0_share": 0.700249
+   },
+   "certain": {
+    "scored": 2633,
+    "scored_le_E2": 2134,
+    "scored_E0": 1869,
+    "clean_E2": {
+     "num": 45,
+     "den": 2033,
+     "share": 0.022135,
+     "ci95": [
+      0.01499,
+      0.030189
+     ]
+    },
+    "notebooks_introduced_DIFF_pure": {
+     "num": 34,
+     "ci95": [
+      0.245098,
+      0.431373
+     ]
+    },
+    "notebooks_with_clean_E2_cells": 102,
+    "scored_le_E2_share": 0.810482,
+    "scored_E0_share": 0.709837
+   },
+   "certain_kind": {
+    "scored": 2633,
+    "scored_le_E2": 2134,
+    "scored_E0": 1869,
+    "clean_E2": {
+     "num": 45,
+     "den": 2033,
+     "share": 0.022135,
+     "ci95": [
+      0.01499,
+      0.030189
+     ]
+    },
+    "notebooks_introduced_DIFF_pure": {
+     "num": 34,
+     "ci95": [
+      0.245098,
+      0.431373
+     ]
+    },
+    "notebooks_with_clean_E2_cells": 102,
+    "scored_le_E2_share": 0.810482,
+    "scored_E0_share": 0.709837
+   },
+   "clean_E2_DIFF_uncertain": [
+    {
+     "nb": "beratozmen/clash-of-clans-exploratory-data-analysis",
+     "cell": 7,
+     "clean": "E0",
+     "cause": "value_counts_naming",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.ndarray",
+        "pandas.Series"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+     "cell": 2,
+     "clean": "E0",
+     "cause": "merge_row_order",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "data",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [
+      [
+       "data",
+       "E0"
+      ]
+     ],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.DataFrame"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": true,
+     "printed16": false
+    },
+    {
+     "nb": "luizep/movieslens20m",
+     "cell": 35,
+     "clean": "E2",
+     "cause": "float_rounding_within_tolerance",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "rating_stats",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "tuple"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "nadare/feature-engenieering-with-pivot-table",
+     "cell": 16,
+     "clean": "E0",
+     "cause": "numeric_dtype_preservation",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "bands",
+       "E0"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "pandas.Series"
+       ],
+       [
+        "pandas.Series"
+       ]
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    }
+   ],
+   "clean_E2_DIFF_uncertain_engine_object": 0,
+   "clean_E2_DIFF_uncertain_engine_object_shape": 0,
+   "uncertain_cells": {
+    "scored": 176,
+    "out_match": 85,
+    "out_diff": 19,
+    "in_match": 97,
+    "in_diff": 16,
+    "readers_only": 73,
+    "clean_E2_removed": 96,
+    "clean_E2_DIFF_removed": 4
+   },
+   "bounds_clean_E2_DIFF": {
+    "observed": 0.023016,
+    "lower": 0.022556,
+    "upper": 0.053333,
+    "cells_may_turn_DIFF": 63,
+    "readers_may_leave_nonDIFF": 29,
+    "readers_may_leave_DIFF": 1,
+    "den": 2129
+   },
+   "bounds_notebooks_introduced_DIFF_pure": {
+    "observed": 36,
+    "lower": 36,
+    "upper": 54
+   }
+  },
+  "p30": {
+   "base": {
+    "scored": 2811,
+    "scored_le_E2": 2318,
+    "scored_E0": 791,
+    "clean_E2": {
+     "num": 56,
+     "den": 2215,
+     "share": 0.025282,
+     "ci95": [
+      0.016326,
+      0.0353
+     ]
+    },
+    "notebooks_introduced_DIFF_pure": {
+     "num": 33,
+     "ci95": [
+      0.235294,
+      0.421569
+     ]
+    },
+    "notebooks_with_clean_E2_cells": 102,
+    "scored_le_E2_share": 0.824618,
+    "scored_E0_share": 0.281395
+   },
+   "certain": {
+    "scored": 2638,
+    "scored_le_E2": 2183,
+    "scored_E0": 756,
+    "clean_E2": {
+     "num": 39,
+     "den": 2069,
+     "share": 0.01885,
+     "ci95": [
+      0.010502,
+      0.02891
+     ]
+    },
+    "notebooks_introduced_DIFF_pure": {
+     "num": 23,
+     "ci95": [
+      0.147059,
+      0.313725
+     ]
+    },
+    "notebooks_with_clean_E2_cells": 102,
+    "scored_le_E2_share": 0.827521,
+    "scored_E0_share": 0.286581
+   },
+   "certain_kind": {
+    "scored": 2638,
+    "scored_le_E2": 2183,
+    "scored_E0": 756,
+    "clean_E2": {
+     "num": 39,
+     "den": 2069,
+     "share": 0.01885,
+     "ci95": [
+      0.010502,
+      0.02891
+     ]
+    },
+    "notebooks_introduced_DIFF_pure": {
+     "num": 23,
+     "ci95": [
+      0.147059,
+      0.313725
+     ]
+    },
+    "notebooks_with_clean_E2_cells": 102,
+    "scored_le_E2_share": 0.827521,
+    "scored_E0_share": 0.286581
+   },
+   "clean_E2_DIFF_uncertain": [
+    {
+     "nb": "akgauravin/gun-violence-data-exploration-and-plotting",
+     "cell": 5,
+     "clean": "E2",
+     "cause": "str_default_dtype",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.BoolDType",
+        "numpy.Float64DType",
+        "numpy.Int64DType",
+        "numpy.ObjectDType"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "akgauravin/gun-violence-data-exploration-and-plotting",
+     "cell": 12,
+     "clean": "E2",
+     "cause": "str_default_dtype",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.DateTime64DType",
+        "numpy.Float64DType",
+        "numpy.Int64DType",
+        "numpy.ObjectDType"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "beratozmen/clash-of-clans-exploratory-data-analysis",
+     "cell": 7,
+     "clean": "E2",
+     "cause": "str_default_dtype",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.ndarray",
+        "pandas.Series"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "grudd0/mass-shooting-analysis",
+     "cell": 43,
+     "clean": "E2",
+     "cause": "str_dtype_na_semantics",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "killed",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "dict"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "j0thu777/onlineretailanalysis",
+     "cell": 20,
+     "clean": "E2",
+     "cause": "datetime_resolution_inference",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "new_df",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "method"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "kimtaehun/simple-preprocessing-for-time-series-prediction",
+     "cell": 8,
+     "clean": "E2",
+     "cause": "str_dtype_object_checks",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.Float64DType",
+        "numpy.Int64DType",
+        "numpy.ObjectDType"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": true,
+     "printed16": false
+    },
+    {
+     "nb": "luckygemini/notebook5d5fc80c9f",
+     "cell": 6,
+     "clean": "E2",
+     "cause": "str_dtype_na_semantics",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "train_attributes",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "list"
+       ],
+       [
+        "list"
+       ]
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "luizep/movieslens20m",
+     "cell": 6,
+     "clean": "E2",
+     "cause": "str_default_dtype",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.Float64DType",
+        "numpy.Int64DType",
+        "numpy.ObjectDType"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "luizep/movieslens20m",
+     "cell": 7,
+     "clean": "E2",
+     "cause": "str_default_dtype",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.Int64DType",
+        "numpy.ObjectDType"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "nihhaar/etltransform",
+     "cell": 3,
+     "clean": "E2",
+     "cause": "str_default_dtype",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.Float64DType",
+        "numpy.Int64DType",
+        "numpy.ObjectDType"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+     "cell": 4,
+     "clean": "E2",
+     "cause": "str_default_dtype",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.Float64DType",
+        "numpy.Int64DType",
+        "numpy.ObjectDType"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "salmaneunus/student-s-performance-quantitative-visual-eda",
+     "cell": 11,
+     "clean": "E2",
+     "cause": "str_default_dtype",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.Int64DType",
+        "numpy.ObjectDType"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "shivavashishtha/zomato-eda-tutorial",
+     "cell": 70,
+     "clean": "E2",
+     "cause": "cow_chained_assignment",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "x",
+       "E2"
+      ]
+     ],
+     "pf_inputs": [
+      [
+       "data",
+       "E2"
+      ]
+     ],
+     "printed_types_ref_eng": [
+      [
+       [
+        "list"
+       ],
+       [
+        "list"
+       ]
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "shivavashishtha/zomato-eda-tutorial",
+     "cell": 77,
+     "clean": "E2",
+     "cause": "cow_chained_assignment",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "x",
+       "E2"
+      ]
+     ],
+     "pf_inputs": [
+      [
+       "data",
+       "E2"
+      ]
+     ],
+     "printed_types_ref_eng": [
+      [
+       [
+        "list"
+       ],
+       [
+        "list"
+       ]
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "vinothsuku/osic-pulmonary-fibrosis-simple-eda",
+     "cell": 7,
+     "clean": "E2",
+     "cause": "str_default_dtype",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "df_tmp",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.ndarray"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "viviktpharale/house-price-prediction-eda-linear-ridge-lasso",
+     "cell": 9,
+     "clean": "E2",
+     "cause": "str_default_dtype",
+     "kind_pure": "introduced",
+     "pf_outputs": [
+      [
+       "__last__",
+       "DIFF"
+      ],
+      [
+       "distinct_counts",
+       "DIFF"
+      ],
+      [
+       "distinct_counts_df",
+       "DIFF"
+      ]
+     ],
+     "pf_inputs": [],
+     "printed_types_ref_eng": [
+      [
+       [
+        "numpy.ndarray"
+       ],
+       []
+      ],
+      [
+       [
+        "dict"
+       ],
+       []
+      ],
+      [
+       [
+        "numpy.ndarray"
+       ],
+       []
+      ]
+     ],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    },
+    {
+     "nb": "yonelanuba/elo-merchant-by-yonela",
+     "cell": 90,
+     "clean": "E2",
+     "cause": "str_dtype_object_checks",
+     "kind_pure": "introduced",
+     "pf_outputs": [],
+     "pf_inputs": [
+      [
+       "data",
+       "E2"
+      ]
+     ],
+     "printed_types_ref_eng": [],
+     "engine_object_in_place_of_value": false,
+     "code_reads_shape": false,
+     "printed16": false
+    }
+   ],
+   "clean_E2_DIFF_uncertain_engine_object": 0,
+   "clean_E2_DIFF_uncertain_engine_object_shape": 0,
+   "uncertain_cells": {
+    "scored": 173,
+    "out_match": 80,
+    "out_diff": 21,
+    "in_match": 97,
+    "in_diff": 16,
+    "readers_only": 72,
+    "clean_E2_removed": 146,
+    "clean_E2_DIFF_removed": 17
+   },
+   "bounds_clean_E2_DIFF": {
+    "observed": 0.025282,
+    "lower": 0.02396,
+    "upper": 0.058878,
+    "cells_may_turn_DIFF": 71,
+    "readers_may_leave_nonDIFF": 58,
+    "readers_may_leave_DIFF": 3,
+    "den": 2215
+   },
+   "bounds_notebooks_introduced_DIFF_pure": {
+    "observed": 33,
+    "lower": 32,
+    "upper": 48
+   }
+  }
+ },
+ "pairs": {
+  "pyarrow_backend-p15": {
+   "base": {
+    "cells": 997,
+    "notebooks": 102,
+    "engine_DIFF": 28,
+    "pandas_DIFF": 31,
+    "diff_pp": -0.301,
+    "ci95_pp": [
+     -1.954,
+     1.434
+    ],
+    "reading": "not distinguishable"
+   },
+   "certain": {
+    "cells": 961,
+    "notebooks": 102,
+    "engine_DIFF": 14,
+    "pandas_DIFF": 30,
+    "diff_pp": -1.665,
+    "ci95_pp": [
+     -3.142,
+     -0.198
+    ],
+    "reading": "less often"
+   },
+   "certain_kind": {
+    "cells": 961,
+    "notebooks": 102,
+    "engine_DIFF": 14,
+    "pandas_DIFF": 30,
+    "diff_pp": -1.665,
+    "ci95_pp": [
+     -3.142,
+     -0.198
+    ],
+    "reading": "less often"
+   },
+   "bounds_pp": [
+    -3.131,
+    1.212
+   ],
+   "cells_uncertain_class": 29,
+   "cells_uncertain_membership": 11,
+   "cells_removed_certain": 36
+  },
+  "pyarrow_backend-p30": {
+   "base": {
+    "cells": 1010,
+    "notebooks": 102,
+    "engine_DIFF": 27,
+    "pandas_DIFF": 21,
+    "diff_pp": 0.594,
+    "ci95_pp": [
+     -0.749,
+     1.874
+    ],
+    "reading": "not distinguishable"
+   },
+   "certain": {
+    "cells": 956,
+    "notebooks": 101,
+    "engine_DIFF": 13,
+    "pandas_DIFF": 15,
+    "diff_pp": -0.209,
+    "ci95_pp": [
+     -1.451,
+     0.89
+    ],
+    "reading": "not distinguishable"
+   },
+   "certain_kind": {
+    "cells": 956,
+    "notebooks": 101,
+    "engine_DIFF": 13,
+    "pandas_DIFF": 15,
+    "diff_pp": -0.209,
+    "ci95_pp": [
+     -1.451,
+     0.89
+    ],
+    "reading": "not distinguishable"
+   },
+   "bounds_pp": [
+    -2.222,
+    2.626
+   ],
+   "cells_uncertain_class": 28,
+   "cells_uncertain_membership": 27,
+   "cells_removed_certain": 54
+  },
+  "modin-p15": {
+   "base": {
+    "cells": 1833,
+    "notebooks": 102,
+    "engine_DIFF": 40,
+    "pandas_DIFF": 42,
+    "diff_pp": -0.109,
+    "ci95_pp": [
+     -1.165,
+     0.977
+    ],
+    "reading": "not distinguishable"
+   },
+   "certain": {
+    "cells": 1758,
+    "notebooks": 102,
+    "engine_DIFF": 35,
+    "pandas_DIFF": 39,
+    "diff_pp": -0.228,
+    "ci95_pp": [
+     -1.261,
+     0.817
+    ],
+    "reading": "not distinguishable"
+   },
+   "certain_kind": {
+    "cells": 1758,
+    "notebooks": 102,
+    "engine_DIFF": 35,
+    "pandas_DIFF": 39,
+    "diff_pp": -0.228,
+    "ci95_pp": [
+     -1.261,
+     0.817
+    ],
+    "reading": "not distinguishable"
+   },
+   "bounds_pp": [
+    -2.818,
+    2.377
+   ],
+   "cells_uncertain_class": 52,
+   "cells_uncertain_membership": 37,
+   "cells_removed_certain": 75
+  },
+  "modin-p30": {
+   "base": {
+    "cells": 1938,
+    "notebooks": 102,
+    "engine_DIFF": 41,
+    "pandas_DIFF": 46,
+    "diff_pp": -0.258,
+    "ci95_pp": [
+     -1.266,
+     0.699
+    ],
+    "reading": "not distinguishable"
+   },
+   "certain": {
+    "cells": 1840,
+    "notebooks": 102,
+    "engine_DIFF": 33,
+    "pandas_DIFF": 34,
+    "diff_pp": -0.054,
+    "ci95_pp": [
+     -1.095,
+     0.956
+    ],
+    "reading": "not distinguishable"
+   },
+   "certain_kind": {
+    "cells": 1840,
+    "notebooks": 102,
+    "engine_DIFF": 33,
+    "pandas_DIFF": 34,
+    "diff_pp": -0.054,
+    "ci95_pp": [
+     -1.095,
+     0.956
+    ],
+    "reading": "not distinguishable"
+   },
+   "bounds_pp": [
+    -2.893,
+    2.522
+   ],
+   "cells_uncertain_class": 62,
+   "cells_uncertain_membership": 56,
+   "cells_removed_certain": 98
+  },
+  "fireducks-p15": {
+   "base": {
+    "cells": 1137,
+    "notebooks": 102,
+    "engine_DIFF": 29,
+    "pandas_DIFF": 31,
+    "diff_pp": -0.176,
+    "ci95_pp": [
+     -1.402,
+     1.103
+    ],
+    "reading": "not distinguishable"
+   },
+   "certain": {
+    "cells": 1105,
+    "notebooks": 101,
+    "engine_DIFF": 24,
+    "pandas_DIFF": 29,
+    "diff_pp": -0.452,
+    "ci95_pp": [
+     -1.586,
+     0.787
+    ],
+    "reading": "not distinguishable"
+   },
+   "certain_kind": {
+    "cells": 1105,
+    "notebooks": 101,
+    "engine_DIFF": 24,
+    "pandas_DIFF": 29,
+    "diff_pp": -0.452,
+    "ci95_pp": [
+     -1.586,
+     0.787
+    ],
+    "reading": "not distinguishable"
+   },
+   "bounds_pp": [
+    -2.557,
+    1.147
+   ],
+   "cells_uncertain_class": 29,
+   "cells_uncertain_membership": 5,
+   "cells_removed_certain": 32
+  },
+  "fireducks-p30": {
+   "base": {
+    "cells": 1206,
+    "notebooks": 102,
+    "engine_DIFF": 32,
+    "pandas_DIFF": 25,
+    "diff_pp": 0.58,
+    "ci95_pp": [
+     -0.792,
+     1.994
+    ],
+    "reading": "not distinguishable"
+   },
+   "certain": {
+    "cells": 1166,
+    "notebooks": 101,
+    "engine_DIFF": 27,
+    "pandas_DIFF": 18,
+    "diff_pp": 0.772,
+    "ci95_pp": [
+     -0.566,
+     2.122
+    ],
+    "reading": "not distinguishable"
+   },
+   "certain_kind": {
+    "cells": 1166,
+    "notebooks": 101,
+    "engine_DIFF": 27,
+    "pandas_DIFF": 18,
+    "diff_pp": 0.772,
+    "ci95_pp": [
+     -0.566,
+     2.122
+    ],
+    "reading": "not distinguishable"
+   },
+   "bounds_pp": [
+    -1.503,
+    2.168
+   ],
+   "cells_uncertain_class": 28,
+   "cells_uncertain_membership": 13,
+   "cells_removed_certain": 40
+  },
+  "bodo-p15": {
+   "base": {
+    "cells": 715,
+    "notebooks": 102,
+    "engine_DIFF": 42,
+    "pandas_DIFF": 22,
+    "diff_pp": 2.797,
+    "ci95_pp": [
+     0.395,
+     5.468
+    ],
+    "reading": "more often"
+   },
+   "certain": {
+    "cells": 695,
+    "notebooks": 101,
+    "engine_DIFF": 33,
+    "pandas_DIFF": 21,
+    "diff_pp": 1.727,
+    "ci95_pp": [
+     -0.606,
+     4.274
+    ],
+    "reading": "not distinguishable"
+   },
+   "certain_kind": {
+    "cells": 695,
+    "notebooks": 101,
+    "engine_DIFF": 33,
+    "pandas_DIFF": 21,
+    "diff_pp": 1.727,
+    "ci95_pp": [
+     -0.606,
+     4.274
+    ],
+    "reading": "not distinguishable"
+   },
+   "bounds_pp": [
+    0.559,
+    3.371
+   ],
+   "cells_uncertain_class": 17,
+   "cells_uncertain_membership": 3,
+   "cells_removed_certain": 20
+  },
+  "bodo-p30": {
+   "base": {
+    "cells": 749,
+    "notebooks": 102,
+    "engine_DIFF": 45,
+    "pandas_DIFF": 14,
+    "diff_pp": 4.139,
+    "ci95_pp": [
+     2.182,
+     6.442
+    ],
+    "reading": "more often"
+   },
+   "certain": {
+    "cells": 728,
+    "notebooks": 101,
+    "engine_DIFF": 35,
+    "pandas_DIFF": 8,
+    "diff_pp": 3.709,
+    "ci95_pp": [
+     1.887,
+     6.019
+    ],
+    "reading": "more often"
+   },
+   "certain_kind": {
+    "cells": 728,
+    "notebooks": 101,
+    "engine_DIFF": 35,
+    "pandas_DIFF": 8,
+    "diff_pp": 3.709,
+    "ci95_pp": [
+     1.887,
+     6.019
+    ],
+    "reading": "more often"
+   },
+   "bounds_pp": [
+    2.537,
+    4.692
+   ],
+   "cells_uncertain_class": 12,
+   "cells_uncertain_membership": 3,
+   "cells_removed_certain": 21
+  },
+  "dask-p15": {
+   "base": {
+    "cells": 541,
+    "notebooks": 102,
+    "engine_DIFF": 34,
+    "pandas_DIFF": 19,
+    "diff_pp": 2.773,
+    "ci95_pp": [
+     -0.615,
+     5.854
+    ],
+    "reading": "not distinguishable"
+   },
+   "certain": {
+    "cells": 509,
+    "notebooks": 101,
+    "engine_DIFF": 15,
+    "pandas_DIFF": 17,
+    "diff_pp": -0.393,
+    "ci95_pp": [
+     -3.211,
+     2.376
+    ],
+    "reading": "not distinguishable"
+   },
+   "certain_kind": {
+    "cells": 523,
+    "notebooks": 101,
+    "engine_DIFF": 29,
+    "pandas_DIFF": 18,
+    "diff_pp": 2.103,
+    "ci95_pp": [
+     -0.921,
+     5.108
+    ],
+    "reading": "not distinguishable"
+   },
+   "bounds_pp": [
+    -0.185,
+    3.519
+   ],
+   "cells_uncertain_class": 17,
+   "cells_uncertain_membership": 2,
+   "cells_removed_certain": 32
+  },
+  "dask-p30": {
+   "base": {
+    "cells": 539,
+    "notebooks": 102,
+    "engine_DIFF": 34,
+    "pandas_DIFF": 13,
+    "diff_pp": 3.896,
+    "ci95_pp": [
+     1.635,
+     6.139
+    ],
+    "reading": "more often"
+   },
+   "certain": {
+    "cells": 509,
+    "notebooks": 101,
+    "engine_DIFF": 15,
+    "pandas_DIFF": 8,
+    "diff_pp": 1.375,
+    "ci95_pp": [
+     -0.218,
+     3.119
+    ],
+    "reading": "not distinguishable"
+   },
+   "certain_kind": {
+    "cells": 523,
+    "notebooks": 101,
+    "engine_DIFF": 29,
+    "pandas_DIFF": 8,
+    "diff_pp": 4.015,
+    "ci95_pp": [
+     1.923,
+     6.104
+    ],
+    "reading": "more often"
+   },
+   "bounds_pp": [
+    1.855,
+    4.453
+   ],
+   "cells_uncertain_class": 12,
+   "cells_uncertain_membership": 0,
+   "cells_removed_certain": 30
+  }
+ },
+ "readings": {
+  "certain_drop_in_diff_range": [
+   -1.665,
+   0.772
+  ],
+  "certain_drop_in_all_not_distinguishable": false,
+  "certain_readings": {
+   "pyarrow_backend-p15": "less often",
+   "pyarrow_backend-p30": "not distinguishable",
+   "modin-p15": "not distinguishable",
+   "modin-p30": "not distinguishable",
+   "fireducks-p15": "not distinguishable",
+   "fireducks-p30": "not distinguishable",
+   "bodo-p15": "not distinguishable",
+   "bodo-p30": "more often",
+   "dask-p15": "not distinguishable",
+   "dask-p30": "not distinguishable"
+  },
+  "bounds_drop_in_range": [
+   -3.131,
+   2.626
+  ],
+  "certain_notebooks_introduced_DIFF_range": [
+   12,
+   41
+  ],
+  "bounds_notebooks_introduced_DIFF_range": [
+   24,
+   54
+  ],
+  "certain_pair_cells_range": [
+   509,
+   1840
+  ]
+ },
+ "printed16_flagged": 16
+}

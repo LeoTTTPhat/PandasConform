@@ -1,0 +1,1033 @@
+{
+ "generated": "2026-10-04T08:09:53",
+ "script": "scripts/engine_probe_outcomes.py",
+ "probes": 38,
+ "causes": {
+  "approximate_quantile": {
+   "engines": {
+    "bodo": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 2.53,
+     "probe_lines": [
+      "RESULT quantile(0.99) vs numpy: ('464.2131464864756', '460.45405693275035')",
+      "RESULT rows below quantile(0.99): 1974328"
+     ],
+     "ref_lines": [
+      "RESULT quantile(0.99) vs numpy: ('np.float64(460.45405693275035)', '460.45405693275035')",
+      "RESULT rows below quantile(0.99): 1980000"
+     ],
+     "check_equal_to_ref": {
+      "quantile(0.99) vs numpy": false,
+      "rows below quantile(0.99)": false
+     },
+     "verdict": "confirmed",
+     "reason": "quantile(0.99) 464.213 vs exact 460.454; 1,974,328 vs 1,980,000 rows below it"
+    },
+    "bodo_dw": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 4.17,
+     "probe_lines": [
+      "RESULT quantile(0.99) vs numpy: ('479.3664139300862', '460.45405693275035')",
+      "RESULT rows below quantile(0.99): 1984070"
+     ],
+     "ref_lines": [
+      "RESULT quantile(0.99) vs numpy: ('np.float64(460.45405693275035)', '460.45405693275035')",
+      "RESULT rows below quantile(0.99): 1980000"
+     ],
+     "check_equal_to_ref": {
+      "quantile(0.99) vs numpy": false,
+      "rows below quantile(0.99)": false
+     },
+     "verdict": "confirmed",
+     "reason": "quantile(0.99) 479.366 vs exact 460.454; 1,984,070 vs 1,980,000 rows below it"
+    },
+    "dask": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 1.25,
+     "probe_lines": [
+      "RESULT quantile(0.99) vs numpy: ('np.float64(461.3439095912633)', '460.45405693275035')",
+      "RESULT rows below quantile(0.99): np.int64(1980198)"
+     ],
+     "ref_lines": [
+      "RESULT quantile(0.99) vs numpy: ('np.float64(460.45405693275035)', '460.45405693275035')",
+      "RESULT rows below quantile(0.99): 1980000"
+     ],
+     "check_equal_to_ref": {
+      "quantile(0.99) vs numpy": false,
+      "rows below quantile(0.99)": false
+     },
+     "verdict": "confirmed",
+     "reason": "quantile(0.99) 461.344 vs exact 460.454; 1,980,198 vs 1,980,000 rows below it"
+    }
+   },
+   "verdict": "confirmed",
+   "confirmed_engines": [
+    "bodo",
+    "bodo_dw",
+    "dask"
+   ]
+  },
+  "arrow_backed_dtypes": {
+   "engines": {
+    "bodo": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 4.37,
+     "probe_lines": [
+      "RESULT dtypes: ['string', 'int64[pyarrow]', 'double[pyarrow]']",
+      "RESULT missing sentinels: ['<NA>', '<NA>']"
+     ],
+     "ref_lines": [
+      "RESULT dtypes: ['object', 'int64', 'float64']",
+      "RESULT missing sentinels: ['nan', 'np.float64(nan)']"
+     ],
+     "check_equal_to_ref": {
+      "dtypes": false,
+      "missing sentinels": false
+     },
+     "verdict": "confirmed",
+     "reason": "string, int64[pyarrow], double[pyarrow]; <NA> sentinels (ref: object, int64, float64; nan)"
+    },
+    "dask": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 0.5,
+     "probe_lines": [
+      "RESULT dtypes: ['string', 'int64', 'float64']",
+      "RESULT missing sentinels: raised AttributeError: 'Series' object has no attribute 'iloc'"
+     ],
+     "ref_lines": [
+      "RESULT dtypes: ['object', 'int64', 'float64']",
+      "RESULT missing sentinels: ['nan', 'np.float64(nan)']"
+     ],
+     "check_equal_to_ref": {
+      "dtypes": false,
+      "missing sentinels": false
+     },
+     "verdict": "confirmed",
+     "reason": "text column is 'string' (ref object); the sentinel check raised in the probe (no .iloc on a Dask Series)"
+    }
+   },
+   "verdict": "confirmed",
+   "confirmed_engines": [
+    "bodo",
+    "dask"
+   ]
+  },
+  "arrow_dtype_errors": {
+   "engines": {
+    "bodo": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 3.98,
+     "probe_lines": [
+      "RESULT int column <- '8+': raised ArrowInvalid: Could not convert '8+' with type str: tried to convert to int64",
+      "RESULT np.isnan on a missing scalar: raised TypeError: boolean value of NA is ambiguous",
+      "RESULT if value > 0 on a missing scalar: raised TypeError: boolean value of NA is ambiguous"
+     ],
+     "ref_lines": [
+      "RESULT int column <- '8+': [1, '8+']",
+      "RESULT np.isnan on a missing scalar: True",
+      "RESULT if value > 0 on a missing scalar: False"
+     ],
+     "check_equal_to_ref": {
+      "int column <- '8+'": false,
+      "np.isnan on a missing scalar": false,
+      "if value > 0 on a missing scalar": false
+     },
+     "verdict": "confirmed",
+     "reason": "all three checks raise (ArrowInvalid on '8+', boolean value of NA ambiguous twice); ref raises none"
+    },
+    "fireducks": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 0.9,
+     "probe_lines": [
+      "RESULT int column <- '8+': raised RuntimeError: ArrowInvalid: (\"Could not convert '8+' with type str: tried to convert to int64\", 'Conversion failed for column __fireducks_dummy_0 with type object')",
+      "RESULT np.isnan on a missing scalar: True",
+      "RESULT if value > 0 on a missing scalar: False"
+     ],
+     "ref_lines": [
+      "RESULT int column <- '8+': [1, '8+']",
+      "RESULT np.isnan on a missing scalar: True",
+      "RESULT if value > 0 on a missing scalar: False"
+     ],
+     "check_equal_to_ref": {
+      "int column <- '8+'": false,
+      "np.isnan on a missing scalar": true,
+      "if value > 0 on a missing scalar": true
+     },
+     "verdict": "confirmed",
+     "reason": "setting '8+' into an int column raises ArrowInvalid (ref upcasts); the two NA checks match ref"
+    }
+   },
+   "verdict": "confirmed",
+   "confirmed_engines": [
+    "bodo",
+    "fireducks"
+   ]
+  },
+  "axis_names_lost": {
+   "engines": {
+    "bodo": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 1.4,
+     "probe_lines": [
+      "RESULT crosstab columns name: None",
+      "RESULT iloc[0] Series name: 0"
+     ],
+     "ref_lines": [
+      "RESULT crosstab columns name: Q2",
+      "RESULT iloc[0] Series name: 0"
+     ],
+     "check_equal_to_ref": {
+      "crosstab columns name": false,
+      "iloc[0] Series name": true
+     },
+     "verdict": "confirmed",
+     "reason": "crosstab columns name None (ref 'Q2'); iloc[0] name matches"
+    },
+    "modin": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 7.16,
+     "probe_lines": [
+      "RESULT crosstab columns name: col_0",
+      "RESULT iloc[0] Series name: 0"
+     ],
+     "ref_lines": [
+      "RESULT crosstab columns name: Q2",
+      "RESULT iloc[0] Series name: 0"
+     ],
+     "check_equal_to_ref": {
+      "crosstab columns name": false,
+      "iloc[0] Series name": true
+     },
+     "verdict": "confirmed",
+     "reason": "crosstab columns name 'col_0' (ref 'Q2'); iloc[0] name matches"
+    }
+   },
+   "verdict": "confirmed",
+   "confirmed_engines": [
+    "bodo",
+    "modin"
+   ]
+  },
+  "cow_chained_assignment": {
+   "engines": {
+    "fireducks": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 0.36,
+     "probe_lines": [
+      "RESULT df['a'].loc[mask] = 10: [1, 20, 30]",
+      "RESULT df['b'].fillna(0, inplace=True): [nan, 2.0, nan]",
+      "RESULT df['b'].iloc[0] = -1: [nan, 2.0, nan]"
+     ],
+     "ref_lines": [
+      "RESULT df['a'].loc[mask] = 10: [1, 10, 10]",
+      "RESULT df['b'].fillna(0, inplace=True): [0.0, 2.0, 0.0]",
+      "RESULT df['b'].iloc[0] = -1: [-1.0, 2.0, nan]"
+     ],
+     "check_equal_to_ref": {
+      "df['a'].loc[mask] = 10": false,
+      "df['b'].fillna(0, inplace=True)": false,
+      "df['b'].iloc[0] = -1": false
+     },
+     "verdict": "confirmed",
+     "reason": "none of the three chained assignments writes through (ref pandas 2.3.3 writes through)"
+    }
+   },
+   "verdict": "confirmed",
+   "confirmed_engines": [
+    "fireducks"
+   ]
+  },
+  "engine_bug_error": {
+   "engines": {
+    "bodo": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 1.42,
+     "probe_lines": [
+      "RESULT groupby(['k']).mean().reset_index(): {'k': {0: 'a', 1: 'b'}, 'v': {0: 2.0, 1: 2.0}} dtype={'k': 'large_string[pyarrow]', 'v': 'double[pyarrow]'}",
+      "RESULT groupby('k').count(): {'v': {'a': 2, 'b': 1}, 's': {'a': 2, 'b': 1}} dtype={'v': 'int64[pyarrow]', 's': 'int64[pyarrow]'}",
+      "RESULT str.split(' ').str[0]: raised TypeError: 'BodoStringMethods' object is not subscriptable",
+      "RESULT Series.filter(regex): {'Q7_Part_1': 't1'} dtype=string[pyarrow]"
+     ],
+     "ref_lines": [
+      "RESULT groupby(['k']).mean().reset_index(): {'k': {0: 'a', 1: 'b'}, 'v': {0: 2.0, 1: 2.0}} dtype={'k': 'object', 'v': 'float64'}",
+      "RESULT groupby('k').count(): {'v': {'a': 2, 'b': 1}, 's': {'a': 2, 'b': 1}} dtype={'v': 'int64', 's': 'int64'}",
+      "RESULT str.split(' ').str[0]: {0: '1', 1: '3', 2: '5'} dtype=object",
+      "RESULT Series.filter(regex): {'Q7_Part_1': 't1'} dtype=object"
+     ],
+     "check_equal_to_ref": {
+      "groupby(['k']).mean().reset_index()": false,
+      "groupby('k').count()": false,
+      "str.split(' ').str[0]": false,
+      "Series.filter(regex)": false
+     },
+     "verdict": "confirmed",
+     "reason": "str.split(' ').str[0] raises TypeError 'BodoStringMethods' object is not subscriptable"
+    },
+    "bodo_dw": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 3.32,
+     "probe_lines": [
+      "RESULT groupby(['k']).mean().reset_index(): {'k': {0: 'b', 1: 'a'}, 'v': {0: 2.0, 1: 2.0}} dtype={'k': 'large_string[pyarrow]', 'v': 'double[pyarrow]'}",
+      "RESULT groupby('k').count(): {'v': {'b': 1, 'a': 2}, 's': {'b': 1, 'a': 2}} dtype={'v': 'int64[pyarrow]', 's': 'int64[pyarrow]'}",
+      "RESULT str.split(' ').str[0]: raised TypeError: 'BodoStringMethods' object is not subscriptable",
+      "RESULT Series.filter(regex): {'Q7_Part_1': 't1'} dtype=string[pyarrow]"
+     ],
+     "ref_lines": [
+      "RESULT groupby(['k']).mean().reset_index(): {'k': {0: 'a', 1: 'b'}, 'v': {0: 2.0, 1: 2.0}} dtype={'k': 'object', 'v': 'float64'}",
+      "RESULT groupby('k').count(): {'v': {'a': 2, 'b': 1}, 's': {'a': 2, 'b': 1}} dtype={'v': 'int64', 's': 'int64'}",
+      "RESULT str.split(' ').str[0]: {0: '1', 1: '3', 2: '5'} dtype=object",
+      "RESULT Series.filter(regex): {'Q7_Part_1': 't1'} dtype=object"
+     ],
+     "check_equal_to_ref": {
+      "groupby(['k']).mean().reset_index()": false,
+      "groupby('k').count()": false,
+      "str.split(' ').str[0]": false,
+      "Series.filter(regex)": false
+     },
+     "verdict": "confirmed",
+     "reason": "as bodo; groupby results also come back in another group order"
+    },
+    "fireducks": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 0.36,
+     "probe_lines": [
+      "RESULT groupby(['k']).mean().reset_index(): {'k': {0: 'a', 1: 'b'}, 'v': {0: 2.0, 1: 2.0}} dtype={'k': 'object', 'v': 'float64'}",
+      "RESULT groupby('k').count(): {'v': {'a': 2, 'b': 1}, 's': {'a': 2, 'b': 1}} dtype={'v': 'int64', 's': 'int64'}",
+      "RESULT str.split(' ').str[0]: {0: '1', 1: '3', 2: '5'} dtype=object",
+      "RESULT Series.filter(regex): {'Q7_Part_1': 't1'} dtype=object"
+     ],
+     "ref_lines": [
+      "RESULT groupby(['k']).mean().reset_index(): {'k': {0: 'a', 1: 'b'}, 'v': {0: 2.0, 1: 2.0}} dtype={'k': 'object', 'v': 'float64'}",
+      "RESULT groupby('k').count(): {'v': {'a': 2, 'b': 1}, 's': {'a': 2, 'b': 1}} dtype={'v': 'int64', 's': 'int64'}",
+      "RESULT str.split(' ').str[0]: {0: '1', 1: '3', 2: '5'} dtype=object",
+      "RESULT Series.filter(regex): {'Q7_Part_1': 't1'} dtype=object"
+     ],
+     "check_equal_to_ref": {
+      "groupby(['k']).mean().reset_index()": true,
+      "groupby('k').count()": true,
+      "str.split(' ').str[0]": true,
+      "Series.filter(regex)": true
+     },
+     "verdict": "not_reproduced",
+     "reason": "all four checks equal ref"
+    },
+    "modin": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 6.59,
+     "probe_lines": [
+      "RESULT groupby(['k']).mean().reset_index(): {'k': {0: 'a', 1: 'b'}, 'v': {0: 2.0, 1: 2.0}} dtype={'k': 'object', 'v': 'float64'}",
+      "RESULT groupby('k').count(): {'v': {'a': 2, 'b': 1}, 's': {'a': 2, 'b': 1}} dtype={'v': 'int64', 's': 'int64'}",
+      "RESULT str.split(' ').str[0]: {0: '1', 1: '3', 2: '5'} dtype=object",
+      "RESULT Series.filter(regex): raised ValueError: No axis named columns for object type Series"
+     ],
+     "ref_lines": [
+      "RESULT groupby(['k']).mean().reset_index(): {'k': {0: 'a', 1: 'b'}, 'v': {0: 2.0, 1: 2.0}} dtype={'k': 'object', 'v': 'float64'}",
+      "RESULT groupby('k').count(): {'v': {'a': 2, 'b': 1}, 's': {'a': 2, 'b': 1}} dtype={'v': 'int64', 's': 'int64'}",
+      "RESULT str.split(' ').str[0]: {0: '1', 1: '3', 2: '5'} dtype=object",
+      "RESULT Series.filter(regex): {'Q7_Part_1': 't1'} dtype=object"
+     ],
+     "check_equal_to_ref": {
+      "groupby(['k']).mean().reset_index()": true,
+      "groupby('k').count()": true,
+      "str.split(' ').str[0]": true,
+      "Series.filter(regex)": false
+     },
+     "verdict": "confirmed",
+     "reason": "Series.filter(regex=...) raises ValueError 'No axis named columns'"
+    }
+   },
+   "verdict": "confirmed",
+   "confirmed_engines": [
+    "bodo",
+    "bodo_dw",
+    "modin"
+   ]
+  },
+  "engine_bug_silent": {
+   "engines": {
+    "bodo": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 1.4,
+     "probe_lines": [
+      "RESULT pd.value_counts(pd.cut(...)) bins: raised BodoLibNotImplementedException: from_pandas(): Could not convert DataFrame to Bodo: Encountered invalid dictionary type at column Version: int8 extension<pandas.interval<ArrowIntervalType>> no",
+      "RESULT pivot_table(aggfunc='size') type: BodoSeries",
+      "RESULT head() after add+drop column: raised TypeError: 'BodoStringMethods' object is not subscriptable"
+     ],
+     "ref_lines": [
+      "RESULT pd.value_counts(pd.cut(...)) bins: {Interval(1, 5, closed='right'): 1, Interval(5, 10, closed='right'): 1, Interval(25, 50, closed='right'): 1, Interval(50, 75, closed='right'): 1, Interval(75, 100, closed='right'): 1, Interval(100, 500, closed='right'): 1, Interval(500, 1000, closed='right'): 1, Interval(10, 25, closed='right'): 0} dtype=int64",
+      "RESULT pivot_table(aggfunc='size') type: Series",
+      "RESULT head() after add+drop column: {'Version': {0: 1, 1: 3}, 'Category': {0: 'a', 1: 'a'}, 'Cat2': {0: 'x', 1: 'x'}} dtype={'Version': 'int64', 'Category': 'object', 'Cat2': 'object'}"
+     ],
+     "check_equal_to_ref": {
+      "pd.value_counts(pd.cut(...)) bins": false,
+      "pivot_table(aggfunc='size') type": false,
+      "head() after add+drop column": false
+     },
+     "verdict": "not_reproduced",
+     "reason": "value_counts(cut) raises BodoLibNotImplementedException instead of differing silently; the stale head() check never ran (str[0] raised first); the bodo_dw read_csv row loss is not covered by this probe"
+    },
+    "bodo_dw": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 3.56,
+     "probe_lines": [
+      "RESULT pd.value_counts(pd.cut(...)) bins: raised BodoLibNotImplementedException: from_pandas(): Could not convert DataFrame to Bodo: Encountered invalid dictionary type at column Version: int8 extension<pandas.interval<ArrowIntervalType>> no",
+      "RESULT pivot_table(aggfunc='size') type: BodoSeries",
+      "RESULT head() after add+drop column: raised TypeError: 'BodoStringMethods' object is not subscriptable"
+     ],
+     "ref_lines": [
+      "RESULT pd.value_counts(pd.cut(...)) bins: {Interval(1, 5, closed='right'): 1, Interval(5, 10, closed='right'): 1, Interval(25, 50, closed='right'): 1, Interval(50, 75, closed='right'): 1, Interval(75, 100, closed='right'): 1, Interval(100, 500, closed='right'): 1, Interval(500, 1000, closed='right'): 1, Interval(10, 25, closed='right'): 0} dtype=int64",
+      "RESULT pivot_table(aggfunc='size') type: Series",
+      "RESULT head() after add+drop column: {'Version': {0: 1, 1: 3}, 'Category': {0: 'a', 1: 'a'}, 'Cat2': {0: 'x', 1: 'x'}} dtype={'Version': 'int64', 'Category': 'object', 'Cat2': 'object'}"
+     ],
+     "check_equal_to_ref": {
+      "pd.value_counts(pd.cut(...)) bins": false,
+      "pivot_table(aggfunc='size') type": false,
+      "head() after add+drop column": false
+     },
+     "verdict": "not_reproduced",
+     "reason": "as bodo"
+    },
+    "modin": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 6.98,
+     "probe_lines": [
+      "RESULT pd.value_counts(pd.cut(...)) bins: {Interval(1, 5, closed='right'): 1, Interval(5, 10, closed='right'): 1, Interval(25, 50, closed='right'): 1, Interval(50, 75, closed='right'): 1, Interval(75, 100, closed='right'): 1, Interval(100, 500, closed='right'): 1, Interval(500, 1000, closed='right'): 1} dtype=int64",
+      "RESULT pivot_table(aggfunc='size') type: DataFrame",
+      "RESULT head() after add+drop column: {'Version': {0: 1, 1: 3}, 'Category': {0: 'a', 1: 'a'}, 'Cat2': {0: 'x', 1: 'x'}} dtype={'Version': 'int64', 'Category': 'object', 'Cat2': 'object'}"
+     ],
+     "ref_lines": [
+      "RESULT pd.value_counts(pd.cut(...)) bins: {Interval(1, 5, closed='right'): 1, Interval(5, 10, closed='right'): 1, Interval(25, 50, closed='right'): 1, Interval(50, 75, closed='right'): 1, Interval(75, 100, closed='right'): 1, Interval(100, 500, closed='right'): 1, Interval(500, 1000, closed='right'): 1, Interval(10, 25, closed='right'): 0} dtype=int64",
+      "RESULT pivot_table(aggfunc='size') type: Series",
+      "RESULT head() after add+drop column: {'Version': {0: 1, 1: 3}, 'Category': {0: 'a', 1: 'a'}, 'Cat2': {0: 'x', 1: 'x'}} dtype={'Version': 'int64', 'Category': 'object', 'Cat2': 'object'}"
+     ],
+     "check_equal_to_ref": {
+      "pd.value_counts(pd.cut(...)) bins": false,
+      "pivot_table(aggfunc='size') type": false,
+      "head() after add+drop column": true
+     },
+     "verdict": "confirmed",
+     "reason": "value_counts of a cut result drops the empty bin (7 vs 8 entries); pivot_table(aggfunc='size') returns a DataFrame (ref Series)"
+    }
+   },
+   "verdict": "confirmed",
+   "confirmed_engines": [
+    "modin"
+   ]
+  },
+  "engine_corr_wrong_values": {
+   "engines": {
+    "modin": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 13.01,
+     "probe_lines": [
+      "RESULT corr(numeric_only=True) diagonal: 15"
+     ],
+     "ref_lines": [],
+     "check_equal_to_ref": {
+      "corr(numeric_only=True) diagonal": null
+     },
+     "verdict": "not_reproduced",
+     "reason": "the probe printed only the number of '1.0' substrings (15), which cannot decide; the guarded follow-up (engine_corr_wrong_values_check.py, 2026-10-04) on the same synthetic 4.4M-row frame finds max |diag - 1| = 9.6e-14 and 0 entries outside [-1, 1] for Modin (pandas: exactly 1.0, 0): out-of-range correlations not reproduced, only last-ulp noise",
+     "followup": {
+      "log": "results/rootcause/engine_corr_check.log",
+      "lines": {
+       "pandas": [
+        "RESULT shape: (24, 24)",
+        "RESULT max |diag - 1|: 0.000e+00",
+        "RESULT diagonal min/max: 1.0 / 1.0",
+        "RESULT entries outside [-1, 1] (slack 1e-9): 0",
+        "RESULT max |offdiag|: 0.001337"
+       ],
+       "modin": [
+        "RESULT shape: (24, 24)",
+        "RESULT max |diag - 1|: 9.615e-14",
+        "RESULT diagonal min/max: 0.9999999999999541 / 1.0000000000000961",
+        "RESULT entries outside [-1, 1] (slack 1e-9): 0",
+        "RESULT max |offdiag|: 0.001337"
+       ]
+      }
+     }
+    }
+   },
+   "verdict": "not_reproduced",
+   "confirmed_engines": []
+  },
+  "engine_unsupported_api": {
+   "engines": {
+    "bodo": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 1.4,
+     "probe_lines": [
+      "RESULT drop(columns, inplace=True): None",
+      "RESULT pd.cut: raised KeyError: 'a'",
+      "RESULT iloc row selection: {'s': {0: 'x', 1: 'y'}, 't': {0: '2020-01-01', 1: '2020-01-02'}} dtype={'s': 'string[pyarrow]', 't': 'string[pyarrow]'}",
+      "RESULT to_datetime(infer_datetime_format=True): raised TypeError: to_datetime() got an unexpected keyword argument 'infer_datetime_format'",
+      "RESULT groupby sum over string column: {'s': {1: 'ab'}} dtype={'s': 'string[pyarrow]'}"
+     ],
+     "ref_lines": [
+      "RESULT drop(columns, inplace=True): None",
+      "RESULT pd.cut: raised KeyError: 'a'",
+      "RESULT iloc row selection: {'s': {0: 'x', 1: 'y'}, 't': {0: '2020-01-01', 1: '2020-01-02'}} dtype={'s': 'object', 't': 'object'}",
+      "RESULT to_datetime(infer_datetime_format=True): {0: Timestamp('2020-01-01 00:00:00'), 1: Timestamp('2020-01-02 00:00:00'), 2: Timestamp('2020-01-03 00:00:00')} dtype=datetime64[ns]",
+      "RESULT groupby sum over string column: {'s': {1: 'ab'}} dtype={'s': 'object'}"
+     ],
+     "check_equal_to_ref": {
+      "drop(columns, inplace=True)": true,
+      "pd.cut": true,
+      "iloc row selection": false,
+      "to_datetime(infer_datetime_format=True)": false,
+      "groupby sum over string column": false
+     },
+     "verdict": "confirmed",
+     "reason": "to_datetime(infer_datetime_format=True) raises TypeError (ref accepts it)"
+    },
+    "dask": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 0.51,
+     "probe_lines": [
+      "RESULT drop(columns, inplace=True): raised TypeError: DataFrame.drop() got an unexpected keyword argument 'inplace'",
+      "RESULT pd.cut: raised AttributeError: module 'dask.dataframe' has no attribute 'cut'",
+      "RESULT iloc row selection: raised NotImplementedError: 'DataFrame.iloc' only supports selecting columns. It must be used like 'df.iloc[:, column_indexer]'.",
+      "RESULT to_datetime(infer_datetime_format=True): {0: Timestamp('2020-01-01 00:00:00'), 1: Timestamp('2020-01-02 00:00:00'), 2: Timestamp('2020-01-03 00:00:00')} dtype=datetime64[ns]",
+      "RESULT groupby sum over string column: {'s': {1: 'ab'}} dtype={'s': 'string'}"
+     ],
+     "ref_lines": [
+      "RESULT drop(columns, inplace=True): None",
+      "RESULT pd.cut: raised KeyError: 'a'",
+      "RESULT iloc row selection: {'s': {0: 'x', 1: 'y'}, 't': {0: '2020-01-01', 1: '2020-01-02'}} dtype={'s': 'object', 't': 'object'}",
+      "RESULT to_datetime(infer_datetime_format=True): {0: Timestamp('2020-01-01 00:00:00'), 1: Timestamp('2020-01-02 00:00:00'), 2: Timestamp('2020-01-03 00:00:00')} dtype=datetime64[ns]",
+      "RESULT groupby sum over string column: {'s': {1: 'ab'}} dtype={'s': 'object'}"
+     ],
+     "check_equal_to_ref": {
+      "drop(columns, inplace=True)": false,
+      "pd.cut": false,
+      "iloc row selection": false,
+      "to_datetime(infer_datetime_format=True)": true,
+      "groupby sum over string column": false
+     },
+     "verdict": "confirmed",
+     "reason": "drop(inplace=True), pd.cut and iloc row selection are unsupported"
+    },
+    "fireducks": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 0.37,
+     "probe_lines": [
+      "RESULT drop(columns, inplace=True): None",
+      "RESULT pd.cut: raised KeyError: \"'a'\"",
+      "RESULT iloc row selection: {'s': {0: 'x', 1: 'y'}, 't': {0: '2020-01-01', 1: '2020-01-02'}} dtype={'s': 'object', 't': 'object'}",
+      "RESULT to_datetime(infer_datetime_format=True): {0: Timestamp('2020-01-01 00:00:00'), 1: Timestamp('2020-01-02 00:00:00'), 2: Timestamp('2020-01-03 00:00:00')} dtype=datetime64[ns]",
+      "RESULT groupby sum over string column: raised TypeError: agg function failed [how->sum,dtype->string]"
+     ],
+     "ref_lines": [
+      "RESULT drop(columns, inplace=True): None",
+      "RESULT pd.cut: raised KeyError: 'a'",
+      "RESULT iloc row selection: {'s': {0: 'x', 1: 'y'}, 't': {0: '2020-01-01', 1: '2020-01-02'}} dtype={'s': 'object', 't': 'object'}",
+      "RESULT to_datetime(infer_datetime_format=True): {0: Timestamp('2020-01-01 00:00:00'), 1: Timestamp('2020-01-02 00:00:00'), 2: Timestamp('2020-01-03 00:00:00')} dtype=datetime64[ns]",
+      "RESULT groupby sum over string column: {'s': {1: 'ab'}} dtype={'s': 'object'}"
+     ],
+     "check_equal_to_ref": {
+      "drop(columns, inplace=True)": true,
+      "pd.cut": false,
+      "iloc row selection": true,
+      "to_datetime(infer_datetime_format=True)": true,
+      "groupby sum over string column": false
+     },
+     "verdict": "confirmed",
+     "reason": "groupby sum over a string column raises 'agg function failed' (ref concatenates)"
+    }
+   },
+   "verdict": "confirmed",
+   "confirmed_engines": [
+    "bodo",
+    "dask",
+    "fireducks"
+   ]
+  },
+  "float_rounding_within_tolerance": {
+   "engines": {
+    "fireducks": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 0.36,
+     "probe_lines": [
+      "RESULT parsed floats (repr): ['24.873022333333335', '25.005149333333335', '-73.9821548461914']",
+      "RESULT exact round trip vs float(): [True, True, True]",
+      "RESULT corr a,b (repr): {'a': {'a': 1.0, 'b': 0.001955627381912835}, 'b': {'a': 0.001955627381912835, 'b': 1.0}} dtype={'a': 'float64', 'b': 'float64'}",
+      "RESULT std / mean (repr): ('np.float64(288273.2741057089)', 'np.float64(499279.4992793097)')"
+     ],
+     "ref_lines": [
+      "RESULT parsed floats (repr): ['24.873022333333335', '25.005149333333335', '-73.9821548461914']",
+      "RESULT exact round trip vs float(): [True, True, True]",
+      "RESULT corr a,b (repr): {'a': {'a': 1.0, 'b': 0.001955627381912874}, 'b': {'a': 0.001955627381912874, 'b': 1.0}} dtype={'a': 'float64', 'b': 'float64'}",
+      "RESULT std / mean (repr): ('np.float64(288273.2741057089)', 'np.float64(499279.4992793096)')"
+     ],
+     "check_equal_to_ref": {
+      "parsed floats (repr)": true,
+      "exact round trip vs float()": true,
+      "corr a,b (repr)": false,
+      "std / mean (repr)": false
+     },
+     "verdict": "confirmed",
+     "reason": "corr off-diagonal ...912835 (ref ...912874); mean ...4993097 (ref ...4993096)"
+    },
+    "modin": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 6.43,
+     "probe_lines": [
+      "RESULT parsed floats (repr): ['24.873022333333335', '25.005149333333335', '-73.9821548461914']",
+      "RESULT exact round trip vs float(): [True, True, True]",
+      "RESULT corr a,b (repr): {'a': {'a': 1.0000000000000073, 'b': 0.001955627381910692}, 'b': {'a': 0.00195562738191115, 'b': 0.9999999999999963}} dtype={'a': 'float64', 'b': 'float64'}",
+      "RESULT std / mean (repr): ('np.float64(288273.2741057089)', 'np.float64(499279.4992793096)')"
+     ],
+     "ref_lines": [
+      "RESULT parsed floats (repr): ['24.873022333333335', '25.005149333333335', '-73.9821548461914']",
+      "RESULT exact round trip vs float(): [True, True, True]",
+      "RESULT corr a,b (repr): {'a': {'a': 1.0, 'b': 0.001955627381912874}, 'b': {'a': 0.001955627381912874, 'b': 1.0}} dtype={'a': 'float64', 'b': 'float64'}",
+      "RESULT std / mean (repr): ('np.float64(288273.2741057089)', 'np.float64(499279.4992793096)')"
+     ],
+     "check_equal_to_ref": {
+      "parsed floats (repr)": true,
+      "exact round trip vs float()": true,
+      "corr a,b (repr)": false,
+      "std / mean (repr)": true
+     },
+     "verdict": "confirmed",
+     "reason": "corr diagonal 1.0000000000000073 and off-diagonal ...910692 (ref 1.0, ...912874)"
+    }
+   },
+   "verdict": "confirmed",
+   "confirmed_engines": [
+    "fireducks",
+    "modin"
+   ]
+  },
+  "index_not_preserved": {
+   "engines": {
+    "bodo": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 1.36,
+     "probe_lines": [
+      "RESULT boolean filter index: {'k': {10: 3, 12: 2}, 'v': {10: 10, 12: 30}} dtype={'k': 'int64[pyarrow]', 'v': 'int64[pyarrow]'}",
+      "RESULT isin filter index: {'k': {11: 1, 13: 1}, 'v': {11: 20, 13: 40}} dtype={'k': 'int64[pyarrow]', 'v': 'int64[pyarrow]'}",
+      "RESULT sort_values index: {'k': {11: 1, 13: 1, 12: 2, 10: 3}, 'v': {11: 20, 13: 40, 12: 30, 10: 10}} dtype={'k': 'int64[pyarrow]', 'v': 'int64[pyarrow]'}",
+      "RESULT groupby(as_index=False).mean().sort_values index: {'k': {0: 3, 1: 1, 2: 2}, 'v': {0: 10.0, 1: 30.0, 2: 30.0}} dtype={'k': 'int64[pyarrow]', 'v': 'double[pyarrow]'}"
+     ],
+     "ref_lines": [
+      "RESULT boolean filter index: {'k': {10: 3, 12: 2}, 'v': {10: 10, 12: 30}} dtype={'k': 'int64', 'v': 'int64'}",
+      "RESULT isin filter index: {'k': {11: 1, 13: 1}, 'v': {11: 20, 13: 40}} dtype={'k': 'int64', 'v': 'int64'}",
+      "RESULT sort_values index: {'k': {11: 1, 13: 1, 12: 2, 10: 3}, 'v': {11: 20, 13: 40, 12: 30, 10: 10}} dtype={'k': 'int64', 'v': 'int64'}",
+      "RESULT groupby(as_index=False).mean().sort_values index: {'k': {2: 3, 0: 1, 1: 2}, 'v': {2: 10.0, 0: 30.0, 1: 30.0}} dtype={'k': 'int64', 'v': 'float64'}"
+     ],
+     "check_equal_to_ref": {
+      "boolean filter index": false,
+      "isin filter index": false,
+      "sort_values index": false,
+      "groupby(as_index=False).mean().sort_values index": false
+     },
+     "verdict": "confirmed",
+     "reason": "groupby(as_index=False).mean().sort_values keeps a 0,1,2 index (ref 2,0,1); filters and sort keep it"
+    },
+    "bodo_dw": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 4.57,
+     "probe_lines": [
+      "RESULT boolean filter index: {'k': {10: 3, 12: 2}, 'v': {10: 10, 12: 30}} dtype={'k': 'int64[pyarrow]', 'v': 'int64[pyarrow]'}",
+      "RESULT isin filter index: {'k': {11: 1, 13: 1}, 'v': {11: 20, 13: 40}} dtype={'k': 'int64[pyarrow]', 'v': 'int64[pyarrow]'}",
+      "RESULT sort_values index: {'k': {11: 1, 13: 1, 12: 2, 10: 3}, 'v': {11: 20, 13: 40, 12: 30, 10: 10}} dtype={'k': 'int64[pyarrow]', 'v': 'int64[pyarrow]'}",
+      "RESULT groupby(as_index=False).mean().sort_values index: {'k': {0: 3, 1: 2, 2: 1}, 'v': {0: 10.0, 1: 30.0, 2: 30.0}} dtype={'k': 'int64[pyarrow]', 'v': 'double[pyarrow]'}"
+     ],
+     "ref_lines": [
+      "RESULT boolean filter index: {'k': {10: 3, 12: 2}, 'v': {10: 10, 12: 30}} dtype={'k': 'int64', 'v': 'int64'}",
+      "RESULT isin filter index: {'k': {11: 1, 13: 1}, 'v': {11: 20, 13: 40}} dtype={'k': 'int64', 'v': 'int64'}",
+      "RESULT sort_values index: {'k': {11: 1, 13: 1, 12: 2, 10: 3}, 'v': {11: 20, 13: 40, 12: 30, 10: 10}} dtype={'k': 'int64', 'v': 'int64'}",
+      "RESULT groupby(as_index=False).mean().sort_values index: {'k': {2: 3, 0: 1, 1: 2}, 'v': {2: 10.0, 0: 30.0, 1: 30.0}} dtype={'k': 'int64', 'v': 'float64'}"
+     ],
+     "check_equal_to_ref": {
+      "boolean filter index": false,
+      "isin filter index": false,
+      "sort_values index": false,
+      "groupby(as_index=False).mean().sort_values index": false
+     },
+     "verdict": "confirmed",
+     "reason": "as bodo, with another group order"
+    },
+    "dask": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 0.48,
+     "probe_lines": [
+      "RESULT boolean filter index: {'k': {10: 3, 12: 2}, 'v': {10: 10, 12: 30}} dtype={'k': 'int64', 'v': 'int64'}",
+      "RESULT isin filter index: {'k': {11: 1, 13: 1}, 'v': {11: 20, 13: 40}} dtype={'k': 'int64', 'v': 'int64'}",
+      "RESULT sort_values index: {'k': {11: 1, 13: 1, 12: 2, 10: 3}, 'v': {11: 20, 13: 40, 12: 30, 10: 10}} dtype={'k': 'int64', 'v': 'int64'}",
+      "RESULT groupby(as_index=False).mean().sort_values index: raised TypeError: GroupBy.__init__() got an unexpected keyword argument 'as_index'"
+     ],
+     "ref_lines": [
+      "RESULT boolean filter index: {'k': {10: 3, 12: 2}, 'v': {10: 10, 12: 30}} dtype={'k': 'int64', 'v': 'int64'}",
+      "RESULT isin filter index: {'k': {11: 1, 13: 1}, 'v': {11: 20, 13: 40}} dtype={'k': 'int64', 'v': 'int64'}",
+      "RESULT sort_values index: {'k': {11: 1, 13: 1, 12: 2, 10: 3}, 'v': {11: 20, 13: 40, 12: 30, 10: 10}} dtype={'k': 'int64', 'v': 'int64'}",
+      "RESULT groupby(as_index=False).mean().sort_values index: {'k': {2: 3, 0: 1, 1: 2}, 'v': {2: 10.0, 0: 30.0, 1: 30.0}} dtype={'k': 'int64', 'v': 'float64'}"
+     ],
+     "check_equal_to_ref": {
+      "boolean filter index": true,
+      "isin filter index": true,
+      "sort_values index": true,
+      "groupby(as_index=False).mean().sort_values index": false
+     },
+     "verdict": "not_reproduced",
+     "reason": "filters and sort keep the index; groupby(as_index=False) is unsupported (TypeError)"
+    },
+    "fireducks": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 0.39,
+     "probe_lines": [
+      "RESULT boolean filter index: {'k': {10: 3, 12: 2}, 'v': {10: 10, 12: 30}} dtype={'k': 'int64', 'v': 'int64'}",
+      "RESULT isin filter index: {'k': {11: 1, 13: 1}, 'v': {11: 20, 13: 40}} dtype={'k': 'int64', 'v': 'int64'}",
+      "RESULT sort_values index: {'k': {11: 1, 13: 1, 12: 2, 10: 3}, 'v': {11: 20, 13: 40, 12: 30, 10: 10}} dtype={'k': 'int64', 'v': 'int64'}",
+      "RESULT groupby(as_index=False).mean().sort_values index: {'k': {0: 3, 1: 1, 2: 2}, 'v': {0: 10.0, 1: 30.0, 2: 30.0}} dtype={'k': 'int64', 'v': 'float64'}"
+     ],
+     "ref_lines": [
+      "RESULT boolean filter index: {'k': {10: 3, 12: 2}, 'v': {10: 10, 12: 30}} dtype={'k': 'int64', 'v': 'int64'}",
+      "RESULT isin filter index: {'k': {11: 1, 13: 1}, 'v': {11: 20, 13: 40}} dtype={'k': 'int64', 'v': 'int64'}",
+      "RESULT sort_values index: {'k': {11: 1, 13: 1, 12: 2, 10: 3}, 'v': {11: 20, 13: 40, 12: 30, 10: 10}} dtype={'k': 'int64', 'v': 'int64'}",
+      "RESULT groupby(as_index=False).mean().sort_values index: {'k': {2: 3, 0: 1, 1: 2}, 'v': {2: 10.0, 0: 30.0, 1: 30.0}} dtype={'k': 'int64', 'v': 'float64'}"
+     ],
+     "check_equal_to_ref": {
+      "boolean filter index": true,
+      "isin filter index": true,
+      "sort_values index": true,
+      "groupby(as_index=False).mean().sort_values index": false
+     },
+     "verdict": "confirmed",
+     "reason": "as bodo"
+    }
+   },
+   "verdict": "confirmed",
+   "confirmed_engines": [
+    "bodo",
+    "bodo_dw",
+    "fireducks"
+   ]
+  },
+  "int_float_nullable_repr": {
+   "engines": {
+    "fireducks": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 0.37,
+     "probe_lines": [
+      "RESULT head(3) dtypes (pandas: float64): {'a': {0: 0.0, 1: 1.0, 2: 1.0}, 'b': {0: 'a', 1: 'b', 2: 'c'}} dtype={'a': 'float64', 'b': 'object'}",
+      "RESULT groupby sum dtype: {('n', 'sum'): {1: 1.0, 2: 3.0}} dtype={('n', 'sum'): 'float64'}"
+     ],
+     "ref_lines": [
+      "RESULT head(3) dtypes (pandas: float64): {'a': {0: 0.0, 1: 1.0, 2: 1.0}, 'b': {0: 'a', 1: 'b', 2: 'c'}} dtype={'a': 'float64', 'b': 'object'}",
+      "RESULT groupby sum dtype: {('n', 'sum'): {1: 1.0, 2: 3.0}} dtype={('n', 'sum'): 'float64'}"
+     ],
+     "check_equal_to_ref": {
+      "head(3) dtypes (pandas": true,
+      "groupby sum dtype": true
+     },
+     "verdict": "not_reproduced",
+     "reason": "both checks equal ref"
+    },
+    "modin": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 6.41,
+     "probe_lines": [
+      "RESULT head(3) dtypes (pandas: float64): {'a': {0: 0.0, 1: 1.0, 2: 1.0}, 'b': {0: 'a', 1: 'b', 2: 'c'}} dtype={'a': 'float64', 'b': 'object'}",
+      "RESULT groupby sum dtype: {('n', 'sum'): {1: 1.0, 2: 3.0}} dtype={('n', 'sum'): 'float64'}"
+     ],
+     "ref_lines": [
+      "RESULT head(3) dtypes (pandas: float64): {'a': {0: 0.0, 1: 1.0, 2: 1.0}, 'b': {0: 'a', 1: 'b', 2: 'c'}} dtype={'a': 'float64', 'b': 'object'}",
+      "RESULT groupby sum dtype: {('n', 'sum'): {1: 1.0, 2: 3.0}} dtype={('n', 'sum'): 'float64'}"
+     ],
+     "check_equal_to_ref": {
+      "head(3) dtypes (pandas": true,
+      "groupby sum dtype": true
+     },
+     "verdict": "not_reproduced",
+     "reason": "both checks equal ref"
+    }
+   },
+   "verdict": "not_reproduced",
+   "confirmed_engines": []
+  },
+  "lazy_partition_model": {
+   "engines": {
+    "dask": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 0.49,
+     "probe_lines": [
+      "RESULT shape: (<dask_expr.expr.Scalar: expr=df.size() // 2, dtype=int64>, 2)",
+      "RESULT '{:.4f}'.format(mean): raised TypeError: unsupported format string passed to Scalar.__format__",
+      "RESULT apply without meta: raised ValueError: Metadata inference failed in `apply`."
+     ],
+     "ref_lines": [
+      "RESULT shape: (4, 2)",
+      "RESULT '{:.4f}'.format(mean): 2.5000",
+      "RESULT apply without meta: {0: '2018', 1: '2018', 2: '2018', 3: '2018'} dtype=object"
+     ],
+     "check_equal_to_ref": {
+      "shape": false,
+      "'{:.4f}'.format(mean)": false,
+      "apply without meta": false
+     },
+     "verdict": "confirmed",
+     "reason": "shape is a lazy Scalar, formatting a lazy mean raises, apply without meta fails"
+    }
+   },
+   "verdict": "confirmed",
+   "confirmed_engines": [
+    "dask"
+   ]
+  },
+  "missing_sentinel_repr": {
+   "engines": {
+    "fireducks": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 0.33,
+     "probe_lines": [
+      "RESULT missing string value: \"{'s': {0: 'a', 1: None}, 'v': {0: 1, 1: 2}} dtype={'s': 'object', 'v': 'int64'}\""
+     ],
+     "ref_lines": [
+      "RESULT missing string value: \"{'s': {0: 'a', 1: nan}, 'v': {0: 1, 1: 2}} dtype={'s': 'object', 'v': 'int64'}\""
+     ],
+     "check_equal_to_ref": {
+      "missing string value": false
+     },
+     "verdict": "confirmed",
+     "reason": "missing string read as None (ref nan)"
+    }
+   },
+   "verdict": "confirmed",
+   "confirmed_engines": [
+    "fireducks"
+   ]
+  },
+  "partitioned_type_inference": {
+   "engines": {
+    "dask": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 0.54,
+     "probe_lines": [
+      "RESULT dtype and python types of 'count': raised ValueError: Mismatched dtypes found in `pd.read_csv`/`pd.read_table`."
+     ],
+     "ref_lines": [
+      "RESULT dtype and python types of 'count': {'str': 200001} dtype=int64"
+     ],
+     "check_equal_to_ref": {
+      "dtype and python types of 'count'": false
+     },
+     "verdict": "confirmed",
+     "reason": "read_csv raises 'Mismatched dtypes' at compute"
+    },
+    "modin": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 6.65,
+     "probe_lines": [
+      "RESULT dtype and python types of 'count': {'str': 200001} dtype=int64"
+     ],
+     "ref_lines": [
+      "RESULT dtype and python types of 'count': {'str': 200001} dtype=int64"
+     ],
+     "check_equal_to_ref": {
+      "dtype and python types of 'count'": true
+     },
+     "verdict": "not_reproduced",
+     "reason": "column read as 200,001 str values, as ref"
+    }
+   },
+   "verdict": "confirmed",
+   "confirmed_engines": [
+    "dask"
+   ]
+  },
+  "row_order_ties": {
+   "engines": {
+    "bodo": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 3.74,
+     "probe_lines": [
+      "RESULT value_counts().nlargest(10) labels: ['n161', 'n035', 'n289', 'n041', 'n010', 'n246', 'n114', 'n120', 'n288', 'n083'] dtype=large_string[pyarrow]",
+      "RESULT sort_values ties: id order: {0: 1, 1: 3, 2: 6, 3: 2, 4: 5, 5: 0, 6: 4} dtype=int64[pyarrow]",
+      "RESULT groupby default group order: {'x': {'Man': 2, 'Woman': 1, 'Nonbinary': 1}} dtype={'x': 'int64[pyarrow]'}"
+     ],
+     "ref_lines": [
+      "RESULT value_counts().nlargest(10) labels: ['n161', 'n289', 'n035', 'n041', 'n039', 'n227', 'n120', 'n288', 'n083', 'n086'] dtype=object",
+      "RESULT sort_values ties: id order: {1: 1, 3: 3, 6: 6, 2: 2, 5: 5, 0: 0, 4: 4} dtype=int64",
+      "RESULT groupby default group order: {'x': {'Man': 2, 'Nonbinary': 1, 'Woman': 1}} dtype={'x': 'int64'}"
+     ],
+     "check_equal_to_ref": {
+      "value_counts().nlargest(10) labels": false,
+      "sort_values ties": false,
+      "groupby default group order": false
+     },
+     "verdict": "confirmed",
+     "reason": "nlargest tie order, sort_values tie order and groupby group order all differ"
+    },
+    "fireducks": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 0.36,
+     "probe_lines": [
+      "RESULT value_counts().nlargest(10) labels: ['n161', 'n035', 'n289', 'n041', 'n010', 'n246', 'n114', 'n120', 'n288', 'n083'] dtype=object",
+      "RESULT sort_values ties: id order: {1: 1, 3: 3, 6: 6, 2: 2, 5: 5, 0: 0, 4: 4} dtype=int64",
+      "RESULT groupby default group order: {'x': {'Man': 2, 'Nonbinary': 1, 'Woman': 1}} dtype={'x': 'int64'}"
+     ],
+     "ref_lines": [
+      "RESULT value_counts().nlargest(10) labels: ['n161', 'n289', 'n035', 'n041', 'n039', 'n227', 'n120', 'n288', 'n083', 'n086'] dtype=object",
+      "RESULT sort_values ties: id order: {1: 1, 3: 3, 6: 6, 2: 2, 5: 5, 0: 0, 4: 4} dtype=int64",
+      "RESULT groupby default group order: {'x': {'Man': 2, 'Nonbinary': 1, 'Woman': 1}} dtype={'x': 'int64'}"
+     ],
+     "check_equal_to_ref": {
+      "value_counts().nlargest(10) labels": false,
+      "sort_values ties": true,
+      "groupby default group order": true
+     },
+     "verdict": "confirmed",
+     "reason": "value_counts().nlargest(10) labels in another tie order"
+    },
+    "modin": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 6.44,
+     "probe_lines": [
+      "RESULT value_counts().nlargest(10) labels: ['n161', 'n035', 'n041', 'n289', 'n288', 'n083', 'n227', 'n241', 'n086', 'n246'] dtype=object",
+      "RESULT sort_values ties: id order: {1: 1, 3: 3, 6: 6, 2: 2, 5: 5, 0: 0, 4: 4} dtype=int64",
+      "RESULT groupby default group order: {'x': {'Man': 2, 'Nonbinary': 1, 'Woman': 1}} dtype={'x': 'int64'}"
+     ],
+     "ref_lines": [
+      "RESULT value_counts().nlargest(10) labels: ['n161', 'n289', 'n035', 'n041', 'n039', 'n227', 'n120', 'n288', 'n083', 'n086'] dtype=object",
+      "RESULT sort_values ties: id order: {1: 1, 3: 3, 6: 6, 2: 2, 5: 5, 0: 0, 4: 4} dtype=int64",
+      "RESULT groupby default group order: {'x': {'Man': 2, 'Nonbinary': 1, 'Woman': 1}} dtype={'x': 'int64'}"
+     ],
+     "check_equal_to_ref": {
+      "value_counts().nlargest(10) labels": false,
+      "sort_values ties": true,
+      "groupby default group order": true
+     },
+     "verdict": "confirmed",
+     "reason": "value_counts().nlargest(10) labels in another tie order (ref n161, n289, n035, ...)"
+    }
+   },
+   "verdict": "confirmed",
+   "confirmed_engines": [
+    "bodo",
+    "fireducks",
+    "modin"
+   ]
+  },
+  "str_dtype_object_checks": {
+   "engines": {
+    "bodo": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 3.88,
+     "probe_lines": [
+      "RESULT cat cols via dtypes == 'object': []",
+      "RESULT num cols via dtype != 'object': ['city', 'price', 'rooms']",
+      "RESULT select_dtypes(include='object'): []"
+     ],
+     "ref_lines": [
+      "RESULT cat cols via dtypes == 'object': ['city']",
+      "RESULT num cols via dtype != 'object': ['price', 'rooms']",
+      "RESULT select_dtypes(include='object'): ['city']"
+     ],
+     "check_equal_to_ref": {
+      "cat cols via dtypes == 'object'": false,
+      "num cols via dtype != 'object'": false,
+      "select_dtypes(include='object')": false
+     },
+     "verdict": "confirmed",
+     "reason": "dtype == 'object' and select_dtypes('object') select no column (ref ['city'])"
+    },
+    "dask": {
+     "status": "ok",
+     "returncode": 0,
+     "seconds": 0.47,
+     "probe_lines": [
+      "RESULT cat cols via dtypes == 'object': []",
+      "RESULT num cols via dtype != 'object': ['city', 'price', 'rooms']",
+      "RESULT select_dtypes(include='object'): []"
+     ],
+     "ref_lines": [
+      "RESULT cat cols via dtypes == 'object': ['city']",
+      "RESULT num cols via dtype != 'object': ['price', 'rooms']",
+      "RESULT select_dtypes(include='object'): ['city']"
+     ],
+     "check_equal_to_ref": {
+      "cat cols via dtypes == 'object'": false,
+      "num cols via dtype != 'object'": false,
+      "select_dtypes(include='object')": false
+     },
+     "verdict": "confirmed",
+     "reason": "as bodo"
+    }
+   },
+   "verdict": "confirmed",
+   "confirmed_engines": [
+    "bodo",
+    "dask"
+   ]
+  }
+ },
+ "summary": {
+  "confirmed": 30,
+  "not_reproduced": 8,
+  "inconclusive": 0
+ },
+ "causes_by_verdict": {
+  "confirmed": [
+   "approximate_quantile",
+   "arrow_backed_dtypes",
+   "arrow_dtype_errors",
+   "axis_names_lost",
+   "cow_chained_assignment",
+   "engine_bug_error",
+   "engine_bug_silent",
+   "engine_unsupported_api",
+   "float_rounding_within_tolerance",
+   "index_not_preserved",
+   "lazy_partition_model",
+   "missing_sentinel_repr",
+   "partitioned_type_inference",
+   "row_order_ties",
+   "str_dtype_object_checks"
+  ],
+  "not_reproduced": [
+   "engine_corr_wrong_values",
+   "int_float_nullable_repr"
+  ],
+  "inconclusive": []
+ }
+}

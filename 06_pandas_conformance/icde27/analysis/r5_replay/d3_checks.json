@@ -1,0 +1,665 @@
+{
+ "N1": {
+  "bodo|akshaypetkar/supermarket-sales-analysis|3": {
+   "outputs": {
+    "__last__": true,
+    "df1": true
+   },
+   "relaxation": "canon_dtype",
+   "verdict": "confirmed"
+  },
+  "bodo|mustafatatarhan1/iris-kernel|32": {
+   "outputs": {
+    "__last__": false
+   },
+   "relaxation": "drop_index",
+   "verdict": "not confirmed"
+  },
+  "fireducks|danielresende/game-of-thrones-battles|4": {
+   "outputs": {
+    "__last__": false
+   },
+   "relaxation": "drop_index",
+   "verdict": "not confirmed"
+  },
+  "fireducks|guyalmog/hr-analytics-predicting-employees-attrition|1": {
+   "outputs": {
+    "in_time_data": true,
+    "out_time_data": true
+   },
+   "relaxation": "unify_missing",
+   "verdict": "confirmed"
+  },
+  "fireducks|j0thu777/onlineretailanalysis|27": {
+   "outputs": {
+    "__last__": false,
+    "avg_sales": false
+   },
+   "relaxation": "float_tol",
+   "verdict": "not confirmed"
+  },
+  "fireducks|jaideepvalani/useful-eda-for-beginners-rsna-embolism|23": {
+   "outputs": {
+    "__last__": true
+   },
+   "relaxation": "canon_dtype",
+   "verdict": "confirmed"
+  },
+  "fireducks|jyotsananegi/melbourne-housing-snapshot-eda|1": {
+   "outputs": {
+    "melb_house": true
+   },
+   "relaxation": "unify_missing",
+   "verdict": "confirmed"
+  },
+  "fireducks|kanncaa1/dataiteam-titanic-eda|14": {
+   "outputs": {
+    "__last__": true
+   },
+   "relaxation": "drop_index",
+   "verdict": "confirmed"
+  },
+  "fireducks|paramarthasengupta/plotly-eda-top-movies-of-20th-century|22": {
+   "outputs": {
+    "award_filter": true,
+    "award_movies": true,
+    "no_award_movies": true
+   },
+   "relaxation": "unify_missing",
+   "verdict": "confirmed"
+  },
+  "modin|atultaur/house-sales-in-king-county|58": {
+   "outputs": {
+    "single_house": true
+   },
+   "relaxation": "drop_names",
+   "verdict": "confirmed"
+  },
+  "modin|j0thu777/onlineretailanalysis|27": {
+   "outputs": {
+    "__last__": false,
+    "avg_sales": false
+   },
+   "relaxation": "float_tol",
+   "verdict": "not confirmed"
+  },
+  "modin|kanncaa1/dataiteam-titanic-eda|53": {
+   "outputs": {
+    "__last__": true
+   },
+   "relaxation": "canon_dtype",
+   "verdict": "confirmed"
+  },
+  "modin|kanncaa1/dataiteam-titanic-eda|71": {
+   "outputs": {
+    "__last__": true
+   },
+   "relaxation": "canon_dtype",
+   "verdict": "confirmed"
+  },
+  "modin|loveall/favorita-analytics|10": {
+   "outputs": {
+    "df_year": false
+   },
+   "relaxation": "float_tol",
+   "verdict": "not confirmed"
+  },
+  "modin|loveall/favorita-analytics|4": {
+   "outputs": {
+    "__last__": false
+   },
+   "relaxation": "canon_dtype",
+   "verdict": "not confirmed"
+  },
+  "modin|loveall/favorita-analytics|5": {
+   "outputs": {
+    "df": false
+   },
+   "relaxation": "float_tol",
+   "verdict": "not confirmed"
+  },
+  "modin|maxiaoyue/data-cleaning-challenge-handling-missing-values|3": {
+   "outputs": {
+    "__last__": false
+   },
+   "relaxation": "canon_dtype",
+   "verdict": "not confirmed"
+  },
+  "modin|maxiaoyue/data-cleaning-challenge-handling-missing-values|4": {
+   "outputs": {
+    "__last__": false
+   },
+   "relaxation": "canon_dtype",
+   "verdict": "not confirmed"
+  },
+  "modin|pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697|22": {
+   "outputs": {
+    "i": true,
+    "row": true
+   },
+   "relaxation": "drop_names",
+   "verdict": "confirmed"
+  },
+  "modin|shivavashishtha/zomato-eda-tutorial|28": {
+   "outputs": {
+    "__last__": true
+   },
+   "relaxation": "canon_dtype",
+   "verdict": "confirmed"
+  },
+  "modin|shivavashishtha/zomato-eda-tutorial|4": {
+   "outputs": {
+    "__last__": true
+   },
+   "relaxation": "canon_dtype",
+   "verdict": "confirmed"
+  },
+  "modin|ukveteran/sarima-time-series-eda-predict-jma-sao-paulo|2": {
+   "outputs": {
+    "__last__": true
+   },
+   "relaxation": "canon_dtype",
+   "verdict": "confirmed"
+  },
+  "modin|xokent/cyber-security-attack-eda|20": {
+   "outputs": {
+    "__last__": true
+   },
+   "relaxation": "drop_names",
+   "verdict": "confirmed"
+  },
+  "p30|willkoehrsen/start-here-a-gentle-introduction|9": {
+   "outputs": {
+    "__last__": false
+   },
+   "relaxation": "canon_dtype",
+   "verdict": "not confirmed"
+  },
+  "pyarrow_backend|carlmcbrideellis/simple-eda-of-kaggle-grandmasters-scheduled|5": {
+   "outputs": {
+    "GM_influencers": false,
+    "GM_user_follower": true,
+    "GM_users": true,
+    "__last__": false,
+    "followers": true
+   },
+   "relaxation": "canon_dtype",
+   "verdict": "not confirmed"
+  },
+  "pyarrow_backend|qnqfbqfqo/electric-vehicle-landscape-in-washington-state|2": {
+   "outputs": {
+    "df": true
+   },
+   "relaxation": "canon_dtype",
+   "verdict": "confirmed"
+  }
+ },
+ "N3": {
+  "bodo|akgauravin/gun-violence-data-exploration-and-plotting|12": {
+   "cls_vs_partner": "DIFF",
+   "fails_vs_partner": {
+    "__last__": "values:col0:row=1",
+    "data_gv": null
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "not confirmed"
+  },
+  "bodo|akgauravin/gun-violence-data-exploration-and-plotting|5": {
+   "cls_vs_partner": "DIFF",
+   "fails_vs_partner": {
+    "__last__": "values:col0:row=1"
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "not confirmed"
+  },
+  "bodo|akshaypetkar/supermarket-sales-analysis|23": {
+   "cls_vs_partner": "E2",
+   "fails_vs_partner": {
+    "categorical_columns": null
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "bodo|akshaypetkar/supermarket-sales-analysis|3": {
+   "cls_vs_partner": "E2",
+   "fails_vs_partner": {
+    "__last__": null,
+    "df1": null
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "bodo|arimishabirin/globalsalary-simple-eda|6": {
+   "cls_vs_partner": "E0",
+   "fails_vs_partner": {},
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "bodo|balajivenkat96/solar-plants|7": {
+   "cls_vs_partner": "REF_ERR",
+   "fails_vs_partner": {},
+   "partner": "pyarrow_backend",
+   "verdict": "inconclusive"
+  },
+  "bodo|bcannon/indexing-selecting-assigning|12": {
+   "cls_vs_partner": "E0",
+   "fails_vs_partner": {},
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "bodo|beratozmen/clash-of-clans-exploratory-data-analysis|7": {
+   "cls_vs_partner": "E2",
+   "fails_vs_partner": {
+    "__last__": null
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "bodo|grudd0/mass-shooting-analysis|36": {
+   "cls_vs_partner": "DIFF",
+   "fails_vs_partner": {
+    "_": "scalar_value"
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "not confirmed"
+  },
+  "bodo|luizep/movieslens20m|6": {
+   "cls_vs_partner": "DIFF",
+   "fails_vs_partner": {
+    "__last__": "values:col0:row=3"
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "not confirmed"
+  },
+  "bodo|luizep/movieslens20m|7": {
+   "cls_vs_partner": "DIFF",
+   "fails_vs_partner": {
+    "__last__": "values:col0:row=1"
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "not confirmed"
+  },
+  "bodo|nihhaar/etltransform|3": {
+   "cls_vs_partner": "E0",
+   "fails_vs_partner": {},
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "bodo|paramarthasengupta/plotly-eda-top-movies-of-20th-century|22": {
+   "cls_vs_partner": "E4",
+   "fails_vs_partner": {
+    "award_filter": null,
+    "award_movies": null,
+    "award_time_yr": null,
+    "no_award_movies": null
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "bodo|paramarthasengupta/plotly-eda-top-movies-of-20th-century|4": {
+   "cls_vs_partner": "DIFF",
+   "fails_vs_partner": {
+    "__last__": "values:col0:row=1"
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "not confirmed"
+  },
+  "bodo|salmaneunus/student-s-performance-quantitative-visual-eda|11": {
+   "cls_vs_partner": "DIFF",
+   "fails_vs_partner": {
+    "__last__": "values:col0:row=0"
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "not confirmed"
+  },
+  "bodo|saniaks/melbourne-house-price-eda|7": {
+   "cls_vs_partner": "E0",
+   "fails_vs_partner": {},
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "bodo|sanket30/eda-of-application-train-home-credit-default|7": {
+   "cls_vs_partner": "E0",
+   "fails_vs_partner": {},
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "bodo|tunguz/fathers-day-specials-just-the-features|19": {
+   "cls_vs_partner": "E2",
+   "fails_vs_partner": {
+    "new_transactions": null
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "bodo|tunguz/fathers-day-specials-just-the-features|5": {
+   "cls_vs_partner": "DIFF",
+   "fails_vs_partner": {
+    "test": "dtype_family:str/dt:col0",
+    "train": null
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "not confirmed"
+  },
+  "bodo|vinothsuku/osic-pulmonary-fibrosis-simple-eda|5": {
+   "cls_vs_partner": "E0",
+   "fails_vs_partner": {},
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "bodo|vinothsuku/osic-pulmonary-fibrosis-simple-eda|7": {
+   "cls_vs_partner": "DIFF",
+   "fails_vs_partner": {
+    "df_tmp": "values:col2:row=0"
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "not confirmed"
+  },
+  "bodo|willkoehrsen/start-here-a-gentle-introduction|11": {
+   "cls_vs_partner": "E2",
+   "fails_vs_partner": {
+    "app_train": null
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "bodo|yonelanuba/elo-merchant-by-yonela|16": {
+   "cls_vs_partner": "E0",
+   "fails_vs_partner": {},
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "bodo|yonelanuba/elo-merchant-by-yonela|32": {
+   "cls_vs_partner": "E0",
+   "fails_vs_partner": {},
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "bodo|yonelanuba/elo-merchant-by-yonela|39": {
+   "cls_vs_partner": "E0",
+   "fails_vs_partner": {},
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "bodo|yonelanuba/elo-merchant-by-yonela|40": {
+   "cls_vs_partner": "E0",
+   "fails_vs_partner": {},
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "bodo|yonelanuba/elo-merchant-by-yonela|57": {
+   "cls_vs_partner": "E0",
+   "fails_vs_partner": {},
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "dask|akshaypetkar/supermarket-sales-analysis|23": {
+   "cls_vs_partner": "E0",
+   "fails_vs_partner": {},
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "dask|luizep/movieslens20m|17": {
+   "cls_vs_partner": "DIFF",
+   "fails_vs_partner": {
+    "__last__": "kind:ndarray/Series"
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "not confirmed"
+  },
+  "dask|luizep/movieslens20m|6": {
+   "cls_vs_partner": "DIFF",
+   "fails_vs_partner": {
+    "__last__": "values:col0:row=0"
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "not confirmed"
+  },
+  "dask|luizep/movieslens20m|7": {
+   "cls_vs_partner": "DIFF",
+   "fails_vs_partner": {
+    "__last__": "values:col0:row=0"
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "not confirmed"
+  },
+  "dask|mustafatatarhan1/iris-kernel|11": {
+   "cls_vs_partner": "DIFF",
+   "fails_vs_partner": {
+    "__last__": "kind:ndarray/Series"
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "not confirmed"
+  },
+  "dask|nihhaar/etltransform|3": {
+   "cls_vs_partner": "DIFF",
+   "fails_vs_partner": {
+    "__last__": "values:col0:row=0"
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "not confirmed"
+  },
+  "dask|pmr3508f20977e697/poverty-level-pmr3508-2018-f20977e697|5": {
+   "cls_vs_partner": "E0",
+   "fails_vs_partner": {},
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "dask|salmaneunus/student-s-performance-quantitative-visual-eda|11": {
+   "cls_vs_partner": "DIFF",
+   "fails_vs_partner": {
+    "__last__": "values:col0:row=5"
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "not confirmed"
+  },
+  "dask|sanket30/eda-of-application-train-home-credit-default|7": {
+   "cls_vs_partner": "E4",
+   "fails_vs_partner": {
+    "application_object": null
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "dask|willkoehrsen/start-here-a-gentle-introduction|11": {
+   "cls_vs_partner": "E4",
+   "fails_vs_partner": {
+    "app_train": null
+   },
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "dask|yonelanuba/elo-merchant-by-yonela|16": {
+   "cls_vs_partner": "E0",
+   "fails_vs_partner": {},
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "dask|yonelanuba/elo-merchant-by-yonela|32": {
+   "cls_vs_partner": "E0",
+   "fails_vs_partner": {},
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "dask|yonelanuba/elo-merchant-by-yonela|39": {
+   "cls_vs_partner": "E0",
+   "fails_vs_partner": {},
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "dask|yonelanuba/elo-merchant-by-yonela|40": {
+   "cls_vs_partner": "E0",
+   "fails_vs_partner": {},
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "dask|yonelanuba/elo-merchant-by-yonela|57": {
+   "cls_vs_partner": "E0",
+   "fails_vs_partner": {},
+   "partner": "pyarrow_backend",
+   "verdict": "confirmed"
+  },
+  "fireducks|arjoonn/scout-script-7|9": {
+   "cls_vs_partner": "DIFF",
+   "fails_vs_partner": {
+    "df": "labels",
+    "st": "scalar_value"
+   },
+   "partner": "p30",
+   "verdict": "not confirmed"
+  },
+  "fireducks|ayushsingh5941/tweet-disaster-or-not|10": {
+   "cls_vs_partner": "E3",
+   "fails_vs_partner": {
+    "tweet_test_df": null
+   },
+   "partner": "p30",
+   "verdict": "confirmed"
+  },
+  "fireducks|ayushsingh5941/tweet-disaster-or-not|9": {
+   "cls_vs_partner": "E3",
+   "fails_vs_partner": {
+    "tweet_train_df": null
+   },
+   "partner": "p30",
+   "verdict": "confirmed"
+  },
+  "fireducks|brianmendieta/data-cleaning-plus-eda|27": {
+   "cls_vs_partner": "DIFF",
+   "fails_vs_partner": {
+    "__last__": "kind:Series/scalar",
+    "job_data": null
+   },
+   "partner": "p30",
+   "verdict": "not confirmed"
+  },
+  "fireducks|jagangupta/stop-the-s-toxic-comments-eda|27": {
+   "cls_vs_partner": "E2",
+   "fails_vs_partner": {
+    "train_feats": null
+   },
+   "partner": "p30",
+   "verdict": "confirmed"
+  },
+  "fireducks|jyotsananegi/melbourne-housing-snapshot-eda|9": {
+   "cls_vs_partner": "E3",
+   "fails_vs_partner": {
+    "dataset": null
+   },
+   "partner": "p30",
+   "verdict": "confirmed"
+  },
+  "fireducks|kanncaa1/dataiteam-titanic-eda|42": {
+   "cls_vs_partner": "E3",
+   "fails_vs_partner": {
+    "train_df": null
+   },
+   "partner": "p30",
+   "verdict": "confirmed"
+  },
+  "fireducks|koko1998/summer-products-and-sales-wish-com|7": {
+   "cls_vs_partner": "DIFF",
+   "fails_vs_partner": {
+    "__last__": "kind:Series/scalar",
+    "df_products": null
+   },
+   "partner": "p30",
+   "verdict": "not confirmed"
+  },
+  "fireducks|sal001/beginner-s-note-top-12-by-single-linear-model|11": {
+   "cls_vs_partner": "E3",
+   "fails_vs_partner": {
+    "features": null
+   },
+   "partner": "p30",
+   "verdict": "confirmed"
+  },
+  "fireducks|santhoshrao1995/assi01-santhosh-19101036|2": {
+   "cls_vs_partner": "E2",
+   "fails_vs_partner": {
+    "__last__": null,
+    "df": null
+   },
+   "partner": "p30",
+   "verdict": "confirmed"
+  },
+  "fireducks|taylorhickem/singapore-building-energy|3": {
+   "cls_vs_partner": "DIFF",
+   "fails_vs_partner": {
+    "comm": null,
+    "tables": "values:col1:row=0"
+   },
+   "partner": "p30",
+   "verdict": "not confirmed"
+  },
+  "fireducks|willkoehrsen/start-here-a-gentle-introduction|18": {
+   "cls_vs_partner": "E2",
+   "fails_vs_partner": {
+    "app_train": null
+   },
+   "partner": "p30",
+   "verdict": "confirmed"
+  },
+  "fireducks|willkoehrsen/start-here-a-gentle-introduction|19": {
+   "cls_vs_partner": "E2",
+   "fails_vs_partner": {
+    "app_test": null
+   },
+   "partner": "p30",
+   "verdict": "confirmed"
+  }
+ },
+ "N6": {
+  "bodo|balajivenkat96/solar-plants|18": {
+   "verdict": "confirmed"
+  },
+  "bodo|blaskowitz100/feature-engineering-based-on-the-suprise-me|1": {
+   "verdict": "confirmed"
+  },
+  "bodo|salmaneunus/student-s-performance-quantitative-visual-eda|16": {
+   "verdict": "confirmed"
+  },
+  "bodo|shunjiangxu/blood-is-thicker-than-water-friendship-forever|1": {
+   "verdict": "confirmed"
+  },
+  "bodo|taylorhickem/singapore-building-energy|3": {
+   "verdict": "confirmed"
+  },
+  "fireducks|kmader/analyzing-matches|12": {
+   "verdict": "confirmed"
+  },
+  "fireducks|shunjiangxu/blood-is-thicker-than-water-friendship-forever|1": {
+   "verdict": "confirmed"
+  },
+  "modin|balajivenkat96/solar-plants|21": {
+   "verdict": "confirmed"
+  },
+  "modin|j0thu777/onlineretailanalysis|20": {
+   "verdict": "confirmed"
+  },
+  "pyarrow_backend|blaskowitz100/feature-engineering-based-on-the-suprise-me|1": {
+   "verdict": "confirmed"
+  },
+  "pyarrow_backend|kmader/analyzing-matches|12": {
+   "verdict": "confirmed"
+  },
+  "pyarrow_backend|penny8/my-sub1|19": {
+   "verdict": "confirmed"
+  },
+  "pyarrow_backend|penny8/my-sub1|20": {
+   "verdict": "confirmed"
+  },
+  "pyarrow_backend|salmaneunus/student-s-performance-quantitative-visual-eda|16": {
+   "verdict": "confirmed"
+  },
+  "pyarrow_backend|shunjiangxu/blood-is-thicker-than-water-friendship-forever|1": {
+   "verdict": "confirmed"
+  },
+  "pyarrow_backend|taylorhickem/singapore-building-energy|3": {
+   "verdict": "confirmed"
+  }
+ },
+ "item": "D3",
+ "seconds": 261.1,
+ "test_mode_max_input_gb": null
+}

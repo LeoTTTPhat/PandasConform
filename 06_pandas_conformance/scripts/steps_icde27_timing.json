@@ -1,0 +1,50 @@
+{
+ "name": "icde27_remaining",
+ "note": "2026-10-26: timing part of steps_icde27.json, run first under memory_guard --start-if-fits with a 30 GB cap (user rule 2026-10-26; past timing iterations peaked at 7.6-29.1 GB). Same batch name as steps_icde27.json, so markers stay in work/batch/icde27_remaining/. Launch ONLY with OMPI_MCA_btl_tcp_if_include=lo0 in front of tools/launch_detached.py.",
+ "steps": [
+  {
+   "name": "timing_default",
+   "args": [
+    "run",
+    "--campaign",
+    "timing",
+    "--set",
+    "timing30",
+    "--engines",
+    "ref,modin,fireducks,bodo",
+    "--mode",
+    "timing",
+    "--reps",
+    "1",
+    "--cpus",
+    "default",
+    "--max-concurrency",
+    "1",
+    "--cell-timeout",
+    "1200"
+   ]
+  },
+  {
+   "name": "timing_bodo_r2_cpu8",
+   "args": [
+    "run",
+    "--campaign",
+    "timing_bodo_r2",
+    "--set",
+    "timing30",
+    "--engines",
+    "ref,bodo",
+    "--mode",
+    "timing",
+    "--reps",
+    "3",
+    "--cpus",
+    "8",
+    "--max-concurrency",
+    "1",
+    "--cell-timeout",
+    "1200"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,238 @@
+{
+ "by_pandas": {
+  "2.3.3": 5000,
+  "3.0.6": 5000
+ },
+ "compare_sha12": "92c8db54d45b",
+ "compare_tag": "d92c8db54d45b",
+ "driver": "work/fix_20261002/diff_validate.py",
+ "generated": "2026-10-04T08:47:47",
+ "harness_sha12": "d1c421ecb5ee",
+ "mismatches_total": 0,
+ "oracle_levels_total": {
+  "DIFF": 1742,
+  "E0": 3269,
+  "E1": 745,
+  "E2": 930,
+  "E3": 396,
+  "E4": 2918
+ },
+ "runs": [
+  {
+   "env": {
+    "PCONF_HASH_SORT_ROWS": "0",
+    "PCONF_LARGE_ROWS": "0"
+   },
+   "match": {
+    "-": 648,
+    "identity": 292,
+    "sort": 310
+   },
+   "mismatch_lines": [],
+   "mismatches": 0,
+   "nmax": 40,
+   "oracle_levels": {
+    "DIFF": 240,
+    "E0": 408,
+    "E1": 94,
+    "E2": 114,
+    "E3": 38,
+    "E4": 356
+   },
+   "pandas": "2.3.3",
+   "python": "envs/ref/bin/python",
+   "rc": 0,
+   "seed": 1101,
+   "trials": 1250,
+   "wall_s": 69.0
+  },
+  {
+   "env": {
+    "PCONF_HASH_SORT_ROWS": "0",
+    "PCONF_LARGE_ROWS": "0"
+   },
+   "match": {
+    "-": 635,
+    "identity": 311,
+    "sort": 304
+   },
+   "mismatch_lines": [],
+   "mismatches": 0,
+   "nmax": 40,
+   "oracle_levels": {
+    "DIFF": 221,
+    "E0": 414,
+    "E1": 84,
+    "E2": 104,
+    "E3": 52,
+    "E4": 375
+   },
+   "pandas": "2.3.3",
+   "python": "envs/ref/bin/python",
+   "rc": 0,
+   "seed": 1102,
+   "trials": 1250,
+   "wall_s": 67.3
+  },
+  {
+   "env": {
+    "PCONF_HASH_SORT_ROWS": "0",
+    "PCONF_LARGE_ROWS": "0"
+   },
+   "match": {
+    "-": 606,
+    "identity": 331,
+    "sort": 313
+   },
+   "mismatch_lines": [],
+   "mismatches": 0,
+   "nmax": 40,
+   "oracle_levels": {
+    "DIFF": 195,
+    "E0": 411,
+    "E1": 83,
+    "E2": 124,
+    "E3": 60,
+    "E4": 377
+   },
+   "pandas": "2.3.3",
+   "python": "envs/ref/bin/python",
+   "rc": 0,
+   "seed": 1103,
+   "trials": 1250,
+   "wall_s": 64.4
+  },
+  {
+   "env": {
+    "PCONF_HASH_SORT_ROWS": "0",
+    "PCONF_LARGE_ROWS": "0"
+   },
+   "match": {
+    "-": 648,
+    "identity": 287,
+    "sort": 315
+   },
+   "mismatch_lines": [],
+   "mismatches": 0,
+   "nmax": 40,
+   "oracle_levels": {
+    "DIFF": 216,
+    "E0": 432,
+    "E1": 123,
+    "E2": 113,
+    "E3": 43,
+    "E4": 323
+   },
+   "pandas": "2.3.3",
+   "python": "envs/ref/bin/python",
+   "rc": 0,
+   "seed": 1104,
+   "trials": 1250,
+   "wall_s": 67.1
+  },
+  {
+   "env": {},
+   "match": {
+    "-": 640,
+    "identity": 315,
+    "sort": 295
+   },
+   "mismatch_lines": [],
+   "mismatches": 0,
+   "nmax": 40,
+   "oracle_levels": {
+    "DIFF": 221,
+    "E0": 419,
+    "E1": 87,
+    "E2": 112,
+    "E3": 48,
+    "E4": 363
+   },
+   "pandas": "3.0.6",
+   "python": "../.venv/bin/python",
+   "rc": 0,
+   "seed": 1201,
+   "trials": 1250,
+   "wall_s": 66.3
+  },
+  {
+   "env": {},
+   "match": {
+    "-": 600,
+    "identity": 324,
+    "sort": 326
+   },
+   "mismatch_lines": [],
+   "mismatches": 0,
+   "nmax": 40,
+   "oracle_levels": {
+    "DIFF": 211,
+    "E0": 389,
+    "E1": 98,
+    "E2": 110,
+    "E3": 57,
+    "E4": 385
+   },
+   "pandas": "3.0.6",
+   "python": "../.venv/bin/python",
+   "rc": 0,
+   "seed": 1202,
+   "trials": 1250,
+   "wall_s": 67.5
+  },
+  {
+   "env": {},
+   "match": {
+    "-": 616,
+    "identity": 337,
+    "sort": 297
+   },
+   "mismatch_lines": [],
+   "mismatches": 0,
+   "nmax": 40,
+   "oracle_levels": {
+    "DIFF": 205,
+    "E0": 411,
+    "E1": 90,
+    "E2": 126,
+    "E3": 46,
+    "E4": 372
+   },
+   "pandas": "3.0.6",
+   "python": "../.venv/bin/python",
+   "rc": 0,
+   "seed": 1203,
+   "trials": 1250,
+   "wall_s": 66.7
+  },
+  {
+   "env": {},
+   "match": {
+    "-": 618,
+    "identity": 323,
+    "sort": 309
+   },
+   "mismatch_lines": [],
+   "mismatches": 0,
+   "nmax": 40,
+   "oracle_levels": {
+    "DIFF": 233,
+    "E0": 385,
+    "E1": 86,
+    "E2": 127,
+    "E3": 52,
+    "E4": 367
+   },
+   "pandas": "3.0.6",
+   "python": "../.venv/bin/python",
+   "rc": 0,
+   "seed": 1204,
+   "trials": 1250,
+   "wall_s": 66.2
+  }
+ ],
+ "runs_ok": 8,
+ "runs_total": 8,
+ "script": "scripts/comparator_validation.py",
+ "trials_total": 10000
+}

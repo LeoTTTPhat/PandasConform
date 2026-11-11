@@ -1,0 +1,1175 @@
+{
+ "_meta": {
+  "compare_root": "results/conf_5x/raw/compare__hd1c421ecb5ee__d92c8db54d45b",
+  "outputs_superseded": [],
+  "outputs_used": 116
+ },
+ "bodo": {
+  "by_class": {
+   "CRASH": 3,
+   "DIFF": 74,
+   "E0": 134,
+   "E1": 1,
+   "E2": 150,
+   "E3": 63,
+   "E4": 28,
+   "ERR": 340,
+   "NOOUT": 169,
+   "NOTRUN": 17,
+   "TIMEOUT": 1,
+   "UNCOMPARABLE": 16
+  },
+  "clean_at": {
+   "E0": {
+    "DIFF": 1,
+    "E0": 22,
+    "E2": 15,
+    "E3": 16,
+    "ERR": 6,
+    "NOOUT": 167
+   },
+   "E1": {
+    "DIFF": 1,
+    "E0": 22,
+    "E2": 15,
+    "E3": 16,
+    "ERR": 6,
+    "NOOUT": 167
+   },
+   "E2": {
+    "CRASH": 1,
+    "DIFF": 9,
+    "E0": 59,
+    "E2": 91,
+    "E3": 17,
+    "E4": 12,
+    "ERR": 16,
+    "NOOUT": 167,
+    "TIMEOUT": 1
+   },
+   "E3": {
+    "CRASH": 1,
+    "DIFF": 20,
+    "E0": 123,
+    "E2": 133,
+    "E3": 59,
+    "E4": 23,
+    "ERR": 40,
+    "NOOUT": 167,
+    "TIMEOUT": 1,
+    "UNCOMPARABLE": 1
+   },
+   "E4": {
+    "CRASH": 1,
+    "DIFF": 21,
+    "E0": 123,
+    "E2": 134,
+    "E3": 59,
+    "E4": 26,
+    "ERR": 43,
+    "NOOUT": 167,
+    "TIMEOUT": 1,
+    "UNCOMPARABLE": 1
+   }
+  },
+  "clean_by_class": {
+   "DIFF": 1,
+   "E0": 22,
+   "E2": 15,
+   "E3": 16,
+   "ERR": 6,
+   "NOOUT": 167
+  },
+  "clean_cells": 227,
+  "clean_cells_at": {
+   "E0": 227,
+   "E1": 227,
+   "E2": 373,
+   "E3": 568,
+   "E4": 576
+  },
+  "eng_status": {
+   "completed": 26,
+   "nb_crash": 3
+  },
+  "fallback_cells": 268,
+  "first_divergent": {
+   "akgauravin/gun-violence-data-exploration-and-plotting": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 5,
+    "E4": 5
+   },
+   "akshaypetkar/supermarket-sales-analysis": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 4,
+    "E3": 4,
+    "E4": 4
+   },
+   "bcannon/indexing-selecting-assigning": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 6,
+    "E4": 6
+   },
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 1,
+    "E4": 1
+   },
+   "chinstan/notebook249b4f3f5b": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 8,
+    "E4": 33
+   },
+   "gravix/gradient-in-a-box": {
+    "E0": 3,
+    "E1": 3,
+    "E2": 3,
+    "E3": 6,
+    "E4": 6
+   },
+   "guyalmog/hr-analytics-predicting-employees-attrition": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 2,
+    "E4": 2
+   },
+   "j0thu777/onlineretailanalysis": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 13,
+    "E4": 13
+   },
+   "jagangupta/stop-the-s-toxic-comments-eda": {
+    "E0": 3,
+    "E1": 3,
+    "E2": 12,
+    "E3": 12,
+    "E4": 12
+   },
+   "jaideepvalani/useful-eda-for-beginners-rsna-embolism": {
+    "E0": 3,
+    "E1": 3,
+    "E2": 7,
+    "E3": 7,
+    "E4": 8
+   },
+   "julieberteaux/workshop-2": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 10,
+    "E4": 10
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 6,
+    "E4": 8
+   },
+   "maxiaoyue/data-cleaning-challenge-handling-missing-values": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0,
+    "E3": 0,
+    "E4": 0
+   },
+   "mikedelong/python-eda-with-kdes": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 8,
+    "E3": 8,
+    "E4": null
+   },
+   "nadare/feature-engenieering-with-pivot-table": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 1,
+    "E4": 1
+   },
+   "penny8/my-sub1": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 14,
+    "E3": 14,
+    "E4": 14
+   },
+   "pradeepjeya/allstate-encoding-high-cardinality-features": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "qnqfbqfqo/electric-vehicle-landscape-in-washington-state": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 6,
+    "E4": 7
+   },
+   "robikscube/big-data-bowl-comprehensive-eda-with-pandas": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0,
+    "E3": 2,
+    "E4": 2
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 11,
+    "E3": 11,
+    "E4": null
+   },
+   "sanket30/eda-of-application-train-home-credit-default": {
+    "E0": 4,
+    "E1": 4,
+    "E2": 4,
+    "E3": 7,
+    "E4": 7
+   },
+   "seriousran/eda-ing": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 3,
+    "E3": 3,
+    "E4": 3
+   },
+   "shivavashishtha/zomato-eda-tutorial": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 1,
+    "E4": 1
+   },
+   "stefanjov/my-first-normalize-on-big-dataset": {
+    "E0": 3,
+    "E1": 3,
+    "E2": 7,
+    "E3": 7,
+    "E4": 12
+   },
+   "sunnybiswas/eda-on-airline-dataset": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 7,
+    "E3": 7,
+    "E4": 13
+   },
+   "vatsalmavani/music-recommendation-system-using-spotify-dataset": {
+    "E0": 2,
+    "E1": 2,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "willkoehrsen/start-here-a-gentle-introduction": {
+    "E0": 3,
+    "E1": 3,
+    "E2": 3,
+    "E3": 8,
+    "E4": 8
+   },
+   "yashjaiswal1097/911-emergency-calls-kernel": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 10,
+    "E4": 10
+   }
+  },
+  "hidden_global_cells": 60,
+  "nondet_cells": 0,
+  "notebooks": 29,
+  "notebooks_without_ref2": 0
+ },
+ "fireducks": {
+  "by_class": {
+   "CRASH": 2,
+   "DIFF": 83,
+   "E0": 516,
+   "E1": 10,
+   "E2": 50,
+   "E3": 72,
+   "E4": 7,
+   "ERR": 47,
+   "NOOUT": 175,
+   "NOTRUN": 15,
+   "TIMEOUT": 3,
+   "UNCOMPARABLE": 16
+  },
+  "clean_at": {
+   "E0": {
+    "CRASH": 2,
+    "DIFF": 12,
+    "E0": 282,
+    "E1": 2,
+    "E2": 17,
+    "E3": 21,
+    "E4": 2,
+    "ERR": 3,
+    "NOOUT": 172,
+    "UNCOMPARABLE": 4
+   },
+   "E1": {
+    "CRASH": 2,
+    "DIFF": 12,
+    "E0": 284,
+    "E1": 6,
+    "E2": 17,
+    "E3": 21,
+    "E4": 2,
+    "ERR": 3,
+    "NOOUT": 172,
+    "UNCOMPARABLE": 4
+   },
+   "E2": {
+    "CRASH": 2,
+    "DIFF": 14,
+    "E0": 286,
+    "E1": 6,
+    "E2": 33,
+    "E3": 21,
+    "E4": 4,
+    "ERR": 3,
+    "NOOUT": 172,
+    "UNCOMPARABLE": 4
+   },
+   "E3": {
+    "CRASH": 2,
+    "DIFF": 18,
+    "E0": 441,
+    "E1": 10,
+    "E2": 40,
+    "E3": 65,
+    "E4": 5,
+    "ERR": 5,
+    "NOOUT": 175,
+    "UNCOMPARABLE": 6
+   },
+   "E4": {
+    "CRASH": 2,
+    "DIFF": 19,
+    "E0": 441,
+    "E1": 10,
+    "E2": 42,
+    "E3": 65,
+    "E4": 5,
+    "ERR": 6,
+    "NOOUT": 175,
+    "UNCOMPARABLE": 6
+   }
+  },
+  "clean_by_class": {
+   "CRASH": 2,
+   "DIFF": 12,
+   "E0": 282,
+   "E1": 2,
+   "E2": 17,
+   "E3": 21,
+   "E4": 2,
+   "ERR": 3,
+   "NOOUT": 172,
+   "UNCOMPARABLE": 4
+  },
+  "clean_cells": 517,
+  "clean_cells_at": {
+   "E0": 517,
+   "E1": 523,
+   "E2": 545,
+   "E3": 767,
+   "E4": 771
+  },
+  "eng_status": {
+   "completed": 27,
+   "nb_crash": 2
+  },
+  "fallback_cells": 272,
+  "first_divergent": {
+   "akgauravin/gun-violence-data-exploration-and-plotting": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 5,
+    "E4": 5
+   },
+   "akshaypetkar/supermarket-sales-analysis": {
+    "E0": 4,
+    "E1": 4,
+    "E2": 4,
+    "E3": 4,
+    "E4": 4
+   },
+   "bcannon/indexing-selecting-assigning": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": null,
+    "E4": null
+   },
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 7,
+    "E3": 7,
+    "E4": 7
+   },
+   "chinstan/notebook249b4f3f5b": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 3,
+    "E1": 3,
+    "E2": 3,
+    "E3": 56,
+    "E4": 56
+   },
+   "gravix/gradient-in-a-box": {
+    "E0": 3,
+    "E1": 3,
+    "E2": 3,
+    "E3": 6,
+    "E4": 6
+   },
+   "guyalmog/hr-analytics-predicting-employees-attrition": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 6,
+    "E4": 6
+   },
+   "j0thu777/onlineretailanalysis": {
+    "E0": 3,
+    "E1": 3,
+    "E2": 3,
+    "E3": 20,
+    "E4": 20
+   },
+   "jagangupta/stop-the-s-toxic-comments-eda": {
+    "E0": 10,
+    "E1": 10,
+    "E2": 27,
+    "E3": 27,
+    "E4": 27
+   },
+   "jaideepvalani/useful-eda-for-beginners-rsna-embolism": {
+    "E0": 23,
+    "E1": 23,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "julieberteaux/workshop-2": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 4,
+    "E4": 4
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 6,
+    "E4": 8
+   },
+   "maxiaoyue/data-cleaning-challenge-handling-missing-values": {
+    "E0": 0,
+    "E1": 0,
+    "E2": 0,
+    "E3": 0,
+    "E4": 0
+   },
+   "mikedelong/python-eda-with-kdes": {
+    "E0": 8,
+    "E1": 8,
+    "E2": 8,
+    "E3": 8,
+    "E4": null
+   },
+   "nadare/feature-engenieering-with-pivot-table": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 1,
+    "E4": 1
+   },
+   "penny8/my-sub1": {
+    "E0": 14,
+    "E1": 14,
+    "E2": 14,
+    "E3": 14,
+    "E4": 14
+   },
+   "pradeepjeya/allstate-encoding-high-cardinality-features": {
+    "E0": 11,
+    "E1": 11,
+    "E2": 11,
+    "E3": 11,
+    "E4": 11
+   },
+   "qnqfbqfqo/electric-vehicle-landscape-in-washington-state": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": null,
+    "E4": null
+   },
+   "robikscube/big-data-bowl-comprehensive-eda-with-pandas": {
+    "E0": 4,
+    "E1": 4,
+    "E2": 4,
+    "E3": null,
+    "E4": null
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 33,
+    "E1": 33,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sanket30/eda-of-application-train-home-credit-default": {
+    "E0": 4,
+    "E1": 4,
+    "E2": 4,
+    "E3": 11,
+    "E4": 11
+   },
+   "seriousran/eda-ing": {
+    "E0": 5,
+    "E1": 5,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "shivavashishtha/zomato-eda-tutorial": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 1,
+    "E4": 1
+   },
+   "stefanjov/my-first-normalize-on-big-dataset": {
+    "E0": 8,
+    "E1": 8,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sunnybiswas/eda-on-airline-dataset": {
+    "E0": 11,
+    "E1": 16,
+    "E2": 17,
+    "E3": 17,
+    "E4": 17
+   },
+   "vatsalmavani/music-recommendation-system-using-spotify-dataset": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "willkoehrsen/start-here-a-gentle-introduction": {
+    "E0": 3,
+    "E1": 3,
+    "E2": 3,
+    "E3": 10,
+    "E4": 10
+   },
+   "yashjaiswal1097/911-emergency-calls-kernel": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": null,
+    "E4": null
+   }
+  },
+  "hidden_global_cells": 60,
+  "nondet_cells": 0,
+  "notebooks": 29,
+  "notebooks_without_ref2": 0
+ },
+ "modin": {
+  "by_class": {
+   "DIFF": 55,
+   "E0": 638,
+   "E1": 21,
+   "E2": 43,
+   "E4": 11,
+   "ERR": 25,
+   "MEMORY": 1,
+   "NOOUT": 172,
+   "NOTRUN": 26,
+   "TIMEOUT": 4
+  },
+  "clean_at": {
+   "E0": {
+    "DIFF": 9,
+    "E0": 497,
+    "E1": 6,
+    "E2": 22,
+    "E4": 5,
+    "ERR": 10,
+    "MEMORY": 1,
+    "NOOUT": 172,
+    "TIMEOUT": 2
+   },
+   "E1": {
+    "DIFF": 9,
+    "E0": 500,
+    "E1": 11,
+    "E2": 22,
+    "E4": 5,
+    "ERR": 10,
+    "MEMORY": 1,
+    "NOOUT": 172,
+    "TIMEOUT": 2
+   },
+   "E2": {
+    "DIFF": 9,
+    "E0": 551,
+    "E1": 11,
+    "E2": 38,
+    "E4": 5,
+    "ERR": 15,
+    "MEMORY": 1,
+    "NOOUT": 172,
+    "TIMEOUT": 2
+   },
+   "E3": {
+    "DIFF": 9,
+    "E0": 551,
+    "E1": 11,
+    "E2": 38,
+    "E4": 5,
+    "ERR": 15,
+    "MEMORY": 1,
+    "NOOUT": 172,
+    "TIMEOUT": 2
+   },
+   "E4": {
+    "DIFF": 11,
+    "E0": 553,
+    "E1": 12,
+    "E2": 38,
+    "E4": 9,
+    "ERR": 15,
+    "MEMORY": 1,
+    "NOOUT": 172,
+    "TIMEOUT": 2
+   }
+  },
+  "clean_by_class": {
+   "DIFF": 9,
+   "E0": 497,
+   "E1": 6,
+   "E2": 22,
+   "E4": 5,
+   "ERR": 10,
+   "MEMORY": 1,
+   "NOOUT": 172,
+   "TIMEOUT": 2
+  },
+  "clean_cells": 724,
+  "clean_cells_at": {
+   "E0": 724,
+   "E1": 732,
+   "E2": 804,
+   "E3": 804,
+   "E4": 813
+  },
+  "eng_status": {
+   "completed": 28,
+   "nb_memory": 1
+  },
+  "fallback_cells": 41,
+  "first_divergent": {
+   "akgauravin/gun-violence-data-exploration-and-plotting": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "akshaypetkar/supermarket-sales-analysis": {
+    "E0": 13,
+    "E1": 13,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "bcannon/indexing-selecting-assigning": {
+    "E0": 6,
+    "E1": 6,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 13,
+    "E3": 13,
+    "E4": 13
+   },
+   "chinstan/notebook249b4f3f5b": {
+    "E0": 2,
+    "E1": 2,
+    "E2": 2,
+    "E3": 2,
+    "E4": 2
+   },
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": 4,
+    "E1": 4,
+    "E2": 11,
+    "E3": 11,
+    "E4": 21
+   },
+   "gravix/gradient-in-a-box": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "guyalmog/hr-analytics-predicting-employees-attrition": {
+    "E0": 5,
+    "E1": 5,
+    "E2": 5,
+    "E3": 5,
+    "E4": 5
+   },
+   "j0thu777/onlineretailanalysis": {
+    "E0": 8,
+    "E1": 8,
+    "E2": 8,
+    "E3": 8,
+    "E4": 20
+   },
+   "jagangupta/stop-the-s-toxic-comments-eda": {
+    "E0": 10,
+    "E1": 10,
+    "E2": 12,
+    "E3": 12,
+    "E4": 12
+   },
+   "jaideepvalani/useful-eda-for-beginners-rsna-embolism": {
+    "E0": 23,
+    "E1": 23,
+    "E2": 30,
+    "E3": 30,
+    "E4": 30
+   },
+   "julieberteaux/workshop-2": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": 8,
+    "E1": 8,
+    "E2": 18,
+    "E3": 18,
+    "E4": null
+   },
+   "maxiaoyue/data-cleaning-challenge-handling-missing-values": {
+    "E0": 24,
+    "E1": 28,
+    "E2": 28,
+    "E3": 28,
+    "E4": 28
+   },
+   "mikedelong/python-eda-with-kdes": {
+    "E0": 8,
+    "E1": 8,
+    "E2": 8,
+    "E3": 8,
+    "E4": null
+   },
+   "nadare/feature-engenieering-with-pivot-table": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 1,
+    "E4": 1
+   },
+   "penny8/my-sub1": {
+    "E0": 14,
+    "E1": 14,
+    "E2": 14,
+    "E3": 14,
+    "E4": 14
+   },
+   "pradeepjeya/allstate-encoding-high-cardinality-features": {
+    "E0": 22,
+    "E1": 22,
+    "E2": 22,
+    "E3": 22,
+    "E4": 22
+   },
+   "qnqfbqfqo/electric-vehicle-landscape-in-washington-state": {
+    "E0": 8,
+    "E1": 8,
+    "E2": 8,
+    "E3": 8,
+    "E4": 8
+   },
+   "robikscube/big-data-bowl-comprehensive-eda-with-pandas": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": 33,
+    "E1": 33,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sanket30/eda-of-application-train-home-credit-default": {
+    "E0": 32,
+    "E1": 32,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "seriousran/eda-ing": {
+    "E0": 5,
+    "E1": 5,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "shivavashishtha/zomato-eda-tutorial": {
+    "E0": 1,
+    "E1": 1,
+    "E2": 1,
+    "E3": 1,
+    "E4": 1
+   },
+   "stefanjov/my-first-normalize-on-big-dataset": {
+    "E0": 12,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sunnybiswas/eda-on-airline-dataset": {
+    "E0": 11,
+    "E1": 17,
+    "E2": 17,
+    "E3": 17,
+    "E4": 17
+   },
+   "vatsalmavani/music-recommendation-system-using-spotify-dataset": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "willkoehrsen/start-here-a-gentle-introduction": {
+    "E0": 8,
+    "E1": 8,
+    "E2": 8,
+    "E3": 8,
+    "E4": 8
+   },
+   "yashjaiswal1097/911-emergency-calls-kernel": {
+    "E0": 5,
+    "E1": 5,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   }
+  },
+  "hidden_global_cells": 60,
+  "nondet_cells": 0,
+  "notebooks": 29,
+  "notebooks_without_ref2": 0
+ },
+ "ref#2": {
+  "by_class": {
+   "E0": 818,
+   "NOOUT": 178
+  },
+  "clean_at": {
+   "E0": {
+    "E0": 818,
+    "NOOUT": 178
+   },
+   "E1": {
+    "E0": 818,
+    "NOOUT": 178
+   },
+   "E2": {
+    "E0": 818,
+    "NOOUT": 178
+   },
+   "E3": {
+    "E0": 818,
+    "NOOUT": 178
+   },
+   "E4": {
+    "E0": 818,
+    "NOOUT": 178
+   }
+  },
+  "clean_by_class": {
+   "E0": 818,
+   "NOOUT": 178
+  },
+  "clean_cells": 996,
+  "clean_cells_at": {
+   "E0": 996,
+   "E1": 996,
+   "E2": 996,
+   "E3": 996,
+   "E4": 996
+  },
+  "eng_status": {
+   "completed": 29
+  },
+  "fallback_cells": 0,
+  "first_divergent": {
+   "akgauravin/gun-violence-data-exploration-and-plotting": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "akshaypetkar/supermarket-sales-analysis": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "bcannon/indexing-selecting-assigning": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "blaskowitz100/feature-engineering-based-on-the-suprise-me": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "chinstan/notebook249b4f3f5b": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "corazzon/how-to-use-pandas-filter-in-survey-eda": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "gravix/gradient-in-a-box": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "guyalmog/hr-analytics-predicting-employees-attrition": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "j0thu777/onlineretailanalysis": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "jagangupta/stop-the-s-toxic-comments-eda": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "jaideepvalani/useful-eda-for-beginners-rsna-embolism": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "julieberteaux/workshop-2": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "kimtaehun/simple-preprocessing-for-time-series-prediction": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "maxiaoyue/data-cleaning-challenge-handling-missing-values": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "mikedelong/python-eda-with-kdes": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "nadare/feature-engenieering-with-pivot-table": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "penny8/my-sub1": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "pradeepjeya/allstate-encoding-high-cardinality-features": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "qnqfbqfqo/electric-vehicle-landscape-in-washington-state": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "robikscube/big-data-bowl-comprehensive-eda-with-pandas": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "roopahegde/cryptocurrency-price-correlation": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sanket30/eda-of-application-train-home-credit-default": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "seriousran/eda-ing": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "shivavashishtha/zomato-eda-tutorial": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "stefanjov/my-first-normalize-on-big-dataset": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "sunnybiswas/eda-on-airline-dataset": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "vatsalmavani/music-recommendation-system-using-spotify-dataset": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "willkoehrsen/start-here-a-gentle-introduction": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   },
+   "yashjaiswal1097/911-emergency-calls-kernel": {
+    "E0": null,
+    "E1": null,
+    "E2": null,
+    "E3": null,
+    "E4": null
+   }
+  },
+  "hidden_global_cells": 60,
+  "nondet_cells": 0,
+  "notebooks": 29,
+  "notebooks_without_ref2": 0
+ }
+}

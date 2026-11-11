@@ -1,0 +1,2442 @@
+{
+ "census_categories": {
+  "DIFF": {
+   "exact match (DIFF came from the printed form; now E0)": 17,
+   "exact match (DIFF came from the printed form; now E2)": 35,
+   "exact match (DIFF came from the printed form; now E3)": 10,
+   "exact match (DIFF came from the printed form; now E4)": 9,
+   "exact mismatch (confirmed DIFF)": 223,
+   "not exactly encodable": 39,
+   "not recaptured: beyond stop cell": 2,
+   "not recaptured: not run (tier-2 only, cost)": 7,
+   "not recaptured: run-to-run class change": 1
+  },
+  "matching": {
+   "exact match": 276,
+   "exact match, coarser level": 4,
+   "exact match, finer level": 28,
+   "not exactly encodable": 5,
+   "not recaptured: no new comparison (run missing)": 1,
+   "not recaptured: not run (budget)": 2,
+   "not recaptured: not run (tier-2 only, cost)": 1
+  },
+  "other": {
+   "ERR -> ERR": 14,
+   "UNCOMPARABLE -> UNCOMPARABLE": 10,
+   "not exactly encodable": 4
+  }
+ },
+ "census_categories_by_label": {
+  "bodo": {
+   "DIFF": {
+    "exact match (DIFF came from the printed form; now E2)": 9,
+    "exact match (DIFF came from the printed form; now E3)": 3,
+    "exact match (DIFF came from the printed form; now E4)": 1,
+    "exact mismatch (confirmed DIFF)": 61,
+    "not recaptured: not run (tier-2 only, cost)": 1
+   },
+   "matching": {
+    "exact match": 11,
+    "not exactly encodable": 1,
+    "not recaptured: no new comparison (run missing)": 1,
+    "not recaptured: not run (budget)": 1
+   },
+   "other": {
+    "ERR -> ERR": 6
+   }
+  },
+  "dask": {
+   "DIFF": {
+    "exact match (DIFF came from the printed form; now E0)": 16,
+    "exact match (DIFF came from the printed form; now E2)": 2,
+    "exact match (DIFF came from the printed form; now E3)": 1,
+    "exact mismatch (confirmed DIFF)": 22,
+    "not exactly encodable": 25,
+    "not recaptured: not run (tier-2 only, cost)": 1,
+    "not recaptured: run-to-run class change": 1
+   },
+   "matching": {
+    "exact match": 6
+   },
+   "other": {
+    "ERR -> ERR": 4,
+    "not exactly encodable": 2
+   }
+  },
+  "fireducks": {
+   "DIFF": {
+    "exact match (DIFF came from the printed form; now E2)": 1,
+    "exact match (DIFF came from the printed form; now E3)": 3,
+    "exact match (DIFF came from the printed form; now E4)": 1,
+    "exact mismatch (confirmed DIFF)": 21,
+    "not exactly encodable": 10,
+    "not recaptured: beyond stop cell": 2
+   },
+   "matching": {
+    "exact match": 16,
+    "exact match, finer level": 12
+   },
+   "other": {
+    "ERR -> ERR": 3,
+    "UNCOMPARABLE -> UNCOMPARABLE": 10,
+    "not exactly encodable": 2
+   }
+  },
+  "modin": {
+   "DIFF": {
+    "exact match (DIFF came from the printed form; now E2)": 4,
+    "exact match (DIFF came from the printed form; now E4)": 1,
+    "exact mismatch (confirmed DIFF)": 24,
+    "not exactly encodable": 2,
+    "not recaptured: not run (tier-2 only, cost)": 2
+   },
+   "matching": {
+    "exact match": 45,
+    "exact match, finer level": 16,
+    "not recaptured: not run (budget)": 1
+   },
+   "other": {
+    "ERR -> ERR": 1
+   }
+  },
+  "p15": {
+   "DIFF": {
+    "exact match (DIFF came from the printed form; now E0)": 1,
+    "exact match (DIFF came from the printed form; now E4)": 6,
+    "exact mismatch (confirmed DIFF)": 13,
+    "not recaptured: not run (tier-2 only, cost)": 1
+   },
+   "matching": {
+    "exact match": 79,
+    "not exactly encodable": 2,
+    "not recaptured: not run (tier-2 only, cost)": 1
+   },
+   "other": {}
+  },
+  "p30": {
+   "DIFF": {
+    "exact match (DIFF came from the printed form; now E2)": 4,
+    "exact mismatch (confirmed DIFF)": 17,
+    "not exactly encodable": 2
+   },
+   "matching": {
+    "exact match": 74,
+    "exact match, coarser level": 4
+   },
+   "other": {}
+  },
+  "pyarrow_backend": {
+   "DIFF": {
+    "exact match (DIFF came from the printed form; now E2)": 15,
+    "exact match (DIFF came from the printed form; now E3)": 3,
+    "exact mismatch (confirmed DIFF)": 65,
+    "not recaptured: not run (tier-2 only, cost)": 2
+   },
+   "matching": {
+    "exact match": 45,
+    "not exactly encodable": 2
+   },
+   "other": {}
+  }
+ },
+ "census_categories_clean_E2": {
+  "DIFF": {
+   "exact match (DIFF came from the printed form; now E0)": 13,
+   "exact match (DIFF came from the printed form; now E2)": 20,
+   "exact match (DIFF came from the printed form; now E3)": 7,
+   "exact match (DIFF came from the printed form; now E4)": 3,
+   "exact mismatch (confirmed DIFF)": 29,
+   "not exactly encodable": 4
+  },
+  "matching": {
+   "exact match": 207,
+   "exact match, coarser level": 4,
+   "exact match, finer level": 28,
+   "not exactly encodable": 2,
+   "not recaptured: not run (budget)": 2
+  },
+  "other": {
+   "ERR -> ERR": 2,
+   "UNCOMPARABLE -> UNCOMPARABLE": 7,
+   "not exactly encodable": 2
+  }
+ },
+ "census_categories_nested_e0": {
+  "DIFF": {
+   "exact match (DIFF came from the printed form; now E0)": 17,
+   "exact match (DIFF came from the printed form; now E3)": 1,
+   "exact mismatch (confirmed DIFF)": 276,
+   "not exactly encodable": 39,
+   "not recaptured: beyond stop cell": 2,
+   "not recaptured: not run (tier-2 only, cost)": 7,
+   "not recaptured: run-to-run class change": 1
+  },
+  "matching": {
+   "exact match": 264,
+   "exact match, finer level": 27,
+   "exact mismatch (now DIFF)": 17,
+   "not exactly encodable": 5,
+   "not recaptured: no new comparison (run missing)": 1,
+   "not recaptured: not run (budget)": 2,
+   "not recaptured: not run (tier-2 only, cost)": 1
+  },
+  "other": {
+   "ERR -> ERR": 14,
+   "UNCOMPARABLE -> UNCOMPARABLE": 10,
+   "not exactly encodable": 4
+  }
+ },
+ "census_cells": 688,
+ "census_cells_missing_in_plan": 0,
+ "consistency_checks": 51,
+ "definitions": "o = original campaign, n = new run under the original encoder, g = new run under the exact\nencoder with nested values graded by the comparator (primary), x = the same with nested values required to be\nE0-equal (strict). run_to_run = n differs from o (class or clean level); encoding effect = g (or x) differs from n;\ninexact = an element of a printed-form output or input that the exact encoder could not encode (either side).\nCensus categories (for the 688 cells, by original class; on g, and separately on x): exact match (same class as n),\nexact match at a finer level, exact mismatch (now DIFF or another non-level class where n reached a level; for DIFF\ncells: stays DIFF = a confirmed difference, reaches a level = the difference came from the printed form), not\nexactly encodable, not recaptured (no run, beyond the stop cell, cell missing in the new runs, or run_to_run in its\nclass).\n\nPrincipal comparisons (r1_cells.py population, bootstrap, seeds and keys; kinds from rootcause_taxonomy):\n  published            original classes and clean levels (must reproduce r1_cells.json and r4_audit.json);\n  exact_graded         printed-form cells with an encoding effect (g differs from n) and no run-to-run change take\n                       the class, clean level, outputs and input levels of g; every other cell keeps the original;\n  exact_nested_e0      the same with x;\n  exact_graded_strict  as exact_graded, and printed-form cells that are not recaptured, remain inexact, or have both\n                       a run-to-run change and an encoding effect leave every view (their printed-form readers are\n                       printed-form cells themselves and follow the same rule);\n  exclude_all_pf       every printed-form cell (pf_out or pf_in) leaves every view: the bound that certifies nothing.",
+ "exact_mismatch_outputs_graded": {
+  "orig DIFF -> graded E0, nested-E0 E0": 21,
+  "orig DIFF -> graded E2, nested-E0 DIFF": 44,
+  "orig DIFF -> graded E3, nested-E0 DIFF": 9,
+  "orig DIFF -> graded E4, nested-E0 DIFF": 10,
+  "orig E0 -> graded E2, nested-E0 DIFF": 17,
+  "orig E2 -> graded E0, nested-E0 E0": 30,
+  "orig E2 -> graded E1, nested-E0 DIFF": 1,
+  "orig E2 -> graded E2, nested-E0 DIFF": 1
+ },
+ "object_hash_determinism": {
+  "engine:bodo": {
+   "identical": 771,
+   "outputs": 771
+  },
+  "engine:dask": {
+   "differ": 65,
+   "identical": 574,
+   "outputs": 639
+  },
+  "engine:fireducks": {
+   "differ": 60,
+   "identical": 1334,
+   "outputs": 1394
+  },
+  "engine:modin": {
+   "differ": 22,
+   "identical": 1384,
+   "outputs": 1406
+  },
+  "engine:p15": {
+   "identical": 1824,
+   "outputs": 1824
+  },
+  "engine:p30": {
+   "identical": 1753,
+   "outputs": 1753
+  },
+  "engine:pyarrow_backend": {
+   "identical": 1739,
+   "outputs": 1739
+  },
+  "ref": {
+   "identical": 2124,
+   "outputs": 2124
+  }
+ },
+ "pf_cells": 1363,
+ "pf_cells_encoding_effect": 152,
+ "pf_cells_recaptured": 1335,
+ "pf_cells_run_to_run": 5,
+ "principal": {
+  "exact_graded": {
+   "by_label": {
+    "bodo": {
+     "all_DIFF": 395,
+     "all_cells": 2837,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.031319,
+       0.07615
+      ],
+      "den": 761,
+      "notebooks": 102,
+      "num": 39,
+      "share": 0.051248
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.313725,
+       0.509804
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 42,
+      "share": 0.411765
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.333333,
+       0.529412
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 44,
+      "share": 0.431373
+     }
+    },
+    "dask": {
+     "all_DIFF": 211,
+     "all_cells": 2819,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.015625,
+       0.057495
+      ],
+      "den": 548,
+      "notebooks": 102,
+      "num": 19,
+      "share": 0.034672
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.078431,
+       0.215686
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 15,
+      "share": 0.147059
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.078431,
+       0.215686
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 15,
+      "share": 0.147059
+     }
+    },
+    "fireducks": {
+     "all_DIFF": 332,
+     "all_cells": 2811,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.014378,
+       0.036879
+      ],
+      "den": 1248,
+      "notebooks": 102,
+      "num": 31,
+      "share": 0.02484
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.264706,
+       0.45098
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 36,
+      "share": 0.352941
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.284314,
+       0.480392
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 39,
+      "share": 0.382353
+     }
+    },
+    "modin": {
+     "all_DIFF": 190,
+     "all_cells": 2840,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.01199,
+       0.025263
+      ],
+      "den": 2333,
+      "notebooks": 102,
+      "num": 42,
+      "share": 0.018003
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.22549,
+       0.401961
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 32,
+      "share": 0.313725
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.22549,
+       0.401961
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 32,
+      "share": 0.313725
+     }
+    },
+    "p15": {
+     "all_DIFF": 306,
+     "all_cells": 2809,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.014925,
+       0.030016
+      ],
+      "den": 2131,
+      "notebooks": 102,
+      "num": 47,
+      "share": 0.022055
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.235294,
+       0.411765
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 33,
+      "share": 0.323529
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.254902,
+       0.441176
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 35,
+      "share": 0.343137
+     }
+    },
+    "p30": {
+     "all_DIFF": 285,
+     "all_cells": 2811,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.015138,
+       0.033642
+      ],
+      "den": 2217,
+      "notebooks": 102,
+      "num": 53,
+      "share": 0.023906
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.215686,
+       0.392157
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 31,
+      "share": 0.303922
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.215686,
+       0.392157
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 31,
+      "share": 0.303922
+     }
+    },
+    "pyarrow_backend": {
+     "all_DIFF": 405,
+     "all_cells": 2809,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.008968,
+       0.027359
+      ],
+      "den": 1104,
+      "notebooks": 102,
+      "num": 19,
+      "share": 0.01721
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.196078,
+       0.372549
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 29,
+      "share": 0.284314
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.215686,
+       0.392157
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 31,
+      "share": 0.303922
+     }
+    }
+   },
+   "pairs": {
+    "bodo-p15": {
+     "cells": 720,
+     "ci90_pp": [
+      0.138,
+      4.203
+     ],
+     "ci95_pp": [
+      -0.232,
+      4.638
+     ],
+     "diff_pp": 2.083,
+     "engine_DIFF": 37,
+     "notebooks": 102,
+     "pandas_DIFF": 22,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "bodo-p30": {
+     "cells": 757,
+     "ci90_pp": [
+      2.019,
+      5.36
+     ],
+     "ci95_pp": [
+      1.771,
+      5.766
+     ],
+     "diff_pp": 3.567,
+     "engine_DIFF": 39,
+     "notebooks": 102,
+     "pandas_DIFF": 12,
+     "reading": "more often",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "dask-p15": {
+     "cells": 542,
+     "ci90_pp": [
+      -2.444,
+      2.269
+     ],
+     "ci95_pp": [
+      -2.97,
+      2.742
+     ],
+     "diff_pp": 0.0,
+     "engine_DIFF": 19,
+     "notebooks": 102,
+     "pandas_DIFF": 19,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "dask-p30": {
+     "cells": 544,
+     "ci90_pp": [
+      0.0,
+      2.713
+     ],
+     "ci95_pp": [
+      -0.214,
+      3.0
+     ],
+     "diff_pp": 1.287,
+     "engine_DIFF": 19,
+     "notebooks": 102,
+     "pandas_DIFF": 12,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "fireducks-p15": {
+     "cells": 1139,
+     "ci90_pp": [
+      -1.331,
+      0.67
+     ],
+     "ci95_pp": [
+      -1.524,
+      0.85
+     ],
+     "diff_pp": -0.351,
+     "engine_DIFF": 26,
+     "notebooks": 102,
+     "pandas_DIFF": 30,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "fireducks-p30": {
+     "cells": 1208,
+     "ci90_pp": [
+      -0.607,
+      1.627
+     ],
+     "ci95_pp": [
+      -0.821,
+      1.846
+     ],
+     "diff_pp": 0.497,
+     "engine_DIFF": 29,
+     "notebooks": 102,
+     "pandas_DIFF": 23,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "modin-p15": {
+     "cells": 1833,
+     "ci90_pp": [
+      -1.061,
+      0.645
+     ],
+     "ci95_pp": [
+      -1.225,
+      0.802
+     ],
+     "diff_pp": -0.218,
+     "engine_DIFF": 36,
+     "notebooks": 102,
+     "pandas_DIFF": 40,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "modin-p30": {
+     "cells": 1941,
+     "ci90_pp": [
+      -1.165,
+      0.417
+     ],
+     "ci95_pp": [
+      -1.325,
+      0.566
+     ],
+     "diff_pp": -0.361,
+     "engine_DIFF": 36,
+     "notebooks": 102,
+     "pandas_DIFF": 43,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "pyarrow_backend-p15": {
+     "cells": 1002,
+     "ci90_pp": [
+      -2.524,
+      0.186
+     ],
+     "ci95_pp": [
+      -2.772,
+      0.422
+     ],
+     "diff_pp": -1.198,
+     "engine_DIFF": 19,
+     "notebooks": 102,
+     "pandas_DIFF": 31,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "pyarrow_backend-p30": {
+     "cells": 1018,
+     "ci90_pp": [
+      -1.059,
+      0.79
+     ],
+     "ci95_pp": [
+      -1.265,
+      0.951
+     ],
+     "diff_pp": -0.098,
+     "engine_DIFF": 18,
+     "notebooks": 102,
+     "pandas_DIFF": 19,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    }
+   }
+  },
+  "exact_graded_strict": {
+   "by_label": {
+    "bodo": {
+     "all_DIFF": 394,
+     "all_cells": 2826,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.031515,
+       0.076803
+      ],
+      "den": 756,
+      "notebooks": 102,
+      "num": 39,
+      "share": 0.051587
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.313725,
+       0.509804
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 42,
+      "share": 0.411765
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.333333,
+       0.529412
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 44,
+      "share": 0.431373
+     }
+    },
+    "dask": {
+     "all_DIFF": 185,
+     "all_cells": 2775,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.013913,
+       0.055453
+      ],
+      "den": 546,
+      "notebooks": 101,
+      "num": 18,
+      "share": 0.032967
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.078431,
+       0.205882
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 14,
+      "share": 0.137255
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.078431,
+       0.205882
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 14,
+      "share": 0.137255
+     }
+    },
+    "fireducks": {
+     "all_DIFF": 318,
+     "all_cells": 2763,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.013866,
+       0.03586
+      ],
+      "den": 1246,
+      "notebooks": 102,
+      "num": 30,
+      "share": 0.024077
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.245098,
+       0.431373
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 34,
+      "share": 0.333333
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.27451,
+       0.470588
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 38,
+      "share": 0.372549
+     }
+    },
+    "modin": {
+     "all_DIFF": 185,
+     "all_cells": 2832,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.011556,
+       0.024797
+      ],
+      "den": 2331,
+      "notebooks": 102,
+      "num": 41,
+      "share": 0.017589
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.215686,
+       0.392157
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 31,
+      "share": 0.303922
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.215686,
+       0.392157
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 31,
+      "share": 0.303922
+     }
+    },
+    "p15": {
+     "all_DIFF": 305,
+     "all_cells": 2802,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.014995,
+       0.030087
+      ],
+      "den": 2126,
+      "notebooks": 102,
+      "num": 47,
+      "share": 0.022107
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.235294,
+       0.411765
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 33,
+      "share": 0.323529
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.254902,
+       0.441176
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 35,
+      "share": 0.343137
+     }
+    },
+    "p30": {
+     "all_DIFF": 282,
+     "all_cells": 2806,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.014706,
+       0.033227
+      ],
+      "den": 2216,
+      "notebooks": 102,
+      "num": 52,
+      "share": 0.023466
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.205882,
+       0.382353
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 30,
+      "share": 0.294118
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.205882,
+       0.382353
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 30,
+      "share": 0.294118
+     }
+    },
+    "pyarrow_backend": {
+     "all_DIFF": 403,
+     "all_cells": 2802,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.008982,
+       0.027398
+      ],
+      "den": 1102,
+      "notebooks": 102,
+      "num": 19,
+      "share": 0.017241
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.196078,
+       0.372549
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 29,
+      "share": 0.284314
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.215686,
+       0.392157
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 31,
+      "share": 0.303922
+     }
+    }
+   },
+   "pairs": {
+    "bodo-p15": {
+     "cells": 715,
+     "ci90_pp": [
+      0.139,
+      4.24
+     ],
+     "ci95_pp": [
+      -0.233,
+      4.68
+     ],
+     "diff_pp": 2.098,
+     "engine_DIFF": 37,
+     "notebooks": 102,
+     "pandas_DIFF": 22,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "bodo-p30": {
+     "cells": 754,
+     "ci90_pp": [
+      2.025,
+      5.385
+     ],
+     "ci95_pp": [
+      1.777,
+      5.789
+     ],
+     "diff_pp": 3.581,
+     "engine_DIFF": 39,
+     "notebooks": 102,
+     "pandas_DIFF": 12,
+     "reading": "more often",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "dask-p15": {
+     "cells": 540,
+     "ci90_pp": [
+      -2.6,
+      2.083
+     ],
+     "ci95_pp": [
+      -3.084,
+      2.524
+     ],
+     "diff_pp": -0.185,
+     "engine_DIFF": 18,
+     "notebooks": 101,
+     "pandas_DIFF": 19,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "dask-p30": {
+     "cells": 542,
+     "ci90_pp": [
+      -0.21,
+      2.545
+     ],
+     "ci95_pp": [
+      -0.47,
+      2.824
+     ],
+     "diff_pp": 1.107,
+     "engine_DIFF": 18,
+     "notebooks": 101,
+     "pandas_DIFF": 12,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "fireducks-p15": {
+     "cells": 1137,
+     "ci90_pp": [
+      -1.383,
+      0.541
+     ],
+     "ci95_pp": [
+      -1.562,
+      0.746
+     ],
+     "diff_pp": -0.44,
+     "engine_DIFF": 25,
+     "notebooks": 102,
+     "pandas_DIFF": 30,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "fireducks-p30": {
+     "cells": 1206,
+     "ci90_pp": [
+      -0.618,
+      1.632
+     ],
+     "ci95_pp": [
+      -0.834,
+      1.839
+     ],
+     "diff_pp": 0.498,
+     "engine_DIFF": 28,
+     "notebooks": 102,
+     "pandas_DIFF": 22,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "modin-p15": {
+     "cells": 1831,
+     "ci90_pp": [
+      -1.11,
+      0.586
+     ],
+     "ci95_pp": [
+      -1.273,
+      0.755
+     ],
+     "diff_pp": -0.273,
+     "engine_DIFF": 35,
+     "notebooks": 102,
+     "pandas_DIFF": 40,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "modin-p30": {
+     "cells": 1939,
+     "ci90_pp": [
+      -1.166,
+      0.418
+     ],
+     "ci95_pp": [
+      -1.326,
+      0.567
+     ],
+     "diff_pp": -0.361,
+     "engine_DIFF": 35,
+     "notebooks": 102,
+     "pandas_DIFF": 42,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "pyarrow_backend-p15": {
+     "cells": 1000,
+     "ci90_pp": [
+      -2.527,
+      0.186
+     ],
+     "ci95_pp": [
+      -2.778,
+      0.423
+     ],
+     "diff_pp": -1.2,
+     "engine_DIFF": 19,
+     "notebooks": 102,
+     "pandas_DIFF": 31,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "pyarrow_backend-p30": {
+     "cells": 1018,
+     "ci90_pp": [
+      -1.059,
+      0.79
+     ],
+     "ci95_pp": [
+      -1.265,
+      0.951
+     ],
+     "diff_pp": -0.098,
+     "engine_DIFF": 18,
+     "notebooks": 102,
+     "pandas_DIFF": 19,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    }
+   }
+  },
+  "exact_nested_e0": {
+   "by_label": {
+    "bodo": {
+     "all_DIFF": 408,
+     "all_cells": 2837,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.03846,
+       0.085578
+      ],
+      "den": 753,
+      "notebooks": 102,
+      "num": 45,
+      "share": 0.059761
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.343137,
+       0.539216
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 45,
+      "share": 0.441176
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.362745,
+       0.558824
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 47,
+      "share": 0.460784
+     }
+    },
+    "dask": {
+     "all_DIFF": 213,
+     "all_cells": 2819,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.017613,
+       0.059961
+      ],
+      "den": 545,
+      "notebooks": 102,
+      "num": 20,
+      "share": 0.036697
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.088235,
+       0.235294
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 16,
+      "share": 0.156863
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.088235,
+       0.235294
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 16,
+      "share": 0.156863
+     }
+    },
+    "fireducks": {
+     "all_DIFF": 338,
+     "all_cells": 2811,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.017498,
+       0.040137
+      ],
+      "den": 1247,
+      "notebooks": 102,
+      "num": 35,
+      "share": 0.028067
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.303922,
+       0.5
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 41,
+      "share": 0.401961
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.333333,
+       0.529412
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 44,
+      "share": 0.431373
+     }
+    },
+    "modin": {
+     "all_DIFF": 196,
+     "all_cells": 2840,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.01432,
+       0.028069
+      ],
+      "den": 2332,
+      "notebooks": 102,
+      "num": 48,
+      "share": 0.020583
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.27451,
+       0.460784
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 37,
+      "share": 0.362745
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.27451,
+       0.460784
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 37,
+      "share": 0.362745
+     }
+    },
+    "p15": {
+     "all_DIFF": 314,
+     "all_cells": 2809,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.016256,
+       0.032892
+      ],
+      "den": 2131,
+      "notebooks": 102,
+      "num": 51,
+      "share": 0.023932
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.245098,
+       0.431373
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 34,
+      "share": 0.333333
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.264706,
+       0.45098
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 36,
+      "share": 0.352941
+     }
+    },
+    "p30": {
+     "all_DIFF": 300,
+     "all_cells": 2811,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.01898,
+       0.038513
+      ],
+      "den": 2200,
+      "notebooks": 102,
+      "num": 62,
+      "share": 0.028182
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.284314,
+       0.470588
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 38,
+      "share": 0.372549
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.284314,
+       0.470588
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 38,
+      "share": 0.372549
+     }
+    },
+    "pyarrow_backend": {
+     "all_DIFF": 425,
+     "all_cells": 2809,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.016997,
+       0.039683
+      ],
+      "den": 1091,
+      "notebooks": 102,
+      "num": 30,
+      "share": 0.027498
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.27451,
+       0.460784
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 37,
+      "share": 0.362745
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.294118,
+       0.480392
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 39,
+      "share": 0.382353
+     }
+    }
+   },
+   "pairs": {
+    "bodo-p15": {
+     "cells": 717,
+     "ci90_pp": [
+      0.766,
+      5.015
+     ],
+     "ci95_pp": [
+      0.395,
+      5.452
+     ],
+     "diff_pp": 2.789,
+     "engine_DIFF": 42,
+     "notebooks": 102,
+     "pandas_DIFF": 22,
+     "reading": "more often",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "bodo-p30": {
+     "cells": 749,
+     "ci90_pp": [
+      1.997,
+      5.444
+     ],
+     "ci95_pp": [
+      1.752,
+      5.874
+     ],
+     "diff_pp": 3.605,
+     "engine_DIFF": 45,
+     "notebooks": 102,
+     "pandas_DIFF": 18,
+     "reading": "more often",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "dask-p15": {
+     "cells": 541,
+     "ci90_pp": [
+      -2.294,
+      2.469
+     ],
+     "ci95_pp": [
+      -2.812,
+      2.929
+     ],
+     "diff_pp": 0.185,
+     "engine_DIFF": 20,
+     "notebooks": 102,
+     "pandas_DIFF": 19,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "dask-p30": {
+     "cells": 539,
+     "ci90_pp": [
+      -0.848,
+      2.335
+     ],
+     "ci95_pp": [
+      -1.105,
+      2.632
+     ],
+     "diff_pp": 0.742,
+     "engine_DIFF": 20,
+     "notebooks": 102,
+     "pandas_DIFF": 16,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "fireducks-p15": {
+     "cells": 1139,
+     "ci90_pp": [
+      -1.202,
+      0.886
+     ],
+     "ci95_pp": [
+      -1.4,
+      1.103
+     ],
+     "diff_pp": -0.176,
+     "engine_DIFF": 29,
+     "notebooks": 102,
+     "pandas_DIFF": 31,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "fireducks-p30": {
+     "cells": 1197,
+     "ci90_pp": [
+      -1.079,
+      1.253
+     ],
+     "ci95_pp": [
+      -1.291,
+      1.507
+     ],
+     "diff_pp": 0.084,
+     "engine_DIFF": 32,
+     "notebooks": 102,
+     "pandas_DIFF": 31,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "modin-p15": {
+     "cells": 1833,
+     "ci90_pp": [
+      -0.945,
+      0.849
+     ],
+     "ci95_pp": [
+      -1.104,
+      1.024
+     ],
+     "diff_pp": -0.055,
+     "engine_DIFF": 41,
+     "notebooks": 102,
+     "pandas_DIFF": 42,
+     "reading": "not distinguishable",
+     "within_1pp": true,
+     "within_2pp": true
+    },
+    "modin-p30": {
+     "cells": 1925,
+     "ci90_pp": [
+      -1.406,
+      0.222
+     ],
+     "ci95_pp": [
+      -1.587,
+      0.362
+     ],
+     "diff_pp": -0.571,
+     "engine_DIFF": 41,
+     "notebooks": 102,
+     "pandas_DIFF": 52,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "pyarrow_backend-p15": {
+     "cells": 999,
+     "ci90_pp": [
+      -1.776,
+      1.196
+     ],
+     "ci95_pp": [
+      -2.055,
+      1.506
+     ],
+     "diff_pp": -0.3,
+     "engine_DIFF": 30,
+     "notebooks": 102,
+     "pandas_DIFF": 33,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "pyarrow_backend-p30": {
+     "cells": 1010,
+     "ci90_pp": [
+      -0.728,
+      1.259
+     ],
+     "ci95_pp": [
+      -0.95,
+      1.451
+     ],
+     "diff_pp": 0.297,
+     "engine_DIFF": 29,
+     "notebooks": 102,
+     "pandas_DIFF": 26,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    }
+   }
+  },
+  "exclude_all_pf": {
+   "by_label": {
+    "bodo": {
+     "all_DIFF": 312,
+     "all_cells": 2586,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.02736,
+       0.073306
+      ],
+      "den": 734,
+      "notebooks": 101,
+      "num": 35,
+      "share": 0.047684
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.294118,
+       0.470588
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 39,
+      "share": 0.382353
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.303922,
+       0.5
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 41,
+      "share": 0.401961
+     }
+    },
+    "dask": {
+     "all_DIFF": 157,
+     "all_cells": 2640,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.009728,
+       0.052347
+      ],
+      "den": 520,
+      "notebooks": 101,
+      "num": 15,
+      "share": 0.028846
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.058824,
+       0.186275
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 12,
+      "share": 0.117647
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.058824,
+       0.186275
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 12,
+      "share": 0.117647
+     }
+    },
+    "fireducks": {
+     "all_DIFF": 292,
+     "all_cells": 2653,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.013688,
+       0.034966
+      ],
+      "den": 1201,
+      "notebooks": 101,
+      "num": 28,
+      "share": 0.023314
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.235294,
+       0.411765
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 33,
+      "share": 0.323529
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.274265,
+       0.460784
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 37,
+      "share": 0.362745
+     }
+    },
+    "modin": {
+     "all_DIFF": 153,
+     "all_cells": 2679,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.011485,
+       0.024887
+      ],
+      "den": 2227,
+      "notebooks": 102,
+      "num": 39,
+      "share": 0.017512
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.215686,
+       0.392157
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 31,
+      "share": 0.303922
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.215686,
+       0.392157
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 31,
+      "share": 0.303922
+     }
+    },
+    "p15": {
+     "all_DIFF": 286,
+     "all_cells": 2636,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.01499,
+       0.030189
+      ],
+      "den": 2033,
+      "notebooks": 102,
+      "num": 45,
+      "share": 0.022135
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.22549,
+       0.401961
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 32,
+      "share": 0.313725
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.245098,
+       0.431373
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 34,
+      "share": 0.333333
+     }
+    },
+    "p30": {
+     "all_DIFF": 260,
+     "all_cells": 2641,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.010501,
+       0.028897
+      ],
+      "den": 2070,
+      "notebooks": 102,
+      "num": 39,
+      "share": 0.018841
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.147059,
+       0.313725
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 23,
+      "share": 0.22549
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.147059,
+       0.313725
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 23,
+      "share": 0.22549
+     }
+    },
+    "pyarrow_backend": {
+     "all_DIFF": 329,
+     "all_cells": 2538,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.006218,
+       0.022472
+      ],
+      "den": 1035,
+      "notebooks": 102,
+      "num": 14,
+      "share": 0.013527
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.166667,
+       0.333333
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 25,
+      "share": 0.245098
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.186275,
+       0.352941
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 27,
+      "share": 0.264706
+     }
+    }
+   },
+   "pairs": {
+    "bodo-p15": {
+     "cells": 695,
+     "ci90_pp": [
+      -0.251,
+      3.818
+     ],
+     "ci95_pp": [
+      -0.606,
+      4.274
+     ],
+     "diff_pp": 1.727,
+     "engine_DIFF": 33,
+     "notebooks": 101,
+     "pandas_DIFF": 21,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "bodo-p30": {
+     "cells": 728,
+     "ci90_pp": [
+      2.12,
+      5.583
+     ],
+     "ci95_pp": [
+      1.887,
+      6.019
+     ],
+     "diff_pp": 3.709,
+     "engine_DIFF": 35,
+     "notebooks": 101,
+     "pandas_DIFF": 8,
+     "reading": "more often",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "dask-p15": {
+     "cells": 509,
+     "ci90_pp": [
+      -2.703,
+      1.894
+     ],
+     "ci95_pp": [
+      -3.211,
+      2.376
+     ],
+     "diff_pp": -0.393,
+     "engine_DIFF": 15,
+     "notebooks": 101,
+     "pandas_DIFF": 17,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "dask-p30": {
+     "cells": 509,
+     "ci90_pp": [
+      0.0,
+      2.828
+     ],
+     "ci95_pp": [
+      -0.218,
+      3.119
+     ],
+     "diff_pp": 1.375,
+     "engine_DIFF": 15,
+     "notebooks": 101,
+     "pandas_DIFF": 8,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "fireducks-p15": {
+     "cells": 1105,
+     "ci90_pp": [
+      -1.43,
+      0.55
+     ],
+     "ci95_pp": [
+      -1.586,
+      0.787
+     ],
+     "diff_pp": -0.452,
+     "engine_DIFF": 24,
+     "notebooks": 101,
+     "pandas_DIFF": 29,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "fireducks-p30": {
+     "cells": 1166,
+     "ci90_pp": [
+      -0.348,
+      1.91
+     ],
+     "ci95_pp": [
+      -0.566,
+      2.122
+     ],
+     "diff_pp": 0.772,
+     "engine_DIFF": 27,
+     "notebooks": 101,
+     "pandas_DIFF": 18,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "modin-p15": {
+     "cells": 1758,
+     "ci90_pp": [
+      -1.091,
+      0.658
+     ],
+     "ci95_pp": [
+      -1.261,
+      0.817
+     ],
+     "diff_pp": -0.228,
+     "engine_DIFF": 35,
+     "notebooks": 102,
+     "pandas_DIFF": 39,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "modin-p30": {
+     "cells": 1840,
+     "ci90_pp": [
+      -0.92,
+      0.807
+     ],
+     "ci95_pp": [
+      -1.095,
+      0.956
+     ],
+     "diff_pp": -0.054,
+     "engine_DIFF": 33,
+     "notebooks": 102,
+     "pandas_DIFF": 34,
+     "reading": "not distinguishable",
+     "within_1pp": true,
+     "within_2pp": true
+    },
+    "pyarrow_backend-p15": {
+     "cells": 961,
+     "ci90_pp": [
+      -2.89,
+      -0.418
+     ],
+     "ci95_pp": [
+      -3.142,
+      -0.198
+     ],
+     "diff_pp": -1.665,
+     "engine_DIFF": 14,
+     "notebooks": 102,
+     "pandas_DIFF": 30,
+     "reading": "less often",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "pyarrow_backend-p30": {
+     "cells": 956,
+     "ci90_pp": [
+      -1.221,
+      0.721
+     ],
+     "ci95_pp": [
+      -1.451,
+      0.89
+     ],
+     "diff_pp": -0.209,
+     "engine_DIFF": 13,
+     "notebooks": 101,
+     "pandas_DIFF": 15,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    }
+   }
+  },
+  "published": {
+   "by_label": {
+    "bodo": {
+     "all_DIFF": 408,
+     "all_cells": 2837,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.03846,
+       0.085578
+      ],
+      "den": 753,
+      "notebooks": 102,
+      "num": 45,
+      "share": 0.059761
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.343137,
+       0.539216
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 45,
+      "share": 0.441176
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.362745,
+       0.558824
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 47,
+      "share": 0.460784
+     }
+    },
+    "dask": {
+     "all_DIFF": 230,
+     "all_cells": 2819,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.038277,
+       0.089495
+      ],
+      "den": 545,
+      "notebooks": 102,
+      "num": 34,
+      "share": 0.062385
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.156863,
+       0.323529
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 24,
+      "share": 0.235294
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.156863,
+       0.323529
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 24,
+      "share": 0.235294
+     }
+    },
+    "fireducks": {
+     "all_DIFF": 337,
+     "all_cells": 2811,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.016606,
+       0.039612
+      ],
+      "den": 1248,
+      "notebooks": 102,
+      "num": 34,
+      "share": 0.027244
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.303922,
+       0.490196
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 40,
+      "share": 0.392157
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.323529,
+       0.519608
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 43,
+      "share": 0.421569
+     }
+    },
+    "modin": {
+     "all_DIFF": 195,
+     "all_cells": 2840,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.013879,
+       0.027553
+      ],
+      "den": 2332,
+      "notebooks": 102,
+      "num": 47,
+      "share": 0.020154
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.264706,
+       0.45098
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 36,
+      "share": 0.352941
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.264706,
+       0.45098
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 36,
+      "share": 0.352941
+     }
+    },
+    "p15": {
+     "all_DIFF": 313,
+     "all_cells": 2809,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.015812,
+       0.031218
+      ],
+      "den": 2129,
+      "notebooks": 102,
+      "num": 49,
+      "share": 0.023016
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.245098,
+       0.431373
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 34,
+      "share": 0.333333
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.264706,
+       0.45098
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 36,
+      "share": 0.352941
+     }
+    },
+    "p30": {
+     "all_DIFF": 289,
+     "all_cells": 2811,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.016326,
+       0.0353
+      ],
+      "den": 2215,
+      "notebooks": 102,
+      "num": 56,
+      "share": 0.025282
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.235294,
+       0.421569
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 33,
+      "share": 0.323529
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.235294,
+       0.421569
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 33,
+      "share": 0.323529
+     }
+    },
+    "pyarrow_backend": {
+     "all_DIFF": 423,
+     "all_cells": 2809,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.015504,
+       0.037772
+      ],
+      "den": 1091,
+      "notebooks": 102,
+      "num": 28,
+      "share": 0.025665
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.264706,
+       0.45098
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 36,
+      "share": 0.352941
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.284314,
+       0.470588
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 38,
+      "share": 0.372549
+     }
+    }
+   },
+   "pairs": {
+    "bodo-p15": {
+     "cells": 715,
+     "ci90_pp": [
+      0.766,
+      5.034
+     ],
+     "ci95_pp": [
+      0.395,
+      5.468
+     ],
+     "diff_pp": 2.797,
+     "engine_DIFF": 42,
+     "notebooks": 102,
+     "pandas_DIFF": 22,
+     "reading": "more often",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "bodo-p30": {
+     "cells": 749,
+     "ci90_pp": [
+      2.469,
+      6.036
+     ],
+     "ci95_pp": [
+      2.182,
+      6.442
+     ],
+     "diff_pp": 4.139,
+     "engine_DIFF": 45,
+     "notebooks": 102,
+     "pandas_DIFF": 14,
+     "reading": "more often",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "dask-p15": {
+     "cells": 541,
+     "ci90_pp": [
+      0.0,
+      5.339
+     ],
+     "ci95_pp": [
+      -0.615,
+      5.854
+     ],
+     "diff_pp": 2.773,
+     "engine_DIFF": 34,
+     "notebooks": 102,
+     "pandas_DIFF": 19,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "dask-p30": {
+     "cells": 539,
+     "ci90_pp": [
+      1.975,
+      5.79
+     ],
+     "ci95_pp": [
+      1.635,
+      6.139
+     ],
+     "diff_pp": 3.896,
+     "engine_DIFF": 34,
+     "notebooks": 102,
+     "pandas_DIFF": 13,
+     "reading": "more often",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "fireducks-p15": {
+     "cells": 1137,
+     "ci90_pp": [
+      -1.204,
+      0.889
+     ],
+     "ci95_pp": [
+      -1.402,
+      1.103
+     ],
+     "diff_pp": -0.176,
+     "engine_DIFF": 29,
+     "notebooks": 102,
+     "pandas_DIFF": 31,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "fireducks-p30": {
+     "cells": 1206,
+     "ci90_pp": [
+      -0.583,
+      1.777
+     ],
+     "ci95_pp": [
+      -0.792,
+      1.994
+     ],
+     "diff_pp": 0.58,
+     "engine_DIFF": 32,
+     "notebooks": 102,
+     "pandas_DIFF": 25,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "modin-p15": {
+     "cells": 1833,
+     "ci90_pp": [
+      -1.003,
+      0.798
+     ],
+     "ci95_pp": [
+      -1.165,
+      0.977
+     ],
+     "diff_pp": -0.109,
+     "engine_DIFF": 40,
+     "notebooks": 102,
+     "pandas_DIFF": 42,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "modin-p30": {
+     "cells": 1938,
+     "ci90_pp": [
+      -1.094,
+      0.554
+     ],
+     "ci95_pp": [
+      -1.266,
+      0.699
+     ],
+     "diff_pp": -0.258,
+     "engine_DIFF": 41,
+     "notebooks": 102,
+     "pandas_DIFF": 46,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "pyarrow_backend-p15": {
+     "cells": 997,
+     "ci90_pp": [
+      -1.68,
+      1.146
+     ],
+     "ci95_pp": [
+      -1.954,
+      1.434
+     ],
+     "diff_pp": -0.301,
+     "engine_DIFF": 28,
+     "notebooks": 102,
+     "pandas_DIFF": 31,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "pyarrow_backend-p30": {
+     "cells": 1010,
+     "ci90_pp": [
+      -0.503,
+      1.672
+     ],
+     "ci95_pp": [
+      -0.749,
+      1.874
+     ],
+     "diff_pp": 0.594,
+     "engine_DIFF": 27,
+     "notebooks": 102,
+     "pandas_DIFF": 21,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    }
+   }
+  }
+ },
+ "readers": {
+  "bodo": {
+   "clean level changed": 2,
+   "enters clean@E2": 8,
+   "stays in clean@E2": 3,
+   "stays out": 205
+  },
+  "dask": {
+   "enters clean@E2": 3,
+   "stays in clean@E2": 2,
+   "stays out": 108
+  },
+  "fireducks": {
+   "clean level changed": 16,
+   "stays in clean@E2": 20,
+   "stays out": 74
+  },
+  "modin": {
+   "clean level changed": 18,
+   "enters clean@E2": 1,
+   "stays in clean@E2": 61,
+   "stays out": 42
+  },
+  "p15": {
+   "clean level changed": 2,
+   "enters clean@E2": 2,
+   "stays in clean@E2": 49,
+   "stays out": 59
+  },
+  "p30": {
+   "clean level changed": 15,
+   "enters clean@E2": 2,
+   "stays in clean@E2": 93,
+   "stays out": 15
+  },
+  "pyarrow_backend": {
+   "clean level changed": 6,
+   "enters clean@E2": 13,
+   "stays in clean@E2": 29,
+   "stays out": 176
+  }
+ },
+ "run_to_run_all_cells": {
+  "bodo": {
+   "cells_other": 489,
+   "cells_pf": 244
+  },
+  "dask": {
+   "cells_other": 762,
+   "cells_pf": 178,
+   "cls_differs_pf": 1
+  },
+  "fireducks": {
+   "cells_other": 673,
+   "cells_pf": 145,
+   "cls_differs_pf": 3
+  },
+  "modin": {
+   "cells_other": 761,
+   "cells_pf": 158,
+   "cls_differs_other": 3,
+   "cls_differs_pf": 1
+  },
+  "p15": {
+   "cells_other": 894,
+   "cells_pf": 171
+  },
+  "p30": {
+   "cells_other": 873,
+   "cells_pf": 170
+  },
+  "pyarrow_backend": {
+   "cells_other": 768,
+   "cells_pf": 269
+  }
+ }
+}

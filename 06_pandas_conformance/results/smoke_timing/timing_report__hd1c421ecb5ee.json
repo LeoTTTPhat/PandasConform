@@ -1,0 +1,212 @@
+[
+ {
+  "all_ok": true,
+  "cpus": "8",
+  "engine": "bodo",
+  "max_s": 8.400205,
+  "median_s": 8.400205,
+  "min_s": 8.400205,
+  "nb": "arimishabirin/globalsalary-simple-eda",
+  "reps": 1,
+  "scale": 1.0,
+  "statuses": [
+   "completed"
+  ]
+ },
+ {
+  "all_ok": false,
+  "cpus": "8",
+  "engine": "bodo",
+  "max_s": 2.863069,
+  "median_s": 2.863069,
+  "min_s": 2.863069,
+  "nb": "danielresende/game-of-thrones-battles",
+  "reps": 1,
+  "scale": 1.0,
+  "statuses": [
+   "completed"
+  ]
+ },
+ {
+  "all_ok": false,
+  "cpus": "8",
+  "engine": "bodo",
+  "max_s": 3.262704,
+  "median_s": 3.262704,
+  "min_s": 3.262704,
+  "nb": "galiph/titanic-explorary-data-analysis",
+  "reps": 1,
+  "scale": 1.0,
+  "statuses": [
+   "completed"
+  ]
+ },
+ {
+  "all_ok": false,
+  "cpus": "8",
+  "engine": "dask",
+  "max_s": 0.041167,
+  "median_s": 0.041167,
+  "min_s": 0.041167,
+  "nb": "arimishabirin/globalsalary-simple-eda",
+  "reps": 1,
+  "scale": 1.0,
+  "statuses": [
+   "completed"
+  ]
+ },
+ {
+  "all_ok": false,
+  "cpus": "8",
+  "engine": "dask",
+  "max_s": 0.033233,
+  "median_s": 0.033233,
+  "min_s": 0.033233,
+  "nb": "danielresende/game-of-thrones-battles",
+  "reps": 1,
+  "scale": 1.0,
+  "statuses": [
+   "completed"
+  ]
+ },
+ {
+  "all_ok": false,
+  "cpus": "8",
+  "engine": "dask",
+  "max_s": 0.142628,
+  "median_s": 0.142628,
+  "min_s": 0.142628,
+  "nb": "galiph/titanic-explorary-data-analysis",
+  "reps": 1,
+  "scale": 1.0,
+  "statuses": [
+   "completed"
+  ]
+ },
+ {
+  "all_ok": true,
+  "cpus": "8",
+  "engine": "fireducks",
+  "max_s": 0.051192,
+  "median_s": 0.051192,
+  "min_s": 0.051192,
+  "nb": "arimishabirin/globalsalary-simple-eda",
+  "reps": 1,
+  "scale": 1.0,
+  "statuses": [
+   "completed"
+  ]
+ },
+ {
+  "all_ok": true,
+  "cpus": "8",
+  "engine": "fireducks",
+  "max_s": 0.192535,
+  "median_s": 0.192535,
+  "min_s": 0.192535,
+  "nb": "danielresende/game-of-thrones-battles",
+  "reps": 1,
+  "scale": 1.0,
+  "statuses": [
+   "completed"
+  ]
+ },
+ {
+  "all_ok": true,
+  "cpus": "8",
+  "engine": "fireducks",
+  "max_s": 0.196819,
+  "median_s": 0.196819,
+  "min_s": 0.196819,
+  "nb": "galiph/titanic-explorary-data-analysis",
+  "reps": 1,
+  "scale": 1.0,
+  "statuses": [
+   "completed"
+  ]
+ },
+ {
+  "all_ok": true,
+  "cpus": "8",
+  "engine": "modin",
+  "max_s": 2.9260669999999998,
+  "median_s": 2.9260669999999998,
+  "min_s": 2.9260669999999998,
+  "nb": "arimishabirin/globalsalary-simple-eda",
+  "reps": 1,
+  "scale": 1.0,
+  "statuses": [
+   "completed"
+  ]
+ },
+ {
+  "all_ok": false,
+  "cpus": "8",
+  "engine": "modin",
+  "max_s": 2.5140320000000003,
+  "median_s": 2.5140320000000003,
+  "min_s": 2.5140320000000003,
+  "nb": "danielresende/game-of-thrones-battles",
+  "reps": 1,
+  "scale": 1.0,
+  "statuses": [
+   "completed"
+  ]
+ },
+ {
+  "all_ok": true,
+  "cpus": "8",
+  "engine": "modin",
+  "max_s": 3.507823,
+  "median_s": 3.507823,
+  "min_s": 3.507823,
+  "nb": "galiph/titanic-explorary-data-analysis",
+  "reps": 1,
+  "scale": 1.0,
+  "statuses": [
+   "completed"
+  ]
+ },
+ {
+  "all_ok": true,
+  "cpus": "8",
+  "engine": "ref",
+  "max_s": 0.034282,
+  "median_s": 0.034282,
+  "min_s": 0.034282,
+  "nb": "arimishabirin/globalsalary-simple-eda",
+  "reps": 1,
+  "scale": 1.0,
+  "statuses": [
+   "completed"
+  ]
+ },
+ {
+  "all_ok": true,
+  "cpus": "8",
+  "engine": "ref",
+  "max_s": 0.042857,
+  "median_s": 0.042857,
+  "min_s": 0.042857,
+  "nb": "danielresende/game-of-thrones-battles",
+  "reps": 1,
+  "scale": 1.0,
+  "statuses": [
+   "completed"
+  ]
+ },
+ {
+  "all_ok": true,
+  "cpus": "8",
+  "engine": "ref",
+  "max_s": 0.053635,
+  "median_s": 0.053635,
+  "min_s": 0.053635,
+  "nb": "galiph/titanic-explorary-data-analysis",
+  "reps": 1,
+  "scale": 1.0,
+  "statuses": [
+   "completed"
+  ]
+ }
+]

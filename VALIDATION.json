@@ -1,0 +1,16 @@
+{
+  "verified_utc": "2026-11-11T14:02:03Z",
+  "saved_result_analysis": "passed",
+  "core_tests": {
+    "status": "passed",
+    "passed": 38,
+    "files": [
+      "tests/test_dfeq.py",
+      "tests/test_nbsource.py"
+    ]
+  },
+  "python_syntax": "passed with Python 3.12",
+  "shell_syntax": "passed",
+  "fresh_environment_installation": "not run; compatible existing environments were used",
+  "full_experiments": "not rerun"
+}

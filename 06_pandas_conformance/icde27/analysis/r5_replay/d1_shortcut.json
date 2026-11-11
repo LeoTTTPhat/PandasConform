@@ -1,0 +1,745 @@
+{
+ "cells": [
+  {
+   "cell": 12,
+   "engine": "bodo",
+   "nb": "deffro/eda-is-fun",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 16,
+   "engine": "bodo",
+   "nb": "deffro/eda-is-fun",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 21,
+   "engine": "bodo",
+   "nb": "deffro/eda-is-fun",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 40,
+   "engine": "bodo",
+   "nb": "deffro/eda-is-fun",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 5,
+   "engine": "bodo",
+   "nb": "tunguz/fathers-day-specials-just-the-features",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 19,
+   "engine": "bodo",
+   "nb": "tunguz/fathers-day-specials-just-the-features",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 1,
+   "engine": "dask",
+   "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 6,
+   "engine": "dask",
+   "nb": "brianmendieta/data-cleaning-plus-eda",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 2,
+   "engine": "dask",
+   "nb": "corazzon/how-to-use-pandas-filter-in-survey-eda",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 7,
+   "engine": "dask",
+   "nb": "gmanish/help-ngo-country-clustering",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 6,
+   "engine": "dask",
+   "nb": "jackwatson99/pima-indians-diabetes-rf-81",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 4,
+   "engine": "dask",
+   "nb": "jirakst/book-recommendation",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 6,
+   "engine": "dask",
+   "nb": "jirakst/book-recommendation",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 2,
+   "engine": "dask",
+   "nb": "jyotsananegi/melbourne-housing-snapshot-eda",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 4,
+   "engine": "dask",
+   "nb": "luckygemini/notebook5d5fc80c9f",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 3,
+   "engine": "dask",
+   "nb": "madseth/customer-shopping-trends-dataset-eda",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 19,
+   "engine": "dask",
+   "nb": "madseth/customer-shopping-trends-dataset-eda",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 2,
+   "engine": "dask",
+   "nb": "mathewvondersaar/analysis-of-student-performance",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 2,
+   "engine": "dask",
+   "nb": "nihhaar/etltransform",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 3,
+   "engine": "dask",
+   "nb": "nihhaar/etltransform",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 5,
+   "engine": "dask",
+   "nb": "roopahegde/cryptocurrency-price-correlation",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 7,
+   "engine": "dask",
+   "nb": "roopahegde/cryptocurrency-price-correlation",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 11,
+   "engine": "dask",
+   "nb": "salmaneunus/student-s-performance-quantitative-visual-eda",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 15,
+   "engine": "dask",
+   "nb": "salmaneunus/student-s-performance-quantitative-visual-eda",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 16,
+   "engine": "dask",
+   "nb": "salmaneunus/student-s-performance-quantitative-visual-eda",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 4,
+   "engine": "dask",
+   "nb": "stefanjov/my-first-normalize-on-big-dataset",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 11,
+   "engine": "dask",
+   "nb": "willkoehrsen/start-here-a-gentle-introduction",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 43,
+   "engine": "dask",
+   "nb": "willkoehrsen/start-here-a-gentle-introduction",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 16,
+   "engine": "dask",
+   "nb": "yonelanuba/elo-merchant-by-yonela",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 32,
+   "engine": "dask",
+   "nb": "yonelanuba/elo-merchant-by-yonela",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 36,
+   "engine": "dask",
+   "nb": "yonelanuba/elo-merchant-by-yonela",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 39,
+   "engine": "dask",
+   "nb": "yonelanuba/elo-merchant-by-yonela",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 40,
+   "engine": "dask",
+   "nb": "yonelanuba/elo-merchant-by-yonela",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 54,
+   "engine": "dask",
+   "nb": "yonelanuba/elo-merchant-by-yonela",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 57,
+   "engine": "dask",
+   "nb": "yonelanuba/elo-merchant-by-yonela",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 66,
+   "engine": "dask",
+   "nb": "yonelanuba/elo-merchant-by-yonela",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 149,
+   "engine": "dask",
+   "nb": "yonelanuba/elo-merchant-by-yonela",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 7,
+   "engine": "fireducks",
+   "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 13,
+   "engine": "fireducks",
+   "nb": "blaskowitz100/feature-engineering-based-on-the-suprise-me",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 12,
+   "engine": "fireducks",
+   "nb": "kmader/analyzing-matches",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 4,
+   "engine": "fireducks",
+   "nb": "loveall/favorita-analytics",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 11,
+   "engine": "fireducks",
+   "nb": "nandhuelan/ott-platforms",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 10,
+   "engine": "fireducks",
+   "nb": "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 13,
+   "engine": "fireducks",
+   "nb": "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 18,
+   "engine": "fireducks",
+   "nb": "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 20,
+   "engine": "fireducks",
+   "nb": "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 24,
+   "engine": "fireducks",
+   "nb": "paramarthasengupta/plotly-eda-top-movies-of-20th-century",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 17,
+   "engine": "fireducks",
+   "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   "unchanged": false,
+   "why": [
+    "inputs",
+    "outputs",
+    "last_captured:train"
+   ]
+  },
+  {
+   "cell": 18,
+   "engine": "fireducks",
+   "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   "unchanged": false,
+   "why": [
+    "inputs",
+    "outputs",
+    "last_captured:train"
+   ]
+  },
+  {
+   "cell": 29,
+   "engine": "fireducks",
+   "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   "unchanged": false,
+   "why": [
+    "inputs",
+    "outputs",
+    "last_captured:train"
+   ]
+  },
+  {
+   "cell": 30,
+   "engine": "fireducks",
+   "nb": "tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model",
+   "unchanged": false,
+   "why": [
+    "inputs",
+    "outputs",
+    "last_captured:train"
+   ]
+  },
+  {
+   "cell": 10,
+   "engine": "fireducks",
+   "nb": "willkoehrsen/start-here-a-gentle-introduction",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 18,
+   "engine": "fireducks",
+   "nb": "willkoehrsen/start-here-a-gentle-introduction",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 19,
+   "engine": "fireducks",
+   "nb": "willkoehrsen/start-here-a-gentle-introduction",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 15,
+   "engine": "fireducks",
+   "nb": "yuliagm/talkingdata-eda-plus-time-patterns",
+   "unchanged": false,
+   "why": [
+    "outputs",
+    "last_captured:train"
+   ]
+  },
+  {
+   "cell": 20,
+   "engine": "modin",
+   "nb": "artgor/eda-and-models",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 85,
+   "engine": "modin",
+   "nb": "brianmendieta/data-cleaning-plus-eda",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 9,
+   "engine": "modin",
+   "nb": "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 26,
+   "engine": "modin",
+   "nb": "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 28,
+   "engine": "modin",
+   "nb": "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 30,
+   "engine": "modin",
+   "nb": "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 30,
+   "engine": "modin",
+   "nb": "deffro/eda-is-fun",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 31,
+   "engine": "modin",
+   "nb": "deffro/eda-is-fun",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 38,
+   "engine": "modin",
+   "nb": "deffro/eda-is-fun",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 2,
+   "engine": "modin",
+   "nb": "grudd0/mass-shooting-analysis",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 20,
+   "engine": "modin",
+   "nb": "j0thu777/onlineretailanalysis",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 12,
+   "engine": "modin",
+   "nb": "kmader/analyzing-matches",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 15,
+   "engine": "modin",
+   "nb": "kmader/analyzing-matches",
+   "unchanged": false,
+   "why": [
+    "inputs",
+    "last_captured:out_df"
+   ]
+  },
+  {
+   "cell": 28,
+   "engine": "modin",
+   "nb": "maxiaoyue/data-cleaning-challenge-handling-missing-values",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 17,
+   "engine": "modin",
+   "nb": "santhoshrao1995/assi01-santhosh-19101036",
+   "unchanged": false,
+   "why": [
+    "inputs",
+    "outputs",
+    "last_captured:df"
+   ]
+  },
+  {
+   "cell": 18,
+   "engine": "modin",
+   "nb": "santhoshrao1995/assi01-santhosh-19101036",
+   "unchanged": false,
+   "why": [
+    "inputs",
+    "outputs",
+    "last_captured:df"
+   ]
+  },
+  {
+   "cell": 19,
+   "engine": "modin",
+   "nb": "santhoshrao1995/assi01-santhosh-19101036",
+   "unchanged": false,
+   "why": [
+    "inputs",
+    "outputs",
+    "last_captured:df"
+   ]
+  },
+  {
+   "cell": 20,
+   "engine": "modin",
+   "nb": "santhoshrao1995/assi01-santhosh-19101036",
+   "unchanged": false,
+   "why": [
+    "inputs",
+    "outputs",
+    "last_captured:df"
+   ]
+  },
+  {
+   "cell": 21,
+   "engine": "modin",
+   "nb": "santhoshrao1995/assi01-santhosh-19101036",
+   "unchanged": false,
+   "why": [
+    "inputs",
+    "outputs",
+    "last_captured:df"
+   ]
+  },
+  {
+   "cell": 22,
+   "engine": "modin",
+   "nb": "santhoshrao1995/assi01-santhosh-19101036",
+   "unchanged": false,
+   "why": [
+    "inputs",
+    "outputs",
+    "last_captured:df"
+   ]
+  },
+  {
+   "cell": 31,
+   "engine": "modin",
+   "nb": "santhoshrao1995/assi01-santhosh-19101036",
+   "unchanged": false,
+   "why": [
+    "inputs",
+    "outputs",
+    "last_captured:Y"
+   ]
+  },
+  {
+   "cell": 32,
+   "engine": "modin",
+   "nb": "santhoshrao1995/assi01-santhosh-19101036",
+   "unchanged": false,
+   "why": [
+    "inputs",
+    "outputs",
+    "last_captured:df_final"
+   ]
+  },
+  {
+   "cell": 34,
+   "engine": "modin",
+   "nb": "santhoshrao1995/assi01-santhosh-19101036",
+   "unchanged": false,
+   "why": [
+    "inputs",
+    "outputs",
+    "last_captured:Y"
+   ]
+  },
+  {
+   "cell": 33,
+   "engine": "modin",
+   "nb": "shivavashishtha/zomato-eda-tutorial",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 39,
+   "engine": "modin",
+   "nb": "shivavashishtha/zomato-eda-tutorial",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 56,
+   "engine": "modin",
+   "nb": "shivavashishtha/zomato-eda-tutorial",
+   "unchanged": false,
+   "why": [
+    "inputs",
+    "outputs",
+    "last_captured:top10_chains2"
+   ]
+  },
+  {
+   "cell": 17,
+   "engine": "modin",
+   "nb": "sunnybiswas/eda-on-airline-dataset",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 11,
+   "engine": "modin",
+   "nb": "trinath003/data-manipulation-visualisation-on-kaggle-datasets",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 3,
+   "engine": "modin",
+   "nb": "wyl4417/machine-learning-and-how-it-affects-you",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 15,
+   "engine": "modin",
+   "nb": "yuliagm/talkingdata-eda-plus-time-patterns",
+   "unchanged": false,
+   "why": [
+    "outputs"
+   ]
+  },
+  {
+   "cell": 5,
+   "engine": "pyarrow_backend",
+   "nb": "tunguz/fathers-day-specials-just-the-features",
+   "unchanged": true,
+   "why": []
+  },
+  {
+   "cell": 19,
+   "engine": "pyarrow_backend",
+   "nb": "tunguz/fathers-day-specials-just-the-features",
+   "unchanged": true,
+   "why": []
+  }
+ ],
+ "item": "D1",
+ "method": "D1: classify a disputed cell of a replayed notebook WITHOUT decoding when the comparator's result for that cell\ncannot have changed. classify.classify_run computes cell i from the reference records (unchanged), the engine run's\nstatus, the engine cell i (status, exception type, captured inputs and outputs) and the engine's last captured value of\nevery name the cell reads through `last_eng` (inputs of runs without pre-cell capture, and globals read by user\nfunctions the cell calls). If all of these are identical (same content hashes) in the replay and in the original\nengine run, the replay's class and clean level for cell i equal the published ones. This script checks exactly that,\nwith classify's own _update_last and _hidden_globals, for the disputed cells of the notebooks that are not\nhash-identical as a whole. envs/ref (imports pconf.classify), no decoding. Writes d1_shortcut.json.\n    env PYTHONPATH=06_pandas_conformance-ICDE/src nice 06_pandas_conformance-ICDE/envs/ref/bin/python         06_pandas_conformance-ICDE/icde27/analysis/r5_replay/d1_shortcut.py"
+}

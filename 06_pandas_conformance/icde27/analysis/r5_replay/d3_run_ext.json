@@ -1,0 +1,241 @@
+{
+ "campaign": "r5_serial",
+ "cfg": {
+  "capture_inputs": true,
+  "cell_timeout": 600,
+  "cpus": null,
+  "limits": null,
+  "nb_timeout": 3600,
+  "seed": 0
+ },
+ "loadavg": [
+  34.36,
+  40.03,
+  39.85
+ ],
+ "results": [
+  {
+   "engine": "modin",
+   "log_tail": "",
+   "nb": "santhoshrao1995/assi01-santhosh-19101036",
+   "orig_record": "results/conf_1x/raw/runs__hd1c421ecb5ee/modin/sf1/santhoshrao1995__assi01-santhosh-19101036__3b6905e712b6.json",
+   "orig_wall_s": 16.368,
+   "record": "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/santhoshrao1995__assi01-santhosh-19101036__3a6c065e58d2.json",
+   "record_status": "completed",
+   "run_wall_s": 4.5,
+   "status": "completed",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "log_tail": "",
+   "nb": "saniaks/melbourne-house-price-eda",
+   "orig_record": "results/conf_1x/raw/runs__hd1c421ecb5ee/modin/sf1/saniaks__melbourne-house-price-eda__f166c2715018.json",
+   "orig_wall_s": 14.02,
+   "record": "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/saniaks__melbourne-house-price-eda__2598fdc5260a.json",
+   "record_status": "completed",
+   "run_wall_s": 5.2,
+   "status": "completed",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "log_tail": "",
+   "nb": "kenjee/titanic-project-example",
+   "orig_record": "results/conf_1x/raw/runs__hd1c421ecb5ee/modin/sf1/kenjee__titanic-project-example__da4801dc191e.json",
+   "orig_wall_s": 28.594,
+   "record": "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/kenjee__titanic-project-example__9c9ac454a53c.json",
+   "record_status": "completed",
+   "run_wall_s": 5.3,
+   "status": "completed",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "log_tail": "",
+   "nb": "sunnybiswas/eda-on-airline-dataset",
+   "orig_record": "results/conf_1x/raw/runs__hd1c421ecb5ee/modin/sf1/sunnybiswas__eda-on-airline-dataset__857ae594e2d6.json",
+   "orig_wall_s": 19.175,
+   "record": "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/sunnybiswas__eda-on-airline-dataset__9f8a1434eb4d.json",
+   "record_status": "completed",
+   "run_wall_s": 5.9,
+   "status": "completed",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "log_tail": "",
+   "nb": "qnqfbqfqo/electric-vehicle-landscape-in-washington-state",
+   "orig_record": "results/conf_1x/raw/runs__hd1c421ecb5ee/modin/sf1/qnqfbqfqo__electric-vehicle-landscape-in-washington-state__711f7715c638.json",
+   "orig_wall_s": 12.28,
+   "record": "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/qnqfbqfqo__electric-vehicle-landscape-in-washington-state__adfdaadb7672.json",
+   "record_status": "completed",
+   "run_wall_s": 2.3,
+   "status": "completed",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "log_tail": "",
+   "nb": "dbatao/kernel2f80fc9d78",
+   "orig_record": "results/conf_1x/raw/runs__hd1c421ecb5ee/modin/sf1/dbatao__kernel2f80fc9d78__619771cd3845.json",
+   "orig_wall_s": 14.778,
+   "record": "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/dbatao__kernel2f80fc9d78__8670c2364540.json",
+   "record_status": "completed",
+   "run_wall_s": 7.5,
+   "status": "completed",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "log_tail": "SyntaxWarning: invalid escape sequence '\\['\n",
+   "nb": "sabya40/data-cleaning-and-pandas-for-beginners",
+   "orig_record": "results/conf_1x/raw/runs__hd1c421ecb5ee/modin/sf1/sabya40__data-cleaning-and-pandas-for-beginners__2587f6b5fc26.json",
+   "orig_wall_s": 9.478,
+   "record": "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/sabya40__data-cleaning-and-pandas-for-beginners__4636f5c28c06.json",
+   "record_status": "completed",
+   "run_wall_s": 2.4,
+   "status": "completed",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "log_tail": "SyntaxWarning: invalid escape sequence '\\d'\nSyntaxWarning: invalid escape sequence '\\d'\n",
+   "nb": "charulatashelar/indian-startup-funding-exploratory-data-analysis",
+   "orig_record": "results/conf_1x/raw/runs__hd1c421ecb5ee/modin/sf1/charulatashelar__indian-startup-funding-exploratory-data-analysis__3c40a8474c21.json",
+   "orig_wall_s": 10.474,
+   "record": "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/charulatashelar__indian-startup-funding-exploratory-data-analysis__0c886ac38866.json",
+   "record_status": "completed",
+   "run_wall_s": 3.0,
+   "status": "completed",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "log_tail": "",
+   "nb": "christophriley/intro-machine-learning",
+   "orig_record": "results/conf_1x/raw/runs__hd1c421ecb5ee/modin/sf1/christophriley__intro-machine-learning__03d98cf2d8b1.json",
+   "orig_wall_s": 9.239,
+   "record": "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/christophriley__intro-machine-learning__8cdd0cdaaaa2.json",
+   "record_status": "completed",
+   "run_wall_s": 1.8,
+   "status": "completed",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "log_tail": "",
+   "nb": "danielresende/game-of-thrones-battles",
+   "orig_record": "results/conf_1x/raw/runs__hd1c421ecb5ee/modin/sf1/danielresende__game-of-thrones-battles__ec9a05b2ddff.json",
+   "orig_wall_s": 7.371,
+   "record": "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/danielresende__game-of-thrones-battles__7a5628f22936.json",
+   "record_status": "completed",
+   "run_wall_s": 1.8,
+   "status": "completed",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "log_tail": "",
+   "nb": "trinath003/data-manipulation-visualisation-on-kaggle-datasets",
+   "orig_record": "results/conf_1x/raw/runs__hd1c421ecb5ee/modin/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__f293e3ade78a.json",
+   "orig_wall_s": 8.455,
+   "record": "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/trinath003__data-manipulation-visualisation-on-kaggle-datasets__ab1b3d403602.json",
+   "record_status": "completed",
+   "run_wall_s": 2.1,
+   "status": "completed",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "log_tail": "",
+   "nb": "brianmendieta/data-cleaning-plus-eda",
+   "orig_record": "results/conf_1x/raw/runs__hd1c421ecb5ee/modin/sf1/brianmendieta__data-cleaning-plus-eda__8f0c4c73be31.json",
+   "orig_wall_s": 13.377,
+   "record": "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/brianmendieta__data-cleaning-plus-eda__cb7bd1754b04.json",
+   "record_status": "completed",
+   "run_wall_s": 6.2,
+   "status": "completed",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "log_tail": "",
+   "nb": "grudd0/mass-shooting-analysis",
+   "orig_record": "results/conf_1x/raw/runs__hd1c421ecb5ee/modin/sf1/grudd0__mass-shooting-analysis__4d24c4883e47.json",
+   "orig_wall_s": 9.388,
+   "record": "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/grudd0__mass-shooting-analysis__e2e2303a8293.json",
+   "record_status": "completed",
+   "run_wall_s": 3.2,
+   "status": "completed",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "log_tail": "SyntaxWarning: invalid escape sequence '\\d'\nSyntaxWarning: invalid escape sequence '\\d'\nSyntaxWarning: invalid escape sequence '\\['\nSyntaxWarning: invalid escape sequence '\\d'\nSyntaxWarning: invalid escape sequence '\\['\n",
+   "nb": "jagangupta/stop-the-s-toxic-comments-eda",
+   "orig_record": "results/conf_1x/raw/runs__hd1c421ecb5ee/modin/sf1/jagangupta__stop-the-s-toxic-comments-eda__55b4e01bd1de.json",
+   "orig_wall_s": 58.771,
+   "record": "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/jagangupta__stop-the-s-toxic-comments-eda__3aa4a5b616f2.json",
+   "record_status": "completed",
+   "run_wall_s": 38.1,
+   "status": "completed",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "log_tail": "",
+   "nb": "willkoehrsen/start-here-a-gentle-introduction",
+   "orig_record": "results/conf_1x/raw/runs__hd1c421ecb5ee/modin/sf1/willkoehrsen__start-here-a-gentle-introduction__b736b6ce1329.json",
+   "orig_wall_s": 47.409,
+   "record": "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/willkoehrsen__start-here-a-gentle-introduction__dbcdc89b9856.json",
+   "record_status": "completed",
+   "run_wall_s": 38.4,
+   "status": "completed",
+   "variant": "modin_serial"
+  },
+  {
+   "engine": "modin",
+   "log_tail": "",
+   "nb": "ersinsen/fraud-3-eda",
+   "orig_record": "results/conf_1x/raw/runs__hd1c421ecb5ee/modin/sf1/ersinsen__fraud-3-eda__f76e56838ac1.json",
+   "orig_wall_s": 86.727,
+   "record": "work/r5_replay/results/r5_serial/raw/runs__hd1c421ecb5ee/modin_serial/sf1/ersinsen__fraud-3-eda__036b94e64324.json",
+   "record_status": "completed",
+   "run_wall_s": 273.9,
+   "status": "completed",
+   "variant": "modin_serial"
+  }
+ ],
+ "started": 1794339339.471777,
+ "tag": "ext",
+ "variant_env_vars": {
+  "bodo_exactq": {
+   "BODO_NUM_WORKERS": "1"
+  },
+  "dask_serial": {},
+  "fireducks_1t": {
+   "FIREDUCKS_FLAGS": "-Wfallback",
+   "OMP_NUM_THREADS": "1"
+  },
+  "modin_serial": {
+   "MODIN_ENGINE": "python",
+   "MODIN_NPARTITIONS": "1"
+  },
+  "pyarrow_1t": {}
+ },
+ "variant_setup": {
+  "bodo_exactq": "\nimport bodo.pandas as pd\nimport pandas as _rp\ndef _plain_series(x):\n    try:\n        x.execute_plan()\n    except Exception:\n        pass\n    return _rp.Series(x.array, index=x.index, name=x.name, copy=False)\ndef _plain_frame(x):\n    try:\n        x.execute_plan()\n    except Exception:\n        pass\n    arrays = [x.iloc[:, j].array for j in range(x.shape[1])]\n    out = _rp.DataFrame(dict(zip(range(len(arrays)), arrays)), index=x.index, copy=False)\n    out.columns = x.columns\n    return out\n# a failed patch must not pass silently as plain Bodo: any error here is an engine setup error (all cells SETUP_ERR)\n_BS = type(pd.Series([1.0, 2.0]))\n_BD = type(pd.DataFrame({\"a\": [1.0, 2.0]}))\nassert _BS.__module__.startswith(\"bodo\") and _BD.__module__.startswith(\"bodo\"), (_BS, _BD)\n_BS.quantile = lambda self, *a, **k: _plain_series(self).quantile(*a, **k)        # exact (pandas) quantiles\n_BD.quantile = lambda self, *a, **k: _plain_frame(self).quantile(*a, **k)\n_BD.describe = lambda self, *a, **k: _plain_frame(self).describe(*a, **k)\nprint(\"[bodo_exactq] patched\", _BS.__name__, _BD.__name__)\n",
+  "dask_serial": "\nimport types as _types\nimport dask\ndask.config.set(scheduler=\"synchronous\")     # no threads\nimport dask.dataframe as _dd\nclass _DaskSerial(_types.ModuleType):\n    def __getattr__(self, name):\n        return getattr(_dd, name)\npd = _DaskSerial(\"dask.dataframe\")\ndef _read_csv(*a, **k):\n    k.setdefault(\"blocksize\", None)          # one partition per file\n    return _dd.read_csv(*a, **k)\npd.read_csv = _read_csv\n",
+  "fireducks_1t": "import fireducks.pandas as pd",
+  "modin_serial": "\nimport modin.config as _mc\n_mc.Engine.put(\"Python\")      # in-process, serial execution engine (no Ray workers)\n_mc.NPartitions.put(1)        # one partition: no partition-order or per-partition effects\nimport modin.pandas as pd\n",
+  "pyarrow_1t": "\nimport functools as _ft, types as _types\nimport pandas as _real_pd\nclass _PyarrowBackendPandas(_types.ModuleType):\n    \"\"\"`pandas` with dtype_backend='pyarrow' passed to every reader that accepts it.\"\"\"\n    def __getattr__(self, name):\n        return getattr(_real_pd, name)\npd = _PyarrowBackendPandas(\"pandas\")\npd.__dict__[\"__version__\"] = _real_pd.__version__\ndef _wrap(f):\n    @_ft.wraps(f)\n    def g(*a, **k):\n        k.setdefault(\"dtype_backend\", \"pyarrow\")\n        return f(*a, **k)\n    return g\nfor _n in (\"read_csv\", \"read_table\", \"read_fwf\", \"read_excel\", \"read_json\", \"read_parquet\", \"read_orc\",\n           \"read_feather\", \"read_html\", \"read_xml\", \"read_sql\", \"read_sql_query\", \"read_sql_table\", \"read_spss\"):\n    if hasattr(_real_pd, _n):\n        setattr(pd, _n, _wrap(getattr(_real_pd, _n)))\n\nimport pyarrow as _pa\n_pa.set_cpu_count(1)\n_pa.set_io_thread_count(1)\n"
+ },
+ "variants": {
+  "bodo_exactq": "Bodo 2026.8, 1 worker, Series/DataFrame quantile and describe computed exactly by pandas",
+  "dask_serial": "dask.dataframe, synchronous scheduler, read_csv(blocksize=None)",
+  "fireducks_1t": "FireDucks 1.4 with OMP_NUM_THREADS=1 (its thread pool follows it, engines.py)",
+  "modin_serial": "Modin 0.37, Python engine (serial, in process), 1 partition",
+  "pyarrow_1t": "pyarrow backend with one Arrow CPU and IO thread"
+ }
+}

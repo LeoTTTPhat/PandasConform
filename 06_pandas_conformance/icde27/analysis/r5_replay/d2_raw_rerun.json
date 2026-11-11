@@ -1,0 +1,704 @@
+{
+ "cases": [
+  {
+   "cell": 30,
+   "claim": "Modin corr(numeric_only=True) has diagonal entries 5.38 and 8.41 (out of range)",
+   "configs": [
+    "modin"
+   ],
+   "group": "named",
+   "id": "corr_diag_deffro",
+   "nb": "deffro/eda-is-fun",
+   "values": {
+    "_": "{'diag': [None if x != x else round(float(x), 6) for x in [v.iloc[i, i] for i in range(v.shape[0])]], 'n_outside': int((v.abs() > 1 + 1e-9).sum().sum())}"
+   }
+  },
+  {
+   "cell": 8,
+   "claim": "Modin corr() returns entries outside [-1, 1] (second notebook of the same cause)",
+   "configs": [
+    "modin"
+   ],
+   "group": "named",
+   "id": "corr_diag_ev",
+   "nb": "qnqfbqfqo/electric-vehicle-landscape-in-washington-state",
+   "values": {
+    "__last__": "{'diag': [None if x != x else round(float(x), 6) for x in [v.iloc[i, i] for i in range(v.shape[0])]], 'n_outside': int((v.abs() > 1 + 1e-9).sum().sum())}"
+   }
+  },
+  {
+   "cell": 0,
+   "claim": "Bodo at its default worker count reads 1,692 of 1,693 (and 1,507 of 1,508) rows; one worker reads all",
+   "configs": [
+    "bodo_dw",
+    "bodo"
+   ],
+   "group": "named",
+   "id": "read_rows_bodo_dw",
+   "nb": "shashi772/data-cleaning-challenge-parsing-dates",
+   "values": {
+    "earthquakes": "len(v)",
+    "landslides": "len(v)",
+    "volcanos": "len(v)"
+   }
+  },
+  {
+   "cell": 12,
+   "claim": "Bodo's approximate 0.99 quantile changes which rows a threshold filter keeps",
+   "configs": [
+    "bodo"
+   ],
+   "group": "silent",
+   "id": "approx_quantile_deffro",
+   "nb": "deffro/eda-is-fun",
+   "values": {
+    "_": "len(v)"
+   }
+  },
+  {
+   "cell": 16,
+   "claim": "Bodo's approximate 0.05/0.95 quantiles differ and the outlier filter keeps another row count",
+   "configs": [
+    "bodo"
+   ],
+   "group": "silent",
+   "id": "approx_quantile_gmanish",
+   "nb": "gmanish/help-ngo-country-clustering",
+   "values": {
+    "Q1": "round(float(v), 6)",
+    "Q3": "round(float(v), 6)",
+    "__last__": "len(v)"
+   }
+  },
+  {
+   "cell": 9,
+   "claim": "FireDucks' chained fillna(inplace=True) does not write through, without pandas' warning",
+   "configs": [
+    "fireducks"
+   ],
+   "group": "silent",
+   "id": "chained_assignment_tweet",
+   "nb": "ayushsingh5941/tweet-disaster-or-not",
+   "values": {
+    "tweet_train_df": "{str(c): int(v[c].isna().sum()) for c in v.columns}"
+   }
+  },
+  {
+   "cell": 9,
+   "claim": "FireDucks chained assignment (cell attributed to cow_chained_assignment)",
+   "configs": [
+    "fireducks"
+   ],
+   "group": "silent",
+   "id": "chained_assignment_scout",
+   "nb": "arjoonn/scout-script-7",
+   "values": {
+    "df": "{'ncol': int(v.shape[1]), 'state_cols': [str(c) for c in v.columns if str(c).startswith('state_')][:6], 'self_employed_na': int(v['self_employed'].isna().sum()) if 'self_employed' in v.columns else None}",
+    "st": "str(v)"
+   }
+  },
+  {
+   "cell": 11,
+   "claim": "Modin's value_counts of a cut result drops the empty bin",
+   "configs": [
+    "modin"
+   ],
+   "group": "silent",
+   "id": "value_counts_cut_modin",
+   "nb": "trinath003/data-manipulation-visualisation-on-kaggle-datasets",
+   "values": {
+    "__last__": "{'len': int(len(v)), 'zeros': int((v == 0).sum())}"
+   }
+  },
+  {
+   "cell": 22,
+   "claim": "Modin's pivot_table(aggfunc='size') returns a DataFrame instead of a Series",
+   "configs": [
+    "modin"
+   ],
+   "group": "silent",
+   "id": "pivot_table_size_modin",
+   "nb": "sabya40/data-cleaning-and-pandas-for-beginners",
+   "values": {
+    "dups_category": "{'type': type(v).__name__, 'ndim': int(v.ndim), 'shape': [int(s) for s in v.shape]}"
+   }
+  },
+  {
+   "cell": 2,
+   "claim": "Modin loses an axis name (index name after df.index = df.Date)",
+   "configs": [
+    "modin"
+   ],
+   "group": "silent",
+   "id": "index_name_modin",
+   "nb": "grudd0/mass-shooting-analysis",
+   "values": {
+    "df": "{'index_name': None if v.index.name is None else str(v.index.name)}"
+   }
+  },
+  {
+   "cell": 33,
+   "claim": "Modin loses the side effects of a function passed to apply (a list extended inside apply)",
+   "configs": [
+    "modin"
+   ],
+   "group": "rater",
+   "id": "apply_side_effects_modin",
+   "nb": "shivavashishtha/zomato-eda-tutorial",
+   "values": {
+    "cuisines": "int(len(v))"
+   }
+  },
+  {
+   "cell": 4,
+   "claim": "Bodo's head() shows data from before a column update",
+   "configs": [
+    "bodo"
+   ],
+   "group": "rater",
+   "id": "stale_head_bodo",
+   "nb": "kwullum/when-do-traffic-related-deaths-occur",
+   "values": {
+    "__last__": "[str(x) for x in v['Time'].tolist()]"
+   }
+  },
+  {
+   "cell": 5,
+   "claim": "FireDucks' group-by after .at assignments uses the data from before them",
+   "configs": [
+    "fireducks"
+   ],
+   "group": "rater",
+   "id": "stale_groupby_fireducks",
+   "nb": "danielresende/game-of-thrones-battles",
+   "values": {
+    "__last__": "{'shape': [int(s) for s in v.shape], 'index': [str(x) for x in v.index]}"
+   }
+  },
+  {
+   "cell": 2,
+   "claim": "Bodo's filtered index holds positions, so drop() removes other rows",
+   "configs": [
+    "bodo"
+   ],
+   "group": "rater",
+   "id": "positions_labels_bodo",
+   "nb": "snanilim/video-games-sales-analysis-and-visualization",
+   "values": {
+    "data": "{'rows': int(len(v)), 'index_head': [int(x) for x in list(v.index[:3])]}",
+    "drop_row_index": "[int(x) for x in list(v)[:3]]"
+   }
+  },
+  {
+   "cell": 4,
+   "claim": "FireDucks' nunique() counts missing values",
+   "configs": [
+    "fireducks"
+   ],
+   "group": "rater",
+   "id": "nunique_fireducks",
+   "nb": "jyotsananegi/melbourne-housing-snapshot-eda",
+   "values": {
+    "__last__": "[int(x) for x in v.iloc[:, 0].tolist()]"
+   }
+  },
+  {
+   "cell": 2,
+   "claim": "FireDucks returns int64 where pandas has float64 (unconfirmed by probes)",
+   "configs": [
+    "fireducks"
+   ],
+   "group": "named",
+   "id": "int_float_slice_fireducks",
+   "nb": "kwullum/when-do-traffic-related-deaths-occur",
+   "values": {
+    "__last__": "[str(t) for t in list(v.dtypes)][:3]",
+    "df": "{'dtype1': str(v.dtypes.iloc[1]), 'col0_98304': str(v.iloc[98304, 0])}"
+   }
+  }
+ ],
+ "host_load": [
+  {
+   "loadavg": [
+    24.05,
+    23.78,
+    29.05
+   ],
+   "t": "00:04:44"
+  },
+  {
+   "loadavg": [
+    24.05,
+    23.78,
+    29.05
+   ],
+   "t": "00:04:44"
+  },
+  {
+   "loadavg": [
+    24.05,
+    23.78,
+    29.05
+   ],
+   "t": "00:04:44"
+  },
+  {
+   "loadavg": [
+    24.05,
+    23.78,
+    29.05
+   ],
+   "t": "00:04:45"
+  },
+  {
+   "loadavg": [
+    25.08,
+    24.0,
+    29.09
+   ],
+   "t": "00:04:45"
+  },
+  {
+   "loadavg": [
+    25.08,
+    24.0,
+    29.09
+   ],
+   "t": "00:04:45"
+  },
+  {
+   "loadavg": [
+    25.08,
+    24.0,
+    29.09
+   ],
+   "t": "00:04:46"
+  },
+  {
+   "loadavg": [
+    25.08,
+    24.0,
+    29.09
+   ],
+   "t": "00:04:46"
+  }
+ ],
+ "item": "D2",
+ "reps": 2,
+ "rerun_of": [
+  "chained_assignment_scout",
+  "chained_assignment_tweet",
+  "int_float_slice_fireducks",
+  "nunique_fireducks"
+ ],
+ "results": [
+  {
+   "config": "fireducks",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "fireducks.pandas",
+     "seconds": 0.896
+    },
+    {
+     "case": "chained_assignment_scout",
+     "cell": 9,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "df": {
+       "ok": true,
+       "value": {
+        "ncol": 124,
+        "self_employed_na": 18,
+        "state_cols": [
+         "state_IL",
+         "state_IN",
+         "state_TX",
+         "state_TN",
+         "state_MI",
+         "state_OH"
+        ]
+       }
+      },
+      "st": {
+       "ok": true,
+       "value": "None"
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.1006,
+     "warnings": [
+      [
+       "FallbackWarning",
+       "Series.__eq__ 0.001280 sec getobj 0.001083 getattr 0.000004 args 0.000008 call 0.000040 unknown op: 'eq' on 'Series' and 'NoneType'"
+      ],
+      [
+       "FallbackWarning",
+       "Series.mode 0.001706 sec getobj 0.000913 getattr 0.000006 args 0.000008 call 0.000590 Series.__getattr__ for mode is called"
+      ],
+      [
+       "FallbackWarning",
+       "DataFrame.select_dtypes 0.002668 sec getobj 0.002346 getattr 0.000005 args 0.000007 call 0.000166 DataFrame.__getattr__ for select_dtypes is called"
+      ]
+     ]
+    },
+    {
+     "event": "done",
+     "seconds": 1.18
+    }
+   ],
+   "nb": "arjoonn/scout-script-7",
+   "rep": 1,
+   "seconds": 1.8,
+   "status": "ok"
+  },
+  {
+   "config": "fireducks",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "fireducks.pandas",
+     "seconds": 0.896
+    },
+    {
+     "case": "chained_assignment_scout",
+     "cell": 9,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "df": {
+       "ok": true,
+       "value": {
+        "ncol": 124,
+        "self_employed_na": 18,
+        "state_cols": [
+         "state_IL",
+         "state_IN",
+         "state_TX",
+         "state_TN",
+         "state_MI",
+         "state_OH"
+        ]
+       }
+      },
+      "st": {
+       "ok": true,
+       "value": "None"
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0995,
+     "warnings": [
+      [
+       "FallbackWarning",
+       "Series.__eq__ 0.001095 sec getobj 0.000901 getattr 0.000004 args 0.000008 call 0.000037 unknown op: 'eq' on 'Series' and 'NoneType'"
+      ],
+      [
+       "FallbackWarning",
+       "Series.mode 0.001069 sec getobj 0.000811 getattr 0.000005 args 0.000006 call 0.000093 Series.__getattr__ for mode is called"
+      ],
+      [
+       "FallbackWarning",
+       "DataFrame.select_dtypes 0.002455 sec getobj 0.002133 getattr 0.000005 args 0.000007 call 0.000157 DataFrame.__getattr__ for select_dtypes is called"
+      ]
+     ]
+    },
+    {
+     "event": "done",
+     "seconds": 1.18
+    }
+   ],
+   "nb": "arjoonn/scout-script-7",
+   "rep": 2,
+   "seconds": 1.8,
+   "status": "ok"
+  },
+  {
+   "config": "fireducks",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "fireducks.pandas",
+     "seconds": 0.267
+    },
+    {
+     "case": "chained_assignment_tweet",
+     "cell": 9,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "tweet_train_df": {
+       "ok": true,
+       "value": {
+        "id": 0,
+        "keyword": 61,
+        "location": 2533,
+        "target": 0,
+        "text": 0
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0002,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 0.293
+    }
+   ],
+   "nb": "ayushsingh5941/tweet-disaster-or-not",
+   "rep": 1,
+   "seconds": 0.4,
+   "status": "ok"
+  },
+  {
+   "config": "fireducks",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "fireducks.pandas",
+     "seconds": 0.3
+    },
+    {
+     "case": "chained_assignment_tweet",
+     "cell": 9,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "tweet_train_df": {
+       "ok": true,
+       "value": {
+        "id": 0,
+        "keyword": 61,
+        "location": 2533,
+        "target": 0,
+        "text": 0
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0002,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 0.326
+    }
+   ],
+   "nb": "ayushsingh5941/tweet-disaster-or-not",
+   "rep": 2,
+   "seconds": 0.4,
+   "status": "ok"
+  },
+  {
+   "config": "fireducks",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "fireducks.pandas",
+     "seconds": 0.263
+    },
+    {
+     "case": "nunique_fireducks",
+     "cell": 4,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "ok": true,
+       "value": [
+        314,
+        13378,
+        9,
+        3,
+        2204,
+        5,
+        268,
+        58,
+        202,
+        198,
+        12,
+        9,
+        12,
+        1448,
+        603,
+        145,
+        34,
+        6503,
+        7063,
+        8,
+        311
+       ]
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.018,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 0.307
+    }
+   ],
+   "nb": "jyotsananegi/melbourne-housing-snapshot-eda",
+   "rep": 1,
+   "seconds": 0.6,
+   "status": "ok"
+  },
+  {
+   "config": "fireducks",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "fireducks.pandas",
+     "seconds": 0.258
+    },
+    {
+     "case": "nunique_fireducks",
+     "cell": 4,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "ok": true,
+       "value": [
+        314,
+        13378,
+        9,
+        3,
+        2204,
+        5,
+        268,
+        58,
+        202,
+        198,
+        12,
+        9,
+        12,
+        1448,
+        603,
+        145,
+        34,
+        6503,
+        7063,
+        8,
+        311
+       ]
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0174,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 0.303
+    }
+   ],
+   "nb": "jyotsananegi/melbourne-housing-snapshot-eda",
+   "rep": 2,
+   "seconds": 0.6,
+   "status": "ok"
+  },
+  {
+   "config": "fireducks",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "fireducks.pandas",
+     "seconds": 0.265
+    },
+    {
+     "case": "int_float_slice_fireducks",
+     "cell": 2,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "ok": true,
+       "value": [
+        "object",
+        "int64",
+        "int64"
+       ]
+      },
+      "df": {
+       "ok": true,
+       "value": {
+        "col0_98304": "2015440079707",
+        "dtype1": "float64"
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0081,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 0.289
+    }
+   ],
+   "nb": "kwullum/when-do-traffic-related-deaths-occur",
+   "rep": 1,
+   "seconds": 0.6,
+   "status": "ok"
+  },
+  {
+   "config": "fireducks",
+   "env_bodo_workers": null,
+   "events": [
+    {
+     "event": "setup",
+     "pd_module": "fireducks.pandas",
+     "seconds": 0.26
+    },
+    {
+     "case": "int_float_slice_fireducks",
+     "cell": 2,
+     "error": null,
+     "event": "target",
+     "observations": {
+      "__last__": {
+       "ok": true,
+       "value": [
+        "object",
+        "int64",
+        "int64"
+       ]
+      },
+      "df": {
+       "ok": true,
+       "value": {
+        "col0_98304": "2015440079707",
+        "dtype1": "float64"
+       }
+      }
+     },
+     "status": "ok",
+     "wall_s": 0.0072,
+     "warnings": []
+    },
+    {
+     "event": "done",
+     "seconds": 0.282
+    }
+   ],
+   "nb": "kwullum/when-do-traffic-related-deaths-occur",
+   "rep": 2,
+   "seconds": 0.6,
+   "status": "ok"
+  }
+ ],
+ "run_timeout_s": 1500,
+ "seconds": 3.4
+}

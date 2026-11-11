@@ -1,0 +1,870 @@
+{
+ "consistency_checks": 51,
+ "definition": "every printed-form cell of the seven configurations (an output or an input whose captured record holds an element tagged T_CONTAINER or T_OTHER, on either side) leaves every view; computed from the stored records only, nothing recaptured",
+ "pf_cells": {
+  "pf_cells": 1363,
+  "pf_cells_in_clean_E2": 493,
+  "pf_in_only_cells": 675,
+  "pf_in_only_cells_in_clean_E2": 163,
+  "pf_out_cells": 688
+ },
+ "pf_cells_by_label": {
+  "bodo": 251,
+  "dask": 179,
+  "fireducks": 158,
+  "modin": 161,
+  "p15": 173,
+  "p30": 170,
+  "pyarrow_backend": 271
+ },
+ "principal": {
+  "exclude_all_pf": {
+   "by_label": {
+    "bodo": {
+     "all_DIFF": 312,
+     "all_cells": 2586,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.02736,
+       0.073306
+      ],
+      "den": 734,
+      "notebooks": 101,
+      "num": 35,
+      "share": 0.047684
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.294118,
+       0.470588
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 39,
+      "share": 0.382353
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.303922,
+       0.5
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 41,
+      "share": 0.401961
+     }
+    },
+    "dask": {
+     "all_DIFF": 157,
+     "all_cells": 2640,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.009728,
+       0.052347
+      ],
+      "den": 520,
+      "notebooks": 101,
+      "num": 15,
+      "share": 0.028846
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.058824,
+       0.186275
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 12,
+      "share": 0.117647
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.058824,
+       0.186275
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 12,
+      "share": 0.117647
+     }
+    },
+    "fireducks": {
+     "all_DIFF": 292,
+     "all_cells": 2653,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.013688,
+       0.034966
+      ],
+      "den": 1201,
+      "notebooks": 101,
+      "num": 28,
+      "share": 0.023314
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.235294,
+       0.411765
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 33,
+      "share": 0.323529
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.274265,
+       0.460784
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 37,
+      "share": 0.362745
+     }
+    },
+    "modin": {
+     "all_DIFF": 153,
+     "all_cells": 2679,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.011485,
+       0.024887
+      ],
+      "den": 2227,
+      "notebooks": 102,
+      "num": 39,
+      "share": 0.017512
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.215686,
+       0.392157
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 31,
+      "share": 0.303922
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.215686,
+       0.392157
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 31,
+      "share": 0.303922
+     }
+    },
+    "p15": {
+     "all_DIFF": 286,
+     "all_cells": 2636,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.01499,
+       0.030189
+      ],
+      "den": 2033,
+      "notebooks": 102,
+      "num": 45,
+      "share": 0.022135
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.22549,
+       0.401961
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 32,
+      "share": 0.313725
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.245098,
+       0.431373
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 34,
+      "share": 0.333333
+     }
+    },
+    "p30": {
+     "all_DIFF": 260,
+     "all_cells": 2641,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.010501,
+       0.028897
+      ],
+      "den": 2070,
+      "notebooks": 102,
+      "num": 39,
+      "share": 0.018841
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.147059,
+       0.313725
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 23,
+      "share": 0.22549
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.147059,
+       0.313725
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 23,
+      "share": 0.22549
+     }
+    },
+    "pyarrow_backend": {
+     "all_DIFF": 329,
+     "all_cells": 2538,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.006218,
+       0.022472
+      ],
+      "den": 1035,
+      "notebooks": 102,
+      "num": 14,
+      "share": 0.013527
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.166667,
+       0.333333
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 25,
+      "share": 0.245098
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.186275,
+       0.352941
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 27,
+      "share": 0.264706
+     }
+    }
+   },
+   "pairs": {
+    "bodo-p15": {
+     "cells": 695,
+     "ci90_pp": [
+      -0.251,
+      3.818
+     ],
+     "ci95_pp": [
+      -0.606,
+      4.274
+     ],
+     "diff_pp": 1.727,
+     "engine_DIFF": 33,
+     "notebooks": 101,
+     "pandas_DIFF": 21,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "bodo-p30": {
+     "cells": 728,
+     "ci90_pp": [
+      2.12,
+      5.583
+     ],
+     "ci95_pp": [
+      1.887,
+      6.019
+     ],
+     "diff_pp": 3.709,
+     "engine_DIFF": 35,
+     "notebooks": 101,
+     "pandas_DIFF": 8,
+     "reading": "more often",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "dask-p15": {
+     "cells": 509,
+     "ci90_pp": [
+      -2.703,
+      1.894
+     ],
+     "ci95_pp": [
+      -3.211,
+      2.376
+     ],
+     "diff_pp": -0.393,
+     "engine_DIFF": 15,
+     "notebooks": 101,
+     "pandas_DIFF": 17,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "dask-p30": {
+     "cells": 509,
+     "ci90_pp": [
+      0.0,
+      2.828
+     ],
+     "ci95_pp": [
+      -0.218,
+      3.119
+     ],
+     "diff_pp": 1.375,
+     "engine_DIFF": 15,
+     "notebooks": 101,
+     "pandas_DIFF": 8,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "fireducks-p15": {
+     "cells": 1105,
+     "ci90_pp": [
+      -1.43,
+      0.55
+     ],
+     "ci95_pp": [
+      -1.586,
+      0.787
+     ],
+     "diff_pp": -0.452,
+     "engine_DIFF": 24,
+     "notebooks": 101,
+     "pandas_DIFF": 29,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "fireducks-p30": {
+     "cells": 1166,
+     "ci90_pp": [
+      -0.348,
+      1.91
+     ],
+     "ci95_pp": [
+      -0.566,
+      2.122
+     ],
+     "diff_pp": 0.772,
+     "engine_DIFF": 27,
+     "notebooks": 101,
+     "pandas_DIFF": 18,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "modin-p15": {
+     "cells": 1758,
+     "ci90_pp": [
+      -1.091,
+      0.658
+     ],
+     "ci95_pp": [
+      -1.261,
+      0.817
+     ],
+     "diff_pp": -0.228,
+     "engine_DIFF": 35,
+     "notebooks": 102,
+     "pandas_DIFF": 39,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "modin-p30": {
+     "cells": 1840,
+     "ci90_pp": [
+      -0.92,
+      0.807
+     ],
+     "ci95_pp": [
+      -1.095,
+      0.956
+     ],
+     "diff_pp": -0.054,
+     "engine_DIFF": 33,
+     "notebooks": 102,
+     "pandas_DIFF": 34,
+     "reading": "not distinguishable",
+     "within_1pp": true,
+     "within_2pp": true
+    },
+    "pyarrow_backend-p15": {
+     "cells": 961,
+     "ci90_pp": [
+      -2.89,
+      -0.418
+     ],
+     "ci95_pp": [
+      -3.142,
+      -0.198
+     ],
+     "diff_pp": -1.665,
+     "engine_DIFF": 14,
+     "notebooks": 102,
+     "pandas_DIFF": 30,
+     "reading": "less often",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "pyarrow_backend-p30": {
+     "cells": 956,
+     "ci90_pp": [
+      -1.221,
+      0.721
+     ],
+     "ci95_pp": [
+      -1.451,
+      0.89
+     ],
+     "diff_pp": -0.209,
+     "engine_DIFF": 13,
+     "notebooks": 101,
+     "pandas_DIFF": 15,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    }
+   }
+  },
+  "published": {
+   "by_label": {
+    "bodo": {
+     "all_DIFF": 408,
+     "all_cells": 2837,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.03846,
+       0.085578
+      ],
+      "den": 753,
+      "notebooks": 102,
+      "num": 45,
+      "share": 0.059761
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.343137,
+       0.539216
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 45,
+      "share": 0.441176
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.362745,
+       0.558824
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 47,
+      "share": 0.460784
+     }
+    },
+    "dask": {
+     "all_DIFF": 230,
+     "all_cells": 2819,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.038277,
+       0.089495
+      ],
+      "den": 545,
+      "notebooks": 102,
+      "num": 34,
+      "share": 0.062385
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.156863,
+       0.323529
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 24,
+      "share": 0.235294
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.156863,
+       0.323529
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 24,
+      "share": 0.235294
+     }
+    },
+    "fireducks": {
+     "all_DIFF": 337,
+     "all_cells": 2811,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.016606,
+       0.039612
+      ],
+      "den": 1248,
+      "notebooks": 102,
+      "num": 34,
+      "share": 0.027244
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.303922,
+       0.490196
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 40,
+      "share": 0.392157
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.323529,
+       0.519608
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 43,
+      "share": 0.421569
+     }
+    },
+    "modin": {
+     "all_DIFF": 195,
+     "all_cells": 2840,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.013879,
+       0.027553
+      ],
+      "den": 2332,
+      "notebooks": 102,
+      "num": 47,
+      "share": 0.020154
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.264706,
+       0.45098
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 36,
+      "share": 0.352941
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.264706,
+       0.45098
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 36,
+      "share": 0.352941
+     }
+    },
+    "p15": {
+     "all_DIFF": 313,
+     "all_cells": 2809,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.015812,
+       0.031218
+      ],
+      "den": 2129,
+      "notebooks": 102,
+      "num": 49,
+      "share": 0.023016
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.245098,
+       0.431373
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 34,
+      "share": 0.333333
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.264706,
+       0.45098
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 36,
+      "share": 0.352941
+     }
+    },
+    "p30": {
+     "all_DIFF": 289,
+     "all_cells": 2811,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.016326,
+       0.0353
+      ],
+      "den": 2215,
+      "notebooks": 102,
+      "num": 56,
+      "share": 0.025282
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.235294,
+       0.421569
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 33,
+      "share": 0.323529
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.235294,
+       0.421569
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 33,
+      "share": 0.323529
+     }
+    },
+    "pyarrow_backend": {
+     "all_DIFF": 423,
+     "all_cells": 2809,
+     "clean_E2_DIFF": {
+      "ci95": [
+       0.015504,
+       0.037772
+      ],
+      "den": 1091,
+      "notebooks": 102,
+      "num": 28,
+      "share": 0.025665
+     },
+     "notebooks_introduced_DIFF_heuristic": {
+      "ci95": [
+       0.264706,
+       0.45098
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 36,
+      "share": 0.352941
+     },
+     "notebooks_introduced_DIFF_pure": {
+      "ci95": [
+       0.284314,
+       0.470588
+      ],
+      "den": 102,
+      "notebooks": 102,
+      "num": 38,
+      "share": 0.372549
+     }
+    }
+   },
+   "pairs": {
+    "bodo-p15": {
+     "cells": 715,
+     "ci90_pp": [
+      0.766,
+      5.034
+     ],
+     "ci95_pp": [
+      0.395,
+      5.468
+     ],
+     "diff_pp": 2.797,
+     "engine_DIFF": 42,
+     "notebooks": 102,
+     "pandas_DIFF": 22,
+     "reading": "more often",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "bodo-p30": {
+     "cells": 749,
+     "ci90_pp": [
+      2.469,
+      6.036
+     ],
+     "ci95_pp": [
+      2.182,
+      6.442
+     ],
+     "diff_pp": 4.139,
+     "engine_DIFF": 45,
+     "notebooks": 102,
+     "pandas_DIFF": 14,
+     "reading": "more often",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "dask-p15": {
+     "cells": 541,
+     "ci90_pp": [
+      0.0,
+      5.339
+     ],
+     "ci95_pp": [
+      -0.615,
+      5.854
+     ],
+     "diff_pp": 2.773,
+     "engine_DIFF": 34,
+     "notebooks": 102,
+     "pandas_DIFF": 19,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "dask-p30": {
+     "cells": 539,
+     "ci90_pp": [
+      1.975,
+      5.79
+     ],
+     "ci95_pp": [
+      1.635,
+      6.139
+     ],
+     "diff_pp": 3.896,
+     "engine_DIFF": 34,
+     "notebooks": 102,
+     "pandas_DIFF": 13,
+     "reading": "more often",
+     "within_1pp": false,
+     "within_2pp": false
+    },
+    "fireducks-p15": {
+     "cells": 1137,
+     "ci90_pp": [
+      -1.204,
+      0.889
+     ],
+     "ci95_pp": [
+      -1.402,
+      1.103
+     ],
+     "diff_pp": -0.176,
+     "engine_DIFF": 29,
+     "notebooks": 102,
+     "pandas_DIFF": 31,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "fireducks-p30": {
+     "cells": 1206,
+     "ci90_pp": [
+      -0.583,
+      1.777
+     ],
+     "ci95_pp": [
+      -0.792,
+      1.994
+     ],
+     "diff_pp": 0.58,
+     "engine_DIFF": 32,
+     "notebooks": 102,
+     "pandas_DIFF": 25,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "modin-p15": {
+     "cells": 1833,
+     "ci90_pp": [
+      -1.003,
+      0.798
+     ],
+     "ci95_pp": [
+      -1.165,
+      0.977
+     ],
+     "diff_pp": -0.109,
+     "engine_DIFF": 40,
+     "notebooks": 102,
+     "pandas_DIFF": 42,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "modin-p30": {
+     "cells": 1938,
+     "ci90_pp": [
+      -1.094,
+      0.554
+     ],
+     "ci95_pp": [
+      -1.266,
+      0.699
+     ],
+     "diff_pp": -0.258,
+     "engine_DIFF": 41,
+     "notebooks": 102,
+     "pandas_DIFF": 46,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "pyarrow_backend-p15": {
+     "cells": 997,
+     "ci90_pp": [
+      -1.68,
+      1.146
+     ],
+     "ci95_pp": [
+      -1.954,
+      1.434
+     ],
+     "diff_pp": -0.301,
+     "engine_DIFF": 28,
+     "notebooks": 102,
+     "pandas_DIFF": 31,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    },
+    "pyarrow_backend-p30": {
+     "cells": 1010,
+     "ci90_pp": [
+      -0.503,
+      1.672
+     ],
+     "ci95_pp": [
+      -0.749,
+      1.874
+     ],
+     "diff_pp": 0.594,
+     "engine_DIFF": 27,
+     "notebooks": 102,
+     "pandas_DIFF": 21,
+     "reading": "not distinguishable",
+     "within_1pp": false,
+     "within_2pp": true
+    }
+   }
+  }
+ }
+}

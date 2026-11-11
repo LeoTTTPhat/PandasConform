@@ -1,0 +1,83 @@
+{
+ "campaign": "conf_5x",
+ "compare_tag": "hd1c421ecb5ee__d92c8db54d45b",
+ "engines": [
+  "ref",
+  "ref#2",
+  "modin",
+  "fireducks",
+  "bodo"
+ ],
+ "harness_tag": "hd1c421ecb5ee",
+ "n_problems": 5,
+ "notebooks": 30,
+ "oracle": {
+  "bodo": {
+   "cells": 996,
+   "compared": 29,
+   "match_identity": 342,
+   "match_sort": 11,
+   "outputs": 699
+  },
+  "fireducks": {
+   "cells": 996,
+   "compared": 29,
+   "match_identity": 144,
+   "match_sort": 24,
+   "outputs": 1197
+  },
+  "modin": {
+   "cells": 996,
+   "compared": 29,
+   "match_identity": 66,
+   "match_sort": 31,
+   "outputs": 1191
+  }
+ },
+ "problems": [
+  "record_missing:ref:jirakst/book-recommendation",
+  "record_missing:ref#2:jirakst/book-recommendation",
+  "record_missing:modin:jirakst/book-recommendation",
+  "record_missing:fireducks:jirakst/book-recommendation",
+  "record_missing:bodo:jirakst/book-recommendation"
+ ],
+ "records": {
+  "bodo": {
+   "completed": 26,
+   "missing": 1,
+   "nb_crash": 3
+  },
+  "fireducks": {
+   "completed": 27,
+   "missing": 1,
+   "nb_crash": 2
+  },
+  "modin": {
+   "completed": 28,
+   "missing": 1,
+   "nb_memory": 1
+  },
+  "ref": {
+   "completed": 29,
+   "missing": 1
+  },
+  "ref#2": {
+   "completed": 29,
+   "missing": 1
+  }
+ },
+ "self_check": {
+  "ref#2": {
+   "cells": 996,
+   "compared": 29,
+   "outputs": 1317
+  }
+ },
+ "set": "conf5x",
+ "store": {
+  "missing": 0,
+  "referenced_blobs": 309952,
+  "sample_hash_mismatch": 0,
+  "sample_verified": 300
+ }
+}
