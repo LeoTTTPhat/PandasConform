@@ -255,6 +255,12 @@ def main(argv):
     C.eq("D3: decided agreements by source (rule, single rater, curated)", {"rule": (73, 116), "none": (34, 56), "curated": (2, 4)}, d3dec)
     nocheck = sum(1 for x_ in d3c if not set(x_.get("tests") or {}) & {"N1", "N2", "N3", "N6", "N7", "N8"})
     C.eq("D3: 358 audited cells, 117 without a mechanical check, 67 disagreements listed", (358, 117, 67), (len(d3c), nocheck, len(D3["disagreements"])))
+    # 2026-11-12 (R8 scoring fix): the paper now splits all 358 cells: 162 without a deciding (agreement) test
+    # (N1-N3, N6, N7; N8 and N9 do not decide), 20 inconclusive, 176 decided
+    nodecide = sum(1 for x_ in d3c if not set(x_.get("tests") or {}) & {"N1", "N2", "N3", "N6", "N7"})
+    inconc = sum(1 for x_ in d3c if x_["overall"] == "inconclusive")
+    C.eq("D3: 162 without a deciding check + 20 inconclusive + 176 decided = 358", (162, 20, 176, 358),
+         (nodecide, inconc, sum(v_[1] for v_ in d3dec.values()), nodecide + inconc + sum(v_[1] for v_ in d3dec.values())))
     pr_ = round(100 * d3dec["rule"][0] / d3dec["rule"][1])
     ps_ = round(100 * d3dec["none"][0] / d3dec["none"][1])
     C.frag("findings: mechanical audit", "a mechanical audit of %d attributions confirms %d\\%% of the decided rule assignments and %d\\%% of the rater's" % (len(d3c), pr_, ps_))
@@ -316,8 +322,8 @@ def main(argv):
               pl["pyarrow_backend"][0], PLD["dask"]["interval_cells"][0], PLD["dask"]["interval_cells"][1], pl["dask"][0],
               XM["modin_partitioned_share_cells"][0], EPL["modin"]["denominator_on"], EXC["totals"]["exception_cells"]))
     C.eq("D3: none of the pyarrow backend's cells vanish", 0, PLD["pyarrow_backend"]["P_vanish"])
-    C.frag("Section VII: audit agreement", "Of %d sampled attributions (%d without a mechanical check; no human or language-model rater), the audit confirms %d of %d decided rule assignments (%d\\%%), %d of %d single-rater ones (%d\\%%) and %d of %d curated ones; its %d disagreements (artifact)"
-           % (len(d3c), nocheck, d3dec["rule"][0], d3dec["rule"][1], pr_, d3dec["none"][0], d3dec["none"][1], ps_,
+    C.frag("Section VII: audit agreement", "Of %d sampled attributions (%d without a deciding check and %d inconclusive; no human or language-model rater), the audit confirms %d of %d decided rule assignments (%d\\%%), %d of %d single-rater ones (%d\\%%) and %d of %d curated ones; its %d disagreements (artifact)"
+           % (len(d3c), nodecide, inconc, d3dec["rule"][0], d3dec["rule"][1], pr_, d3dec["none"][0], d3dec["none"][1], ps_,
               d3dec["curated"][0], d3dec["curated"][1], len(D3["disagreements"])))
     for l in ENG:
         C.eq("introduced DIFF with hand = taxonomy introduced DIFF (%s)" % l, sum(mech[l].values()),
@@ -534,9 +540,9 @@ def main(argv):
                 if r_["census_category"].startswith("exact match (DIFF came from the printed form")}
     C.eq("C1: artifacts per cell = census count; 15 of the 16 known artifacts among them", (art, 15), (len(artc), len(p16 & artc)))
     dkl = C1R["census_categories_by_label"]["dask"]["DIFF"]
-    C.frag("printed forms: exact recapture", "recaptured %d of the %d outputs (the reference reproduced all %s earlier outputs bit for bit): none of the %d recaptured matching forms with an exact encoding hid a value difference (%d hid a pandas~3 label dtype), but %d of the %d recaptured differing ones were representation artifacts (%d stay \\cls{DIFF}), %d of the 16 known ones among them and %d Dask lazy scalars inside containers"
+    C.frag("printed forms: exact recapture", "recaptured %d of the %d outputs (the reference reproduced all %s earlier outputs bit for bit): none of the %d recaptured matching forms with an exact encoding hid a value difference (%d hid a pandas~3 label dtype), but %d of the %d recaptured differing ones were representation artifacts (%d stay \\cls{DIFF}; %d cannot be encoded exactly), %d of the 16 known ones among them and %d Dask lazy scalars inside containers"
            % (C1R["census_cells"] - nrec(cm_) - nrec(cd_), C1R["census_cells"], n(C1R["object_hash_determinism"]["ref"]["identical"]), mrec,
-              cm_["exact match, coarser level"], art, sum(cd_.values()) - nrec(cd_), cd_["exact mismatch (confirmed DIFF)"], len(p16 & artc),
+              cm_["exact match, coarser level"], art, sum(cd_.values()) - nrec(cd_), cd_["exact mismatch (confirmed DIFF)"], cd_["not exactly encodable"], len(p16 & artc),
               dkl["exact match (DIFF came from the printed form; now E0)"]))
     C.eq("C1: the reference reproduced every earlier output", C1R["object_hash_determinism"]["ref"]["outputs"], C1R["object_hash_determinism"]["ref"]["identical"])
     C.eq("C1: the 4 coarser cells are pandas 3.0.6 cells", 4, C1R["census_categories_by_label"]["p30"]["matching"].get("exact match, coarser level", 0))
